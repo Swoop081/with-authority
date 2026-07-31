@@ -1,3 +1,6 @@
+With Authority Mobile v0.9.55
+
+Consolidated mobile UI fixes and opponent-selection repair.
 WITH AUTHORITY! MOBILE v0.9.53
 
 FINAL PRESERVATION AUDIT + HOME-SCREEN ICON
