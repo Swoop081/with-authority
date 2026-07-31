@@ -1,5 +1,5 @@
 {
-  "version": "0.9.69",
-  "build": "structural-cleanup-and-authoritative-screen-renderers",
+  "version": "0.9.71",
+  "build": "full-bleed-mobile-launch-screen",
   "generated": "2026-08-01"
 }

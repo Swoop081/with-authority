@@ -60,8 +60,8 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
 @media(max-width:520px){.homeBrandPanel{padding:10px 8px}.brandedMenu{padding:9px}.waBrandLogo{max-height:95px}.originalRing{min-height:220px}.brandingGrid{grid-template-columns:1fr}}
 
 /* v0.9.55 consolidated player-facing UI */
-.loginScreen{min-height:100dvh;width:100%;display:grid;place-items:end center;background:#000 url('assets/gai/LoginScreen.webp') center/cover no-repeat;padding:0 20px calc(34px + env(safe-area-inset-bottom));position:relative}
-.loginScreen::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.78) 100%);pointer-events:none}.loginActions{position:relative;z-index:1;width:min(430px,92vw);display:grid;gap:10px}.loginPlay{font-size:1.35rem;min-height:64px}.loginVersion{text-align:center;font-weight:900;letter-spacing:.12em;text-shadow:0 2px 5px #000}
+.loginScreen{min-height:100dvh;width:100%;display:grid;place-items:end center;background:#f16a16 url('assets/gai/LoginScreenMobile.webp') center/cover no-repeat;padding:0 20px calc(28px + env(safe-area-inset-bottom));position:relative;overflow:hidden}
+.loginScreen::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.02) 0%,transparent 58%,rgba(0,0,0,.32) 100%);pointer-events:none}.loginMobile{position:absolute;z-index:2;top:29.2%;left:50%;transform:translateX(-50%);font-size:clamp(15px,4.2vw,25px);font-weight:1000;letter-spacing:.36em;padding-left:.36em;color:#f2f2f2;text-shadow:0 2px 0 #000,0 0 7px #000;background:linear-gradient(#f5f5f5,#8c8c8c);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.loginActions{position:relative;z-index:3;width:min(430px,92vw);display:grid;gap:10px}.loginPlay{position:relative;overflow:hidden;font-size:1.5rem;font-weight:1000;letter-spacing:.08em;min-height:70px;color:#f5f5f5;background:linear-gradient(180deg,#363636 0%,#050505 48%,#1c1c1c 100%);border:5px solid #bfc0c2;border-radius:3px;box-shadow:inset 0 0 0 2px #3f3f3f,inset 0 0 18px #000,0 5px 12px #000;text-shadow:0 2px 2px #000}.loginPlay::before,.loginPlay::after{content:"•  •  •  •  •";position:absolute;left:9px;right:9px;color:#d7d7d7;font-size:10px;letter-spacing:calc((100% - 60px)/5);text-shadow:0 1px #000}.loginPlay::before{top:1px}.loginPlay::after{bottom:1px}.loginPlay:active{transform:translateY(2px);filter:brightness(1.18)}.loginVersion{text-align:center;font-weight:900;letter-spacing:.12em;text-shadow:0 2px 5px #000}
 .entityGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:900px;margin:16px auto}.entityCard{min-width:0;background:linear-gradient(180deg,rgba(28,28,28,.97),rgba(2,2,2,.99));border:2px solid #8c6bd1;box-shadow:inset 0 0 0 1px #000,0 5px 12px #000;overflow:hidden;display:flex;flex-direction:column}.entityPortrait{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;object-position:center top;background:#111;border-bottom:1px solid #777}.placeholderPortrait{display:grid;place-items:center;color:#aaa;font-weight:1000;font-size:2rem}.entityBody{padding:10px;display:flex;flex:1;flex-direction:column;gap:7px}.entityBody h3,.entityBody p{margin:0}.entityBody h3{font-size:1rem;line-height:1.12;text-transform:uppercase}.entityBody p{font-size:.78rem;color:#ddd}.abilityLine{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.entityActions{margin-top:auto;display:grid;gap:7px}.entityActions button{min-height:44px;padding:8px;font-size:.77rem}.starterTile{border-color:#d5d5d5}.opponentQuick{max-width:900px;margin:10px auto}.opponentQuick button{width:100%}
 @media(max-width:370px){.entityGrid{grid-template-columns:1fr}}@media(min-width:760px){.entityGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
@@ -118,5 +118,42 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
 .entityFrontTitle small,.flipHint{color:#cfcfcf;font-size:.7rem}
 .entityBack .entityActions button{position:relative;z-index:3;pointer-events:auto}
 @media (display-mode:standalone){
-  .loginScreen{background-size:96% auto;background-position:center center;background-color:#000;padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
+  .loginScreen{background-size:cover;background-position:center center;padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
+}
+@media(max-height:700px){.loginMobile{top:28%}.loginActions{width:min(400px,90vw)}.loginPlay{min-height:62px}}
+
+/* v0.9.70 compact match HUD and in-match options */
+.crowdStage{position:relative}
+.crowdStage .status{padding:8px 42px 8px 8px}
+.matchGear{position:absolute;top:7px;right:7px;z-index:12;width:34px;height:34px;min-height:34px;padding:0;border:1px solid #ddd;border-radius:4px;background:linear-gradient(#292929,#090909);color:#fff;font-size:20px;line-height:1;box-shadow:0 2px 8px #000}
+.originalHud{position:relative;grid-template-columns:104px minmax(0,1fr);gap:5px;width:49%;align-items:end}
+.originalHud.right{grid-template-columns:minmax(0,1fr) 104px}
+.wrestlerHead{width:104px;height:132px}
+.turnBadge{position:absolute;top:-2px;left:-2px;bottom:auto;transform:none;background:#8f0000;border:1px solid #eee;padding:4px 7px;font-size:8px;z-index:5;white-space:nowrap}
+.originalHud.right .turnBadge{left:auto;right:-2px}
+.turnBadge.cpuTurn{background:#333}
+.momentumIcons{display:grid;grid-template-columns:repeat(3,max-content);justify-content:start;gap:2px;margin:3px 0}
+.originalHud.right .momentumIcons{justify-content:end}
+.momIcon{width:38px;min-width:38px;justify-content:flex-start;padding:1px 2px;gap:2px}
+.momIcon img{width:15px;height:15px;flex:0 0 15px}
+.momIcon b{font-size:9px;min-width:15px;text-align:center}
+.matchMenuOverlay{position:fixed;inset:0;z-index:10000;background:#000c;display:grid;place-items:center;padding:18px}
+.matchMenuPanel{width:min(360px,92vw);display:grid;gap:10px;background:linear-gradient(#241010,#070707);border:2px solid #bbb;padding:16px;box-shadow:0 18px 50px #000}
+.matchMenuPanel h3{text-align:center;margin:0 0 4px}
+.matchMenuPanel button{min-height:48px}
+@media(max-width:430px){
+  .crowdStage .status{padding:6px 38px 6px 6px}
+  .originalHud{grid-template-columns:86px minmax(0,1fr);width:49.5%;gap:3px}
+  .originalHud.right{grid-template-columns:minmax(0,1fr) 86px}
+  .wrestlerHead{width:86px;height:118px}
+  .hudText .name{font-size:11px;line-height:1.05}
+  .hpLine b{font-size:19px}
+  .hpLine span{font-size:10px}
+  .momentumIcons{grid-template-columns:repeat(2,max-content)}
+  .momIcon{width:34px;min-width:34px}
+  .momIcon img{width:13px;height:13px;flex-basis:13px}
+  .momIcon b{font-size:8px;min-width:13px}
+  .limbDamage{gap:2px;font-size:8px}
+  .limbDamage span{padding:1px 3px}
+  .crowdStage{min-height:174px}
 }

@@ -55,3 +55,10 @@ v0.9.69 structural cleanup:
 - corrected diagnostics and version metadata
 - expanded startup offline cache
 - marked obsolete simulation wording as historical
+
+
+v0.9.70 match HUD cleanup:
+- Removed the match title/control header.
+- Added compact two-digit Momentum counters and larger wrestler portraits.
+- Moved the active-turn badge onto the active wrestler.
+- Added an in-match gear menu for sound, music, match log and quitting.
