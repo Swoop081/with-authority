@@ -32,4 +32,4 @@ v0.9.53 integrates recoverable original offline logos, page backs, ring presenta
 v0.9.54 restores 63 recoverable original audio assets. Mobile browsers require a user tap before playback. Music and sound effects can be controlled separately in Settings.
 
 
-v0.9.58: submission loop repair, original-style portrait HUD and crowd, card flip, swipe play/ditch, dynamic hand ordering, contextual actions, full-screen card resolution.
+v0.9.59: submission loop repair, original-style portrait HUD and crowd, card flip, swipe play/ditch, dynamic hand ordering, contextual actions, full-screen card resolution.

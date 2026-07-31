@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]};
-const VERSION='v0.9.58',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.59',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 const AUDIO={unlocked:false,music:null,crowd:null};
@@ -279,6 +279,29 @@ function yieldControl(){if(!state||state.busy||state.control!=='player'||state.h
 function momentumLine(s){return MOM_TYPES.map(t=>`${t[0]}:${s.momentum[t]||0}`).join(' · ')}
 function wrestlerHeadArt(s){const aliases={austin:['StoneColdHeadShot'],rock:['TheRockHeadShot'],tripleh:['TripleHHeadShot'],undertaker:['TheUndertakerHeadShot'],bigshow:['TheBigShowHeadShot','TheBigShow2EHeadShot'],hogan:['HollywoodHulkHoganHeadShot2E'],trish:['TrishStratusEX3HeadShot'],benoit:['ChrisBenoit2EHeadShot'],lita:['Lita2EHeadShot'],hbk:['ShawnMichaelsHeadShot']};const base=(s.name||'').replace(/[^a-z0-9]/gi,'');const candidates=[...(aliases[s.superKey]||[]),base+'HeadShot',base+'2EHeadShot',base+'EX3HeadShot'];for(const c of candidates){const hit=ART.assets?.[artKey(c)];if(hit)return hit.file}return starArt(s.superKey)}
 function wrestler(k){const s=side(k),head=wrestlerHeadArt(s),zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']].map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join('');return `<div class="wrestler originalHud ${k==='cpu'?'right':''}">${artImg(head,'wrestlerHead',s.name,'eager')}<div class="hudText"><div class="name">${s.name}</div><div class="hpLine"><b>${s.hp}</b><span>/${s.maxHp} HP</span></div><div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div><small>WARN ${s.warnings||0} · HAND ${s.hand.length}</small></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`}
+function handEntries(){
+  if(!state?.player?.hand)return[];
+  const distinctMomentum=new Set();
+  const entries=state.player.hand.map((c,index)=>{
+    const reason=legalReason(c,'player');
+    const playable=!reason;
+    const isMomentum=c.cardClass==='Momentum';
+    const momentumKey=c.momentumType||c.name||c.id;
+    let group=3;
+    if(isMomentum&&playable&&!distinctMomentum.has(momentumKey)){
+      distinctMomentum.add(momentumKey);
+      group=0;
+    }else if(playable&&!isMomentum){
+      group=1;
+    }else if(!isMomentum){
+      group=2;
+    }else{
+      group=4;
+    }
+    return{c,index,reason,group,score:playable?scoreCard(c,'player'):0};
+  });
+  return entries.sort((a,b)=>a.group-b.group||(b.score||0)-(a.score||0)||a.index-b.index);
+}
 function render(){if(!state)return;const p=state.player,entries=handEntries(),legalCount=entries.filter(x=>!x.reason).length,pin=state.control==='player'&&state.position==='Grounded'&&!state.hold&&(p.momentum.Attitude||0)>=p.pins;app.innerHTML=`<section class="screen arena portraitArena"><div class="topbar"><button class="secondary compact" onclick="home()">Quit</button><b>EXHIBITION · ${VERSION}</b><span class="tag control">${state.control==='player'?'YOU CONTROL':'OPPONENT CONTROLS'}</span></div><div class="crowdStage"><div class="status">${wrestler('player')}<div class="turnBadge">${state.control==='player'?'YOUR TURN':'OPPONENT'}</div>${wrestler('cpu')}</div></div><div class="positionbar"><span>MATCH POSITION</span><strong>${state.position}</strong><span>ROUND ${state.round}</span></div><div class="ring originalRing"><div class="pile ${state.pile?state.pile.owner:''}">${state.pile?`${artImg(cardArt(state.pile.card),'pileArt',state.pile.card.name,'eager')}<span class="result">${state.pile.status}</span><b>${esc(state.pile.card.name)}</b><small>${state.pile.card.cardClass} · ${state.pile.card.damage} damage</small>`:'PLAY PILE'}</div></div><div class="message">${esc(state.message)}</div>${state.hold?submissionPanel():`<div class="actions contextualActions">${contextualActions(p,pin)}<span>${legalCount} legal</span></div><div class="gestureHint">Tap to flip · Swipe up to play · Swipe down to ditch</div><div class="hand">${entries.map(x=>cardHtml(x.c,x.index)).join('')}</div>`}<details class="matchlog"><summary>Match Log</summary>${state.log.map(x=>`<p>${esc(x)}</p>`).join('')}</details></section>`;attachCardGestures()}
 function submissionPanel(){const h=state.hold,isPlayer=h.attacker==='player',def=side(h.defender),att=side(h.attacker);return `<div class="submissionPanel"><b>${esc(h.card.name)} · TURN ${h.turns}</b><p>${esc(att.name)} is maintaining the hold on ${esc(def.name)}.</p><p>${h.totalDamage||0} total submission damage. ${esc(def.name)} drew a page at the start of this trapped turn.</p>${isPlayer?`<div class="actions"><button class="primary" onclick="maintainSubmission()">Maintain Hold</button><button class="secondary" onclick="releaseSubmission()">Release and Continue</button></div>`:h.defender==='player'?`<div class="actions"><button class="primary" onclick="playerDefenderInHold()">Attempt Escape / End Trapped Turn</button></div>`:`<p>${esc(att.name)} is deciding whether to maintain or release the hold…</p>`}</div>`}
 function cardBackHtml(c,cost){return `<div class="cardBack"><div class="cardhead"><h3>${esc(c.name)}</h3><span class="tag">${esc(c.cardClass)}</span></div><div class="position">PLAY: ${esc(c.position)}${c.setsPosition!=='Same'?` → ${esc(c.setsPosition)}`:''}</div><p>${esc(c.description)}</p>${c.counters?.length?`<div class="counter">COUNTERS: ${c.counters.map(esc).join(', ')}</div>`:''}<div class="stats"><span>DMG ${c.damage}</span><span>${c.cardClass==='Momentum'?esc(c.momentumType)+' +'+(c.momentumAmount||1):'ATT +'+(c.momentumGain||0)}</span><span>COST ${cost}</span></div></div>`}
