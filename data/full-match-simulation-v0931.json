@@ -1,0 +1,29 @@
+{
+  "version": "v0.9.31",
+  "scope": "Automated structural match simulations across all 65 authentic starter decks",
+  "sourceFinding": "The original playbook help text states that Lead Off pages are fixed, remaining pages are shuffled, and one random page is drawn at the beginning of each turn.",
+  "prePatch": {
+    "simulations": 3250,
+    "deadlocks": 1370,
+    "timeouts": 1880,
+    "averageMovesPerAffectedMatch": "approximately 0-1",
+    "primaryCauses": [
+      "Move_Type was incorrectly treated as an offensive play requirement.",
+      "The engine refilled to five after a move instead of drawing one page at the beginning of each turn.",
+      "Passing or losing control did not draw the new turn's page."
+    ]
+  },
+  "patch": [
+    "Move_Type is now treated as the move/counter state, not a blanket offensive legality requirement.",
+    "Explicit source-text restrictions such as opponent-on-mat remain enforced.",
+    "One page is drawn when a new turn begins after control changes.",
+    "Automatic refill-to-five after ordinary moves and Gameplans is removed.",
+    "Fixed original Lead Off pages remain unchanged."
+  ],
+  "postPatchStructuralSimulation": {
+    "simulations": 3250,
+    "hardDeadlocks": 0,
+    "observedMovesPerSimulation": "approximately 30-37 before deck exhaustion in the simplified audit model",
+    "note": "Runtime card-effect and pin/submission verification continues in later passes."
+  }
+}

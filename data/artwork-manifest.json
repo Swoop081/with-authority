@@ -7826,64 +7826,208 @@
   },
   "superstars": {
     "austin": {
-      "source": "Data/StoneColdHeadShot.gai",
-      "file": "assets/gai/StoneColdHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/StoneColdPlaybook.gai",
+      "file": "assets/gai/StoneColdPlaybook.webp",
+      "width": 150,
+      "height": 180
     },
     "rock": {
-      "source": "Data/TheRockHeadShot.gai",
-      "file": "assets/gai/TheRockHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/Sales-TheRock.gai",
+      "file": "assets/gai/Sales-TheRock.webp",
+      "width": 150,
+      "height": 180
     },
     "tripleh": {
-      "source": "Data/TripleHHeadShot.gai",
-      "file": "assets/gai/TripleHHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/Sales-HHH.gai",
+      "file": "assets/gai/Sales-HHH.webp",
+      "width": 150,
+      "height": 180
     },
     "angle": {
-      "source": "Data/KurtAngleHeadShot.gai",
-      "file": "assets/gai/KurtAngleHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/Sales-KurtAngle.gai",
+      "file": "assets/gai/Sales-KurtAngle.webp",
+      "width": 150,
+      "height": 180
     },
     "jericho": {
-      "source": "Data/ChrisJerichoHeadShot.gai",
-      "file": "assets/gai/ChrisJerichoHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/Sales-ChrisJericho.gai",
+      "file": "assets/gai/Sales-ChrisJericho.webp",
+      "width": 150,
+      "height": 180
     },
     "undertaker": {
-      "source": "Data/TheUndertakerHeadShot.gai",
-      "file": "assets/gai/TheUndertakerHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/TheUndertakerPlaybook.gai",
+      "file": "assets/gai/TheUndertakerPlaybook.webp",
+      "width": 150,
+      "height": 180
     },
     "kane": {
-      "source": "Data/KaneHeadShot.gai",
-      "file": "assets/gai/KaneHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/Sales-Kane.gai",
+      "file": "assets/gai/Sales-Kane.webp",
+      "width": 150,
+      "height": 180
     },
     "bigshow": {
-      "source": "Data/TheBigShowHeadShot.gai",
-      "file": "assets/gai/TheBigShowHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/TheBigShowPlaybook.gai",
+      "file": "assets/gai/TheBigShowPlaybook.webp",
+      "width": 150,
+      "height": 180
     },
     "spike": {
-      "source": "Data/SpikeDudleyHeadShot.gai",
-      "file": "assets/gai/SpikeDudleyHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/SpikeDudleyPlaybook.gai",
+      "file": "assets/gai/SpikeDudleyPlaybook.webp",
+      "width": 150,
+      "height": 180
     },
     "hogan": {
-      "source": "Data/HollywoodHoganHeadShot.gai",
-      "file": "assets/gai/HollywoodHoganHeadShot.webp",
-      "width": 440,
-      "height": 173
+      "source": "Data/HollywoodHoganPlaybook.gai",
+      "file": "assets/gai/HollywoodHoganPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "benoit": {
+      "source": "Data/ChrisBenoit2EPlaybook.gai",
+      "file": "assets/gai/ChrisBenoit2EPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "bookert": {
+      "source": "Data/BookerTPlaybook.gai",
+      "file": "assets/gai/BookerTPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "edge": {
+      "source": "Data/EdgePlaybook.gai",
+      "file": "assets/gai/EdgePlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "christian": {
+      "source": "Data/ChristianPlaybook.gai",
+      "file": "assets/gai/ChristianPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "eddie": {
+      "source": "Data/EddieGuerreroPlaybook.gai",
+      "file": "assets/gai/EddieGuerreroPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "rvd": {
+      "source": "Data/RobVanDamPlaybook.gai",
+      "file": "assets/gai/RobVanDamPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "flair": {
+      "source": "Data/RicFlair.gai",
+      "file": "assets/gai/RicFlair.webp",
+      "width": 150,
+      "height": 180
+    },
+    "nash": {
+      "source": "Data/KevinNash.gai",
+      "file": "assets/gai/KevinNash.webp",
+      "width": 150,
+      "height": 180
+    },
+    "jeffhardy": {
+      "source": "Data/JeffHardyPlaybook.gai",
+      "file": "assets/gai/JeffHardyPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "matthardy": {
+      "source": "Data/MattHardyPlaybook.gai",
+      "file": "assets/gai/MattHardyPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "lita": {
+      "source": "Data/LitaPlaybook.gai",
+      "file": "assets/gai/LitaPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "trish": {
+      "source": "Data/TrishStratus.gai",
+      "file": "assets/gai/TrishStratus.webp",
+      "width": 150,
+      "height": 180
+    },
+    "bubba": {
+      "source": "Data/BubbaRayDudleyPlaybook.gai",
+      "file": "assets/gai/BubbaRayDudleyPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "dvon": {
+      "source": "Data/DVonDudleyPlaybook.gai",
+      "file": "assets/gai/DVonDudleyPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "bradshaw": {
+      "source": "Data/BradshawPlaybook.gai",
+      "file": "assets/gai/BradshawPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "goldust": {
+      "source": "Data/GoldustPlaybook.gai",
+      "file": "assets/gai/GoldustPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "lancestorm": {
+      "source": "Data/LanceStormPlaybook.gai",
+      "file": "assets/gai/LanceStormPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "rikishi": {
+      "source": "Data/Sales-RikishiPhatu.gai",
+      "file": "assets/gai/Sales-RikishiPhatu.webp",
+      "width": 150,
+      "height": 180
+    },
+    "tajiri": {
+      "source": "Data/TajiriPlaybook.gai",
+      "file": "assets/gai/TajiriPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "tazz": {
+      "source": "Data/Sales-Tazz.gai",
+      "file": "assets/gai/Sales-Tazz.webp",
+      "width": 150,
+      "height": 180
+    },
+    "test": {
+      "source": "Data/AnotherAttitudeStarPlaybook.gai",
+      "file": "assets/gai/AnotherAttitudeStarPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "hurricane": {
+      "source": "Data/TheHurricanePlaybook.gai",
+      "file": "assets/gai/TheHurricanePlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "regal": {
+      "source": "Data/WilliamRegalPlaybook.gai",
+      "file": "assets/gai/WilliamRegalPlaybook.webp",
+      "width": 150,
+      "height": 180
+    },
+    "xpac": {
+      "source": "Data/Sales-XPac.gai",
+      "file": "assets/gai/Sales-XPac.webp",
+      "width": 150,
+      "height": 180
     }
   }
 }

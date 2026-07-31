@@ -4760,12 +4760,14 @@
     "sourceFile": "HeGotAllOfIt.gac",
     "name": "Got All Of It!",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
+      "cancel_counter",
       "damage_modifier",
-      "cancel_counter"
+      "starter_blocker_pass_3"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.18"
   },
   {
     "sourceFile": "HellfireAndBrimstone.gac",
@@ -6146,13 +6148,15 @@
     "sourceFile": "LatinoHeat.gac",
     "name": "Latino Heat",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "draw_search",
       "position_control",
+      "starter_blocker_pass_3",
       "superstar_restriction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.18"
   },
   {
     "sourceFile": "LatinoHeat2E.gac",
@@ -9672,13 +9676,14 @@
     "sourceFile": "splash.gac",
     "name": "Splash",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "position_control",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.16"
   },
   {
     "sourceFile": "Splash2E.gac",
@@ -9867,11 +9872,13 @@
     "sourceFile": "StephanieMcMahonHelmsley.gac",
     "name": "Stephanie McMahon-Helmsley",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
-      "hand_interaction"
+      "hand_interaction",
+      "starter_blocker_pass_3"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.18"
   },
   {
     "sourceFile": "StepOverHeelKickEX2.gac",
@@ -9975,13 +9982,14 @@
     "sourceFile": "StoneColdStunner.gac",
     "name": "Stone Cold Stunner",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "damage_modifier",
       "stun",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.16"
   },
   {
     "sourceFile": "StoneColdStunnerEX1.gac",
@@ -10490,13 +10498,14 @@
     "sourceFile": "Table.gac",
     "name": "Table",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "damage_modifier",
       "stun",
       "position_control"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.16"
   },
   {
     "sourceFile": "TajiriLE.gac",

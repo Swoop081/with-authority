@@ -1,0 +1,32 @@
+{
+  "version": "v0.9.30",
+  "pass": "Behavioural Verification Pass 3",
+  "callableAbilitiesEnabled": [
+    "rock",
+    "tripleh",
+    "jericho",
+    "bookert",
+    "christian",
+    "rvd",
+    "hogan",
+    "goldust",
+    "lancestorm",
+    "rikishi",
+    "tazz",
+    "regal",
+    "xpac"
+  ],
+  "passiveAbilitiesVerifiedThisPass": [
+    "Chris Benoit body-part thresholds",
+    "Christian warning protection",
+    "Eddie Guerrero turn-end effect",
+    "Ric Flair Heel response",
+    "Bradshaw high-cost Impact discard",
+    "Tajiri Strike follow-up bonus",
+    "Test Impact streak"
+  ],
+  "heldBack": [
+    "Abilities requiring unsupported card pairing, Autocounter resource timing, Crowd Support generation, opponent-hand theft, or exact referee removal timing"
+  ],
+  "notes": "All enabled abilities use preserved original text and existing engine state. No style-based substitute abilities are used."
+}

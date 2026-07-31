@@ -1,0 +1,603 @@
+{
+  "version": "0.9.21",
+  "authority": "CardList.gal",
+  "cardListObjects": 1142,
+  "starterCount": 65,
+  "resolvedEntries": 4095,
+  "unresolvedEntries": 691,
+  "completeStarters": 0,
+  "roster": [
+    {
+      "superstarKey": "austin",
+      "starterId": "Starter-StoneCold",
+      "mapped": 64,
+      "total": 72,
+      "missing": 8
+    },
+    {
+      "superstarKey": "rock",
+      "starterId": "Starter-TheRock",
+      "mapped": 62,
+      "total": 70,
+      "missing": 8
+    },
+    {
+      "superstarKey": "tripleh",
+      "starterId": "TripleHStarter",
+      "mapped": 60,
+      "total": 71,
+      "missing": 11
+    },
+    {
+      "superstarKey": "angle",
+      "starterId": "Starter-KurtAngle",
+      "mapped": 60,
+      "total": 73,
+      "missing": 13
+    },
+    {
+      "superstarKey": "jericho",
+      "starterId": "Starter-ChrisJericho",
+      "mapped": 63,
+      "total": 72,
+      "missing": 9
+    },
+    {
+      "superstarKey": "undertaker",
+      "starterId": "Starter-TheUndertaker",
+      "mapped": 66,
+      "total": 73,
+      "missing": 7
+    },
+    {
+      "superstarKey": "kane",
+      "starterId": "Starter-Kane",
+      "mapped": 66,
+      "total": 73,
+      "missing": 7
+    },
+    {
+      "superstarKey": "bigshow",
+      "starterId": "Starter-TheBigShow",
+      "mapped": 67,
+      "total": 72,
+      "missing": 5
+    },
+    {
+      "superstarKey": "spike",
+      "starterId": "Starter-SpikeDudley",
+      "mapped": 61,
+      "total": 74,
+      "missing": 13
+    },
+    {
+      "superstarKey": "hogan",
+      "starterId": "Starter-HulkHogan2E",
+      "mapped": 63,
+      "total": 72,
+      "missing": 9
+    }
+  ],
+  "completion": [
+    {
+      "id": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "count": 72,
+      "mapped": 67,
+      "missing": 5,
+      "percent": 93.1
+    },
+    {
+      "id": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "count": 72,
+      "mapped": 67,
+      "missing": 5,
+      "percent": 93.1
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "count": 71,
+      "mapped": 66,
+      "missing": 5,
+      "percent": 93.0
+    },
+    {
+      "id": "Starter-TheHurricaneLE",
+      "title": "The Hurricane Starter",
+      "count": 74,
+      "mapped": 68,
+      "missing": 6,
+      "percent": 91.9
+    },
+    {
+      "id": "Starter-EdgeGift",
+      "title": "Eddie Guerrero Gift Starter%",
+      "count": 74,
+      "mapped": 67,
+      "missing": 7,
+      "percent": 90.5
+    },
+    {
+      "id": "Starter-TheBigShow2E",
+      "title": "The Big Show 2nd Edition Starter#",
+      "count": 74,
+      "mapped": 67,
+      "missing": 7,
+      "percent": 90.5
+    },
+    {
+      "id": "Starter-Kane",
+      "title": "Kane Starter",
+      "count": 73,
+      "mapped": 66,
+      "missing": 7,
+      "percent": 90.4
+    },
+    {
+      "id": "Starter-TheUndertaker",
+      "title": "The Undertaker Starter%",
+      "count": 73,
+      "mapped": 66,
+      "missing": 7,
+      "percent": 90.4
+    },
+    {
+      "id": "Starter-ChrisJericho2E",
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "count": 72,
+      "mapped": 65,
+      "missing": 7,
+      "percent": 90.3
+    },
+    {
+      "id": "Starter-BookerT2",
+      "title": "Booker T Starter with 2E",
+      "count": 75,
+      "mapped": 67,
+      "missing": 8,
+      "percent": 89.3
+    },
+    {
+      "id": "Starter-ChrisBenoit2E",
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "count": 75,
+      "mapped": 67,
+      "missing": 8,
+      "percent": 89.3
+    },
+    {
+      "id": "Starter-Christian2",
+      "title": "Christian Starter with 2E",
+      "count": 74,
+      "mapped": 66,
+      "missing": 8,
+      "percent": 89.2
+    },
+    {
+      "id": "Starter-Goldust",
+      "title": "Goldust Starter",
+      "count": 74,
+      "mapped": 66,
+      "missing": 8,
+      "percent": 89.2
+    },
+    {
+      "id": "Starter-JeffHardy2",
+      "title": "Jeff Hardy Starter with 2E",
+      "count": 74,
+      "mapped": 66,
+      "missing": 8,
+      "percent": 89.2
+    },
+    {
+      "id": "Starter-JeffHardyEX2",
+      "title": "Jeff Hardy Starter!",
+      "count": 74,
+      "mapped": 66,
+      "missing": 8,
+      "percent": 89.2
+    },
+    {
+      "id": "Starter-KevinNash",
+      "title": "Kevin Nash Starter",
+      "count": 74,
+      "mapped": 66,
+      "missing": 8,
+      "percent": 89.2
+    },
+    {
+      "id": "RikishiPhatuStarter",
+      "title": "Rikishi Phatu Starter4",
+      "count": 72,
+      "mapped": 64,
+      "missing": 8,
+      "percent": 88.9
+    },
+    {
+      "id": "Starter-StoneCold",
+      "title": "Stone Cold Starter.",
+      "count": 72,
+      "mapped": 64,
+      "missing": 8,
+      "percent": 88.9
+    },
+    {
+      "id": "Starter-XPac",
+      "title": "X-Pac Starter",
+      "count": 72,
+      "mapped": 64,
+      "missing": 8,
+      "percent": 88.9
+    },
+    {
+      "id": "Starter-HulkHoganLE",
+      "title": "Hulk Hogan Starter!",
+      "count": 71,
+      "mapped": 63,
+      "missing": 8,
+      "percent": 88.7
+    },
+    {
+      "id": "Starter-TheRock",
+      "title": "The Rock Starter",
+      "count": 70,
+      "mapped": 62,
+      "missing": 8,
+      "percent": 88.6
+    },
+    {
+      "id": "Starter-TheCripplerChrisBenoit",
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "count": 75,
+      "mapped": 66,
+      "missing": 9,
+      "percent": 88.0
+    },
+    {
+      "id": "Starter-EddieGuerrero2E",
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "count": 74,
+      "mapped": 65,
+      "missing": 9,
+      "percent": 87.8
+    },
+    {
+      "id": "Starter-Scotty2Hotty",
+      "title": "Scotty 2 Hotty Starter%",
+      "count": 73,
+      "mapped": 64,
+      "missing": 9,
+      "percent": 87.7
+    },
+    {
+      "id": "Starter-ChrisJericho",
+      "title": "Chris Jericho Starter\"",
+      "count": 72,
+      "mapped": 63,
+      "missing": 9,
+      "percent": 87.5
+    },
+    {
+      "id": "Starter-HulkHogan2E",
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "count": 72,
+      "mapped": 63,
+      "missing": 9,
+      "percent": 87.5
+    },
+    {
+      "id": "Starter-Tazz",
+      "title": "Tazz Starter",
+      "count": 71,
+      "mapped": 62,
+      "missing": 9,
+      "percent": 87.3
+    },
+    {
+      "id": "Starter-BookerTEX2",
+      "title": "Booker T Starter",
+      "count": 75,
+      "mapped": 65,
+      "missing": 10,
+      "percent": 86.7
+    },
+    {
+      "id": "Starter-Edge2E",
+      "title": "Edge 2nd Edition Starter",
+      "count": 75,
+      "mapped": 65,
+      "missing": 10,
+      "percent": 86.7
+    },
+    {
+      "id": "Starter-Christian",
+      "title": "Christian Starter",
+      "count": 74,
+      "mapped": 64,
+      "missing": 10,
+      "percent": 86.5
+    },
+    {
+      "id": "Starter-Kane2E",
+      "title": "Kane 2nd Edition Starter",
+      "count": 74,
+      "mapped": 64,
+      "missing": 10,
+      "percent": 86.5
+    },
+    {
+      "id": "Starter-Test2",
+      "title": "Test Starter with 2E",
+      "count": 74,
+      "mapped": 64,
+      "missing": 10,
+      "percent": 86.5
+    },
+    {
+      "id": "Starter-RicFlair",
+      "title": "Ric Flair Unforgiven Starter",
+      "count": 73,
+      "mapped": 63,
+      "missing": 10,
+      "percent": 86.3
+    },
+    {
+      "id": "Starter-EddieGuerrero",
+      "title": "Eddie Guerrero Starter%",
+      "count": 72,
+      "mapped": 62,
+      "missing": 10,
+      "percent": 86.1
+    },
+    {
+      "id": "Starter-Lita2E",
+      "title": "Lita 2nd Edition Starter",
+      "count": 71,
+      "mapped": 61,
+      "missing": 10,
+      "percent": 85.9
+    },
+    {
+      "id": "Starter-BookerT",
+      "title": "Booker T Starter",
+      "count": 77,
+      "mapped": 66,
+      "missing": 11,
+      "percent": 85.7
+    },
+    {
+      "id": "Starter-JeffHardy",
+      "title": "Jeff Hardy Starter!",
+      "count": 77,
+      "mapped": 66,
+      "missing": 11,
+      "percent": 85.7
+    },
+    {
+      "id": "Starter-BubbaRayDudley2",
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "count": 74,
+      "mapped": 63,
+      "missing": 11,
+      "percent": 85.1
+    },
+    {
+      "id": "Starter-DVon",
+      "title": "D-Von Dudley Starter#",
+      "count": 74,
+      "mapped": 63,
+      "missing": 11,
+      "percent": 85.1
+    },
+    {
+      "id": "Starter-DVonDudley2",
+      "title": "D-Von Dudley Starter with 2E",
+      "count": 74,
+      "mapped": 63,
+      "missing": 11,
+      "percent": 85.1
+    },
+    {
+      "id": "Starter-Tajiri",
+      "title": "Tajiri LE Starter",
+      "count": 74,
+      "mapped": 63,
+      "missing": 11,
+      "percent": 85.1
+    },
+    {
+      "id": "TripleHStarter",
+      "title": "Triple H Starter/",
+      "count": 71,
+      "mapped": 60,
+      "missing": 11,
+      "percent": 84.5
+    },
+    {
+      "id": "Starter-WilliamRegal3",
+      "title": "William Regal Starter#",
+      "count": 79,
+      "mapped": 67,
+      "missing": 12,
+      "percent": 84.8
+    },
+    {
+      "id": "Starter-Test",
+      "title": "Test Starter",
+      "count": 77,
+      "mapped": 65,
+      "missing": 12,
+      "percent": 84.4
+    },
+    {
+      "id": "Starter-Edge",
+      "title": "Edge Starter",
+      "count": 74,
+      "mapped": 62,
+      "missing": 12,
+      "percent": 83.8
+    },
+    {
+      "id": "Starter-KurtAngle2E",
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "count": 74,
+      "mapped": 62,
+      "missing": 12,
+      "percent": 83.8
+    },
+    {
+      "id": "Starter-RicFlairLE",
+      "title": "Ric Flair Starter",
+      "count": 74,
+      "mapped": 62,
+      "missing": 12,
+      "percent": 83.8
+    },
+    {
+      "id": "Starter-TheRock2EnoLE",
+      "title": "The Rock 2nd Edition Starter",
+      "count": 74,
+      "mapped": 62,
+      "missing": 12,
+      "percent": 83.8
+    },
+    {
+      "id": "Starter-TestEX2",
+      "title": "Test Starter",
+      "count": 73,
+      "mapped": 61,
+      "missing": 12,
+      "percent": 83.6
+    },
+    {
+      "id": "Starter-BubbaEX2",
+      "title": "Bubba Ray Dudley Starter'",
+      "count": 74,
+      "mapped": 61,
+      "missing": 13,
+      "percent": 82.4
+    },
+    {
+      "id": "Starter-MattHardy",
+      "title": "Matt Hardy Starter!",
+      "count": 74,
+      "mapped": 61,
+      "missing": 13,
+      "percent": 82.4
+    },
+    {
+      "id": "Starter-MattHardy2",
+      "title": "Matt Hardy Starter with 2E",
+      "count": 74,
+      "mapped": 61,
+      "missing": 13,
+      "percent": 82.4
+    },
+    {
+      "id": "Starter-RobVanDam2",
+      "title": "Rob Van Dam Starter with 2E",
+      "count": 74,
+      "mapped": 61,
+      "missing": 13,
+      "percent": 82.4
+    },
+    {
+      "id": "Starter-SpikeDudley",
+      "title": "Spike Dudley Starter",
+      "count": 74,
+      "mapped": 61,
+      "missing": 13,
+      "percent": 82.4
+    },
+    {
+      "id": "Starter-KurtAngle",
+      "title": "Kurt Angle Starter!",
+      "count": 73,
+      "mapped": 60,
+      "missing": 13,
+      "percent": 82.2
+    },
+    {
+      "id": "Starter-RobVanDamEX2",
+      "title": "Rob Van Dam Starter\"",
+      "count": 74,
+      "mapped": 60,
+      "missing": 14,
+      "percent": 81.1
+    },
+    {
+      "id": "Starter-BubbaRayDudley",
+      "title": "Bubba Ray Dudley Starter'",
+      "count": 77,
+      "mapped": 62,
+      "missing": 15,
+      "percent": 80.5
+    },
+    {
+      "id": "Starter-TrishStratus",
+      "title": "Trish Stratus Unforgiven Starter",
+      "count": 74,
+      "mapped": 59,
+      "missing": 15,
+      "percent": 79.7
+    },
+    {
+      "id": "Starter-TheHurricane",
+      "title": "The Hurricane Unforgiven Starter",
+      "count": 72,
+      "mapped": 57,
+      "missing": 15,
+      "percent": 79.2
+    },
+    {
+      "id": "Starter-TheRock2E",
+      "title": "The Rock Starter",
+      "count": 75,
+      "mapped": 59,
+      "missing": 16,
+      "percent": 78.7
+    },
+    {
+      "id": "Starter-RobVanDam",
+      "title": "Rob Van Dam Starter\"",
+      "count": 74,
+      "mapped": 57,
+      "missing": 17,
+      "percent": 77.0
+    },
+    {
+      "id": "Starter-TrishStratusLE",
+      "title": "Trish Stratus Starter",
+      "count": 74,
+      "mapped": 57,
+      "missing": 17,
+      "percent": 77.0
+    },
+    {
+      "id": "Starter-TheUndertaker2E",
+      "title": "The Undertaker 2nd Edition Starter%",
+      "count": 71,
+      "mapped": 53,
+      "missing": 18,
+      "percent": 74.6
+    },
+    {
+      "id": "Starter-LanceStorm",
+      "title": "Lance Storm Starter",
+      "count": 74,
+      "mapped": 55,
+      "missing": 19,
+      "percent": 74.3
+    },
+    {
+      "id": "Starter-Lita",
+      "title": "Lita Starter",
+      "count": 75,
+      "mapped": 55,
+      "missing": 20,
+      "percent": 73.3
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": "v0.9.26",
+  "source": "Original .gap product packages from WAFull.zip",
+  "notes": "Pack names, set identity, page count and product artwork are source-derived. Rarity-tier assignment remains deterministic while the original per-card rarity index is still being decoded.",
+  "products": [
+    {
+      "id": "first-edition",
+      "name": "1st Edition Booster",
+      "sourceFile": "TestBooster.gap",
+      "setKey": "CORE",
+      "pageCount": 15,
+      "artSource": "Sales-BoosterPack.gai",
+      "rewardEligible": true,
+      "description": "Original 1st Edition booster product.",
+      "slots": [
+        {
+          "rarity": "Common",
+          "count": 8
+        },
+        {
+          "rarity": "Uncommon",
+          "count": 4
+        },
+        {
+          "rarity": "Rare",
+          "count": 2
+        },
+        {
+          "rarity": "Very Rare",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "no-way-out",
+      "name": "No Way Out Booster",
+      "sourceFile": "NoWayOutBooster.gap",
+      "setKey": "EX1",
+      "pageCount": 15,
+      "artSource": "Sales-BoosterPackEX1.gai",
+      "rewardEligible": true,
+      "description": "Original No Way Out expansion booster.",
+      "slots": [
+        {
+          "rarity": "Common",
+          "count": 8
+        },
+        {
+          "rarity": "Uncommon",
+          "count": 4
+        },
+        {
+          "rarity": "Rare",
+          "count": 2
+        },
+        {
+          "rarity": "Very Rare",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "tlc",
+      "name": "TLC Booster",
+      "sourceFile": "TLCBooster.gap",
+      "setKey": "EX2",
+      "pageCount": 15,
+      "artSource": "Sales-BoosterPackEX2.gai",
+      "rewardEligible": true,
+      "description": "Original TLC expansion booster.",
+      "slots": [
+        {
+          "rarity": "Common",
+          "count": 8
+        },
+        {
+          "rarity": "Uncommon",
+          "count": 4
+        },
+        {
+          "rarity": "Rare",
+          "count": 2
+        },
+        {
+          "rarity": "Very Rare",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "unforgiven",
+      "name": "Unforgiven Booster",
+      "sourceFile": "UnforgivenBooster.gap",
+      "setKey": "EX3",
+      "pageCount": 15,
+      "artSource": "Sales-BoosterPackEX3.gai",
+      "rewardEligible": true,
+      "description": "Original Unforgiven expansion booster.",
+      "slots": [
+        {
+          "rarity": "Common",
+          "count": 8
+        },
+        {
+          "rarity": "Uncommon",
+          "count": 4
+        },
+        {
+          "rarity": "Rare",
+          "count": 2
+        },
+        {
+          "rarity": "Very Rare",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "nwo-free",
+      "name": "No Way Out Free Booster",
+      "sourceFile": "NoWayOutFreeBooster.gap",
+      "setKey": "EX1",
+      "pageCount": 15,
+      "artSource": "Sales-BoosterPackEX1.gai",
+      "rewardEligible": false,
+      "description": "Original promotional pack: 10 Common and 5 Uncommon pages.",
+      "slots": [
+        {
+          "rarity": "Common",
+          "count": 10
+        },
+        {
+          "rarity": "Uncommon",
+          "count": 5
+        }
+      ]
+    }
+  ]
+}

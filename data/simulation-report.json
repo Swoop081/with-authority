@@ -1,0 +1,20 @@
+{
+  "version":"v0.9.19",
+  "diagnosis":[
+    "Default deck construction inserted all Momentum variants twice before truncating to 55 pages, producing decks with 55 Momentum pages and no attacks.",
+    "Momentum pages immediately drew back to five, allowing an endless Momentum replacement loop.",
+    "Random CPU opening hands could contain no legal offensive Standing/Any move, causing permanent hand locks."
+  ],
+  "fixes":[
+    "Balanced 55-page default decks with 15 basic Momentum pages and 40 offensive/support pages.",
+    "Momentum pages no longer automatically refill the hand.",
+    "Default opening hands guarantee at least one basic Momentum page and one legal zero/one-cost Standing/Any attack.",
+    "Previously saved momentum-only custom decks are automatically repaired."
+  ],
+  "tests":{
+    "syntax":"passed",
+    "deckComposition":"10 roster defaults checked; each includes attacks and Momentum",
+    "openingHand":"guaranteed starter move and Momentum for generated CPU/default hands",
+    "loopRegression":"momentum replacement loop removed"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "0.9.23",
+  "simulationType": "deck and opening-hand Monte Carlo",
+  "results": [
+    {
+      "starter": "Starter-TheBigShow",
+      "ready": true,
+      "pages": 72,
+      "matchDeckPages": 69,
+      "composition": {
+        "Momentum": 25,
+        "Move": 38,
+        "Trademark": 1,
+        "Gameplan": 3,
+        "Special": 2
+      },
+      "openingSamples": 1000,
+      "noMomentumHands": 85,
+      "noAttackHands": 8
+    },
+    {
+      "starter": "Starter-Bradshaw",
+      "ready": true,
+      "pages": 72,
+      "matchDeckPages": 71,
+      "composition": {
+        "Move": 42,
+        "Momentum": 26,
+        "Trademark": 2,
+        "Special": 1
+      },
+      "openingSamples": 1000,
+      "noMomentumHands": 101,
+      "noAttackHands": 3
+    },
+    {
+      "starter": "Starter-TripleH2E",
+      "ready": true,
+      "pages": 71,
+      "matchDeckPages": 70,
+      "composition": {
+        "Momentum": 26,
+        "Move": 42,
+        "Submission": 2
+      },
+      "openingSamples": 1000,
+      "noMomentumHands": 83,
+      "noAttackHands": 8
+    }
+  ],
+  "diagnosis": "All three first-wave authentic starters resolve exactly and contain mixed momentum and attack pages. Opening-five selection lets the player avoid sampled dead hands."
+}
