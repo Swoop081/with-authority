@@ -18,7 +18,8 @@
     },
     "headShotArt": "",
     "playbookArt": "StoneColdPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "rock": {
     "key": "rock",
@@ -39,7 +40,8 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-TheRock.gai",
-    "abilityImplemented": true
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "tripleh": {
     "key": "tripleh",
@@ -60,7 +62,8 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-HHH.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "undertaker": {
     "key": "undertaker",
@@ -82,7 +85,7 @@
     "headShotArt": "",
     "playbookArt": "TheUndertakerPlaybook.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "kane": {
     "key": "kane",
@@ -104,7 +107,7 @@
     "headShotArt": "",
     "playbookArt": "Sales-Kane.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "angle": {
     "key": "angle",
@@ -126,7 +129,7 @@
     "headShotArt": "",
     "playbookArt": "Sales-KurtAngle.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "jericho": {
     "key": "jericho",
@@ -147,7 +150,8 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-ChrisJericho.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "benoit": {
     "key": "benoit",
@@ -168,7 +172,8 @@
     },
     "headShotArt": "",
     "playbookArt": "ChrisBenoit2EPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "bigshow": {
     "key": "bigshow",
@@ -189,7 +194,8 @@
     },
     "headShotArt": "",
     "playbookArt": "TheBigShowPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "bookert": {
     "key": "bookert",
@@ -210,7 +216,8 @@
     },
     "headShotArt": "",
     "playbookArt": "BookerTPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "edge": {
     "key": "edge",
@@ -232,7 +239,7 @@
     "headShotArt": "",
     "playbookArt": "EdgePlaybook.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "christian": {
     "key": "christian",
@@ -253,7 +260,8 @@
     },
     "headShotArt": "",
     "playbookArt": "ChristianPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "eddie": {
     "key": "eddie",
@@ -274,7 +282,8 @@
     },
     "headShotArt": "",
     "playbookArt": "EddieGuerreroPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "rvd": {
     "key": "rvd",
@@ -295,7 +304,8 @@
     },
     "headShotArt": "",
     "playbookArt": "RobVanDamPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "flair": {
     "key": "flair",
@@ -316,7 +326,8 @@
     },
     "headShotArt": "",
     "playbookArt": "",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "hogan": {
     "key": "hogan",
@@ -337,7 +348,8 @@
     },
     "headShotArt": "",
     "playbookArt": "HollywoodHoganPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "nash": {
     "key": "nash",
@@ -358,8 +370,8 @@
     },
     "headShotArt": "",
     "playbookArt": "",
-    "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "jeffhardy": {
     "key": "jeffhardy",
@@ -381,7 +393,7 @@
     "headShotArt": "",
     "playbookArt": "JeffHardyPlaybook.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "matthardy": {
     "key": "matthardy",
@@ -402,7 +414,8 @@
     },
     "headShotArt": "",
     "playbookArt": "MattHardyPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "lita": {
     "key": "lita",
@@ -423,7 +436,8 @@
     },
     "headShotArt": "",
     "playbookArt": "LitaPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "trish": {
     "key": "trish",
@@ -444,7 +458,8 @@
     },
     "headShotArt": "",
     "playbookArt": "",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "bubba": {
     "key": "bubba",
@@ -465,8 +480,8 @@
     },
     "headShotArt": "",
     "playbookArt": "BubbaRayDudleyPlaybook.gai",
-    "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "dvon": {
     "key": "dvon",
@@ -487,7 +502,8 @@
     },
     "headShotArt": "",
     "playbookArt": "DVonDudleyPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "spike": {
     "key": "spike",
@@ -509,7 +525,7 @@
     "headShotArt": "",
     "playbookArt": "SpikeDudleyPlaybook.gai",
     "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "passiveImplemented": true
   },
   "bradshaw": {
     "key": "bradshaw",
@@ -530,7 +546,8 @@
     },
     "headShotArt": "",
     "playbookArt": "BradshawPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "goldust": {
     "key": "goldust",
@@ -551,7 +568,8 @@
     },
     "headShotArt": "",
     "playbookArt": "GoldustPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "lancestorm": {
     "key": "lancestorm",
@@ -572,7 +590,8 @@
     },
     "headShotArt": "",
     "playbookArt": "LanceStormPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "rikishi": {
     "key": "rikishi",
@@ -593,28 +612,30 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-RikishiPhatu.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "scotty": {
     "key": "scotty",
     "name": "SCOTTY 2 HOTTY",
-    "ability": "Original Superstar ability",
-    "abilityText": "",
+    "ability": "Special: Turn it up!",
+    "abilityText": "Special: Turn it up!\r\nChoose a Gameplan Special from your playbook; you draw it. Use only if you have connected with 2 moves in a row, once per move string and four times per match.",
     "entrance": "Original Entrance",
-    "hp": 1,
+    "hp": 61,
     "style": "agile",
-    "sourceFile": "AIMission1Wrestler.gac",
+    "sourceFile": "ScottyTooHottie.gac",
     "starterId": "Starter-Scotty2Hotty",
     "momentumMaximums": {
-      "Agility": 0,
-      "Knowledge": 0,
-      "Strength": 0,
-      "Strike": 0,
-      "Technical": 0
+      "Agility": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": -1,
+      "Technical": -1
     },
-    "headShotArt": "",
-    "playbookArt": "",
-    "abilityImplemented": false
+    "headShotArt": "Scotty2HottyHeadShot.gai",
+    "playbookArt": "Scotty2HottyPlaybook.gai",
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "tajiri": {
     "key": "tajiri",
@@ -635,7 +656,8 @@
     },
     "headShotArt": "",
     "playbookArt": "TajiriPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "tazz": {
     "key": "tazz",
@@ -656,7 +678,8 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-Tazz.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "test": {
     "key": "test",
@@ -677,7 +700,8 @@
     },
     "headShotArt": "",
     "playbookArt": "AnotherAttitudeStarPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": false,
+    "passiveImplemented": true
   },
   "hurricane": {
     "key": "hurricane",
@@ -698,7 +722,8 @@
     },
     "headShotArt": "",
     "playbookArt": "TheHurricanePlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "regal": {
     "key": "regal",
@@ -719,7 +744,8 @@
     },
     "headShotArt": "",
     "playbookArt": "WilliamRegalPlaybook.gai",
-    "abilityImplemented": false
+    "abilityImplemented": true,
+    "passiveImplemented": false
   },
   "xpac": {
     "key": "xpac",
@@ -740,7 +766,7 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-XPac.gai",
-    "abilityImplemented": false,
-    "abilityRuntime": "automatic_exact"
+    "abilityImplemented": true,
+    "passiveImplemented": false
   }
 }

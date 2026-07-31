@@ -1,0 +1,119 @@
+{
+  "version": "v0.9.53",
+  "assetsIntegrated": 24,
+  "interfaceFamilies": 10,
+  "remainingUnusualGai": 50,
+  "excludedOnlineStore": 2,
+  "integrated": [
+    {
+      "use": "Main With Authority! logo",
+      "asset": "assets/gai/b-WWFWithAuthority.webp"
+    },
+    {
+      "use": "Original splash-screen backdrop",
+      "asset": "assets/gai/SplashScreen.webp"
+    },
+    {
+      "use": "WA metal emblem watermark",
+      "asset": "assets/gai/WithAuthority.webp"
+    },
+    {
+      "use": "Original match ring",
+      "asset": "assets/gai/ring.webp"
+    },
+    {
+      "use": "Original ringside presentation",
+      "asset": "assets/gai/ringoutside.webp"
+    },
+    {
+      "use": "Steel cage presentation asset",
+      "asset": "assets/gai/SteelCageRing.webp"
+    },
+    {
+      "use": "Generic page back",
+      "asset": "assets/gai/card-back-page.webp"
+    },
+    {
+      "use": "Playbook front",
+      "asset": "assets/gai/playbook-front.webp"
+    },
+    {
+      "use": "Playbook back",
+      "asset": "assets/gai/playbook-back.webp"
+    },
+    {
+      "use": "Momentum page back",
+      "asset": "assets/gai/momentum-back.webp"
+    },
+    {
+      "use": "Special page back",
+      "asset": "assets/gai/specials-back.webp"
+    },
+    {
+      "use": "Superstar page back",
+      "asset": "assets/gai/superstar-back.webp"
+    },
+    {
+      "use": "Agility branding",
+      "asset": "assets/gai/Agility-back.webp"
+    },
+    {
+      "use": "Knowledge branding",
+      "asset": "assets/gai/Knowledge-back.webp"
+    },
+    {
+      "use": "Strength branding",
+      "asset": "assets/gai/Strength-back.webp"
+    },
+    {
+      "use": "Strike branding",
+      "asset": "assets/gai/Strike-back.webp"
+    },
+    {
+      "use": "Technical branding",
+      "asset": "assets/gai/Technical-back.webp"
+    },
+    {
+      "use": "First Edition booster",
+      "asset": "assets/gai/Sales-BoosterPack.webp"
+    },
+    {
+      "use": "Second Edition booster",
+      "asset": "assets/gai/Sales-BoosterPack2E.webp"
+    },
+    {
+      "use": "No Way Out booster",
+      "asset": "assets/gai/Sales-BoosterPackEX1.webp"
+    },
+    {
+      "use": "TLC booster",
+      "asset": "assets/gai/Sales-BoosterPackEX2.webp"
+    },
+    {
+      "use": "Unforgiven booster",
+      "asset": "assets/gai/Sales-BoosterPackEX3.webp"
+    },
+    {
+      "use": "WA News logo",
+      "asset": "assets/gai/WANewsLogo.webp"
+    },
+    {
+      "use": "WA News title",
+      "asset": "assets/gai/wanewstitle.webp"
+    }
+  ],
+  "pending": [
+    {
+      "group": "50 non-JPEG-wrapper .gai files",
+      "detail": "Require separate palette, mask or animation decoding before they can be safely assigned."
+    },
+    {
+      "group": "Original online interface branding",
+      "detail": "Account, faction, trading and matchmaking screens are intentionally excluded with the online modes."
+    },
+    {
+      "group": "Original paid-store interface branding",
+      "detail": "Store purchase screens are intentionally excluded; booster artwork is retained in the victory-reward system."
+    }
+  ]
+}

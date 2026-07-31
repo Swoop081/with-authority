@@ -1,9 +1,30 @@
 {
-  "name": "With Authority Mobile v0.9.32",
-  "short_name": "WA v0.9.32",
+  "name": "With Authority! Mobile v0.9.54",
+  "short_name": "WA Mobile",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#050505",
   "theme_color": "#050505",
-  "description": "Private mobile preservation and testing build."
+  "description": "Private offline mobile preservation and testing build.",
+  "id": "./",
+  "scope": "./",
+  "orientation": "any",
+  "categories": [
+    "games"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/wa-mobile-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/wa-mobile-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }

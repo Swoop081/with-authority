@@ -1,0 +1,15 @@
+{
+  "version": "v0.9.37",
+  "decodedSources": [
+    "NewPlayerGuide.gac",
+    "RulesEX1.gac",
+    "news-newuserguide.gan",
+    "WAMain.dll embedded strings",
+    "PlaybookTutorial.gaj",
+    "TrainerTutorial.gaj",
+    "PracticePages.gaj"
+  ],
+  "audioExcluded": true,
+  "onlineSystemsExcluded": true,
+  "notes": "This guide is a structured preservation reference. It distinguishes verified original rules from partially implemented mobile systems."
+}

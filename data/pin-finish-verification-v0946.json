@@ -1,0 +1,19 @@
+{
+  "version": "v0.9.46",
+  "title": "Pin and Match-Finish Verification Pass",
+  "implemented": [
+    "centralized pin score",
+    "persistent AffectPinScore modifiers",
+    "source-script direct add/subtract handlers",
+    "pin score breakdown logging",
+    "existing pin cost and referee rules retained"
+  ],
+  "provisional": [
+    "The base executable PinScore arithmetic remains inferred because the closed binary does not expose a readable formula. Source-card AffectPinScore modifiers are authoritative."
+  ],
+  "tests": {
+    "javascript_syntax": "pending",
+    "archive_integrity": "pending",
+    "pin_modifier_static_probes": "pending"
+  }
+}

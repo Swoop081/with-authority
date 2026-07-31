@@ -1,0 +1,66 @@
+{
+  "version": "v0.9.52",
+  "title": "Final Preservation Audit",
+  "generated": "2026-07-31",
+  "summary": {
+    "passes": 7,
+    "warnings": 2,
+    "failures": 0
+  },
+  "checks": [
+    {
+      "name": "Runtime card catalogue",
+      "status": "pass",
+      "detail": "907 cards loaded; expected 907"
+    },
+    {
+      "name": "Authentic starter packages",
+      "status": "pass",
+      "detail": "65 starter packages loaded; expected 65"
+    },
+    {
+      "name": "Original playable roster",
+      "status": "pass",
+      "detail": "35 roster mappings loaded; expected 35"
+    },
+    {
+      "name": "Starter card resolution",
+      "status": "pass",
+      "detail": "4786 entries resolved; 0 unresolved"
+    },
+    {
+      "name": "Home-screen icons",
+      "status": "pass",
+      "detail": "180px Apple touch icon and 192/512px PWA icons generated"
+    },
+    {
+      "name": "Offline service worker",
+      "status": "pass",
+      "detail": "Service worker present"
+    },
+    {
+      "name": "GitHub Pages root",
+      "status": "pass",
+      "detail": ".nojekyll present"
+    },
+    {
+      "name": "Authoritative rarity metadata",
+      "status": "warning",
+      "detail": "865 of 907 runtime cards are mapped to authoritative CardList metadata; remaining records are non-booster/development or unmatched"
+    },
+    {
+      "name": "Hidden executable pin formula",
+      "status": "warning",
+      "detail": "Original card-specific pin modifiers are implemented, but the executable base PinScore arithmetic remains provisional"
+    }
+  ],
+  "scope": [
+    "35 original Superstars",
+    "65 authentic starter decks",
+    "907 runtime cards",
+    "fixed Lead Off hands",
+    "offline/PWA structure",
+    "home-screen icon integration"
+  ],
+  "note": "Static preservation audit. Full device-specific iPhone Safari testing still requires user testing on the target device."
+}

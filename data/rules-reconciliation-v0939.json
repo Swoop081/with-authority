@@ -1,0 +1,23 @@
+{
+  "version":"v0.9.39",
+  "title":"Original Rules Reconciliation Pass 2",
+  "implemented":[
+    "Referee distraction prevents warnings, pin counts, and accepted submissions.",
+    "Playing a Referee Special ends Distract The Referee.",
+    "At five or more Warnings, each new warning event triggers a disqualification check at 5% per current Warning.",
+    "Original warning values are parsed from card text and applied unless the referee is distracted.",
+    "Ric Flair gains 3 Attitude when the opponent receives a Warning.",
+    "Custom playbook copy limits now combine cards that explicitly Count As the same move.",
+    "Pin scoring is centralized and uses health loss, momentum difference, and a recent finisher modifier."
+  ],
+  "sourceEvidence":[
+    "Distract The Referee: distracted referees do not give warnings, count pins, or accept submissions.",
+    "Disqualification rule page: once at 5 or more Warnings, chance is 5% per Warning.",
+    "Counts As wording on original Trademark and move variants."
+  ],
+  "stillUnderAudit":[
+    "The exact internal Pin_Score arithmetic has not yet been recovered from executable code; the centralized formula remains marked provisional.",
+    "Individual submission pages can override damage, release, Autocounter cost, or inability to submit and require card-by-card script translation.",
+    "Some warning effects use conditional or random values and need dedicated interpreters rather than text parsing."
+  ]
+}

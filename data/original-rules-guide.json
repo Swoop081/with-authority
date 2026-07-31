@@ -1,0 +1,264 @@
+{
+  "version": "v0.9.38",
+  "title": "Original Rules & Help Guide",
+  "sources": [
+    {
+      "name": "WAMain.dll embedded help",
+      "type": "primary",
+      "scope": "Playbooks, page types, match controls, status rules, pinning, autocountering"
+    },
+    {
+      "name": "NewPlayerGuide.gac / news-newuserguide.gan",
+      "type": "primary",
+      "scope": "Original new-player guide resources and interface layout"
+    },
+    {
+      "name": "RulesEX1.gac",
+      "type": "primary",
+      "scope": "No Way Out expansion rules and terminology"
+    },
+    {
+      "name": "Original tutorial and practice .gaj scenarios",
+      "type": "primary",
+      "scope": "Guided playbook, trainer and practice flows"
+    }
+  ],
+  "sections": [
+    {
+      "id": "playbooks",
+      "title": "Playbooks and Lead Off Pages",
+      "rules": [
+        {
+          "rule": "A legal playbook contains at least 55 pages and exactly one Superstar page.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "The Lead Off area contains up to five chosen starting pages. Any page except a Superstar may be placed there.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "The rest of the playbook is shuffled at the beginning of the game.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "One random page is drawn from the playbook at the beginning of each turn.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Authentic starter packages preserve their original Superstar, page order, duplicate quantities and fixed Lead Off five.",
+          "source": "Recovered starter .gap packages + CardList.gal"
+        }
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "Page Types",
+      "rules": [
+        {
+          "rule": "Momentum pages increase a wrestler\u2019s Momentum and may only be played while that wrestler is in control.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Move pages deal damage and may also be played as counters to an opponent\u2019s Move page.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Special pages provide bonuses or abilities described by their visible card text.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Finisher Move pages are powerful Move pages restricted to specific Superstars.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Every playbook has exactly one Superstar page; Superstar pages define Hit Points, abilities and restrictions.",
+          "source": "WAMain.dll"
+        }
+      ]
+    },
+    {
+      "id": "turns",
+      "title": "Control and Turn Flow",
+      "rules": [
+        {
+          "rule": "Only the wrestler in control may play Momentum pages.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "A wrestler may play at most one Momentum page before attempting a move. Another Momentum page becomes available only after a successful move while control is retained.",
+          "source": "Original gameplay behaviour, now locked for the mobile preservation build"
+        },
+        {
+          "rule": "Ending a turn gives the opponent the opportunity to play and begins their turn draw.",
+          "source": "WAMain.dll embedded controls"
+        },
+        {
+          "rule": "Letting go of a submission causes the hold to connect, retains control and ends the Specials phase.",
+          "source": "WAMain.dll embedded controls"
+        }
+      ]
+    },
+    {
+      "id": "momentum",
+      "title": "Momentum",
+      "rules": [
+        {
+          "rule": "Total Momentum is the sum of Ability Momentum and Attitude Momentum.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "The five Ability Momentum types are Agility, Knowledge, Strength, Strike and Technical.",
+          "source": "Original card and Superstar data"
+        },
+        {
+          "rule": "A move\u2019s method requirements must be paid from the named Ability Momentum pools before flexible cost is paid.",
+          "source": "Original card scripts and mobile fidelity audit"
+        },
+        {
+          "rule": "The original help states that connecting with a Move gains 1 Attitude and being hit loses 1 Attitude, subject to card-specific modifiers.",
+          "source": "WAMain.dll"
+        }
+      ]
+    },
+    {
+      "id": "counters",
+      "title": "Counters and Autocounter",
+      "rules": [
+        {
+          "rule": "Move pages can counter an opponent\u2019s Move page when their counter conditions are met.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Autocounter requires ditching seven pages from the hand unless a Superstar or card changes that cost.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "A page stating that it cannot be countered prevents Move counters, Special counters and Autocounter.",
+          "source": "RulesEX1.gac"
+        },
+        {
+          "rule": "Counter-only pages cannot be played as ordinary offensive moves.",
+          "source": "Original card scripts"
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "title": "Match Status and Damage",
+      "rules": [
+        {
+          "rule": "Move damage reduces Hit Points. Lower Hit Points make a wrestler easier to pin.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "A stunned Superstar cannot play moves, counters or Specials unless a page explicitly permits it.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "A Superstar on the mat is vulnerable to move types that require that position.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "While in submission, submission damage is applied to the targeted body part until the wrestler escapes, counters or the hold is released.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Warnings and disqualification points are tracked separately; applicable match rules perform disqualification checks.",
+          "source": "WAMain.dll"
+        }
+      ]
+    },
+    {
+      "id": "pins",
+      "title": "Pins and Submissions",
+      "rules": [
+        {
+          "rule": "The first pin attempt is free. Each later pin attempt costs Attitude equal to the number of previous pin attempts.",
+          "source": "WAMain.dll"
+        },
+        {
+          "rule": "Pin success is influenced by Hit Points and Momentum, with card and Superstar effects able to modify the attempt.",
+          "source": "Original executable functions and card scripts"
+        },
+        {
+          "rule": "A wrestler taps out when submission points on a body part exceed the applicable Hit Point threshold.",
+          "source": "WAMain.dll"
+        }
+      ]
+    },
+    {
+      "id": "specials",
+      "title": "Special Page Limits",
+      "rules": [
+        {
+          "rule": "Event Specials may each be played only once per match, with no more than three Event Specials total per player.",
+          "source": "RulesEX1.gac"
+        },
+        {
+          "rule": "Each player may have only one Support Special in play at a time.",
+          "source": "RulesEX1.gac"
+        },
+        {
+          "rule": "Only one Referee Special may be in play at a time, and Referee Specials leave play when distracted.",
+          "source": "RulesEX1.gac"
+        },
+        {
+          "rule": "Pages that \u2018count as\u2019 another named page share the same combined playbook copy limit; pages with exactly the same name always count as each other.",
+          "source": "RulesEX1.gac"
+        }
+      ]
+    }
+  ],
+  "verification": [
+    {
+      "system": "Exact starter deck contents",
+      "status": "verified",
+      "detail": "65 recovered starter packages; authoritative ID mapping through CardList.gal."
+    },
+    {
+      "system": "Fixed Lead Off five",
+      "status": "verified",
+      "detail": "Original starter order preserved; Superstar excluded from hand; remainder shuffled."
+    },
+    {
+      "system": "Beginning-of-turn draw",
+      "status": "implemented",
+      "detail": "One random page drawn at the start of each new turn."
+    },
+    {
+      "system": "One Momentum before a move",
+      "status": "implemented",
+      "detail": "Strict Momentum-to-move action window enforced for player and CPU."
+    },
+    {
+      "system": "Method-specific cost payment",
+      "status": "implemented",
+      "detail": "Named Ability Momentum is consumed before flexible momentum."
+    },
+    {
+      "system": "Autocounter",
+      "status": "implemented",
+      "detail": "Seven-page hand ditch implemented; Jeff Hardy uses six; Big Show draw trigger supported."
+    },
+    {
+      "system": "Pins",
+      "status": "implemented",
+      "detail": "First attempt free; later attempts spend Attitude equal to previous attempts. Formula modifiers remain under continuing card audit."
+    },
+    {
+      "system": "Submission thresholds",
+      "status": "partial",
+      "detail": "Body-part holds exist; exact tap-out threshold and all exceptions require final audit."
+    },
+    {
+      "system": "Event / Support / Referee limits",
+      "status": "implemented",
+      "detail": "Event once-per-name and three-total limits, one Support per player, and one Referee globally are enforced."
+    },
+    {
+      "system": "Warnings and disqualification",
+      "status": "partial",
+      "detail": "Warnings are tracked, but final disqualification thresholds and distracted-referee exceptions still require exact source verification."
+    }
+  ]
+}

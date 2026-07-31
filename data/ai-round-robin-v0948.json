@@ -1,0 +1,690 @@
+{
+  "version": "v0.9.48",
+  "starterVariantsAudited": 65,
+  "orderedMatchups": 4160,
+  "simulations": 12480,
+  "repetitionsPerOrderedMatchup": 3,
+  "deadlocks": 806,
+  "turnLimitDraws": 0,
+  "finishReasons": {
+    "pin": 11674,
+    "deadlock": 806
+  },
+  "averageWinRate": 46.8,
+  "highestWinRate": {
+    "title": "Tajiri LE Starter",
+    "w": 331,
+    "l": 52,
+    "d": 1,
+    "matches": 384,
+    "winRate": 86.2,
+    "avgTurns": 58.6,
+    "avgMoves": 18.3
+  },
+  "lowestWinRate": {
+    "title": "Ric Flair Unforgiven Starter",
+    "w": 34,
+    "l": 277,
+    "d": 73,
+    "matches": 384,
+    "winRate": 8.9,
+    "avgTurns": 107.3,
+    "avgMoves": 24.6
+  },
+  "results": [
+    {
+      "title": "Tajiri LE Starter",
+      "w": 331,
+      "l": 52,
+      "d": 1,
+      "matches": 384,
+      "winRate": 86.2,
+      "avgTurns": 58.6,
+      "avgMoves": 18.3
+    },
+    {
+      "title": "Matt Hardy Starter!",
+      "w": 319,
+      "l": 64,
+      "d": 1,
+      "matches": 384,
+      "winRate": 83.1,
+      "avgTurns": 65.4,
+      "avgMoves": 20.2
+    },
+    {
+      "title": "Matt Hardy Starter with 2E",
+      "w": 314,
+      "l": 69,
+      "d": 1,
+      "matches": 384,
+      "winRate": 81.8,
+      "avgTurns": 66.4,
+      "avgMoves": 20.6
+    },
+    {
+      "title": "Jeff Hardy Starter!",
+      "w": 292,
+      "l": 86,
+      "d": 6,
+      "matches": 384,
+      "winRate": 76.0,
+      "avgTurns": 71.8,
+      "avgMoves": 20.9
+    },
+    {
+      "title": "Scotty 2 Hotty Starter%",
+      "w": 292,
+      "l": 86,
+      "d": 6,
+      "matches": 384,
+      "winRate": 76.0,
+      "avgTurns": 71.8,
+      "avgMoves": 21.6
+    },
+    {
+      "title": "Jeff Hardy Starter with 2E",
+      "w": 277,
+      "l": 105,
+      "d": 2,
+      "matches": 384,
+      "winRate": 72.1,
+      "avgTurns": 73.4,
+      "avgMoves": 21.0
+    },
+    {
+      "title": "X-Pac Starter",
+      "w": 264,
+      "l": 115,
+      "d": 5,
+      "matches": 384,
+      "winRate": 68.8,
+      "avgTurns": 81.9,
+      "avgMoves": 25.7
+    },
+    {
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "w": 261,
+      "l": 121,
+      "d": 2,
+      "matches": 384,
+      "winRate": 68.0,
+      "avgTurns": 79.2,
+      "avgMoves": 22.0
+    },
+    {
+      "title": "The Undertaker Starter%",
+      "w": 258,
+      "l": 113,
+      "d": 13,
+      "matches": 384,
+      "winRate": 67.2,
+      "avgTurns": 86.5,
+      "avgMoves": 26.7
+    },
+    {
+      "title": "Booker T Starter",
+      "w": 256,
+      "l": 125,
+      "d": 3,
+      "matches": 384,
+      "winRate": 66.7,
+      "avgTurns": 80.0,
+      "avgMoves": 22.1
+    },
+    {
+      "title": "Rob Van Dam Starter\"",
+      "w": 249,
+      "l": 123,
+      "d": 12,
+      "matches": 384,
+      "winRate": 64.8,
+      "avgTurns": 88.0,
+      "avgMoves": 26.0
+    },
+    {
+      "title": "Stone Cold Starter.",
+      "w": 244,
+      "l": 130,
+      "d": 10,
+      "matches": 384,
+      "winRate": 63.5,
+      "avgTurns": 78.3,
+      "avgMoves": 20.8
+    },
+    {
+      "title": "The Rock Starter",
+      "w": 244,
+      "l": 127,
+      "d": 13,
+      "matches": 384,
+      "winRate": 63.5,
+      "avgTurns": 86.1,
+      "avgMoves": 26.2
+    },
+    {
+      "title": "Rob Van Dam Starter with 2E",
+      "w": 239,
+      "l": 134,
+      "d": 11,
+      "matches": 384,
+      "winRate": 62.2,
+      "avgTurns": 86.3,
+      "avgMoves": 23.7
+    },
+    {
+      "title": "Jeff Hardy Starter!",
+      "w": 238,
+      "l": 139,
+      "d": 7,
+      "matches": 384,
+      "winRate": 62.0,
+      "avgTurns": 77.2,
+      "avgMoves": 19.0
+    },
+    {
+      "title": "Kane Starter",
+      "w": 238,
+      "l": 134,
+      "d": 12,
+      "matches": 384,
+      "winRate": 62.0,
+      "avgTurns": 86.4,
+      "avgMoves": 25.2
+    },
+    {
+      "title": "The Big Show starter#",
+      "w": 236,
+      "l": 131,
+      "d": 17,
+      "matches": 384,
+      "winRate": 61.5,
+      "avgTurns": 87.7,
+      "avgMoves": 25.7
+    },
+    {
+      "title": "Rob Van Dam Starter\"",
+      "w": 233,
+      "l": 145,
+      "d": 6,
+      "matches": 384,
+      "winRate": 60.7,
+      "avgTurns": 84.7,
+      "avgMoves": 24.0
+    },
+    {
+      "title": "Kevin Nash Starter",
+      "w": 232,
+      "l": 136,
+      "d": 16,
+      "matches": 384,
+      "winRate": 60.4,
+      "avgTurns": 87.8,
+      "avgMoves": 23.3
+    },
+    {
+      "title": "Goldust Starter",
+      "w": 229,
+      "l": 143,
+      "d": 12,
+      "matches": 384,
+      "winRate": 59.6,
+      "avgTurns": 85.7,
+      "avgMoves": 25.2
+    },
+    {
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "w": 227,
+      "l": 144,
+      "d": 13,
+      "matches": 384,
+      "winRate": 59.1,
+      "avgTurns": 88.3,
+      "avgMoves": 24.3
+    },
+    {
+      "title": "Eddie Guerrero Gift Starter%",
+      "w": 225,
+      "l": 151,
+      "d": 8,
+      "matches": 384,
+      "winRate": 58.6,
+      "avgTurns": 85.1,
+      "avgMoves": 21.9
+    },
+    {
+      "title": "Lita Starter",
+      "w": 222,
+      "l": 148,
+      "d": 14,
+      "matches": 384,
+      "winRate": 57.8,
+      "avgTurns": 87.6,
+      "avgMoves": 24.4
+    },
+    {
+      "title": "Tazz Starter",
+      "w": 217,
+      "l": 151,
+      "d": 16,
+      "matches": 384,
+      "winRate": 56.5,
+      "avgTurns": 85.9,
+      "avgMoves": 25.7
+    },
+    {
+      "title": "Edge 2nd Edition Starter",
+      "w": 211,
+      "l": 157,
+      "d": 16,
+      "matches": 384,
+      "winRate": 54.9,
+      "avgTurns": 89.9,
+      "avgMoves": 24.5
+    },
+    {
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "w": 200,
+      "l": 178,
+      "d": 6,
+      "matches": 384,
+      "winRate": 52.1,
+      "avgTurns": 87.2,
+      "avgMoves": 23.3
+    },
+    {
+      "title": "The Big Show 2nd Edition Starter#",
+      "w": 196,
+      "l": 169,
+      "d": 19,
+      "matches": 384,
+      "winRate": 51.0,
+      "avgTurns": 92.5,
+      "avgMoves": 24.6
+    },
+    {
+      "title": "The Hurricane Starter",
+      "w": 191,
+      "l": 180,
+      "d": 13,
+      "matches": 384,
+      "winRate": 49.7,
+      "avgTurns": 87.5,
+      "avgMoves": 20.7
+    },
+    {
+      "title": "The Hurricane Unforgiven Starter",
+      "w": 190,
+      "l": 179,
+      "d": 15,
+      "matches": 384,
+      "winRate": 49.5,
+      "avgTurns": 88.6,
+      "avgMoves": 23.5
+    },
+    {
+      "title": "Lance Storm Starter",
+      "w": 189,
+      "l": 178,
+      "d": 17,
+      "matches": 384,
+      "winRate": 49.2,
+      "avgTurns": 92.1,
+      "avgMoves": 25.3
+    },
+    {
+      "title": "William Regal Starter#",
+      "w": 183,
+      "l": 193,
+      "d": 8,
+      "matches": 384,
+      "winRate": 47.7,
+      "avgTurns": 88.3,
+      "avgMoves": 21.5
+    },
+    {
+      "title": "D-Von Dudley Starter with 2E",
+      "w": 180,
+      "l": 173,
+      "d": 31,
+      "matches": 384,
+      "winRate": 46.9,
+      "avgTurns": 95.7,
+      "avgMoves": 25.1
+    },
+    {
+      "title": "Eddie Guerrero Starter%",
+      "w": 179,
+      "l": 185,
+      "d": 20,
+      "matches": 384,
+      "winRate": 46.6,
+      "avgTurns": 90.8,
+      "avgMoves": 22.5
+    },
+    {
+      "title": "Trish Stratus Unforgiven Starter",
+      "w": 175,
+      "l": 192,
+      "d": 17,
+      "matches": 384,
+      "winRate": 45.6,
+      "avgTurns": 96.1,
+      "avgMoves": 25.3
+    },
+    {
+      "title": "Rikishi Phatu Starter4",
+      "w": 172,
+      "l": 186,
+      "d": 26,
+      "matches": 384,
+      "winRate": 44.8,
+      "avgTurns": 95.3,
+      "avgMoves": 27.4
+    },
+    {
+      "title": "D-Von Dudley Starter#",
+      "w": 170,
+      "l": 196,
+      "d": 18,
+      "matches": 384,
+      "winRate": 44.3,
+      "avgTurns": 93.5,
+      "avgMoves": 24.9
+    },
+    {
+      "title": "Chris Jericho Starter\"",
+      "w": 168,
+      "l": 177,
+      "d": 39,
+      "matches": 384,
+      "winRate": 43.8,
+      "avgTurns": 100.3,
+      "avgMoves": 29.4
+    },
+    {
+      "title": "Edge Starter",
+      "w": 168,
+      "l": 188,
+      "d": 28,
+      "matches": 384,
+      "winRate": 43.8,
+      "avgTurns": 96.1,
+      "avgMoves": 26.0
+    },
+    {
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "w": 166,
+      "l": 181,
+      "d": 37,
+      "matches": 384,
+      "winRate": 43.2,
+      "avgTurns": 97.9,
+      "avgMoves": 27.2
+    },
+    {
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "w": 165,
+      "l": 190,
+      "d": 29,
+      "matches": 384,
+      "winRate": 43.0,
+      "avgTurns": 96.9,
+      "avgMoves": 26.0
+    },
+    {
+      "title": "Lita 2nd Edition Starter",
+      "w": 160,
+      "l": 198,
+      "d": 26,
+      "matches": 384,
+      "winRate": 41.7,
+      "avgTurns": 95.2,
+      "avgMoves": 24.9
+    },
+    {
+      "title": "Hulk Hogan Starter!",
+      "w": 154,
+      "l": 188,
+      "d": 42,
+      "matches": 384,
+      "winRate": 40.1,
+      "avgTurns": 99.5,
+      "avgMoves": 25.3
+    },
+    {
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "w": 151,
+      "l": 206,
+      "d": 27,
+      "matches": 384,
+      "winRate": 39.3,
+      "avgTurns": 98.4,
+      "avgMoves": 25.7
+    },
+    {
+      "title": "Triple H 2nd Edition Starter/",
+      "w": 141,
+      "l": 212,
+      "d": 31,
+      "matches": 384,
+      "winRate": 36.7,
+      "avgTurns": 95.8,
+      "avgMoves": 24.7
+    },
+    {
+      "title": "Ric Flair Starter",
+      "w": 138,
+      "l": 215,
+      "d": 31,
+      "matches": 384,
+      "winRate": 35.9,
+      "avgTurns": 100.4,
+      "avgMoves": 24.8
+    },
+    {
+      "title": "Christian Starter",
+      "w": 133,
+      "l": 216,
+      "d": 35,
+      "matches": 384,
+      "winRate": 34.6,
+      "avgTurns": 98.3,
+      "avgMoves": 24.2
+    },
+    {
+      "title": "Bubba Ray Dudley Starter'",
+      "w": 131,
+      "l": 237,
+      "d": 16,
+      "matches": 384,
+      "winRate": 34.1,
+      "avgTurns": 92.9,
+      "avgMoves": 22.1
+    },
+    {
+      "title": "Trish Stratus Starter",
+      "w": 129,
+      "l": 229,
+      "d": 26,
+      "matches": 384,
+      "winRate": 33.6,
+      "avgTurns": 98.0,
+      "avgMoves": 21.2
+    },
+    {
+      "title": "Booker T Starter",
+      "w": 124,
+      "l": 221,
+      "d": 39,
+      "matches": 384,
+      "winRate": 32.3,
+      "avgTurns": 101.2,
+      "avgMoves": 25.1
+    },
+    {
+      "title": "Booker T Starter with 2E",
+      "w": 119,
+      "l": 216,
+      "d": 49,
+      "matches": 384,
+      "winRate": 31.0,
+      "avgTurns": 105.1,
+      "avgMoves": 25.6
+    },
+    {
+      "title": "Kane 2nd Edition Starter",
+      "w": 119,
+      "l": 232,
+      "d": 33,
+      "matches": 384,
+      "winRate": 31.0,
+      "avgTurns": 97.4,
+      "avgMoves": 23.1
+    },
+    {
+      "title": "Test Starter",
+      "w": 119,
+      "l": 231,
+      "d": 34,
+      "matches": 384,
+      "winRate": 31.0,
+      "avgTurns": 101.9,
+      "avgMoves": 24.6
+    },
+    {
+      "title": "Test Starter with 2E",
+      "w": 114,
+      "l": 230,
+      "d": 40,
+      "matches": 384,
+      "winRate": 29.7,
+      "avgTurns": 102.2,
+      "avgMoves": 26.3
+    },
+    {
+      "title": "Spike Dudley Starter",
+      "w": 105,
+      "l": 229,
+      "d": 50,
+      "matches": 384,
+      "winRate": 27.3,
+      "avgTurns": 103.5,
+      "avgMoves": 26.7
+    },
+    {
+      "title": "Test Starter",
+      "w": 92,
+      "l": 246,
+      "d": 46,
+      "matches": 384,
+      "winRate": 24.0,
+      "avgTurns": 102.9,
+      "avgMoves": 26.4
+    },
+    {
+      "title": "Triple H Starter/",
+      "w": 91,
+      "l": 233,
+      "d": 60,
+      "matches": 384,
+      "winRate": 23.7,
+      "avgTurns": 103.7,
+      "avgMoves": 25.1
+    },
+    {
+      "title": "Christian Starter with 2E",
+      "w": 86,
+      "l": 250,
+      "d": 48,
+      "matches": 384,
+      "winRate": 22.4,
+      "avgTurns": 102.1,
+      "avgMoves": 24.8
+    },
+    {
+      "title": "The Undertaker 2nd Edition Starter%",
+      "w": 86,
+      "l": 255,
+      "d": 43,
+      "matches": 384,
+      "winRate": 22.4,
+      "avgTurns": 102.5,
+      "avgMoves": 26.7
+    },
+    {
+      "title": "Bradshaw Starter",
+      "w": 84,
+      "l": 250,
+      "d": 50,
+      "matches": 384,
+      "winRate": 21.9,
+      "avgTurns": 100.9,
+      "avgMoves": 23.9
+    },
+    {
+      "title": "Kurt Angle Starter!",
+      "w": 80,
+      "l": 256,
+      "d": 48,
+      "matches": 384,
+      "winRate": 20.8,
+      "avgTurns": 105.3,
+      "avgMoves": 26.3
+    },
+    {
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "w": 69,
+      "l": 264,
+      "d": 51,
+      "matches": 384,
+      "winRate": 18.0,
+      "avgTurns": 102.2,
+      "avgMoves": 23.4
+    },
+    {
+      "title": "Bubba Ray Dudley Starter'",
+      "w": 65,
+      "l": 274,
+      "d": 45,
+      "matches": 384,
+      "winRate": 16.9,
+      "avgTurns": 102.8,
+      "avgMoves": 23.6
+    },
+    {
+      "title": "The Rock 2nd Edition Starter",
+      "w": 57,
+      "l": 268,
+      "d": 59,
+      "matches": 384,
+      "winRate": 14.8,
+      "avgTurns": 104.8,
+      "avgMoves": 24.9
+    },
+    {
+      "title": "The Rock Starter",
+      "w": 53,
+      "l": 267,
+      "d": 64,
+      "matches": 384,
+      "winRate": 13.8,
+      "avgTurns": 109.0,
+      "avgMoves": 25.5
+    },
+    {
+      "title": "Ric Flair Unforgiven Starter",
+      "w": 34,
+      "l": 277,
+      "d": 73,
+      "matches": 384,
+      "winRate": 8.9,
+      "avgTurns": 107.3,
+      "avgMoves": 24.6
+    }
+  ],
+  "notes": [
+    "Simulation uses authentic starter composition, fixed Lead Off five, beginning-of-turn draw, one Momentum page before a move, method-specific payment, counters, damage and pin attempts.",
+    "Complex card choices and every persistent effect are approximated for balance diagnostics; this is not a replacement for runtime rules certification."
+  ]
+}

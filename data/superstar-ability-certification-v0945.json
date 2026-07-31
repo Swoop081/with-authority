@@ -1,0 +1,295 @@
+{
+  "version": "v0.9.45",
+  "superstarsAudited": 35,
+  "callableImplemented": 19,
+  "passivesImplemented": 16,
+  "remaining": 0,
+  "hpCorrections": 1,
+  "notes": [
+    "Corrected Scotty 2 Hotty to the authoritative ScottyTooHottie.gac Superstar page (61 HP).",
+    "Added exact callable ability handlers for Kevin Nash, Trish Stratus, Bubba Ray Dudley, D-Von Dudley, The Hurricane, and Scotty 2 Hotty.",
+    "Existing exact passive abilities are now identified as active rather than shown as merely preserved."
+  ],
+  "superstars": [
+    {
+      "key": "austin",
+      "name": "STONE COLD STEVE AUSTIN",
+      "hp": 70,
+      "sourceFile": "stsa.gac",
+      "ability": "You draw a page when you play a Damage special with a move that connects.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "rock",
+      "name": "THE ROCK",
+      "hp": 70,
+      "sourceFile": "TheRock.gac",
+      "ability": "Special: The People\r\nDraw two pages. Use this ability once per game.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "tripleh",
+      "name": "TRIPLE H",
+      "hp": 70,
+      "sourceFile": "TripleH.gac",
+      "ability": "Special: Be The Game\r\nName a page. That page is drawn from your Playbook and put into your hand. Use this ability once per game.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "undertaker",
+      "name": "THE UNDERTAKER",
+      "hp": 73,
+      "sourceFile": "TheUndertaker.gac",
+      "ability": "The first five times your opponent counters one of your moves that cost 6 or more to play, you draw a page.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "kane",
+      "name": "KANE",
+      "hp": 75,
+      "sourceFile": "Kane.gac",
+      "ability": "Kane takes -1 damage from Impact moves and ignores the first Stun he receives.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "angle",
+      "name": "KURT ANGLE",
+      "hp": 67,
+      "sourceFile": "KurtAngle.gac",
+      "ability": "At the start of turns 1 and 20, Kurt Angle gets +1 Knowledge.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "jericho",
+      "name": "CHRIS JERICHO",
+      "hp": 65,
+      "sourceFile": "ChrisJericho.gac",
+      "ability": "Special: Jerichoholics\r\nLose 1 Attitude and choose a Momentum from your playbook. That page is drawn. Use this ability three times per match and only if you have at least 1 Attitude.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "benoit",
+      "name": "CHRIS BENOIT",
+      "hp": 68,
+      "sourceFile": "ChrisBenoit2E.gac",
+      "ability": "Each time an opponent's body part takes 5 damage, you draw a page. (This happens when that body part takes 14 damage, 21 damage, and so on.)",
+      "status": "Passive exact"
+    },
+    {
+      "key": "bigshow",
+      "name": "BIG SHOW",
+      "hp": 78,
+      "sourceFile": "TheBigShow.gac",
+      "ability": "The first 3 times you Autocounter without playing a Special that turn, you draw 3 pages.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "bookert",
+      "name": "BOOKER T",
+      "hp": 70,
+      "sourceFile": "BookerT.gac",
+      "ability": "Special: Can You Dig It?\r\n\r\nChoose a move page in hand. That page is ditched and you draw a page. This ability works nine times per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "edge",
+      "name": "EDGE",
+      "hp": 66,
+      "sourceFile": "Edge.gac",
+      "ability": "Whenever you attempt a pin after turn 10, you gain 1 Attitude (including pin attempts from moves or specials that pin).",
+      "status": "Passive exact"
+    },
+    {
+      "key": "christian",
+      "name": "CHRISTIAN",
+      "hp": 60,
+      "sourceFile": "Christian.gac",
+      "ability": "\"Un-Americans\" Member\r\nIf you don't have Warnings, your opponent can't play \"Plead to the Referee\" or \"Good Officiating!\"\r\nSpecial: On Your Own\r\nThe number of Warnings you have is reset to 0. Use twice per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "eddie",
+      "name": "EDDIE GUERRERO",
+      "hp": 63,
+      "sourceFile": "EddieGuerrero.gac",
+      "ability": "When you end a turn without playing a move (or keeping a Hold applied), you lose up to 4 Attitude Momentum.  When your opponent does this after turn 5, you draw a page.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "rvd",
+      "name": "ROB VAN DAM",
+      "hp": 64,
+      "sourceFile": "RobVanDam.gac",
+      "ability": "Special: R-V-D\r\nUse once per match after turn 10, while in control, and before you play a move. Draw 1 page and gain 1 Attitude for each move in a row you've connected with. You can't play more pages this turn.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "flair",
+      "name": "RIC FLAIR",
+      "hp": 40,
+      "sourceFile": "RicFlair.gac",
+      "ability": "If your opponent plays a Heel page or receives a Warning, you get 3 Attitude. If your opponent has Vince McMahon in play, your moves do +2 damage.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "hogan",
+      "name": "HOLLYWOOD HULK HOGAN",
+      "hp": 70,
+      "sourceFile": "HollywoodHogan.gac",
+      "ability": "nWo Superstar. You may play only one nWo page.\r\nSpecial: \"The Icon\"\r\nUse only while in control when you have a Special in hand, up to five times per match. The least expensive Special in your hand is ditched and you gain 1 Knowledge.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "nash",
+      "name": "KEVIN NASH",
+      "hp": 40,
+      "sourceFile": "KevinNash.gac",
+      "ability": "Scott Hall Trademark\r\n\r\nAt the end of each fifth turn of the match, you gain 1 Attitude.\r\nSpecial: The Referee is removed from the game.\r\n(Heel page: cannot be played if you have played a Face page.)",
+      "status": "Callable exact"
+    },
+    {
+      "key": "jeffhardy",
+      "name": "JEFF HARDY",
+      "hp": 57,
+      "sourceFile": "JeffHardy.gac",
+      "ability": "Member of Team Xtreme\r\n\r\nJeff Hardy can Autocounter for -1 page.\r\n\r\nWhen Jeff Hardy plays a Drop move you draw a page.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "matthardy",
+      "name": "MATT HARDY",
+      "hp": 63,
+      "sourceFile": "MattHardy.gac",
+      "ability": "Member of Team Xtreme\r\n\r\nNot including the first two moves in each move string, Matt Hardy gets Crowd Support when your opponent hits you with a move.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "lita",
+      "name": "LITA",
+      "hp": 55,
+      "sourceFile": "Lita.gac",
+      "ability": "Member of Team Xtreme, Diva Superstar\r\n\r\nYou get \"Crowd Support\" when you play a Face page. When you play \"Crowd Support\" your opponent loses 1 Attitude.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "trish",
+      "name": "TRISH STRATUS",
+      "hp": 40,
+      "sourceFile": "TrishStratus.gac",
+      "ability": "Special: You can\u0092t play moves this turn. There is a 50% chance that you ditch 2 pages. Otherwise, you gain control at the end of the turn, your move next turn can't be countered by moves, and you can't use this ability again. Use this ability only when your opponent is in control and isn't playing or applying a Hold.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "bubba",
+      "name": "BUBBA RAY DUDLEY",
+      "hp": 72,
+      "sourceFile": "BubbaRayDudley.gac",
+      "ability": "You do +1 damage with Takedown moves.\r\nSpecial: \"Those Damn Dudleyz!\"\r\nChoose an Event or Unique page from your playbook. You draw that page. Use this ability twice per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "dvon",
+      "name": "D-VON DUDLEY",
+      "hp": 68,
+      "sourceFile": "DVonDudley.gac",
+      "ability": "Special: \"D-Von! Get the...\"\r\nChoose a Weapon, Ringside Special, \"Set Up A Table\" or \"Set Up A Ladder\" from your playbook. You draw that page. Use this ability twice per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "spike",
+      "name": "SPIKE DUDLEY",
+      "hp": 51,
+      "sourceFile": "SpikeDudley.gac",
+      "ability": "Spike Dudley can't play Strength moves offensively against non-Cruiserweights.\r\n\r\nWhenever you are hit with a move that does 4 or more damage, you draw a page.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "bradshaw",
+      "name": "BRADSHAW",
+      "hp": 71,
+      "sourceFile": "Bradshaw.gac",
+      "ability": "Hardcore Superstar\r\n\r\nWhen you connect with an Impact move that costs 5 or more, your opponent ditches a random special from hand (except Crowd Support) or Gameplan from play.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "goldust",
+      "name": "GOLDUST",
+      "hp": 69,
+      "sourceFile": "Goldust.gac",
+      "ability": "Special: \"The Bizarre One\"\r\n\r\nDitch your entire hand. You draw ten pages. Use this ability only once, and only after turn 20.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "lancestorm",
+      "name": "LANCE STORM",
+      "hp": 65,
+      "sourceFile": "LanceStorm.gac",
+      "ability": "Member of The Un-Americans\r\n\r\nSpecial: \"Serious\"\r\nIf your next move this turn is countered, draw a page. Use this ability 9 times per match and only when in control.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "rikishi",
+      "name": "RIKISHI",
+      "hp": 76,
+      "sourceFile": "RikishiPhatu.gac",
+      "ability": "Special: \"Sultan of Squat\"\r\nYour opponent loses 1 Momentum and a Strength or Strike Momentum page is placed in your hand. This ability works twice a match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "scotty",
+      "name": "SCOTTY 2 HOTTY",
+      "hp": 61,
+      "sourceFile": "ScottyTooHottie.gac",
+      "ability": "Special: Turn it up!\r\nChoose a Gameplan Special from your playbook; you draw it. Use only if you have connected with 2 moves in a row, once per move string and four times per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "tajiri",
+      "name": "TAJIRI",
+      "hp": 61,
+      "sourceFile": "TajiriLE.gac",
+      "ability": "Tajiri's Strike moves do +4 damage if you connected with a non-Strike move last turn.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "tazz",
+      "name": "TAZZ",
+      "hp": 70,
+      "sourceFile": "Tazz.gac",
+      "ability": "Special: Change The Mood\r\n\r\nDitch a random page and name an In Close move in your Playbook. That move is drawn to your hand. This works 2 times per match.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "test",
+      "name": "TEST",
+      "hp": 71,
+      "sourceFile": "AnotherAttitudeStar.gac",
+      "ability": "\"Un-Americans\" Member\r\n\r\nYour Impact moves do +1 damage for each other Impact move you have connected with. This count resets when you lose control.",
+      "status": "Passive exact"
+    },
+    {
+      "key": "hurricane",
+      "name": "THE HURRICANE",
+      "hp": 63,
+      "sourceFile": "TheHurricane.gac",
+      "ability": "Special: Super Powers\r\n\r\nChoose a Move in your opponent's hand. You steal it and gain enough momentum to play it until end of turn (even breaking your limits). Use once per match, after turn 5.",
+      "status": "Callable exact"
+    },
+    {
+      "key": "regal",
+      "name": "WILLIAM REGAL",
+      "hp": 68,
+      "sourceFile": "WilliamRegal.gac",
+      "ability": "Special: \"Besmirched\"\r\n\r\nOnce per game, choose \"Distract the Referee\" or \"Plead to the Ref\" and that page is played.\r\n(The play restrictions of those pages are ignored.)",
+      "status": "Callable exact"
+    },
+    {
+      "key": "xpac",
+      "name": "X-PAC",
+      "hp": 58,
+      "sourceFile": "XPac.gac",
+      "ability": "When in control, your Impact moves do up to +3 damage.\r\nSpecial: Martial Arts Pro\r\nChoose a Leg Extended move in your Playbook. That move is drawn to your hand. Use once per match.",
+      "status": "Callable exact"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "version": "v0.9.26",
+  "version": "v0.9.48",
   "source": "Original .gap product packages from WAFull.zip",
-  "notes": "Pack names, set identity, page count and product artwork are source-derived. Rarity-tier assignment remains deterministic while the original per-card rarity index is still being decoded.",
+  "notes": "Pack identity and per-card set/rarity are now decoded from original .gap packages and CardList.gal. Random pack slot recipe remains source-preserved; standard reward slots retain the current 15-page interpretation pending final executable-level probability verification.",
   "products": [
     {
       "id": "first-edition",

@@ -1,0 +1,538 @@
+{
+  "version": "v0.9.34",
+  "startersAudited": 65,
+  "simulations": 3250,
+  "hardOpeningLocks": 0,
+  "paymentFailures": 0,
+  "startersWithLegalOpening": 65,
+  "persistentPrerequisiteCards": 15,
+  "targetedRemovalCards": 7,
+  "randomDurationCards": 3,
+  "notes": [
+    "Equipment and named-page prerequisites are enforced before play.",
+    "Support, Damage Special, Gameplan, and Referee removal effects now remove matching persistent pages.",
+    "Expired and stun-removed pages move to discard rather than disappearing."
+  ],
+  "starters": [
+    {
+      "title": "Rikishi Phatu Starter4",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Booker T Starter",
+      "pages": 77,
+      "openingLegal": 5,
+      "attackPages": 77,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Booker T Starter with 2E",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Booker T Starter",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Bradshaw Starter",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 77,
+      "openingLegal": 5,
+      "attackPages": 77,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Chris Jericho Starter\"",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Christian Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Christian Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "D-Von Dudley Starter#",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "D-Von Dudley Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Eddie Guerrero Starter%",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Edge Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Edge 2nd Edition Starter",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Eddie Guerrero Gift Starter%",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Goldust Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Hulk Hogan Starter!",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Jeff Hardy Starter!",
+      "pages": 77,
+      "openingLegal": 5,
+      "attackPages": 77,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Jeff Hardy Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Jeff Hardy Starter!",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Kane Starter",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Kane 2nd Edition Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Kevin Nash Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Kurt Angle Starter!",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Lance Storm Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Lita Starter",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Lita 2nd Edition Starter",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Matt Hardy Starter!",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Matt Hardy Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Ric Flair Unforgiven Starter",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Ric Flair Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Rob Van Dam Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Scotty 2 Hotty Starter%",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Spike Dudley Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Stone Cold Starter.",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Tajiri LE Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Tazz Starter",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Test Starter",
+      "pages": 77,
+      "openingLegal": 5,
+      "attackPages": 77,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Test Starter with 2E",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Test Starter",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Big Show starter#",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Big Show 2nd Edition Starter#",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Hurricane Unforgiven Starter",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Hurricane Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 2,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Rock Starter",
+      "pages": 70,
+      "openingLegal": 5,
+      "attackPages": 70,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Rock Starter",
+      "pages": 75,
+      "openingLegal": 5,
+      "attackPages": 75,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Rock 2nd Edition Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Undertaker Starter%",
+      "pages": 73,
+      "openingLegal": 5,
+      "attackPages": 73,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "The Undertaker 2nd Edition Starter%",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Triple H 2nd Edition Starter/",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Trish Stratus Unforgiven Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 2,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Trish Stratus Starter",
+      "pages": 74,
+      "openingLegal": 5,
+      "attackPages": 74,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "William Regal Starter#",
+      "pages": 79,
+      "openingLegal": 5,
+      "attackPages": 79,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "X-Pac Starter",
+      "pages": 72,
+      "openingLegal": 5,
+      "attackPages": 72,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    },
+    {
+      "title": "Triple H Starter/",
+      "pages": 71,
+      "openingLegal": 5,
+      "attackPages": 71,
+      "momentumPages": 0,
+      "status": "Persistent prerequisites and removal effects audited."
+    }
+  ]
+}

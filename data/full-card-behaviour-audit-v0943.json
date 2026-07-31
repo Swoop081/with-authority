@@ -1,0 +1,789 @@
+{
+  "version": "v0.9.43",
+  "title": "Starter Effect Verification Pass 1 \u2014 Certification Normalisation",
+  "starterDecksAudited": 65,
+  "starterEntriesAudited": 4786,
+  "entryCertification": {
+    "shared_interpreter_verified": 4433,
+    "individual_verification_required": 173,
+    "exact_rule_family_verified": 178,
+    "disabled_pending_exact_mapping": 2
+  },
+  "distinctSourceCards": {
+    "shared_interpreter_verified": 527,
+    "individual_verification_required": 36,
+    "exact_rule_family_verified": 13,
+    "disabled_pending_exact_mapping": 1
+  },
+  "keyFinding": "Previous audit counted every historical implemented status except the literal string implemented as unverified. All implemented-basic, implemented-pass2, implemented_v096/v097/v098/v099, fully_supported and related verified statuses are now recognised.",
+  "newlyExactRuleFamilyFiles": [
+    "Bradshaw.gac",
+    "DDT.gac",
+    "DistractTheReferee.gac",
+    "DistractTheReferee2E.gac",
+    "DropKickOverTheRopes.gac",
+    "DropKickToTheFloor2E.gac",
+    "HesCallingForIt.gac",
+    "RussianLegSweep.gac",
+    "RussianLegSweep2E.gac",
+    "SpinningHeelKick.gac",
+    "SpinningHeelKick2E.gac",
+    "TheBigShowEX1.gac",
+    "TreeOfWoe2E.gac"
+  ],
+  "remainingEntries": 173,
+  "remainingDistinctCards": 36,
+  "highestPriorityRemaining": [
+    {
+      "sourceFile": "DDT2E.gac",
+      "entries": 22,
+      "name": "DDT",
+      "cardClass": "Move",
+      "text": "Counters head down moves.\r\n\r\nChoose one: A random special in your opponent's hand is ditched or you gain +1 Attitude."
+    },
+    {
+      "sourceFile": "BaseballSlideEX2.gac",
+      "entries": 20,
+      "name": "Baseball Slide",
+      "cardClass": "Move",
+      "text": "Play only if your opponent is at ringside while you are in the ring. When you play this move you move to ringside. If it is countered, your opponent ditches two random pages from hand, but you are stunned until the end of the turn."
+    },
+    {
+      "sourceFile": "HookTheLeg2E.gac",
+      "entries": 17,
+      "name": "Hook The Leg",
+      "cardClass": "Gameplan",
+      "text": "Play only if you are in control and if your opponent is on the mat in the ring.\n\nYou draw a page and attempt a pin. If the pin fails you remain in control and your move string is broken."
+    },
+    {
+      "sourceFile": "DDTEX1.gac",
+      "entries": 13,
+      "name": "DDT",
+      "cardClass": "Move",
+      "text": "Counters head down moves.\r\n\r\nChoose one: A random special in your opponent's hand is ditched or you gain +1 Attitude."
+    },
+    {
+      "sourceFile": "Taunt2E.gac",
+      "entries": 13,
+      "name": "Taunt",
+      "cardClass": "Special",
+      "text": "Draw a page.\r\n\r\nYour opponent loses one Attitude. Your next move does +2 damage.\r\n\r\n(Heel pages can't be played if you've already played a Face page.)"
+    },
+    {
+      "sourceFile": "Boring.gac",
+      "entries": 11,
+      "name": "Boring",
+      "cardClass": "Gameplan",
+      "text": "Draw three pages. Use only if your opponent's move and last connected move have the same move type and if you aren't in a submission Hold or in control.\nIf you ditch this page it counts as two pages."
+    },
+    {
+      "sourceFile": "Break2E.gac",
+      "entries": 9,
+      "name": "Break!",
+      "cardClass": "Gameplan",
+      "text": "Play if you have hit with two moves in a row, and only if you have not played a move this turn.\n\nGain 1 Attitude and draw two pages. Your opponent gets control."
+    },
+    {
+      "sourceFile": "BounceOffTheRopes.gac",
+      "entries": 8,
+      "name": "Bounce Off The Ropes",
+      "cardClass": "Gameplan",
+      "text": "Play only if your opponent is on the mat in the ring. If you have 3 Strike, a random Strike move is drawn from your playbook.\nIf you play an Impact or Drop move and it connects, that move does +3 damage and you draw a page."
+    },
+    {
+      "sourceFile": "BreakEX2.gac",
+      "entries": 8,
+      "name": "Break!",
+      "cardClass": "Gameplan",
+      "text": "Play if you aren't in control and your opponent has 3 or more Attitude than you, and only before turn 30.\n\nYour opponent loses 5 Attitude and ditches a random move from hand."
+    },
+    {
+      "sourceFile": "AlwaysThinking2E.gac",
+      "entries": 5,
+      "name": "Always Thinking",
+      "cardClass": "Gameplan",
+      "text": "Draw a page.\nAfter you draw a page during the Refresh step, you are told what the next page is. Multiple uses of this page allow you to see more pages from your playbook. If you are stunned, this page leaves play."
+    },
+    {
+      "sourceFile": "Taunt.gac",
+      "entries": 4,
+      "name": "Taunt",
+      "cardClass": "Special",
+      "text": "Draw a page.\r\n\r\nYour opponent loses one Momentum. Your next move does +2 damage. (Heel page: cannot be played if you have played a Face page.)"
+    },
+    {
+      "sourceFile": "BounceOffTheRopes2E.gac",
+      "entries": 3,
+      "name": "Bounce Off The Ropes",
+      "cardClass": "Gameplan",
+      "text": "Play only if your opponent is on the mat in the ring. If you have 3 Strike, a random Strike move is drawn from your playbook. If you play an Impact or Drop move and it connects, that move does +3 damage and you draw a page."
+    },
+    {
+      "sourceFile": "Disadvantage2E.gac",
+      "entries": 3,
+      "name": "Disadvantage",
+      "cardClass": "Gameplan",
+      "text": "Play only while not in control.\n\nChoose one: Your opponent's Damage specials are removed from play, or you draw a page and your opponent's move does -2 damage."
+    },
+    {
+      "sourceFile": "HookTheLeg.gac",
+      "entries": 3,
+      "name": "Hook The Leg",
+      "cardClass": "Gameplan",
+      "text": "Play only if you are in control and if your opponent is on the mat in the ring.\nDraw a page and Pin your opponent. If this pin attempt does not work you remain in Control, and your move string is broken."
+    },
+    {
+      "sourceFile": "HookTheLegEX2.gac",
+      "entries": 3,
+      "name": "Hook The Leg",
+      "cardClass": "Gameplan",
+      "text": "Play only if you are in control and if your opponent is on the mat in the ring. You attempt to pin your opponent. If you have attempted more pins than your opponent, the attempt gets a +15% pin chance bonus."
+    },
+    {
+      "sourceFile": "WillToWin.gac",
+      "entries": 3,
+      "name": "Will To Win",
+      "cardClass": "Special",
+      "text": "Willpower 3 (This page counts as three for Autocountering.)\r\n\r\nThis page can't be played."
+    },
+    {
+      "sourceFile": "DVonEX2.gac",
+      "entries": 2,
+      "name": "Half-Brother D-Von",
+      "cardClass": "Trademark",
+      "text": "Bubba Ray Dudley Trademark\n\nPlay only if D-Von isn't in the match. When at ringside, your opponent ditches a random momentum or special from hand at the end of each turn. \nSpecial: When you are in control and your opponent is on the mat, D-Von puts a Table into play. Use once per game."
+    },
+    {
+      "sourceFile": "DVon.gac",
+      "entries": 2,
+      "name": "Half-Brother D-Von",
+      "cardClass": "Trademark",
+      "text": "Bubba Ray Dudley Trademark\n\nPlay only if D-Von isn't in the match. When at ringside, your opponent ditches a random momentum or special from hand at the end of each turn. \nSpecial: When you are in control and your opponent is on the mat, D-Von puts a Table into play. Use once per game."
+    },
+    {
+      "sourceFile": "BubbaRay.gac",
+      "entries": 2,
+      "name": "Half-Brother Bubba Ray",
+      "cardClass": "Trademark",
+      "text": "Dudleyz Trademark\n\nPlay only if Bubba Ray isn't in play. Your opponent cannot play Support or Run In pages.\n\nSpecial: Your opponent is put on the mat and you receive two Warnings. Use only three times per match, and only when in control."
+    },
+    {
+      "sourceFile": "CatchHimStunned.gac",
+      "entries": 2,
+      "name": "Catch Him Stunned",
+      "cardClass": "Gameplan",
+      "text": "Play only if you are in control and your opponent is Stunned.\n\nYour opponent ditches three pages at random and you attempt a pin."
+    },
+    {
+      "sourceFile": "IGotYourBack2E.gac",
+      "entries": 2,
+      "name": "I Got Your Back",
+      "cardClass": "Gameplan",
+      "text": "Your opponent's Support is removed from play. You draw a random Support special from your playbook."
+    },
+    {
+      "sourceFile": "GoingUpTop.gac",
+      "entries": 2,
+      "name": "Going Up Top!",
+      "cardClass": "Gameplan",
+      "text": "Play if you have hit two moves in a row, and only with a high risk move. Draw a page. If the move connects your opponent ditches a page. If it doesn't connect, you draw another page."
+    },
+    {
+      "sourceFile": "HeyRefThatWasThree.gac",
+      "entries": 2,
+      "name": "That Was Three!",
+      "cardClass": "Gameplan",
+      "text": "Play while being pinned, and can be played while Stunned. The pin fails and you gain control.\n(Face page: cannot be played if you have played a Heel page.\nEvent: can only be played once per match, and only three Events total.)"
+    },
+    {
+      "sourceFile": "BuildingMomentum.gac",
+      "entries": 2,
+      "name": "Building Momentum",
+      "cardClass": "Gameplan",
+      "text": "Choose a number from 1 to 3. You draw that many random common momentum pages from your playbook (but not more than your Attitude), then lose that much Attitude."
+    },
+    {
+      "sourceFile": "HardcoreEX3.gac",
+      "entries": 1,
+      "name": "Hardcore",
+      "cardClass": "Trademark",
+      "text": "Hardcore Trademark\n\nFor the next 5 turns (including this one) you can't be stunned and both you and your opponent take -2 damage from moves."
+    },
+    {
+      "sourceFile": "AlwaysThinking.gac",
+      "entries": 1,
+      "name": "Always Thinking",
+      "cardClass": "Gameplan",
+      "text": "Draw a page.\nAfter you draw a page during the Refresh step, you are told what the next page is. This effect lasts until you are Stunned. Multiple uses of this page allow you to see more pages from your playbook."
+    },
+    {
+      "sourceFile": "AchillesHeel2E.gac",
+      "entries": 1,
+      "name": "Achilles' Heel",
+      "cardClass": "Gameplan",
+      "text": "Whenever you apply a Hold, it does +2 to +6 submission damage (randomly chosen each time). This page is removed when you are Stunned. You can only have one Achilles' Heel in play."
+    },
+    {
+      "sourceFile": "GetAShoulderUp.gac",
+      "entries": 1,
+      "name": "Get a Shoulder Up",
+      "cardClass": "Gameplan",
+      "text": "Play only if you have 4 Strength or 4 Agility, only while being pinned, and only twice per match. Your opponent's pin attempt fails and you gain Control. \n(Face page: cannot be played if you have played a Heel page.)"
+    },
+    {
+      "sourceFile": "HighSpot.gac",
+      "entries": 1,
+      "name": "High Spot",
+      "cardClass": "Gameplan",
+      "text": "Play only if your opponent is on the mat.\n\nChoose a Move page in your playbook that costs 6 or more and draw it.\nIf your next move this turn is High Risk, you gain 1 Momentum."
+    },
+    {
+      "sourceFile": "AdvantageTechnical.gac",
+      "entries": 1,
+      "name": "Advantage: Impact",
+      "cardClass": "Gameplan",
+      "text": "Whenever you connect with an Impact move your opponent loses an extra Attitude.\n\nIf you have 4 Strike and 4 Agility, the move does +3 damage and you also gain +1 Attitude."
+    },
+    {
+      "sourceFile": "BigandNastyEX1.gac",
+      "entries": 1,
+      "name": "Big and Nasty",
+      "cardClass": "Trademark",
+      "text": "Big Show Trademark\n\nYour Strength moves do +2 damage. Your Strike moves that cost 4 or more have a 33% chance of stunning your opponent until the end of next turn. This page leaves play if you are hit with 3 moves in a row. You can only have one Big and Nasty in play."
+    },
+    {
+      "sourceFile": "BigAndNasty2E.gac",
+      "entries": 1,
+      "name": "Big and Nasty",
+      "cardClass": "Trademark",
+      "text": "Big Show Trademark\n\nYour Strength moves do +2 damage. Your Strike moves that cost 4 or more have a 33% chance of stunning your opponent. This page leaves play if you are hit with 3 moves in a row. You can only have one Big and Nasty in play."
+    },
+    {
+      "sourceFile": "EverythingHurts.gac",
+      "entries": 1,
+      "name": "Everything Hurts",
+      "cardClass": "Gameplan",
+      "text": "All of your Strike moves do +1 damage for each of your opponent's damaged body parts. You can only have one Everything Hurts in play."
+    },
+    {
+      "sourceFile": "TripleH2E.gac",
+      "entries": 1,
+      "name": "Triple ",
+      "cardClass": "Superstar",
+      "text": "Special: Best In The Business\r\n\r\nChoose a page in your playbook. It is drawn to your hand. Use this ability once after turn 10 and once after turn 40."
+    },
+    {
+      "sourceFile": "HighKnee2E.gac",
+      "entries": 1,
+      "name": "High Knee",
+      "cardClass": "Move",
+      "text": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move can\u0092t be countered by Strength moves."
+    },
+    {
+      "sourceFile": "Hello.gac",
+      "entries": 1,
+      "name": "Hello!",
+      "cardClass": "Trademark",
+      "text": "William Regal Trademark\n\nPlay only if your opponent is on the mat and you have hit two moves in a row.\n\nName a Special in your deck, which is drawn to your hand.  Gain one Attitude.  (You can't play this if there are no Specials left in your playbook.)"
+    }
+  ],
+  "starters": [
+    {
+      "id": "RikishiPhatuStarter",
+      "title": "Rikishi Phatu Starter4",
+      "pages": 72,
+      "shared_interpreter_verified": 68,
+      "individual_verification_required": 4
+    },
+    {
+      "id": "Starter-BookerT",
+      "title": "Booker T Starter",
+      "pages": 77,
+      "shared_interpreter_verified": 75,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-BookerT2",
+      "title": "Booker T Starter with 2E",
+      "pages": 75,
+      "shared_interpreter_verified": 68,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-BookerTEX2",
+      "title": "Booker T Starter",
+      "pages": 75,
+      "shared_interpreter_verified": 68,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "pages": 72,
+      "exact_rule_family_verified": 5,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-BubbaEX2",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 74,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 3,
+      "individual_verification_required": 3
+    },
+    {
+      "id": "Starter-BubbaRayDudley",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 77,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 4,
+      "individual_verification_required": 5
+    },
+    {
+      "id": "Starter-BubbaRayDudley2",
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 3,
+      "individual_verification_required": 3
+    },
+    {
+      "id": "Starter-ChrisBenoit2E",
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "pages": 75,
+      "shared_interpreter_verified": 71,
+      "individual_verification_required": 4
+    },
+    {
+      "id": "Starter-ChrisJericho",
+      "title": "Chris Jericho Starter\"",
+      "pages": 72,
+      "shared_interpreter_verified": 67,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-ChrisJericho2E",
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "pages": 72,
+      "shared_interpreter_verified": 67,
+      "exact_rule_family_verified": 3,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-Christian",
+      "title": "Christian Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 71,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-Christian2",
+      "title": "Christian Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 71,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-DVon",
+      "title": "D-Von Dudley Starter#",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-DVonDudley2",
+      "title": "D-Von Dudley Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-EddieGuerrero",
+      "title": "Eddie Guerrero Starter%",
+      "pages": 72,
+      "shared_interpreter_verified": 67,
+      "individual_verification_required": 1,
+      "exact_rule_family_verified": 4
+    },
+    {
+      "id": "Starter-EddieGuerrero2E",
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "pages": 74,
+      "shared_interpreter_verified": 69,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-Edge",
+      "title": "Edge Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-Edge2E",
+      "title": "Edge 2nd Edition Starter",
+      "pages": 75,
+      "shared_interpreter_verified": 70,
+      "individual_verification_required": 5
+    },
+    {
+      "id": "Starter-EdgeGift",
+      "title": "Eddie Guerrero Gift Starter%",
+      "pages": 74,
+      "shared_interpreter_verified": 74
+    },
+    {
+      "id": "Starter-Goldust",
+      "title": "Goldust Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 74
+    },
+    {
+      "id": "Starter-HulkHogan2E",
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "pages": 72,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 6
+    },
+    {
+      "id": "Starter-HulkHoganLE",
+      "title": "Hulk Hogan Starter!",
+      "pages": 71,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 5
+    },
+    {
+      "id": "Starter-JeffHardy",
+      "title": "Jeff Hardy Starter!",
+      "pages": 77,
+      "shared_interpreter_verified": 66,
+      "exact_rule_family_verified": 7,
+      "individual_verification_required": 4
+    },
+    {
+      "id": "Starter-JeffHardy2",
+      "title": "Jeff Hardy Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 4,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-JeffHardyEX2",
+      "title": "Jeff Hardy Starter!",
+      "pages": 74,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 4,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-Kane",
+      "title": "Kane Starter",
+      "pages": 73,
+      "shared_interpreter_verified": 72,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-Kane2E",
+      "title": "Kane 2nd Edition Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 72,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-KevinNash",
+      "title": "Kevin Nash Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 74
+    },
+    {
+      "id": "Starter-KurtAngle",
+      "title": "Kurt Angle Starter!",
+      "pages": 73,
+      "shared_interpreter_verified": 64,
+      "individual_verification_required": 5,
+      "exact_rule_family_verified": 4
+    },
+    {
+      "id": "Starter-KurtAngle2E",
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "pages": 74,
+      "shared_interpreter_verified": 73,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-LanceStorm",
+      "title": "Lance Storm Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 71,
+      "individual_verification_required": 3
+    },
+    {
+      "id": "Starter-Lita",
+      "title": "Lita Starter",
+      "pages": 75,
+      "shared_interpreter_verified": 67,
+      "individual_verification_required": 3,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-Lita2E",
+      "title": "Lita 2nd Edition Starter",
+      "pages": 71,
+      "shared_interpreter_verified": 60,
+      "individual_verification_required": 8,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-MattHardy",
+      "title": "Matt Hardy Starter!",
+      "pages": 74,
+      "shared_interpreter_verified": 64,
+      "individual_verification_required": 3,
+      "exact_rule_family_verified": 7
+    },
+    {
+      "id": "Starter-MattHardy2",
+      "title": "Matt Hardy Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 64,
+      "individual_verification_required": 3,
+      "exact_rule_family_verified": 7
+    },
+    {
+      "id": "Starter-RicFlair",
+      "title": "Ric Flair Unforgiven Starter",
+      "pages": 73,
+      "shared_interpreter_verified": 70,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-RicFlairLE",
+      "title": "Ric Flair Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 72,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-RobVanDam",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 6
+    },
+    {
+      "id": "Starter-RobVanDam2",
+      "title": "Rob Van Dam Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "exact_rule_family_verified": 6,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-RobVanDamEX2",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "exact_rule_family_verified": 6,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-Scotty2Hotty",
+      "title": "Scotty 2 Hotty Starter%",
+      "pages": 73,
+      "shared_interpreter_verified": 69,
+      "exact_rule_family_verified": 4
+    },
+    {
+      "id": "Starter-SpikeDudley",
+      "title": "Spike Dudley Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 74
+    },
+    {
+      "id": "Starter-StoneCold",
+      "title": "Stone Cold Starter.",
+      "pages": 72,
+      "shared_interpreter_verified": 70,
+      "individual_verification_required": 1,
+      "exact_rule_family_verified": 1
+    },
+    {
+      "id": "Starter-Tajiri",
+      "title": "Tajiri LE Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 71,
+      "exact_rule_family_verified": 2,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-Tazz",
+      "title": "Tazz Starter",
+      "pages": 71,
+      "shared_interpreter_verified": 66,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-Test",
+      "title": "Test Starter",
+      "pages": 77,
+      "shared_interpreter_verified": 70,
+      "individual_verification_required": 2,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-Test2",
+      "title": "Test Starter with 2E",
+      "pages": 74,
+      "shared_interpreter_verified": 70,
+      "exact_rule_family_verified": 2,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-TestEX2",
+      "title": "Test Starter",
+      "pages": 73,
+      "shared_interpreter_verified": 69,
+      "exact_rule_family_verified": 2,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "pages": 72,
+      "exact_rule_family_verified": 3,
+      "shared_interpreter_verified": 63,
+      "individual_verification_required": 6
+    },
+    {
+      "id": "Starter-TheBigShow2E",
+      "title": "The Big Show 2nd Edition Starter#",
+      "pages": 74,
+      "shared_interpreter_verified": 67,
+      "individual_verification_required": 4,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-TheCripplerChrisBenoit",
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "pages": 75,
+      "shared_interpreter_verified": 72,
+      "exact_rule_family_verified": 1,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-TheHurricane",
+      "title": "The Hurricane Unforgiven Starter",
+      "pages": 72,
+      "shared_interpreter_verified": 68,
+      "exact_rule_family_verified": 3,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-TheHurricaneLE",
+      "title": "The Hurricane Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 67,
+      "disabled_pending_exact_mapping": 2,
+      "individual_verification_required": 4,
+      "exact_rule_family_verified": 1
+    },
+    {
+      "id": "Starter-TheRock",
+      "title": "The Rock Starter",
+      "pages": 70,
+      "shared_interpreter_verified": 65,
+      "individual_verification_required": 2,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-TheRock2E",
+      "title": "The Rock Starter",
+      "pages": 75,
+      "shared_interpreter_verified": 64,
+      "individual_verification_required": 9,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-TheRock2EnoLE",
+      "title": "The Rock 2nd Edition Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 63,
+      "individual_verification_required": 9,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-TheUndertaker",
+      "title": "The Undertaker Starter%",
+      "pages": 73,
+      "shared_interpreter_verified": 71,
+      "individual_verification_required": 2
+    },
+    {
+      "id": "Starter-TheUndertaker2E",
+      "title": "The Undertaker 2nd Edition Starter%",
+      "pages": 71,
+      "shared_interpreter_verified": 63,
+      "individual_verification_required": 6,
+      "exact_rule_family_verified": 2
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "pages": 71,
+      "individual_verification_required": 5,
+      "shared_interpreter_verified": 66
+    },
+    {
+      "id": "Starter-TrishStratus",
+      "title": "Trish Stratus Unforgiven Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 65,
+      "individual_verification_required": 4,
+      "exact_rule_family_verified": 5
+    },
+    {
+      "id": "Starter-TrishStratusLE",
+      "title": "Trish Stratus Starter",
+      "pages": 74,
+      "shared_interpreter_verified": 66,
+      "exact_rule_family_verified": 7,
+      "individual_verification_required": 1
+    },
+    {
+      "id": "Starter-WilliamRegal3",
+      "title": "William Regal Starter#",
+      "pages": 79,
+      "shared_interpreter_verified": 74,
+      "individual_verification_required": 2,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "Starter-XPac",
+      "title": "X-Pac Starter",
+      "pages": 72,
+      "shared_interpreter_verified": 69,
+      "exact_rule_family_verified": 3
+    },
+    {
+      "id": "TripleHStarter",
+      "title": "Triple H Starter/",
+      "pages": 71,
+      "shared_interpreter_verified": 66,
+      "individual_verification_required": 1,
+      "exact_rule_family_verified": 4
+    }
+  ],
+  "definitions": {
+    "shared_interpreter_verified": "Previously implemented and now correctly recognised by the certification audit.",
+    "exact_rule_family_verified": "Verified in this pass against printed text and the active shared runtime handler.",
+    "individual_verification_required": "Loaded and playable, but a unique or choice-dependent effect still needs exact certification.",
+    "disabled_pending_exact_mapping": "Intentionally disabled until ownership or exact behaviour is resolved."
+  }
+}

@@ -1,0 +1,1946 @@
+{
+  "version": "v0.9.42",
+  "title": "Runtime Card Catalogue Completion & Behaviour Certification Audit",
+  "cardsInRuntimeCatalogue": 907,
+  "cardsImportedThisPass": 180,
+  "uniqueSourceCardsUsedByStarters": 577,
+  "starterDecksAudited": 65,
+  "starterEntriesAudited": 4786,
+  "runtimeMissingStarterCards": 0,
+  "runtimeMissingStarterEntries": 0,
+  "catalogueCertification": {
+    "runtime_interpreted": 191,
+    "preserved_needs_verification": 716
+  },
+  "starterEntryCertification": {
+    "runtime_interpreted": 1128,
+    "preserved_needs_verification": 3658
+  },
+  "definitions": {
+    "exact_certified": "Individually verified against original text and script.",
+    "runtime_interpreted": "Loaded and handled by implemented shared rule families.",
+    "preserved_needs_verification": "Loaded into the live runtime with original source data, but still awaiting individual behavioural certification.",
+    "source_preserved_not_loaded": "Present in source data but absent from the live runtime.",
+    "disabled": "Intentionally unavailable until exact behaviour is resolved."
+  },
+  "starters": [
+    {
+      "id": "RikishiPhatuStarter",
+      "title": "Rikishi Phatu Starter4",
+      "pages": 72,
+      "runtime_interpreted": 29,
+      "preserved_needs_verification": 43
+    },
+    {
+      "id": "Starter-BookerT",
+      "title": "Booker T Starter",
+      "pages": 77,
+      "runtime_interpreted": 38,
+      "preserved_needs_verification": 39
+    },
+    {
+      "id": "Starter-BookerT2",
+      "title": "Booker T Starter with 2E",
+      "pages": 75,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 71
+    },
+    {
+      "id": "Starter-BookerTEX2",
+      "title": "Booker T Starter",
+      "pages": 75,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 69
+    },
+    {
+      "id": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "pages": 72,
+      "preserved_needs_verification": 46,
+      "runtime_interpreted": 26
+    },
+    {
+      "id": "Starter-BubbaEX2",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-BubbaRayDudley",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 77,
+      "runtime_interpreted": 34,
+      "preserved_needs_verification": 43
+    },
+    {
+      "id": "Starter-BubbaRayDudley2",
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 68
+    },
+    {
+      "id": "Starter-ChrisBenoit2E",
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "pages": 75,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 69
+    },
+    {
+      "id": "Starter-ChrisJericho",
+      "title": "Chris Jericho Starter\"",
+      "pages": 72,
+      "runtime_interpreted": 30,
+      "preserved_needs_verification": 42
+    },
+    {
+      "id": "Starter-ChrisJericho2E",
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "pages": 72,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 68
+    },
+    {
+      "id": "Starter-Christian",
+      "title": "Christian Starter",
+      "pages": 74,
+      "runtime_interpreted": 7,
+      "preserved_needs_verification": 67
+    },
+    {
+      "id": "Starter-Christian2",
+      "title": "Christian Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-DVon",
+      "title": "D-Von Dudley Starter#",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-DVonDudley2",
+      "title": "D-Von Dudley Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 68
+    },
+    {
+      "id": "Starter-EddieGuerrero",
+      "title": "Eddie Guerrero Starter%",
+      "pages": 72,
+      "runtime_interpreted": 32,
+      "preserved_needs_verification": 40
+    },
+    {
+      "id": "Starter-EddieGuerrero2E",
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "pages": 74,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 70
+    },
+    {
+      "id": "Starter-Edge",
+      "title": "Edge Starter",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-Edge2E",
+      "title": "Edge 2nd Edition Starter",
+      "pages": 75,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 67
+    },
+    {
+      "id": "Starter-EdgeGift",
+      "title": "Eddie Guerrero Gift Starter%",
+      "pages": 74,
+      "runtime_interpreted": 7,
+      "preserved_needs_verification": 67
+    },
+    {
+      "id": "Starter-Goldust",
+      "title": "Goldust Starter",
+      "pages": 74,
+      "runtime_interpreted": 34,
+      "preserved_needs_verification": 40
+    },
+    {
+      "id": "Starter-HulkHogan2E",
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "pages": 72,
+      "runtime_interpreted": 9,
+      "preserved_needs_verification": 63
+    },
+    {
+      "id": "Starter-HulkHoganLE",
+      "title": "Hulk Hogan Starter!",
+      "pages": 71,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 63
+    },
+    {
+      "id": "Starter-JeffHardy",
+      "title": "Jeff Hardy Starter!",
+      "pages": 77,
+      "runtime_interpreted": 28,
+      "preserved_needs_verification": 49
+    },
+    {
+      "id": "Starter-JeffHardy2",
+      "title": "Jeff Hardy Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 2,
+      "preserved_needs_verification": 72
+    },
+    {
+      "id": "Starter-JeffHardyEX2",
+      "title": "Jeff Hardy Starter!",
+      "pages": 74,
+      "runtime_interpreted": 2,
+      "preserved_needs_verification": 72
+    },
+    {
+      "id": "Starter-Kane",
+      "title": "Kane Starter",
+      "pages": 73,
+      "runtime_interpreted": 34,
+      "preserved_needs_verification": 39
+    },
+    {
+      "id": "Starter-Kane2E",
+      "title": "Kane 2nd Edition Starter",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-KevinNash",
+      "title": "Kevin Nash Starter",
+      "pages": 74,
+      "runtime_interpreted": 32,
+      "preserved_needs_verification": 42
+    },
+    {
+      "id": "Starter-KurtAngle",
+      "title": "Kurt Angle Starter!",
+      "pages": 73,
+      "runtime_interpreted": 35,
+      "preserved_needs_verification": 38
+    },
+    {
+      "id": "Starter-KurtAngle2E",
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "pages": 74,
+      "runtime_interpreted": 12,
+      "preserved_needs_verification": 62
+    },
+    {
+      "id": "Starter-LanceStorm",
+      "title": "Lance Storm Starter",
+      "pages": 74,
+      "runtime_interpreted": 42,
+      "preserved_needs_verification": 32
+    },
+    {
+      "id": "Starter-Lita",
+      "title": "Lita Starter",
+      "pages": 75,
+      "runtime_interpreted": 14,
+      "preserved_needs_verification": 61
+    },
+    {
+      "id": "Starter-Lita2E",
+      "title": "Lita 2nd Edition Starter",
+      "pages": 71,
+      "runtime_interpreted": 3,
+      "preserved_needs_verification": 68
+    },
+    {
+      "id": "Starter-MattHardy",
+      "title": "Matt Hardy Starter!",
+      "pages": 74,
+      "runtime_interpreted": 5,
+      "preserved_needs_verification": 69
+    },
+    {
+      "id": "Starter-MattHardy2",
+      "title": "Matt Hardy Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 5,
+      "preserved_needs_verification": 69
+    },
+    {
+      "id": "Starter-RicFlair",
+      "title": "Ric Flair Unforgiven Starter",
+      "pages": 73,
+      "runtime_interpreted": 32,
+      "preserved_needs_verification": 41
+    },
+    {
+      "id": "Starter-RicFlairLE",
+      "title": "Ric Flair Starter",
+      "pages": 74,
+      "runtime_interpreted": 10,
+      "preserved_needs_verification": 64
+    },
+    {
+      "id": "Starter-RobVanDam",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "runtime_interpreted": 37,
+      "preserved_needs_verification": 37
+    },
+    {
+      "id": "Starter-RobVanDam2",
+      "title": "Rob Van Dam Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 5,
+      "preserved_needs_verification": 69
+    },
+    {
+      "id": "Starter-RobVanDamEX2",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 74,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 68
+    },
+    {
+      "id": "Starter-Scotty2Hotty",
+      "title": "Scotty 2 Hotty Starter%",
+      "pages": 73,
+      "runtime_interpreted": 6,
+      "preserved_needs_verification": 67
+    },
+    {
+      "id": "Starter-SpikeDudley",
+      "title": "Spike Dudley Starter",
+      "pages": 74,
+      "runtime_interpreted": 40,
+      "preserved_needs_verification": 34
+    },
+    {
+      "id": "Starter-StoneCold",
+      "title": "Stone Cold Starter.",
+      "pages": 72,
+      "runtime_interpreted": 32,
+      "preserved_needs_verification": 40
+    },
+    {
+      "id": "Starter-Tajiri",
+      "title": "Tajiri LE Starter",
+      "pages": 74,
+      "runtime_interpreted": 9,
+      "preserved_needs_verification": 65
+    },
+    {
+      "id": "Starter-Tazz",
+      "title": "Tazz Starter",
+      "pages": 71,
+      "runtime_interpreted": 29,
+      "preserved_needs_verification": 42
+    },
+    {
+      "id": "Starter-Test",
+      "title": "Test Starter",
+      "pages": 77,
+      "runtime_interpreted": 11,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-Test2",
+      "title": "Test Starter with 2E",
+      "pages": 74,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 66
+    },
+    {
+      "id": "Starter-TestEX2",
+      "title": "Test Starter",
+      "pages": 73,
+      "runtime_interpreted": 10,
+      "preserved_needs_verification": 63
+    },
+    {
+      "id": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "pages": 72,
+      "preserved_needs_verification": 47,
+      "runtime_interpreted": 25
+    },
+    {
+      "id": "Starter-TheBigShow2E",
+      "title": "The Big Show 2nd Edition Starter#",
+      "pages": 74,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 70
+    },
+    {
+      "id": "Starter-TheCripplerChrisBenoit",
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "pages": 75,
+      "runtime_interpreted": 36,
+      "preserved_needs_verification": 39
+    },
+    {
+      "id": "Starter-TheHurricane",
+      "title": "The Hurricane Unforgiven Starter",
+      "pages": 72,
+      "runtime_interpreted": 38,
+      "preserved_needs_verification": 34
+    },
+    {
+      "id": "Starter-TheHurricaneLE",
+      "title": "The Hurricane Starter",
+      "pages": 74,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 70
+    },
+    {
+      "id": "Starter-TheRock",
+      "title": "The Rock Starter",
+      "pages": 70,
+      "runtime_interpreted": 31,
+      "preserved_needs_verification": 39
+    },
+    {
+      "id": "Starter-TheRock2E",
+      "title": "The Rock Starter",
+      "pages": 75,
+      "runtime_interpreted": 8,
+      "preserved_needs_verification": 67
+    },
+    {
+      "id": "Starter-TheRock2EnoLE",
+      "title": "The Rock 2nd Edition Starter",
+      "pages": 74,
+      "runtime_interpreted": 4,
+      "preserved_needs_verification": 70
+    },
+    {
+      "id": "Starter-TheUndertaker",
+      "title": "The Undertaker Starter%",
+      "pages": 73,
+      "runtime_interpreted": 33,
+      "preserved_needs_verification": 40
+    },
+    {
+      "id": "Starter-TheUndertaker2E",
+      "title": "The Undertaker 2nd Edition Starter%",
+      "pages": 71,
+      "runtime_interpreted": 13,
+      "preserved_needs_verification": 58
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "pages": 71,
+      "preserved_needs_verification": 71
+    },
+    {
+      "id": "Starter-TrishStratus",
+      "title": "Trish Stratus Unforgiven Starter",
+      "pages": 74,
+      "runtime_interpreted": 33,
+      "preserved_needs_verification": 41
+    },
+    {
+      "id": "Starter-TrishStratusLE",
+      "title": "Trish Stratus Starter",
+      "pages": 74,
+      "runtime_interpreted": 10,
+      "preserved_needs_verification": 64
+    },
+    {
+      "id": "Starter-WilliamRegal3",
+      "title": "William Regal Starter#",
+      "pages": 79,
+      "runtime_interpreted": 41,
+      "preserved_needs_verification": 38
+    },
+    {
+      "id": "Starter-XPac",
+      "title": "X-Pac Starter",
+      "pages": 72,
+      "runtime_interpreted": 30,
+      "preserved_needs_verification": 42
+    },
+    {
+      "id": "TripleHStarter",
+      "title": "Triple H Starter/",
+      "pages": 71,
+      "runtime_interpreted": 31,
+      "preserved_needs_verification": 40
+    }
+  ],
+  "highestPriorityRemaining": [
+    {
+      "name": "Strike",
+      "sourceFile": "StrikeEX2.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 138,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strike. Your opponent can't see this page."
+    },
+    {
+      "name": "Strength",
+      "sourceFile": "Strength1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 106,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Strength. Your opponent can't see this page."
+    },
+    {
+      "name": "Strike",
+      "sourceFile": "Strike1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 104,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Strike. Your opponent can't see this page."
+    },
+    {
+      "name": "Agility",
+      "sourceFile": "AgilityEX2.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 104,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Agility. Your opponent can't see this page."
+    },
+    {
+      "name": "Technical",
+      "sourceFile": "Technical2E.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 101,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Technical. Your opponent can't see this page."
+    },
+    {
+      "name": "Strength",
+      "sourceFile": "StrengthEX2.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 100,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strength. Your opponent can't see this page."
+    },
+    {
+      "name": "Agility",
+      "sourceFile": "Agility1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 95,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Agility. Your opponent can't see this page."
+    },
+    {
+      "name": "Technical",
+      "sourceFile": "Technical1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 90,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Technical. Your opponent can't see this page."
+    },
+    {
+      "name": "Agility",
+      "sourceFile": "Agility2E.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 88,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Agility. Your opponent can't see this page."
+    },
+    {
+      "name": "Strength",
+      "sourceFile": "Strength2E.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 87,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strength. Your opponent can't see this page."
+    },
+    {
+      "name": "Technical",
+      "sourceFile": "TechnicalEX2.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 83,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Technical. Your opponent can't see this page."
+    },
+    {
+      "name": "Knowledge",
+      "sourceFile": "KnowledgeEX2.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 80,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Knowledge. Your opponent can't see this page."
+    },
+    {
+      "name": "Knowledge",
+      "sourceFile": "Knowledge1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 79,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Knowledge. Your opponent can't see this page."
+    },
+    {
+      "name": "Strike",
+      "sourceFile": "Strike2E.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 79,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strike. Your opponent can't see this page."
+    },
+    {
+      "name": "Clothesline",
+      "sourceFile": "Clothesline2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 73,
+      "status": "preserved_needs_verification",
+      "text": "Counters hit or miss and leg extended moves. Countered by Clothesline and Duck.    Your opponent is put on the mat."
+    },
+    {
+      "name": "Dodge",
+      "sourceFile": "Dodge2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 69,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Attitude."
+    },
+    {
+      "name": "Knowledge",
+      "sourceFile": "Knowledge2E.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 68,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Knowledge. Your opponent can't see this page."
+    },
+    {
+      "name": "Flat of the Foot",
+      "sourceFile": "FlatOfTheFootEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 65,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down and arm extended moves."
+    },
+    {
+      "name": "Clothesline",
+      "sourceFile": "Clothesline.gac",
+      "cardClass": "Move",
+      "starterEntries": 59,
+      "status": "preserved_needs_verification",
+      "text": "Counters hit or miss and leg extended moves. Countered by Clothesline and Duck.    Your opponent is put on the mat."
+    },
+    {
+      "name": "Dodge",
+      "sourceFile": "Dodge.gac",
+      "cardClass": "Move",
+      "starterEntries": 58,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Momentum."
+    },
+    {
+      "name": "Punch",
+      "sourceFile": "Punch2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 52,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended and in close moves."
+    },
+    {
+      "name": "Shove",
+      "sourceFile": "Shove.gac",
+      "cardClass": "Move",
+      "starterEntries": 50,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum."
+    },
+    {
+      "name": "Technical",
+      "sourceFile": "TechnicalEX3.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 50,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Technical. Your opponent can't see this page."
+    },
+    {
+      "name": "Shove",
+      "sourceFile": "Shove2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 48,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum."
+    },
+    {
+      "name": "Fireman's Carry",
+      "sourceFile": "FiremansCarryEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 47,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended and leg extended moves.    Your opponent loses 1 Attitude."
+    },
+    {
+      "name": "Punch",
+      "sourceFile": "Punch.gac",
+      "cardClass": "Move",
+      "starterEntries": 43,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended and in close moves."
+    },
+    {
+      "name": "Elbow",
+      "sourceFile": "Elbow2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 41,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe and behind opponent moves."
+    },
+    {
+      "name": "Strike",
+      "sourceFile": "StrikeEX3.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 41,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Strike. Your opponent can't see this page."
+    },
+    {
+      "name": "Agility",
+      "sourceFile": "AgilityEX3.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 40,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Agility. Your opponent can't see this page."
+    },
+    {
+      "name": "Strength",
+      "sourceFile": "StrengthEX3.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 39,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Strength. Your opponent can't see this page."
+    },
+    {
+      "name": "Enzugiri",
+      "sourceFile": "EnzugiriEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 38,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close moves.    Your opponent is stunned until the end of the next turn (if not already stunned) and is put on the mat. If countered, you lose 1 Attitude."
+    },
+    {
+      "name": "Double Leg Takedown",
+      "sourceFile": "DoubleLegTakedownEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 34,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended and victim below moves."
+    },
+    {
+      "name": "Russian Leg Sweep",
+      "sourceFile": "RussianLegSweep2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 33,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched."
+    },
+    {
+      "name": "Knowledge",
+      "sourceFile": "KnowledgeEX3.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 32,
+      "status": "runtime_interpreted",
+      "text": "Gain 1 Knowledge. Your opponent can't see this page."
+    },
+    {
+      "name": "Drop Kick To The Floor",
+      "sourceFile": "DropKickOverTheRopes.gac",
+      "cardClass": "Move",
+      "starterEntries": 31,
+      "status": "preserved_needs_verification",
+      "text": "Play this move only if both you and your opponent are in the ring. \r\n\r\nYour opponent ditches a random page and is moved to Ringside. If countered, you lose up to an additional 2 Momentum."
+    },
+    {
+      "name": "Russian Leg Sweep",
+      "sourceFile": "RussianLegSweep.gac",
+      "cardClass": "Move",
+      "starterEntries": 28,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched."
+    },
+    {
+      "name": "Elbow",
+      "sourceFile": "Elbow.gac",
+      "cardClass": "Move",
+      "starterEntries": 27,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe and behind opponent moves."
+    },
+    {
+      "name": "Duck",
+      "sourceFile": "Duck.gac",
+      "cardClass": "Move",
+      "starterEntries": 27,
+      "status": "preserved_needs_verification",
+      "text": "This move may only be played if you are not in control.\nCounters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no momentum."
+    },
+    {
+      "name": "Strike",
+      "sourceFile": "StrikeEX1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 26,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strike. Your opponent can't see this page."
+    },
+    {
+      "name": "Knee Lift",
+      "sourceFile": "KneeLift.gac",
+      "cardClass": "Move",
+      "starterEntries": 25,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close and head down moves."
+    },
+    {
+      "name": "Block",
+      "sourceFile": "Block.gac",
+      "cardClass": "Move",
+      "starterEntries": 25,
+      "status": "preserved_needs_verification",
+      "text": "Can't be used offensively. Counters arm extended, leg extended, in close, mad rush, back to foe and standing above moves that are Strike moves. Countered by arm extended, leg extended, and in close moves that are Strike moves. Your opponent can't counter this with a move he has already connected with."
+    },
+    {
+      "name": "Once Too Often",
+      "sourceFile": "OnceTooOften2E.gac",
+      "cardClass": "Special",
+      "starterEntries": 25,
+      "status": "runtime_interpreted",
+      "text": "Counter your opponent's move. Use only if your opponent has already connected with that move this match, and only if you are not in control and not in a submission Hold. You may use this page even if you are stunned."
+    },
+    {
+      "name": "Drop Kick To The Floor",
+      "sourceFile": "DropKickToTheFloor2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 24,
+      "status": "preserved_needs_verification",
+      "text": "Play this move only if both you and your opponent are in the ring. \r\n\r\nYour opponent ditches a random page and is moved to ringside. If countered, you lose up to an additional 2 Attitude."
+    },
+    {
+      "name": "Body Slam",
+      "sourceFile": "BodySlam2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 24,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush and high risk moves."
+    },
+    {
+      "name": "Clothesline Over The Ropes E X2",
+      "sourceFile": "ClotheslineOverTheRopesEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 23,
+      "status": "preserved_needs_verification",
+      "text": "Play only in the ring. Your opponent is sent to ringside and is put on the mat."
+    },
+    {
+      "name": "Knee Lift",
+      "sourceFile": "KneeLift2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 23,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close and head down moves."
+    },
+    {
+      "name": "Agility",
+      "sourceFile": "AgilityEX1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 23,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Agility. Your opponent can't see this page."
+    },
+    {
+      "name": "Standing Switch",
+      "sourceFile": "StandingSwitch.gac",
+      "cardClass": "Move",
+      "starterEntries": 22,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters behind opponent and in close moves. Countered by back to foe moves and Standing Switch. This move provides no Momentum."
+    },
+    {
+      "name": "DDT",
+      "sourceFile": "DDT2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 22,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves.\r\n\r\nChoose one: A random special in your opponent's hand is ditched or you gain +1 Attitude."
+    },
+    {
+      "name": "Arm Drag Takedown",
+      "sourceFile": "ArmDragTakedownEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 21,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended moves. Can't be countered by Strike moves.    You get a +2% pin chance bonus for the rest of the match."
+    },
+    {
+      "name": "Back Body Drop",
+      "sourceFile": "BackBodyDrop2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 21,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush and victim below moves. Countered by Facebuster."
+    },
+    {
+      "name": "Boring",
+      "sourceFile": "Boring2E.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 21,
+      "status": "preserved_needs_verification",
+      "text": "Willpower 2 (This page counts as two pages for Autocountering.)\r\n\r\nDraw three pages. Use only if your opponent's move and last connected move have the same move type and if you aren't in a submission Hold."
+    },
+    {
+      "name": "Baseball Slide",
+      "sourceFile": "BaseballSlideEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 20,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is at ringside while you are in the ring. When you play this move you move to ringside. If it is countered, your opponent ditches two random pages from hand, but you are stunned until the end of the turn."
+    },
+    {
+      "name": "Inside Cradle",
+      "sourceFile": "InsideCradle2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 20,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close and standing above moves.\r\n\r\nYour opponent is put on the mat and you attempt to pin. If the pin fails you stay in control. (After a failed pin attempt, your opponent is removed from the mat.)"
+    },
+    {
+      "name": "Headlock",
+      "sourceFile": "Headlock.gac",
+      "cardClass": "Submission",
+      "starterEntries": 20,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent and in close moves. When this move connects, if your opponent has any Head damage, draw a page. Your opponent cannot submit to this move."
+    },
+    {
+      "name": "Technical",
+      "sourceFile": "TechnicalEX1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 20,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Technical. Your opponent can't see this page."
+    },
+    {
+      "name": "Double Leg Takedown",
+      "sourceFile": "DoubleLegTakedown.gac",
+      "cardClass": "Move",
+      "starterEntries": 19,
+      "status": "preserved_needs_verification",
+      "text": "Counters leg extended and victim below moves."
+    },
+    {
+      "name": "Mafia Kick",
+      "sourceFile": "MafiaKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 19,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.    This move does up to +5 damage. Your opponent is put on the mat."
+    },
+    {
+      "name": "Power Slam",
+      "sourceFile": "PowerSlam.gac",
+      "cardClass": "Move",
+      "starterEntries": 18,
+      "status": "preserved_needs_verification",
+      "text": "Counters high risk and mad rush moves. This move does an additional +1 damage for each Strength you have (up to +5.) If not already stunned, your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Back Body Drop",
+      "sourceFile": "BackBodyDrop.gac",
+      "cardClass": "Move",
+      "starterEntries": 18,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush and victim below moves. Countered by Facebuster."
+    },
+    {
+      "name": "Drop Kick",
+      "sourceFile": "DropKick2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 18,
+      "status": "preserved_needs_verification",
+      "text": "Counters high risk and mad rush moves.    Your opponent is put on the mat. If countered, you lose up to an additional two Attitude."
+    },
+    {
+      "name": "Thrust Kick",
+      "sourceFile": "ThrustKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Your opponent is put on the mat. If not already stunned, your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Clothesline Over The Ropes",
+      "sourceFile": "ClotheslineOverTheRopes.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Play this move only if both you and your opponent are in the ring. Countered by Back Body Drop To Ringside. This move does up to +7 damage. Your opponent is moved to Ringside."
+    },
+    {
+      "name": "Bulldog",
+      "sourceFile": "Bulldog2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Your opponent's next four pages from playbook are ditched."
+    },
+    {
+      "name": "Reverse DDT",
+      "sourceFile": "ReverseDDT2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close moves. Can only be used as a counter if you have Agility.\r\n\r\nYour opponent's next four pages from playbook are ditched."
+    },
+    {
+      "name": "DDT",
+      "sourceFile": "DDT.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves.\r\n\r\nYour opponent's next 3 pages from playbook are ditched."
+    },
+    {
+      "name": "Hook The Leg",
+      "sourceFile": "HookTheLeg2E.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Play only if you are in control and if your opponent is on the mat in the ring.\n\nYou draw a page and attempt a pin. If the pin fails you remain in control and your move string is broken."
+    },
+    {
+      "name": "Back Heel Trip",
+      "sourceFile": "BackHeelTrip2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Counters leg extended moves.    If your opponent doesn't have any Technical, this move can't be countered by moves."
+    },
+    {
+      "name": "Strength",
+      "sourceFile": "StrengthEX1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 17,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Strength. Your opponent can't see this page."
+    },
+    {
+      "name": "Fireman's Carry",
+      "sourceFile": "FiremansCarry.gac",
+      "cardClass": "Move",
+      "starterEntries": 16,
+      "status": "preserved_needs_verification",
+      "text": "Counters leg extended and victim below moves. 50% chance your opponent both ditches the next playbook page and loses 1 additional Momentum."
+    },
+    {
+      "name": "Back Body Drop to Ringside",
+      "sourceFile": "BackBodyDropToRingside2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 16,
+      "status": "preserved_needs_verification",
+      "text": "Play only in the ring. Counters victim below moves.\r\n\r\nYour opponent is moved to ringside. There is a 33% chance your opponent ditches the next page from his playbook."
+    },
+    {
+      "name": "Knowledge",
+      "sourceFile": "KnowledgeEX1.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 16,
+      "status": "preserved_needs_verification",
+      "text": "Gain 1 Knowledge. Your opponent can't see this page."
+    },
+    {
+      "name": "Clothesline In The Corner",
+      "sourceFile": "ClotheslineInTheCorner.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Play only in the ring. Your opponent loses 1 Attitude."
+    },
+    {
+      "name": "Power Slam",
+      "sourceFile": "PowerSlam2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Counters high risk and mad rush moves. This move does an additional +1 damage for each Strength you have (up to +5). \r\nIf not already stunned, your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Hip Toss",
+      "sourceFile": "HipTossEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended moves.    This move can't be countered by Strike moves."
+    },
+    {
+      "name": "Body Slam",
+      "sourceFile": "BodySlamEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.    You may choose to lose 1 Attitude when this move connects. If you do, your opponent is moved to ringside."
+    },
+    {
+      "name": "Collar And Elbow Tieup",
+      "sourceFile": "CollarAndElbowTieup2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "runtime_interpreted",
+      "text": "Play only if you haven't connected with a non-Defensive move this match. Countered by Collar and Elbow Tieup.\n\nIf you have any Technical, the next Momentum page in your opponent's playbook is ditched.\nIf you have any Knowledge, you draw a page."
+    },
+    {
+      "name": "Inside Cradle",
+      "sourceFile": "InsideCradle.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close and standing above moves. Your opponent is put on the mat and you Pin your opponent. If the pin does not work you stay in Control. (After a failed pin attempt, your opponent is removed from the mat.)"
+    },
+    {
+      "name": "2nd Rope Leg Drop",
+      "sourceFile": "2ndRopeSplash.gac",
+      "cardClass": "Move",
+      "starterEntries": 15,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your foe is on the mat in the ring. Your opponent stays on the mat, and if not already stunned, is stunned until the end of the next turn. You get 2 Momentum. If countered, you're stunned until the end of the turn."
+    },
+    {
+      "name": "Body Slam",
+      "sourceFile": "BodySlam.gac",
+      "cardClass": "Move",
+      "starterEntries": 14,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush and high risk moves."
+    },
+    {
+      "name": "Snap Mare",
+      "sourceFile": "SnapMare.gac",
+      "cardClass": "Move",
+      "starterEntries": 14,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent moves."
+    },
+    {
+      "name": "Mafia Kick",
+      "sourceFile": "MafiaKick2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 14,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.    This move does up to +5 damage. Your opponent is put on the mat."
+    },
+    {
+      "name": "German Suplex",
+      "sourceFile": "GermanSuplex2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 14,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe moves.    Your opponent loses +1 Attitude and you attempt to pin. You stay in control if the pin fails."
+    },
+    {
+      "name": "Throw Over The Ropes",
+      "sourceFile": "ThrowOverTheRopes.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Play only in the ring. Your opponent is sent to ringside. Unless already stunned, your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Leg Drop",
+      "sourceFile": "LegDrop.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat. If this move is countered you lose up to an additional 2 Momentum."
+    },
+    {
+      "name": "DDT",
+      "sourceFile": "DDTEX1.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves.\r\n\r\nChoose one: A random special in your opponent's hand is ditched or you gain +1 Attitude."
+    },
+    {
+      "name": "Headlock",
+      "sourceFile": "Headlock2E.gac",
+      "cardClass": "Submission",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent and in close moves.\n\nWhen this move connects, you draw a page if your opponent has any head damage. Your opponent cannot submit to this move."
+    },
+    {
+      "name": "Drop Kick",
+      "sourceFile": "DropKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Counters high risk and mad rush moves.    Your opponent is put on the mat. If countered, you lose up to an additional two Momentum."
+    },
+    {
+      "name": "Spinning Heel Kick",
+      "sourceFile": "SpinningHeelKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.\r\n\r\nYour opponent is put on the mat. Unless already stunned, he is stunned until the end of the next turn."
+    },
+    {
+      "name": "Taunt",
+      "sourceFile": "Taunt2E.gac",
+      "cardClass": "Special",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Draw a page.\r\n\r\nYour opponent loses one Attitude. Your next move does +2 damage.\r\n\r\n(Heel pages can't be played if you've already played a Face page.)"
+    },
+    {
+      "name": "Spinning Heel Kick",
+      "sourceFile": "SpinningHeelKick2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 13,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.\r\n\r\nYour opponent is put on the mat. Unless already stunned, he is stunned until the end of the next turn."
+    },
+    {
+      "name": "Elbow to Back of the Head",
+      "sourceFile": "ElbowToTheBackOfTheHead.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves.\r\n\r\nYour opponent takes 2 Head damage. 50% chance opponent loses 1 additional Momentum."
+    },
+    {
+      "name": "Eye Rake",
+      "sourceFile": "PokeInTheEye.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "This move counters arm extended, in close, standing above and behind opponent moves.    You receive 2 Warnings from the referee and your opponent loses 1 Momentum."
+    },
+    {
+      "name": "Back Body Drop to Ringside",
+      "sourceFile": "BackBodyDropOverTheRopes.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Play this move only in the ring. Counters victim below moves. Your opponent is moved to Ringside. There is a 33% chance your opponent ditches his next page from his playbook."
+    },
+    {
+      "name": "Armbar Takedown",
+      "sourceFile": "ArmbarTakedown.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended moves. Your opponent takes 1 Arm damage and there is a 50% chance your opponent's next page is ditched."
+    },
+    {
+      "name": "Sleeper",
+      "sourceFile": "Sleeper2E.gac",
+      "cardClass": "Submission",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves. Countered by Back Suplex. This move does 2 head damage per turn. Each turn, if your opponent has 0 Attitude, a random move from his hand is ditched. Otherwise, he loses 1 Attitude."
+    },
+    {
+      "name": "Back Suplex",
+      "sourceFile": "BackSuplex.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe moves. This move does 1 Back damage."
+    },
+    {
+      "name": "Up and Over",
+      "sourceFile": "UpAndOver.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Momentum."
+    },
+    {
+      "name": "Running Clothesline",
+      "sourceFile": "RunningClotheslineEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 12,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves. Choose a page in hand. If this move connects that page is ditched, you get Crowd Support, your opponent ditches a random page from hand and is put on the mat."
+    },
+    {
+      "name": "Once Too Often",
+      "sourceFile": "BackToTheWellOnceToOften.gac",
+      "cardClass": "Special",
+      "starterEntries": 12,
+      "status": "runtime_interpreted",
+      "text": "Counter your opponent's move. Use only if your opponent has connected with that move this match, and only if you are not in control and not in a submission Hold. You may use this page even if you are stunned."
+    },
+    {
+      "name": "Grab The Ropes",
+      "sourceFile": "GrabTheRopes2E.gac",
+      "cardClass": "Special",
+      "starterEntries": 12,
+      "status": "runtime_interpreted",
+      "text": "Play only if the referee is not distracted and only in the ring. Draw a page.\nAny pin attempt, hold, or attempt to escape a steel cage is countered. Your opponent remains in control but can't attempt to pin or escape until another move has been played."
+    },
+    {
+      "name": "Arm Drag Counter",
+      "sourceFile": "ArmDragCounter.gac",
+      "cardClass": "Move",
+      "starterEntries": 11,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters arm extended and mad rush moves. Countered by in close moves. This move provides no Momentum."
+    },
+    {
+      "name": "Boring",
+      "sourceFile": "Boring.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 11,
+      "status": "preserved_needs_verification",
+      "text": "Draw three pages. Use only if your opponent's move and last connected move have the same move type and if you aren't in a submission Hold or in control.\nIf you ditch this page it counts as two pages."
+    },
+    {
+      "name": "Eye Rake",
+      "sourceFile": "EyeRake2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 11,
+      "status": "preserved_needs_verification",
+      "text": "This move counters arm extended, in close, standing above and behind opponent moves. You receive 2 Warnings and your opponent loses +1 Attitude."
+    },
+    {
+      "name": "Lariat",
+      "sourceFile": "Lariat2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 11,
+      "status": "preserved_needs_verification",
+      "text": "Counters hit or miss and mad rush moves. When you play this move, name a move type (not Defensive). If this connects, your opponent buries a move of the chosen move type and is put on the mat."
+    },
+    {
+      "name": "Power Bomb",
+      "sourceFile": "PowerBomb.gac",
+      "cardClass": "Move",
+      "starterEntries": 10,
+      "status": "preserved_needs_verification",
+      "text": "Countered by Hurricanrana.    If not already stunned, your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Drop Kick To The Knee",
+      "sourceFile": "DropKickToTheKnee.gac",
+      "cardClass": "Move",
+      "starterEntries": 10,
+      "status": "preserved_needs_verification",
+      "text": "Your opponent is put on the mat and takes 4 leg damage. If your opponent has 7 leg damage or is a Big Superstar, you get Crowd Support.\u0015"
+    },
+    {
+      "name": "Low Blow Kick",
+      "sourceFile": "LowBlowKick2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 10,
+      "status": "preserved_needs_verification",
+      "text": "You get 3 Warnings. Your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Atomic Drop",
+      "sourceFile": "AtomicDrop.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe moves. 50% chance your opponent loses an additional Momentum."
+    },
+    {
+      "name": "Arm Drag Takedown",
+      "sourceFile": "ArmDragTakedown2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves.\r\n\r\nIf you have any Knowledge Momentum, draw one page."
+    },
+    {
+      "name": "Jawbreaker",
+      "sourceFile": "JawbreakerEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters victim below moves.    When you play this page you lose 1 Attitude (if you have any)."
+    },
+    {
+      "name": "Arm Drag Takedown",
+      "sourceFile": "ArmDragTakedown.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters mad rush moves. If you have any Knowledge Momentum, draw one page."
+    },
+    {
+      "name": "Belly-to-Belly Suplex",
+      "sourceFile": "BellyToBellySuplex2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close and mad rush moves."
+    },
+    {
+      "name": "Up and Over",
+      "sourceFile": "UpAndOver2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude."
+    },
+    {
+      "name": "Back Suplex",
+      "sourceFile": "BackSuplexEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "runtime_interpreted",
+      "text": "Counters back to foe moves.\n\nChoose a page in your hand. If this move connects you ditch that page."
+    },
+    {
+      "name": "Clothesline Over The Ropes",
+      "sourceFile": "ClotheslineOverTheRopes2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Play this move only if both you and your opponent are in the ring. Countered by Back Body Drop To Ringside.    This move does up to +7 damage. Your opponent is moved to ringside."
+    },
+    {
+      "name": "Armbar Takedown",
+      "sourceFile": "ArmbarTakedown2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Counters arm extended moves.\r\n\r\nYour opponent takes 1 arm damage and there is a 50% chance your opponent's next page from playbook is ditched."
+    },
+    {
+      "name": "Chop",
+      "sourceFile": "ChopEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "runtime_interpreted",
+      "text": "Counters Chop.\n\nChoose a page in your hand. If this move connects that page is ditched."
+    },
+    {
+      "name": "Break!",
+      "sourceFile": "Break2E.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Play if you have hit with two moves in a row, and only if you have not played a move this turn.\n\nGain 1 Attitude and draw two pages. Your opponent gets control."
+    },
+    {
+      "name": "Knee Drop E X2",
+      "sourceFile": "KneeDropEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 9,
+      "status": "preserved_needs_verification",
+      "text": "Play only when your opponent is on the mat. Choose a page in your hand. If this move connects, that page is ditched and you gain +1 Attitude.\u000f"
+    },
+    {
+      "name": "Stunning Blow",
+      "sourceFile": "StunningBlow.gac",
+      "cardClass": "Special",
+      "starterEntries": 8,
+      "status": "runtime_interpreted",
+      "text": "Play only with an Impact move that is not a Finisher.\nIf your move connects your opponent takes an additional 4 damage and is Stunned until the end of the next turn."
+    },
+    {
+      "name": "Vertical Suplex",
+      "sourceFile": "VerticalSuplex.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close moves. Countered by Up and Over."
+    },
+    {
+      "name": "Bounce Off The Ropes",
+      "sourceFile": "BounceOffTheRopes.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat in the ring. If you have 3 Strike, a random Strike move is drawn from your playbook.\nIf you play an Impact or Drop move and it connects, that move does +3 damage and you draw a page."
+    },
+    {
+      "name": "Elbow to Back of the Head",
+      "sourceFile": "ElbowToBackOfTheHead2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves. Your opponent takes 2 head damage. 50% chance opponent loses +1 Attitude."
+    },
+    {
+      "name": "Moonsault",
+      "sourceFile": "Moonsault2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat and in the ring. If countered, you are stunned until the end of the turn.  All specials in your opponent's hand are buried. Your opponent stays on the mat."
+    },
+    {
+      "name": "Corner Barrage",
+      "sourceFile": "CornerBarrage2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "If not already stunned, your opponent is stunned until the end of the next turn.\u0013"
+    },
+    {
+      "name": "Splash",
+      "sourceFile": "SplashEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat. If countered, you take 4 damage."
+    },
+    {
+      "name": "Senton Back Splash",
+      "sourceFile": "SentonBackSplash.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "runtime_interpreted",
+      "text": "Play only if your opponent is on the mat. If countered, you take 3 damage.\n\nOtherwise this move does +2 damage for each type of Momentum you have more than your opponent and you get +1 Attitude."
+    },
+    {
+      "name": "Atomic Drop",
+      "sourceFile": "AtomicDrop2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Counters back to foe moves.    50% chance your opponent loses an additional Momentum."
+    },
+    {
+      "name": "Duck",
+      "sourceFile": "Duck2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "This move can't be played offensively. Counters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no Attitude."
+    },
+    {
+      "name": "Aggressive Strength",
+      "sourceFile": "AggressiveStrength.gac",
+      "cardClass": "Momentum",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Play only if you have hit two moves in a row and only after turn 5.\r\n\r\nGain +1 Strength and +1 Attitude."
+    },
+    {
+      "name": "Round Kick",
+      "sourceFile": "RoundKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "33% chance your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "DDT",
+      "sourceFile": "DDTEX3.gac",
+      "cardClass": "Move",
+      "starterEntries": 8,
+      "status": "runtime_interpreted",
+      "text": "Counters head down moves.\nYour opponent's next three pages are revealed to you. Choose one; the others are ditched. (This can't be played if your opponent has no pages left.)"
+    },
+    {
+      "name": "Break!",
+      "sourceFile": "BreakEX2.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 8,
+      "status": "preserved_needs_verification",
+      "text": "Play if you aren't in control and your opponent has 3 or more Attitude than you, and only before turn 30.\n\nYour opponent loses 5 Attitude and ditches a random move from hand."
+    },
+    {
+      "name": "Back Elbow",
+      "sourceFile": "BackElbow.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Counters behind opponent moves."
+    },
+    {
+      "name": "Lariat",
+      "sourceFile": "PowerfulClothesline.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Counters hit or miss and mad rush moves. When you play this move, name a move type (not Defensive). If this connects, your opponent buries a move of the chosen move type and is put on the mat."
+    },
+    {
+      "name": "Back Suplex",
+      "sourceFile": "BackSuplex2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "runtime_interpreted",
+      "text": "Counters back to foe moves.\n\nChoose one: Your opponent ditches a Knowledge Momentum from hand or your opponent ditches a random Special from hand."
+    },
+    {
+      "name": "Russian Leg Sweep",
+      "sourceFile": "RussianLegSweepEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "runtime_interpreted",
+      "text": "Counters behind opponent and back to foe moves.\n\nIf you have more pages in your playbook than your opponent, this move does +4 damage."
+    },
+    {
+      "name": "Distract The Referee",
+      "sourceFile": "DistractTheReferee.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Play only if the Referee is not distracted. The Referee is distracted for 1 to 6 turns (any Referee Special in play is removed). Distracted Referees do not give warnings, count pins or accept submissions. This effect ends if a Referee Special is played later.\r\n(Heel page: cannot be played if you have played a Face page.)"
+    },
+    {
+      "name": "Low Blow Kick",
+      "sourceFile": "LowBlow.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "You receive 3 Warnings from the referee. Your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Double Underhook Suplex",
+      "sourceFile": "DoubleUnderhookSuplex.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Your opponent's next 4 pages from playbook are ditched."
+    },
+    {
+      "name": "Slap",
+      "sourceFile": "Slap2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Your opponent ditches a random page from hand that isn't momentum, and gains 3 Attitude."
+    },
+    {
+      "name": "Back Heel Trip",
+      "sourceFile": "BackHeelTrip.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Counters leg extended moves. If your opponent doesn't have any Technical, this move can't be countered by a move."
+    },
+    {
+      "name": "Side Kick",
+      "sourceFile": "SideKick.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Counters in close moves. Strike Combo: You get Crowd Support."
+    },
+    {
+      "name": "Stunning Blow",
+      "sourceFile": "StunningBlow2E.gac",
+      "cardClass": "Special",
+      "starterEntries": 7,
+      "status": "runtime_interpreted",
+      "text": "Play only with an Impact move that is not a Finisher.\n\nThe move does +4 damage and if it connected your opponent is stunned until the end of the next turn."
+    },
+    {
+      "name": "Round Kick",
+      "sourceFile": "RoundKick2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "33% chance your opponent is stunned until the end of the next turn.\u000f"
+    },
+    {
+      "name": "Forearm Smash",
+      "sourceFile": "ForearmSmash2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "This move does up to +2 damage."
+    },
+    {
+      "name": "Bulldog",
+      "sourceFile": "Bulldog.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "The next four pages from your opponent's playbook are ditched."
+    },
+    {
+      "name": "Flat of the Foot",
+      "sourceFile": "FlatOfTheFoot.gac",
+      "cardClass": "Move",
+      "starterEntries": 7,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves."
+    },
+    {
+      "name": "Clothesline",
+      "sourceFile": "ClotheslineEX1.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "runtime_interpreted",
+      "text": "Counters hit or miss moves. Your opponent is put on the mat.\n\nChoose one: Draw a random hit or miss move from your playbook or this move does up to +5 damage."
+    },
+    {
+      "name": "Snap Suplex",
+      "sourceFile": "SnapSuplex.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down and in close moves. This move does +1 damage for each Attitude you have, up to +5."
+    },
+    {
+      "name": "Neckbreaker",
+      "sourceFile": "Neckbreaker.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "runtime_interpreted",
+      "text": "Counters behind opponent moves.\nYour opponent takes 2 Head damage and has his next page ditched. Unless your opponent has less than 4 pages in hand, your opponent ditches 1 random page from hand."
+    },
+    {
+      "name": "2nd Rope Leg Drop",
+      "sourceFile": "2ndRopeLegDrop2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat and in the ring. He stays on the mat, and if not already stunned, is stunned until the end of the next turn. You get +1 Attitude. If countered, you are stunned until the end of the turn."
+    },
+    {
+      "name": "Snap Suplex",
+      "sourceFile": "SnapSuplex2E.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down and in close moves.\r\n\r\nThis move does +1 damage (up to +5) for each Attitude you have."
+    },
+    {
+      "name": "Steel Folding Chair",
+      "sourceFile": "SteelFoldingChairEX2.gac",
+      "cardClass": "Special",
+      "starterEntries": 6,
+      "status": "runtime_interpreted",
+      "text": "Special: Either this page is removed from the game or \"Chair Shot\" is played as your move this turn (your choice). Only use this ability if you haven't played a move this turn, you're in your opponent's location and only once each time you have control."
+    },
+    {
+      "name": "Distract The Referee",
+      "sourceFile": "DistractTheReferee2E.gac",
+      "cardClass": "Gameplan",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "The Referee is distracted for 1 to 6 turns (any Referee Special in play is removed). Distracted Referees do not give warnings, and the match can't end except by time limit draw. If a Referee is played later, this page leaves play."
+    },
+    {
+      "name": "Elbow to Back of the Head",
+      "sourceFile": "ElbowToTheBackOfTheHeadEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Counters head down moves. Can't be countered by Strength moves."
+    },
+    {
+      "name": "Moonsault",
+      "sourceFile": "Moonsault.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Play only if your opponent is on the mat and in the ring. If countered, you are stunned until the end of the turn.  All Specials in your opponent's hand are buried. Your opponent stays on the mat."
+    },
+    {
+      "name": "Samoan Drop",
+      "sourceFile": "SamoanDropEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Play only in the ring. Counters mad rush moves. To play, you must choose and ditch a page. A random Gameplan special in play is ditched."
+    },
+    {
+      "name": "Neckbreaker E X2",
+      "sourceFile": "NeckbreakerEX2.gac",
+      "cardClass": "Move",
+      "starterEntries": 6,
+      "status": "preserved_needs_verification",
+      "text": "Choose a page in your hand. If this move connects that page is ditched."
+    }
+  ],
+  "importedSourceFiles": [
+    "RikishiPhatu.gac",
+    "StunningBlow.gac",
+    "ToughGuy.gac",
+    "BookerT.gac",
+    "CollarAndElbowTieup.gac",
+    "BodySlamEX1.gac",
+    "ClotheslineEX1.gac",
+    "ScissorsKick.gac",
+    "ShaneMcMahonEX1.gac",
+    "WithAuthorityEX1.gac",
+    "Spineroonie.gac",
+    "BookerTEX2.gac",
+    "InterviewWithMichaelCole.gac",
+    "ScissorsKickEX2.gac",
+    "SpineroonieEX2.gac",
+    "BubbaRayDudleyEX2.gac",
+    "3DEX2.gac",
+    "BackSuplexEX2.gac",
+    "RefBump.gac",
+    "VerticalSuplexEX1.gac",
+    "BubbaRayDudley.gac",
+    "3D.gac",
+    "BackSuplexEX1.gac",
+    "CollarAndElbowTieup2E.gac",
+    "RefBump2E.gac",
+    "ChrisBenoit2E.gac",
+    "BackSuplex2E.gac",
+    "RussianLegSweepEX2.gac",
+    "ChrisJericho.gac",
+    "AsaiMoonsault.gac",
+    "Neckbreaker.gac",
+    "TopeSuicida.gac",
+    "ChrisJericho2E.gac",
+    "Christian.gac",
+    "ChopEX2.gac",
+    "SteelFoldingChairEX2.gac",
+    "TemperTantrum.gac",
+    "DVonDudley.gac",
+    "OffTheBarricade.gac",
+    "TakingAHugeChance.gac",
+    "EddieGuerreroEX1.gac",
+    "ElbowDrop.gac",
+    "Hurricanrana.gac",
+    "KneeDrop.gac",
+    "PleadToTheReferee.gac",
+    "EddieGuerrero2E.gac",
+    "SentonBackSplash.gac",
+    "Edge.gac",
+    "BackBodyDropEX1.gac",
+    "CatchTheFoot.gac",
+    "DropKickEX1.gac",
+    "HeadlockEX1.gac",
+    "BackToTheWellOnceToOften.gac",
+    "SlowAndMethodical.gac",
+    "Edge2E.gac",
+    "OnceTooOften2E.gac",
+    "Backslide.gac",
+    "WithAuthority2E.gac",
+    "Goldust.gac",
+    "ArmDragTakedownEX3.gac",
+    "StunningBlow2E.gac",
+    "HollywoodHulkHogan2E.gac",
+    "GotAllOfIt2E.gac",
+    "HesCallingForIt2E.gac",
+    "IrishWhip2E.gac",
+    "PleadToTheReferee2E.gac",
+    "ThatWasThree2E.gac",
+    "StacyKiebler.gac",
+    "HollywoodHulkHoganLE.gac",
+    "JeffHardy.gac",
+    "PushThePace.gac",
+    "JeffHardyEX2.gac",
+    "MissileDropkickEX2.gac",
+    "Kane.gac",
+    "Pose.gac",
+    "TombstonePiledriver.gac",
+    "TopRopeClothesline.gac",
+    "Kane2E.gac",
+    "TestOfStrength.gac",
+    "KevinNashEX3.gac",
+    "DDTEX3.gac",
+    "NewWorldOrderEX3.gac",
+    "KurtAngle.gac",
+    "Intelligence.gac",
+    "Intensity.gac",
+    "OneStepAhead.gac",
+    "WithAuthority.gac",
+    "GrabTheRope.gac",
+    "Superplex.gac",
+    "KurtAngle2E.gac",
+    "HipToss2E.gac",
+    "Intensity2E.gac",
+    "OneStepAhead2E.gac",
+    "ToughGuy2E.gac",
+    "ControlThePace.gac",
+    "LanceStorm.gac",
+    "HipTossEX3.gac",
+    "TheUnamericans.gac",
+    "FrontFacelock2E.gac",
+    "GrabTheRopes2E.gac",
+    "Lita.gac",
+    "TheFansComeAlive.gac",
+    "DropToeHold.gac",
+    "Jawbreaker.gac",
+    "Litacanrana.gac",
+    "MissileDropkick.gac",
+    "ShoveWithLegs.gac",
+    "ToTheFloor.gac",
+    "Lita2E.gac",
+    "Litacanrana2E.gac",
+    "MattHardy.gac",
+    "SupportFromLita.gac",
+    "RicFlairEX3.gac",
+    "Whooooooooooo.gac",
+    "RicFlairEX3LE.gac",
+    "DirtiestPlayerInTheGame.gac",
+    "HalfBostonCrab2E.gac",
+    "RobVanDam.gac",
+    "PunchEX1.gac",
+    "SpinningHeelKickEX2.gac",
+    "VanDaminator.gac",
+    "RobVanDamEX2.gac",
+    "Splash2E.gac",
+    "StepOverHeelKickEX2.gac",
+    "VanDaminatorEX2.gac",
+    "ScottyTooHottie.gac",
+    "O.gac",
+    "TheWorm.gac",
+    "W.gac",
+    "SpikeDudley.gac",
+    "AggressiveAgility.gac",
+    "stsaEX1.gac",
+    "IrishWhip.gac",
+    "LouTheszPressEX1.gac",
+    "StoneColdStunnerEX1.gac",
+    "TreeOfWoe.gac",
+    "TajiriLE.gac",
+    "HandspringBackElbowLE.gac",
+    "TarantulaLE.gac",
+    "WillToWin2E.gac",
+    "DropKickEX3.gac",
+    "Tazz.gac",
+    "ChokeOnTheRopes.gac",
+    "SensingVictory.gac",
+    "AnotherAttitudeStar.gac",
+    "TestEX2.gac",
+    "InvertedAtomicDropEX2.gac",
+    "Misunderstanding.gac",
+    "TheBigShow2E.gac",
+    "SteelFoldingChair2E.gac",
+    "WorkingStiff2E.gac",
+    "TheCripplerChrisBenoit.gac",
+    "RollingGermanSuplex.gac",
+    "LookingForWeaknesses.gac",
+    "TheHurricane.gac",
+    "ArmbarTakedownEX3.gac",
+    "LandOnYourFeet.gac",
+    "FlyingHeadScissors.gac",
+    "RollUp2E.gac",
+    "TheHurricaneLE.gac",
+    "TheRock.gac",
+    "TakeABreather.gac",
+    "RingVeteran.gac",
+    "TheRock2E.gac",
+    "PowerSlamEX2.gac",
+    "TheRock2EnoLE.gac",
+    "TheUndertakerEX1.gac",
+    "OldSchoolEX1.gac",
+    "TheUndertaker2E.gac",
+    "OldSchool2E.gac",
+    "WhatImpact2E.gac",
+    "KickToGut.gac",
+    "TrishStratusEX3.gac",
+    "WithAuthorityEX2.gac",
+    "TrishStratusEX3LE.gac",
+    "WilliamRegal.gac",
+    "BeautifulChainWrestling.gac",
+    "TiltaWhirlBackbreaker.gac",
+    "XPac.gac",
+    "TripleH.gac"
+  ]
+}

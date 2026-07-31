@@ -1,0 +1,7 @@
+{
+  "version": "v0.9.36",
+  "rule": "After one Momentum page is played, the next page must be a move attempt. Another Momentum allowance opens only after a successful move or a new controller begins a turn.",
+  "playerActionsBlockedAfterMomentum": ["Momentum", "Gameplan", "Special/support ability", "page recovery", "table removal"],
+  "counterPages": "Still legal only in the defender counter window.",
+  "cpuRule": "CPU filters to Move/Trademark attacks after playing Momentum."
+}
