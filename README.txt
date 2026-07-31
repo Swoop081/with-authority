@@ -34,4 +34,4 @@ v0.9.54 restores 63 recoverable original audio assets. Mobile browsers require a
 
 v0.9.59: submission loop repair, original-style portrait HUD and crowd, card flip, swipe play/ditch, dynamic hand ordering, contextual actions, full-screen card resolution.
 
-v0.9.60: fixed missing momentumIcons match-start crash; added launch-time version.json update check and versioned cache replacement.
+v0.9.61: fixed missing momentumIcons match-start crash; added launch-time version.json update check and versioned cache replacement.
