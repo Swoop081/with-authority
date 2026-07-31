@@ -1,0 +1,92 @@
+{
+  "austin": {
+    "key": "austin",
+    "name": "STONE COLD",
+    "ability": "Bionic Redneck",
+    "entrance": "Glass Shatters",
+    "finisher": "Stone Cold Stunner",
+    "hp": 40,
+    "style": "brawler"
+  },
+  "rock": {
+    "key": "rock",
+    "name": "THE ROCK",
+    "ability": "People\u2019s Champion",
+    "entrance": "If You Smell",
+    "finisher": "Rock Bottom",
+    "hp": 40,
+    "style": "balanced"
+  },
+  "tripleh": {
+    "key": "tripleh",
+    "name": "TRIPLE H",
+    "ability": "Cerebral Assassin",
+    "entrance": "King of Kings",
+    "finisher": "Pedigree",
+    "hp": 42,
+    "style": "technical"
+  },
+  "angle": {
+    "key": "angle",
+    "name": "KURT ANGLE",
+    "ability": "Olympic Hero",
+    "entrance": "Medal Ceremony",
+    "finisher": "Angle Slam",
+    "hp": 38,
+    "style": "submission"
+  },
+  "jericho": {
+    "key": "jericho",
+    "name": "CHRIS JERICHO",
+    "ability": "Ayatollah of Rock \u2018n\u2019 Rolla",
+    "entrance": "Break the Walls Down",
+    "finisher": "Lionsault",
+    "hp": 37,
+    "style": "agile"
+  },
+  "undertaker": {
+    "key": "undertaker",
+    "name": "THE UNDERTAKER",
+    "ability": "Deadman Rising",
+    "entrance": "Funeral Bell",
+    "finisher": "Tombstone Piledriver",
+    "hp": 44,
+    "style": "power"
+  },
+  "kane": {
+    "key": "kane",
+    "name": "KANE",
+    "ability": "Big Red Machine",
+    "entrance": "Pyro Eruption",
+    "finisher": "Chokeslam From Hell",
+    "hp": 44,
+    "style": "power"
+  },
+  "bigshow": {
+    "key": "bigshow",
+    "name": "BIG SHOW",
+    "ability": "World\u2019s Largest Athlete",
+    "entrance": "Giant Entrance",
+    "finisher": "Showstopper",
+    "hp": 46,
+    "style": "power"
+  },
+  "spike": {
+    "key": "spike",
+    "name": "SPIKE DUDLEY",
+    "ability": "150 Pounds of Toughness",
+    "entrance": "Dudley Charge",
+    "finisher": "Dudley Dog",
+    "hp": 34,
+    "style": "agile"
+  },
+  "hogan": {
+    "key": "hogan",
+    "name": "HOLLYWOOD HULK HOGAN",
+    "ability": "24 Inch Pythons",
+    "entrance": "Voodoo Child",
+    "finisher": "Atomic Leg Drop",
+    "hp": 43,
+    "style": "brawler"
+  }
+}

@@ -1,21 +1,14 @@
-WITH AUTHORITY! MOBILE v0.6.0
-Expanded Rules & Card Compatibility
+WITH AUTHORITY MOBILE v0.7.0
 
-Stable baseline: v0.5.0
+Full Superstar & Authentic Playbook Expansion
 
-This private mobile preservation build expands support for recurring original card rules across the imported 202-card playable library.
+- 10 selectable Superstars
+- Individual HP, abilities, entrance pages and styles
+- Superstar-linked Trademark finishers
+- Separate saved playbooks
+- Chosen or random CPU opponents
+- Persistent per-Superstar records
+- Roster and playbook validation
+- Preserves v0.6 expanded rule compatibility
 
-Added:
-- Named move-position counters inferred from original card wording
-- Counter-only card enforcement
-- Face/Heel alignment conflicts
-- Method requirements such as Strike, Strength, Technical, Knowledge and Agility
-- Extra page-draw effects
-- Conditional stun handling
-- Variable damage bonuses
-- Head, Arm, Leg and Body damage tracking
-- Persistent holds with original automatic-release percentages where available
-- Stronger counter selection for the CPU
-- Separate v0.6.0 local save namespace
-
-Open index.html through a local web server or deploy the folder contents to GitHub Pages. Keep .nojekyll at the repository root.
+Private personal testing build. GitHub Pages compatible; keep .nojekyll.
