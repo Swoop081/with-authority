@@ -62,3 +62,6 @@ v0.9.70 match HUD cleanup:
 - Added compact two-digit Momentum counters and larger wrestler portraits.
 - Moved the active-turn badge onto the active wrestler.
 - Added an in-match gear menu for sound, music, match log and quitting.
+
+
+v0.9.73: Corrected Superstar artwork resolver to require Superstar-class source mappings; fixed Ric Flair, Kevin Nash, Trish Stratus and Scotty 2 Hotty roster art.

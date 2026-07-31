@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.72',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.73',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 const AUDIO={unlocked:false,music:null,crowd:null};
@@ -109,7 +109,26 @@ function enrichCard(c){
 const esc=v=>String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const artKey=v=>String(v||'').replace(/\.[^.]+$/,'').toLowerCase().replace(/[^a-z0-9]+/g,'');
 function cardArt(c){const keys=[c.sourceFile,c.id,c.name];for(const k of keys){const hit=ART.assets?.[artKey(k)];if(hit)return hit.file}return ''}
-function starArt(key){return ART.superstars?.[key]?.file||''}
+function starArt(key){
+  const superstar=SUPERSTARS[key];
+  if(!superstar)return'';
+  const exactCard=cards.find(c=>c.cardClass==='Superstar'&&String(c.sourceFile||'').toLowerCase()===String(superstar.sourceFile||'').toLowerCase());
+  if(exactCard){const exact=cardArt(exactCard);if(exact)return exact}
+  const verified={
+    flair:'assets/gai/RicFlairEX3.webp',
+    nash:'assets/gai/KevinNashEX3.webp',
+    trish:'assets/gai/TrishStratusEX3LE.webp',
+    scotty:'assets/gai/Scotty2HottyEX1.webp'
+  };
+  if(verified[key])return verified[key];
+  const manifest=ART.superstars?.[key]?.file||'';
+  if(manifest){
+    const bad=['RicFlair.webp','KevinNash.webp','TrishStratus.webp'];
+    if(!bad.some(x=>manifest.endsWith(x)))return manifest;
+  }
+  const named=cards.find(c=>c.cardClass==='Superstar'&&String(c.name||'').toLowerCase()===String(superstar.name||'').toLowerCase());
+  return named?cardArt(named):'';
+}
 const MOMENTUM_ICON_FILES={
   Agility:'assets/gai/front-agility.webp',
   Knowledge:'assets/gai/Knowledge-front.webp',
