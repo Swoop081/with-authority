@@ -1,92 +1,14 @@
 [
-  {
-    "id": "DDTEX1",
-    "name": "D D T E X1",
-    "description": "Counters head down moves.",
-    "damage": 4,
-    "momentumCost": 6,
-    "method": "Technical",
-    "template": "Moves_Template-EX1.gag"
-  },
-  {
-    "id": "DragonSleeper",
-    "name": "Dragon Sleeper",
-    "description": "Your opponent takes 6 Head damage per turn.\u0011",
-    "damage": 4,
-    "momentumCost": 7,
-    "method": "Technical",
-    "template": "Moves_Template.gag"
-  },
-  {
-    "id": "BodySlamEX3",
-    "name": "Body Slam E X3",
-    "description": "Counters mad rush moves.",
-    "damage": 4,
-    "momentumCost": 6,
-    "method": "Special",
-    "template": "Moves_Template-EX3.gag"
-  },
-  {
-    "id": "BackElbowEX1",
-    "name": "Back Elbow E X1",
-    "description": "Counters behind opponent moves.",
-    "damage": 4,
-    "momentumCost": 6,
-    "method": "Technical",
-    "template": "Moves_Template-EX1.gag"
-  },
-  {
-    "id": "DropKick2E",
-    "name": "Drop Kick",
-    "description": "Counters high risk and mad rush moves.",
-    "damage": 1,
-    "momentumCost": 1,
-    "method": "Special",
-    "template": "Moves_Template-2E.gag"
-  },
-  {
-    "id": "RussianLegSweep",
-    "name": "Russian Leg Sweep",
-    "description": "Counters behind opponent and back to foe moves.",
-    "damage": 4,
-    "momentumCost": 5,
-    "method": "Technical",
-    "template": "Moves_Template.gag"
-  },
-  {
-    "id": "Jawbreaker",
-    "name": "Jawbreaker",
-    "description": "Counters victim below moves.",
-    "damage": 5,
-    "momentumCost": 5,
-    "method": "Technical",
-    "template": "Moves_Template-EX1.gag"
-  },
-  {
-    "id": "KneeLiftEX1",
-    "name": "Knee Lift E X1",
-    "description": "Counters arm extended moves.\u000f",
-    "damage": 6,
-    "momentumCost": 5,
-    "method": "Special",
-    "template": "Moves_Template-EX1.gag"
-  },
-  {
-    "id": "Neckbreaker2E",
-    "name": "Neckbreaker",
-    "description": "If your opponent has no head damage you gain +1 Attitude. Otherwise, there is a 33% chance you draw a page.\u0012",
-    "damage": 9,
-    "momentumCost": 6,
-    "method": "Technical",
-    "template": "Moves_Template-2E.gag"
-  },
-  {
-    "id": "VerticalSuplex2E",
-    "name": "Vertical Suplex",
-    "description": "Counters in close moves. Countered by Up and Over.\u0014",
-    "damage": 6,
-    "momentumCost": 5,
-    "method": "Special",
-    "template": "Moves_Template-2E.gag"
-  }
+  {"id":"DropKick2E","name":"Drop Kick","description":"A quick standing attack. Counters High Risk and Mad Rush moves.","damage":2,"momentumCost":1,"momentumGain":2,"method":"Special","position":"Standing","setsPosition":"Standing","counters":["High Risk","Mad Rush"],"stun":0},
+  {"id":"BodySlamEX3","name":"Body Slam","description":"A powerful standing move. Counters Mad Rush moves.","damage":4,"momentumCost":3,"momentumGain":2,"method":"Special","position":"Standing","setsPosition":"Grounded","counters":["Mad Rush"],"stun":0},
+  {"id":"BackElbowEX1","name":"Back Elbow","description":"A sharp counter from close range. Counters Behind Opponent moves.","damage":3,"momentumCost":2,"momentumGain":2,"method":"Technical","position":"In Close","setsPosition":"Standing","counters":["Behind Opponent"],"stun":0},
+  {"id":"RussianLegSweep","name":"Russian Leg Sweep","description":"Takes the opponent down. Counters Behind Opponent and Back To Foe moves.","damage":4,"momentumCost":4,"momentumGain":3,"method":"Technical","position":"In Close","setsPosition":"Grounded","counters":["Behind Opponent","Back To Foe"],"stun":0},
+  {"id":"Jawbreaker","name":"Jawbreaker","description":"A sudden escape that counters Victim Below moves.","damage":4,"momentumCost":4,"momentumGain":3,"method":"Technical","position":"Victim Below","setsPosition":"Standing","counters":["Victim Below"],"stun":0},
+  {"id":"KneeLiftEX1","name":"Knee Lift","description":"A heavy strike. Counters Arm Extended moves.","damage":5,"momentumCost":5,"momentumGain":4,"method":"Special","position":"In Close","setsPosition":"Staggered","counters":["Arm Extended"],"stun":1},
+  {"id":"Neckbreaker2E","name":"Neckbreaker","description":"A high-impact head attack from close range.","damage":7,"momentumCost":6,"momentumGain":4,"method":"Technical","position":"In Close","setsPosition":"Grounded","counters":[],"stun":1},
+  {"id":"VerticalSuplex2E","name":"Vertical Suplex","description":"A high-impact throw. Counters In Close moves.","damage":6,"momentumCost":5,"momentumGain":4,"method":"Special","position":"In Close","setsPosition":"Grounded","counters":["In Close"],"stun":1},
+  {"id":"DDTEX1","name":"DDT","description":"Drives the opponent down. Counters Head Down moves.","damage":6,"momentumCost":6,"momentumGain":4,"method":"Technical","position":"Head Down","setsPosition":"Grounded","counters":["Head Down"],"stun":1},
+  {"id":"DragonSleeper","name":"Dragon Sleeper","description":"A grounded submission that drains momentum while maintained.","damage":4,"momentumCost":7,"momentumGain":5,"method":"Technical","position":"Grounded","setsPosition":"Submission","counters":[],"stun":2},
+  {"id":"Clothesline","name":"Clothesline","description":"A charging strike that creates a Mad Rush position.","damage":3,"momentumCost":2,"momentumGain":2,"method":"Special","position":"Standing","setsPosition":"Mad Rush","counters":[],"stun":0},
+  {"id":"ElbowDrop","name":"Elbow Drop","description":"A grounded follow-up that leaves the opponent below you.","damage":4,"momentumCost":3,"momentumGain":3,"method":"Special","position":"Grounded","setsPosition":"Victim Below","counters":[],"stun":0}
 ]
