@@ -1,0 +1,612 @@
+{
+  "version": "0.9.66",
+  "competitive": [
+    {
+      "superstar": "austin",
+      "finisher": "Stone Cold Stunner",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": 3.42
+    },
+    {
+      "superstar": "rock",
+      "finisher": "Rock Bottom",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -5.74
+    },
+    {
+      "superstar": "tripleh",
+      "finisher": "Sledgehammer Shot",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -2.54
+    },
+    {
+      "superstar": "tripleh",
+      "finisher": "Pedigree",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -3.69
+    },
+    {
+      "superstar": "undertaker",
+      "finisher": "Stunning Blow",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.55,
+      "consistency": 8.53
+    },
+    {
+      "superstar": "kane",
+      "finisher": "Choke Slam To Hell",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -1.31
+    },
+    {
+      "superstar": "kane",
+      "finisher": "Tombstone Piledriver",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.47
+    },
+    {
+      "superstar": "angle",
+      "finisher": "Angle Slam",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.72
+    },
+    {
+      "superstar": "angle",
+      "finisher": "Angle's Ankle Lock",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.1,
+      "consistency": -7.18
+    },
+    {
+      "superstar": "jericho",
+      "finisher": "Walls Of Jericho",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -5.91
+    },
+    {
+      "superstar": "benoit",
+      "finisher": "Crippler Cross Face",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -6.82
+    },
+    {
+      "superstar": "bigshow",
+      "finisher": "The Final Cut E X1",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.15
+    },
+    {
+      "superstar": "bookert",
+      "finisher": "Scissors Kick",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.65,
+      "consistency": 10.78
+    },
+    {
+      "superstar": "edge",
+      "finisher": "Edgecution",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.1,
+      "consistency": -8.91
+    },
+    {
+      "superstar": "edge",
+      "finisher": "Figure Four Edge Lock",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -2.83
+    },
+    {
+      "superstar": "christian",
+      "finisher": "Unprettier",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -2.29
+    },
+    {
+      "superstar": "eddie",
+      "finisher": "Latino Heat",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.6,
+      "consistency": 23.3
+    },
+    {
+      "superstar": "rvd",
+      "finisher": "Van Daminator",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.5,
+      "consistency": 9.51
+    },
+    {
+      "superstar": "flair",
+      "finisher": "Ric Flair's Figure Four",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -5.19
+    },
+    {
+      "superstar": "hogan",
+      "finisher": "Hogan's Leg Drop",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -0.98
+    },
+    {
+      "superstar": "hogan",
+      "finisher": "Hulk Up!",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.55,
+      "consistency": 14.16
+    },
+    {
+      "superstar": "nash",
+      "finisher": "New World Order",
+      "candidates": 16,
+      "winnerSize": 78,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.55,
+      "consistency": -7.96
+    },
+    {
+      "superstar": "jeffhardy",
+      "finisher": "Swanton Bomb",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Agility",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -5.23
+    },
+    {
+      "superstar": "matthardy",
+      "finisher": "Twist Of Fate",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -7.34
+    },
+    {
+      "superstar": "lita",
+      "finisher": "Litacanrana",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.65,
+      "consistency": 10.29
+    },
+    {
+      "superstar": "trish",
+      "finisher": "Stratusfaction",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -7.1
+    },
+    {
+      "superstar": "bubba",
+      "finisher": "Bubba Bomb",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -0.36
+    },
+    {
+      "superstar": "bubba",
+      "finisher": "Wazzzzzaaaappp",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -7.0
+    },
+    {
+      "superstar": "dvon",
+      "finisher": "Wazzzzzaaaappp",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -10.0
+    },
+    {
+      "superstar": "spike",
+      "finisher": "Running Elbow",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.45,
+      "consistency": 4.7
+    },
+    {
+      "superstar": "bradshaw",
+      "finisher": "Clothesline From Hell",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -3.14
+    },
+    {
+      "superstar": "goldust",
+      "finisher": "Curtain Call",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.12
+    },
+    {
+      "superstar": "lancestorm",
+      "finisher": "Straight Shooter",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.37
+    },
+    {
+      "superstar": "rikishi",
+      "finisher": "Rikishi Driver",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -1.53
+    },
+    {
+      "superstar": "scotty",
+      "finisher": "The Worm",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.6,
+      "consistency": 12.92
+    },
+    {
+      "superstar": "tajiri",
+      "finisher": "Deathblow L E",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -1.22
+    },
+    {
+      "superstar": "tajiri",
+      "finisher": "Deathblow L E",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -1.22
+    },
+    {
+      "superstar": "tazz",
+      "finisher": "Tazzmission",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -3.15
+    },
+    {
+      "superstar": "test",
+      "finisher": "The Big Boot",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -0.61
+    },
+    {
+      "superstar": "hurricane",
+      "finisher": "Eye Of The Hurricane L E",
+      "candidates": 16,
+      "winnerSize": 72,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.35
+    },
+    {
+      "superstar": "hurricane",
+      "finisher": "Eye Of The Hurricane",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -4.95
+    },
+    {
+      "superstar": "regal",
+      "finisher": "Regal Stretch",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": 0.77
+    },
+    {
+      "superstar": "xpac",
+      "finisher": "X-Factor",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -3.78
+    },
+    {
+      "superstar": "alsnow",
+      "finisher": "Snow Plow",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -5.31
+    },
+    {
+      "superstar": "blackman",
+      "finisher": "The Guillotine",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -2.4
+    },
+    {
+      "superstar": "brock",
+      "finisher": "F5",
+      "candidates": 16,
+      "winnerSize": 60,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.1,
+      "consistency": -7.97
+    },
+    {
+      "superstar": "shane",
+      "finisher": "Flying Chair Shot",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.05,
+      "consistency": -4.58
+    },
+    {
+      "superstar": "hbk",
+      "finisher": "Sweet Chin Music",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": 0.02
+    },
+    {
+      "superstar": "scotthall",
+      "finisher": "Razors Edge",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -3.05
+    },
+    {
+      "superstar": "rey",
+      "finisher": "Torito",
+      "candidates": 16,
+      "winnerSize": 66,
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "estimatedWinRate": 0.0,
+      "consistency": -2.34
+    }
+  ],
+  "summary": {
+    "competitiveDecks": 50,
+    "showcaseDecks": 15,
+    "candidateDecksTested": 800,
+    "abstractMatchupsRun": 16000,
+    "unrepresentedCards": 58
+  }
+}

@@ -70,3 +70,53 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
 .crowdStage{background:url('assets/gai/crowd.webp') center/cover no-repeat;border:3px solid #b9b9b9;box-shadow:inset 0 0 35px #000;min-height:190px;display:grid;align-items:end}.crowdStage .status{background:linear-gradient(180deg,transparent,rgba(0,0,0,.92));border:0;align-items:end;padding:8px;position:relative}.turnBadge{position:absolute;left:50%;bottom:8px;transform:translateX(-50%);background:#8f0000;border:1px solid #eee;padding:5px 8px;font-size:9px;font-weight:900;z-index:3}.originalHud{display:grid;grid-template-columns:82px 1fr;gap:7px;width:47%;align-items:end}.originalHud.right{grid-template-columns:1fr 82px}.originalHud.right .wrestlerHead{grid-column:2}.originalHud.right .hudText{grid-column:1;grid-row:1;text-align:right}.wrestlerHead{width:82px;height:112px;object-fit:cover;object-position:center top;filter:drop-shadow(0 3px 3px #000)}.hudText{min-width:0}.hpLine{display:flex;align-items:baseline;gap:3px}.hpLine b{font-size:24px;color:#ffd54a}.momentumIcons{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin:4px 0}.momIcon{display:flex;align-items:center;gap:2px;background:#111b;border:1px solid #555;padding:2px}.momIcon img{width:16px;height:16px;object-fit:cover}.momIcon b{font-size:10px}.limbDamage{display:flex;gap:4px;font-size:9px}.limbDamage span{background:#222d;padding:2px 4px}.limbDamage b{color:#ffd54a;margin-right:2px}.gestureHint{text-align:center;font-size:10px;color:#bbb;margin-top:3px}.contextualActions:empty{display:none}
 .handCard{perspective:900px;touch-action:pan-x;transition:transform .15s}.cardFlip{position:relative;min-height:330px;transform-style:preserve-3d;transition:transform .38s}.handCard.flipped .cardFlip{transform:rotateY(180deg)}.cardFace,.cardBack{position:absolute;inset:0;backface-visibility:hidden;display:flex;flex-direction:column}.cardFront{background:#080808}.cardBack{transform:rotateY(180deg);padding:7px;background:linear-gradient(#d5d5d5,#777);color:#080808;border:3px solid #9a0000;overflow:auto}.cardBack .position,.cardBack .counter{background:#222;color:#fff}.cardBack p{font-size:12px;line-height:1.35;flex:1}.cardBack .stats{font-size:11px}.frontTitle{font-weight:900;text-transform:uppercase;padding:6px;text-align:center}.playFallback{margin-top:auto}.cardPlayOverlay{position:fixed;inset:0;z-index:9999;background:#000b;display:grid;place-items:center;opacity:0;transition:opacity .18s;pointer-events:none}.cardPlayOverlay.show{opacity:1}.bigPlayedCard{width:min(78vw,410px);max-height:82vh;background:#090909;border:4px solid #eee;padding:10px;transform:scale(.72);transition:transform .3s;box-shadow:0 18px 50px #000}.cardPlayOverlay.show .bigPlayedCard{transform:scale(1)}.bigPlayedArt{display:block;width:100%;max-height:70vh;object-fit:contain}.bigPlayedCard b{display:block;text-align:center;padding:8px;text-transform:uppercase;font-size:1.15rem}.submissionPanel{position:sticky;bottom:8px;z-index:5}.footer{display:none!important}
 @media(max-width:430px){.originalHud{grid-template-columns:64px 1fr}.originalHud.right{grid-template-columns:1fr 64px}.wrestlerHead{width:64px;height:92px}.hudText .name{font-size:12px}.hpLine b{font-size:20px}.momentumIcons{grid-template-columns:repeat(2,1fr)}.momIcon img{width:14px;height:14px}.crowdStage{min-height:160px}.hand .card{flex-basis:210px}.cardFlip{min-height:350px}}
+
+/* v0.9.63 HUD and authentic Momentum presentation */
+.dqTiny{font-size:7px!important;line-height:1;color:#ddd;margin-left:4px;opacity:.9;white-space:nowrap}
+.momIcon{overflow:hidden;background:#070707d9!important}
+.momIcon img{object-fit:cover!important;object-position:center!important;border-radius:2px}
+.cardFlip{min-height:292px!important;height:292px}
+@media(max-width:430px){.cardFlip{min-height:300px!important;height:300px}}
+.handCard .playFallback{margin-top:0!important}
+.cardFront{border:8px solid var(--method,#777);box-sizing:border-box;background:linear-gradient(180deg,color-mix(in srgb,var(--method,#777) 38%,#080808),#050505)!important}
+.cardFront .frontTitle{background:color-mix(in srgb,var(--method,#777) 62%,#080808);color:#fff;border-top:2px solid #111}
+.handCard{--method:#777}
+.handCard.method-technical{--method:#149447}
+.handCard.method-strike{--method:#c51f2a}
+.handCard.method-strength{--method:#d78518}
+.handCard.method-agility{--method:#197bc2}
+.handCard.method-knowledge{--method:#d1ab13}
+.handCard.method-attitude{--method:#a31d27}
+.handCard.method-technical.playable{box-shadow:0 0 13px #149447}
+.handCard.method-strike.playable{box-shadow:0 0 13px #c51f2a}
+.handCard.method-strength.playable{box-shadow:0 0 13px #d78518}
+.handCard.method-agility.playable{box-shadow:0 0 13px #197bc2}
+.handCard.method-knowledge.playable{box-shadow:0 0 13px #d1ab13}
+
+.deckChoiceGrid{display:grid;gap:14px;margin:14px 0 40px}.deckChoiceCard{background:linear-gradient(180deg,#171717,#080808);border:1px solid #555;border-radius:12px;padding:14px;box-shadow:0 4px 16px #0008}.deckChoiceCard h2{margin:0 0 8px;color:#f4d26a}.starterChoice{border-color:#9a7c2d}.recommendedList{display:grid;gap:8px}.recommendedRow{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:7px;align-items:center;background:#111;border:1px solid #333;border-radius:8px;padding:9px}.recommendedRow small{display:block;color:#bbb;margin-top:3px}.method-technical{border-color:#2e9d55!important}.method-strike{border-color:#c63a36!important}.method-strength{border-color:#d47b22!important}.method-agility{border-color:#2686c8!important}.method-knowledge{border-color:#c8a92b!important}@media(max-width:520px){.recommendedRow{grid-template-columns:1fr auto}.recommendedRow .primary{grid-column:1/-1}.deckChoiceCard{padding:11px}}
+
+/* v0.9.67 exact starter-edition artwork */
+.starterCardSource{font-size:.78rem;opacity:.82;line-height:1.3}
+.starterDetailHero{display:flex;gap:16px;align-items:flex-start;margin:12px 0 18px;padding:12px;border:1px solid #777;background:rgba(0,0,0,.72)}
+.starterEditionPortrait{width:150px;max-width:38vw;height:auto;object-fit:contain;flex:0 0 auto}
+.starterDetailHero h2{margin:0 0 8px}
+.starterDetailHero p{margin:5px 0}
+@media(max-width:560px){.starterDetailHero{align-items:center}.starterEditionPortrait{width:120px}}
+
+
+/* v0.9.68 full-card entity flip system */
+.flipEntity{aspect-ratio:5/7;perspective:1100px;background:#050505;overflow:visible;box-shadow:none;border:0}
+.entityFlipInner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .36s ease}
+.flipEntity.flipped .entityFlipInner{transform:rotateY(180deg)}
+.entityFace{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border:2px solid #8c6bd1;background:#050505;box-shadow:inset 0 0 0 1px #000,0 5px 12px #000;overflow:hidden}
+.starterTile .entityFace{border-color:#d5d5d5}
+.entityBack{transform:rotateY(180deg);display:flex;min-height:0}
+.entityBack .entityBody{width:100%;overflow:auto;padding:12px}
+.fullEntityArt{width:100%;height:100%;aspect-ratio:auto;object-fit:contain;object-position:center;background:#050505;border:0}
+.entityFrontTitle{position:absolute;left:0;right:0;bottom:0;padding:10px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.96) 35%);text-transform:uppercase}
+.entityFrontTitle h3{margin:22px 0 2px;font-size:1rem;line-height:1.08}
+.entityFrontTitle small,.flipHint{color:#cfcfcf;font-size:.7rem}
+.entityBack .entityActions button{position:relative;z-index:3;pointer-events:auto}
+@media (display-mode:standalone){
+  .loginScreen{background-size:96% auto;background-position:center center;background-color:#000;padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
+}

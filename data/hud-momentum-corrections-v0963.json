@@ -1,0 +1,12 @@
+{
+  "version": "v0.9.63",
+  "changes": [
+    "Method Momentum is permanent and no longer deducted when moves are played.",
+    "Move COST is treated as a total Momentum threshold; method icons remain minimum requirements.",
+    "Attitude changes only through successful/hit baseline, pins, abilities, and printed effects.",
+    "HUD uses proper original coloured Momentum icons and refreshes from live state every render.",
+    "WARN/HAND removed; tiny DQ indicator placed after HP.",
+    "YIELD CONTROL renamed PASS.",
+    "Card frames filled by method colour and empty vertical spacer reduced."
+  ]
+}

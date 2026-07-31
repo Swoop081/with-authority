@@ -35,3 +35,23 @@ v0.9.54 restores 63 recoverable original audio assets. Mobile browsers require a
 v0.9.59: submission loop repair, original-style portrait HUD and crowd, card flip, swipe play/ditch, dynamic hand ordering, contextual actions, full-screen card resolution.
 
 v0.9.61: fixed missing momentumIcons match-start crash; added launch-time version.json update check and versioned cache replacement.
+
+
+v0.9.65 AI Recommended Deck Engine
+- Multiple finisher paths per Superstar
+- Complete Collection target and Owned Cards builds
+- Up to five copies per card
+- Full authentic booster/fixed-product candidate pool
+- Starter Deck remains exact and unchanged
+
+
+v0.9.66: Replaced broad AI decks with strict Finisher-path optimization; separated competitive and catalogue showcase decks; added candidate and matchup validation metadata.
+
+
+v0.9.69 structural cleanup:
+- consolidated duplicate screen functions
+- retained one authoritative renderer per screen
+- restored full-art starter flip cards
+- corrected diagnostics and version metadata
+- expanded startup offline cache
+- marked obsolete simulation wording as historical

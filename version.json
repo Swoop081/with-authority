@@ -1,1 +1,5 @@
-{"version":"v0.9.61"}
+{
+  "version": "0.9.69",
+  "build": "structural-cleanup-and-authoritative-screen-renderers",
+  "generated": "2026-08-01"
+}
