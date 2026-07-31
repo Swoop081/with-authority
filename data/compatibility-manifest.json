@@ -1,0 +1,21 @@
+{
+  "version": "v0.6.0",
+  "baseline": "v0.5.0",
+  "playableCards": 202,
+  "extractedOriginalCards": 180,
+  "supportedRuleFamilies": [
+    "named move-position counters",
+    "counter-only pages",
+    "Face and Heel alignment conflicts",
+    "method requirements",
+    "extra page draws",
+    "conditional stun effects",
+    "variable damage bonuses",
+    "body-part damage tracking",
+    "persistent holds",
+    "automatic hold-release chances",
+    "Superstar restrictions",
+    "Trademark and finisher handling"
+  ],
+  "notes": "Rules are interpreted from normalized fields, modifiers, and recurring wording in original card descriptions. Unique scripts still require individual adapters in later versions."
+}
