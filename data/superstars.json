@@ -310,24 +310,25 @@
   "flair": {
     "key": "flair",
     "name": "RIC FLAIR",
-    "ability": "If your opponent plays a Heel page or receives a Warning, you get 3 Attitude. If your oppo",
-    "abilityText": "If your opponent plays a Heel page or receives a Warning, you get 3 Attitude. If your opponent has Vince McMahon in play, your moves do +2 damage.",
+    "ability": "You can't play leg extended moves that cost 6 or more.",
+    "abilityText": "You can't play leg extended moves that cost 6 or more.\r\nSpecial: The Man\r\nIf not in control, choose a Special in your hand (except \"Once Too Often\" or \"Crowd Support\"). Your opponent buries one page with that name from hand.",
     "entrance": "Original Entrance",
-    "hp": 40,
-    "style": "agile",
-    "sourceFile": "RicFlair.gac",
+    "hp": 67,
+    "style": "balanced",
+    "sourceFile": "RicFlairEX3LE.gac",
     "starterId": "Starter-RicFlairLE",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": 0,
-      "Strength": 0,
-      "Strike": 0,
-      "Technical": 0
+      "Knowledge": -1,
+      "Strength": 1,
+      "Strike": -1,
+      "Technical": -1
     },
     "headShotArt": "",
     "playbookArt": "",
     "abilityImplemented": false,
-    "passiveImplemented": true
+    "passiveImplemented": true,
+    "starterStatus": "recovered"
   },
   "hogan": {
     "key": "hogan",
@@ -354,24 +355,25 @@
   "nash": {
     "key": "nash",
     "name": "KEVIN NASH",
-    "ability": "Scott Hall Trademark",
-    "abilityText": "Scott Hall Trademark\r\n\r\nAt the end of each fifth turn of the match, you gain 1 Attitude.\r\nSpecial: The Referee is removed from the game.\r\n(Heel page: cannot be played if you have played a Face page.)",
+    "ability": "nWo Superstar",
+    "abilityText": "nWo Superstar\r\n\r\nKevin Nash starts the match with 6 leg damage.\r\n\r\nYour moves that cost 7 or more do +3 damage.",
     "entrance": "Original Entrance",
-    "hp": 40,
-    "style": "agile",
-    "sourceFile": "KevinNash.gac",
+    "hp": 73,
+    "style": "balanced",
+    "sourceFile": "KevinNashEX3.gac",
     "starterId": "Starter-KevinNash",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": 0,
-      "Strength": 0,
-      "Strike": 0,
-      "Technical": 0
+      "Knowledge": -1,
+      "Strength": -1,
+      "Strike": -1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "",
     "abilityImplemented": true,
-    "passiveImplemented": false
+    "passiveImplemented": false,
+    "starterStatus": "recovered"
   },
   "jeffhardy": {
     "key": "jeffhardy",
@@ -442,24 +444,25 @@
   "trish": {
     "key": "trish",
     "name": "TRISH STRATUS",
-    "ability": "Special: You can\u0092t play moves this turn. There is a 50% chance that you ditch 2 pages. Oth",
-    "abilityText": "Special: You can\u0092t play moves this turn. There is a 50% chance that you ditch 2 pages. Otherwise, you gain control at the end of the turn, your move next turn can't be countered by moves, and you can't use this ability again. Use this ability only when your opponent is in control and isn't playing or applying a Hold.",
+    "ability": "Diva Superstar",
+    "abilityText": "Diva Superstar\r\nSpecial: 100%\r\nChoose a Method. When your opponent plays or connects with a move of that Method that costs 6 or more, you get \"Crowd Support\". Use this ability once.",
     "entrance": "Original Entrance",
-    "hp": 40,
-    "style": "agile",
-    "sourceFile": "TrishStratus.gac",
+    "hp": 53,
+    "style": "balanced",
+    "sourceFile": "TrishStratusEX3LE.gac",
     "starterId": "Starter-TrishStratusLE",
     "momentumMaximums": {
-      "Agility": 0,
-      "Knowledge": 0,
-      "Strength": 0,
-      "Strike": 0,
-      "Technical": 0
+      "Agility": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 5,
+      "Technical": -1
     },
     "headShotArt": "",
     "playbookArt": "",
     "abilityImplemented": true,
-    "passiveImplemented": false
+    "passiveImplemented": false,
+    "starterStatus": "recovered"
   },
   "bubba": {
     "key": "bubba",
@@ -768,5 +771,166 @@
     "playbookArt": "Sales-XPac.gai",
     "abilityImplemented": true,
     "passiveImplemented": false
+  },
+  "alsnow": {
+    "key": "alsnow",
+    "name": "AL SNOW",
+    "ability": "Hardcore Superstar",
+    "abilityText": "Hardcore Superstar\r\n\r\nSpecial: \"What Does Everybody Want?\"\r\n\r\nDraw a page for each Momentum type you have. Use this ability once per game.",
+    "entrance": "Original Entrance",
+    "hp": 62,
+    "style": "balanced",
+    "sourceFile": "AlSnow.gac",
+    "starterId": "BonusSnow",
+    "momentumMaximums": {
+      "Agility": -1,
+      "Knowledge": 2,
+      "Strength": 2,
+      "Strike": 5,
+      "Technical": -1
+    },
+    "headShotArt": "AlSnowHeadShot.gai",
+    "playbookArt": "Sales-AlSnow.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "recovered"
+  },
+  "blackman": {
+    "key": "blackman",
+    "name": "STEVE BLACKMAN",
+    "ability": "Hardcore Superstar",
+    "abilityText": "Hardcore Superstar\r\n\r\nThe first six times Steve Blackman counters with a non-Defensive move, he draws a page. (This page is drawn when the page is played, not when the counter move connects.)",
+    "entrance": "Original Entrance",
+    "hp": 62,
+    "style": "balanced",
+    "sourceFile": "SteveBlackman.gac",
+    "starterId": "BonusBlackman",
+    "momentumMaximums": {
+      "Agility": 1,
+      "Knowledge": 2,
+      "Strength": -1,
+      "Strike": -1,
+      "Technical": -1
+    },
+    "headShotArt": "SteveBlackmanHeadShot.gai",
+    "playbookArt": "Sales-SteveBlackman.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "recovered"
+  },
+  "brock": {
+    "key": "brock",
+    "name": "BROCK LESNAR",
+    "ability": "You may only play 3 Momentum pages. You may not play Amazing Entrance.",
+    "abilityText": "You may only play 3 Momentum pages. You may not play Amazing Entrance.\r\n\r\nEvery six turns you get +1 Strength. (At the start of turn six, twelve, and so on.)",
+    "entrance": "Original Entrance",
+    "hp": 75,
+    "style": "balanced",
+    "sourceFile": "BrockLesnar.gac",
+    "starterId": null,
+    "momentumMaximums": {
+      "Agility": 0,
+      "Knowledge": 1,
+      "Strength": -1,
+      "Strike": 2,
+      "Technical": 1
+    },
+    "headShotArt": "BrockLesnarHeadShot.gai",
+    "playbookArt": "BrockLesnarPlaybook.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "source-package-unresolved"
+  },
+  "shane": {
+    "key": "shane",
+    "name": "SHANE MCMAHON",
+    "ability": "Hardcore Superstar",
+    "abilityText": "Hardcore Superstar\r\n\r\nWhenever you play a Special or receive a Warning, Shane McMahon heals 2 Hit Points and his opponent gets a -2% pin chance penalty.",
+    "entrance": "Original Entrance",
+    "hp": 50,
+    "style": "balanced",
+    "sourceFile": "ShaneMcMahon.gac",
+    "starterId": null,
+    "momentumMaximums": {
+      "Agility": -1,
+      "Knowledge": -1,
+      "Strength": 1,
+      "Strike": 2,
+      "Technical": -1
+    },
+    "headShotArt": "ShaneMcMahonHeadShot.gai",
+    "playbookArt": "Sales-ShaneMcMahon.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "source-package-unresolved"
+  },
+  "hbk": {
+    "key": "hbk",
+    "name": "SHAWN MICHAELS",
+    "ability": "Shawn Michaels can Autocounter for 3 less pages and starts the match with 6 back damage.",
+    "abilityText": "Shawn Michaels can Autocounter for 3 less pages and starts the match with 6 back damage.\r\nAt the start of each turn, all pages in your hand with Willpower 2 or more (counts as two or more pages for Autocountering) are ditched.",
+    "entrance": "Original Entrance",
+    "hp": 68,
+    "style": "balanced",
+    "sourceFile": "ShawnMichaels.gac",
+    "starterId": null,
+    "momentumMaximums": {
+      "Agility": -1,
+      "Knowledge": -1,
+      "Strength": 1,
+      "Strike": -1,
+      "Technical": -1
+    },
+    "headShotArt": "ShawnMichaelsHeadShot.gai",
+    "playbookArt": "ShawnMichaelsPlaybook.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "source-package-unresolved"
+  },
+  "scotthall": {
+    "key": "scotthall",
+    "name": "SCOTT HALL",
+    "ability": "nWo Superstar",
+    "abilityText": "nWo Superstar\r\nWhen Scott Hall plays a Strike Momentum, you draw a random Heel page. When he plays a Strength Momentum, you draw a random Damage Special. Each ability works twice per match.",
+    "entrance": "Original Entrance",
+    "hp": 71,
+    "style": "balanced",
+    "sourceFile": "ScottHall.gac",
+    "starterId": null,
+    "momentumMaximums": {
+      "Agility": 0,
+      "Knowledge": 3,
+      "Strength": -1,
+      "Strike": -1,
+      "Technical": 2
+    },
+    "headShotArt": "ScottHallHeadShot.gai",
+    "playbookArt": "ScottHallPlaybook.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "source-package-unresolved"
+  },
+  "rey": {
+    "key": "rey",
+    "name": "REY MYSTERIO",
+    "ability": "Special: Cruiserweight Legend",
+    "abilityText": "Special: Cruiserweight Legend\r\n\r\nDraw a page. Use this ability only if you have less than 6 pages in hand, and only if your opponent has at least 3 momentum.",
+    "entrance": "Original Entrance",
+    "hp": 59,
+    "style": "balanced",
+    "sourceFile": "ReyMysterioLE.gac",
+    "starterId": null,
+    "momentumMaximums": {
+      "Agility": -1,
+      "Knowledge": 5,
+      "Strength": 1,
+      "Strike": 2,
+      "Technical": -1
+    },
+    "headShotArt": "ReyMysterioHeadShot.gai",
+    "playbookArt": "ReyMysterioPlaybook.gai",
+    "abilityImplemented": false,
+    "passiveImplemented": false,
+    "starterStatus": "source-package-unresolved"
   }
 }
