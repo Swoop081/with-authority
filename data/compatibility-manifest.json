@@ -1,21 +1,18 @@
 {
-  "version": "v0.6.0",
-  "baseline": "v0.5.0",
-  "playableCards": 202,
-  "extractedOriginalCards": 180,
-  "supportedRuleFamilies": [
-    "named move-position counters",
-    "counter-only pages",
-    "Face and Heel alignment conflicts",
-    "method requirements",
-    "extra page draws",
-    "conditional stun effects",
-    "variable damage bonuses",
-    "body-part damage tracking",
-    "persistent holds",
-    "automatic hold-release chances",
-    "Superstar restrictions",
-    "Trademark and finisher handling"
+  "version": "v0.9.8",
+  "title": "Full Card Compatibility Pass 6",
+  "totalOriginalFiles": 1121,
+  "playableRecords": 670,
+  "newlyEnabledOriginalMoves": 17,
+  "counts": {
+    "fully_supported": 595,
+    "non_playable_or_duplicate": 142,
+    "partially_supported": 362,
+    "disabled": 22
+  },
+  "excluded": [
+    "audio",
+    "online modes"
   ],
-  "notes": "Rules are interpreted from normalized fields, modifiers, and recurring wording in original card descriptions. Unique scripts still require individual adapters in later versions."
+  "notes": "Adds verified alternate-edition move pages whose original visible text and rule behaviour match already-implemented source cards. No unresolved effect was approximated."
 }
