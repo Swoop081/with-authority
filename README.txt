@@ -1,6 +1,14 @@
-With Authority Mobile v0.8.0 — Complete Match Rules
+WITH AUTHORITY MOBILE v0.9.1 — ORIGINAL ARTWORK IMPORT
 
-Built from the user-confirmed v0.7.0 baseline.
-Adds reversal chains, three-count pin sequences, limb-specific damage consequences, submission resistance, persistent in-play pages, timed modifiers, discard recovery, style-based CPU priorities and expanded match statistics.
+Built from the confirmed v0.9.0 baseline.
 
-Private personal testing build. GitHub Pages compatible; keep .nojekyll.
+Adds:
+- Automated extraction of original GAI artwork
+- 1295 images converted to mobile-optimised WebP
+- Card artwork in matches, hands, collection and playbooks
+- Original Superstar portraits in roster and match presentation
+- Artwork mapping manifest at data/artwork-manifest.json
+- Fallback text presentation for unmatched assets
+- GitHub Pages root structure and .nojekyll preserved
+
+Private personal testing build.

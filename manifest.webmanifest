@@ -1,9 +1,9 @@
 {
-  "name": "With Authority Mobile v0.8.0",
-  "short_name": "WA v0.8",
+  "name": "With Authority Mobile v0.9.1",
+  "short_name": "WA Mobile",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#050505",
   "theme_color": "#050505",
-  "description": "Private With Authority mobile preservation test build v0.4.0"
+  "description": "Private mobile preservation and testing build."
 }
