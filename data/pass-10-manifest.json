@@ -1,0 +1,17 @@
+{
+  "version": "v0.9.13",
+  "title": "Full Move Variant Preservation Pass 2",
+  "baseline": "v0.9.12",
+  "newVariants": [
+    "Sleeper.gac",
+    "Headlock2E.gac",
+    "Duck.gac"
+  ],
+  "playableRecords": 701,
+  "variantGroups": 134,
+  "notes": [
+    "Preserves original source editions as distinct pages.",
+    "Only variants with verified equivalent implemented behavior were enabled.",
+    "No unresolved card effect was approximated."
+  ]
+}

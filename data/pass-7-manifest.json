@@ -1,0 +1,29 @@
+{
+  "version": "v0.9.9",
+  "newlyEnabled": 16,
+  "sourceFiles": [
+    "SnapSuplex2E.gac",
+    "special1.gac",
+    "ReverseDDT2E.gac",
+    "Sharpshooter2E.gac",
+    "BackBodyDropToRingside2E.gac",
+    "ArmbarTakedown2E.gac",
+    "Spear2E.gac",
+    "CrucifixPowerbomb2E.gac",
+    "InsideCradle2E.gac",
+    "ElbowToTheBackOfTheHead.gac",
+    "TurnbuckleSmash2E.gac",
+    "Boring2E.gac",
+    "RockBottom2E.gac",
+    "RockBottomTourn.gac",
+    "UseTheRopesForLeverage.gac",
+    "AheadOfTheGame2E.gac"
+  ],
+  "ruleFamily": "verified equivalent-edition cards with matching original rules",
+  "audit": {
+    "fully_supported": 611,
+    "non_playable_or_duplicate": 142,
+    "partially_supported": 346,
+    "disabled": 22
+  }
+}

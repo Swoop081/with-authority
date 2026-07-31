@@ -373,13 +373,14 @@
     "sourceFile": "AheadOfTheGame2E.gac",
     "name": "Ahead of The Game",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "stun",
       "persistent",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "AIMission1Wrestler.gac",
@@ -589,23 +590,25 @@
     "sourceFile": "ArmbarTakedown.gac",
     "name": "Armbar Takedown",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "ArmbarTakedown2E.gac",
     "name": "Armbar Takedown",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "ArmbarTakedownEX3.gac",
@@ -822,23 +825,25 @@
     "sourceFile": "BackBodyDropOverTheRopes.gac",
     "name": "Back Body Drop to Ringside",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "BackBodyDropToRingside2E.gac",
     "name": "Back Body Drop to Ringside",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "BackBreaker.gac",
@@ -1460,12 +1465,13 @@
     "sourceFile": "Boring2E.gac",
     "name": "Boring",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "draw_search",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "BostonCrab.gac",
@@ -2286,11 +2292,12 @@
     "sourceFile": "ClotheslineInTheCorner.gac",
     "name": "Clothesline In The Corner",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "ClotheslineOverTheRopes.gac",
@@ -2578,12 +2585,13 @@
     "sourceFile": "CrucifixPowerbomb2E.gac",
     "name": "Crucifix Powerbomb",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "CrucifixRollUp.gac",
@@ -2924,11 +2932,12 @@
     "sourceFile": "DoubleUnderhookSuplex.gac",
     "name": "Double Underhook Suplex",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "DoubleUnderhookSuplex2E.gac",
@@ -3158,12 +3167,14 @@
     "sourceFile": "Duck.gac",
     "name": "Duck",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
+      "cancel_counter",
       "position_control",
-      "cancel_counter"
+      "variant_equivalence"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.13"
   },
   {
     "sourceFile": "Duck2E.gac",
@@ -3467,12 +3478,13 @@
     "sourceFile": "ElbowToTheBackOfTheHead.gac",
     "name": "Elbow to Back of the Head",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "momentum_change",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "ElbowToTheBackOfTheHeadEX2.gac",
@@ -3489,14 +3501,15 @@
     "sourceFile": "ElectricChair.gac",
     "name": "Electric Chair",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "momentum_change",
       "damage_modifier",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "Enzugiri.gac",
@@ -3643,12 +3656,13 @@
     "sourceFile": "Facebuster.gac",
     "name": "Facebuster",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "superstar_restriction",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "Facebuster2E.gac",
@@ -4043,13 +4057,14 @@
     "sourceFile": "FlyingWheelKick.gac",
     "name": "Flying Wheel Kick",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "damage_modifier",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "FlyingWheelKick2E.gac",
@@ -4516,11 +4531,12 @@
     "sourceFile": "GutWrenchSuplex.gac",
     "name": "Gut Wrench Suplex",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "GutWrenchSuplex2E.gac",
@@ -4673,24 +4689,27 @@
     "sourceFile": "Headlock.gac",
     "name": "Headlock",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "draw_search",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "Headlock2E.gac",
     "name": "Headlock",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
+      "cancel_counter",
       "draw_search",
-      "cancel_counter"
+      "variant_equivalence"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.13"
   },
   {
     "sourceFile": "HeadlockEX1.gac",
@@ -4891,13 +4910,14 @@
     "sourceFile": "HighKnee.gac",
     "name": "High Knee",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "position_control",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "HighKnee2E.gac",
@@ -4941,12 +4961,13 @@
     "sourceFile": "HipToss.gac",
     "name": "Hip Toss",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "HipToss2E.gac",
@@ -5358,12 +5379,13 @@
     "sourceFile": "InsideCradle2E.gac",
     "name": "Inside Cradle",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "position_control",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "InsideCradleEX3.gac",
@@ -6358,13 +6380,14 @@
     "sourceFile": "LiftIntoPost.gac",
     "name": "Lift Into Post",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "stun",
       "position_control",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "Lionsault.gac",
@@ -7998,12 +8021,13 @@
     "sourceFile": "ReleaseSpineBuster.gac",
     "name": "Release Spine Buster",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "ReleaseSpineBuster2E.gac",
@@ -8065,12 +8089,13 @@
     "sourceFile": "ReverseDDT2E.gac",
     "name": "Reverse DDT",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "ReyMysterioLE.gac",
@@ -8252,25 +8277,27 @@
     "sourceFile": "RockBottom2E.gac",
     "name": "Rock Bottom",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "stun",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "RockBottomTourn.gac",
     "name": "Rock Bottom",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "stun",
       "cancel_counter",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "RollingGermanSuplex.gac",
@@ -8824,12 +8851,13 @@
     "sourceFile": "Sharpshooter2E.gac",
     "name": "Sharpshooter",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "persistent",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "ShawnMichaels.gac",
@@ -9080,11 +9108,12 @@
     "sourceFile": "SideSuplex.gac",
     "name": "Side Suplex",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "SidewalkSlam.gac",
@@ -9141,12 +9170,13 @@
     "sourceFile": "Slap.gac",
     "name": "Slap",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "momentum_change",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "Slap2E.gac",
@@ -9175,12 +9205,14 @@
     "sourceFile": "Sleeper.gac",
     "name": "Sleeper",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
+      "cancel_counter",
       "persistent",
-      "cancel_counter"
+      "variant_equivalence"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.13"
   },
   {
     "sourceFile": "Sleeper2E.gac",
@@ -9277,11 +9309,12 @@
     "sourceFile": "SnakeEyes.gac",
     "name": "Snake Eyes",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.10"
   },
   {
     "sourceFile": "SnakeEyes2E.gac",
@@ -9352,12 +9385,13 @@
     "sourceFile": "SnapSuplex2E.gac",
     "name": "Snap Suplex",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "damage_modifier",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "SnowPlow.gac",
@@ -9444,24 +9478,26 @@
     "sourceFile": "Spear2E.gac",
     "name": "Spear",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "draw_search",
       "stun",
       "cancel_counter",
       "superstar_restriction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "special1.gac",
     "name": "Achilles' Heel",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "stun"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "SpikeDudley.gac",
@@ -11512,11 +11548,12 @@
     "sourceFile": "TornadoDDT.gac",
     "name": "Tornado DDT",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "ToTheFloor.gac",
@@ -11712,12 +11749,13 @@
     "sourceFile": "TurnbuckleSmash2E.gac",
     "name": "Turnbuckle Smash",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "damage_modifier",
       "cancel_counter"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "TurnbuckleSmashEX3.gac",
@@ -11800,13 +11838,14 @@
     "sourceFile": "UseTheRopesForLeverage.gac",
     "name": "Grab Ropes For Leverage",
     "category": "Special",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "draw_search",
       "position_control",
       "hand_interaction"
     ],
-    "inPlayableBuild": false
+    "inPlayableBuild": true,
+    "enabledIn": "v0.9.9"
   },
   {
     "sourceFile": "VanDaminator.gac",
@@ -12059,13 +12098,14 @@
     "sourceFile": "WhipIntoSteelSteps2E.gac",
     "name": "Whip Into Steel Steps",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "momentum_change",
       "position_control",
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "WhipIntoSteelStepsEX2.gac",
@@ -12435,11 +12475,12 @@
     "sourceFile": "Wristlock.gac",
     "name": "Wristlock",
     "category": "Move",
-    "status": "partially_supported",
+    "status": "fully_supported",
     "ruleFamilies": [
       "hand_interaction"
     ],
-    "inPlayableBuild": true
+    "inPlayableBuild": true,
+    "notes": "Enabled in v0.9.11 with exact hand/playbook, position, momentum and body-part effect handling."
   },
   {
     "sourceFile": "XFactor.gac",
