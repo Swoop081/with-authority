@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]};
-const VERSION='v0.9.59',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.60',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 const AUDIO={unlocked:false,music:null,crowd:null};
@@ -34,6 +34,30 @@ function generatePack(p){const pool=boosterPool(p);const by={};for(const c of po
 function openNextPack(index=0){ensureRewardProfile();const owned=profile.unopenedPacks[index];if(!owned)return boosterHub();const p=(BOOSTERS.products||[]).find(x=>x.id===owned.id);if(!p)return;const pulls=generatePack(p);pulls.forEach(c=>profile.collection[c.id]=(profile.collection[c.id]||0)+1);profile.unopenedPacks.splice(index,1);profile.openedPacks++;saveProfile();showPackResults(p,pulls)}
 function showPackResults(p,pulls){app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="boosterHub()">Back</button><b>${esc(p.name)}</b><span>${pulls.length} pages</span></div><p class="instruction">Added permanently to your collection.</p><div class="library">${pulls.map(c=>`<article class="card">${artImg(cardArt(c),'cardArt',c.name)}<div class="cardhead"><h3>${esc(c.name)}</h3><span class="tag">${stableRarity(c)}</span></div><p>${esc(c.description)}</p><div class="stats"><span>${esc(c.variantEdition||'Core')}</span><span>Owned ${profile.collection[c.id]||0}</span></div></article>`).join('')}</div><button class="primary" onclick="boosterHub()">Continue</button></section>`}
 function boosterHub(){ensureRewardProfile();const packs=profile.unopenedPacks.map((x,i)=>{const p=(BOOSTERS.products||[]).find(y=>y.id===x.id);if(!p)return'';const img=boosterArt(p);return`<article class="card">${img?`<img class="cardArt" src="${img}" alt="${esc(p.name)}">`:''}<div class="cardhead"><h3>${esc(p.name)}</h3><span class="tag">${p.pageCount} pages</span></div><p>${esc(p.description)}</p><button class="primary" onclick="openNextPack(${i})">Open Pack</button></article>`}).join('');app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>BOOSTER REWARDS</b><span>${profile.unopenedPacks.length} unopened</span></div><p class="instruction">One authentic-set booster is awarded after every victory. Cards are stored permanently for future AI Recommended and custom decks.</p><div class="resultStats"><div><b>${profile.openedPacks}</b><span>Packs opened</span></div><div><b>${Object.values(profile.collection).reduce((a,b)=>a+b,0)}</b><span>Pages owned</span></div><div><b>${Object.keys(profile.collection).length}</b><span>Unique pages</span></div></div><div class="library">${packs||'<p class="instruction">Win a match to earn your next booster.</p>'}</div></section>`}
+
+async function checkForNewVersion(){
+  if(!navigator.onLine)return;
+  try{
+    const response=await fetch(`./version.json?t=${Date.now()}`,{cache:'no-store'});
+    if(!response.ok)return;
+    const remote=await response.json();
+    if(!remote?.version||remote.version===VERSION)return;
+    const guard=`wa-update-${remote.version}`;
+    if(sessionStorage.getItem(guard))return;
+    sessionStorage.setItem(guard,'1');
+    app.innerHTML=`<section class="screen loginScreen"><div class="loginOverlay"><h1>UPDATING</h1><p>Updating to ${esc(remote.version)}…</p></div></section>`;
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    if('caches' in window){
+      const keys=await caches.keys();
+      await Promise.all(keys.map(k=>caches.delete(k)));
+    }
+    location.replace(`./?updated=${encodeURIComponent(remote.version)}&t=${Date.now()}`);
+  }catch(err){console.warn('Version check unavailable',err)}
+}
+checkForNewVersion();
 
 Promise.all([fetch('data/demo-cards.json').then(r=>{if(!r.ok)throw new Error('Card data failed to load');return r.json()}),fetch('data/artwork-manifest.json').then(r=>r.json()),fetch('data/authentic-starter-decks.json').then(r=>r.json()),fetch('data/starter-roster-map.json').then(r=>r.json()),fetch('data/booster-products.json').then(r=>r.json()),fetch('data/original-offline-missions.json').then(r=>r.json())]).then(([x,a,st,sm,bp,om])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;cards=x.map(enrichCard);showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
 
@@ -86,6 +110,22 @@ const esc=v=>String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 const artKey=v=>String(v||'').replace(/\.[^.]+$/,'').toLowerCase().replace(/[^a-z0-9]+/g,'');
 function cardArt(c){const keys=[c.sourceFile,c.id,c.name];for(const k of keys){const hit=ART.assets?.[artKey(k)];if(hit)return hit.file}return ''}
 function starArt(key){return ART.superstars?.[key]?.file||''}
+const MOMENTUM_ICON_FILES={
+  Agility:'assets/gai/momentum-thumbA.webp',
+  Knowledge:'assets/gai/momentum-thumbK.webp',
+  Strength:'assets/gai/momentum-thumbS.webp',
+  Strike:'assets/gai/momentum-thumbGI.webp',
+  Technical:'assets/gai/momentum-thumbT.webp',
+  Attitude:'assets/gai/button-wwf-attitude.webp'
+};
+function momentumIcons(wrestler){
+  const momentum=wrestler?.momentum||{};
+  return MOM_TYPES.map(type=>{
+    const src=MOMENTUM_ICON_FILES[type]||'';
+    const value=Number(momentum[type]||0);
+    return `<span class="momIcon" title="${esc(type)} Momentum">${src?`<img src="./${esc(src)}" alt="${esc(type)}" loading="eager" decoding="async" onerror="this.hidden=true">`:''}<b>${value}</b></span>`;
+  }).join('');
+}
 function artImg(src,cls='cardArt',alt='',loading='lazy'){return src?`<img class="${cls}" src="./${esc(src).replace(/^\.\//,'')}" alt="${esc(alt)}" loading="${loading}" decoding="async" onerror="this.hidden=true">`:''}
 function preloadMatchArt(side){side.hand.forEach(c=>{const src=cardArt(c);if(src){const img=new Image();img.src='./'+src.replace(/^\.\//,'')}})}
 
