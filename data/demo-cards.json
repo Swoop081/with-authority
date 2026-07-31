@@ -1,0 +1,92 @@
+[
+  {
+    "id": "DDTEX1",
+    "name": "D D T E X1",
+    "description": "Counters head down moves.",
+    "damage": 4,
+    "momentumCost": 6,
+    "method": "Technical",
+    "template": "Moves_Template-EX1.gag"
+  },
+  {
+    "id": "DragonSleeper",
+    "name": "Dragon Sleeper",
+    "description": "Your opponent takes 6 Head damage per turn.\u0011",
+    "damage": 4,
+    "momentumCost": 7,
+    "method": "Technical",
+    "template": "Moves_Template.gag"
+  },
+  {
+    "id": "BodySlamEX3",
+    "name": "Body Slam E X3",
+    "description": "Counters mad rush moves.",
+    "damage": 4,
+    "momentumCost": 6,
+    "method": "Special",
+    "template": "Moves_Template-EX3.gag"
+  },
+  {
+    "id": "BackElbowEX1",
+    "name": "Back Elbow E X1",
+    "description": "Counters behind opponent moves.",
+    "damage": 4,
+    "momentumCost": 6,
+    "method": "Technical",
+    "template": "Moves_Template-EX1.gag"
+  },
+  {
+    "id": "DropKick2E",
+    "name": "Drop Kick",
+    "description": "Counters high risk and mad rush moves.",
+    "damage": 1,
+    "momentumCost": 1,
+    "method": "Special",
+    "template": "Moves_Template-2E.gag"
+  },
+  {
+    "id": "RussianLegSweep",
+    "name": "Russian Leg Sweep",
+    "description": "Counters behind opponent and back to foe moves.",
+    "damage": 4,
+    "momentumCost": 5,
+    "method": "Technical",
+    "template": "Moves_Template.gag"
+  },
+  {
+    "id": "Jawbreaker",
+    "name": "Jawbreaker",
+    "description": "Counters victim below moves.",
+    "damage": 5,
+    "momentumCost": 5,
+    "method": "Technical",
+    "template": "Moves_Template-EX1.gag"
+  },
+  {
+    "id": "KneeLiftEX1",
+    "name": "Knee Lift E X1",
+    "description": "Counters arm extended moves.\u000f",
+    "damage": 6,
+    "momentumCost": 5,
+    "method": "Special",
+    "template": "Moves_Template-EX1.gag"
+  },
+  {
+    "id": "Neckbreaker2E",
+    "name": "Neckbreaker",
+    "description": "If your opponent has no head damage you gain +1 Attitude. Otherwise, there is a 33% chance you draw a page.\u0012",
+    "damage": 9,
+    "momentumCost": 6,
+    "method": "Technical",
+    "template": "Moves_Template-2E.gag"
+  },
+  {
+    "id": "VerticalSuplex2E",
+    "name": "Vertical Suplex",
+    "description": "Counters in close moves. Countered by Up and Over.\u0014",
+    "damage": 6,
+    "momentumCost": 5,
+    "method": "Special",
+    "template": "Moves_Template-2E.gag"
+  }
+]
