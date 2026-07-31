@@ -1,16 +1,14 @@
-WITH AUTHORITY MOBILE v0.4.0
-Original Content & Playbook Systems
+WITH AUTHORITY MOBILE v0.5.0 — ORIGINAL CONTENT EXTRACTION
 
-New in this build:
-- Superstar selection flow
-- Separate saved Superstar playbooks
-- Mobile playbook builder
-- Three-copy page limit and one-copy Trademark limit
-- Opening five-page selection before each match
-- Card collection/library
-- Persistent local win/loss record
-- LocalStorage save/load support
-- Existing v0.3.0 match engine retained
+Built from the confirmed working v0.4.0 baseline.
 
-GitHub Pages:
-Upload all files at repository root. Keep .nojekyll.
+Adds:
+- 180 original move/card records extracted from WAFull.zip
+- Authentic card names and original descriptive text
+- Original damage and momentum values
+- Original move methods, move positions and counter positions
+- Original modifiers and Superstar restrictions where recoverable
+- Expanded saved playbook and collection pool
+- Extraction manifest and raw normalized card dataset
+
+This remains a private mobile preservation/testing build.
