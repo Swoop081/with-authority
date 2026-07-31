@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.71',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.72',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 const AUDIO={unlocked:false,music:null,crowd:null};
@@ -506,12 +506,15 @@ async function showOriginalTutorials(){
 /* v0.9.55 consolidated mobile UI and opponent-selection repair */
 function showLoginScreen(){
   stopCrowd();stopMusic();
-  app.innerHTML=`<section class="loginScreen"><div class="loginMobile">MOBILE</div><div class="loginActions"><button id="loginPlay" class="loginPlay">PLAY</button><div class="loginVersion">${VERSION}</div></div></section>`;
-  document.getElementById('loginPlay')?.addEventListener('click',()=>{
+  app.innerHTML=`<section class="loginScreen" aria-label="With Authority Mobile launch screen"><div class="launchPosterStage"><img class="launchPoster" src="assets/gai/LaunchPoster-v0972.png" alt="With Authority Mobile"><button id="loginPlay" class="posterPlayButton" aria-label="Play With Authority Mobile"><span class="srOnly">Play</span></button><div class="loginVersion">${VERSION}</div></div></section>`;
+  const playButton=document.getElementById('loginPlay');
+  const enterGame=()=>{
     unlockAudio();
     if(profile.firstLaunch){profile.firstLaunch=false;saveProfile()}
     home();
-  },{once:true});
+  };
+  playButton?.addEventListener('click',enterGame,{once:true});
+  playButton?.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();enterGame()}},{once:true});
 }
 function cleanEditionLabel(s){
   const t=String((s&&((s.title||'')+' '+(s.sourceFile||'')+' '+(s.id||'')))||'').toUpperCase();
