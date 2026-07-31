@@ -1,27 +1,26 @@
-WITH AUTHORITY! MOBILE v0.2.0
+WITH AUTHORITY! MOBILE v0.3.0
 Private preservation and gameplay reconstruction test build.
 
 STABLE BASELINE
-Built directly from the user-tested v0.1.0 GitHub Pages package.
+Built directly from the user-tested v0.2.0 GitHub Pages package.
 
-V0.2.0 — ORIGINAL RULES FOUNDATION
-- Persistent match control after successful moves
-- Counters transfer control immediately
-- Match-position requirements for every page
-- Position changes after successful moves and counters
-- Momentum costs and momentum rewards
-- Stun effects that can cost a control turn
-- Legal-page validation with visible reasons
-- Draw-to-five playbook and hand flow
-- Regroup action: gain 2 momentum and yield control
-- Improved CPU selection from legal available pages
-- Expanded verified development card subset
-- Mobile match log and clearer card presentation
+V0.3.0 — AUTHENTIC MATCH ENGINE EXPANSION
+- Risk-based pin attempts from the Grounded position
+- Pin chance reacts to health, momentum and recent finishers
+- Maintained submission holds with escalating damage and escape logic
+- Stone Cold: Bionic Redneck once-per-match ability
+- The Rock: People's Champion once-per-match ability
+- Entrance pages apply opening-match bonuses
+- Gameplan pages apply next-move bonuses
+- Trademark finishers and stronger follow-up pins
+- Superstar-specific pages and larger development card pool
+- Improved CPU card scoring, pin choices, ability timing and submission logic
+- Expanded match-end statistics
 - GitHub Pages root structure and .nojekyll preserved
 
 TESTING
-Open index.html through a local/static web server, or upload the folder contents to a GitHub Pages repository root.
-Direct file:// opening may block browser fetch requests for JSON data.
+Upload the folder contents to a GitHub Pages repository root or run through a local static web server.
+Direct file:// opening may block JSON fetch requests.
 
 CURRENT LIMITATIONS
-This is not yet the complete original game. Pins, submissions as persistent holds, full body-part damage, original Superstar abilities, Entrance/Gameplan pages, complete card scripting, playbook construction, converted original artwork/audio and full mission AI remain future milestones.
+This remains a development subset, not the complete original game. Full original card scripting, exact body-part rules, playbook construction, converted artwork/audio, mission AI and career mode integration remain future milestones.
