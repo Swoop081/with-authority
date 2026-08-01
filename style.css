@@ -339,3 +339,39 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
   .ringSideControl{padding:7px}
   .ringSideControl .matchGear{width:31px;height:31px;min-height:31px}
 }
+
+/* v0.9.85 match HUD refinements */
+.positionbar{display:grid!important;grid-template-columns:1fr auto 1fr;align-items:center}
+.positionbar>span:last-child{text-align:right}
+.positionbar strong{text-align:center;justify-self:center}
+.crowdStage .status{gap:18px!important;padding-left:6px!important;padding-right:6px!important}
+.originalHud{width:calc(50% - 9px)!important}
+.originalHud:first-child{padding-right:8px;border-right:1px solid rgba(255,255,255,.28)}
+.originalHud.right{padding-left:8px}
+.momentumIcons{grid-template-columns:repeat(2,minmax(38px,48px))!important;justify-content:center!important;column-gap:5px!important;row-gap:2px!important}
+.originalHud:not(.right) .momentumIcons{margin-left:auto;margin-right:0}
+.originalHud.right .momentumIcons{margin-left:0;margin-right:auto}
+.portraitButton{appearance:none;border:0;background:transparent;padding:0;margin:0;display:block;cursor:pointer;min-width:0}
+.originalHud.right .portraitButton{grid-column:2}
+.originalHud.right .hudText{grid-column:1;grid-row:1}
+.cpuHp{justify-content:flex-end}
+.contextualActions{justify-content:center!important}
+.contextualActions .secondary{min-width:42%;max-width:270px}
+.contextualActions .specialAction{order:0}
+.contextualActions .specialAction+button,.contextualActions button:last-child{order:1}
+.matchSuperOverlay{position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:1000;display:grid;place-items:center;padding:24px}
+.matchSuperCard{width:min(82vw,330px);min-height:440px;border:3px solid #d8d8d8;background:#090909;box-shadow:0 12px 40px #000;cursor:pointer}
+.matchSuperFront,.matchSuperBack{min-height:440px;display:flex;flex-direction:column}
+.matchSuperPortrait{width:100%;height:360px;object-fit:contain;background:#000}
+.matchSuperFront strong{font-size:22px;padding:12px 14px 4px}
+.matchSuperFront small,.matchSuperBack small{padding:4px 14px 14px;color:#bbb}
+.matchSuperBack{padding:22px;background:radial-gradient(circle at center,#ffe080,#ef6b18 75%,#b7180a);color:#111}
+.matchSuperBack h2{font-size:24px;margin:0 0 12px}
+.matchSuperBack h3{font-size:17px;margin:18px 0 7px}
+.matchSuperBack p{font-size:16px;line-height:1.35;white-space:pre-line}
+.matchSuperMeta{display:flex;justify-content:space-between;font-size:15px}
+.overlayClose{position:fixed;bottom:calc(24px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:1001}
+@media(max-width:480px){.crowdStage .status{gap:10px!important}.momentumIcons{grid-template-columns:repeat(2,42px)!important}.momIcon{padding:1px!important}.momIcon img{width:15px!important;height:15px!important}.contextualActions .secondary{min-width:44%}}
+
+/* v0.9.86 play-pile flip and counter-only ditch */
+.pile[role=button]{cursor:pointer;perspective:900px}.pileBack{position:absolute;inset:0;padding:9px;display:flex;flex-direction:column;justify-content:flex-start;gap:6px;background:linear-gradient(#d8d8d8,#777);color:#080808;overflow:auto;text-align:left;z-index:4}.pileBack b{text-align:center;font-size:14px}.pileBack p{font-size:11px;line-height:1.3;margin:0;flex:1}.pileBack small{font-size:9px;font-weight:800}.pileBack em,.pileFlipHint{font-size:9px;font-style:normal;opacity:.8;text-align:center}.pileStats{display:flex;justify-content:space-between;font-size:10px;font-weight:900}.pileFlipHint{position:relative;z-index:2;color:#fff}.pile.flipped .pileArt{display:none}
