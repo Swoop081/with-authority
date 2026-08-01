@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.95',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.97',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -43,27 +43,41 @@ function openNextPack(index=0){ensureRewardProfile();const owned=profile.unopene
 function showPackResults(p,pulls){app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="boosterHub()">Back</button><b>${esc(p.name)}</b><span>${pulls.length} pages</span></div><p class="instruction">Added permanently to your collection.</p><div class="library">${pulls.map(c=>staticOriginalCardHtml(c,stableRarity(c),`<div class="originalCardNote">Owned ${profile.collection[c.id]||0}</div>`)).join('')}</div><button class="primary" onclick="boosterHub()">Continue</button></section>`}
 function boosterHub(){ensureRewardProfile();const packs=profile.unopenedPacks.map((x,i)=>{const p=(BOOSTERS.products||[]).find(y=>y.id===x.id);if(!p)return'';const img=boosterArt(p);return`<article class="card">${img?`<img class="cardArt" src="${img}" alt="${esc(p.name)}">`:''}<div class="cardhead"><h3>${esc(p.name)}</h3><span class="tag">${p.pageCount} pages</span></div><p>${esc(p.description)}</p><button class="primary" onclick="openNextPack(${i})">Open Pack</button></article>`}).join('');app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>BOOSTER REWARDS</b><span>${profile.unopenedPacks.length} unopened</span></div><p class="instruction">One authentic-set booster is awarded after every victory. Cards are stored permanently for future AI Recommended and custom decks.</p><div class="resultStats"><div><b>${profile.openedPacks}</b><span>Packs opened</span></div><div><b>${Object.values(profile.collection).reduce((a,b)=>a+b,0)}</b><span>Pages owned</span></div><div><b>${Object.keys(profile.collection).length}</b><span>Unique pages</span></div></div><div class="library">${packs||'<p class="instruction">Win a match to earn your next booster.</p>'}</div></section>`}
 
+function normaliseVersion(value){return String(value||'').trim().replace(/^v/i,'')}
 async function checkForNewVersion(){
-  if(!navigator.onLine)return;
+  if(!navigator.onLine)return false;
   try{
-    const response=await fetch(`./version.json?t=${Date.now()}`,{cache:'no-store'});
-    if(!response.ok)return;
+    const response=await fetch(`./version.json?force=${Date.now()}`,{
+      cache:'no-store',
+      headers:{'Cache-Control':'no-cache, no-store, must-revalidate','Pragma':'no-cache'}
+    });
+    if(!response.ok)throw new Error(`Version check HTTP ${response.status}`);
     const remote=await response.json();
-    if(!remote?.version||String(remote.version).replace(/^v/,'')===String(VERSION).replace(/^v/,''))return;
-    const guard=`wa-update-${remote.version}`;
-    if(sessionStorage.getItem(guard))return;
-    sessionStorage.setItem(guard,'1');
-    app.innerHTML=`<section class="screen loginScreen"><div class="loginOverlay"><h1>UPDATING</h1><p>Updating to ${esc(remote.version)}…</p></div></section>`;
+    const remoteVersion=normaliseVersion(remote?.version);
+    const localVersion=normaliseVersion(VERSION);
+    if(!remoteVersion||remoteVersion===localVersion){
+      sessionStorage.removeItem('wa-update-attempt');
+      return false;
+    }
+    const prior=JSON.parse(sessionStorage.getItem('wa-update-attempt')||'null');
+    const attempts=prior?.target===remoteVersion&&Date.now()-Number(prior.time||0)<120000?Number(prior.attempts||0)+1:1;
+    sessionStorage.setItem('wa-update-attempt',JSON.stringify({target:remoteVersion,attempts,time:Date.now()}));
+    app.innerHTML=`<section class="screen loginScreen"><div class="loginOverlay"><h1>UPDATE REQUIRED</h1><p>Installing v${esc(remoteVersion)}…</p><p>Current build: ${esc(VERSION)}</p></div></section>`;
     if('serviceWorker' in navigator){
       const regs=await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r=>r.unregister()));
+      await Promise.all(regs.map(async r=>{try{await r.update()}catch{}try{await r.unregister()}catch{}}));
     }
     if('caches' in window){
       const keys=await caches.keys();
       await Promise.all(keys.map(k=>caches.delete(k)));
     }
-    location.replace(`./?updated=${encodeURIComponent(remote.version)}&t=${Date.now()}`);
-  }catch(err){console.warn('Version check unavailable',err)}
+    const next=new URL('./index.html',location.href);
+    next.searchParams.set('updated',`v${remoteVersion}`);
+    next.searchParams.set('attempt',String(attempts));
+    next.searchParams.set('t',String(Date.now()));
+    location.replace(next.href);
+    return true;
+  }catch(err){console.warn('Version check unavailable',err);return false}
 }
 checkForNewVersion();
 
@@ -503,7 +517,7 @@ window.addEventListener('error',event=>{console.error('Runtime error',event.erro
 window.addEventListener('unhandledrejection',event=>{console.error('Unhandled promise rejection',event.reason);try{sessionStorage.setItem('wa-last-error',JSON.stringify({message:String(event.reason),time:new Date().toISOString()}))}catch{}});
 window.addEventListener('online',()=>document.documentElement.dataset.network='online');
 window.addEventListener('offline',()=>document.documentElement.dataset.network='offline');
-if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(err=>console.warn('Offline cache unavailable',err)));
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register(`./service-worker.js?v=${encodeURIComponent(VERSION)}`,{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('Offline cache unavailable',err)));
 
 function showRosterStats(){app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>SUPERSTAR RECORDS</b><span>${VERSION}</span></div><div class="superGrid">${Object.values(SUPERSTARS).map(s=>{const r=recordFor(s.key);return`<article class="superCard">${artImg(starArt(s.key),'superPortrait',s.name)}<h2>${esc(s.name)}</h2><p>${esc(s.ability)}</p><p>${r.wins} wins · ${r.losses} losses · ${r.matches} matches</p><button class="secondary" onclick="deckBuilder('${s.key}')">View Playbook</button></article>`}).join('')}</div></section>`}
 
@@ -560,11 +574,11 @@ function starterDeckDetail(id){
   const s=(STARTERS.starters||[]).find(x=>x.id===id);if(!s)return starterDeckBrowser();
   const byId=new Map(cards.map(c=>[c.id,c]));
   const counts=new Map();s.entries.forEach(e=>{const key=e.cardId||`missing-${e.unid}`;if(!counts.has(key))counts.set(key,{...e,qty:0});counts.get(key).qty++});
-  const rows=[...counts.values()].map(e=>{const c=e.cardId?byId.get(e.cardId):null;return `<article class="card ${c?'':'unsupported'}"><div class="cardhead"><h3>${c?esc(c.name):`Original page #${e.unid}`}</h3><span class="tag">×${e.qty}</span></div><p>${c?esc(c.description):`Source: ${esc(e.sourceFile||'unmapped original object')}`}</p><div class="stats"><span>${c?'Playable now':'Awaiting exact implementation'}</span><span>${esc(e.sourceFile||'')}</span></div></article>`}).join('');
+  const rows=[...counts.values()].map(e=>{const c=e.cardId?byId.get(e.cardId):null;return c?staticOriginalCardHtml(c,`×${e.qty}`):`<article class="card unsupported"><div class="cardhead"><h3>Original page #${e.unid}</h3><span class="tag">×${e.qty}</span></div><p>Source: ${esc(e.sourceFile||'unmapped original object')}</p><div class="stats"><span>Awaiting exact implementation</span></div></article>`}).join('');
   const editionArt=starterEditionArt(s),editionCard=starterSuperstarCard(s),editionLabel=starterEditionCardLabel(s);
   app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="starterDeckBrowser()">Back</button><b>${esc(cleanStarterTitle(s))}</b><span>${s.count} pages</span></div><div class="starterDetailHero">${editionArt?artImg(editionArt,'starterEditionPortrait',editionLabel):''}<div><h2>${esc(editionLabel)}</h2><p>${esc(cleanEditionLabel(s))} Superstar card used by this exact package.</p><p>${esc(s.description)} Exact order and duplicate quantities are retained from ${esc(s.sourceFile)}.</p></div></div><div class="deckSummary"><span>${s.mappedPlayable} supported · ${s.missingCount} pending</span>${s.missingCount===0?`<button class="primary compact" onclick="installAuthenticStarter('${esc(id)}')">Use This Starter</button>`:''}</div><div class="library">${rows}</div></section>`;
 }
-function installAuthenticStarter(id){const s=(STARTERS.starters||[]).find(x=>x.id===id);if(!s||s.entries.some(e=>!e.cardId))return;const key=Object.keys(STARTER_MAP).find(k=>STARTER_MAP[k]===id)||selectedSuperstar;profile.decks[key]=s.entries.map(e=>e.cardId);saveProfile();selectedSuperstar=key;deckBuilder(key)}
+function installAuthenticStarter(id){const s=(STARTERS.starters||[]).find(x=>x.id===id);if(!s||s.entries.some(e=>!e.cardId))return;const key=Object.keys(STARTER_MAP).find(k=>STARTER_MAP[k]===id)||selectedSuperstar;profile.decks[key]=s.entries.map(e=>e.cardId);saveProfile();selectedSuperstar=key;selectedDeckMode='starter';selectedRecommendedDeck=null;opponentSelect()}
 
 
 
@@ -741,6 +755,14 @@ function selectStarterDeck(){selectedDeckMode='starter';selectedRecommendedDeck=
 function selectCustomDeck(){if(!profile.decks?.[selectedSuperstar]?.length)return deckBuilder(selectedSuperstar);selectedDeckMode='custom';selectedRecommendedDeck=null;opponentSelect()}
 function selectRecommendedDeck(id){const rec=(AI_DECKS.decks||[]).find(x=>x.id===id);if(!rec)return;if(rec.unlockedTestDeck){selectedDeckMode='ai';selectedRecommendedDeck={...rec,deckIds:[...rec.deckIds],size:rec.deckIds.length};return opponentSelect()}const owned=ownedRecommendedIds(rec);if(owned.length<55){alert(`You currently own ${owned.length} of the pages needed for a legal version of this recommendation. Open boosters or use the Starter Deck.`);return}selectedDeckMode='ai';selectedRecommendedDeck={...rec,deckIds:owned,size:owned.length};opponentSelect()}
 function inspectRecommendedDeck(id){const rec=(AI_DECKS.decks||[]).find(x=>x.id===id);if(!rec)return;const owned=rec.unlockedTestDeck?rec.deckIds:ownedRecommendedIds(rec),counts={};for(const id of rec.deckIds)counts[id]=(counts[id]||0)+1;app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="deckChoiceScreen('${rec.superstar}')">Back</button><b>${esc(rec.name)}</b><span>${rec.size} pages</span></div><p class="instruction">${esc(rec.strategy)} · ${esc((rec.methods||[]).join(' / '))}. ${rec.unlockedTestDeck?'All required pages are unlocked for immediate testing.':`Complete Collection target: ${rec.size} pages. You can currently assemble ${owned.length} pages from your Starter Deck and booster collection.`} Tap any page to flip it.</p><div class="library originalCardLibrary">${Object.entries(counts).map(([id,n])=>{const c=cardById(id);return c?staticOriginalCardHtml(c,`×${n}`):''}).join('')}</div></section>`}
+function deckChoiceScreen(key){
+ selectedSuperstar=key;
+ const st=starterStatus(key),custom=profile.decks?.[key]?.length||0;
+ const recs=(AI_DECKS.decks||[]).filter(r=>r.superstar===key||r.superstar===(SUPERSTARS[key]?.baseKey||key));
+ const recRows=recs.map(r=>{const owned=r.unlockedTestDeck?r.size:ownedRecommendedIds(r).length;const fin=r.finisherName||'Core strategy';const methods=(r.methods||[]).join(' / ')||'Mixed';const status=r.unlockedTestDeck?'UNLOCKED':r.starterUpgrade?'STARTER READY':owned>=55?'OWNED READY':'COLLECTION TARGET';return`<article class="aiDeckPanel"><div class="aiDeckHeader"><div><span class="waRibbon">${esc(status)}</span><h3>${esc(r.name)}</h3></div><span class="deckCount">${r.size} PAGES</span></div><div class="aiDeckFacts"><span><b>FINISHER PATH</b>${esc(fin)}</span><span><b>METHODS</b>${esc(methods)}</span><span><b>STRATEGY</b>${esc(r.strategy||'Focused match plan')}</span><span><b>AVAILABLE</b>${r.unlockedTestDeck?'All pages unlocked for testing':`${owned}/${r.size} owned`}</span></div><div class="aiDeckActions"><button class="secondary compact" type="button" onclick="inspectRecommendedDeck('${r.id}')">VIEW PAGES</button><button class="primary compact" type="button" onclick="selectRecommendedDeck('${r.id}')" ${!r.unlockedTestDeck&&owned<55?'disabled':''}>${r.unlockedTestDeck?'USE DECK':'USE OWNED'}</button></div></article>`}).join('');
+ app.innerHTML=`<section class="screen originalPanelScreen"><div class="topbar"><button class="secondary compact" onclick="superstarSelect()">Back</button><b>CHOOSE PLAYBOOK</b><span>${esc(SUPERSTARS[key].name)}</span></div><div class="deckChoiceGrid"><article class="deckChoiceCard starterChoice">${artImg(starArt(key),'entityPortrait',SUPERSTARS[key].name)}<h2>AUTHENTIC STARTER</h2><p>${st.starter?.starterType==='official-product-build'?'Historically grounded Official Product Build. Not a recovered original starter.':'Exact recovered starter with its original Lead Off five.'}</p><p><b>${st.mapped}/${st.total}</b> pages resolved</p><button class="primary compact" type="button" onclick="selectStarterDeck()" ${st.ready?'':'disabled'}>USE STARTER</button></article><section class="aiRecommendationSection"><h2>AI RECOMMENDED PLAYBOOKS</h2><p class="instruction">Each build shows its intended Finisher path, two-method focus and current availability.</p>${recRows||'<p>No recommendation recovered yet.</p>'}</section><article class="deckChoiceCard"><h2>MAKE YOUR OWN</h2><p>Build a legal custom playbook with up to five copies of a page.</p><p>${custom?`${custom} saved pages`:'No saved custom playbook'}</p><button class="primary compact" type="button" onclick="${custom?'selectCustomDeck()':`deckBuilder(\'${key}\')`}">${custom?'USE CUSTOM':'BUILD DECK'}</button></article></div></section>`;
+}
+
 function selectOpponentAndStart(key){
   const status=starterStatus(key);if(!status.ready){alert('That authentic starter deck is not ready.');return}
   selectedOpponent=key;
