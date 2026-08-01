@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.79',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.82',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 const AUDIO={unlocked:false,music:null,crowd:null};
@@ -104,7 +104,22 @@ function configureSuperstarVariants(){
   Object.assign(SUPERSTARS.blackman,{artOverride:'assets/gai/sales-SteveBlackman.webp',edition:'Hardcore Bonus Starter'});
   Object.assign(SUPERSTARS.shane,{artOverride:'assets/gai/sales-ShaneMcMahon.webp',edition:'Hardcore Trio (source deck unresolved)',hardcoreTrio:true});
 }
-function selectableSuperstars(){return Object.values(SUPERSTARS).filter(s=>!MULTI_VERSION_BASES.has(s.key));}
+function superstarSortBase(s){
+  const raw=String(s.baseKey&&SUPERSTARS[s.baseKey]?.name||s.displayName||s.name||'')
+    .replace(/\s*\([^)]*\)\s*$/,'').trim();
+  return raw.replace(/^THE\s+/i,'').toUpperCase();
+}
+function superstarEditionRank(s){
+  const e=String(s.edition||'').toLowerCase();
+  if(/promo|sales|1st|first|expansion 1|ex1|nwo|limited/.test(e))return 0;
+  if(/2nd|second|2e/.test(e))return 1;
+  return 0;
+}
+function selectableSuperstars(){
+  return Object.values(SUPERSTARS)
+    .filter(s=>!MULTI_VERSION_BASES.has(s.key))
+    .sort((a,b)=>superstarSortBase(a).localeCompare(superstarSortBase(b))||superstarEditionRank(a)-superstarEditionRank(b)||String(a.displayName||a.name).localeCompare(String(b.displayName||b.name)));
+}
 
 Promise.all([fetch('data/demo-cards.json').then(r=>{if(!r.ok)throw new Error('Card data failed to load');return r.json()}),fetch('data/artwork-manifest.json').then(r=>r.json()),fetch('data/authentic-starter-decks.json').then(r=>r.json()),fetch('data/starter-roster-map.json').then(r=>r.json()),fetch('data/booster-products.json').then(r=>r.json()),fetch('data/original-offline-missions.json').then(r=>r.json()),fetch('data/original-campaign-v0964.json').then(r=>r.json()),fetch('data/ai-recommended-decks.json').then(r=>r.json())]).then(([x,a,st,sm,bp,om,oc,ad])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;ORIGINAL_CAMPAIGN=oc;AI_DECKS=ad;cards=x.map(enrichCard);configureSuperstarVariants();showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
 
@@ -397,7 +412,7 @@ function attachCardGestures(){document.querySelectorAll('.handCard').forEach(el=
 function yieldControl(){if(!state||state.busy||state.control!=='player'||state.hold)return;state.control='cpu';state.position='Standing';beginTurn('cpu');state.message='You yield match control. The opponent draws one page for the new turn.';addLog(`${state.player.name} yields control; ${state.cpu.name} draws one page.`);render();setTimeout(cpuTurn,650)}
 function momentumLine(s){return MOM_TYPES.map(t=>`${t[0]}:${s.momentum[t]||0}`).join(' · ')}
 function wrestlerHeadArt(s){const aliases={austin:['StoneColdHeadShot'],rock:['TheRockHeadShot'],tripleh:['TripleHHeadShot'],undertaker:['TheUndertakerHeadShot'],bigshow:['TheBigShowHeadShot','TheBigShow2EHeadShot'],hogan:['HollywoodHulkHoganHeadShot2E'],trish:['TrishStratusEX3HeadShot'],benoit:['ChrisBenoit2EHeadShot'],lita:['Lita2EHeadShot'],hbk:['ShawnMichaelsHeadShot']};const base=(s.name||'').replace(/[^a-z0-9]/gi,'');const candidates=[...(aliases[s.superKey]||[]),base+'HeadShot',base+'2EHeadShot',base+'EX3HeadShot'];for(const c of candidates){const hit=ART.assets?.[artKey(c)];if(hit)return hit.file}return starArt(s.rosterKey||s.superKey)}
-function wrestler(k){const s=side(k),head=wrestlerHeadArt(s),zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']].map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join(''),active=state&&state.control===k;return `<div class="wrestler originalHud ${k==='cpu'?'right':''}">${active?`<div class="turnBadge ${k==='cpu'?'cpuTurn':''}">${k==='player'?'YOUR TURN':'THEIR TURN'}</div>`:''}${artImg(head,'wrestlerHead',s.name,'eager')}<div class="hudText"><div class="name">${s.name}</div><div class="hpLine"><b>${s.hp}</b><span>/${s.maxHp} HP</span><small class="dqTiny">DQ ${s.warnings||0}</small></div><div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`}
+function wrestler(k){const s=side(k),head=wrestlerHeadArt(s),zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']].map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join('');return `<div class="wrestler originalHud ${k==='cpu'?'right':''}">${artImg(head,'wrestlerHead',s.name,'eager')}<div class="hudText"><div class="name" title="${esc(s.name)}">${s.name}</div><div class="hpLine"><b>${s.hp}</b><span>/${s.maxHp} HP</span><small class="dqTiny">DQ ${s.warnings||0}</small></div><div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`}
 function toggleMatchMenu(){if(!state)return;state.menuOpen=!state.menuOpen;render()}
 function toggleMatchAudio(which){ensureProfile();profile.settings[which]=!profile.settings[which];saveProfile();if(which==='music'){if(profile.settings.music)playMusic('AppBackground',{loop:true,volume:.22});else stopMusic()}if(which==='sound'&&!profile.settings.sound)stopCrowd();else if(which==='sound'&&profile.settings.sound)playCrowd();render()}
 function quitCurrentMatch(){if(!state)return;if(!confirm('Quit this match and return to the main menu?'))return;stopCrowd();state=null;home()}
@@ -425,7 +440,7 @@ function handEntries(){
   });
   return entries.sort((a,b)=>a.group-b.group||(b.score||0)-(a.score||0)||a.index-b.index);
 }
-function render(){if(!state)return;const p=state.player,entries=handEntries(),legalCount=entries.filter(x=>!x.reason).length,pin=state.control==='player'&&state.position==='Grounded'&&!state.hold&&(p.momentum.Attitude||0)>=p.pins;app.innerHTML=`<section class="screen arena portraitArena"><div class="crowdStage"><button class="matchGear" aria-label="Match options" onclick="toggleMatchMenu()">⚙</button><div class="status">${wrestler('player')}${wrestler('cpu')}</div></div><div class="positionbar"><span>MATCH POSITION</span><strong>${state.position}</strong><span>ROUND ${state.round}</span></div><div class="ring originalRing"><div class="pile ${state.pile?state.pile.owner:''}">${state.pile?`${artImg(cardArt(state.pile.card),'pileArt',state.pile.card.name,'eager')}<span class="result">${state.pile.status}</span><b>${esc(state.pile.card.name)}</b><small>${state.pile.card.cardClass} · ${state.pile.card.damage} damage</small>`:'PLAY PILE'}</div></div><div class="message">${esc(state.message)}</div>${state.hold?submissionPanel():`<div class="actions contextualActions">${contextualActions(p,pin)}<span>${legalCount} legal</span></div><div class="gestureHint">Tap to flip · Swipe up to play · Swipe down to ditch</div><div class="hand">${entries.map(x=>cardHtml(x.c,x.index)).join('')}</div>`}<details class="matchlog"><summary>Match Log</summary>${state.log.map(x=>`<p>${esc(x)}</p>`).join('')}</details>${matchMenu()}</section>`;attachCardGestures()}
+function render(){if(!state)return;const p=state.player,entries=handEntries(),legalCount=entries.filter(x=>!x.reason).length,pin=state.control==='player'&&state.position==='Grounded'&&!state.hold&&(p.momentum.Attitude||0)>=p.pins;app.innerHTML=`<section class="screen arena portraitArena"><div class="crowdStage"><div class="status">${wrestler('player')}${wrestler('cpu')}</div></div><div class="positionbar"><span>MATCH POSITION</span><strong>${state.position}</strong><span>ROUND ${state.round}</span></div><div class="ring originalRing"><div class="ringSideControl left">${state.control==='player'?'<span class="turnBadge">YOUR TURN</span>':''}</div><div class="pile ${state.pile?state.pile.owner:''}">${state.pile?`${artImg(cardArt(state.pile.card),'pileArt',state.pile.card.name,'eager')}<span class="result">${state.pile.status}</span><b>${esc(state.pile.card.name)}</b><small>${state.pile.card.cardClass} · ${state.pile.card.damage} damage</small>`:'PLAY PILE'}</div><div class="ringSideControl right"><button class="matchGear" aria-label="Match options" onclick="toggleMatchMenu()">⚙</button>${state.control==='cpu'?'<span class="turnBadge cpuTurn">THEIR TURN</span>':''}</div></div><div class="message">${esc(state.message)}</div>${state.hold?submissionPanel():`<div class="actions contextualActions">${contextualActions(p,pin)}<span>${legalCount} legal</span></div><div class="gestureHint">Tap to flip · Swipe up to play · Swipe down to ditch</div><div class="hand">${entries.map(x=>cardHtml(x.c,x.index)).join('')}</div>`}<details class="matchlog"><summary>Match Log</summary>${state.log.map(x=>`<p>${esc(x)}</p>`).join('')}</details>${matchMenu()}</section>`;attachCardGestures()}
 function submissionPanel(){const h=state.hold,isPlayer=h.attacker==='player',def=side(h.defender),att=side(h.attacker);return `<div class="submissionPanel"><b>${esc(h.card.name)} · TURN ${h.turns}</b><p>${esc(att.name)} is maintaining the hold on ${esc(def.name)}.</p><p>${h.totalDamage||0} total submission damage. ${esc(def.name)} drew a page at the start of this trapped turn.</p>${isPlayer?`<div class="actions"><button class="primary" onclick="maintainSubmission()">Maintain Hold</button><button class="secondary" onclick="releaseSubmission()">Release and Continue</button></div>`:h.defender==='player'?`<div class="actions"><button class="primary" onclick="playerDefenderInHold()">Attempt Escape / End Trapped Turn</button></div>`:`<p>${esc(att.name)} is deciding whether to maintain or release the hold…</p>`}</div>`}
 function cardMethodClass(c){
   const raw=String(c.method||c.requirement||c.momentumType||'').toLowerCase();
@@ -631,13 +646,22 @@ function superstarLimitRows(s){
 function entityTile(s,actions='',extra=''){
   const title=s.displayName||s.name,edition=s.edition?`<small class="editionName">${esc(s.edition)}</small>`:'';
   const abilityHtml=esc(s.abilityText||s.ability).split('\n').join('<br>');
-  return `<article class="entityCard flipEntity" data-flip-entity><div class="entityFlipInner"><div class="entityFace entityFront">${artImg(starArt(s.key),'entityPortrait fullEntityArt',title)}<div class="entityFrontTitle"><h3>${esc(title)}</h3>${edition}<small>Tap to flip</small></div></div><div class="entityFace entityBack originalSuperBack"><div class="superBackHeader"><h3>${esc(title)}</h3>${edition}</div><div class="superBackStats"><div class="superLimits"><b>LIMITS</b>${superstarLimitRows(s)}</div><div class="superHp"><small>HP</small><b>${s.hp}</b></div></div><div class="superAbilityText">${abilityHtml}</div>${extra?`<div class="superDeckMeta">${extra}</div>`:''}<div class="entityActions compactEntityActions">${actions}</div><small class="flipHint">Tap card to flip back</small></div></div></article>`;
+  return `<article class="entityCard flipEntity" data-flip-entity data-entity-search="${esc([title,s.edition,s.baseKey&&SUPERSTARS[s.baseKey]?.name,s.style].filter(Boolean).join(' ').toLowerCase())}"><div class="entityFlipInner"><div class="entityFace entityFront">${artImg(starArt(s.key),'entityPortrait fullEntityArt',title)}<div class="entityFrontTitle"><h3>${esc(title)}</h3>${edition}<small>Tap to flip</small></div></div><div class="entityFace entityBack originalSuperBack"><div class="superBackHeader"><h3>${esc(title)}</h3>${edition}</div><div class="superBackStats"><div class="superLimits"><b>LIMITS</b>${superstarLimitRows(s)}</div><div class="superHp"><small>HP</small><b>${s.hp}</b></div></div><div class="superAbilityText">${abilityHtml}</div>${extra?`<div class="superDeckMeta">${extra}</div>`:''}<div class="entityActions compactEntityActions">${actions}</div><small class="flipHint">Tap card to flip back</small></div></div></article>`;
 }
 function attachEntityCardGestures(){
   document.querySelectorAll('[data-flip-entity]').forEach(card=>{
     card.addEventListener('click',e=>{if(e.target.closest('button,a,input,select,textarea'))return;card.classList.toggle('flipped')});
   });
   document.querySelectorAll('[data-open-playbook]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();deckBuilder(btn.dataset.openPlaybook)}));
+}
+function attachEntitySearch(){
+  const input=document.getElementById('entitySearch');
+  if(!input)return;
+  const apply=()=>filterEntityGrid(input.value);
+  input.addEventListener('input',apply);
+  input.addEventListener('search',apply);
+  input.addEventListener('keyup',apply);
+  apply();
 }
 
 function home(){
@@ -647,14 +671,16 @@ function home(){
 }
 function playbookHub(){
   const tiles=selectableSuperstars().map(s=>entityTile(s,`<button class="primary compact" type="button" data-open-playbook="${s.key}">Open Playbook</button>`,`<p>${deckIds(s.key).length} pages · ${esc(s.style.toUpperCase())}</p>`)).join('');
-  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>PLAYBOOK MANAGER</b><span>${VERSION}</span></div><p class="instruction">Tap a Superstar card to flip it. Open Playbook is on the information side.</p><input id="entitySearch" class="search" placeholder="Search Superstars..." oninput="filterEntityGrid()"><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
+  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>PLAYBOOK MANAGER</b><span>${VERSION}</span></div><p class="instruction">Tap a Superstar card to flip it. Open Playbook is on the information side.</p><input id="entitySearch" class="search" placeholder="Search Superstars..."><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
   attachEntityCardGestures();
+  attachEntitySearch();
 }
 function superstarSelect(){
-  const tiles=selectableSuperstars().map(s=>{const d=starterStatus(s.key);return entityTile(s,`<button class="primary compact" data-select-super="${s.key}" ${d.ready?'':'disabled'}>${d.ready?(d.starter?.starterType==='official-product-build'?'Select Product Build':'Select'):'Incomplete'}</button><button class="secondary compact" onclick="starterDeckDetail('${esc(STARTER_MAP[s.key]||'')}')">Inspect</button>`,`<p>${s.hp} HP · ${esc(s.style.toUpperCase())}</p><p class="abilityLine">${esc(s.ability)}</p><p><b>${d.mapped}/${d.total}</b> starter pages ready</p>`)}).join('');
-  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>SELECT SUPERSTAR</b><span>${VERSION}</span></div><input id="entitySearch" class="search" placeholder="Search Superstars..." oninput="filterEntityGrid()"><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
+  const tiles=selectableSuperstars().map(s=>{const d=starterStatus(s.key);return entityTile(s,`<button class="primary compact" data-select-super="${s.key}" ${d.ready?'':'disabled'}>${d.ready?(d.starter?.starterType==='official-product-build'?'Select Product Build':'Select'):'Incomplete'}</button><button class="secondary compact" onclick="starterDeckDetail('${esc(STARTER_MAP[s.key]||'')}')">Inspect</button>`,`<p><b>${d.mapped}/${d.total} starter pages ready</b></p>`)}).join('');
+  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>SELECT SUPERSTAR</b><span>${VERSION}</span></div><input id="entitySearch" class="search" placeholder="Search Superstars..."><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
   document.querySelectorAll('[data-select-super]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();chooseSuperstar(btn.dataset.selectSuper)}));
   attachEntityCardGestures();
+  attachEntitySearch();
 }
 
 function ownedCopiesFor(key){ensureRewardProfile();const counts={};const starter=starterForKey(key);for(const e of starter?.entries||[])if(e.cardId)counts[e.cardId]=(counts[e.cardId]||0)+1;for(const [id,n] of Object.entries(profile.collection||{}))counts[id]=(counts[id]||0)+Number(n||0);return counts}
@@ -668,10 +694,11 @@ function deckChoiceScreen(key){const st=starterStatus(key),recs=(AI_DECKS.decks|
 function opponentSelect(){
   const options=selectableSuperstars().filter(s=>s.key!==selectedSuperstar),ready=options.filter(s=>starterStatus(s.key).ready);
   const tiles=options.map(s=>{const d=starterStatus(s.key);return entityTile(s,`<button class="secondary compact" data-opponent="${s.key}" ${d.ready?'':'disabled'}>${d.ready?'Choose Opponent':'Incomplete'}</button>`,`<p>${s.hp} HP · ${esc(s.style.toUpperCase())}</p><p class="abilityLine">${esc(s.ability)}</p><p>${d.mapped}/${d.total} starter pages ready</p>`)}).join('');
-  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="superstarSelect()">Back</button><b>SELECT OPPONENT</b><span>${esc(SUPERSTARS[selectedSuperstar].name)}</span></div><div class="menu opponentQuick"><button id="randomOpponentButton" class="primary" ${ready.length?'':'disabled'}>Random Ready Opponent</button></div><input id="entitySearch" class="search" placeholder="Search opponents..." oninput="filterEntityGrid()"><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
+  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="superstarSelect()">Back</button><b>SELECT OPPONENT</b><span>${esc(SUPERSTARS[selectedSuperstar].name)}</span></div><div class="menu opponentQuick"><button id="randomOpponentButton" class="primary" ${ready.length?'':'disabled'}>Random Ready Opponent</button></div><input id="entitySearch" class="search" placeholder="Search opponents..."><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
   document.getElementById('randomOpponentButton')?.addEventListener('click',randomOpponent);
   document.querySelectorAll('[data-opponent]').forEach(btn=>btn.addEventListener('click',e=>{e.stopPropagation();selectOpponentAndStart(btn.dataset.opponent)}));
   attachEntityCardGestures();
+  attachEntitySearch();
 }
 function selectOpponentAndStart(key){
   const status=starterStatus(key);if(!status.ready){alert('That authentic starter deck is not ready.');return}
@@ -679,5 +706,5 @@ function selectOpponentAndStart(key){
   try{start()}catch(err){console.error(err);alert(`The match could not start: ${err.message||err}`)}
 }
 function setOpponent(key){selectOpponentAndStart(key)}
-function filterEntityGrid(){const q=(document.getElementById('entitySearch')?.value||'').trim().toLowerCase();document.querySelectorAll('#entityGrid .entityCard').forEach(x=>x.hidden=!x.textContent.toLowerCase().includes(q))}
+function filterEntityGrid(value){const q=String(value??document.getElementById('entitySearch')?.value??'').trim().toLowerCase();document.querySelectorAll('#entityGrid .entityCard').forEach(card=>{const hay=String(card.dataset.entitySearch||card.textContent||'').toLowerCase();card.hidden=!!q&&!hay.includes(q)})}
 

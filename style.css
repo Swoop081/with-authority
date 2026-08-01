@@ -240,9 +240,58 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
 }
 
 /* v0.9.79 authentic Superstar edition cards */
-.originalSuperBack{background:radial-gradient(circle at 50% 55%,#fff7c8 0,#ffd25f 42%,#f06a18 78%,#c52618 100%);color:#17110b;border:3px solid #e5c84c;box-shadow:inset -12px 0 0 #f2d847,inset -18px 0 0 #392900;padding:12px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
-.originalSuperBack:after{content:"";position:absolute;right:8px;top:8px;bottom:8px;width:10px;background:repeating-linear-gradient(135deg,#332600 0 5px,#f1d63b 5px 10px);border-radius:6px;opacity:.9}
-.superBackHeader{padding-right:22px}.superBackHeader h3{margin:0;font-size:1.05rem;color:white;text-shadow:1px 1px 2px #8a1a00}.editionName{display:block;letter-spacing:.06em;opacity:.82;margin-top:2px}
-.superBackStats{display:flex;align-items:flex-start;justify-content:space-between;padding-right:24px}.superLimits>b{display:block;font-size:.72rem;margin-bottom:3px}.superLimits{display:grid;grid-template-columns:repeat(2,max-content);gap:3px 8px}.superLimits>b{grid-column:1/-1}.superLimit{display:flex;align-items:center;gap:3px;font-size:.72rem}.superLimit img{width:20px;height:20px;object-fit:cover;border:1px solid #222}.superHp{width:52px;height:52px;border-radius:50%;background:linear-gradient(#9c9c9c,#333);border:4px solid #c6c6c6;display:grid;place-content:center;text-align:center;color:#ffe329;text-shadow:1px 1px #600}.superHp small{font-size:.55rem;color:white;line-height:1}.superHp b{font-size:1.2rem;line-height:1}
-.superAbilityText{font-family:Georgia,serif;font-weight:700;font-size:.75rem;line-height:1.28;text-align:left;padding:5px 25px 4px 2px;overflow:auto;flex:1}.superDeckMeta{font-size:.62rem;line-height:1.15;padding-right:22px}.superDeckMeta p{margin:2px 0}.compactEntityActions{display:flex;gap:5px;padding-right:22px}.compactEntityActions button{min-height:32px!important;height:32px!important;padding:4px 8px!important;font-size:.68rem!important;flex:1}.originalSuperBack .flipHint{font-size:.55rem;padding-right:22px}.entityFrontTitle h3{font-size:.92rem;line-height:1.05}.entityFrontTitle .editionName{font-size:.58rem;color:#ddd}.entityCard{min-height:0}.entityFlipInner{aspect-ratio:3/4.25}.fullEntityArt{object-fit:contain!important;background:#050505}
-@media(max-width:420px){.originalSuperBack{padding:8px}.superAbilityText{font-size:.67rem}.superHp{width:44px;height:44px}.superLimit img{width:17px;height:17px}.compactEntityActions button{font-size:.62rem!important;padding:3px!important}}
+.originalSuperBack{background:radial-gradient(circle at 50% 55%,#fff7c8 0,#ffd25f 42%,#f06a18 78%,#c52618 100%);color:#17110b;border:3px solid #e5c84c;box-shadow:inset -10px 0 0 #f2d847,inset -16px 0 0 #392900;padding:8px;display:flex;flex-direction:column;gap:4px;overflow:hidden}
+.originalSuperBack:after{content:"";position:absolute;right:6px;top:6px;bottom:6px;width:9px;background:repeating-linear-gradient(135deg,#332600 0 5px,#f1d63b 5px 10px);border-radius:5px;opacity:.9}
+.superBackHeader{padding-right:18px;min-height:0}.superBackHeader h3{margin:0;font-size:clamp(.68rem,2.45vw,.88rem);line-height:1.02;color:white;text-shadow:1px 1px 2px #8a1a00;letter-spacing:.01em;overflow-wrap:anywhere}.superBackHeader .editionName{font-size:.52rem;line-height:1.05;margin-top:2px}.editionName{display:block;letter-spacing:.045em;opacity:.82;margin-top:2px}
+.superBackStats{display:flex;align-items:flex-start;justify-content:space-between;padding-right:20px;gap:5px}.superLimits>b{display:block;font-size:.61rem;margin-bottom:1px}.superLimits{display:grid;grid-template-columns:repeat(2,max-content);gap:2px 5px}.superLimits>b{grid-column:1/-1}.superLimit{display:flex;align-items:center;gap:2px;font-size:.61rem;line-height:1}.superLimit img{width:17px;height:17px;object-fit:cover;border:1px solid #222}.superHp{width:44px;height:44px;border-radius:50%;background:linear-gradient(#9c9c9c,#333);border:3px solid #c6c6c6;display:grid;place-content:center;text-align:center;color:#ffe329;text-shadow:1px 1px #600;flex:0 0 auto}.superHp small{font-size:.48rem;color:white;line-height:1}.superHp b{font-size:1rem;line-height:1}
+.superAbilityText{font-family:Georgia,serif;font-weight:700;font-size:clamp(.58rem,1.85vw,.68rem);line-height:1.12;text-align:left;padding:3px 20px 2px 1px;overflow:auto;flex:1;min-height:0;white-space:normal}.superDeckMeta{font-size:.55rem;line-height:1.08;padding-right:18px}.superDeckMeta p{margin:1px 0}.compactEntityActions{display:flex;gap:4px;padding-right:18px}.compactEntityActions button{min-height:27px!important;height:27px!important;padding:2px 5px!important;font-size:.59rem!important;line-height:1!important;flex:1}.originalSuperBack .flipHint{display:none}.entityFrontTitle h3{font-size:.92rem;line-height:1.05}.entityFrontTitle .editionName{font-size:.58rem;color:#ddd}.entityCard{min-height:0}.entityFlipInner{aspect-ratio:3/4.25}.fullEntityArt{object-fit:contain!important;background:#050505}
+@media(max-width:420px){.originalSuperBack{padding:6px;gap:3px}.superBackHeader h3{font-size:.66rem}.superAbilityText{font-size:.56rem;line-height:1.08;padding-right:17px}.superHp{width:40px;height:40px}.superLimit img{width:15px;height:15px}.superLimit{font-size:.56rem}.compactEntityActions button{font-size:.54rem!important;padding:2px!important;height:25px!important;min-height:25px!important}}
+
+
+/* v0.9.82 compact mirrored match HUD and transparent ring artwork */
+.crowdStage{min-height:132px}
+.crowdStage .status{padding:4px 6px;align-items:end;overflow:hidden}
+.originalHud{width:50%;display:grid;grid-template-columns:82px minmax(0,1fr);gap:4px;align-items:end;min-width:0}
+.originalHud.right{grid-template-columns:minmax(0,1fr) 82px}
+.originalHud .wrestlerHead{width:82px;height:104px;object-fit:cover;object-position:center top}
+.originalHud.right .wrestlerHead{grid-column:2;justify-self:end;object-position:right top}
+.originalHud .hudText{min-width:0;text-align:left;align-self:end}
+.originalHud.right .hudText{grid-column:1;grid-row:1;text-align:right}
+.originalHud .name{font-size:11px;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:2px}
+.originalHud.right .name{text-align:right}
+.originalHud .hpLine{justify-content:flex-start;white-space:nowrap}
+.originalHud.right .hpLine{justify-content:flex-end}
+.originalHud .hpLine b{font-size:20px}
+.originalHud .hpLine span{font-size:10px}
+.originalHud .dqTiny{font-size:7px}
+.originalHud .momentumIcons{grid-template-columns:repeat(3,34px);justify-content:start;gap:1px;margin:2px 0}
+.originalHud.right .momentumIcons{justify-content:end}
+.originalHud .momIcon{width:34px;min-width:34px;padding:1px;gap:1px;justify-content:flex-start}
+.originalHud .momIcon img{width:13px;height:13px}
+.originalHud .momIcon b{font-size:9px;min-width:12px;text-align:center}
+.originalHud .limbDamage{font-size:8px;gap:2px;white-space:nowrap}
+.originalHud.right .limbDamage{justify-content:flex-end}
+.originalHud .limbDamage span{padding:1px 2px}
+.originalRing{grid-template-columns:minmax(58px,1fr) 132px minmax(58px,1fr);place-items:center;overflow:hidden}
+.originalRing::before{background:url('assets/gai/ring.webp') center/contain no-repeat;opacity:.72;inset:8px}
+.ringSideControl{position:relative;z-index:4;align-self:stretch;width:100%;display:flex;align-items:flex-start;padding:8px}
+.ringSideControl.left{justify-content:flex-start}
+.ringSideControl.right{justify-content:flex-end;gap:6px}
+.ringSideControl .turnBadge{position:static;transform:none;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;margin:0}
+.ringSideControl .matchGear{position:static;width:34px;height:34px;min-height:34px;flex:0 0 34px}
+.originalRing .pile{grid-column:2;z-index:3}
+@media(max-width:430px){
+  .crowdStage{min-height:120px}
+  .crowdStage .status{padding:3px 4px}
+  .originalHud{grid-template-columns:72px minmax(0,1fr);gap:2px}
+  .originalHud.right{grid-template-columns:minmax(0,1fr) 72px}
+  .originalHud .wrestlerHead{width:72px;height:96px}
+  .originalHud .name{font-size:10px}
+  .originalHud .hpLine b{font-size:18px}
+  .originalHud .momentumIcons{grid-template-columns:repeat(3,31px)}
+  .originalHud .momIcon{width:31px;min-width:31px}
+  .originalRing{grid-template-columns:56px 126px 56px}
+  .ringSideControl{padding:6px 3px}
+  .ringSideControl .turnBadge{font-size:7px;padding:4px 5px}
+  .ringSideControl .matchGear{width:31px;height:31px;min-height:31px;font-size:18px}
+}
