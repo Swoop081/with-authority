@@ -1,0 +1,38 @@
+{
+  "version": "0.9.77",
+  "authenticBonusStarters": [
+    "BonusSnow.gap",
+    "BonusBlackman.gap"
+  ],
+  "officialProductBuilds": [
+    {
+      "superstar": "brock",
+      "starterId": "OfficialProduct-Brock-SummerSlam2002",
+      "sourceProduct": "SummerSlam 2002",
+      "basisRecommendation": "brock-f5-optimized"
+    },
+    {
+      "superstar": "hbk",
+      "starterId": "OfficialProduct-ShawnMichaels-SummerSlam2002",
+      "sourceProduct": "SummerSlam 2002",
+      "basisRecommendation": "hbk-sweet-chin-music-optimized"
+    },
+    {
+      "superstar": "scotthall",
+      "starterId": "OfficialProduct-ScottHall-WMX8",
+      "sourceProduct": "WrestleMania X8",
+      "basisRecommendation": "scotthall-razors-edge-optimized"
+    }
+  ],
+  "unresolved": [
+    {
+      "superstar": "Rey Mysterio",
+      "evidence": "Starter-ReyMysterioLE.gap is indexed but package absent"
+    },
+    {
+      "superstar": "Shane McMahon",
+      "evidence": "No complete starter or fixed product build recovered"
+    }
+  ],
+  "notes": "Official Product Builds are clearly labelled reconstructions and are not counted as authentic recovered starters."
+}

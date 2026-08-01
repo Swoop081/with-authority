@@ -1,0 +1,359 @@
+{
+  "version": "v0.9.74",
+  "starterUpgradeDecks": 35,
+  "mappedSuperstars": 35,
+  "allImmediatelyPlayable": true,
+  "policy": "One immediately playable recommendation per mapped authentic starter, using only cards and quantities owned in that starter. The deck is reordered for a stronger opening five but does not invent extra copies.",
+  "decks": [
+    {
+      "superstar": "austin",
+      "name": "Stone Cold Steve Austin \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-StoneCold"
+    },
+    {
+      "superstar": "rock",
+      "name": "The Rock \u2014 Starter Upgrade",
+      "size": 69,
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-TheRock"
+    },
+    {
+      "superstar": "tripleh",
+      "name": "Triple H \u2014 Starter Upgrade",
+      "size": 70,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "TripleHStarter"
+    },
+    {
+      "superstar": "undertaker",
+      "name": "The Undertaker \u2014 Starter Upgrade",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-TheUndertaker"
+    },
+    {
+      "superstar": "kane",
+      "name": "Kane \u2014 Starter Upgrade",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-Kane"
+    },
+    {
+      "superstar": "angle",
+      "name": "Kurt Angle \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-KurtAngle"
+    },
+    {
+      "superstar": "jericho",
+      "name": "Chris Jericho \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-ChrisJericho"
+    },
+    {
+      "superstar": "benoit",
+      "name": "Chris Benoit \u2014 Starter Upgrade",
+      "size": 74,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-TheCripplerChrisBenoit"
+    },
+    {
+      "superstar": "bigshow",
+      "name": "Big Show \u2014 Starter Upgrade",
+      "size": 69,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-TheBigShow"
+    },
+    {
+      "superstar": "bookert",
+      "name": "Booker T \u2014 Starter Upgrade",
+      "size": 76,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-BookerT"
+    },
+    {
+      "superstar": "edge",
+      "name": "Edge \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-Edge"
+    },
+    {
+      "superstar": "christian",
+      "name": "Christian \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-Christian"
+    },
+    {
+      "superstar": "eddie",
+      "name": "Eddie Guerrero \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-EddieGuerrero"
+    },
+    {
+      "superstar": "rvd",
+      "name": "Rob Van Dam \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-RobVanDam"
+    },
+    {
+      "superstar": "flair",
+      "name": "Ric Flair \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-RicFlairLE"
+    },
+    {
+      "superstar": "hogan",
+      "name": "Hollywood Hulk Hogan \u2014 Starter Upgrade",
+      "size": 70,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-HulkHoganLE"
+    },
+    {
+      "superstar": "nash",
+      "name": "Kevin Nash \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-KevinNash"
+    },
+    {
+      "superstar": "jeffhardy",
+      "name": "Jeff Hardy \u2014 Starter Upgrade",
+      "size": 76,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-JeffHardy"
+    },
+    {
+      "superstar": "matthardy",
+      "name": "Matt Hardy \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-MattHardy"
+    },
+    {
+      "superstar": "lita",
+      "name": "Lita \u2014 Starter Upgrade",
+      "size": 74,
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-Lita"
+    },
+    {
+      "superstar": "trish",
+      "name": "Trish Stratus \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-TrishStratusLE"
+    },
+    {
+      "superstar": "bubba",
+      "name": "Bubba Ray Dudley \u2014 Starter Upgrade",
+      "size": 76,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-BubbaRayDudley"
+    },
+    {
+      "superstar": "dvon",
+      "name": "D-Von Dudley \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-DVon"
+    },
+    {
+      "superstar": "spike",
+      "name": "Spike Dudley \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-SpikeDudley"
+    },
+    {
+      "superstar": "bradshaw",
+      "name": "Bradshaw \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "sourceStarterId": "Starter-Bradshaw"
+    },
+    {
+      "superstar": "goldust",
+      "name": "Goldust \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-Goldust"
+    },
+    {
+      "superstar": "lancestorm",
+      "name": "Lance Storm \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-LanceStorm"
+    },
+    {
+      "superstar": "rikishi",
+      "name": "Rikishi \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "sourceStarterId": "RikishiPhatuStarter"
+    },
+    {
+      "superstar": "scotty",
+      "name": "Scotty 2 Hotty \u2014 Starter Upgrade",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-Scotty2Hotty"
+    },
+    {
+      "superstar": "tajiri",
+      "name": "Tajiri \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-Tajiri"
+    },
+    {
+      "superstar": "tazz",
+      "name": "Tazz \u2014 Starter Upgrade",
+      "size": 70,
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "sourceStarterId": "Starter-Tazz"
+    },
+    {
+      "superstar": "test",
+      "name": "Test \u2014 Starter Upgrade",
+      "size": 76,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-Test"
+    },
+    {
+      "superstar": "hurricane",
+      "name": "The Hurricane \u2014 Starter Upgrade",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-TheHurricaneLE"
+    },
+    {
+      "superstar": "regal",
+      "name": "William Regal \u2014 Starter Upgrade",
+      "size": 78,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "sourceStarterId": "Starter-WilliamRegal3"
+    },
+    {
+      "superstar": "xpac",
+      "name": "X-Pac \u2014 Starter Upgrade",
+      "size": 71,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "sourceStarterId": "Starter-XPac"
+    }
+  ]
+}

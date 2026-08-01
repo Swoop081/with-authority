@@ -793,7 +793,7 @@
     "playbookArt": "Sales-AlSnow.gai",
     "abilityImplemented": false,
     "passiveImplemented": false,
-    "starterStatus": "recovered"
+    "starterStatus": "recovered-authentic-bonus-starter"
   },
   "blackman": {
     "key": "blackman",
@@ -816,7 +816,7 @@
     "playbookArt": "Sales-SteveBlackman.gai",
     "abilityImplemented": false,
     "passiveImplemented": false,
-    "starterStatus": "recovered"
+    "starterStatus": "recovered-authentic-bonus-starter"
   },
   "brock": {
     "key": "brock",
@@ -827,7 +827,7 @@
     "hp": 75,
     "style": "balanced",
     "sourceFile": "BrockLesnar.gac",
-    "starterId": null,
+    "starterId": "OfficialProduct-Brock-SummerSlam2002",
     "momentumMaximums": {
       "Agility": 0,
       "Knowledge": 1,
@@ -839,7 +839,7 @@
     "playbookArt": "BrockLesnarPlaybook.gai",
     "abilityImplemented": false,
     "passiveImplemented": false,
-    "starterStatus": "source-package-unresolved"
+    "starterStatus": "official-product-build"
   },
   "shane": {
     "key": "shane",
@@ -873,7 +873,7 @@
     "hp": 68,
     "style": "balanced",
     "sourceFile": "ShawnMichaels.gac",
-    "starterId": null,
+    "starterId": "OfficialProduct-ShawnMichaels-SummerSlam2002",
     "momentumMaximums": {
       "Agility": -1,
       "Knowledge": -1,
@@ -885,7 +885,7 @@
     "playbookArt": "ShawnMichaelsPlaybook.gai",
     "abilityImplemented": false,
     "passiveImplemented": false,
-    "starterStatus": "source-package-unresolved"
+    "starterStatus": "official-product-build"
   },
   "scotthall": {
     "key": "scotthall",
@@ -896,7 +896,7 @@
     "hp": 71,
     "style": "balanced",
     "sourceFile": "ScottHall.gac",
-    "starterId": null,
+    "starterId": "OfficialProduct-ScottHall-WMX8",
     "momentumMaximums": {
       "Agility": 0,
       "Knowledge": 3,
@@ -908,7 +908,7 @@
     "playbookArt": "ScottHallPlaybook.gai",
     "abilityImplemented": false,
     "passiveImplemented": false,
-    "starterStatus": "source-package-unresolved"
+    "starterStatus": "official-product-build"
   },
   "rey": {
     "key": "rey",

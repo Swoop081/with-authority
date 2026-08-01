@@ -64,4 +64,11 @@ v0.9.70 match HUD cleanup:
 - Added an in-match gear menu for sound, music, match log and quitting.
 
 
-v0.9.73: Corrected Superstar artwork resolver to require Superstar-class source mappings; fixed Ric Flair, Kevin Nash, Trish Stratus and Scotty 2 Hotty roster art.
+v0.9.78: Corrected Superstar artwork resolver to require Superstar-class source mappings; fixed Ric Flair, Kevin Nash, Trish Stratus and Scotty 2 Hotty roster art.
+
+
+v0.9.78 changes:
+- Removed universal Recover Page action from player match controls.
+- Removed CPU automatic generic discard recovery.
+- Card and Superstar effects that explicitly recover pages remain supported.
+- Replaced PWA/iPhone home-screen icons with the approved With Authority Mobile orange-burst logo.

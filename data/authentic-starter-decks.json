@@ -1,6 +1,6 @@
 {
-  "version": "v0.9.57",
-  "count": 67,
+  "version": "0.9.77",
+  "count": 70,
   "starters": [
     {
       "id": "RikishiPhatuStarter",
@@ -39568,11 +39568,14 @@
       ],
       "mappedPlayable": 61,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "starterType": "authentic-bonus-starter",
+      "authenticStarter": true,
+      "preservationLabel": "AUTHENTIC RECOVERED BONUS STARTER"
     },
     {
       "id": "BonusBlackman",
-      "title": "Steve Blackman Starter%",
+      "title": "Steve Blackman Starter",
       "description": "This is a starter for Steve Blackman.",
       "sourceFile": "BonusBlackman.gap",
       "count": 61,
@@ -40068,10 +40071,1642 @@
       ],
       "mappedPlayable": 61,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "starterType": "authentic-bonus-starter",
+      "authenticStarter": true,
+      "preservationLabel": "AUTHENTIC RECOVERED BONUS STARTER"
+    },
+    {
+      "id": "OfficialProduct-Brock-SummerSlam2002",
+      "title": "Brock Lesnar \u2014 Official Product Build",
+      "description": "Historically grounded playbook built from the recovered SummerSlam 2002 product cards and the authentic generic card pool. This is not a recovered original starter deck.",
+      "sourceFile": "SummerSlam2002.gap",
+      "count": 61,
+      "entries": [
+        {
+          "unid": 1085,
+          "sourceFiles": [
+            "BrockLesnar.gac"
+          ],
+          "sourceFile": "BrockLesnar.gac",
+          "cardId": "OriginalSuperstar_BrockLesnar"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 940,
+          "sourceFiles": [
+            "EyeRake2E.gac"
+          ],
+          "sourceFile": "EyeRake2E.gac",
+          "cardId": "EyeRake2E"
+        },
+        {
+          "unid": 132,
+          "sourceFiles": [
+            "PokeInTheEye.gac"
+          ],
+          "sourceFile": "PokeInTheEye.gac",
+          "cardId": "Original_PokeInTheEye"
+        },
+        {
+          "unid": 1140,
+          "sourceFiles": [
+            "DoubleBackBreaker.gac"
+          ],
+          "sourceFile": "DoubleBackBreaker.gac",
+          "cardId": "DoubleBackBreaker"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 1087,
+          "sourceFiles": [
+            "F5.gac"
+          ],
+          "sourceFile": "F5.gac",
+          "cardId": "F5"
+        },
+        {
+          "unid": 1087,
+          "sourceFiles": [
+            "F5.gac"
+          ],
+          "sourceFile": "F5.gac",
+          "cardId": "F5"
+        },
+        {
+          "unid": 1087,
+          "sourceFiles": [
+            "F5.gac"
+          ],
+          "sourceFile": "F5.gac",
+          "cardId": "F5"
+        },
+        {
+          "unid": 1087,
+          "sourceFiles": [
+            "F5.gac"
+          ],
+          "sourceFile": "F5.gac",
+          "cardId": "F5"
+        },
+        {
+          "unid": 1087,
+          "sourceFiles": [
+            "F5.gac"
+          ],
+          "sourceFile": "F5.gac",
+          "cardId": "F5"
+        },
+        {
+          "unid": 1089,
+          "sourceFiles": [
+            "SpinningPowerslam.gac"
+          ],
+          "sourceFile": "SpinningPowerslam.gac",
+          "cardId": "SpinningPowerslam"
+        },
+        {
+          "unid": 1089,
+          "sourceFiles": [
+            "SpinningPowerslam.gac"
+          ],
+          "sourceFile": "SpinningPowerslam.gac",
+          "cardId": "SpinningPowerslam"
+        },
+        {
+          "unid": 1089,
+          "sourceFiles": [
+            "SpinningPowerslam.gac"
+          ],
+          "sourceFile": "SpinningPowerslam.gac",
+          "cardId": "SpinningPowerslam"
+        },
+        {
+          "unid": 1088,
+          "sourceFiles": [
+            "SpinningPowerbomb.gac"
+          ],
+          "sourceFile": "SpinningPowerbomb.gac",
+          "cardId": "SpinningPowerbomb"
+        },
+        {
+          "unid": 1088,
+          "sourceFiles": [
+            "SpinningPowerbomb.gac"
+          ],
+          "sourceFile": "SpinningPowerbomb.gac",
+          "cardId": "SpinningPowerbomb"
+        },
+        {
+          "unid": 1088,
+          "sourceFiles": [
+            "SpinningPowerbomb.gac"
+          ],
+          "sourceFile": "SpinningPowerbomb.gac",
+          "cardId": "SpinningPowerbomb"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1140,
+          "sourceFiles": [
+            "DoubleBackBreaker.gac"
+          ],
+          "sourceFile": "DoubleBackBreaker.gac",
+          "cardId": "DoubleBackBreaker"
+        },
+        {
+          "unid": 1140,
+          "sourceFiles": [
+            "DoubleBackBreaker.gac"
+          ],
+          "sourceFile": "DoubleBackBreaker.gac",
+          "cardId": "DoubleBackBreaker"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 393,
+          "sourceFiles": [
+            "AheadOfTheGame.gac"
+          ],
+          "sourceFile": "AheadOfTheGame.gac",
+          "cardId": "AheadOfTheGameV095"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        }
+      ],
+      "fixedOpeningHand": [
+        "OriginalMomentumStrength",
+        "OriginalMomentumStrike",
+        "EyeRake2E",
+        "Original_PokeInTheEye",
+        "DoubleBackBreaker"
+      ],
+      "starterType": "official-product-build",
+      "authenticStarter": false,
+      "sourceProduct": "SummerSlam 2002",
+      "reconstructionBasis": "brock-f5-optimized",
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
+    },
+    {
+      "id": "OfficialProduct-ShawnMichaels-SummerSlam2002",
+      "title": "Shawn Michaels \u2014 Official Product Build",
+      "description": "Historically grounded playbook built from the recovered SummerSlam 2002 product cards and the authentic generic card pool. This is not a recovered original starter deck.",
+      "sourceFile": "SummerSlam2002.gap",
+      "count": 67,
+      "entries": [
+        {
+          "unid": 1090,
+          "sourceFiles": [
+            "ShawnMichaels.gac"
+          ],
+          "sourceFile": "ShawnMichaels.gac",
+          "cardId": "OriginalSuperstar_ShawnMichaels"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 940,
+          "sourceFiles": [
+            "EyeRake2E.gac"
+          ],
+          "sourceFile": "EyeRake2E.gac",
+          "cardId": "EyeRake2E"
+        },
+        {
+          "unid": 132,
+          "sourceFiles": [
+            "PokeInTheEye.gac"
+          ],
+          "sourceFile": "PokeInTheEye.gac",
+          "cardId": "Original_PokeInTheEye"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 1097,
+          "sourceFiles": [
+            "SweetChinMusic.gac"
+          ],
+          "sourceFile": "SweetChinMusic.gac",
+          "cardId": "SweetChinMusic"
+        },
+        {
+          "unid": 1097,
+          "sourceFiles": [
+            "SweetChinMusic.gac"
+          ],
+          "sourceFile": "SweetChinMusic.gac",
+          "cardId": "SweetChinMusic"
+        },
+        {
+          "unid": 1097,
+          "sourceFiles": [
+            "SweetChinMusic.gac"
+          ],
+          "sourceFile": "SweetChinMusic.gac",
+          "cardId": "SweetChinMusic"
+        },
+        {
+          "unid": 1097,
+          "sourceFiles": [
+            "SweetChinMusic.gac"
+          ],
+          "sourceFile": "SweetChinMusic.gac",
+          "cardId": "SweetChinMusic"
+        },
+        {
+          "unid": 1097,
+          "sourceFiles": [
+            "SweetChinMusic.gac"
+          ],
+          "sourceFile": "SweetChinMusic.gac",
+          "cardId": "SweetChinMusic"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 393,
+          "sourceFiles": [
+            "AheadOfTheGame.gac"
+          ],
+          "sourceFile": "AheadOfTheGame.gac",
+          "cardId": "AheadOfTheGameV095"
+        },
+        {
+          "unid": 393,
+          "sourceFiles": [
+            "AheadOfTheGame.gac"
+          ],
+          "sourceFile": "AheadOfTheGame.gac",
+          "cardId": "AheadOfTheGameV095"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        },
+        {
+          "unid": 155,
+          "sourceFiles": [
+            "CatchHimStunned.gac"
+          ],
+          "sourceFile": "CatchHimStunned.gac",
+          "cardId": "CatchHimStunnedV095"
+        },
+        {
+          "unid": 408,
+          "sourceFiles": [
+            "StephanieMcMahonHelmsley.gac"
+          ],
+          "sourceFile": "StephanieMcMahonHelmsley.gac",
+          "cardId": "Original_StephanieMcMahonHelmsley_Core"
+        },
+        {
+          "unid": 770,
+          "sourceFiles": [
+            "AlwaysThinking2E.gac"
+          ],
+          "sourceFile": "AlwaysThinking2E.gac",
+          "cardId": "AlwaysThinking2EV095"
+        },
+        {
+          "unid": 615,
+          "sourceFiles": [
+            "ThrowOffTheStage.gac"
+          ],
+          "sourceFile": "ThrowOffTheStage.gac",
+          "cardId": "ThrowOffTheStage"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        }
+      ],
+      "fixedOpeningHand": [
+        "OriginalMomentumStrike",
+        "OriginalMomentumStrength",
+        "EyeRake2E",
+        "Original_PokeInTheEye",
+        "Original_ElbowDropEX3"
+      ],
+      "starterType": "official-product-build",
+      "authenticStarter": false,
+      "sourceProduct": "SummerSlam 2002",
+      "reconstructionBasis": "hbk-sweet-chin-music-optimized",
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
+    },
+    {
+      "id": "OfficialProduct-ScottHall-WMX8",
+      "title": "Scott Hall \u2014 Official Product Build",
+      "description": "Historically grounded playbook built from the recovered WrestleMania X8 product cards and the authentic generic card pool. This is not a recovered original starter deck.",
+      "sourceFile": "1ofeachX8.gap",
+      "count": 67,
+      "entries": [
+        {
+          "unid": 516,
+          "sourceFiles": [
+            "ScottHall.gac"
+          ],
+          "sourceFile": "ScottHall.gac",
+          "cardId": "OriginalSuperstar_ScottHall"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 940,
+          "sourceFiles": [
+            "EyeRake2E.gac"
+          ],
+          "sourceFile": "EyeRake2E.gac",
+          "cardId": "EyeRake2E"
+        },
+        {
+          "unid": 132,
+          "sourceFiles": [
+            "PokeInTheEye.gac"
+          ],
+          "sourceFile": "PokeInTheEye.gac",
+          "cardId": "Original_PokeInTheEye"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 8,
+          "sourceFiles": [
+            "Strength1.gac"
+          ],
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 535,
+          "sourceFiles": [
+            "RazorsEdge.gac"
+          ],
+          "sourceFile": "RazorsEdge.gac",
+          "cardId": "RazorsEdge"
+        },
+        {
+          "unid": 535,
+          "sourceFiles": [
+            "RazorsEdge.gac"
+          ],
+          "sourceFile": "RazorsEdge.gac",
+          "cardId": "RazorsEdge"
+        },
+        {
+          "unid": 535,
+          "sourceFiles": [
+            "RazorsEdge.gac"
+          ],
+          "sourceFile": "RazorsEdge.gac",
+          "cardId": "RazorsEdge"
+        },
+        {
+          "unid": 535,
+          "sourceFiles": [
+            "RazorsEdge.gac"
+          ],
+          "sourceFile": "RazorsEdge.gac",
+          "cardId": "RazorsEdge"
+        },
+        {
+          "unid": 535,
+          "sourceFiles": [
+            "RazorsEdge.gac"
+          ],
+          "sourceFile": "RazorsEdge.gac",
+          "cardId": "RazorsEdge"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 124,
+          "sourceFiles": [
+            "Superplex.gac"
+          ],
+          "sourceFile": "Superplex.gac",
+          "cardId": "OriginalExact_Superplex"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 664,
+          "sourceFiles": [
+            "LadderShot.gac"
+          ],
+          "sourceFile": "LadderShot.gac",
+          "cardId": "LadderShot"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 94,
+          "sourceFiles": [
+            "ChokeSlam.gac"
+          ],
+          "sourceFile": "ChokeSlam.gac",
+          "cardId": "Original_ChokeSlam"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 668,
+          "sourceFiles": [
+            "PowerBombFromTheLadder.gac"
+          ],
+          "sourceFile": "PowerBombFromTheLadder.gac",
+          "cardId": "PowerBombFromTheLadder"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 1103,
+          "sourceFiles": [
+            "SuperplexEX3.gac"
+          ],
+          "sourceFile": "SuperplexEX3.gac",
+          "cardId": "Original_SuperplexEX3"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 717,
+          "sourceFiles": [
+            "LowBlowChairShot.gac"
+          ],
+          "sourceFile": "LowBlowChairShot.gac",
+          "cardId": "Original_LowBlowChairShot"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 1010,
+          "sourceFiles": [
+            "ElbowDropEX3.gac"
+          ],
+          "sourceFile": "ElbowDropEX3.gac",
+          "cardId": "Original_ElbowDropEX3"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 370,
+          "sourceFiles": [
+            "StrongClothesline.gac"
+          ],
+          "sourceFile": "StrongClothesline.gac",
+          "cardId": "StrongClothesline"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 914,
+          "sourceFiles": [
+            "IrishWhip2E.gac"
+          ],
+          "sourceFile": "IrishWhip2E.gac",
+          "cardId": "OriginalExact_IrishWhip2E"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 247,
+          "sourceFiles": [
+            "IrishWhip.gac"
+          ],
+          "sourceFile": "IrishWhip.gac",
+          "cardId": "OriginalExact_IrishWhip"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 43,
+          "sourceFiles": [
+            "SlowAndMethodical.gac"
+          ],
+          "sourceFile": "SlowAndMethodical.gac",
+          "cardId": "OriginalExact_SlowAndMethodical"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 929,
+          "sourceFiles": [
+            "WorkingStiff2E.gac"
+          ],
+          "sourceFile": "WorkingStiff2E.gac",
+          "cardId": "OriginalExact_WorkingStiff2E"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 605,
+          "sourceFiles": [
+            "StacyKiebler.gac"
+          ],
+          "sourceFile": "StacyKiebler.gac",
+          "cardId": "OriginalExact_StacyKiebler"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 159,
+          "sourceFiles": [
+            "TakeABreather.gac"
+          ],
+          "sourceFile": "TakeABreather.gac",
+          "cardId": "OriginalExact_TakeABreather"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 825,
+          "sourceFiles": [
+            "GotAllOfIt2E.gac"
+          ],
+          "sourceFile": "GotAllOfIt2E.gac",
+          "cardId": "OriginalExact_GotAllOfIt2E"
+        },
+        {
+          "unid": 393,
+          "sourceFiles": [
+            "AheadOfTheGame.gac"
+          ],
+          "sourceFile": "AheadOfTheGame.gac",
+          "cardId": "AheadOfTheGameV095"
+        },
+        {
+          "unid": 393,
+          "sourceFiles": [
+            "AheadOfTheGame.gac"
+          ],
+          "sourceFile": "AheadOfTheGame.gac",
+          "cardId": "AheadOfTheGameV095"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        },
+        {
+          "unid": 769,
+          "sourceFiles": [
+            "AheadOfTheGame2E.gac"
+          ],
+          "sourceFile": "AheadOfTheGame2E.gac",
+          "cardId": "Original_AheadOfTheGame2E"
+        },
+        {
+          "unid": 770,
+          "sourceFiles": [
+            "AlwaysThinking2E.gac"
+          ],
+          "sourceFile": "AlwaysThinking2E.gac",
+          "cardId": "AlwaysThinking2EV095"
+        },
+        {
+          "unid": 155,
+          "sourceFiles": [
+            "CatchHimStunned.gac"
+          ],
+          "sourceFile": "CatchHimStunned.gac",
+          "cardId": "CatchHimStunnedV095"
+        },
+        {
+          "unid": 408,
+          "sourceFiles": [
+            "StephanieMcMahonHelmsley.gac"
+          ],
+          "sourceFile": "StephanieMcMahonHelmsley.gac",
+          "cardId": "Original_StephanieMcMahonHelmsley_Core"
+        },
+        {
+          "unid": 615,
+          "sourceFiles": [
+            "ThrowOffTheStage.gac"
+          ],
+          "sourceFile": "ThrowOffTheStage.gac",
+          "cardId": "ThrowOffTheStage"
+        },
+        {
+          "unid": 1075,
+          "sourceFiles": [
+            "GuitarShot.gac"
+          ],
+          "sourceFile": "GuitarShot.gac",
+          "cardId": "GuitarShot"
+        }
+      ],
+      "fixedOpeningHand": [
+        "OriginalMomentumStrength",
+        "OriginalMomentumStrike",
+        "EyeRake2E",
+        "Original_PokeInTheEye",
+        "Original_ElbowDropEX3"
+      ],
+      "starterType": "official-product-build",
+      "authenticStarter": false,
+      "sourceProduct": "WrestleMania X8",
+      "reconstructionBasis": "scotthall-razors-edge-optimized",
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
     }
   ],
   "mappingAuthority": "Data/CardList.gal numeric object IDs",
   "resolvedEntries": 4908,
-  "unresolvedEntries": 0
+  "unresolvedEntries": 0,
+  "authenticRecoveredCount": 67,
+  "officialProductBuildCount": 3,
+  "unresolvedStarterPackages": [
+    "Starter-ReyMysterioLE.gap",
+    "Shane McMahon starter package"
+  ]
 }

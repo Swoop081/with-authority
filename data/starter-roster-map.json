@@ -33,5 +33,10 @@
   "test": "Starter-Test",
   "hurricane": "Starter-TheHurricaneLE",
   "regal": "Starter-WilliamRegal3",
-  "xpac": "Starter-XPac"
+  "xpac": "Starter-XPac",
+  "brock": "OfficialProduct-Brock-SummerSlam2002",
+  "hbk": "OfficialProduct-ShawnMichaels-SummerSlam2002",
+  "scotthall": "OfficialProduct-ScottHall-WMX8",
+  "alsnow": "BonusSnow",
+  "blackman": "BonusBlackman"
 }

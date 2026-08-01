@@ -1,0 +1,41 @@
+{
+  "version": "v0.9.76",
+  "corrected": [
+    {
+      "superstar": "austin",
+      "type": "Agility",
+      "newMaximum": 4,
+      "starter": "Starter-StoneCold"
+    },
+    {
+      "superstar": "angle",
+      "type": "Agility",
+      "newMaximum": 4,
+      "starter": "Starter-KurtAngle"
+    },
+    {
+      "superstar": "bigshow",
+      "type": "Agility",
+      "newMaximum": 4,
+      "starter": "Starter-TheBigShow"
+    },
+    {
+      "superstar": "bigshow",
+      "type": "Technical",
+      "newMaximum": 4,
+      "starter": "Starter-TheBigShow"
+    },
+    {
+      "superstar": "jeffhardy",
+      "type": "Knowledge",
+      "newMaximum": 4,
+      "starter": "Starter-JeffHardy"
+    },
+    {
+      "superstar": "rikishi",
+      "type": "Agility",
+      "newMaximum": 4,
+      "starter": "RikishiPhatuStarter"
+    }
+  ]
+}
