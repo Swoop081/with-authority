@@ -295,3 +295,47 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
   .ringSideControl .turnBadge{font-size:7px;padding:4px 5px}
   .ringSideControl .matchGear{width:31px;height:31px;min-height:31px;font-size:18px}
 }
+
+/* v0.9.83 match HUD alignment and crowd-backed play pile */
+.crowdStage{min-height:128px}
+.crowdStage .status{display:flex;align-items:stretch;padding:3px 5px;gap:0;overflow:hidden}
+.originalHud{position:relative;width:50%;height:120px;display:grid;grid-template-columns:88px minmax(0,1fr);align-items:end;gap:4px;padding-top:20px;min-width:0}
+.originalHud.right{grid-template-columns:minmax(0,1fr) 88px}
+.originalHud .wrestlerHead{grid-column:1;grid-row:1;width:88px;height:100px;align-self:end;justify-self:start;object-fit:cover;object-position:center top}
+.originalHud.right .wrestlerHead{grid-column:2;grid-row:1;justify-self:end;object-position:center top}
+.originalHud .hudText{grid-column:2;grid-row:1;align-self:end;justify-self:end;width:max-content;max-width:100%;text-align:left;padding-bottom:2px}
+.originalHud.right .hudText{grid-column:1;grid-row:1;justify-self:start;text-align:right}
+.originalHud .name{position:absolute;top:1px;left:0;right:auto;width:calc(200% - 8px);margin:0;font-size:11px;line-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;z-index:3}
+.originalHud.right .name{left:auto;right:0;text-align:right}
+.originalHud .hpLine{justify-content:flex-start}
+.originalHud.right .hpLine{justify-content:flex-end}
+.originalHud .momentumIcons{display:grid;grid-template-columns:repeat(2,31px);grid-auto-rows:18px;justify-content:end;gap:2px;margin:2px 0}
+.originalHud.right .momentumIcons{justify-content:start}
+.originalHud .momIcon{width:31px;min-width:31px;height:18px;padding:1px;gap:1px}
+.originalHud .momIcon img{width:14px;height:14px}
+.originalHud .momIcon b{font-size:9px;min-width:11px}
+.originalHud .limbDamage{justify-content:flex-end}
+.originalHud.right .limbDamage{justify-content:flex-start}
+.originalRing{position:relative;display:block;min-height:250px;overflow:hidden;background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,.36)),url('assets/gai/crowd.webp') center/cover no-repeat,#101010}
+.originalRing::before{content:"";position:absolute;inset:8px;background:url('assets/gai/ring.webp') center/contain no-repeat;opacity:.92;pointer-events:none;z-index:1}
+.originalRing .pile{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:132px;z-index:3;margin:0}
+.ringSideControl{position:absolute;top:0;bottom:auto;width:auto;height:auto;z-index:5;padding:8px;display:flex;align-items:flex-start}
+.ringSideControl.left{left:0;justify-content:flex-start}
+.ringSideControl.right{right:0;justify-content:flex-end}
+.ringSideControl .turnBadge{position:static;transform:none;margin:0}
+.ringSideControl .matchGear{position:static;margin:0;width:34px;height:34px;min-height:34px}
+@media(max-width:430px){
+  .crowdStage{min-height:122px}
+  .originalHud{height:116px;grid-template-columns:82px minmax(0,1fr);padding-top:19px;gap:2px}
+  .originalHud.right{grid-template-columns:minmax(0,1fr) 82px}
+  .originalHud .wrestlerHead{width:82px;height:97px}
+  .originalHud .name{font-size:10px;line-height:17px;width:calc(200% - 6px)}
+  .originalHud .hpLine b{font-size:18px}
+  .originalHud .hpLine span{font-size:9px}
+  .originalHud .momentumIcons{grid-template-columns:repeat(2,29px);grid-auto-rows:17px}
+  .originalHud .momIcon{width:29px;min-width:29px;height:17px}
+  .originalHud .momIcon img{width:13px;height:13px}
+  .originalRing .pile{width:126px}
+  .ringSideControl{padding:7px}
+  .ringSideControl .matchGear{width:31px;height:31px;min-height:31px}
+}
