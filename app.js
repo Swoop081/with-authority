@@ -1,8 +1,16 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.93',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.94',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
+
+// Canonical runtime card lookup. Several deck/recommendation screens and the
+// startup recommendation builder depend on this helper being available before
+// data loading completes.
+function cardById(id){
+  const key=String(id??'');
+  return cards.find(card=>String(card.id)===key)||null;
+}
 
 const AUDIO={unlocked:false,music:null,crowd:null};
 const ENTRANCE_AUDIO={austin:'StoneColdMusic',rock:'TheRock2EMusic',tripleh:'TripleH2EMusic',undertaker:'TheUndertaker2EMusic',kane:'Kane',angle:'KurtAngle',jericho:'ChrisJericho2EMusic',benoit:'ChrisBenoit',bigshow:'TheBigShowMusic',bookert:'BookerTMusic',edge:'EdgeMusic',christian:'ChristianMusic',eddie:'EddieGuerreroMusic',rvd:'SomethingsComing',flair:'Whoo',hogan:'HollywoodHulkHogan2EMusic',nash:'NewWorldOrderMusic',jeffhardy:'HardyzMusic',matthardy:'HardyzMusic',lita:'LitaMusic',trish:'TrishStratusMusic',bubba:'DudleyzMusic',dvon:'DudleyzMusic',spike:'SpikeDudleyMusic',bradshaw:'BradshawMusic',goldust:'GoldustMusic',lancestorm:'LanceStormMusic',rikishi:'Rikishi',scotty:'Scotty2HottyMusic',tajiri:'TajiriMusic',tazz:'Tazz',test:'TestMusic',hurricane:'TheHurricaneMusic'};
