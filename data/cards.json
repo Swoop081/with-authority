@@ -210,7 +210,13 @@
     "variantEdition": "Core",
     "variantGroup": "stomp a mudhole",
     "variantKey": "321fa27789b0",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/Mudhole.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "KnowYourRole",
@@ -230,7 +236,13 @@
     "variantEdition": "Core",
     "variantGroup": "know your role",
     "variantKey": "1f6613badd54",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/KnowYourRole.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "AustinTrademark",
@@ -252,7 +264,13 @@
     "variantEdition": "Core",
     "variantGroup": "stone cold stunner",
     "variantKey": "5af068aefd64",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/AustinTrademark.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "RockTrademark",
@@ -274,7 +292,13 @@
     "variantEdition": "Core",
     "variantGroup": "rock bottom",
     "variantKey": "f229115db91c",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/RockTrademark.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "DropKick2E",
@@ -295,7 +319,13 @@
     "variantEdition": "Core",
     "variantGroup": "drop kick",
     "variantKey": "1f8005009e70",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/DropKick2E.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "BodySlamEX3",
@@ -315,7 +345,13 @@
     "variantEdition": "Core",
     "variantGroup": "body slam",
     "variantKey": "54046bfcec55",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/BodySlamEX3.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "BackElbowEX1",
@@ -335,7 +371,13 @@
     "variantEdition": "Core",
     "variantGroup": "back elbow",
     "variantKey": "d5192a749f0e",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/BackElbowEX1.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "RussianLegSweep",
@@ -356,7 +398,13 @@
     "variantEdition": "Core",
     "variantGroup": "russian leg sweep",
     "variantKey": "6796b56201ea",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/RussianLegSweep.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "Jawbreaker",
@@ -376,7 +424,13 @@
     "variantEdition": "Core",
     "variantGroup": "jawbreaker",
     "variantKey": "5762b4b142b7",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/Jawbreaker.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "KneeLiftEX1",
@@ -396,7 +450,13 @@
     "variantEdition": "Core",
     "variantGroup": "knee lift",
     "variantKey": "108ba5e41919",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/KneeLiftEX1.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "Neckbreaker2E",
@@ -414,7 +474,13 @@
     "variantEdition": "Core",
     "variantGroup": "neckbreaker",
     "variantKey": "2e6b5513bd5c",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/Neckbreaker2E.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "VerticalSuplex2E",
@@ -434,7 +500,13 @@
     "variantEdition": "Core",
     "variantGroup": "vertical suplex",
     "variantKey": "67e6bf567c45",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/VerticalSuplex2E.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "DDTEX1",
@@ -454,7 +526,13 @@
     "variantEdition": "Core",
     "variantGroup": "ddt",
     "variantKey": "86d5a3a18976",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/DDTEX1.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "DragonSleeper",
@@ -473,7 +551,13 @@
     "variantEdition": "Core",
     "variantGroup": "dragon sleeper",
     "variantKey": "17e34cb2a43d",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/DragonSleeper.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "BostonCrab",
@@ -492,7 +576,13 @@
     "variantEdition": "Core",
     "variantGroup": "boston crab",
     "variantKey": "252871e3de78",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/BostonCrab.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "Clothesline",
@@ -510,7 +600,13 @@
     "variantEdition": "Core",
     "variantGroup": "clothesline",
     "variantKey": "04215b256fea",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/Clothesline.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "ElbowDrop",
@@ -528,7 +624,13 @@
     "variantEdition": "Core",
     "variantGroup": "elbow drop",
     "variantKey": "d3db36b2c2dd",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/ElbowDrop.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "ShortArm",
@@ -546,7 +648,13 @@
     "variantEdition": "Core",
     "variantGroup": "short arm clothesline",
     "variantKey": "27d553b459b3",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/ShortArm.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "IrishWhip",
@@ -564,7 +672,13 @@
     "variantEdition": "Core",
     "variantGroup": "irish whip",
     "variantKey": "b90360f2ac58",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/IrishWhip.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "GutKick",
@@ -582,7 +696,13 @@
     "variantEdition": "Core",
     "variantGroup": "gut kick",
     "variantKey": "24bb0eb5866f",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/GutKick.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "CollarElbow",
@@ -600,7 +720,13 @@
     "variantEdition": "Core",
     "variantGroup": "collar and elbow tie up",
     "variantKey": "223e0abc022a",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/CollarElbow.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "LouThesz",
@@ -619,7 +745,13 @@
     "variantEdition": "Core",
     "variantGroup": "lou thesz press",
     "variantKey": "651354a34972",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/LouThesz.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "Spinebuster",
@@ -640,7 +772,13 @@
     "variantEdition": "Core",
     "variantGroup": "spinebuster",
     "variantKey": "37e04792e95b",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/Spinebuster.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "PeoplesElbow",
@@ -659,7 +797,13 @@
     "variantEdition": "Core",
     "variantGroup": "people s elbow",
     "variantKey": "567046222441",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/PeoplesElbow.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "FloatoverDDT",
@@ -6163,12 +6307,18 @@
     "variantEdition": "Core",
     "variantGroup": "bionic redneck",
     "variantKey": "811a12f7f15e",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/austinGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "rockGameplan",
-    "name": "People\u2019s Champion",
-    "description": "Gameplan: activate People\u2019s Champion to strengthen the next attack.",
+    "name": "People’s Champion",
+    "description": "Gameplan: activate People’s Champion to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "rock",
     "damage": 0,
@@ -6183,7 +6333,13 @@
     "variantEdition": "Core",
     "variantGroup": "people s champion",
     "variantKey": "2373b4b30a1f",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/rockGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "triplehFinisher",
@@ -6206,7 +6362,13 @@
     "variantEdition": "Core",
     "variantGroup": "pedigree",
     "variantKey": "77b7ce082d14",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/triplehFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "triplehGameplan",
@@ -6226,7 +6388,13 @@
     "variantEdition": "Core",
     "variantGroup": "cerebral assassin",
     "variantKey": "4f1e4fb5ecb9",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/triplehGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "angleFinisher",
@@ -6249,7 +6417,13 @@
     "variantEdition": "Core",
     "variantGroup": "angle slam",
     "variantKey": "98ee7dcf6b44",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/angleFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "angleGameplan",
@@ -6269,7 +6443,13 @@
     "variantEdition": "Core",
     "variantGroup": "olympic hero",
     "variantKey": "868211e8ca8a",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/angleGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "jerichoFinisher",
@@ -6292,12 +6472,18 @@
     "variantEdition": "Core",
     "variantGroup": "lionsault",
     "variantKey": "1f4757a7e520",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/jerichoFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "jerichoGameplan",
-    "name": "Ayatollah of Rock \u2018n\u2019 Rolla",
-    "description": "Gameplan: activate Ayatollah of Rock \u2018n\u2019 Rolla to strengthen the next attack.",
+    "name": "Ayatollah of Rock ‘n’ Rolla",
+    "description": "Gameplan: activate Ayatollah of Rock ‘n’ Rolla to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "jericho",
     "damage": 0,
@@ -6312,7 +6498,13 @@
     "variantEdition": "Core",
     "variantGroup": "ayatollah of rock n rolla",
     "variantKey": "9bc0a74c523c",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/jerichoGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "undertakerFinisher",
@@ -6335,7 +6527,13 @@
     "variantEdition": "Core",
     "variantGroup": "tombstone piledriver",
     "variantKey": "f3e86fdec61f",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/undertakerFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "undertakerGameplan",
@@ -6355,7 +6553,13 @@
     "variantEdition": "Core",
     "variantGroup": "deadman rising",
     "variantKey": "a282bf39b55e",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/undertakerGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "kaneFinisher",
@@ -6378,7 +6582,13 @@
     "variantEdition": "Core",
     "variantGroup": "chokeslam from hell",
     "variantKey": "093e5e9c78cd",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/kaneFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "kaneGameplan",
@@ -6398,7 +6608,13 @@
     "variantEdition": "Core",
     "variantGroup": "big red machine",
     "variantKey": "8a91a0ae4483",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/kaneGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "bigshowFinisher",
@@ -6421,12 +6637,18 @@
     "variantEdition": "Core",
     "variantGroup": "showstopper",
     "variantKey": "18c6cca029a8",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/bigshowFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "bigshowGameplan",
-    "name": "World\u2019s Largest Athlete",
-    "description": "Gameplan: activate World\u2019s Largest Athlete to strengthen the next attack.",
+    "name": "World’s Largest Athlete",
+    "description": "Gameplan: activate World’s Largest Athlete to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "bigshow",
     "damage": 0,
@@ -6441,7 +6663,13 @@
     "variantEdition": "Core",
     "variantGroup": "world s largest athlete",
     "variantKey": "7fee1c6ef3c2",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/bigshowGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "spikeFinisher",
@@ -6464,7 +6692,13 @@
     "variantEdition": "Core",
     "variantGroup": "dudley dog",
     "variantKey": "fd4bf7b3a729",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/spikeFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "spikeGameplan",
@@ -6484,7 +6718,13 @@
     "variantEdition": "Core",
     "variantGroup": "150 pounds of toughness",
     "variantKey": "77e85f0fc3f7",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/spikeGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "hoganFinisher",
@@ -6507,7 +6747,13 @@
     "variantEdition": "Core",
     "variantGroup": "atomic leg drop",
     "variantKey": "11a37827ca1e",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/hoganFinisher.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "hoganGameplan",
@@ -6527,7 +6773,13 @@
     "variantEdition": "Core",
     "variantGroup": "24 inch pythons",
     "variantKey": "9817096bc992",
-    "certificationStatus": "individual_verification_required"
+    "certificationStatus": "individual_verification_required",
+    "sourceFile": "runtime-generated/hoganGameplan.json",
+    "originalSource": "mobile_runtime_compatibility_layer",
+    "sourceExact": false,
+    "effectStatus": "runtime_model_verified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": false
   },
   {
     "id": "AggressiveStrength",
@@ -13226,7 +13478,10 @@
     "originalRarityId": 4,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "24InchPythonsV095",
@@ -13257,7 +13512,10 @@
     "originalRarityId": 3,
     "originalSet": "WrestleMania X8",
     "originalSetKey": "X8",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "24InchPythons2EV095",
@@ -13288,7 +13546,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "24KaretProductionV095",
@@ -13319,7 +13580,10 @@
     "originalRarityId": 4,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AchillesHeel2EV095",
@@ -13350,7 +13614,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AdvantageKnowledgeV095",
@@ -13381,7 +13648,10 @@
     "originalRarityId": 2,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AdvantageStrengthV095",
@@ -13412,7 +13682,10 @@
     "originalRarityId": 3,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AdvantageStrikeV095",
@@ -13443,7 +13716,10 @@
     "originalRarityId": 3,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AdvantageTechnicalV095",
@@ -13474,7 +13750,10 @@
     "originalRarityId": 3,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AheadOfTheGameV095",
@@ -13505,7 +13784,10 @@
     "originalRarityId": 2,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AlwaysThinkingV095",
@@ -13536,7 +13818,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AlwaysThinking2EV095",
@@ -13567,7 +13852,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "AmbushV095",
@@ -13598,7 +13886,10 @@
     "originalRarityId": 4,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BackItUpV095",
@@ -13629,7 +13920,10 @@
     "originalRarityId": 4,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BackUpPlanV095",
@@ -13660,7 +13954,10 @@
     "originalRarityId": 4,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BarbedWireTwoByFourV095",
@@ -13691,7 +13988,10 @@
     "originalRarityId": 3,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigandNastyV095",
@@ -13722,7 +14022,10 @@
     "originalRarityId": 6,
     "originalSet": "Limited Edition",
     "originalSetKey": "LE",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigAndNasty2EV095",
@@ -13753,7 +14056,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigandNastyEX1V095",
@@ -13784,7 +14090,10 @@
     "originalRarityId": 3,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigDogInTheYardV095",
@@ -13815,7 +14124,10 @@
     "originalRarityId": 6,
     "originalSet": "Limited Edition",
     "originalSetKey": "LE",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigDogInTheYard2EV095",
@@ -13846,7 +14158,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BigDogInTheYardEX1V095",
@@ -13877,7 +14192,10 @@
     "originalRarityId": 3,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BoringV095",
@@ -13908,7 +14226,10 @@
     "originalRarityId": 1,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BounceOffTheRopesV095",
@@ -13939,7 +14260,10 @@
     "originalRarityId": 1,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BounceOffTheRopes2EV095",
@@ -13970,7 +14294,10 @@
     "originalRarityId": 1,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BreakV095",
@@ -14001,7 +14328,10 @@
     "originalRarityId": 1,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "Break2EV095",
@@ -14032,7 +14362,10 @@
     "originalRarityId": 1,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BreakEX2V095",
@@ -14063,7 +14396,10 @@
     "originalRarityId": 1,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BubbaRayV095",
@@ -14094,7 +14430,10 @@
     "originalRarityId": 3,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BubbaToughV095",
@@ -14125,7 +14464,10 @@
     "originalRarityId": 3,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BuildingMomentumV095",
@@ -14156,7 +14498,10 @@
     "originalRarityId": 1,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BustedOpenV095",
@@ -14187,7 +14532,10 @@
     "originalRarityId": 2,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "BustedOpen2EV095",
@@ -14218,7 +14566,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "CatchHimStunnedV095",
@@ -14249,7 +14600,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "CatchHimStunned2EV095",
@@ -14280,7 +14634,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "ComeOnBabyV095",
@@ -14311,7 +14668,10 @@
     "originalRarityId": 3,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "CrimsonMaskV095",
@@ -14342,7 +14702,10 @@
     "originalRarityId": 2,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DisadvantageV095",
@@ -14373,7 +14736,10 @@
     "originalRarityId": 1,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "Disadvantage2EV095",
@@ -14404,7 +14770,10 @@
     "originalRarityId": 1,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DistractTheReferee2EV095",
@@ -14473,7 +14842,10 @@
     "originalRarityId": 2,
     "originalSet": "Tournament",
     "originalSetKey": "TOURN",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DontMessWithTexasV095",
@@ -14504,7 +14876,10 @@
     "originalRarityId": 3,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DrawFromTheFansV095",
@@ -14535,7 +14910,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DVonV095",
@@ -14566,7 +14944,10 @@
     "originalRarityId": 6,
     "originalSet": "Limited Edition",
     "originalSetKey": "LE",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DVonEX2V095",
@@ -14597,7 +14978,10 @@
     "originalRarityId": 3,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "EvenThingsUpV095",
@@ -14628,7 +15012,10 @@
     "originalRarityId": 2,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "EverythingHurtsV095",
@@ -14659,7 +15046,10 @@
     "originalRarityId": 3,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "EverythingHurts2EV095",
@@ -14690,7 +15080,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "FlairFlopV095",
@@ -14721,7 +15114,10 @@
     "originalRarityId": 4,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "GarbageCanV095",
@@ -14752,7 +15148,10 @@
     "originalRarityId": 5,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Fixed Resource"
+    "originalRarity": "Fixed Resource",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "GetAShoulderUpV095",
@@ -14783,7 +15182,10 @@
     "originalRarityId": 2,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "GetIllegalLeverageV095",
@@ -14814,7 +15216,10 @@
     "originalRarityId": 2,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "GoingUpTopV095",
@@ -14845,7 +15250,10 @@
     "originalRarityId": 2,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "GrabRopesForLeverage2EV095",
@@ -14876,7 +15284,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HardcoreEX3V095",
@@ -14907,7 +15318,10 @@
     "originalRarityId": 1,
     "originalSet": "Unforgiven",
     "originalSetKey": "EX3",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HellfireAndBrimstoneV095",
@@ -14938,7 +15352,10 @@
     "originalRarityId": 4,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HelloV095",
@@ -14969,7 +15386,10 @@
     "originalRarityId": 6,
     "originalSet": "Special Release",
     "originalSetKey": "SPECIAL",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HelloNWOV095",
@@ -15000,7 +15420,10 @@
     "originalRarityId": 3,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HeSawThatComingV095",
@@ -15031,7 +15454,10 @@
     "originalRarityId": 3,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HeSawThatComing2EV095",
@@ -15062,7 +15488,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HeyRefThatWasThreeV095",
@@ -15093,7 +15522,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HighImpactMoveV095",
@@ -15124,7 +15556,10 @@
     "originalRarityId": 2,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HighSpotV095",
@@ -15155,7 +15590,10 @@
     "originalRarityId": 3,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HighSpot2EV095",
@@ -15186,7 +15624,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HookTheLegV095",
@@ -15217,7 +15658,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HookTheLeg2EV095",
@@ -15248,7 +15692,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HookTheLegEX2V095",
@@ -15279,7 +15726,10 @@
     "originalRarityId": 1,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HookTheLegX8V095",
@@ -15310,7 +15760,10 @@
     "originalRarityId": 1,
     "originalSet": "WrestleMania X8",
     "originalSetKey": "X8",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HulkUpV095",
@@ -15341,7 +15794,10 @@
     "originalRarityId": 4,
     "originalSet": "WrestleMania X8",
     "originalSetKey": "X8",
-    "originalRarity": "Very Rare"
+    "originalRarity": "Very Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "IGotYourBack2EV095",
@@ -15372,7 +15828,10 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "IllegalLeverageV095",
@@ -15403,7 +15862,10 @@
     "originalRarityId": 5,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Fixed Resource"
+    "originalRarity": "Fixed Resource",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "ImprovV095",
@@ -15434,7 +15896,10 @@
     "originalRarityId": 3,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "Original_2ndRopeLegDrop2E",
@@ -23273,7 +23738,10 @@
     "originalRarityId": 2,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "WillToWin",
@@ -23300,7 +23768,10 @@
     "originalRarityId": 1,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "Bradshaw",
@@ -23414,7 +23885,10 @@
     "originalRarityId": 6,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "DDT2E",
@@ -23442,13 +23916,16 @@
     "originalRarityId": 1,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HighKnee2E",
     "sourceFile": "HighKnee2E.gac",
     "name": "High Knee",
-    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move can\u0092t be countered by Strength moves.",
+    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move cant be countered by Strength moves.",
     "cardClass": "Move",
     "damage": 6,
     "momentumCost": 6,
@@ -23472,7 +23949,10 @@
     "originalRarityId": 3,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "RussianLegSweep",
@@ -23630,7 +24110,10 @@
     "originalRarityId": 2,
     "originalSet": "TLC",
     "originalSetKey": "EX2",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92",
+    "verifiedOriginal": true
   },
   {
     "id": "HesCallingForIt",
@@ -23693,7 +24176,9 @@
     "originalRarityId": 1,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Common"
+    "originalRarity": "Common",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92"
   },
   {
     "id": "SpinningHeelKickCore",
@@ -23805,7 +24290,9 @@
     "originalRarityId": 2,
     "originalSet": "Second Edition",
     "originalSetKey": "2E",
-    "originalRarity": "Uncommon"
+    "originalRarity": "Uncommon",
+    "effectStatus": "source_preserved_classified",
+    "certifiedVersion": "v0.9.92"
   },
   {
     "id": "OriginalExact_RikishiPhatu",

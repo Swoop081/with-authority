@@ -375,3 +375,31 @@ body{background:#020202 url('assets/gai/card-back-page.webp') center/240px 320px
 
 /* v0.9.86 play-pile flip and counter-only ditch */
 .pile[role=button]{cursor:pointer;perspective:900px}.pileBack{position:absolute;inset:0;padding:9px;display:flex;flex-direction:column;justify-content:flex-start;gap:6px;background:linear-gradient(#d8d8d8,#777);color:#080808;overflow:auto;text-align:left;z-index:4}.pileBack b{text-align:center;font-size:14px}.pileBack p{font-size:11px;line-height:1.3;margin:0;flex:1}.pileBack small{font-size:9px;font-weight:800}.pileBack em,.pileFlipHint{font-size:9px;font-style:normal;opacity:.8;text-align:center}.pileStats{display:flex;justify-content:space-between;font-size:10px;font-weight:900}.pileFlipHint{position:relative;z-index:2;color:#fff}.pile.flipped .pileArt{display:none}
+
+/* v0.9.90 original-style menu consolidation */
+.originalHome{background:radial-gradient(circle at 50% 8%,rgba(117,0,0,.55),transparent 38%),linear-gradient(180deg,#161616,#020202 70%);min-height:100dvh}
+.originalMenuHeader{border:3px solid #8e8e8e;background:linear-gradient(180deg,#3c3c3c 0,#090909 47%,#370000 100%);box-shadow:inset 0 0 0 2px #000,0 7px 22px #000}
+.waMenuShell{width:min(760px,100%);margin:0 auto;display:grid;gap:12px}
+.waMenuGroup{border:2px solid #777;background:linear-gradient(180deg,#292929,#080808 35%,#130000);box-shadow:inset 0 0 0 2px #000,0 6px 18px #000;padding:8px}
+.waMenuGroup h2{margin:-2px -2px 8px;padding:7px 10px;background:linear-gradient(90deg,#660000,#b41919 50%,#660000);border:1px solid #d1d1d1;color:#fff;font-size:.78rem;letter-spacing:.12em;text-align:center;text-shadow:0 2px #000}
+.waMenuGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.waMenuGrid button{min-height:45px;border-radius:0;border:2px solid #aaa;box-shadow:inset 0 0 0 2px #111;background:linear-gradient(#3b3b3b,#111);font-size:.76rem;letter-spacing:.04em}
+.waMenuGrid button.primary{background:linear-gradient(#c32424,#680000)}
+.waMenuGrid .menuHero{grid-column:1/-1;min-height:56px;font-size:1rem}
+.developerEntry{opacity:.82}
+.waInfoPanel{width:min(620px,100%);margin:18px auto;padding:18px;background:linear-gradient(#262626,#080808);border:2px solid #888;box-shadow:inset 0 0 0 2px #000;text-align:center}
+.waInfoPanel p{line-height:1.45}
+button:not(:disabled){cursor:pointer;touch-action:manipulation}
+button:focus-visible,input:focus-visible{outline:3px solid #ffd54a;outline-offset:2px}
+@media(max-width:520px){.waMenuGrid{grid-template-columns:1fr}.waMenuGrid .menuHero{grid-column:1}.waMenuGrid button{min-height:48px}.homeBrandPanel{margin-bottom:10px}}
+
+.certGrid{display:grid;gap:10px;margin:14px 0}.certCheck{border:2px solid #646464;background:linear-gradient(#242424,#111);padding:10px;border-radius:4px}.certCheck h3{font-size:.9rem;margin:0}.certCheck p{margin:7px 0 0;font-size:.8rem}.cert-pass{border-color:#4f8b59}.cert-warn{border-color:#b88b2c}.cert-fail{border-color:#a33}.certCheck .tag{font-size:.67rem}.muted{opacity:.72}
+/* v0.9.93 original UI, accessibility and AI deck presentation pass */
+.originalPanelScreen{background:radial-gradient(circle at 50% 0,#5a1717 0,#160606 28%,#050505 72%)}
+.aiRecommendationSection{display:grid;gap:10px;align-content:start}
+.aiRecommendationSection>h2{margin:0;padding:9px 12px;background:linear-gradient(#a11212,#510505);border:2px solid #b8b8b8;box-shadow:inset 0 0 0 2px #2d2d2d;font-size:1rem;letter-spacing:.06em}
+.aiDeckPanel{background:linear-gradient(180deg,#252525,#090909);border:2px solid #8c8c8c;border-radius:4px;padding:10px;box-shadow:inset 0 0 0 2px #111}
+.aiDeckHeader,.aiDeckActions{display:flex;align-items:center;justify-content:space-between;gap:8px}.aiDeckHeader h3{margin:5px 0 0;font-size:1rem}.waRibbon{display:inline-block;background:#970c0c;border:1px solid #d7d7d7;padding:3px 7px;font-size:.64rem;font-weight:900;letter-spacing:.08em}.deckCount{font-size:.72rem;font-weight:900;white-space:nowrap}.aiDeckFacts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:10px 0}.aiDeckFacts span{display:grid;background:#111;border:1px solid #555;padding:6px;font-size:.72rem;min-width:0}.aiDeckFacts b{font-size:.58rem;color:#d6b56f;letter-spacing:.07em;margin-bottom:3px}.aiDeckActions{justify-content:flex-end}.aiDeckActions button{min-height:38px}
+button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:38px}.search{min-height:44px}
+@media(max-width:430px){.screen{padding-left:max(8px,env(safe-area-inset-left));padding-right:max(8px,env(safe-area-inset-right))}.aiDeckFacts{grid-template-columns:1fr}.aiDeckHeader{align-items:flex-start}.aiDeckActions button{flex:1}.topbar b{font-size:.85rem}.deckChoiceGrid{gap:10px}}
+@media(orientation:landscape) and (max-height:500px){.screen{padding-top:max(5px,env(safe-area-inset-top))}.topbar{position:sticky;top:0;z-index:20}.entityPortrait{max-height:38vh}}

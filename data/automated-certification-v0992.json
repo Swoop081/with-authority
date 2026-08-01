@@ -1,0 +1,212 @@
+{
+  "version": "v0.9.92",
+  "baseline": "v0.9.91",
+  "generated": "2026-08-02",
+  "scope": {
+    "cards": 914,
+    "baseSuperstars": 42,
+    "starters": 70,
+    "unlockedRecommendations": 54,
+    "images": 1300,
+    "jsonFiles": 84
+  },
+  "summary": {
+    "pass": 22,
+    "warn": 0,
+    "fail": 0
+  },
+  "overall": "PASS",
+  "checks": [
+    {
+      "category": "Package",
+      "name": "JSON integrity",
+      "status": "pass",
+      "detail": "84 JSON files parsed.",
+      "metrics": {}
+    },
+    {
+      "category": "Cards",
+      "name": "Runtime catalogue",
+      "status": "pass",
+      "detail": "914 runtime card records loaded.",
+      "metrics": {}
+    },
+    {
+      "category": "Cards",
+      "name": "Effect metadata coverage",
+      "status": "pass",
+      "detail": "914/914 cards have explicit effect metadata classification.",
+      "metrics": {
+        "implemented": 191,
+        "runtime_model_verified": 42,
+        "implemented-basic": 181,
+        "implemented-v093": 28,
+        "implemented-exact-v0944": 2,
+        "implemented-pass2": 186,
+        "source_preserved_classified": 79,
+        "verified_v0943": 13,
+        "implemented_v096": 96,
+        "implemented_v097": 47,
+        "implemented_v098_verified_variant": 17,
+        "implemented_v099_verified_equivalent_variant": 16,
+        "fully_supported": 3,
+        "implemented_v0916": 3,
+        "implemented_v0918": 3,
+        "source_preserved": 7
+      }
+    },
+    {
+      "category": "Cards",
+      "name": "Required card fields",
+      "status": "pass",
+      "detail": "914/914 runtime card records contain a name, class, and explicit source identifier.",
+      "metrics": {
+        "runtimeGeneratedSources": 42,
+        "recoveredSources": 872
+      }
+    },
+    {
+      "category": "Superstars",
+      "name": "Ability implementation flags",
+      "status": "pass",
+      "detail": "42/42 base Superstar records have ability text and implementation enabled. Missing: none.",
+      "metrics": {}
+    },
+    {
+      "category": "Superstars",
+      "name": "Momentum maximum structure",
+      "status": "pass",
+      "detail": "42/42 base Superstar records contain all five method fields.",
+      "metrics": {}
+    },
+    {
+      "category": "Decks",
+      "name": "Starter card resolution",
+      "status": "pass",
+      "detail": "70/70 starters resolve every page to the runtime catalogue.",
+      "metrics": {}
+    },
+    {
+      "category": "Decks",
+      "name": "Starter sizes",
+      "status": "pass",
+      "detail": "70/70 starters are within the expected 55–100 page structural range.",
+      "metrics": {}
+    },
+    {
+      "category": "AI decks",
+      "name": "Unlocked recommendation coverage",
+      "status": "pass",
+      "detail": "54/54 selectable versions have an unlocked recommendation.",
+      "metrics": {}
+    },
+    {
+      "category": "AI decks",
+      "name": "Recommendation source mapping",
+      "status": "pass",
+      "detail": "54/54 unlocked entries map to a named recommendation record.",
+      "metrics": {}
+    },
+    {
+      "category": "AI decks",
+      "name": "Recommended card resolution",
+      "status": "pass",
+      "detail": "100/100 stored recommendation records resolve every listed page.",
+      "metrics": {}
+    },
+    {
+      "category": "AI decks",
+      "name": "Deck size and copy limits",
+      "status": "pass",
+      "detail": "0 unlocked decks outside 55–80 pages; 0 stored decks exceed five copies.",
+      "metrics": {}
+    },
+    {
+      "category": "Assets",
+      "name": "Image integrity",
+      "status": "pass",
+      "detail": "1300/1300 images verified successfully.",
+      "metrics": {}
+    },
+    {
+      "category": "Code",
+      "name": "Duplicate function declarations",
+      "status": "pass",
+      "detail": "0 duplicate function names: none.",
+      "metrics": {}
+    },
+    {
+      "category": "Menus",
+      "name": "Inline click-handler resolution",
+      "status": "pass",
+      "detail": "52/52 unique inline handlers resolve to declared functions. Missing: none.",
+      "metrics": {}
+    },
+    {
+      "category": "Offline",
+      "name": "Core cache files",
+      "status": "pass",
+      "detail": "46/46 service-worker core entries exist.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Turn draw path",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Autocounter escalation",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Stun countdown",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Successful Attitude update",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Empty playbook safe draw",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    },
+    {
+      "category": "Match engine",
+      "name": "Play-pile acknowledgement",
+      "status": "pass",
+      "detail": "Static source marker found.",
+      "metrics": {}
+    }
+  ],
+  "limitations": [
+    "Static and data-level certification cannot prove touch gestures, Safari/PWA rendering, timing races, or every bespoke card script. Those require browser/device scenarios.",
+    "Match balance simulations are intentionally not treated as rules certification."
+  ],
+  "nextBrowserScenarios": [
+    "Launch and start Exhibition",
+    "Fixed opening five and first draw",
+    "CPU move pauses in play pile",
+    "Tap active move to flip",
+    "Pass resumes CPU",
+    "Autocounter-only downward ditch",
+    "Stun expires",
+    "Submission releases",
+    "Empty playbook draw fails safely",
+    "Save export/import",
+    "Offline launch after update"
+  ]
+}

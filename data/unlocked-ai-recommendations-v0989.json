@@ -1,0 +1,332 @@
+{
+  "version": "v0.9.89",
+  "selectableSuperstarVersions": 54,
+  "unlockedRecommendations": 54,
+  "allHaveUnlockedRecommendation": true,
+  "entries": [
+    {
+      "superstarKey": "austin",
+      "baseKey": "austin",
+      "pages": 72,
+      "sourceRecommendation": "austin-stone-cold-stunner-optimized"
+    },
+    {
+      "superstarKey": "bookert",
+      "baseKey": "bookert",
+      "pages": 66,
+      "sourceRecommendation": "bookert-scissors-kick-optimized"
+    },
+    {
+      "superstarKey": "christian",
+      "baseKey": "christian",
+      "pages": 66,
+      "sourceRecommendation": "christian-unprettier-optimized"
+    },
+    {
+      "superstarKey": "rvd",
+      "baseKey": "rvd",
+      "pages": 60,
+      "sourceRecommendation": "rvd-van-daminator-optimized"
+    },
+    {
+      "superstarKey": "flair",
+      "baseKey": "flair",
+      "pages": 72,
+      "sourceRecommendation": "flair-ric-flair-s-figure-four-optimized"
+    },
+    {
+      "superstarKey": "nash",
+      "baseKey": "nash",
+      "pages": 78,
+      "sourceRecommendation": "nash-new-world-order-optimized"
+    },
+    {
+      "superstarKey": "jeffhardy",
+      "baseKey": "jeffhardy",
+      "pages": 60,
+      "sourceRecommendation": "jeffhardy-swanton-bomb-optimized"
+    },
+    {
+      "superstarKey": "matthardy",
+      "baseKey": "matthardy",
+      "pages": 60,
+      "sourceRecommendation": "matthardy-twist-of-fate-optimized"
+    },
+    {
+      "superstarKey": "trish",
+      "baseKey": "trish",
+      "pages": 66,
+      "sourceRecommendation": "trish-stratusfaction-optimized"
+    },
+    {
+      "superstarKey": "bubba",
+      "baseKey": "bubba",
+      "pages": 66,
+      "sourceRecommendation": "bubba-bubba-bomb-optimized"
+    },
+    {
+      "superstarKey": "dvon",
+      "baseKey": "dvon",
+      "pages": 66,
+      "sourceRecommendation": "dvon-wazzzzzaaaappp-optimized"
+    },
+    {
+      "superstarKey": "spike",
+      "baseKey": "spike",
+      "pages": 60,
+      "sourceRecommendation": "spike-running-elbow-optimized"
+    },
+    {
+      "superstarKey": "bradshaw",
+      "baseKey": "bradshaw",
+      "pages": 66,
+      "sourceRecommendation": "bradshaw-clothesline-from-hell-optimized"
+    },
+    {
+      "superstarKey": "goldust",
+      "baseKey": "goldust",
+      "pages": 66,
+      "sourceRecommendation": "goldust-curtain-call-optimized"
+    },
+    {
+      "superstarKey": "lancestorm",
+      "baseKey": "lancestorm",
+      "pages": 66,
+      "sourceRecommendation": "lancestorm-straight-shooter-optimized"
+    },
+    {
+      "superstarKey": "rikishi",
+      "baseKey": "rikishi",
+      "pages": 66,
+      "sourceRecommendation": "rikishi-rikishi-driver-optimized"
+    },
+    {
+      "superstarKey": "scotty",
+      "baseKey": "scotty",
+      "pages": 60,
+      "sourceRecommendation": "scotty-the-worm-optimized"
+    },
+    {
+      "superstarKey": "tajiri",
+      "baseKey": "tajiri",
+      "pages": 72,
+      "sourceRecommendation": "tajiri-deathblow-l-e-optimized"
+    },
+    {
+      "superstarKey": "tazz",
+      "baseKey": "tazz",
+      "pages": 66,
+      "sourceRecommendation": "tazz-tazzmission-optimized"
+    },
+    {
+      "superstarKey": "test",
+      "baseKey": "test",
+      "pages": 66,
+      "sourceRecommendation": "test-the-big-boot-optimized"
+    },
+    {
+      "superstarKey": "hurricane",
+      "baseKey": "hurricane",
+      "pages": 72,
+      "sourceRecommendation": "hurricane-eye-of-the-hurricane-l-e-optimized"
+    },
+    {
+      "superstarKey": "regal",
+      "baseKey": "regal",
+      "pages": 66,
+      "sourceRecommendation": "regal-regal-stretch-optimized"
+    },
+    {
+      "superstarKey": "xpac",
+      "baseKey": "xpac",
+      "pages": 60,
+      "sourceRecommendation": "xpac-x-factor-optimized"
+    },
+    {
+      "superstarKey": "alsnow",
+      "baseKey": "alsnow",
+      "pages": 66,
+      "sourceRecommendation": "alsnow-snow-plow-optimized"
+    },
+    {
+      "superstarKey": "blackman",
+      "baseKey": "blackman",
+      "pages": 60,
+      "sourceRecommendation": "blackman-the-guillotine-optimized"
+    },
+    {
+      "superstarKey": "brock",
+      "baseKey": "brock",
+      "pages": 60,
+      "sourceRecommendation": "brock-f5-optimized"
+    },
+    {
+      "superstarKey": "shane",
+      "baseKey": "shane",
+      "pages": 66,
+      "sourceRecommendation": "shane-flying-chair-shot-optimized"
+    },
+    {
+      "superstarKey": "hbk",
+      "baseKey": "hbk",
+      "pages": 66,
+      "sourceRecommendation": "hbk-sweet-chin-music-optimized"
+    },
+    {
+      "superstarKey": "scotthall",
+      "baseKey": "scotthall",
+      "pages": 66,
+      "sourceRecommendation": "scotthall-razors-edge-optimized"
+    },
+    {
+      "superstarKey": "rey",
+      "baseKey": "rey",
+      "pages": 66,
+      "sourceRecommendation": "rey-torito-optimized"
+    },
+    {
+      "superstarKey": "benoit1",
+      "baseKey": "benoit",
+      "pages": 60,
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized"
+    },
+    {
+      "superstarKey": "benoit2e",
+      "baseKey": "benoit",
+      "pages": 60,
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized"
+    },
+    {
+      "superstarKey": "jericho1",
+      "baseKey": "jericho",
+      "pages": 66,
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized"
+    },
+    {
+      "superstarKey": "jericho2e",
+      "baseKey": "jericho",
+      "pages": 66,
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized"
+    },
+    {
+      "superstarKey": "eddie1",
+      "baseKey": "eddie",
+      "pages": 66,
+      "sourceRecommendation": "eddie-latino-heat-optimized"
+    },
+    {
+      "superstarKey": "eddie2e",
+      "baseKey": "eddie",
+      "pages": 66,
+      "sourceRecommendation": "eddie-latino-heat-optimized"
+    },
+    {
+      "superstarKey": "edge1",
+      "baseKey": "edge",
+      "pages": 72,
+      "sourceRecommendation": "edge-edgecution-optimized"
+    },
+    {
+      "superstarKey": "edge2e",
+      "baseKey": "edge",
+      "pages": 72,
+      "sourceRecommendation": "edge-edgecution-optimized"
+    },
+    {
+      "superstarKey": "hoganNwo",
+      "baseKey": "hogan",
+      "pages": 66,
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized"
+    },
+    {
+      "superstarKey": "hogan2e",
+      "baseKey": "hogan",
+      "pages": 66,
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized"
+    },
+    {
+      "superstarKey": "angle1",
+      "baseKey": "angle",
+      "pages": 60,
+      "sourceRecommendation": "angle-angle-slam-optimized"
+    },
+    {
+      "superstarKey": "angle2e",
+      "baseKey": "angle",
+      "pages": 60,
+      "sourceRecommendation": "angle-angle-slam-optimized"
+    },
+    {
+      "superstarKey": "lita1",
+      "baseKey": "lita",
+      "pages": 66,
+      "sourceRecommendation": "lita-litacanrana-optimized"
+    },
+    {
+      "superstarKey": "lita2e",
+      "baseKey": "lita",
+      "pages": 66,
+      "sourceRecommendation": "lita-litacanrana-optimized"
+    },
+    {
+      "superstarKey": "bigshow1",
+      "baseKey": "bigshow",
+      "pages": 72,
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized"
+    },
+    {
+      "superstarKey": "bigshow2e",
+      "baseKey": "bigshow",
+      "pages": 72,
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized"
+    },
+    {
+      "superstarKey": "undertaker1",
+      "baseKey": "undertaker",
+      "pages": 60,
+      "sourceRecommendation": "undertaker-stunning-blow-optimized"
+    },
+    {
+      "superstarKey": "undertaker2e",
+      "baseKey": "undertaker",
+      "pages": 60,
+      "sourceRecommendation": "undertaker-stunning-blow-optimized"
+    },
+    {
+      "superstarKey": "tripleh1",
+      "baseKey": "tripleh",
+      "pages": 60,
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized"
+    },
+    {
+      "superstarKey": "tripleh2e",
+      "baseKey": "tripleh",
+      "pages": 60,
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized"
+    },
+    {
+      "superstarKey": "rock1",
+      "baseKey": "rock",
+      "pages": 72,
+      "sourceRecommendation": "rock-rock-bottom-optimized"
+    },
+    {
+      "superstarKey": "rock2e",
+      "baseKey": "rock",
+      "pages": 72,
+      "sourceRecommendation": "rock-rock-bottom-optimized"
+    },
+    {
+      "superstarKey": "kane1",
+      "baseKey": "kane",
+      "pages": 66,
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized"
+    },
+    {
+      "superstarKey": "kane2e",
+      "baseKey": "kane",
+      "pages": 66,
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "v0.9.93",
+  "checks": [
+    {
+      "name": "Card catalogue metadata",
+      "status": "pass",
+      "detail": "914/914 cards classified"
+    },
+    {
+      "name": "Edition source cards",
+      "status": "pass",
+      "detail": "24 edition entries checked"
+    },
+    {
+      "name": "Edition starter packages",
+      "status": "pass",
+      "detail": "24 starter links resolved"
+    },
+    {
+      "name": "Edition artwork",
+      "status": "pass",
+      "detail": "24 artwork files present"
+    },
+    {
+      "name": "Unlocked AI coverage",
+      "status": "pass",
+      "detail": "54/54 selectable versions mapped"
+    },
+    {
+      "name": "AI deck page resolution",
+      "status": "pass",
+      "detail": "All recommended page IDs resolve"
+    },
+    {
+      "name": "Menu click routes",
+      "status": "pass",
+      "detail": "52 handler functions checked"
+    },
+    {
+      "name": "Duplicate functions",
+      "status": "pass",
+      "detail": "No duplicate function declarations"
+    },
+    {
+      "name": "Safe-area support",
+      "status": "pass",
+      "detail": "iPhone safe-area CSS present"
+    },
+    {
+      "name": "Keyboard focus",
+      "status": "pass",
+      "detail": "focus-visible styling present"
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "warnings": 2,
+  "warningDetails": [
+    "Five exact starter sources remain unresolved; reconstructed product builds remain labelled.",
+    "Mission0\u2013Mission4 are preserved but still encoded and not playable."
+  ]
+}

@@ -18,7 +18,7 @@
     },
     "headShotArt": "",
     "playbookArt": "StoneColdPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "rock": {
@@ -84,7 +84,7 @@
     },
     "headShotArt": "",
     "playbookArt": "TheUndertakerPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "kane": {
@@ -106,7 +106,7 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-Kane.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "angle": {
@@ -128,7 +128,7 @@
     },
     "headShotArt": "",
     "playbookArt": "Sales-KurtAngle.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "jericho": {
@@ -172,7 +172,7 @@
     },
     "headShotArt": "",
     "playbookArt": "ChrisBenoit2EPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "bigshow": {
@@ -194,7 +194,7 @@
     },
     "headShotArt": "",
     "playbookArt": "TheBigShowPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "bookert": {
@@ -238,7 +238,7 @@
     },
     "headShotArt": "",
     "playbookArt": "EdgePlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "christian": {
@@ -282,7 +282,7 @@
     },
     "headShotArt": "",
     "playbookArt": "EddieGuerreroPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "rvd": {
@@ -326,7 +326,7 @@
     },
     "headShotArt": "",
     "playbookArt": "",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true,
     "starterStatus": "recovered"
   },
@@ -394,7 +394,7 @@
     },
     "headShotArt": "",
     "playbookArt": "JeffHardyPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "matthardy": {
@@ -416,7 +416,7 @@
     },
     "headShotArt": "",
     "playbookArt": "MattHardyPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "lita": {
@@ -438,7 +438,7 @@
     },
     "headShotArt": "",
     "playbookArt": "LitaPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "trish": {
@@ -527,7 +527,7 @@
     },
     "headShotArt": "",
     "playbookArt": "SpikeDudleyPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "bradshaw": {
@@ -549,7 +549,7 @@
     },
     "headShotArt": "",
     "playbookArt": "BradshawPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "goldust": {
@@ -659,7 +659,7 @@
     },
     "headShotArt": "",
     "playbookArt": "TajiriPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "tazz": {
@@ -703,7 +703,7 @@
     },
     "headShotArt": "",
     "playbookArt": "AnotherAttitudeStarPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": true
   },
   "hurricane": {
@@ -791,7 +791,7 @@
     },
     "headShotArt": "AlSnowHeadShot.gai",
     "playbookArt": "Sales-AlSnow.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "recovered-authentic-bonus-starter"
   },
@@ -814,7 +814,7 @@
     },
     "headShotArt": "SteveBlackmanHeadShot.gai",
     "playbookArt": "Sales-SteveBlackman.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "recovered-authentic-bonus-starter"
   },
@@ -837,7 +837,7 @@
     },
     "headShotArt": "BrockLesnarHeadShot.gai",
     "playbookArt": "BrockLesnarPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "official-product-build"
   },
@@ -860,7 +860,7 @@
     },
     "headShotArt": "ShaneMcMahonHeadShot.gai",
     "playbookArt": "Sales-ShaneMcMahon.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "source-package-unresolved"
   },
@@ -883,7 +883,7 @@
     },
     "headShotArt": "ShawnMichaelsHeadShot.gai",
     "playbookArt": "ShawnMichaelsPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "official-product-build"
   },
@@ -906,7 +906,7 @@
     },
     "headShotArt": "ScottHallHeadShot.gai",
     "playbookArt": "ScottHallPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "official-product-build"
   },
@@ -929,7 +929,7 @@
     },
     "headShotArt": "ReyMysterioHeadShot.gai",
     "playbookArt": "ReyMysterioPlaybook.gai",
-    "abilityImplemented": false,
+    "abilityImplemented": true,
     "passiveImplemented": false,
     "starterStatus": "source-package-unresolved"
   }

@@ -1,0 +1,287 @@
+{
+  "version": "v0.9.92",
+  "generated": "2026-08-02",
+  "cardsAudited": 914,
+  "effectMetadataComplete": 914,
+  "missingEffectMetadata": 0,
+  "sourceMetadataComplete": 914,
+  "missingSourceMetadata": 0,
+  "classificationComplete": 914,
+  "missingClassification": 0,
+  "statusCounts": {
+    "implemented": 191,
+    "runtime_model_verified": 42,
+    "implemented-basic": 181,
+    "implemented-v093": 28,
+    "implemented-exact-v0944": 2,
+    "implemented-pass2": 186,
+    "source_preserved_classified": 79,
+    "verified_v0943": 13,
+    "implemented_v096": 96,
+    "implemented_v097": 47,
+    "implemented_v098_verified_variant": 17,
+    "implemented_v099_verified_equivalent_variant": 16,
+    "fully_supported": 3,
+    "implemented_v0916": 3,
+    "implemented_v0918": 3,
+    "source_preserved": 7
+  },
+  "runtimeGeneratedSources": [
+    {
+      "id": "Mudhole",
+      "name": "Stomp A Mudhole",
+      "sourceFile": "runtime-generated/Mudhole.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "KnowYourRole",
+      "name": "Know Your Role",
+      "sourceFile": "runtime-generated/KnowYourRole.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "AustinTrademark",
+      "name": "Stone Cold Stunner",
+      "sourceFile": "runtime-generated/AustinTrademark.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "RockTrademark",
+      "name": "Rock Bottom",
+      "sourceFile": "runtime-generated/RockTrademark.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "DropKick2E",
+      "name": "Drop Kick",
+      "sourceFile": "runtime-generated/DropKick2E.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "BodySlamEX3",
+      "name": "Body Slam",
+      "sourceFile": "runtime-generated/BodySlamEX3.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "BackElbowEX1",
+      "name": "Back Elbow",
+      "sourceFile": "runtime-generated/BackElbowEX1.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "RussianLegSweep",
+      "name": "Russian Leg Sweep",
+      "sourceFile": "runtime-generated/RussianLegSweep.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "Jawbreaker",
+      "name": "Jawbreaker",
+      "sourceFile": "runtime-generated/Jawbreaker.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "KneeLiftEX1",
+      "name": "Knee Lift",
+      "sourceFile": "runtime-generated/KneeLiftEX1.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "Neckbreaker2E",
+      "name": "Neckbreaker",
+      "sourceFile": "runtime-generated/Neckbreaker2E.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "VerticalSuplex2E",
+      "name": "Vertical Suplex",
+      "sourceFile": "runtime-generated/VerticalSuplex2E.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "DDTEX1",
+      "name": "DDT",
+      "sourceFile": "runtime-generated/DDTEX1.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "DragonSleeper",
+      "name": "Dragon Sleeper",
+      "sourceFile": "runtime-generated/DragonSleeper.json",
+      "cardClass": "Submission"
+    },
+    {
+      "id": "BostonCrab",
+      "name": "Boston Crab",
+      "sourceFile": "runtime-generated/BostonCrab.json",
+      "cardClass": "Submission"
+    },
+    {
+      "id": "Clothesline",
+      "name": "Clothesline",
+      "sourceFile": "runtime-generated/Clothesline.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "ElbowDrop",
+      "name": "Elbow Drop",
+      "sourceFile": "runtime-generated/ElbowDrop.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "ShortArm",
+      "name": "Short-Arm Clothesline",
+      "sourceFile": "runtime-generated/ShortArm.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "IrishWhip",
+      "name": "Irish Whip",
+      "sourceFile": "runtime-generated/IrishWhip.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "GutKick",
+      "name": "Gut Kick",
+      "sourceFile": "runtime-generated/GutKick.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "CollarElbow",
+      "name": "Collar-and-Elbow Tie-Up",
+      "sourceFile": "runtime-generated/CollarElbow.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "LouThesz",
+      "name": "Lou Thesz Press",
+      "sourceFile": "runtime-generated/LouThesz.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "Spinebuster",
+      "name": "Spinebuster",
+      "sourceFile": "runtime-generated/Spinebuster.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "PeoplesElbow",
+      "name": "People's Elbow",
+      "sourceFile": "runtime-generated/PeoplesElbow.json",
+      "cardClass": "Move"
+    },
+    {
+      "id": "austinGameplan",
+      "name": "Bionic Redneck",
+      "sourceFile": "runtime-generated/austinGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "rockGameplan",
+      "name": "People’s Champion",
+      "sourceFile": "runtime-generated/rockGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "triplehFinisher",
+      "name": "Pedigree",
+      "sourceFile": "runtime-generated/triplehFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "triplehGameplan",
+      "name": "Cerebral Assassin",
+      "sourceFile": "runtime-generated/triplehGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "angleFinisher",
+      "name": "Angle Slam",
+      "sourceFile": "runtime-generated/angleFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "angleGameplan",
+      "name": "Olympic Hero",
+      "sourceFile": "runtime-generated/angleGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "jerichoFinisher",
+      "name": "Lionsault",
+      "sourceFile": "runtime-generated/jerichoFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "jerichoGameplan",
+      "name": "Ayatollah of Rock ‘n’ Rolla",
+      "sourceFile": "runtime-generated/jerichoGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "undertakerFinisher",
+      "name": "Tombstone Piledriver",
+      "sourceFile": "runtime-generated/undertakerFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "undertakerGameplan",
+      "name": "Deadman Rising",
+      "sourceFile": "runtime-generated/undertakerGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "kaneFinisher",
+      "name": "Chokeslam From Hell",
+      "sourceFile": "runtime-generated/kaneFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "kaneGameplan",
+      "name": "Big Red Machine",
+      "sourceFile": "runtime-generated/kaneGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "bigshowFinisher",
+      "name": "Showstopper",
+      "sourceFile": "runtime-generated/bigshowFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "bigshowGameplan",
+      "name": "World’s Largest Athlete",
+      "sourceFile": "runtime-generated/bigshowGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "spikeFinisher",
+      "name": "Dudley Dog",
+      "sourceFile": "runtime-generated/spikeFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "spikeGameplan",
+      "name": "150 Pounds of Toughness",
+      "sourceFile": "runtime-generated/spikeGameplan.json",
+      "cardClass": "Gameplan"
+    },
+    {
+      "id": "hoganFinisher",
+      "name": "Atomic Leg Drop",
+      "sourceFile": "runtime-generated/hoganFinisher.json",
+      "cardClass": "Trademark"
+    },
+    {
+      "id": "hoganGameplan",
+      "name": "24 Inch Pythons",
+      "sourceFile": "runtime-generated/hoganGameplan.json",
+      "cardClass": "Gameplan"
+    }
+  ],
+  "notes": [
+    "Runtime-generated compatibility records are explicitly labelled and are not misrepresented as recovered .gac files.",
+    "Original records without a prior effectStatus are now classified as source_preserved_classified; this records metadata completeness without claiming every bespoke effect is executable-exact."
+  ]
+}
