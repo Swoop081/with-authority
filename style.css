@@ -405,11 +405,7 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 @media(orientation:landscape) and (max-height:500px){.screen{padding-top:max(5px,env(safe-area-inset-top))}.topbar{position:sticky;top:0;z-index:20}.entityPortrait{max-height:38vh}}
 
 /* v0.9.95 original Page Viewer card system */
-.originalPageCard,
-.originalPageFront,
-.originalPageBack,
-.pileFront,
-.pileBack{--page-colour:#777;--page-dark:#202020;--page-light:#aaa}
+.originalPageCard,.pile{--page-colour:#777;--page-dark:#202020;--page-light:#aaa}
 .method-technical{--page-colour:#149447;--page-dark:#075525;--page-light:#4bd77b}
 .method-strike{--page-colour:#c51f2a;--page-dark:#6d0710;--page-light:#ef5660}
 .method-strength{--page-colour:#d78518;--page-dark:#7b4100;--page-light:#ffb64c}
@@ -536,4 +532,146 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 }
 @media(max-width:430px){
   .portraitArena{--fixed-hud-height:122px}
+}
+
+
+/* v0.9.107 verified card flipping, method colours and HUD alignment */
+.originalPageFlip{
+  -webkit-transform-style:preserve-3d!important;
+  transform-style:preserve-3d!important;
+}
+.originalPageFace,
+.cardFace,
+.cardBack{
+  -webkit-backface-visibility:hidden!important;
+  backface-visibility:hidden!important;
+}
+.originalPageFront{transform:rotateY(0deg)!important;-webkit-transform:rotateY(0deg)!important}
+.originalPageBack{transform:rotateY(180deg)!important;-webkit-transform:rotateY(180deg)!important}
+.handCard.flipped .originalPageFlip,
+.originalPageCard.flipped>.originalPageFlip{
+  transform:rotateY(180deg)!important;
+  -webkit-transform:rotateY(180deg)!important;
+}
+/* Never reset the inherited method colour on a face. */
+.originalPageFront,.originalPageBack{--page-colour:inherit;--page-dark:inherit;--page-light:inherit}
+.handCard.locked .originalPageFlip{opacity:.82}
+.handCard.locked.flipped .originalPageFlip{opacity:1}
+
+/* Match pile uses the same front/back card treatment as the hand. */
+.pileFront,.pileBack{background:var(--page-colour,#777)!important}
+.pileFront .originalArtFrame{background:#050505!important}
+.pileBack .originalNameBar,.pileBack .originalBackMeta,.pileBack .originalBackText,.pileBack .originalCostBar,
+.pileFront .originalNameBar,.pileFront .originalCostBar{background:var(--page-colour)!important}
+
+/* Align HP and damage exactly to the two-column momentum grids. */
+.originalHud .hudText,
+.originalHud.right .hudText{width:64px!important;max-width:64px!important}
+.originalHud .hpBlock,
+.originalHud.right .hpBlock{
+  width:64px!important;
+  display:grid!important;
+  grid-template-columns:31px 31px!important;
+  column-gap:2px!important;
+  align-items:center!important;
+  justify-content:stretch!important;
+  margin:1px 0!important;
+}
+.originalHud .hpValue{grid-column:1!important;grid-row:1!important;text-align:center!important;justify-self:center!important}
+.originalHud .hpWords{grid-column:2!important;grid-row:1!important;text-align:left!important;justify-self:start!important}
+.originalHud.right .hpValue{grid-column:2!important;grid-row:1!important;text-align:center!important;justify-self:center!important}
+.originalHud.right .hpWords{grid-column:1!important;grid-row:1!important;text-align:right!important;justify-self:end!important}
+.originalHud .momentumIcons,
+.originalHud.right .momentumIcons{
+  width:64px!important;
+  grid-template-columns:31px 31px!important;
+  justify-content:stretch!important;
+}
+.originalHud .limbDamage,
+.originalHud.right .limbDamage{
+  width:64px!important;
+  display:grid!important;
+  grid-template-columns:repeat(4,1fr)!important;
+  justify-items:center!important;
+  margin:2px 0 0!important;
+  gap:0!important;
+}
+.originalHud .limbDamage span,
+.originalHud.right .limbDamage span{width:auto!important;min-width:0!important;padding:1px!important;text-align:center!important}
+@media(max-width:430px){
+  .originalHud .hudText,.originalHud.right .hudText,
+  .originalHud .hpBlock,.originalHud.right .hpBlock,
+  .originalHud .momentumIcons,.originalHud.right .momentumIcons,
+  .originalHud .limbDamage,.originalHud.right .limbDamage{width:64px!important;max-width:64px!important}
+}
+
+/* v0.9.110 iOS card-face and HUD alignment repair */
+/* Keep the method variables inherited from the card container. Do not replace
+   them with the literal `inherit` token, which older iOS WebKit can resolve
+   incorrectly inside a 3-D transformed child. */
+.originalPageFront,.originalPageBack{
+  --page-colour:initial;
+  --page-dark:initial;
+  --page-light:initial;
+}
+.method-technical .originalPageFront,.method-technical .originalPageBack{--page-colour:#149447;--page-dark:#075525;--page-light:#4bd77b}
+.method-strike .originalPageFront,.method-strike .originalPageBack{--page-colour:#c51f2a;--page-dark:#6d0710;--page-light:#ef5660}
+.method-strength .originalPageFront,.method-strength .originalPageBack{--page-colour:#d78518;--page-dark:#7b4100;--page-light:#ffb64c}
+.method-agility .originalPageFront,.method-agility .originalPageBack{--page-colour:#197bc2;--page-dark:#073e69;--page-light:#59b6ee}
+.method-knowledge .originalPageFront,.method-knowledge .originalPageBack{--page-colour:#d1ab13;--page-dark:#705900;--page-light:#f3d95a}
+.method-attitude .originalPageFront,.method-attitude .originalPageBack{--page-colour:#a31d27;--page-dark:#5a0810;--page-light:#d85159}
+.class-momentum .originalPageFront,.class-momentum .originalPageBack{--page-colour:#8b6ac8;--page-dark:#46306f;--page-light:#c0a4ef}
+.class-special .originalPageFront,.class-special .originalPageBack,
+.class-gameplan .originalPageFront,.class-gameplan .originalPageBack,
+.class-entrance .originalPageFront,.class-entrance .originalPageBack{--page-colour:#d1ab13;--page-dark:#705900;--page-light:#f3d95a}
+
+.originalPageFront .originalNameBar,.originalPageFront .originalCostBar,
+.originalPageBack,.originalPageBack .originalNameBar,.originalPageBack .originalBackMeta,
+.originalPageBack .originalBackText,.originalPageBack .originalCostBar{
+  background-color:var(--page-colour,#777)!important;
+  background-image:none!important;
+}
+
+/* Use explicit face switching in the live hand. This avoids the iOS WebKit
+   mirrored-front bug on locked/unplayable cards while preserving tap-to-flip. */
+.handCard .originalPageFlip{transform:none!important;-webkit-transform:none!important}
+.handCard .originalPageFront{display:flex!important;transform:none!important;-webkit-transform:none!important}
+.handCard .originalPageBack{display:none!important;transform:none!important;-webkit-transform:none!important}
+.handCard.flipped .originalPageFront{display:none!important}
+.handCard.flipped .originalPageBack{display:flex!important}
+.handCard.locked .originalPageFlip,.handCard.locked.flipped .originalPageFlip{opacity:1!important}
+
+/* Match HUD: align each HP block and damage row to the exact two-column
+   momentum footprint. */
+.originalHud .hudText,.originalHud.right .hudText{width:76px!important;max-width:76px!important}
+.originalHud .hpBlock,.originalHud.right .hpBlock{
+  width:76px!important;
+  grid-template-columns:36px 38px!important;
+  column-gap:2px!important;
+  margin:1px 0!important;
+}
+.originalHud .momentumIcons,.originalHud.right .momentumIcons{
+  width:76px!important;
+  grid-template-columns:37px 37px!important;
+  gap:2px!important;
+}
+.originalHud .limbDamage,.originalHud.right .limbDamage{
+  width:76px!important;
+  grid-template-columns:repeat(4,19px)!important;
+  justify-content:center!important;
+  justify-items:center!important;
+  gap:0!important;
+}
+.originalHud .limbDamage span,.originalHud.right .limbDamage span{
+  width:19px!important;padding:1px 0!important;text-align:center!important
+}
+.originalHud .hpValue{grid-column:1!important;justify-self:center!important}
+.originalHud .hpWords{grid-column:2!important;justify-self:start!important;text-align:left!important}
+.originalHud.right .hpWords{grid-column:1!important;justify-self:end!important;text-align:right!important}
+.originalHud.right .hpValue{grid-column:2!important;justify-self:center!important}
+@media(max-width:430px){
+  .originalHud .hudText,.originalHud.right .hudText,
+  .originalHud .hpBlock,.originalHud.right .hpBlock,
+  .originalHud .momentumIcons,.originalHud.right .momentumIcons,
+  .originalHud .limbDamage,.originalHud.right .limbDamage{width:76px!important;max-width:76px!important}
 }
