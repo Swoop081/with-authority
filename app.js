@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,PACK_OPENING=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.121',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.124',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -186,7 +186,7 @@ function selectableSuperstars(mode='importance'){
     .sort((a,b)=>compareSelectableSuperstars(a,b,mode));
 }
 
-const freshJson=path=>fetch(`${path}?build=0.9.121`,{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).then(r=>{if(!r.ok)throw new Error(`${path} failed to load (${r.status})`);return r.json()});
+const freshJson=path=>fetch(`${path}?build=0.9.124`,{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).then(r=>{if(!r.ok)throw new Error(`${path} failed to load (${r.status})`);return r.json()});
 Promise.all([freshJson('data/demo-cards.json'),freshJson('data/artwork-manifest.json'),freshJson('data/authentic-starter-decks.json'),freshJson('data/starter-roster-map.json'),freshJson('data/booster-products.json'),freshJson('data/original-offline-missions.json'),freshJson('data/original-campaign-v0964.json')]).then(([x,a,st,sm,bp,om,oc])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;ORIGINAL_CAMPAIGN=oc;AI_DECKS={decks:[]};cards=x.map(enrichCard);configureSuperstarVariants();showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
 
 function enrichCard(c){
