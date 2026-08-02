@@ -1,5 +1,5 @@
 {
-  "name": "With Authority! Mobile v0.9.101",
+  "name": "With Authority! Mobile v0.9.109",
   "short_name": "WA Mobile",
   "start_url": "./",
   "display": "standalone",
@@ -27,5 +27,5 @@
       "purpose": "any maskable"
     }
   ],
-  "version": "0.9.106"
+  "version": "0.9.109"
 }
