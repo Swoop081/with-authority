@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.120-rebuild',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.121-rebuild',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
