@@ -499,3 +499,41 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 .originalHud.right .hpWords .cpuPoints b{order:2!important}
 .originalHud:not(.right) .hpWords .pointsLine b{order:1}
 .originalHud:not(.right) .hpWords .pointsLine .dqTiny{order:2}
+
+
+/* v0.9.106 starter-only flow and fixed match HUD */
+.starterOnlyGrid{max-width:560px;margin-inline:auto}
+.portraitArena{
+  --fixed-hud-height:132px;
+  padding-top:calc(16px + env(safe-area-inset-top) + var(--fixed-hud-height) + 10px)!important;
+}
+.portraitArena .crowdStage{
+  position:fixed!important;
+  top:calc(env(safe-area-inset-top) + 8px)!important;
+  left:50%!important;
+  right:auto!important;
+  transform:translateX(-50%)!important;
+  width:min(calc(100% - 28px),950px)!important;
+  min-height:var(--fixed-hud-height)!important;
+  z-index:100!important;
+}
+.originalHud .limbDamage,
+.originalHud.right .limbDamage{
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  justify-items:center!important;
+  align-items:center!important;
+  width:100%!important;
+  margin:2px 0 0!important;
+  gap:2px!important;
+}
+.originalHud .limbDamage span{min-width:0!important;width:100%!important;text-align:center!important}
+.originalHud.right .hpBlock{
+  width:50%!important;
+  margin-left:auto!important;
+  margin-right:0!important;
+  justify-content:center!important;
+}
+@media(max-width:430px){
+  .portraitArena{--fixed-hud-height:122px}
+}
