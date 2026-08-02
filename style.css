@@ -729,60 +729,162 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 }
 
 
-/* v0.9.112 readable live-card backs and mirrored HP blocks */
-/* The hand-card wrapper still carries legacy 3-D classes. Override the most
-   specific historical selectors so explicit front/back display never rotates
-   or mirrors the readable back on iOS WebKit. */
-.handCard.originalPageCard.flipped > .cardFlip.originalPageFlip,
-.handCard.originalPageCard > .cardFlip.originalPageFlip,
-.handCard.flipped .cardFlip.originalPageFlip{
-  transform:none!important;
-  -webkit-transform:none!important;
-  transform-style:flat!important;
-  -webkit-transform-style:flat!important;
+/* v0.9.113 clean mirrored HUD reset
+   Override accumulated experimental HUD rules with one stable two-half layout. */
+.portraitArena .crowdStage .status{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+  gap:10px!important;
+  align-items:end!important;
+  padding:3px 6px!important;
+  overflow:hidden!important;
 }
-.handCard .originalPageFront,
-.handCard .originalPageBack{
-  transform:none!important;
-  -webkit-transform:none!important;
-  backface-visibility:visible!important;
-  -webkit-backface-visibility:visible!important;
+.originalHud,
+.originalHud.right{
+  width:100%!important;
+  max-width:none!important;
+  height:120px!important;
+  min-width:0!important;
+  padding:19px 0 0!important;
+  gap:4px!important;
+  align-items:end!important;
 }
-.handCard:not(.flipped) .originalPageFront{display:flex!important}
-.handCard:not(.flipped) .originalPageBack{display:none!important}
-.handCard.flipped .originalPageFront{display:none!important}
-.handCard.flipped .originalPageBack{display:flex!important}
-
-/* Three-part HP line. Player 1 is value / HIT-POINTS / DQ. Player 2 is the
-   exact mirror: DQ / HIT-POINTS / value. The outside edge of each block lines
-   up with its two-column Momentum grid. */
+.originalHud{
+  grid-template-columns:82px minmax(94px,1fr)!important;
+}
+.originalHud.right{
+  grid-template-columns:minmax(94px,1fr) 82px!important;
+}
+.originalHud .portraitButton{grid-column:1!important;grid-row:1!important;justify-self:start!important}
+.originalHud.right .portraitButton{grid-column:2!important;grid-row:1!important;justify-self:end!important}
+.originalHud .wrestlerHead,
+.originalHud.right .wrestlerHead{
+  width:82px!important;
+  height:101px!important;
+  object-position:center top!important;
+}
+.originalHud.right .wrestlerHead{transform:scaleX(-1)!important}
 .originalHud .hudText,
-.originalHud.right .hudText{width:105px!important;max-width:105px!important}
+.originalHud.right .hudText{
+  width:96px!important;
+  max-width:96px!important;
+  min-width:96px!important;
+  align-self:end!important;
+  padding:0 0 2px!important;
+}
+.originalHud .hudText{grid-column:2!important;grid-row:1!important;justify-self:start!important;text-align:left!important}
+.originalHud.right .hudText{grid-column:1!important;grid-row:1!important;justify-self:end!important;text-align:right!important}
+.originalHud .name,
+.originalHud.right .name{
+  position:absolute!important;
+  top:1px!important;
+  width:calc(200% - 4px)!important;
+  font-size:10px!important;
+  line-height:17px!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+.originalHud .name{left:0!important;right:auto!important;text-align:left!important}
+.originalHud.right .name{left:auto!important;right:0!important;text-align:right!important}
 .originalHud .hpBlock,
 .originalHud.right .hpBlock{
-  width:105px!important;
-  display:grid!important;
-  grid-template-columns:37px 33px 35px!important;
-  column-gap:0!important;
+  width:96px!important;
+  max-width:96px!important;
+  display:flex!important;
   align-items:center!important;
-  margin:1px 0!important;
+  grid-template-columns:none!important;
+  column-gap:0!important;
+  gap:5px!important;
+  margin:1px 0 2px!important;
 }
-.originalHud .playerHpBlock{justify-self:start!important;margin-left:0!important;margin-right:auto!important}
-.originalHud.right .cpuHpBlock{justify-self:end!important;margin-left:auto!important;margin-right:0!important}
-.originalHud .playerHpBlock .hpValue{grid-column:1!important;justify-self:center!important}
-.originalHud .playerHpBlock .hpWords{grid-column:2!important;text-align:center!important;justify-self:center!important}
-.originalHud .playerHpBlock .dqTiny{grid-column:3!important;justify-self:start!important;margin:0!important}
-.originalHud.right .cpuHpBlock .dqTiny{grid-column:1!important;justify-self:end!important;margin:0!important}
-.originalHud.right .cpuHpBlock .hpWords{grid-column:2!important;text-align:center!important;justify-self:center!important}
-.originalHud.right .cpuHpBlock .hpValue{grid-column:3!important;justify-self:center!important}
-.originalHud .hpWords{display:grid!important;grid-template-rows:auto auto!important;line-height:.9!important}
-.originalHud .hpWords span{display:block!important}
-.originalHud .dqTiny{white-space:nowrap!important;font-size:6px!important;line-height:1!important}
-.originalHud:not(.right) .momentumIcons,
-.originalHud:not(.right) .limbDamage{margin-left:0!important;margin-right:auto!important}
-.originalHud.right .momentumIcons,
-.originalHud.right .limbDamage{margin-left:auto!important;margin-right:0!important}
-@media(max-width:430px){
+.originalHud .hpBlock{flex-direction:row!important;justify-content:flex-start!important}
+.originalHud.right .hpBlock{flex-direction:row!important;justify-content:flex-end!important}
+.originalHud .hpValue,
+.originalHud.right .hpValue{
+  grid-column:auto!important;
+  grid-row:auto!important;
+  justify-self:auto!important;
+  flex:0 0 auto!important;
+  font-size:20px!important;
+  line-height:1!important;
+  margin:0!important;
+}
+.originalHud .hpWords,
+.originalHud.right .hpWords{
+  grid-column:auto!important;
+  grid-row:auto!important;
+  justify-self:auto!important;
+  flex:0 0 auto!important;
+  font-size:7px!important;
+  line-height:.9!important;
+}
+.originalHud .hpWords{text-align:left!important;order:2!important}
+.originalHud .hpValue{order:1!important}
+.originalHud.right .hpWords{text-align:right!important;order:1!important}
+.originalHud.right .hpValue{order:2!important}
+.originalHud .hpWords .pointsLine,
+.originalHud.right .hpWords .pointsLine{
+  display:flex!important;
+  align-items:baseline!important;
+  gap:3px!important;
+  white-space:nowrap!important;
+}
+.originalHud .hpWords .pointsLine{justify-content:flex-start!important}
+.originalHud.right .hpWords .pointsLine{justify-content:flex-end!important}
+.originalHud .hpWords .pointsLine b{order:1!important}
+.originalHud .hpWords .pointsLine .dqTiny{order:2!important;margin:0!important}
+.originalHud.right .hpWords .pointsLine .dqTiny{order:1!important;margin:0!important}
+.originalHud.right .hpWords .pointsLine b{order:2!important}
+.originalHud .momentumIcons,
+.originalHud.right .momentumIcons{
+  width:96px!important;
+  max-width:96px!important;
+  display:grid!important;
+  grid-template-columns:47px 47px!important;
+  grid-auto-rows:18px!important;
+  gap:2px!important;
+  margin:2px 0!important;
+  justify-content:start!important;
+}
+.originalHud .momIcon,
+.originalHud.right .momIcon{
+  width:47px!important;
+  min-width:47px!important;
+  height:18px!important;
+  padding:1px!important;
+}
+.originalHud .limbDamage,
+.originalHud.right .limbDamage{
+  width:96px!important;
+  max-width:96px!important;
+  display:grid!important;
+  grid-template-columns:repeat(4,24px)!important;
+  justify-content:center!important;
+  justify-items:center!important;
+  gap:0!important;
+  margin:2px 0 0!important;
+}
+.originalHud .limbDamage span,
+.originalHud.right .limbDamage span{
+  width:24px!important;
+  min-width:24px!important;
+  padding:1px 0!important;
+  text-align:center!important;
+}
+@media(max-width:390px){
+  .portraitArena .crowdStage .status{gap:4px!important;padding-inline:3px!important}
+  .originalHud{grid-template-columns:74px minmax(88px,1fr)!important}
+  .originalHud.right{grid-template-columns:minmax(88px,1fr) 74px!important}
+  .originalHud .wrestlerHead,.originalHud.right .wrestlerHead{width:74px!important}
   .originalHud .hudText,.originalHud.right .hudText,
-  .originalHud .hpBlock,.originalHud.right .hpBlock{width:105px!important;max-width:105px!important}
+  .originalHud .hpBlock,.originalHud.right .hpBlock,
+  .originalHud .momentumIcons,.originalHud.right .momentumIcons,
+  .originalHud .limbDamage,.originalHud.right .limbDamage{width:88px!important;max-width:88px!important;min-width:88px!important}
+  .originalHud .momentumIcons,.originalHud.right .momentumIcons{grid-template-columns:43px 43px!important}
+  .originalHud .momIcon,.originalHud.right .momIcon{width:43px!important;min-width:43px!important}
+  .originalHud .limbDamage,.originalHud.right .limbDamage{grid-template-columns:repeat(4,22px)!important}
+  .originalHud .limbDamage span,.originalHud.right .limbDamage span{width:22px!important;min-width:22px!important}
 }
+
+.matchlog.alwaysOpen{display:block;max-height:none;overflow:visible}.matchlog.alwaysOpen h3{margin:0 0 8px;font-size:13px;font-weight:900}.matchlog.alwaysOpen p:last-child{border-bottom:0}
