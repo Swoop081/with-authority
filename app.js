@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.121-rebuild',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.122-rebuild',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -720,17 +720,23 @@ async function showOriginalTutorials(){
 
 
 /* v0.9.55 consolidated mobile UI and opponent-selection repair */
-function showLoginScreen(){
-  stopCrowd();stopMusic();
-  app.innerHTML=`<section class="loginScreen" aria-label="With Authority Mobile launch screen"><div class="launchPosterStage"><img class="launchPoster" src="assets/gai/LaunchPoster-v0972.png" alt="With Authority Mobile"><button id="loginPlay" class="posterPlayButton" aria-label="Play With Authority Mobile"><span class="srOnly">Play</span></button><div class="loginVersion">${VERSION}</div></div></section>`;
-  const playButton=document.getElementById('loginPlay');
-  const enterGame=()=>{
+function enterGameFromLogin(){
+  if(window.__waEnteringGame)return;
+  window.__waEnteringGame=true;
+  try{
     unlockAudio();
     if(profile.firstLaunch){profile.firstLaunch=false;saveProfile()}
     home();
-  };
-  playButton?.addEventListener('click',enterGame,{once:true});
-  playButton?.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();enterGame()}},{once:true});
+  }catch(err){
+    console.error('Unable to enter game',err);
+    window.__waEnteringGame=false;
+    alert(`The main menu could not open: ${err.message||err}`);
+  }
+}
+function showLoginScreen(){
+  stopCrowd();stopMusic();
+  window.__waEnteringGame=false;
+  app.innerHTML=`<section class="loginScreen" aria-label="With Authority Mobile launch screen"><div class="launchPosterStage"><img class="launchPoster" src="assets/gai/LaunchPoster-v0972.png" alt="With Authority Mobile"><button id="loginPlay" class="posterPlayButton" type="button" aria-label="Play With Authority Mobile" onclick="enterGameFromLogin()"><span class="srOnly">Play</span></button><div class="loginVersion">${VERSION}</div></div></section>`;
 }
 function cleanEditionLabel(s){
   const t=String((s&&((s.title||'')+' '+(s.sourceFile||'')+' '+(s.id||'')))||'').toUpperCase();
