@@ -338,14 +338,15 @@
     "name": "Body Slam",
     "description": "A powerful standing move that grounds the opponent.",
     "cardClass": "Move",
-    "damage": 4,
-    "momentumCost": 6,
+    "damage": 2,
+    "momentumCost": 2,
     "momentumGain": 1,
     "method": "Strength",
     "position": "In Close",
-    "setsPosition": "Same",
+    "setsPosition": "Grounded",
     "counters": [
-      "Mad Rush"
+      "Mad Rush",
+      "High Risk"
     ],
     "stun": 0,
     "variantEdition": "Core",
@@ -360,7 +361,7 @@
     "verifiedOriginal": false,
     "momentumType": "",
     "momentumRequirements": {
-      "Strength": 2
+      "Strength": 1
     }
   },
   {
@@ -368,12 +369,12 @@
     "name": "Back Elbow",
     "description": "A sharp close-range counter.",
     "cardClass": "Move",
-    "damage": 3,
-    "momentumCost": 2,
-    "momentumGain": 2,
-    "method": "Technical",
-    "position": "In Close",
-    "setsPosition": "Standing",
+    "damage": 4,
+    "momentumCost": 6,
+    "momentumGain": 1,
+    "method": "Strike",
+    "position": "Back To Foe",
+    "setsPosition": "Back To Foe",
     "counters": [
       "Behind Opponent"
     ],
@@ -387,7 +388,10 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Strike": 1
+    }
   },
   {
     "id": "RussianLegSweep",
@@ -395,11 +399,11 @@
     "description": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched.",
     "cardClass": "Move",
     "damage": 4,
-    "momentumCost": 5,
+    "momentumCost": 6,
     "momentumGain": 1,
     "method": "Technical",
     "position": "In Close",
-    "setsPosition": "Grounded",
+    "setsPosition": "Same",
     "counters": [
       "Behind Opponent",
       "Back To Foe"
@@ -416,7 +420,7 @@
     "certifiedVersion": "v0.9.92",
     "verifiedOriginal": false,
     "momentumRequirements": {
-      "Technical": 1
+      "Technical": 2
     },
     "modifiers": "Impact|Takedown|$MILL"
   },
@@ -425,12 +429,12 @@
     "name": "Jawbreaker",
     "description": "A sudden escape from underneath.",
     "cardClass": "Move",
-    "damage": 4,
-    "momentumCost": 4,
-    "momentumGain": 3,
+    "damage": 9,
+    "momentumCost": 5,
+    "momentumGain": 1,
     "method": "Technical",
-    "position": "Victim Below",
-    "setsPosition": "Standing",
+    "position": "In Close",
+    "setsPosition": "Same",
     "counters": [
       "Victim Below"
     ],
@@ -444,21 +448,27 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Agility": 1,
+      "Strike": 1,
+      "Technical": 1
+    }
   },
   {
     "id": "KneeLiftEX1",
     "name": "Knee Lift",
     "description": "A heavy strike that leaves the opponent staggered.",
     "cardClass": "Move",
-    "damage": 5,
-    "momentumCost": 5,
-    "momentumGain": 4,
+    "damage": 2,
+    "momentumCost": 3,
+    "momentumGain": 1,
     "method": "Strike",
     "position": "In Close",
-    "setsPosition": "Staggered",
+    "setsPosition": "In Close",
     "counters": [
-      "Arm Extended"
+      "Head Down",
+      "In Close"
     ],
     "stun": 1,
     "variantEdition": "Core",
@@ -470,18 +480,21 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Strike": 1
+    }
   },
   {
     "id": "Neckbreaker2E",
     "name": "Neckbreaker",
     "description": "A high-impact head attack from close range.",
     "cardClass": "Move",
-    "damage": 7,
-    "momentumCost": 6,
-    "momentumGain": 4,
+    "damage": 5,
+    "momentumCost": 5,
+    "momentumGain": 1,
     "method": "Technical",
-    "position": "In Close",
+    "position": "Back To Foe",
     "setsPosition": "Grounded",
     "counters": [],
     "stun": 1,
@@ -494,7 +507,11 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Knowledge": 2,
+      "Technical": 1
+    }
   },
   {
     "id": "VerticalSuplex2E",
@@ -506,7 +523,7 @@
     "momentumGain": 1,
     "method": "Strength",
     "position": "In Close",
-    "setsPosition": "Same",
+    "setsPosition": "Grounded",
     "counters": [
       "In Close"
     ],
@@ -614,13 +631,16 @@
     "name": "Clothesline",
     "description": "A charging strike that creates a rush position.",
     "cardClass": "Move",
-    "damage": 3,
-    "momentumCost": 2,
-    "momentumGain": 2,
+    "damage": 2,
+    "momentumCost": 3,
+    "momentumGain": 1,
     "method": "Strike",
-    "position": "Standing",
-    "setsPosition": "Mad Rush",
-    "counters": [],
+    "position": "Mad Rush",
+    "setsPosition": "Grounded",
+    "counters": [
+      "Hit Or Miss",
+      "Leg Extended"
+    ],
     "stun": 0,
     "variantEdition": "Core",
     "variantGroup": "clothesline",
@@ -638,12 +658,12 @@
     "name": "Elbow Drop",
     "description": "A grounded follow-up that leaves the opponent below you.",
     "cardClass": "Move",
-    "damage": 4,
-    "momentumCost": 4,
+    "damage": 9,
+    "momentumCost": 5,
     "momentumGain": 1,
-    "method": "Agility",
+    "method": "Strike",
     "position": "Hit Or Miss",
-    "setsPosition": "Grounded",
+    "setsPosition": "Same",
     "counters": [],
     "stun": 0,
     "variantEdition": "Core",
@@ -656,20 +676,25 @@
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
     "verifiedOriginal": false,
-    "momentumType": ""
+    "momentumType": "",
+    "momentumRequirements": {
+      "Strike": 2
+    }
   },
   {
     "id": "ShortArm",
     "name": "Short-Arm Clothesline",
     "description": "Pulls the opponent in and leaves them staggered.",
     "cardClass": "Move",
-    "damage": 5,
-    "momentumCost": 4,
-    "momentumGain": 3,
+    "damage": 7,
+    "momentumCost": 7,
+    "momentumGain": 1,
     "method": "Strike",
-    "position": "Arm Extended",
-    "setsPosition": "Staggered",
-    "counters": [],
+    "position": "In Close",
+    "setsPosition": "In Close",
+    "counters": [
+      "Arm Extended"
+    ],
     "stun": 1,
     "variantEdition": "Core",
     "variantGroup": "short arm clothesline",
@@ -680,19 +705,24 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Strength": 1,
+      "Strike": 3,
+      "Technical": 1
+    }
   },
   {
     "id": "IrishWhip",
     "name": "Irish Whip",
     "description": "Creates an Arm Extended opening.",
     "cardClass": "Move",
-    "damage": 1,
-    "momentumCost": 1,
-    "momentumGain": 2,
-    "method": "Technical",
-    "position": "Standing",
-    "setsPosition": "Arm Extended",
+    "damage": 5,
+    "momentumCost": 5,
+    "momentumGain": 0,
+    "method": "Strength",
+    "position": "Any",
+    "setsPosition": "Same",
     "counters": [],
     "stun": 0,
     "variantEdition": "Core",
@@ -704,7 +734,10 @@
     "sourceExact": false,
     "effectStatus": "runtime_model_verified",
     "certifiedVersion": "v0.9.92",
-    "verifiedOriginal": false
+    "verifiedOriginal": false,
+    "momentumRequirements": {
+      "Strength": 3
+    }
   },
   {
     "id": "GutKick",
@@ -737,10 +770,10 @@
     "cardClass": "Move",
     "damage": 0,
     "momentumCost": 0,
-    "momentumGain": 2,
+    "momentumGain": 1,
     "method": "Technical",
-    "position": "Standing",
-    "setsPosition": "In Close",
+    "position": "In Close",
+    "setsPosition": "Same",
     "counters": [],
     "stun": 0,
     "variantEdition": "Core",
@@ -7085,8 +7118,8 @@
   },
   {
     "id": "rockGameplan",
-    "name": "People’s Champion",
-    "description": "Gameplan: activate People’s Champion to strengthen the next attack.",
+    "name": "People\u2019s Champion",
+    "description": "Gameplan: activate People\u2019s Champion to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "rock",
     "damage": 0,
@@ -7115,14 +7148,14 @@
     "description": "TRIPLE H Trademark Finisher. A decisive signature attack.",
     "cardClass": "Trademark",
     "owner": "tripleh",
-    "damage": 9,
-    "momentumCost": 8,
-    "momentumGain": 5,
+    "damage": 10,
+    "momentumCost": 15,
+    "momentumGain": 1,
     "method": "Technical",
-    "position": "In Close",
-    "setsPosition": "Grounded",
+    "position": "Victim Below",
+    "setsPosition": "Same",
     "counters": [
-      "In Close"
+      "Head Down"
     ],
     "stun": 1,
     "finisher": true,
@@ -7170,14 +7203,16 @@
     "description": "KURT ANGLE Trademark Finisher. A decisive signature attack.",
     "cardClass": "Trademark",
     "owner": "angle",
-    "damage": 9,
-    "momentumCost": 8,
-    "momentumGain": 5,
+    "damage": 10,
+    "momentumCost": 15,
+    "momentumGain": 1,
     "method": "Technical",
-    "position": "In Close",
+    "position": "Head Down",
     "setsPosition": "Grounded",
     "counters": [
-      "In Close"
+      "Arm Extended",
+      "In Close",
+      "Back To Foe"
     ],
     "stun": 1,
     "finisher": true,
@@ -7225,15 +7260,13 @@
     "description": "CHRIS JERICHO Trademark Finisher. A decisive signature attack.",
     "cardClass": "Trademark",
     "owner": "jericho",
-    "damage": 9,
-    "momentumCost": 8,
-    "momentumGain": 5,
+    "damage": 13,
+    "momentumCost": 13,
+    "momentumGain": 2,
     "method": "Agility",
-    "position": "In Close",
+    "position": "High Risk",
     "setsPosition": "Grounded",
-    "counters": [
-      "In Close"
-    ],
+    "counters": [],
     "stun": 1,
     "finisher": true,
     "modifiers": "Finisher Trademark",
@@ -7250,8 +7283,8 @@
   },
   {
     "id": "jerichoGameplan",
-    "name": "Ayatollah of Rock ‘n’ Rolla",
-    "description": "Gameplan: activate Ayatollah of Rock ‘n’ Rolla to strengthen the next attack.",
+    "name": "Ayatollah of Rock \u2018n\u2019 Rolla",
+    "description": "Gameplan: activate Ayatollah of Rock \u2018n\u2019 Rolla to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "jericho",
     "damage": 0,
@@ -7281,14 +7314,12 @@
     "cardClass": "Trademark",
     "owner": "undertaker",
     "damage": 10,
-    "momentumCost": 8,
-    "momentumGain": 5,
+    "momentumCost": 14,
+    "momentumGain": 1,
     "method": "Strength",
     "position": "In Close",
     "setsPosition": "Grounded",
-    "counters": [
-      "In Close"
-    ],
+    "counters": [],
     "stun": 1,
     "finisher": true,
     "modifiers": "Finisher Trademark",
@@ -7415,8 +7446,8 @@
   },
   {
     "id": "bigshowGameplan",
-    "name": "World’s Largest Athlete",
-    "description": "Gameplan: activate World’s Largest Athlete to strengthen the next attack.",
+    "name": "World\u2019s Largest Athlete",
+    "description": "Gameplan: activate World\u2019s Largest Athlete to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "bigshow",
     "damage": 0,
@@ -7445,15 +7476,13 @@
     "description": "SPIKE DUDLEY Trademark Finisher. A decisive signature attack.",
     "cardClass": "Trademark",
     "owner": "spike",
-    "damage": 9,
-    "momentumCost": 8,
-    "momentumGain": 5,
+    "damage": 10,
+    "momentumCost": 15,
+    "momentumGain": 1,
     "method": "Agility",
-    "position": "In Close",
-    "setsPosition": "Grounded",
-    "counters": [
-      "In Close"
-    ],
+    "position": "Back To Foe",
+    "setsPosition": "Standing",
+    "counters": [],
     "stun": 1,
     "finisher": true,
     "modifiers": "Finisher Trademark",
@@ -7475,9 +7504,9 @@
     "cardClass": "Gameplan",
     "owner": "spike",
     "damage": 0,
-    "momentumCost": 2,
-    "momentumGain": 1,
-    "method": "Gameplan",
+    "momentumCost": 0,
+    "momentumGain": 0,
+    "method": "Attitude",
     "position": "Any",
     "setsPosition": "Same",
     "counters": [],
@@ -7530,9 +7559,9 @@
     "cardClass": "Gameplan",
     "owner": "hogan",
     "damage": 0,
-    "momentumCost": 2,
-    "momentumGain": 1,
-    "method": "Gameplan",
+    "momentumCost": 5,
+    "momentumGain": 0,
+    "method": "Attitude",
     "position": "Any",
     "setsPosition": "Same",
     "counters": [],
@@ -25843,7 +25872,8 @@
     "originalRarityId": 6,
     "originalSet": "No Way Out",
     "originalSetKey": "EX1",
-    "originalRarity": "Superstar"
+    "originalRarity": "Superstar",
+    "counters": []
   },
   {
     "id": "DistractTheReferee",
@@ -25854,7 +25884,7 @@
     "damage": 0,
     "momentumCost": 3,
     "momentumGain": 0,
-    "method": "Knowledge",
+    "method": "Attitude",
     "position": "Any",
     "setsPosition": "Same",
     "counterPositions": [],
@@ -25881,7 +25911,8 @@
     "originalRarity": "Uncommon",
     "momentumRequirements": {
       "Knowledge": 1
-    }
+    },
+    "counters": []
   },
   {
     "id": "Taunt",
@@ -25982,12 +26013,12 @@
     "name": "Tree Of Woe",
     "description": "Play only if your opponent is on the mat in the ring.\r\n\r\nIf your move this turn is an Impact mad rush move, it does +7 damage and stuns your opponent until the end of the next turn.",
     "cardClass": "Special",
-    "damage": 0,
+    "damage": 7,
     "momentumCost": 6,
     "momentumGain": 0,
-    "method": "Knowledge",
-    "position": "Any",
-    "setsPosition": "Same",
+    "method": "Technical",
+    "position": "Grounded",
+    "setsPosition": "Grounded",
     "counterPositions": [],
     "modifiers": "Damage",
     "variantEdition": "2E",
@@ -26006,7 +26037,8 @@
     "momentumRequirements": {
       "Strike": 1,
       "Technical": 1
-    }
+    },
+    "counters": []
   },
   {
     "id": "RussianLegSweep2E",
@@ -26015,11 +26047,11 @@
     "description": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched.",
     "cardClass": "Move",
     "damage": 4,
-    "momentumCost": 5,
+    "momentumCost": 6,
     "momentumGain": 1,
     "method": "Technical",
     "position": "In Close",
-    "setsPosition": "Grounded",
+    "setsPosition": "Same",
     "counterPositions": [
       "Behind Opponent",
       "Back To Foe"
@@ -26044,7 +26076,7 @@
       "Back To Foe"
     ],
     "momentumRequirements": {
-      "Technical": 1
+      "Technical": 2
     }
   },
   {
@@ -26117,7 +26149,7 @@
     "id": "HighKnee2E",
     "sourceFile": "HighKnee2E.gac",
     "name": "High Knee",
-    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move cant be countered by Strength moves.",
+    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move can\u0092t be countered by Strength moves.",
     "cardClass": "Move",
     "damage": 6,
     "momentumCost": 6,
@@ -26159,11 +26191,11 @@
     "description": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched.",
     "cardClass": "Move",
     "damage": 4,
-    "momentumCost": 5,
+    "momentumCost": 6,
     "momentumGain": 1,
     "method": "Technical",
     "position": "In Close",
-    "setsPosition": "Grounded",
+    "setsPosition": "Same",
     "counterPositions": [
       "Behind Opponent",
       "Back To Foe"
@@ -26188,7 +26220,7 @@
       "Back To Foe"
     ],
     "momentumRequirements": {
-      "Technical": 1
+      "Technical": 2
     }
   },
   {
@@ -26271,8 +26303,8 @@
     "name": "DDT",
     "description": "Counters head down moves.\r\n\r\nYour opponent's next 3 pages from playbook are ditched.",
     "cardClass": "Move",
-    "damage": 5,
-    "momentumCost": 7,
+    "damage": 4,
+    "momentumCost": 6,
     "momentumGain": 1,
     "method": "Technical",
     "position": "Victim Below",
@@ -26348,7 +26380,7 @@
     "damage": 0,
     "momentumCost": 17,
     "momentumGain": 0,
-    "method": "Knowledge",
+    "method": "Technical",
     "position": "Any",
     "setsPosition": "Same",
     "counterPositions": [],
@@ -26366,7 +26398,8 @@
     "originalRarityId": 3,
     "originalSet": "First Edition",
     "originalSetKey": "CORE",
-    "originalRarity": "Rare"
+    "originalRarity": "Rare",
+    "counters": []
   },
   {
     "id": "DDTEX1",

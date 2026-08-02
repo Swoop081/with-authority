@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.104',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.105',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -143,7 +143,8 @@ function selectableSuperstars(){
     .sort((a,b)=>superstarSortBase(a).localeCompare(superstarSortBase(b))||superstarEditionRank(a)-superstarEditionRank(b)||String(a.displayName||a.name).localeCompare(String(b.displayName||b.name)));
 }
 
-Promise.all([fetch('data/demo-cards.json').then(r=>{if(!r.ok)throw new Error('Card data failed to load');return r.json()}),fetch('data/artwork-manifest.json').then(r=>r.json()),fetch('data/authentic-starter-decks.json').then(r=>r.json()),fetch('data/starter-roster-map.json').then(r=>r.json()),fetch('data/booster-products.json').then(r=>r.json()),fetch('data/original-offline-missions.json').then(r=>r.json()),fetch('data/original-campaign-v0964.json').then(r=>r.json()),fetch('data/ai-recommended-decks.json').then(r=>r.json())]).then(([x,a,st,sm,bp,om,oc,ad])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;ORIGINAL_CAMPAIGN=oc;AI_DECKS=ad;cards=x.map(enrichCard);configureSuperstarVariants();ensureUnlockedRecommendations();showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
+const freshJson=path=>fetch(`${path}?build=0.9.105`,{cache:'no-store',headers:{'Cache-Control':'no-cache'}}).then(r=>{if(!r.ok)throw new Error(`${path} failed to load (${r.status})`);return r.json()});
+Promise.all([freshJson('data/demo-cards.json'),freshJson('data/artwork-manifest.json'),freshJson('data/authentic-starter-decks.json'),freshJson('data/starter-roster-map.json'),freshJson('data/booster-products.json'),freshJson('data/original-offline-missions.json'),freshJson('data/original-campaign-v0964.json'),freshJson('data/ai-recommended-decks.json')]).then(([x,a,st,sm,bp,om,oc,ad])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;ORIGINAL_CAMPAIGN=oc;AI_DECKS=ad;cards=x.map(enrichCard);configureSuperstarVariants();ensureUnlockedRecommendations();showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
 
 function enrichCard(c){
   const t=(c.description||'').toLowerCase(),mods=(c.modifiers||'').toLowerCase();
@@ -448,7 +449,16 @@ function flipMatchSuperstar(){if(!state?.cardOverlay)return;state.overlayFlipped
 function closeMatchSuperstar(){if(!state)return;state.cardOverlay=null;state.overlayFlipped=false;render()}
 function matchSuperstarOverlay(){if(!state?.cardOverlay)return'';const key=state.cardOverlay,s=side(key),star=SUPERSTARS[s.rosterKey||s.superKey]||SUPERSTARS[s.superKey],front=wrestlerHeadArt(s);return `<div class="matchSuperOverlay" role="dialog" aria-modal="true"><div class="matchSuperCard ${state.overlayFlipped?'flipped':''}" onclick="flipMatchSuperstar()">${state.overlayFlipped?`<div class="matchSuperBack"><h2>${esc(s.name)}</h2><div class="matchSuperMeta"><b>${s.maxHp} HP</b><span>${esc(star?.style||'')}</span></div><h3>${esc(star?.ability||'Special Ability')}</h3><p>${esc(star?.abilityText||star?.ability||'No recovered ability text.')}</p><small>Tap to view portrait</small></div>`:`<div class="matchSuperFront">${artImg(front,'matchSuperPortrait',s.name,'eager')}<strong>${esc(s.name)}</strong><small>Tap to flip</small></div>`}</div><button class="secondary compact overlayClose" onclick="event.stopPropagation();closeMatchSuperstar()">Close</button></div>`}
 function wrestlerHeadArt(s){const aliases={austin:['StoneColdHeadShot'],rock:['TheRockHeadShot'],tripleh:['TripleHHeadShot'],undertaker:['TheUndertakerHeadShot'],bigshow:['TheBigShowHeadShot','TheBigShow2EHeadShot'],hogan:['HollywoodHulkHoganHeadShot2E'],trish:['TrishStratusEX3HeadShot'],benoit:['ChrisBenoit2EHeadShot'],lita:['Lita2EHeadShot'],hbk:['ShawnMichaelsHeadShot']};const base=(s.name||'').replace(/[^a-z0-9]/gi,'');const candidates=[...(aliases[s.superKey]||[]),base+'HeadShot',base+'2EHeadShot',base+'EX3HeadShot'];for(const c of candidates){const hit=ART.assets?.[artKey(c)];if(hit)return hit.file}return starArt(s.rosterKey||s.superKey)}
-function wrestler(k){const s=side(k),head=wrestlerHeadArt(s),zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']].map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join('');const detail=k==='cpu'?`<span><small class="dqTiny">DQ: ${s.warnings||0}</small> POINTS</span>`:`<span>POINTS <small class="dqTiny">DQ: ${s.warnings||0}</small></span>`;const hp=`<div class="hpBlock"><b class="hpValue">${s.hp}</b><div class="hpWords"><span>HIT</span>${detail}</div></div>`;return `<div class="wrestler originalHud ${k==='cpu'?'right':''}"><button class="portraitButton" onclick="showMatchSuperstar('${k}')" aria-label="Open ${esc(s.name)} Superstar card">${artImg(head,'wrestlerHead',s.name,'eager')}</button><div class="hudText"><div class="name" title="${esc(s.name)}">${s.name}</div>${hp}<div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`}
+function wrestler(k){
+  const s=side(k),head=wrestlerHeadArt(s);
+  const zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']]
+    .map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join('');
+  const pointsLine=k==='cpu'
+    ? `<span class="pointsLine cpuPoints"><small class="dqTiny">DQ: ${s.warnings||0}</small><b>POINTS</b></span>`
+    : `<span class="pointsLine"><b>POINTS</b><small class="dqTiny">DQ: ${s.warnings||0}</small></span>`;
+  const hp=`<div class="hpBlock"><b class="hpValue">${s.hp}</b><div class="hpWords"><span>HIT</span>${pointsLine}</div></div>`;
+  return `<div class="wrestler originalHud ${k==='cpu'?'right':''}"><button class="portraitButton" onclick="showMatchSuperstar('${k}')" aria-label="Open ${esc(s.name)} Superstar card">${artImg(head,'wrestlerHead',s.name,'eager')}</button><div class="hudText"><div class="name" title="${esc(s.name)}">${s.name}</div>${hp}<div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`;
+}
 function togglePileFlip(){if(!state?.pile)return;state.pileFlipped=!state.pileFlipped;render()}
 function pileBackHtml(c){const cost=actualCost(c,state.pile?.owner||'player');return `<div class="pileBack originalPageBack${cardMethodClass(c)}">${originalCardBackInner(c,cost)}<em>Tap to view artwork</em></div>`}
 function pileFrontHtml(c){const cost=actualCost(c,state.pile?.owner||'player');return `<div class="pileFront originalPageFront${cardMethodClass(c)}">${originalCardFrontInner(c,cost,'pileArt')}</div>`}

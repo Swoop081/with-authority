@@ -479,3 +479,23 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
   .hpValue{font-size:18px}
   .hpWords,.hpWords .dqTiny{font-size:6px}
 }
+/* v0.9.103 HUD alignment */
+.originalHud .limbDamage,
+.originalHud.right .limbDamage{justify-content:center!important;text-align:center;width:100%}
+.originalHud.right .hpWords span:last-child{display:flex;align-items:baseline;justify-content:flex-end;gap:3px}
+
+
+/* v0.9.105 verified match HUD layout */
+.crowdStage .status{gap:12px!important}
+.originalHud:first-child{border-right:0!important}
+.originalHud .limbDamage,.originalHud.right .limbDamage{
+  display:flex!important;justify-content:center!important;align-items:center!important;
+  width:100%!important;margin:2px auto 0!important;text-align:center!important
+}
+.originalHud .limbDamage span{min-width:22px;text-align:center}
+.hpWords .pointsLine{display:flex!important;align-items:baseline!important;gap:4px!important;white-space:nowrap}
+.originalHud.right .hpWords .cpuPoints{flex-direction:row!important;justify-content:flex-end!important}
+.originalHud.right .hpWords .cpuPoints .dqTiny{order:1!important;margin:0!important}
+.originalHud.right .hpWords .cpuPoints b{order:2!important}
+.originalHud:not(.right) .hpWords .pointsLine b{order:1}
+.originalHud:not(.right) .hpWords .pointsLine .dqTiny{order:2}
