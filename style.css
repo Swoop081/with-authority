@@ -894,3 +894,29 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 
 /* v0.9.118 character-select sorting */
 .characterSelectTools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:stretch;margin-bottom:12px}.characterSelectTools .search{min-width:0}.sortControl{position:relative}.sortButton{height:100%;min-width:92px;white-space:nowrap}.sortMenu{position:absolute;right:0;top:calc(100% + 6px);z-index:40;display:grid;min-width:230px;padding:6px;background:#090909;border:2px solid #ffd54a;box-shadow:0 12px 30px #000}.sortMenu[hidden]{display:none}.sortMenu button{border:0;border-bottom:1px solid #444;border-radius:0;background:#151515;color:#fff;text-align:left;text-transform:none;padding:12px;font-weight:800}.sortMenu button:last-child{border-bottom:0}.sortMenu button:hover,.sortMenu button:focus{background:#332b0a;color:#ffd54a}@media(max-width:480px){.characterSelectTools{grid-template-columns:minmax(0,1fr) 84px}.sortButton{min-width:84px;padding-inline:8px;font-size:12px}.sortMenu{min-width:210px}}
+
+/* v0.9.120 persistent pages, choices, rarity and swipe-off UI */
+.originalArtFrame{position:relative}
+.rarityStars{position:absolute;right:3px;bottom:5px;z-index:3;display:flex;flex-direction:column;writing-mode:vertical-rl;text-orientation:upright;color:#fff;font-size:.72rem;line-height:.78;text-shadow:0 1px 2px #000,0 0 2px #000;letter-spacing:-2px}
+.ringSideControl{gap:6px;max-width:34%;flex-direction:column}
+.ringSideControl.right{align-items:flex-end}
+.persistentStack{display:flex;flex-direction:column;gap:4px;max-height:210px;overflow:auto;pointer-events:auto}
+.persistentCard{position:relative;width:48px;height:68px;padding:0;border:1px solid #ddd;background:#111;overflow:hidden;box-shadow:0 2px 7px #000}
+.persistentArt{width:100%;height:100%;object-fit:cover}
+.persistentDuration{position:absolute;right:1px;bottom:1px;min-width:17px;height:17px;border-radius:50%;display:grid;place-items:center;background:#111;color:#fff;font-size:.62rem;border:1px solid #fff}
+.hiddenCardBack{display:grid;place-items:center;width:100%;height:100%;font-size:1.6rem;background:repeating-linear-gradient(45deg,#202020,#202020 7px,#454545 7px,#454545 14px);color:#fff}
+.persistentAction{font-size:.58rem;padding:5px 6px;min-height:28px;max-width:92px;pointer-events:auto}
+.choiceOverlay{position:fixed;inset:0;z-index:1000;background:#000c;display:grid;place-items:center;padding:18px}
+.choicePanel,.persistentInspect{width:min(92vw,460px);max-height:82vh;overflow:auto;background:linear-gradient(#222,#080808);border:2px solid #e5c65b;border-radius:12px;padding:16px;box-shadow:0 12px 35px #000}
+.choicePanel h2,.choicePanel p{text-align:center}.choiceGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}
+.persistentInspect{width:min(76vw,320px)}
+.persistentInspect .originalPageBack{position:relative;display:flex;min-height:420px;transform:none!important;-webkit-transform:none!important;backface-visibility:visible!important;-webkit-backface-visibility:visible!important}
+@media(max-width:430px){.ringSideControl{max-width:31%;padding:4px}.persistentCard{width:40px;height:56px}.persistentStack{max-height:175px}.persistentAction{font-size:.52rem;padding:4px;max-width:74px}.choiceGrid{grid-template-columns:1fr 1fr}}
+.packOpeningScreen{min-height:100vh;display:grid;align-content:center;justify-items:center;gap:14px;background:radial-gradient(circle at center,#352400,#050505 62%)}
+.sealedPackStage{position:relative;width:min(58vw,270px);aspect-ratio:3/4;display:grid;place-items:center}.sealedPackArt{max-width:100%;max-height:100%;filter:drop-shadow(0 14px 18px #000)}.packBurst{position:absolute;inset:12%;border-radius:50%;box-shadow:0 0 50px 18px #fff3;animation:packPulse 1.5s infinite alternate}.packRevealCard{width:min(44vw,210px);aspect-ratio:5/7;padding:0;border:2px solid #ddd;background:#111}.packCardBack{width:100%;height:100%;display:grid;place-items:center;background:repeating-linear-gradient(45deg,#111,#111 12px,#333 12px,#333 24px);color:#fff;font-weight:900}.revealedPackCard{width:min(58vw,270px)}.rarityRevealLabel{font-size:1.15rem;font-weight:900;color:#fff;text-shadow:0 2px 8px #000}.rarity-3{background:radial-gradient(circle at center,#654500,#050505 66%)}.rarity-4{background:radial-gradient(circle at center,#8b7900,#120012 68%)}@keyframes packPulse{from{transform:scale(.92);opacity:.45}to{transform:scale(1.08);opacity:1}}
+
+/* v0.9.121 starter availability */
+.entityCard.starterUnavailable{order:9999;opacity:.68;filter:saturate(.45)}
+.entityCard.starterUnavailable .entityFront::after{content:"STARTER DECK REQUIRED";position:absolute;left:8px;right:8px;bottom:8px;padding:7px 5px;border-radius:6px;background:rgba(20,20,20,.88);color:#fff;font-size:.68rem;font-weight:900;letter-spacing:.04em;text-align:center;z-index:4}
+.entityCard.starterUnavailable .entityPortrait{filter:grayscale(.55)}
+.starterRequiredLabel{color:#ffcf55;text-transform:uppercase;letter-spacing:.035em}
