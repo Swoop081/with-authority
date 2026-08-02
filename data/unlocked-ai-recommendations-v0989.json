@@ -1,5 +1,5 @@
 {
-  "version": "v0.9.89",
+  "version": "0.9.104",
   "selectableSuperstarVersions": 54,
   "unlockedRecommendations": 54,
   "allHaveUnlockedRecommendation": true,
@@ -7,326 +7,543 @@
     {
       "superstarKey": "austin",
       "baseKey": "austin",
-      "pages": 72,
-      "sourceRecommendation": "austin-stone-cold-stunner-optimized"
+      "pages": 66,
+      "sourceRecommendation": "austin-stone-cold-stunner-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "bookert",
       "baseKey": "bookert",
       "pages": 66,
-      "sourceRecommendation": "bookert-scissors-kick-optimized"
+      "sourceRecommendation": "bookert-scissors-kick-optimized",
+      "methods": [
+        "Strike",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "christian",
       "baseKey": "christian",
       "pages": 66,
-      "sourceRecommendation": "christian-unprettier-optimized"
+      "sourceRecommendation": "christian-unprettier-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "rvd",
       "baseKey": "rvd",
-      "pages": 60,
-      "sourceRecommendation": "rvd-van-daminator-optimized"
+      "pages": 66,
+      "sourceRecommendation": "rvd-van-daminator-optimized",
+      "methods": [
+        "Strike",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "flair",
       "baseKey": "flair",
-      "pages": 72,
-      "sourceRecommendation": "flair-ric-flair-s-figure-four-optimized"
+      "pages": 66,
+      "sourceRecommendation": "flair-ric-flair-s-figure-four-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "nash",
       "baseKey": "nash",
-      "pages": 78,
-      "sourceRecommendation": "nash-new-world-order-optimized"
+      "pages": 66,
+      "sourceRecommendation": "nash-new-world-order-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "jeffhardy",
       "baseKey": "jeffhardy",
-      "pages": 60,
-      "sourceRecommendation": "jeffhardy-swanton-bomb-optimized"
+      "pages": 66,
+      "sourceRecommendation": "jeffhardy-swanton-bomb-optimized",
+      "methods": [
+        "Agility",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "matthardy",
       "baseKey": "matthardy",
-      "pages": 60,
-      "sourceRecommendation": "matthardy-twist-of-fate-optimized"
+      "pages": 66,
+      "sourceRecommendation": "matthardy-twist-of-fate-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "trish",
       "baseKey": "trish",
       "pages": 66,
-      "sourceRecommendation": "trish-stratusfaction-optimized"
+      "sourceRecommendation": "trish-stratusfaction-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "bubba",
       "baseKey": "bubba",
       "pages": 66,
-      "sourceRecommendation": "bubba-bubba-bomb-optimized"
+      "sourceRecommendation": "bubba-bubba-bomb-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "dvon",
       "baseKey": "dvon",
       "pages": 66,
-      "sourceRecommendation": "dvon-wazzzzzaaaappp-optimized"
+      "sourceRecommendation": "dvon-wazzzzzaaaappp-optimized",
+      "methods": [
+        "Strike",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "spike",
       "baseKey": "spike",
-      "pages": 60,
-      "sourceRecommendation": "spike-running-elbow-optimized"
+      "pages": 66,
+      "sourceRecommendation": "spike-running-elbow-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "bradshaw",
       "baseKey": "bradshaw",
       "pages": 66,
-      "sourceRecommendation": "bradshaw-clothesline-from-hell-optimized"
+      "sourceRecommendation": "bradshaw-clothesline-from-hell-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "goldust",
       "baseKey": "goldust",
       "pages": 66,
-      "sourceRecommendation": "goldust-curtain-call-optimized"
+      "sourceRecommendation": "goldust-curtain-call-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "lancestorm",
       "baseKey": "lancestorm",
       "pages": 66,
-      "sourceRecommendation": "lancestorm-straight-shooter-optimized"
+      "sourceRecommendation": "lancestorm-straight-shooter-optimized",
+      "methods": [
+        "Technical",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "rikishi",
       "baseKey": "rikishi",
       "pages": 66,
-      "sourceRecommendation": "rikishi-rikishi-driver-optimized"
+      "sourceRecommendation": "rikishi-rikishi-driver-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "scotty",
       "baseKey": "scotty",
-      "pages": 60,
-      "sourceRecommendation": "scotty-the-worm-optimized"
+      "pages": 66,
+      "sourceRecommendation": "scotty-the-worm-optimized",
+      "methods": [
+        "Agility",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "tajiri",
       "baseKey": "tajiri",
-      "pages": 72,
-      "sourceRecommendation": "tajiri-deathblow-l-e-optimized"
+      "pages": 66,
+      "sourceRecommendation": "tajiri-deathblow-l-e-optimized",
+      "methods": [
+        "Strike",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "tazz",
       "baseKey": "tazz",
       "pages": 66,
-      "sourceRecommendation": "tazz-tazzmission-optimized"
+      "sourceRecommendation": "tazz-tazzmission-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "test",
       "baseKey": "test",
       "pages": 66,
-      "sourceRecommendation": "test-the-big-boot-optimized"
+      "sourceRecommendation": "test-the-big-boot-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "hurricane",
       "baseKey": "hurricane",
-      "pages": 72,
-      "sourceRecommendation": "hurricane-eye-of-the-hurricane-l-e-optimized"
+      "pages": 66,
+      "sourceRecommendation": "hurricane-eye-of-the-hurricane-l-e-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "regal",
       "baseKey": "regal",
       "pages": 66,
-      "sourceRecommendation": "regal-regal-stretch-optimized"
+      "sourceRecommendation": "regal-regal-stretch-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "xpac",
       "baseKey": "xpac",
-      "pages": 60,
-      "sourceRecommendation": "xpac-x-factor-optimized"
+      "pages": 66,
+      "sourceRecommendation": "xpac-x-factor-optimized",
+      "methods": [
+        "Agility",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "alsnow",
       "baseKey": "alsnow",
       "pages": 66,
-      "sourceRecommendation": "alsnow-snow-plow-optimized"
+      "sourceRecommendation": "alsnow-snow-plow-optimized",
+      "methods": [
+        "Strength",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "blackman",
       "baseKey": "blackman",
-      "pages": 60,
-      "sourceRecommendation": "blackman-the-guillotine-optimized"
+      "pages": 66,
+      "sourceRecommendation": "blackman-the-guillotine-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "brock",
       "baseKey": "brock",
-      "pages": 60,
-      "sourceRecommendation": "brock-f5-optimized"
+      "pages": 66,
+      "sourceRecommendation": "brock-f5-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "shane",
       "baseKey": "shane",
       "pages": 66,
-      "sourceRecommendation": "shane-flying-chair-shot-optimized"
+      "sourceRecommendation": "shane-flying-chair-shot-optimized",
+      "methods": [
+        "Strike",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "hbk",
       "baseKey": "hbk",
       "pages": 66,
-      "sourceRecommendation": "hbk-sweet-chin-music-optimized"
+      "sourceRecommendation": "hbk-sweet-chin-music-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "scotthall",
       "baseKey": "scotthall",
       "pages": 66,
-      "sourceRecommendation": "scotthall-razors-edge-optimized"
+      "sourceRecommendation": "scotthall-razors-edge-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "rey",
       "baseKey": "rey",
       "pages": 66,
-      "sourceRecommendation": "rey-torito-optimized"
+      "sourceRecommendation": "rey-torito-optimized",
+      "methods": [
+        "Agility",
+        "Technical"
+      ]
     },
     {
       "superstarKey": "benoit1",
       "baseKey": "benoit",
-      "pages": 60,
-      "sourceRecommendation": "benoit-crippler-cross-face-optimized"
+      "pages": 66,
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "benoit2e",
       "baseKey": "benoit",
-      "pages": 60,
-      "sourceRecommendation": "benoit-crippler-cross-face-optimized"
+      "pages": 66,
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "jericho1",
       "baseKey": "jericho",
       "pages": 66,
-      "sourceRecommendation": "jericho-walls-of-jericho-optimized"
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized",
+      "methods": [
+        "Technical",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "jericho2e",
       "baseKey": "jericho",
       "pages": 66,
-      "sourceRecommendation": "jericho-walls-of-jericho-optimized"
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized",
+      "methods": [
+        "Technical",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "eddie1",
       "baseKey": "eddie",
       "pages": 66,
-      "sourceRecommendation": "eddie-latino-heat-optimized"
+      "sourceRecommendation": "eddie-latino-heat-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "eddie2e",
       "baseKey": "eddie",
       "pages": 66,
-      "sourceRecommendation": "eddie-latino-heat-optimized"
+      "sourceRecommendation": "eddie-latino-heat-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "edge1",
       "baseKey": "edge",
-      "pages": 72,
-      "sourceRecommendation": "edge-edgecution-optimized"
+      "pages": 66,
+      "sourceRecommendation": "edge-edgecution-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "edge2e",
       "baseKey": "edge",
-      "pages": 72,
-      "sourceRecommendation": "edge-edgecution-optimized"
+      "pages": 66,
+      "sourceRecommendation": "edge-edgecution-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "hoganNwo",
       "baseKey": "hogan",
       "pages": 66,
-      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized"
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "hogan2e",
       "baseKey": "hogan",
       "pages": 66,
-      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized"
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "angle1",
       "baseKey": "angle",
-      "pages": 60,
-      "sourceRecommendation": "angle-angle-slam-optimized"
+      "pages": 66,
+      "sourceRecommendation": "angle-angle-slam-optimized",
+      "methods": [
+        "Technical",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "angle2e",
       "baseKey": "angle",
-      "pages": 60,
-      "sourceRecommendation": "angle-angle-slam-optimized"
+      "pages": 66,
+      "sourceRecommendation": "angle-angle-slam-optimized",
+      "methods": [
+        "Technical",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "lita1",
       "baseKey": "lita",
       "pages": 66,
-      "sourceRecommendation": "lita-litacanrana-optimized"
+      "sourceRecommendation": "lita-litacanrana-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "lita2e",
       "baseKey": "lita",
       "pages": 66,
-      "sourceRecommendation": "lita-litacanrana-optimized"
+      "sourceRecommendation": "lita-litacanrana-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "bigshow1",
       "baseKey": "bigshow",
-      "pages": 72,
-      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized"
+      "pages": 66,
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "bigshow2e",
       "baseKey": "bigshow",
-      "pages": 72,
-      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized"
+      "pages": 66,
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "undertaker1",
       "baseKey": "undertaker",
-      "pages": 60,
-      "sourceRecommendation": "undertaker-stunning-blow-optimized"
+      "pages": 66,
+      "sourceRecommendation": "undertaker-stunning-blow-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "undertaker2e",
       "baseKey": "undertaker",
-      "pages": 60,
-      "sourceRecommendation": "undertaker-stunning-blow-optimized"
+      "pages": 66,
+      "sourceRecommendation": "undertaker-stunning-blow-optimized",
+      "methods": [
+        "Technical",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "tripleh1",
       "baseKey": "tripleh",
-      "pages": 60,
-      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized"
+      "pages": 66,
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "tripleh2e",
       "baseKey": "tripleh",
-      "pages": 60,
-      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized"
+      "pages": 66,
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized",
+      "methods": [
+        "Strike",
+        "Strength"
+      ]
     },
     {
       "superstarKey": "rock1",
       "baseKey": "rock",
-      "pages": 72,
-      "sourceRecommendation": "rock-rock-bottom-optimized"
+      "pages": 66,
+      "sourceRecommendation": "rock-rock-bottom-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "rock2e",
       "baseKey": "rock",
-      "pages": 72,
-      "sourceRecommendation": "rock-rock-bottom-optimized"
+      "pages": 66,
+      "sourceRecommendation": "rock-rock-bottom-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "kane1",
       "baseKey": "kane",
       "pages": 66,
-      "sourceRecommendation": "kane-choke-slam-to-hell-optimized"
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     },
     {
       "superstarKey": "kane2e",
       "baseKey": "kane",
       "pages": 66,
-      "sourceRecommendation": "kane-choke-slam-to-hell-optimized"
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized",
+      "methods": [
+        "Strength",
+        "Strike"
+      ]
     }
-  ]
+  ],
+  "rebuiltAgainst": "corrected original card statistics v0.9.103"
 }
