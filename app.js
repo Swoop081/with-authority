@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.97',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.98',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -494,18 +494,21 @@ function cardMoveType(c){
   if(original)return original;
   return pos&&!/^any$/i.test(pos)?pos:'';
 }
-function originalCardFrontInner(c,cost,artClass='cardArt'){
+function originalNameBarHtml(c,badge=''){
+  return `<div class="originalNameBar"><span>${esc(c.name)}</span>${badge?`<span class="originalCountBadge">${esc(badge)}</span>`:''}</div>`;
+}
+function originalCardFrontInner(c,cost,artClass='cardArt',badge=''){
   const moveType=cardMoveType(c);
-  return `<div class="originalNameBar">${esc(c.name)}</div><div class="originalArtFrame">${artImg(cardArt(c),`${artClass} originalCardArt`,c.name,'eager')}</div><div class="originalCostBar"><span>COST: ${cost}</span><span>DMG: ${Number(c.damage)||0}</span>${moveType?`<b>${esc(moveType)}</b>`:''}</div>`;
+  return `${originalNameBarHtml(c,badge)}<div class="originalArtFrame">${artImg(cardArt(c),`${artClass} originalCardArt`,c.name,'eager')}</div><div class="originalCostBar"><span>COST: ${cost}</span><span>DMG: ${Number(c.damage)||0}</span>${moveType?`<b>${esc(moveType)}</b>`:''}</div>`;
 }
-function originalCardBackInner(c,cost){
+function originalCardBackInner(c,cost,badge=''){
   const moveType=cardMoveType(c),method=cardMethodName(c),req=Object.entries(c.momentumRequirements||{}).map(([t,n])=>`${n} ${t}`).join(' · ');
-  return `<div class="originalNameBar">${esc(c.name)}</div><div class="originalBackMeta"><b>${esc(method)}</b><span>${esc(c.cardClass||'Page')}${c.finisher?', Finisher':''}${c.trademark?', Trademark':''}</span></div><div class="originalBackText">${c.owner?`<p><b>${esc(c.owner)}</b></p>`:''}${c.description?`<p>${esc(c.description)}</p>`:'<p>No additional recovered text.</p>'}${req?`<p><b>Requires:</b> ${esc(req)}</p>`:''}${c.counters?.length?`<p><b>Counters:</b> ${c.counters.map(esc).join(', ')}</p>`:''}</div><div class="originalCostBar"><span>COST: ${cost}</span><span>DMG: ${Number(c.damage)||0}</span>${moveType?`<b>${esc(moveType)}</b>`:''}</div>`;
+  return `${originalNameBarHtml(c,badge)}<div class="originalBackMeta"><b>${esc(method)}</b><span>${esc(c.cardClass||'Page')}${c.finisher?', Finisher':''}${c.trademark?', Trademark':''}</span></div><div class="originalBackText">${c.owner?`<p><b>${esc(c.owner)}</b></p>`:''}${c.description?`<p>${esc(c.description)}</p>`:'<p>No additional recovered text.</p>'}${req?`<p><b>Requires:</b> ${esc(req)}</p>`:''}${c.counters?.length?`<p><b>Counters:</b> ${c.counters.map(esc).join(', ')}</p>`:''}</div><div class="originalCostBar"><span>COST: ${cost}</span><span>DMG: ${Number(c.damage)||0}</span>${moveType?`<b>${esc(moveType)}</b>`:''}</div>`;
 }
-function cardBackHtml(c,cost){return `<div class="cardBack originalPageBack${cardMethodClass(c)}">${originalCardBackInner(c,cost)}</div>`}
+function cardBackHtml(c,cost,badge=''){return `<div class="cardBack originalPageBack${cardMethodClass(c)}">${originalCardBackInner(c,cost,badge)}</div>`}
 function staticOriginalCardHtml(c,badge='',extra=''){
   const cost=Number(c.momentumCost)||0;
-  return `<article class="card originalPageCard flippablePage${cardMethodClass(c)}" role="button" tabindex="0" onclick="if(!event.target.closest('button,a,input,select,textarea'))this.classList.toggle('flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.classList.toggle('flipped')}"><div class="originalPageFlip"><div class="originalPageFace originalPageFront">${originalCardFrontInner(c,cost)}${badge?`<span class="originalCountBadge">${esc(badge)}</span>`:''}</div><div class="originalPageFace originalPageBack">${originalCardBackInner(c,cost)}</div></div>${extra}</article>`;
+  return `<article class="card originalPageCard flippablePage${cardMethodClass(c)}" role="button" tabindex="0" onclick="if(!event.target.closest('button,a,input,select,textarea'))this.classList.toggle('flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.classList.toggle('flipped')}"><div class="originalPageFlip"><div class="originalPageFace originalPageFront">${originalCardFrontInner(c,cost,'cardArt',badge)}</div><div class="originalPageFace originalPageBack">${originalCardBackInner(c,cost,badge)}</div></div>${extra}</article>`;
 }
 function cardHtml(c,i){const reason=legalReason(c,'player'),ok=!reason,cost=actualCost(c,'player');return `<article class="card handCard originalPageCard ${ok?'playable':'locked'}${cardMethodClass(c)}" data-index="${i}"><div class="cardFlip originalPageFlip"><div class="cardFace cardFront originalPageFront">${originalCardFrontInner(c,cost,'cardArt matchCardArt')}</div>${cardBackHtml(c,cost)}</div><button class="playFallback" onclick="event.stopPropagation();${ok?`animateCardPlay(state.player.hand[${i}],'player',()=>play(${i}))`:`state.message='${esc(reason).replace(/'/g,"\'")}';render()`}">${ok?'Play Page':esc(reason)}</button></article>`}
 
