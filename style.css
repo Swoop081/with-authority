@@ -675,3 +675,55 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
   .originalHud .momentumIcons,.originalHud.right .momentumIcons,
   .originalHud .limbDamage,.originalHud.right .limbDamage{width:76px!important;max-width:76px!important}
 }
+
+
+/* v0.9.111 live-card back visibility and Player 1 HP alignment */
+/* Keep the live card back independent from the legacy .cardBack 3D rules. */
+.handCard .originalPageBack{
+  display:none!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:8!important;
+  opacity:1!important;
+  visibility:visible!important;
+  transform:none!important;
+  -webkit-transform:none!important;
+  backface-visibility:visible!important;
+  -webkit-backface-visibility:visible!important;
+  background:var(--page-colour,#777)!important;
+  color:#080808!important;
+  overflow:hidden!important;
+}
+.handCard.flipped .originalPageBack{display:flex!important}
+.handCard.flipped .originalPageFront{display:none!important}
+.handCard .originalPageBack .originalNameBar,
+.handCard .originalPageBack .originalBackMeta,
+.handCard .originalPageBack .originalBackText,
+.handCard .originalPageBack .originalCostBar{
+  opacity:1!important;
+  visibility:visible!important;
+  background:var(--page-colour,#777)!important;
+  color:#080808!important;
+}
+.handCard .originalPageBack .originalNameBar,
+.handCard .originalPageBack .originalCostBar{color:#fff!important}
+
+/* Player 1 only: put the HP value in the same first column as Agility. */
+.originalHud:not(.right) .hpBlock{
+  display:grid!important;
+  grid-template-columns:37px 37px!important;
+  width:76px!important;
+  column-gap:2px!important;
+  justify-self:start!important;
+  align-items:center!important;
+}
+.originalHud:not(.right) .hpValue{
+  grid-column:1!important;
+  justify-self:center!important;
+  margin:0!important;
+}
+.originalHud:not(.right) .hpWords{
+  grid-column:2!important;
+  justify-self:start!important;
+  text-align:left!important;
+}
