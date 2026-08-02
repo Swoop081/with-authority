@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.111',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.112',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -470,10 +470,9 @@ function wrestler(k){
   const s=side(k),head=wrestlerHeadArt(s);
   const zones=[['Head','H'],['Arm','A'],['Body','B'],['Leg','L']]
     .map(([z,l])=>`<span><b>${l}</b>${s.zoneDamage[z]||0}</span>`).join('');
-  const pointsLine=k==='cpu'
-    ? `<span class="pointsLine cpuPoints"><small class="dqTiny">DQ: ${s.warnings||0}</small><b>POINTS</b></span>`
-    : `<span class="pointsLine"><b>POINTS</b><small class="dqTiny">DQ: ${s.warnings||0}</small></span>`;
-  const hp=`<div class="hpBlock"><b class="hpValue">${s.hp}</b><div class="hpWords"><span>HIT</span>${pointsLine}</div></div>`;
+  const hp=k==='cpu'
+    ? `<div class="hpBlock cpuHpBlock"><small class="dqTiny">DQ: ${s.warnings||0}</small><div class="hpWords"><span>HIT</span><span>POINTS</span></div><b class="hpValue">${s.hp}</b></div>`
+    : `<div class="hpBlock playerHpBlock"><b class="hpValue">${s.hp}</b><div class="hpWords"><span>HIT</span><span>POINTS</span></div><small class="dqTiny">DQ: ${s.warnings||0}</small></div>`;
   return `<div class="wrestler originalHud ${k==='cpu'?'right':''}"><button class="portraitButton" onclick="showMatchSuperstar('${k}')" aria-label="Open ${esc(s.name)} Superstar card">${artImg(head,'wrestlerHead',s.name,'eager')}</button><div class="hudText"><div class="name" title="${esc(s.name)}">${s.name}</div>${hp}<div class="momentumIcons">${momentumIcons(s)}</div><div class="limbDamage">${zones}</div></div>${s.stun?`<span class="stun">STUN ${s.stun}</span>`:''}</div>`;
 }
 function togglePileFlip(){if(!state?.pile)return;state.pileFlipped=!state.pileFlipped;render()}

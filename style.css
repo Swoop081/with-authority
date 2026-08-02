@@ -727,3 +727,62 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
   justify-self:start!important;
   text-align:left!important;
 }
+
+
+/* v0.9.112 readable live-card backs and mirrored HP blocks */
+/* The hand-card wrapper still carries legacy 3-D classes. Override the most
+   specific historical selectors so explicit front/back display never rotates
+   or mirrors the readable back on iOS WebKit. */
+.handCard.originalPageCard.flipped > .cardFlip.originalPageFlip,
+.handCard.originalPageCard > .cardFlip.originalPageFlip,
+.handCard.flipped .cardFlip.originalPageFlip{
+  transform:none!important;
+  -webkit-transform:none!important;
+  transform-style:flat!important;
+  -webkit-transform-style:flat!important;
+}
+.handCard .originalPageFront,
+.handCard .originalPageBack{
+  transform:none!important;
+  -webkit-transform:none!important;
+  backface-visibility:visible!important;
+  -webkit-backface-visibility:visible!important;
+}
+.handCard:not(.flipped) .originalPageFront{display:flex!important}
+.handCard:not(.flipped) .originalPageBack{display:none!important}
+.handCard.flipped .originalPageFront{display:none!important}
+.handCard.flipped .originalPageBack{display:flex!important}
+
+/* Three-part HP line. Player 1 is value / HIT-POINTS / DQ. Player 2 is the
+   exact mirror: DQ / HIT-POINTS / value. The outside edge of each block lines
+   up with its two-column Momentum grid. */
+.originalHud .hudText,
+.originalHud.right .hudText{width:105px!important;max-width:105px!important}
+.originalHud .hpBlock,
+.originalHud.right .hpBlock{
+  width:105px!important;
+  display:grid!important;
+  grid-template-columns:37px 33px 35px!important;
+  column-gap:0!important;
+  align-items:center!important;
+  margin:1px 0!important;
+}
+.originalHud .playerHpBlock{justify-self:start!important;margin-left:0!important;margin-right:auto!important}
+.originalHud.right .cpuHpBlock{justify-self:end!important;margin-left:auto!important;margin-right:0!important}
+.originalHud .playerHpBlock .hpValue{grid-column:1!important;justify-self:center!important}
+.originalHud .playerHpBlock .hpWords{grid-column:2!important;text-align:center!important;justify-self:center!important}
+.originalHud .playerHpBlock .dqTiny{grid-column:3!important;justify-self:start!important;margin:0!important}
+.originalHud.right .cpuHpBlock .dqTiny{grid-column:1!important;justify-self:end!important;margin:0!important}
+.originalHud.right .cpuHpBlock .hpWords{grid-column:2!important;text-align:center!important;justify-self:center!important}
+.originalHud.right .cpuHpBlock .hpValue{grid-column:3!important;justify-self:center!important}
+.originalHud .hpWords{display:grid!important;grid-template-rows:auto auto!important;line-height:.9!important}
+.originalHud .hpWords span{display:block!important}
+.originalHud .dqTiny{white-space:nowrap!important;font-size:6px!important;line-height:1!important}
+.originalHud:not(.right) .momentumIcons,
+.originalHud:not(.right) .limbDamage{margin-left:0!important;margin-right:auto!important}
+.originalHud.right .momentumIcons,
+.originalHud.right .limbDamage{margin-left:auto!important;margin-right:0!important}
+@media(max-width:430px){
+  .originalHud .hudText,.originalHud.right .hudText,
+  .originalHud .hpBlock,.originalHud.right .hpBlock{width:105px!important;max-width:105px!important}
+}
