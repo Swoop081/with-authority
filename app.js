@@ -1,7 +1,7 @@
 'use strict';
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
-const VERSION='v0.9.98',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.99',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -764,6 +764,28 @@ function deckChoiceScreen(key){
  const recs=(AI_DECKS.decks||[]).filter(r=>r.superstar===key||r.superstar===(SUPERSTARS[key]?.baseKey||key));
  const recRows=recs.map(r=>{const owned=r.unlockedTestDeck?r.size:ownedRecommendedIds(r).length;const fin=r.finisherName||'Core strategy';const methods=(r.methods||[]).join(' / ')||'Mixed';const status=r.unlockedTestDeck?'UNLOCKED':r.starterUpgrade?'STARTER READY':owned>=55?'OWNED READY':'COLLECTION TARGET';return`<article class="aiDeckPanel"><div class="aiDeckHeader"><div><span class="waRibbon">${esc(status)}</span><h3>${esc(r.name)}</h3></div><span class="deckCount">${r.size} PAGES</span></div><div class="aiDeckFacts"><span><b>FINISHER PATH</b>${esc(fin)}</span><span><b>METHODS</b>${esc(methods)}</span><span><b>STRATEGY</b>${esc(r.strategy||'Focused match plan')}</span><span><b>AVAILABLE</b>${r.unlockedTestDeck?'All pages unlocked for testing':`${owned}/${r.size} owned`}</span></div><div class="aiDeckActions"><button class="secondary compact" type="button" onclick="inspectRecommendedDeck('${r.id}')">VIEW PAGES</button><button class="primary compact" type="button" onclick="selectRecommendedDeck('${r.id}')" ${!r.unlockedTestDeck&&owned<55?'disabled':''}>${r.unlockedTestDeck?'USE DECK':'USE OWNED'}</button></div></article>`}).join('');
  app.innerHTML=`<section class="screen originalPanelScreen"><div class="topbar"><button class="secondary compact" onclick="superstarSelect()">Back</button><b>CHOOSE PLAYBOOK</b><span>${esc(SUPERSTARS[key].name)}</span></div><div class="deckChoiceGrid"><article class="deckChoiceCard starterChoice">${artImg(starArt(key),'entityPortrait',SUPERSTARS[key].name)}<h2>AUTHENTIC STARTER</h2><p>${st.starter?.starterType==='official-product-build'?'Historically grounded Official Product Build. Not a recovered original starter.':'Exact recovered starter with its original Lead Off five.'}</p><p><b>${st.mapped}/${st.total}</b> pages resolved</p><button class="primary compact" type="button" onclick="selectStarterDeck()" ${st.ready?'':'disabled'}>USE STARTER</button></article><section class="aiRecommendationSection"><h2>AI RECOMMENDED PLAYBOOKS</h2><p class="instruction">Each build shows its intended Finisher path, two-method focus and current availability.</p>${recRows||'<p>No recommendation recovered yet.</p>'}</section><article class="deckChoiceCard"><h2>MAKE YOUR OWN</h2><p>Build a legal custom playbook with up to five copies of a page.</p><p>${custom?`${custom} saved pages`:'No saved custom playbook'}</p><button class="primary compact" type="button" onclick="${custom?'selectCustomDeck()':`deckBuilder(\'${key}\')`}">${custom?'USE CUSTOM':'BUILD DECK'}</button></article></div></section>`;
+}
+
+function opponentSelect(){
+  const options=selectableSuperstars().filter(s=>s.key!==selectedSuperstar);
+  const ready=options.filter(s=>starterStatus(s.key).ready);
+  const tiles=options.map(s=>{
+    const d=starterStatus(s.key);
+    return entityTile(
+      s,
+      `<button class="secondary compact" type="button" data-opponent="${s.key}" ${d.ready?'':'disabled'}>${d.ready?'Choose Opponent':'Incomplete'}</button>`,
+      `<p>${s.hp} HP · ${esc(s.style.toUpperCase())}</p><p class="abilityLine">${esc(s.ability)}</p><p>${d.mapped}/${d.total} starter pages ready</p>`
+    );
+  }).join('');
+  app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" type="button" onclick="deckChoiceScreen('${selectedSuperstar}')">Back</button><b>SELECT OPPONENT</b><span>${esc(SUPERSTARS[selectedSuperstar].name)}</span></div><div class="menu opponentQuick"><button id="randomOpponentButton" class="primary" type="button" ${ready.length?'':'disabled'}>Random Ready Opponent</button></div><input id="entitySearch" class="search" placeholder="Search opponents..."><div id="entityGrid" class="entityGrid">${tiles}</div></section>`;
+  document.getElementById('randomOpponentButton')?.addEventListener('click',randomOpponent);
+  document.querySelectorAll('[data-opponent]').forEach(btn=>btn.addEventListener('click',e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    selectOpponentAndStart(btn.dataset.opponent);
+  }));
+  attachEntityCardGestures();
+  attachEntitySearch();
 }
 
 function selectOpponentAndStart(key){
