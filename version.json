@@ -1,6 +1,5 @@
 {
-  "version": "0.9.136-rules-core",
-  "build": "match-start-global-helper-fix",
-  "baseline": "0.9.135-rules-core",
-  "status": "hotfix for Safari cardMethodName scope and cache consistency"
+  "version": "0.9.137-rules-core",
+  "build": "original-superstar-base-unid-fix",
+  "baseline": "v0.9.136-rules-core"
 }

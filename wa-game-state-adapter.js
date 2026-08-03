@@ -117,7 +117,7 @@ class WAGameStateAdapter {
   WAGetLastConnectedMove(who){ const a=this.cards(who,'connectedMoves'); return a[a.length-1]||null; }
   WAGetProposedMove(){ return this.state.proposedMove||this.state.pendingMove||null; }
   WAGetUNID(page){ return page?.unid??page?.UNID??page?.id??page?.sourceFile??''; }
-  WAGetBaseUNID(page){ return page?.baseUNID??page?.baseUnid??this.WAGetUNID(page); }
+  WAGetBaseUNID(page){ return page?.baseUNID??page?.baseUnid??page?.originalUNID??page?.originalUnid??this.WAGetUNID(page); }
   WAGetName(page){ return page?.name??''; }
   WAGetNAme(page){ return this.WAGetName(page); }
   WAGetNameByUNID(unid){ return this.pageByUNID(unid)?.name||''; }
