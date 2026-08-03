@@ -1,0 +1,559 @@
+{
+  "version": "v0.9.123-rebuild",
+  "evidence": "Values extracted directly from the decompressed original .gac Superstar files in WAFull(1).zip.",
+  "originalSuperstarFilesParsed": 78,
+  "baseRosterEntriesCorrected": 30,
+  "editionVariantsMappedExactly": 23,
+  "rock1Exact": {
+    "hp": 70,
+    "momentumMaximums": {
+      "Agility": 1,
+      "Knowledge": -1,
+      "Strength": -1,
+      "Strike": -1,
+      "Technical": 2
+    }
+  },
+  "changes": [
+    {
+      "key": "austin",
+      "sourceFile": "stsa.gac",
+      "before": {
+        "Agility": 4,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "rock",
+      "sourceFile": "TheRock.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 2
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      }
+    },
+    {
+      "key": "tripleh",
+      "sourceFile": "TripleH.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "undertaker",
+      "sourceFile": "TheUndertaker.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 2
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      }
+    },
+    {
+      "key": "kane",
+      "sourceFile": "Kane.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "angle",
+      "sourceFile": "KurtAngle.gac",
+      "before": {
+        "Agility": 4,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 2,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": 2,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "jericho",
+      "sourceFile": "ChrisJericho.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": 3,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": 3,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "benoit",
+      "sourceFile": "ChrisBenoit2E.gac",
+      "before": {
+        "Agility": 5,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 5,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "bigshow",
+      "sourceFile": "TheBigShow.gac",
+      "before": {
+        "Agility": 4,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 4
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": 1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 0
+      }
+    },
+    {
+      "key": "bookert",
+      "sourceFile": "BookerT.gac",
+      "before": {
+        "Agility": 2,
+        "Knowledge": 5,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 2
+      },
+      "after": {
+        "Agility": 2,
+        "Knowledge": 5,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      }
+    },
+    {
+      "key": "edge",
+      "sourceFile": "Edge.gac",
+      "before": {
+        "Agility": 2,
+        "Knowledge": 3,
+        "Strength": 3,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 2,
+        "Knowledge": 3,
+        "Strength": 3,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "christian",
+      "sourceFile": "Christian.gac",
+      "before": {
+        "Agility": 5,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 5,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "rvd",
+      "sourceFile": "RobVanDam.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": 1,
+        "Technical": 2
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": 2
+      }
+    },
+    {
+      "key": "hogan",
+      "sourceFile": "HollywoodHogan.gac",
+      "before": {
+        "Agility": 0,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "jeffhardy",
+      "sourceFile": "JeffHardy.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 4,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 5
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 0,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": 5
+      }
+    },
+    {
+      "key": "matthardy",
+      "sourceFile": "MattHardy.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "lita",
+      "sourceFile": "Lita.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 3,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 3,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "bubba",
+      "sourceFile": "BubbaRayDudley.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 5,
+        "Strike": 1,
+        "Technical": 2
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": 2
+      }
+    },
+    {
+      "key": "dvon",
+      "sourceFile": "DVonDudley.gac",
+      "before": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": 5,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "spike",
+      "sourceFile": "SpikeDudley.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "bradshaw",
+      "sourceFile": "Bradshaw.gac",
+      "before": {
+        "Agility": 0,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "goldust",
+      "sourceFile": "Goldust.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 5,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "lancestorm",
+      "sourceFile": "LanceStorm.gac",
+      "before": {
+        "Agility": 5,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 5,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "rikishi",
+      "sourceFile": "RikishiPhatu.gac",
+      "before": {
+        "Agility": 4,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 0,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "tajiri",
+      "sourceFile": "TajiriLE.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "tazz",
+      "sourceFile": "Tazz.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "test",
+      "sourceFile": "AnotherAttitudeStar.gac",
+      "before": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      }
+    },
+    {
+      "key": "hurricane",
+      "sourceFile": "TheHurricane.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "regal",
+      "sourceFile": "WilliamRegal.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      }
+    },
+    {
+      "key": "xpac",
+      "sourceFile": "XPac.gac",
+      "before": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 1,
+        "Technical": 1
+      },
+      "after": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      }
+    }
+  ]
+}
