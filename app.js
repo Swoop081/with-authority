@@ -2,7 +2,7 @@
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
 let ORIGINAL_SCRIPT_ASTS={};
-const VERSION='v0.9.134-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.136-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -436,7 +436,7 @@ function applyEndTurnRefereeEffects(k){
 function originalScriptForms(card,event){return ORIGINAL_SCRIPT_ASTS?.[String(card?.sourceFile||'')]?.[event]||null}
 function originalScriptFor(card,event){return String(card?.originalScripts?.[event]||'')}
 function liveSideKey(obj){return obj===state?.player?'player':obj===state?.cpu?'cpu':null}
-function originalPageCatalog(){const map=new Map();for(const page of cards){for(const key of [page.id,page.unid,page.baseUNID,page.sourceFile])if(key!=null)map.set(String(key),page)}return map}
+function originalPageCatalog(){const map=new Map();for(const page of cards){for(const key of [page.id,page.unid,page.baseUNID,page.originalUNID,page.sourceFile])if(key!=null)map.set(String(key),page)}return map}
 function runOriginalCardEvent(event,k,c,extraEnv={}){
   const forms=originalScriptForms(c,event);if(!forms)return {hadScript:false,executed:false,trace:[]};
   if(typeof WAInterpreter!=='function'||typeof WAGameStateAdapter!=='function')throw new Error('Original script runtime is unavailable.');
@@ -938,6 +938,8 @@ function handEntries(){
   return entries.sort((a,b)=>a.group-b.group||(b.score||0)-(a.score||0)||a.index-b.index);
 }
 function render(){if(!state)return;const p=state.player,entries=handEntries(),legalCount=entries.filter(x=>!x.reason).length,pin=state.control==='player'&&state.position==='Grounded'&&!state.hold&&(p.momentum.Attitude||0)>=p.pins;app.innerHTML=`<section class="screen arena portraitArena"><div class="crowdStage"><div class="status">${wrestler('player')}${wrestler('cpu')}</div></div><div class="positionbar"><span>MATCH POSITION</span><strong>${state.position}</strong><span>ROUND ${state.round}</span></div><div class="ring originalRing"><div class="ringSideControl left">${state.control==='player'?'<span class="turnBadge">YOUR TURN</span>':''}</div><div class="pile ${state.pile?state.pile.owner:''} ${state.pileFlipped?'flipped':''}" ${state.pile?'role="button" tabindex="0" onclick="togglePileFlip()"':''}>${state.pile?(state.pileFlipped?pileBackHtml(state.pile.card):`${pileFrontHtml(state.pile.card)}<span class="result">${state.pile.status}</span><em class="pileFlipHint">Tap for details</em>`):'PLAY PILE'}</div><div class="ringSideControl right"><button class="matchGear" aria-label="Match options" onclick="toggleMatchMenu()">⚙</button>${state.control==='cpu'?'<span class="turnBadge cpuTurn">THEIR TURN</span>':''}</div></div><div class="message">${esc(state.message)}</div>${state.hold?submissionPanel():state.awaitingCpuMoveAck?`<div class="actions contextualActions cpuAckActions">${state.player.superKey==='flair'&&hasCallableAbility(currentStar('player'))?'<button class="secondary specialAction" onclick="useAbility(\'player\')">SPECIAL: THE MAN</button>':''}<button class="secondary" onclick="acknowledgeCpuMove()">PASS</button><span>Review opponent move</span></div><div class="gestureHint">The opponent's move remains in the play pile until you continue.</div><div class="hand">${entries.map(x=>cardHtml(x.c,x.index)).join('')}</div>`:`<div class="actions contextualActions">${contextualActions(p,pin)}</div><div class="gestureHint">Tap to flip · Swipe up to play · Swipe down only during Autocounter</div><div class="hand">${entries.map(x=>cardHtml(x.c,x.index)).join('')}</div>`}<section class="matchlog alwaysOpen"><h3>Match Log</h3>${state.log.map(x=>`<p>${esc(x)}</p>`).join('')}</section>${matchMenu()}${matchSuperstarOverlay()}</section>`;attachCardGestures();ensureCpuProgress()}
+window.cardMethodName=function(c){return String(c?.method||c?.momentumType||c?.type||'').trim()};
+const cardMethodName=window.cardMethodName;
 function cardMethodClass(c){
   const raw=cardMethodName(c).toLowerCase();
   return ['agility','knowledge','strength','strike','technical','attitude'].includes(raw)?` method-${raw}`:` class-${String(c.cardClass||'page').toLowerCase()}`;

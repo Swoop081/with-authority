@@ -11,9 +11,9 @@
     "starterId": "Starter-StoneCold",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -33,9 +33,9 @@
     "starterId": "Starter-TheRock",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 2
     },
     "headShotArt": "",
@@ -55,10 +55,10 @@
     "starterId": "TripleHStarter",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
-      "Technical": -1
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "Sales-HHH.gai",
@@ -77,9 +77,9 @@
     "starterId": "Starter-TheUndertaker",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 2
     },
     "headShotArt": "",
@@ -99,9 +99,9 @@
     "starterId": "Starter-Kane",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -121,10 +121,10 @@
     "starterId": "Starter-KurtAngle",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": -1,
-      "Strength": -1,
+      "Knowledge": 1,
+      "Strength": 1,
       "Strike": 2,
-      "Technical": -1
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "Sales-KurtAngle.gai",
@@ -142,11 +142,11 @@
     "sourceFile": "ChrisJericho.gac",
     "starterId": "Starter-ChrisJericho",
     "momentumMaximums": {
-      "Agility": -1,
-      "Knowledge": -1,
+      "Agility": 1,
+      "Knowledge": 1,
       "Strength": 2,
       "Strike": 3,
-      "Technical": -1
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "Sales-ChrisJericho.gai",
@@ -165,10 +165,10 @@
     "starterId": "Starter-TheCripplerChrisBenoit",
     "momentumMaximums": {
       "Agility": 5,
-      "Knowledge": -1,
+      "Knowledge": 1,
       "Strength": 2,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "ChrisBenoit2EPlaybook.gai",
@@ -188,8 +188,8 @@
     "momentumMaximums": {
       "Agility": 0,
       "Knowledge": 1,
-      "Strength": -1,
-      "Strike": -1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 0
     },
     "headShotArt": "",
@@ -210,8 +210,8 @@
     "momentumMaximums": {
       "Agility": 2,
       "Knowledge": 5,
-      "Strength": -1,
-      "Strike": -1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 2
     },
     "headShotArt": "",
@@ -233,8 +233,8 @@
       "Agility": 2,
       "Knowledge": 3,
       "Strength": 3,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "EdgePlaybook.gai",
@@ -255,8 +255,8 @@
       "Agility": 5,
       "Knowledge": 2,
       "Strength": 2,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "ChristianPlaybook.gai",
@@ -296,10 +296,10 @@
     "sourceFile": "RobVanDam.gac",
     "starterId": "Starter-RobVanDam",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 1,
       "Strength": 2,
-      "Strike": -1,
+      "Strike": 1,
       "Technical": 2
     },
     "headShotArt": "",
@@ -342,9 +342,9 @@
     "starterId": "Starter-HulkHoganLE",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -386,10 +386,10 @@
     "sourceFile": "JeffHardy.gac",
     "starterId": "Starter-JeffHardy",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 0,
       "Strength": 1,
-      "Strike": -1,
+      "Strike": 1,
       "Technical": 5
     },
     "headShotArt": "",
@@ -408,11 +408,11 @@
     "sourceFile": "MattHardy.gac",
     "starterId": "Starter-MattHardy",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 2,
       "Strength": 2,
       "Strike": 5,
-      "Technical": -1
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "MattHardyPlaybook.gai",
@@ -430,11 +430,11 @@
     "sourceFile": "Lita.gac",
     "starterId": "Starter-Lita",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 2,
       "Strength": 1,
       "Strike": 3,
-      "Technical": -1
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "LitaPlaybook.gai",
@@ -476,9 +476,9 @@
     "starterId": "Starter-BubbaRayDudley",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
+      "Knowledge": 1,
       "Strength": 5,
-      "Strike": -1,
+      "Strike": 1,
       "Technical": 2
     },
     "headShotArt": "",
@@ -500,8 +500,8 @@
       "Agility": 2,
       "Knowledge": 2,
       "Strength": 5,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "DVonDudleyPlaybook.gai",
@@ -519,11 +519,11 @@
     "sourceFile": "SpikeDudley.gac",
     "starterId": "Starter-SpikeDudley",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 2,
       "Strength": 1,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "SpikeDudleyPlaybook.gai",
@@ -542,9 +542,9 @@
     "starterId": "Starter-Bradshaw",
     "momentumMaximums": {
       "Agility": 0,
-      "Knowledge": -1,
-      "Strength": -1,
-      "Strike": -1,
+      "Knowledge": 1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -564,10 +564,10 @@
     "starterId": "Starter-Goldust",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
+      "Knowledge": 1,
       "Strength": 5,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "GoldustPlaybook.gai",
@@ -588,8 +588,8 @@
       "Agility": 5,
       "Knowledge": 5,
       "Strength": 2,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "LanceStormPlaybook.gai",
@@ -609,8 +609,8 @@
     "momentumMaximums": {
       "Agility": 0,
       "Knowledge": 2,
-      "Strength": -1,
-      "Strike": -1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -651,11 +651,11 @@
     "sourceFile": "TajiriLE.gac",
     "starterId": "Starter-Tajiri",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 2,
       "Strength": 1,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "TajiriPlaybook.gai",
@@ -675,9 +675,9 @@
     "momentumMaximums": {
       "Agility": 1,
       "Knowledge": 1,
-      "Strength": -1,
-      "Strike": -1,
-      "Technical": -1
+      "Strength": 1,
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "Sales-Tazz.gai",
@@ -697,8 +697,8 @@
     "momentumMaximums": {
       "Agility": 2,
       "Knowledge": 2,
-      "Strength": -1,
-      "Strike": -1,
+      "Strength": 1,
+      "Strike": 1,
       "Technical": 1
     },
     "headShotArt": "",
@@ -717,11 +717,11 @@
     "sourceFile": "TheHurricane.gac",
     "starterId": "Starter-TheHurricaneLE",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 2,
       "Strength": 1,
       "Strike": 5,
-      "Technical": -1
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "TheHurricanePlaybook.gai",
@@ -740,10 +740,10 @@
     "starterId": "Starter-WilliamRegal3",
     "momentumMaximums": {
       "Agility": 1,
-      "Knowledge": -1,
+      "Knowledge": 1,
       "Strength": 2,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "WilliamRegalPlaybook.gai",
@@ -761,11 +761,11 @@
     "sourceFile": "XPac.gac",
     "starterId": "Starter-XPac",
     "momentumMaximums": {
-      "Agility": -1,
+      "Agility": 1,
       "Knowledge": 1,
       "Strength": 1,
-      "Strike": -1,
-      "Technical": -1
+      "Strike": 1,
+      "Technical": 1
     },
     "headShotArt": "",
     "playbookArt": "Sales-XPac.gai",
@@ -793,7 +793,7 @@
     "playbookArt": "Sales-AlSnow.gai",
     "abilityImplemented": true,
     "passiveImplemented": false,
-    "starterStatus": "recovered"
+    "starterStatus": "recovered-authentic-bonus-starter"
   },
   "blackman": {
     "key": "blackman",
@@ -816,7 +816,7 @@
     "playbookArt": "Sales-SteveBlackman.gai",
     "abilityImplemented": true,
     "passiveImplemented": false,
-    "starterStatus": "recovered"
+    "starterStatus": "recovered-authentic-bonus-starter"
   },
   "brock": {
     "key": "brock",

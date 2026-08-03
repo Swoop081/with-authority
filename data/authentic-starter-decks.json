@@ -1,5 +1,5 @@
 {
-  "version": "0.9.124-rebuild",
+  "version": "0.9.77",
   "count": 70,
   "starters": [
     {
@@ -586,52 +586,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 97,
-          "id": "OriginalVariant_DoubleLegTakedown",
-          "name": "Double Leg Takedown",
-          "edition": "Core",
-          "source": "DoubleLegTakedown.gac"
-        },
-        {
-          "index": 3,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BookerT",
@@ -1257,52 +1214,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 76,
+      "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 6,
-          "id": "OriginalMomentumAgility",
-          "name": "Agility",
-          "edition": "Core",
-          "source": "Agility1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 337,
-          "id": "OriginalExact_CollarAndElbowTieup",
-          "name": "Collar And Elbow Tieup",
-          "edition": "Core",
-          "source": "CollarAndElbowTieup.gac"
-        },
-        {
-          "index": 5,
-          "unid": 91,
-          "id": "AtomicDrop",
-          "name": "Atomic Drop",
-          "edition": "Core",
-          "source": "AtomicDrop.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BookerT2",
@@ -1912,52 +1826,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 567,
-          "id": "OriginalExact_InterviewWithMichaelCole",
-          "name": "Interview With Michael Cole",
-          "edition": "Core",
-          "source": "InterviewWithMichaelCole.gac"
-        },
-        {
-          "index": 2,
-          "unid": 646,
-          "id": "KnowledgeEX2",
-          "name": "Knowledge",
-          "edition": "EX2",
-          "source": "KnowledgeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 829,
-          "id": "Original_Hammerlock2E",
-          "name": "Hammerlock",
-          "edition": "2E",
-          "source": "Hammerlock2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BookerTEX2",
@@ -2567,52 +2438,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 567,
-          "id": "OriginalExact_InterviewWithMichaelCole",
-          "name": "Interview With Michael Cole",
-          "edition": "Core",
-          "source": "InterviewWithMichaelCole.gac"
-        },
-        {
-          "index": 2,
-          "unid": 646,
-          "id": "KnowledgeEX2",
-          "name": "Knowledge",
-          "edition": "EX2",
-          "source": "KnowledgeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 28,
-          "id": "ArmDragTakedown",
-          "name": "Arm Drag Takedown",
-          "edition": "Core",
-          "source": "ArmDragTakedown.gac"
-        },
-        {
-          "index": 4,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 195,
-          "id": "Hammerlock",
-          "name": "Hammerlock",
-          "edition": "Core",
-          "source": "Hammerlock.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Bradshaw",
@@ -3198,52 +3026,9 @@
           "cardId": "OriginalVariant_TechnicalEX3"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1102,
-          "id": "ShoulderBlockEX3",
-          "name": "Shoulder Block E X3",
-          "edition": "EX3",
-          "source": "ShoulderBlockEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1009,
-          "id": "EuropeanUppercutEX3",
-          "name": "European Uppercut",
-          "edition": "EX3",
-          "source": "EuropeanUppercutEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1164,
-          "id": "OriginalVariant_StrengthEX3",
-          "name": "Strength",
-          "edition": "EX3",
-          "source": "StrengthEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BubbaEX2",
@@ -3845,52 +3630,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 696,
-          "id": "Original_FiremansCarryEX2",
-          "name": "Fireman's Carry",
-          "edition": "EX2",
-          "source": "FiremansCarryEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 337,
-          "id": "OriginalExact_CollarAndElbowTieup",
-          "name": "Collar And Elbow Tieup",
-          "edition": "Core",
-          "source": "CollarAndElbowTieup.gac"
-        },
-        {
-          "index": 3,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BubbaRayDudley",
@@ -4516,52 +4258,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 76,
+      "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 90,
-          "id": "ArmbarTakedown",
-          "name": "Armbar Takedown",
-          "edition": "Core",
-          "source": "ArmbarTakedown.gac"
-        },
-        {
-          "index": 2,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 3,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-BubbaRayDudley2",
@@ -5163,52 +4862,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 696,
-          "id": "Original_FiremansCarryEX2",
-          "name": "Fireman's Carry",
-          "edition": "EX2",
-          "source": "FiremansCarryEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-ChrisBenoit2E",
@@ -5818,52 +5474,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 771,
-          "id": "Original_ArmbarTakedown2E",
-          "name": "Armbar Takedown",
-          "edition": "2E",
-          "source": "ArmbarTakedown2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-ChrisJericho",
@@ -6449,52 +6062,9 @@
           "cardId": "OriginalMomentumStrength"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 6,
-          "id": "OriginalMomentumAgility",
-          "name": "Agility",
-          "edition": "Core",
-          "source": "Agility1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 67,
-          "id": "Headlock",
-          "name": "Headlock",
-          "edition": "Core",
-          "source": "Headlock.gac"
-        },
-        {
-          "index": 5,
-          "unid": 35,
-          "id": "Original_Dodge",
-          "name": "Dodge",
-          "edition": "Core",
-          "source": "Dodge.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-ChrisJericho2E",
@@ -7080,52 +6650,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 745,
-          "id": "Agility2E",
-          "name": "Agility",
-          "edition": "2E",
-          "source": "Agility2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 771,
-          "id": "Original_ArmbarTakedown2E",
-          "name": "Armbar Takedown",
-          "edition": "2E",
-          "source": "ArmbarTakedown2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Christian",
@@ -7727,52 +7254,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 98,
-          "id": "EarClap",
-          "name": "Ear Clap",
-          "edition": "Core",
-          "source": "EarClap.gac"
-        },
-        {
-          "index": 2,
-          "unid": 28,
-          "id": "ArmDragTakedown",
-          "name": "Arm Drag Takedown",
-          "edition": "Core",
-          "source": "ArmDragTakedown.gac"
-        },
-        {
-          "index": 3,
-          "unid": 646,
-          "id": "KnowledgeEX2",
-          "name": "Knowledge",
-          "edition": "EX2",
-          "source": "KnowledgeEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Christian2",
@@ -8374,52 +7858,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 646,
-          "id": "KnowledgeEX2",
-          "name": "Knowledge",
-          "edition": "EX2",
-          "source": "KnowledgeEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-DVon",
@@ -9021,52 +8462,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 499,
-          "id": "BubbaRayV095",
-          "name": "Half-Brother Bubba Ray",
-          "edition": "Core",
-          "source": "BubbaRay.gac"
-        },
-        {
-          "index": 2,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 337,
-          "id": "OriginalExact_CollarAndElbowTieup",
-          "name": "Collar And Elbow Tieup",
-          "edition": "Core",
-          "source": "CollarAndElbowTieup.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-DVonDudley2",
@@ -9668,52 +9066,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 499,
-          "id": "BubbaRayV095",
-          "name": "Half-Brother Bubba Ray",
-          "edition": "Core",
-          "source": "BubbaRay.gac"
-        },
-        {
-          "index": 2,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-EddieGuerrero",
@@ -10299,52 +9654,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 67,
-          "id": "Headlock",
-          "name": "Headlock",
-          "edition": "Core",
-          "source": "Headlock.gac"
-        },
-        {
-          "index": 3,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        },
-        {
-          "index": 4,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-EddieGuerrero2E",
@@ -10946,52 +10258,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Edge",
@@ -11593,52 +10862,9 @@
           "cardId": "AgilityEX1"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 321,
-          "id": "AgilityEX1",
-          "name": "Agility",
-          "edition": "EX1",
-          "source": "AgilityEX1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 321,
-          "id": "AgilityEX1",
-          "name": "Agility",
-          "edition": "EX1",
-          "source": "AgilityEX1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 325,
-          "id": "TechnicalEX1",
-          "name": "Technical",
-          "edition": "EX1",
-          "source": "TechnicalEX1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 182,
-          "id": "original-duck",
-          "name": "Duck",
-          "edition": "Core",
-          "source": "Duck.gac"
-        },
-        {
-          "index": 5,
-          "unid": 55,
-          "id": "ShoulderBlock",
-          "name": "Shoulder Block",
-          "edition": "Core",
-          "source": "ShoulderBlock.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Edge2E",
@@ -12248,52 +11474,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-EdgeGift",
@@ -12895,52 +12078,9 @@
           "cardId": "StrikeEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 890,
-          "id": "Original_SnapMare2E",
-          "name": "Snap Mare",
-          "edition": "2E",
-          "source": "SnapMare2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Goldust",
@@ -13542,52 +12682,9 @@
           "cardId": "OriginalVariant_TechnicalEX3"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1164,
-          "id": "OriginalVariant_StrengthEX3",
-          "name": "Strength",
-          "edition": "EX3",
-          "source": "StrengthEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1163,
-          "id": "OriginalVariant_KnowledgeEX3",
-          "name": "Knowledge",
-          "edition": "EX3",
-          "source": "KnowledgeEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1128,
-          "id": "OriginalExact_ArmDragTakedownEX3",
-          "name": "Arm Drag Takedown",
-          "edition": "EX3",
-          "source": "ArmDragTakedownEX3.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-HulkHogan2E",
@@ -14173,52 +13270,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 822,
-          "id": "ForearmSmash2E",
-          "name": "Forearm Smash",
-          "edition": "2E",
-          "source": "ForearmSmash2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-HulkHoganLE",
@@ -14796,52 +13850,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 647,
-          "id": "StrengthEX2",
-          "name": "Strength",
-          "edition": "EX2",
-          "source": "StrengthEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 822,
-          "id": "ForearmSmash2E",
-          "name": "Forearm Smash",
-          "edition": "2E",
-          "source": "ForearmSmash2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-JeffHardy",
@@ -15467,52 +14478,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 76,
+      "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 4,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 44,
-          "id": "Original_FistDrop",
-          "name": "Fist Drop",
-          "edition": "Core",
-          "source": "FistDrop.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-JeffHardy2",
@@ -16114,52 +15082,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 596,
-          "id": "RoundKickEX2",
-          "name": "Round Kick E X2",
-          "edition": "EX2",
-          "source": "RoundKickEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 822,
-          "id": "ForearmSmash2E",
-          "name": "Forearm Smash",
-          "edition": "2E",
-          "source": "ForearmSmash2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-JeffHardyEX2",
@@ -16761,52 +15686,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 45,
-          "id": "ForearmSmash",
-          "name": "Forearm Smash",
-          "edition": "Core",
-          "source": "ForearmSmash.gac"
-        },
-        {
-          "index": 5,
-          "unid": 596,
-          "id": "RoundKickEX2",
-          "name": "Round Kick E X2",
-          "edition": "EX2",
-          "source": "RoundKickEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Kane",
@@ -17400,52 +16282,9 @@
           "cardId": "OriginalMomentumAgility"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 100,
-          "id": "EuropeanUppercut",
-          "name": "European Uppercut",
-          "edition": "Core",
-          "source": "EuropeanUppercut.gac"
-        },
-        {
-          "index": 4,
-          "unid": 35,
-          "id": "Original_Dodge",
-          "name": "Dodge",
-          "edition": "Core",
-          "source": "Dodge.gac"
-        },
-        {
-          "index": 5,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Kane2E",
@@ -18047,52 +16886,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 733,
-          "id": "OriginalExact_TestOfStrength",
-          "name": "Test Of Strength",
-          "edition": "Core",
-          "source": "TestOfStrength.gac"
-        },
-        {
-          "index": 5,
-          "unid": 918,
-          "id": "RoundKick2E",
-          "name": "Round Kick",
-          "edition": "2E",
-          "source": "RoundKick2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-KevinNash",
@@ -18694,52 +17490,9 @@
           "cardId": "OriginalVariant_TechnicalEX3"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 918,
-          "id": "RoundKick2E",
-          "name": "Round Kick",
-          "edition": "2E",
-          "source": "RoundKick2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-KurtAngle",
@@ -19333,52 +18086,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 195,
-          "id": "Hammerlock",
-          "name": "Hammerlock",
-          "edition": "Core",
-          "source": "Hammerlock.gac"
-        },
-        {
-          "index": 2,
-          "unid": 35,
-          "id": "Original_Dodge",
-          "name": "Dodge",
-          "edition": "Core",
-          "source": "Dodge.gac"
-        },
-        {
-          "index": 3,
-          "unid": 182,
-          "id": "original-duck",
-          "name": "Duck",
-          "edition": "Core",
-          "source": "Duck.gac"
-        },
-        {
-          "index": 4,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-KurtAngle2E",
@@ -19980,52 +18690,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-LanceStorm",
@@ -20627,52 +19294,9 @@
           "cardId": "OriginalVariant_StrikeEX3"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1163,
-          "id": "OriginalVariant_KnowledgeEX3",
-          "name": "Knowledge",
-          "edition": "EX3",
-          "source": "KnowledgeEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1164,
-          "id": "OriginalVariant_StrengthEX3",
-          "name": "Strength",
-          "edition": "EX3",
-          "source": "StrengthEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Lita",
@@ -21282,52 +19906,9 @@
           "cardId": "StrengthEX1"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 325,
-          "id": "TechnicalEX1",
-          "name": "Technical",
-          "edition": "EX1",
-          "source": "TechnicalEX1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 325,
-          "id": "TechnicalEX1",
-          "name": "Technical",
-          "edition": "EX1",
-          "source": "TechnicalEX1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 321,
-          "id": "AgilityEX1",
-          "name": "Agility",
-          "edition": "EX1",
-          "source": "AgilityEX1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 337,
-          "id": "OriginalExact_CollarAndElbowTieup",
-          "name": "Collar And Elbow Tieup",
-          "edition": "Core",
-          "source": "CollarAndElbowTieup.gac"
-        },
-        {
-          "index": 5,
-          "unid": 402,
-          "id": "OriginalExact_TheFansComeAlive",
-          "name": "The Fans Come Alive",
-          "edition": "Core",
-          "source": "TheFansComeAlive.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Lita2E",
@@ -21905,52 +20486,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 822,
-          "id": "ForearmSmash2E",
-          "name": "Forearm Smash",
-          "edition": "2E",
-          "source": "ForearmSmash2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 822,
-          "id": "ForearmSmash2E",
-          "name": "Forearm Smash",
-          "edition": "2E",
-          "source": "ForearmSmash2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-MattHardy",
@@ -22552,52 +21090,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 337,
-          "id": "OriginalExact_CollarAndElbowTieup",
-          "name": "Collar And Elbow Tieup",
-          "edition": "Core",
-          "source": "CollarAndElbowTieup.gac"
-        },
-        {
-          "index": 5,
-          "unid": 713,
-          "id": "OriginalExact_SupportFromLita",
-          "name": "Support From Lita",
-          "edition": "Core",
-          "source": "SupportFromLita.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-MattHardy2",
@@ -23199,52 +21694,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 713,
-          "id": "OriginalExact_SupportFromLita",
-          "name": "Support From Lita",
-          "edition": "Core",
-          "source": "SupportFromLita.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-RicFlair",
@@ -23838,52 +22290,9 @@
           "cardId": "OriginalVariant_StrikeEX3"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1163,
-          "id": "OriginalVariant_KnowledgeEX3",
-          "name": "Knowledge",
-          "edition": "EX3",
-          "source": "KnowledgeEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 832,
-          "id": "original-headlock2e",
-          "name": "Headlock",
-          "edition": "2E",
-          "source": "Headlock2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1164,
-          "id": "OriginalVariant_StrengthEX3",
-          "name": "Strength",
-          "edition": "EX3",
-          "source": "StrengthEX3.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-RicFlairLE",
@@ -24485,52 +22894,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1053,
-          "id": "RicFlairsChopLE",
-          "name": "Ric Flairs Chop L E",
-          "edition": "LE",
-          "source": "RicFlairsChopLE.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-RobVanDam",
@@ -25132,52 +23498,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 58,
-          "id": "Slap",
-          "name": "Slap",
-          "edition": "Core",
-          "source": "Slap.gac"
-        },
-        {
-          "index": 4,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 115,
-          "id": "RoundKick",
-          "name": "Round Kick",
-          "edition": "Core",
-          "source": "RoundKick.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-RobVanDam2",
@@ -25779,52 +24102,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 890,
-          "id": "Original_SnapMare2E",
-          "name": "Snap Mare",
-          "edition": "2E",
-          "source": "SnapMare2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 893,
-          "id": "OriginalExact_Splash2E",
-          "name": "Splash",
-          "edition": "2E",
-          "source": "Splash2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-RobVanDamEX2",
@@ -26426,52 +24706,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 3,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 5,
-          "unid": 15,
-          "id": "Original_Splash_Core",
-          "name": "Splash",
-          "edition": "First Edition",
-          "source": "splash.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Scotty2Hotty",
@@ -27065,52 +25302,9 @@
           "cardId": "StrengthEX1"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 324,
-          "id": "StrikeEX1",
-          "name": "Strike",
-          "edition": "EX1",
-          "source": "StrikeEX1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 324,
-          "id": "StrikeEX1",
-          "name": "Strike",
-          "edition": "EX1",
-          "source": "StrikeEX1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 325,
-          "id": "TechnicalEX1",
-          "name": "Technical",
-          "edition": "EX1",
-          "source": "TechnicalEX1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 5,
-          "unid": 44,
-          "id": "Original_FistDrop",
-          "name": "Fist Drop",
-          "edition": "Core",
-          "source": "FistDrop.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-SpikeDudley",
@@ -27712,52 +25906,9 @@
           "cardId": "OriginalVariant_AgilityEX3"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1163,
-          "id": "OriginalVariant_KnowledgeEX3",
-          "name": "Knowledge",
-          "edition": "EX3",
-          "source": "KnowledgeEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1164,
-          "id": "OriginalVariant_StrengthEX3",
-          "name": "Strength",
-          "edition": "EX3",
-          "source": "StrengthEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-StoneCold",
@@ -28343,52 +26494,9 @@
           "cardId": "OriginalMomentumAgility"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 44,
-          "id": "Original_FistDrop",
-          "name": "Fist Drop",
-          "edition": "Core",
-          "source": "FistDrop.gac"
-        },
-        {
-          "index": 2,
-          "unid": 67,
-          "id": "Headlock",
-          "name": "Headlock",
-          "edition": "Core",
-          "source": "Headlock.gac"
-        },
-        {
-          "index": 3,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 4,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Tajiri",
@@ -28990,52 +27098,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 890,
-          "id": "Original_SnapMare2E",
-          "name": "Snap Mare",
-          "edition": "2E",
-          "source": "SnapMare2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 819,
-          "id": "Original_FistDrop2E",
-          "name": "Fist Drop",
-          "edition": "2E",
-          "source": "FistDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Tazz",
@@ -29613,52 +27678,9 @@
           "cardId": "OriginalMomentumKnowledge"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 104,
-          "id": "Original_FlatOfTheFoot",
-          "name": "Flat of the Foot",
-          "edition": "Core",
-          "source": "FlatOfTheFoot.gac"
-        },
-        {
-          "index": 4,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 5,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Test",
@@ -30284,52 +28306,9 @@
           "cardId": "SavageElbow"
         }
       ],
-      "mappedPlayable": 76,
+      "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 321,
-          "id": "AgilityEX1",
-          "name": "Agility",
-          "edition": "EX1",
-          "source": "AgilityEX1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 321,
-          "id": "AgilityEX1",
-          "name": "Agility",
-          "edition": "EX1",
-          "source": "AgilityEX1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 325,
-          "id": "TechnicalEX1",
-          "name": "Technical",
-          "edition": "EX1",
-          "source": "TechnicalEX1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 59,
-          "id": "SnapMare",
-          "name": "Snap Mare",
-          "edition": "Core",
-          "source": "SnapMare.gac"
-        },
-        {
-          "index": 5,
-          "unid": 15,
-          "id": "Original_Splash_Core",
-          "name": "Splash",
-          "edition": "First Edition",
-          "source": "splash.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-Test2",
@@ -30931,52 +28910,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 519,
-          "id": "Original_ArmDragTakedownEX2",
-          "name": "Arm Drag Takedown",
-          "edition": "EX2",
-          "source": "ArmDragTakedownEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 733,
-          "id": "OriginalExact_TestOfStrength",
-          "name": "Test Of Strength",
-          "edition": "Core",
-          "source": "TestOfStrength.gac"
-        },
-        {
-          "index": 3,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TestEX2",
@@ -31570,52 +29506,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 519,
-          "id": "Original_ArmDragTakedownEX2",
-          "name": "Arm Drag Takedown",
-          "edition": "EX2",
-          "source": "ArmDragTakedownEX2.gac"
-        },
-        {
-          "index": 2,
-          "unid": 733,
-          "id": "OriginalExact_TestOfStrength",
-          "name": "Test Of Strength",
-          "edition": "Core",
-          "source": "TestOfStrength.gac"
-        },
-        {
-          "index": 3,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 642,
-          "id": "AgilityEX2",
-          "name": "Agility",
-          "edition": "EX2",
-          "source": "AgilityEX2.gac"
-        },
-        {
-          "index": 5,
-          "unid": 653,
-          "id": "TechnicalEX2",
-          "name": "Technical",
-          "edition": "EX2",
-          "source": "TechnicalEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheBigShow",
@@ -32201,52 +30094,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 28,
-          "id": "ArmDragTakedown",
-          "name": "Arm Drag Takedown",
-          "edition": "Core",
-          "source": "ArmDragTakedown.gac"
-        },
-        {
-          "index": 5,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheBigShow2E",
@@ -32848,52 +30698,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheCripplerChrisBenoit",
@@ -33503,52 +31310,9 @@
           "cardId": "OriginalMomentumStrength"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 115,
-          "id": "RoundKick",
-          "name": "Round Kick",
-          "edition": "Core",
-          "source": "RoundKick.gac"
-        },
-        {
-          "index": 4,
-          "unid": 55,
-          "id": "ShoulderBlock",
-          "name": "Shoulder Block",
-          "edition": "Core",
-          "source": "ShoulderBlock.gac"
-        },
-        {
-          "index": 5,
-          "unid": 35,
-          "id": "Original_Dodge",
-          "name": "Dodge",
-          "edition": "Core",
-          "source": "Dodge.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheHurricane",
@@ -34134,52 +31898,9 @@
           "cardId": "OriginalVariant_StrikeEX3"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1162,
-          "id": "OriginalVariant_AgilityEX3",
-          "name": "Agility",
-          "edition": "EX3",
-          "source": "AgilityEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1163,
-          "id": "OriginalVariant_KnowledgeEX3",
-          "name": "Knowledge",
-          "edition": "EX3",
-          "source": "KnowledgeEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 890,
-          "id": "Original_SnapMare2E",
-          "name": "Snap Mare",
-          "edition": "2E",
-          "source": "SnapMare2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 1128,
-          "id": "OriginalExact_ArmDragTakedownEX3",
-          "name": "Arm Drag Takedown",
-          "edition": "EX3",
-          "source": "ArmDragTakedownEX3.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheHurricaneLE",
@@ -34781,52 +32502,9 @@
           "cardId": "Strength2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheRock",
@@ -35396,52 +33074,9 @@
           "cardId": "OriginalMomentumAgility"
         }
       ],
-      "mappedPlayable": 69,
+      "mappedPlayable": 70,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 6,
-          "id": "OriginalMomentumAgility",
-          "name": "Agility",
-          "edition": "Core",
-          "source": "Agility1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 97,
-          "id": "OriginalVariant_DoubleLegTakedown",
-          "name": "Double Leg Takedown",
-          "edition": "Core",
-          "source": "DoubleLegTakedown.gac"
-        },
-        {
-          "index": 5,
-          "unid": 67,
-          "id": "Headlock",
-          "name": "Headlock",
-          "edition": "Core",
-          "source": "Headlock.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheRock2E",
@@ -36051,52 +33686,9 @@
           "cardId": "TechnicalEX2"
         }
       ],
-      "mappedPlayable": 74,
+      "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 567,
-          "id": "OriginalExact_InterviewWithMichaelCole",
-          "name": "Interview With Michael Cole",
-          "edition": "Core",
-          "source": "InterviewWithMichaelCole.gac"
-        },
-        {
-          "index": 2,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 646,
-          "id": "KnowledgeEX2",
-          "name": "Knowledge",
-          "edition": "EX2",
-          "source": "KnowledgeEX2.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 648,
-          "id": "StrikeEX2",
-          "name": "Strike",
-          "edition": "EX2",
-          "source": "StrikeEX2.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheRock2EnoLE",
@@ -36698,52 +34290,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheUndertaker",
@@ -37337,52 +34886,9 @@
           "cardId": "OriginalMomentumTechnical"
         }
       ],
-      "mappedPlayable": 72,
+      "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 115,
-          "id": "RoundKick",
-          "name": "Round Kick",
-          "edition": "Core",
-          "source": "RoundKick.gac"
-        },
-        {
-          "index": 4,
-          "unid": 100,
-          "id": "EuropeanUppercut",
-          "name": "European Uppercut",
-          "edition": "Core",
-          "source": "EuropeanUppercut.gac"
-        },
-        {
-          "index": 5,
-          "unid": 182,
-          "id": "original-duck",
-          "name": "Duck",
-          "edition": "Core",
-          "source": "Duck.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TheUndertaker2E",
@@ -37960,52 +35466,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 744,
-          "id": "OriginalExact_CollarAndElbowTieup2E",
-          "name": "Collar And Elbow Tieup",
-          "edition": "2E",
-          "source": "CollarAndElbowTieup2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TripleH2E",
@@ -38583,52 +36046,9 @@
           "cardId": "Strike2E"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 747,
-          "id": "Strength2E",
-          "name": "Strength",
-          "edition": "2E",
-          "source": "Strength2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 746,
-          "id": "Knowledge2E",
-          "name": "Knowledge",
-          "edition": "2E",
-          "source": "Knowledge2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 750,
-          "id": "Original_ArmDragTakedown2E",
-          "name": "Arm Drag Takedown",
-          "edition": "2E",
-          "source": "ArmDragTakedown2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 778,
-          "id": "Original_AtomicDrop2E",
-          "name": "Atomic Drop",
-          "edition": "2E",
-          "source": "AtomicDrop2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TrishStratus",
@@ -39230,52 +36650,9 @@
           "cardId": "OriginalVariant_TechnicalEX3"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 2,
-          "unid": 1165,
-          "id": "OriginalVariant_StrikeEX3",
-          "name": "Strike",
-          "edition": "EX3",
-          "source": "StrikeEX3.gac"
-        },
-        {
-          "index": 3,
-          "unid": 1166,
-          "id": "OriginalVariant_TechnicalEX3",
-          "name": "Technical",
-          "edition": "EX3",
-          "source": "TechnicalEX3.gac"
-        },
-        {
-          "index": 4,
-          "unid": 918,
-          "id": "RoundKick2E",
-          "name": "Round Kick",
-          "edition": "2E",
-          "source": "RoundKick2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-TrishStratusLE",
@@ -39877,52 +37254,9 @@
           "cardId": "Technical2E"
         }
       ],
-      "mappedPlayable": 73,
+      "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 2,
-          "unid": 748,
-          "id": "Strike2E",
-          "name": "Strike",
-          "edition": "2E",
-          "source": "Strike2E.gac"
-        },
-        {
-          "index": 3,
-          "unid": 749,
-          "id": "Technical2E",
-          "name": "Technical",
-          "edition": "2E",
-          "source": "Technical2E.gac"
-        },
-        {
-          "index": 4,
-          "unid": 918,
-          "id": "RoundKick2E",
-          "name": "Round Kick",
-          "edition": "2E",
-          "source": "RoundKick2E.gac"
-        },
-        {
-          "index": 5,
-          "unid": 886,
-          "id": "Slap2E",
-          "name": "Slap",
-          "edition": "2E",
-          "source": "Slap2E.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-WilliamRegal3",
@@ -40564,52 +37898,9 @@
           "cardId": "OriginalMomentumStrike"
         }
       ],
-      "mappedPlayable": 78,
+      "mappedPlayable": 79,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 28,
-          "id": "ArmDragTakedown",
-          "name": "Arm Drag Takedown",
-          "edition": "Core",
-          "source": "ArmDragTakedown.gac"
-        },
-        {
-          "index": 2,
-          "unid": 195,
-          "id": "Hammerlock",
-          "name": "Hammerlock",
-          "edition": "Core",
-          "source": "Hammerlock.gac"
-        },
-        {
-          "index": 3,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 5,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "Starter-XPac",
@@ -41195,52 +38486,9 @@
           "cardId": "OriginalMomentumKnowledge"
         }
       ],
-      "mappedPlayable": 71,
+      "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 6,
-          "id": "OriginalMomentumAgility",
-          "name": "Agility",
-          "edition": "Core",
-          "source": "Agility1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 60,
-          "id": "Original_StandingSwitch",
-          "name": "Standing Switch",
-          "edition": "Core",
-          "source": "StandingSwitch.gac"
-        },
-        {
-          "index": 3,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 37,
-          "id": "Original_DropKick",
-          "name": "Drop Kick",
-          "edition": "Core",
-          "source": "DropKick.gac"
-        },
-        {
-          "index": 5,
-          "unid": 100,
-          "id": "EuropeanUppercut",
-          "name": "European Uppercut",
-          "edition": "Core",
-          "source": "EuropeanUppercut.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "TripleHStarter",
@@ -41818,52 +39066,9 @@
           "cardId": "OriginalMomentumAgility"
         }
       ],
-      "mappedPlayable": 70,
+      "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 97,
-          "id": "OriginalVariant_DoubleLegTakedown",
-          "name": "Double Leg Takedown",
-          "edition": "Core",
-          "source": "DoubleLegTakedown.gac"
-        },
-        {
-          "index": 4,
-          "unid": 117,
-          "id": "Original_Shove",
-          "name": "Shove",
-          "edition": "Core",
-          "source": "Shove.gac"
-        },
-        {
-          "index": 5,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        }
-      ],
-      "rawSequenceVerified": true
+      "mappingAuthority": "CardList.gal"
     },
     {
       "id": "BonusSnow",
@@ -41874,9 +39079,11 @@
       "entries": [
         {
           "unid": 230,
-          "sourceFiles": [],
-          "sourceFile": null,
-          "cardId": null
+          "sourceFiles": [
+            "AlSnow.gac"
+          ],
+          "sourceFile": "AlSnow.gac",
+          "cardId": "OriginalSuperstar_AlSnow"
         },
         {
           "unid": 9,
@@ -42359,53 +39566,12 @@
           "cardId": "Taunt"
         }
       ],
-      "mappedPlayable": 60,
-      "missingCount": 1,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 9,
-          "id": "OriginalMomentumKnowledge",
-          "name": "Knowledge",
-          "edition": "Core",
-          "source": "Knowledge1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 28,
-          "id": "ArmDragTakedown",
-          "name": "Arm Drag Takedown",
-          "edition": "Core",
-          "source": "ArmDragTakedown.gac"
-        },
-        {
-          "index": 5,
-          "unid": 110,
-          "id": "NeckVice",
-          "name": "Neck Vice",
-          "edition": "Core",
-          "source": "NeckVice.gac"
-        }
-      ],
-      "rawSequenceVerified": true,
-      "starterType": "authentic-bonus-starter"
+      "mappedPlayable": 61,
+      "missingCount": 0,
+      "mappingAuthority": "CardList.gal",
+      "starterType": "authentic-bonus-starter",
+      "authenticStarter": true,
+      "preservationLabel": "AUTHENTIC RECOVERED BONUS STARTER"
     },
     {
       "id": "BonusBlackman",
@@ -42416,9 +39582,11 @@
       "entries": [
         {
           "unid": 229,
-          "sourceFiles": [],
-          "sourceFile": null,
-          "cardId": null
+          "sourceFiles": [
+            "SteveBlackman.gac"
+          ],
+          "sourceFile": "SteveBlackman.gac",
+          "cardId": "OriginalSuperstar_SteveBlackman"
         },
         {
           "unid": 10,
@@ -42901,53 +40069,12 @@
           "cardId": "OriginalExact_WithAuthority"
         }
       ],
-      "mappedPlayable": 60,
-      "missingCount": 1,
-      "mappingAuthority": "WAFull(1).zip / Data/CardList.gal + original .gap ordered UNIDs",
-      "fixedOpening": [
-        {
-          "index": 1,
-          "unid": 10,
-          "id": "OriginalMomentumStrike",
-          "name": "Strike",
-          "edition": "Core",
-          "source": "Strike1.gac"
-        },
-        {
-          "index": 2,
-          "unid": 11,
-          "id": "OriginalMomentumTechnical",
-          "name": "Technical",
-          "edition": "Core",
-          "source": "Technical1.gac"
-        },
-        {
-          "index": 3,
-          "unid": 8,
-          "id": "OriginalMomentumStrength",
-          "name": "Strength",
-          "edition": "Core",
-          "source": "Strength1.gac"
-        },
-        {
-          "index": 4,
-          "unid": 100,
-          "id": "EuropeanUppercut",
-          "name": "European Uppercut",
-          "edition": "Core",
-          "source": "EuropeanUppercut.gac"
-        },
-        {
-          "index": 5,
-          "unid": 90,
-          "id": "ArmbarTakedown",
-          "name": "Armbar Takedown",
-          "edition": "Core",
-          "source": "ArmbarTakedown.gac"
-        }
-      ],
-      "rawSequenceVerified": true,
-      "starterType": "authentic-bonus-starter"
+      "mappedPlayable": 61,
+      "missingCount": 0,
+      "mappingAuthority": "CardList.gal",
+      "starterType": "authentic-bonus-starter",
+      "authenticStarter": true,
+      "preservationLabel": "AUTHENTIC RECOVERED BONUS STARTER"
     },
     {
       "id": "OfficialProduct-Brock-SummerSlam2002",
@@ -43456,9 +40583,7 @@
       "authenticStarter": false,
       "sourceProduct": "SummerSlam 2002",
       "reconstructionBasis": "brock-f5-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
-      "mappingAuthority": "Preserved official product-build slice; not reinterpreted as whole .gap starter package.",
-      "rawSequenceVerified": false
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
     },
     {
       "id": "OfficialProduct-ShawnMichaels-SummerSlam2002",
@@ -44015,9 +41140,7 @@
       "authenticStarter": false,
       "sourceProduct": "SummerSlam 2002",
       "reconstructionBasis": "hbk-sweet-chin-music-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
-      "mappingAuthority": "Preserved official product-build slice; not reinterpreted as whole .gap starter package.",
-      "rawSequenceVerified": false
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
     },
     {
       "id": "OfficialProduct-ScottHall-WMX8",
@@ -44574,14 +41697,16 @@
       "authenticStarter": false,
       "sourceProduct": "WrestleMania X8",
       "reconstructionBasis": "scotthall-razors-edge-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
-      "mappingAuthority": "Preserved official product-build slice; not reinterpreted as whole .gap starter package.",
-      "rawSequenceVerified": false
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
     }
   ],
-  "mappingAuthority": "Direct extraction from WAFull(1).zip original .gap files; UNID names mapped only through preserved original catalogue.",
-  "resolvedEntries": 5101,
-  "unresolvedEntries": 2,
-  "authenticRecoveredCount": 70,
-  "unresolvedStarterPackages": []
+  "mappingAuthority": "Data/CardList.gal numeric object IDs",
+  "resolvedEntries": 4908,
+  "unresolvedEntries": 0,
+  "authenticRecoveredCount": 67,
+  "officialProductBuildCount": 3,
+  "unresolvedStarterPackages": [
+    "Starter-ReyMysterioLE.gap",
+    "Shane McMahon starter package"
+  ]
 }

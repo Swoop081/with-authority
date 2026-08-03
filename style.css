@@ -894,33 +894,3 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 
 /* v0.9.118 character-select sorting */
 .characterSelectTools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:stretch;margin-bottom:12px}.characterSelectTools .search{min-width:0}.sortControl{position:relative}.sortButton{height:100%;min-width:92px;white-space:nowrap}.sortMenu{position:absolute;right:0;top:calc(100% + 6px);z-index:40;display:grid;min-width:230px;padding:6px;background:#090909;border:2px solid #ffd54a;box-shadow:0 12px 30px #000}.sortMenu[hidden]{display:none}.sortMenu button{border:0;border-bottom:1px solid #444;border-radius:0;background:#151515;color:#fff;text-align:left;text-transform:none;padding:12px;font-weight:800}.sortMenu button:last-child{border-bottom:0}.sortMenu button:hover,.sortMenu button:focus{background:#332b0a;color:#ffd54a}@media(max-width:480px){.characterSelectTools{grid-template-columns:minmax(0,1fr) 84px}.sortButton{min-width:84px;padding-inline:8px;font-size:12px}.sortMenu{min-width:210px}}
-
-
-/* v0.9.121-rebuild: iOS live-hand card flip correction.
-   Use face swapping only; never rotate the live hand card container. */
-.handCard .originalPageFlip,
-.handCard.flipped .originalPageFlip,
-.handCard.locked .originalPageFlip,
-.handCard.locked.flipped .originalPageFlip{
-  transform:none!important;
-  -webkit-transform:none!important;
-}
-.handCard .originalPageFront{
-  display:flex!important;
-  transform:none!important;
-  -webkit-transform:none!important;
-}
-.handCard .originalPageBack{
-  display:none!important;
-  transform:none!important;
-  -webkit-transform:none!important;
-  direction:ltr!important;
-}
-.handCard.flipped .originalPageFront{display:none!important}
-.handCard.flipped .originalPageBack{display:flex!important}
-.handCard.flipped .originalPageBack,
-.handCard.flipped .originalPageBack *{
-  transform:none!important;
-  -webkit-transform:none!important;
-  direction:ltr!important;
-}

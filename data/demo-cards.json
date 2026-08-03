@@ -35573,5 +35573,25 @@
     "originalScripts": {
       "Special_Special": "(if ((eq #test 1)\r\n     (and (not (WAIsStunned #this))\r\n          (not (eq (WAGetValue (WAGameMap) NoSpecialAbilities)\r\n                   1\r\n               )\r\n          )\r\n          (lesser (count (WAGetHand #this)) 6)\r\n          (greater-eq (WAGetTotalMomentum (WAGetOpponent #this)) 3)\r\n     )\r\n    )\r\n    (True\r\n     (block \r\n          (WADrawPage #this)\r\n          True\r\n     )\r\n    )\r\n)"
     }
+  },
+  {
+    "id": "original-crowd-support-227",
+    "name": "Crowd Support",
+    "description": "Draw a page. If your move connects this turn, you get +1 Attitude Momentum.\n\nWhen you choose to ditch Crowd Support, it counts for 2 ditches.",
+    "sourceFile": "CrowdSupport.gac",
+    "originalUNID": 227,
+    "unid": 227,
+    "baseUNID": 227,
+    "cardClass": "Special",
+    "type": "Special",
+    "damage": 0,
+    "momentumCost": 0,
+    "cost": 0,
+    "attitudeCost": 0,
+    "modifiers": "Damage",
+    "method": "",
+    "counters": [],
+    "setsPosition": "Same",
+    "nonDrawResource": false
   }
 ]
