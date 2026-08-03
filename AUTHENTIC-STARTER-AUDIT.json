@@ -1,11 +1,23 @@
 {
   "version": "v0.9.124-rebuild",
-  "rule": "Opening five are the first five mapped non-Superstar pages in exact original .gap order. No page identity is guessed.",
-  "completedStarters": [
+  "authority": "WAFull(1).zip",
+  "starterPackagesVerified": 67,
+  "originalStarterPackagesFound": 65,
+  "packagesMissingFromCurrentCatalogue": [],
+  "allRawSequencesMatchedPrevious": true,
+  "resolvedEntries": 5101,
+  "unresolvedEntries": 2,
+  "entries": [
     {
       "id": "RikishiPhatuStarter",
-      "title": "Rikishi Phatu Starter4",
-      "opening": [
+      "sourceFile": "RikishiPhatuStarter.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -47,12 +59,18 @@
           "source": "Shove.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 146
     },
     {
       "id": "Starter-BookerT",
-      "title": "Booker T Starter",
-      "opening": [
+      "sourceFile": "Starter-BookerT.gap",
+      "status": "verified",
+      "count": 77,
+      "oldCount": 77,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 11,
@@ -94,12 +112,18 @@
           "source": "AtomicDrop.gac"
         }
       ],
-      "remaining": 71
+      "listOffset": 115
     },
     {
       "id": "Starter-BookerT2",
-      "title": "Booker T Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-BookerT2.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 567,
@@ -141,12 +165,18 @@
           "source": "Hammerlock2E.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 95
     },
     {
       "id": "Starter-BookerTEX2",
-      "title": "Booker T Starter",
-      "opening": [
+      "sourceFile": "Starter-BookerTEX2.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 567,
@@ -188,12 +218,18 @@
           "source": "Hammerlock.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 118
     },
     {
       "id": "Starter-Bradshaw",
-      "title": "Bradshaw Starter",
-      "opening": [
+      "sourceFile": "Starter-Bradshaw.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1102,
@@ -235,12 +271,18 @@
           "source": "TechnicalEX3.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 66
     },
     {
       "id": "Starter-BubbaEX2",
-      "title": "Bubba Ray Dudley Starter'",
-      "opening": [
+      "sourceFile": "Starter-BubbaEX2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 696,
@@ -282,12 +324,18 @@
           "source": "TechnicalEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 116
     },
     {
       "id": "Starter-BubbaRayDudley",
-      "title": "Bubba Ray Dudley Starter'",
-      "opening": [
+      "sourceFile": "Starter-BubbaRayDudley.gap",
+      "status": "verified",
+      "count": 77,
+      "oldCount": 77,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 90,
@@ -329,12 +377,18 @@
           "source": "Technical1.gac"
         }
       ],
-      "remaining": 71
+      "listOffset": 121
     },
     {
       "id": "Starter-BubbaRayDudley2",
-      "title": "Bubba Ray Dudley Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-BubbaRayDudley2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 696,
@@ -376,12 +430,18 @@
           "source": "TechnicalEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 85
     },
     {
       "id": "Starter-ChrisBenoit2E",
-      "title": "Chris Benoit 2nd Edition Starter#",
-      "opening": [
+      "sourceFile": "Starter-ChrisBenoit2E.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -423,12 +483,18 @@
           "source": "ArmbarTakedown2E.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 122
     },
     {
       "id": "Starter-ChrisJericho",
-      "title": "Chris Jericho Starter\"",
-      "opening": [
+      "sourceFile": "Starter-ChrisJericho.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 11,
@@ -470,12 +536,18 @@
           "source": "Dodge.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 128
     },
     {
       "id": "Starter-ChrisJericho2E",
-      "title": "Chris Jericho 2nd Edition Starter$",
-      "opening": [
+      "sourceFile": "Starter-ChrisJericho2E.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 749,
@@ -517,12 +589,18 @@
           "source": "ArmbarTakedown2E.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 144
     },
     {
       "id": "Starter-Christian",
-      "title": "Christian Starter",
-      "opening": [
+      "sourceFile": "Starter-Christian.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 98,
@@ -564,12 +642,18 @@
           "source": "StrengthEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 99
     },
     {
       "id": "Starter-Christian2",
-      "title": "Christian Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-Christian2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 744,
@@ -611,12 +695,18 @@
           "source": "TechnicalEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 79
     },
     {
       "id": "Starter-DVon",
-      "title": "D-Von Dudley Starter#",
-      "opening": [
+      "sourceFile": "Starter-DVon.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 499,
@@ -658,12 +748,18 @@
           "source": "CollarAndElbowTieup.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 120
     },
     {
       "id": "Starter-DVonDudley2",
-      "title": "D-Von Dudley Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-DVonDudley2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 499,
@@ -705,12 +801,18 @@
           "source": "CollarAndElbowTieup2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 74
     },
     {
       "id": "Starter-EddieGuerrero",
-      "title": "Eddie Guerrero Starter%",
-      "opening": [
+      "sourceFile": "Starter-EddieGuerrero.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 11,
@@ -752,12 +854,18 @@
           "source": "Strike1.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 133
     },
     {
       "id": "Starter-EddieGuerrero2E",
-      "title": "Eddie Guerrero 2nd Edition Starter%",
-      "opening": [
+      "sourceFile": "Starter-EddieGuerrero2E.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -799,12 +907,18 @@
           "source": "Slap2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 147
     },
     {
       "id": "Starter-Edge",
-      "title": "Edge Starter",
-      "opening": [
+      "sourceFile": "Starter-Edge.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 321,
@@ -846,12 +960,18 @@
           "source": "ShoulderBlock.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 104
     },
     {
       "id": "Starter-Edge2E",
-      "title": "Edge 2nd Edition Starter",
-      "opening": [
+      "sourceFile": "Starter-Edge2E.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -893,12 +1013,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 118
     },
     {
       "id": "Starter-EdgeGift",
-      "title": "Eddie Guerrero Gift Starter%",
-      "opening": [
+      "sourceFile": "Starter-EdgeGift.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 647,
@@ -940,12 +1066,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 140
     },
     {
       "id": "Starter-Goldust",
-      "title": "Goldust Starter",
-      "opening": [
+      "sourceFile": "Starter-Goldust.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1166,
@@ -987,12 +1119,18 @@
           "source": "ArmDragTakedownEX3.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 64
     },
     {
       "id": "Starter-HulkHogan2E",
-      "title": "Hulk Hogan 2nd Edition Starter!",
-      "opening": [
+      "sourceFile": "Starter-HulkHogan2E.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -1034,12 +1172,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 125
     },
     {
       "id": "Starter-HulkHoganLE",
-      "title": "Hulk Hogan Starter!",
-      "opening": [
+      "sourceFile": "Starter-HulkHoganLE.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 647,
@@ -1081,12 +1225,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 113
     },
     {
       "id": "Starter-JeffHardy",
-      "title": "Jeff Hardy Starter!",
-      "opening": [
+      "sourceFile": "Starter-JeffHardy.gap",
+      "status": "verified",
+      "count": 77,
+      "oldCount": 77,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -1128,12 +1278,18 @@
           "source": "FistDrop.gac"
         }
       ],
-      "remaining": 71
+      "listOffset": 121
     },
     {
       "id": "Starter-JeffHardy2",
-      "title": "Jeff Hardy Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-JeffHardy2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 648,
@@ -1175,12 +1331,18 @@
           "source": "ForearmSmash2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 77
     },
     {
       "id": "Starter-JeffHardyEX2",
-      "title": "Jeff Hardy Starter!",
-      "opening": [
+      "sourceFile": "Starter-JeffHardyEX2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 648,
@@ -1222,12 +1384,18 @@
           "source": "RoundKickEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 105
     },
     {
       "id": "Starter-Kane",
-      "title": "Kane Starter",
-      "opening": [
+      "sourceFile": "Starter-Kane.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -1269,12 +1437,18 @@
           "source": "Shove.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 100
     },
     {
       "id": "Starter-Kane2E",
-      "title": "Kane 2nd Edition Starter",
-      "opening": [
+      "sourceFile": "Starter-Kane2E.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -1316,12 +1490,18 @@
           "source": "RoundKick2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 114
     },
     {
       "id": "Starter-KevinNash",
-      "title": "Kevin Nash Starter",
-      "opening": [
+      "sourceFile": "Starter-KevinNash.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 744,
@@ -1363,12 +1543,18 @@
           "source": "StrikeEX3.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 69
     },
     {
       "id": "Starter-KurtAngle",
-      "title": "Kurt Angle Starter!",
-      "opening": [
+      "sourceFile": "Starter-KurtAngle.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 195,
@@ -1410,12 +1596,18 @@
           "source": "Strength1.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 121
     },
     {
       "id": "Starter-KurtAngle2E",
-      "title": "Kurt Angle 2nd Edition Starter!",
-      "opening": [
+      "sourceFile": "Starter-KurtAngle2E.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 746,
@@ -1457,12 +1649,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 135
     },
     {
       "id": "Starter-LanceStorm",
-      "title": "Lance Storm Starter",
-      "opening": [
+      "sourceFile": "Starter-LanceStorm.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1163,
@@ -1504,12 +1702,18 @@
           "source": "Slap2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 71
     },
     {
       "id": "Starter-Lita",
-      "title": "Lita Starter",
-      "opening": [
+      "sourceFile": "Starter-Lita.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 325,
@@ -1551,12 +1755,18 @@
           "source": "TheFansComeAlive.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 104
     },
     {
       "id": "Starter-Lita2E",
-      "title": "Lita 2nd Edition Starter",
-      "opening": [
+      "sourceFile": "Starter-Lita2E.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -1598,12 +1808,18 @@
           "source": "ForearmSmash2E.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 118
     },
     {
       "id": "Starter-MattHardy",
-      "title": "Matt Hardy Starter!",
-      "opening": [
+      "sourceFile": "Starter-MattHardy.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 648,
@@ -1645,12 +1861,18 @@
           "source": "SupportFromLita.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 121
     },
     {
       "id": "Starter-MattHardy2",
-      "title": "Matt Hardy Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-MattHardy2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 648,
@@ -1692,12 +1914,18 @@
           "source": "SupportFromLita.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 77
     },
     {
       "id": "Starter-RicFlair",
-      "title": "Ric Flair Unforgiven Starter",
-      "opening": [
+      "sourceFile": "Starter-RicFlair.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1166,
@@ -1739,12 +1967,18 @@
           "source": "StrengthEX3.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 78
     },
     {
       "id": "Starter-RicFlairLE",
-      "title": "Ric Flair Starter",
-      "opening": [
+      "sourceFile": "Starter-RicFlairLE.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -1786,12 +2020,18 @@
           "source": "RicFlairsChopLE.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 69
     },
     {
       "id": "Starter-RobVanDam",
-      "title": "Rob Van Dam Starter\"",
-      "opening": [
+      "sourceFile": "Starter-RobVanDam.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -1833,12 +2073,18 @@
           "source": "RoundKick.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 125
     },
     {
       "id": "Starter-RobVanDam2",
-      "title": "Rob Van Dam Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-RobVanDam2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 642,
@@ -1880,12 +2126,18 @@
           "source": "Splash2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 81
     },
     {
       "id": "Starter-RobVanDamEX2",
-      "title": "Rob Van Dam Starter\"",
-      "opening": [
+      "sourceFile": "Starter-RobVanDamEX2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 642,
@@ -1927,12 +2179,18 @@
           "source": "splash.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 107
     },
     {
       "id": "Starter-Scotty2Hotty",
-      "title": "Scotty 2 Hotty Starter%",
-      "opening": [
+      "sourceFile": "Starter-Scotty2Hotty.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 324,
@@ -1974,12 +2232,18 @@
           "source": "FistDrop.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 132
     },
     {
       "id": "Starter-SpikeDudley",
-      "title": "Spike Dudley Starter",
-      "opening": [
+      "sourceFile": "Starter-SpikeDudley.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1163,
@@ -2021,12 +2285,18 @@
           "source": "Slap2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 73
     },
     {
       "id": "Starter-StoneCold",
-      "title": "Stone Cold Starter.",
-      "opening": [
+      "sourceFile": "Starter-StoneCold.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 44,
@@ -2068,12 +2338,18 @@
           "source": "Strike1.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 134
     },
     {
       "id": "Starter-Tajiri",
-      "title": "Tajiri LE Starter",
-      "opening": [
+      "sourceFile": "Starter-Tajiri.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 890,
@@ -2115,12 +2391,18 @@
           "source": "FistDrop2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 67
     },
     {
       "id": "Starter-Tazz",
-      "title": "Tazz Starter",
-      "opening": [
+      "sourceFile": "Starter-Tazz.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -2162,12 +2444,18 @@
           "source": "Shove.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 104
     },
     {
       "id": "Starter-Test",
-      "title": "Test Starter",
-      "opening": [
+      "sourceFile": "Starter-Test.gap",
+      "status": "verified",
+      "count": 77,
+      "oldCount": 77,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 321,
@@ -2209,12 +2497,18 @@
           "source": "splash.gac"
         }
       ],
-      "remaining": 71
+      "listOffset": 104
     },
     {
       "id": "Starter-Test2",
-      "title": "Test Starter with 2E",
-      "opening": [
+      "sourceFile": "Starter-Test2.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 519,
@@ -2256,12 +2550,18 @@
           "source": "TechnicalEX2.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 66
     },
     {
       "id": "Starter-TestEX2",
-      "title": "Test Starter",
-      "opening": [
+      "sourceFile": "Starter-TestEX2.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 519,
@@ -2303,12 +2603,18 @@
           "source": "TechnicalEX2.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 104
     },
     {
       "id": "Starter-TheBigShow",
-      "title": "The Big Show starter#",
-      "opening": [
+      "sourceFile": "Starter-TheBigShow.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -2350,12 +2656,18 @@
           "source": "Shove.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 126
     },
     {
       "id": "Starter-TheBigShow2E",
-      "title": "The Big Show 2nd Edition Starter#",
-      "opening": [
+      "sourceFile": "Starter-TheBigShow2E.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -2397,12 +2709,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 140
     },
     {
       "id": "Starter-TheCripplerChrisBenoit",
-      "title": "\"Crippler\" Chris Benoit Starter ",
-      "opening": [
+      "sourceFile": "Starter-TheCripplerChrisBenoit.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 8,
@@ -2444,12 +2762,18 @@
           "source": "Dodge.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 146
     },
     {
       "id": "Starter-TheHurricane",
-      "title": "The Hurricane Unforgiven Starter",
-      "opening": [
+      "sourceFile": "Starter-TheHurricane.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1162,
@@ -2491,12 +2815,18 @@
           "source": "ArmDragTakedownEX3.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 86
     },
     {
       "id": "Starter-TheHurricaneLE",
-      "title": "The Hurricane Starter",
-      "opening": [
+      "sourceFile": "Starter-TheHurricaneLE.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -2538,12 +2868,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 77
     },
     {
       "id": "Starter-TheRock",
-      "title": "The Rock Starter",
-      "opening": [
+      "sourceFile": "Starter-TheRock.gap",
+      "status": "verified",
+      "count": 70,
+      "oldCount": 70,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 11,
@@ -2585,12 +2921,18 @@
           "source": "Headlock.gac"
         }
       ],
-      "remaining": 64
+      "listOffset": 115
     },
     {
       "id": "Starter-TheRock2E",
-      "title": "The Rock Starter",
-      "opening": [
+      "sourceFile": "Starter-TheRock2E.gap",
+      "status": "verified",
+      "count": 75,
+      "oldCount": 75,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 567,
@@ -2632,12 +2974,18 @@
           "source": "StrikeEX2.gac"
         }
       ],
-      "remaining": 69
+      "listOffset": 98
     },
     {
       "id": "Starter-TheRock2EnoLE",
-      "title": "The Rock 2nd Edition Starter",
-      "opening": [
+      "sourceFile": "Starter-TheRock2EnoLE.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 746,
@@ -2679,12 +3027,18 @@
           "source": "CollarAndElbowTieup2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 110
     },
     {
       "id": "Starter-TheUndertaker",
-      "title": "The Undertaker Starter%",
-      "opening": [
+      "sourceFile": "Starter-TheUndertaker.gap",
+      "status": "verified",
+      "count": 73,
+      "oldCount": 73,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 8,
@@ -2726,12 +3080,18 @@
           "source": "Duck.gac"
         }
       ],
-      "remaining": 67
+      "listOffset": 133
     },
     {
       "id": "Starter-TheUndertaker2E",
-      "title": "The Undertaker 2nd Edition Starter%",
-      "opening": [
+      "sourceFile": "Starter-TheUndertaker2E.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -2773,12 +3133,18 @@
           "source": "CollarAndElbowTieup2E.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 147
     },
     {
       "id": "Starter-TripleH2E",
-      "title": "Triple H 2nd Edition Starter/",
-      "opening": [
+      "sourceFile": "Starter-TripleH2E.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 747,
@@ -2820,12 +3186,18 @@
           "source": "AtomicDrop2E.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 145
     },
     {
       "id": "Starter-TrishStratus",
-      "title": "Trish Stratus Unforgiven Starter",
-      "opening": [
+      "sourceFile": "Starter-TrishStratus.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 1165,
@@ -2867,12 +3239,18 @@
           "source": "Slap2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 86
     },
     {
       "id": "Starter-TrishStratusLE",
-      "title": "Trish Stratus Starter",
-      "opening": [
+      "sourceFile": "Starter-TrishStratusLE.gap",
+      "status": "verified",
+      "count": 74,
+      "oldCount": 74,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 748,
@@ -2914,12 +3292,18 @@
           "source": "Slap2E.gac"
         }
       ],
-      "remaining": 68
+      "listOffset": 77
     },
     {
       "id": "Starter-WilliamRegal3",
-      "title": "William Regal Starter#",
-      "opening": [
+      "sourceFile": "Starter-WilliamRegal3.gap",
+      "status": "verified",
+      "count": 79,
+      "oldCount": 79,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 28,
@@ -2961,12 +3345,18 @@
           "source": "Technical1.gac"
         }
       ],
-      "remaining": 73
+      "listOffset": 129
     },
     {
       "id": "Starter-XPac",
-      "title": "X-Pac Starter",
-      "opening": [
+      "sourceFile": "Starter-XPac.gap",
+      "status": "verified",
+      "count": 72,
+      "oldCount": 72,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 6,
@@ -3008,12 +3398,18 @@
           "source": "EuropeanUppercut.gac"
         }
       ],
-      "remaining": 66
+      "listOffset": 106
     },
     {
       "id": "TripleHStarter",
-      "title": "Triple H Starter/",
-      "opening": [
+      "sourceFile": "TripleHStarter.gap",
+      "status": "verified",
+      "count": 71,
+      "oldCount": 71,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 8,
@@ -3055,12 +3451,18 @@
           "source": "Knowledge1.gac"
         }
       ],
-      "remaining": 65
+      "listOffset": 131
     },
     {
       "id": "BonusSnow",
-      "title": "Al Snow Starter",
-      "opening": [
+      "sourceFile": "BonusSnow.gap",
+      "status": "verified",
+      "count": 61,
+      "oldCount": 61,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 9,
@@ -3102,12 +3504,18 @@
           "source": "NeckVice.gac"
         }
       ],
-      "remaining": 55
+      "listOffset": 112
     },
     {
       "id": "BonusBlackman",
-      "title": "Steve Blackman Starter",
-      "opening": [
+      "sourceFile": "BonusBlackman.gap",
+      "status": "verified",
+      "count": 61,
+      "oldCount": 61,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "fixedOpening": [
         {
           "index": 1,
           "unid": 10,
@@ -3149,7 +3557,40 @@
           "source": "ArmbarTakedown.gac"
         }
       ],
-      "remaining": 55
+      "listOffset": 133
+    },
+    {
+      "id": "OfficialProduct-Brock-SummerSlam2002",
+      "sourceFile": "SummerSlam2002.gap",
+      "status": "official_product_build_preserved",
+      "count": 61,
+      "oldCount": 61,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": []
+    },
+    {
+      "id": "OfficialProduct-ShawnMichaels-SummerSlam2002",
+      "sourceFile": "SummerSlam2002.gap",
+      "status": "official_product_build_preserved",
+      "count": 67,
+      "oldCount": 67,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": []
+    },
+    {
+      "id": "OfficialProduct-ScottHall-WMX8",
+      "sourceFile": "1ofeachX8.gap",
+      "status": "official_product_build_preserved",
+      "count": 67,
+      "oldCount": 67,
+      "rawOrderMatchedPrevious": true,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "fixedOpening": []
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "version": "0.9.123-rebuild",
-  "build": "original-superstar-limits",
-  "baseline": "v0.9.122-rebuild"
+  "version": "0.9.124-rebuild",
+  "build": "authentic-attitude-rule",
+  "baseline": "v0.9.123-rebuild",
+  "evidence": "Original WAMain.dll help text: gain 1 Attitude Momentum whenever you hit an opponent with a Move Page; lose 1 whenever an opponent hits you with a Move Page."
 }
