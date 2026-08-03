@@ -1,0 +1,13 @@
+{
+  "javascriptSyntax": "PASS",
+  "separateLocationAndPosition": "PASS",
+  "locationTurnsTracked": "PASS",
+  "countoutBeginsAtFiveTurns": "PASS",
+  "originalRollFiftyOrHigher": "PASS",
+  "refereeDistractionSuppressesCountout": "PASS",
+  "refNoCountOutFlagHonoured": "PASS",
+  "takeItInsideUsesSpecialAction": "PASS",
+  "bothReturnOpponentGrounded": "PASS",
+  "moveOutsideUsesSpecialAction": "PASS",
+  "pinsRestrictedToRing": "PASS"
+}

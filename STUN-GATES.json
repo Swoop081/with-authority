@@ -1,0 +1,14 @@
+{
+  "javascriptSyntax": "PASS",
+  "waStunOneCurrentTurnOnly": "PASS",
+  "waStunTwoThroughNextTurn": "PASS",
+  "waStunThreeThroughNextTwoTurns": "PASS",
+  "canStunLifecycle": "PASS",
+  "kaneFirstStunImmunity": "PASS",
+  "toughGuyPreventionAndRecovery": "PASS",
+  "oneFiftyPoundsPrevention": "PASS",
+  "hardcoreEx3Immunity": "PASS",
+  "stunnedHooksImmediate": "PASS",
+  "playWhileStunnedExceptions": "PASS",
+  "locationPreserved": "PASS"
+}

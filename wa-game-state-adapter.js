@@ -121,7 +121,10 @@ class WAGameStateAdapter {
   WAGetName(page){ return page?.name??''; }
   WAGetNAme(page){ return this.WAGetName(page); }
   WAGetNameByUNID(unid){ return this.pageByUNID(unid)?.name||''; }
-  WAGetValue(obj,key){ return this.val(obj,key,0); }
+  WAGetValue(obj,key){
+    const s=this.side(obj);if(s&&String(key)==='Stunned_For_Turns')return Math.max(0,Number(s.stunUntilTurn??-1)-Number(this.state.round||0)+1);
+    return this.val(obj,key,0);
+  }
   WAHasValue(obj,key){ const v=this.values(obj); return !!v&&Object.prototype.hasOwnProperty.call(v,key); }
   WAGetHitPoints(who){ return Number(this.side(who)?.hp||0); }
   WAGetMaxHitPoints(who){ return Number(this.side(who)?.maxHp||0); }
@@ -130,7 +133,10 @@ class WAGameStateAdapter {
   WAGetTurn(){ return Number(this.state.round||this.state.turn||1); }
   WAGetTurnLimit(){ return Number(this.state.turnLimit||50); }
   WAGetTurnPlayedOn(page){ return Number(page?.turnPlayedOn||0); }
-  WAGetLocation(who){ return this.side(who)?.location||this.state.location||'$InTheRing'; }
+  WAGetLocation(who){
+    const raw=this.side(who)?.location??this.state.location??'$InTheRing';
+    return this.WAFindLocation(raw);
+  }
   WAFindLocation(name){ return this.locations.get(String(name))||String(name); }
   WATurnsAtLocation(who){ return Number(this.side(who)?.turnsAtLocation||0); }
   WATurnsSinceLastControl(who){ const s=this.side(who); return Math.max(0,this.WAGetTurn()-Number(s?.lastControlTurn||this.WAGetTurn())); }
@@ -162,7 +168,13 @@ class WAGameStateAdapter {
   WACanPlayPage(who,page){ const hook=this.emit('canPlayPage',{who:this.side(who),page}); if(hook!==undefined)return !!hook; return !!page&&this.WACanCoverCost(who,page); }
   OppFinishers(who){ return this.cards(this.opponent(who),'hand').filter(p=>p.finisher); }
 
-  WASetValue(obj,key,value){ return this.setVal(obj,key,value); }
+  WASetValue(obj,key,value){
+    const s=this.side(obj);
+    if(s&&String(key)==='Stunned_For_Turns'){
+      const n=Math.max(0,Number(value)||0);s.stunUntilTurn=n?Number(this.state.round||0)+n-1:-1;s.stun=n;s.stunSource=null;return n;
+    }
+    return this.setVal(obj,key,value);
+  }
   WAAddValue(obj,key,value=1){ return this.setVal(obj,key,Number(this.val(obj,key,0))+Number(value||0)); }
   WARemoveValue(obj,key){ const v=this.values(obj); if(v)delete v[key]; return true; }
   WAStringGetValue(obj,key){ const local=this.values(obj); if(local&&Object.prototype.hasOwnProperty.call(local,key))return String(local[key]); return String(this.stringValues.get(`${this.WAGetUNID(obj)}:${key}`)||''); }
@@ -171,7 +183,15 @@ class WAGameStateAdapter {
   WARandom(min,max){ const lo=Number(min??1),hi=Number(max??lo); if(hi<lo)return this.WARandom(hi,lo); return lo+Math.floor(this.rng()*(hi-lo+1)); }
   WASetTurnLimit(n){ this.state.turnLimit=Math.max(1,Number(n)||1); return this.state.turnLimit; }
   WASetOnMat(who,value=true){ const s=this.side(who); if(s)s.onMat=!!value; if(s===this.opponent(this.state.control))this.state.position=value?'Grounded':'Standing'; return !!value; }
-  WAStun(who,a,b){ const s=this.side(who); const n=Number(b??a??0); if(s)s.stun=Math.max(Number(s.stun||0),n); return n; }
+  WAStun(who,a,b){
+    const s=this.side(who),source=(b===undefined?null:a),n=Number(b??a??0);
+    if(!s||!n)return 0;
+    if(typeof globalThis.applyCertifiedStun==='function'){
+      const key=s.key||s.rosterKey;
+      return globalThis.applyCertifiedStun(key,source,n,this.actor?.key||this.actor?.rosterKey||null)?n:0;
+    }
+    const now=Number(this.state.round||0);s.stunUntilTurn=Math.max(Number(s.stunUntilTurn??-1),now+n-1);s.stun=Math.max(0,s.stunUntilTurn-now+1);return n;
+  }
   WAWarn(who,n=1){ const s=this.side(who); if(!s)return 0; s.warnings=Number(s.warnings||0)+Math.max(0,Number(n)||0); this.emit('warning',{who:s,amount:n}); return s.warnings; }
   WADamage(who,amount,zone='Body'){ const s=this.side(who); if(!s)return 0; let n=Number(amount); if(!Number.isFinite(n)){ const map={Strk:1,Strike:1,Body:1,Head:1,Arm:1,Leg:1}; n=map[String(amount)]||0; zone=String(amount) in map?String(amount):zone; } n=Math.max(0,n); s.hp=Math.max(0,Number(s.hp||0)-n); if(s.zoneDamage)s.zoneDamage[zone]=(Number(s.zoneDamage[zone]||0)+n); this.state.lastDamageApplied=n; this.emit('damage',{who:s,amount:n,zone}); return n; }
   WAHeal(who,n){ const s=this.side(who); if(!s)return 0; const before=Number(s.hp||0); s.hp=Math.min(Number(s.maxHp||before),before+Math.max(0,Number(n)||0)); return s.hp-before; }
@@ -189,7 +209,13 @@ class WAGameStateAdapter {
   WAEnumAllPages(){ return this.allCards(); }
   WAEnumPlaybook(who){ return this.WAGetPlaybook(who); }
   WAGameMap(){ return this.state.gameMap||[...this.locations.values()]; }
-  WAMove(who,location){ const s=this.side(who); if(s){s.location=location;s.turnsAtLocation=0;} return location; }
+  WAMove(who,location){
+    const s=this.side(who);
+    const resolved=this.WAFindLocation(location);
+    if(s){s.location=resolved;s.turnsAtLocation=0;}
+    this.emit('locationChanged',{who:s,location:resolved});
+    return resolved;
+  }
   WAChangeControl(who){ const s=this.side(who); if(!s)return false; this.state.control=s===this.state.player?'player':'cpu';s.lastControlTurn=this.WAGetTurn();return true; }
   WAForcePage(a,b,c){ return this.emit('forcePage',{args:[a,b,c]})??null; }
   WAForceMove(a,b,c){ return this.emit('forceMove',{args:[a,b,c]})??null; }
