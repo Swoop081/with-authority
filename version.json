@@ -1,5 +1,5 @@
 {
-  "version": "0.9.128-rules-core",
-  "build": "warnings-disqualification-certification",
-  "baseline": "v0.9.127-rules-core"
+  "version": "0.9.134-rules-core",
+  "build": "original-script-full-lifecycle-hooks",
+  "baseline": "v0.9.133-rules-core"
 }
