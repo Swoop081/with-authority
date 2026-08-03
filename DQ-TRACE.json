@@ -1,0 +1,34 @@
+{
+  "scenario": "Standard match warning and DQ certification",
+  "steps": [
+    {
+      "warnings": 3,
+      "event": "Low Blow gives 3",
+      "dqCheck": false,
+      "reason": "Below default threshold 5"
+    },
+    {
+      "warnings": 7,
+      "event": "Chair Shot adds 4",
+      "dqCheck": true,
+      "chance": "35%"
+    },
+    {
+      "warnings": 7,
+      "event": "Same state with Mike Chioda in play",
+      "dqCheck": false,
+      "reason": "Below modified threshold 9"
+    },
+    {
+      "warnings": 10,
+      "event": "Nick Patrick end-turn penalty from >5",
+      "dqCheck": true,
+      "chance": "current total \u00d7 5%, capped at 100%"
+    },
+    {
+      "event": "Distract The Referee active",
+      "warningsAdded": 0,
+      "dqCheck": false
+    }
+  ]
+}
