@@ -1,0 +1,23 @@
+{
+  "version": "v0.9.146-rules-core",
+  "starterDecks": 70,
+  "openingFivePresent": 70,
+  "missingRuntimeCardMappings": 0,
+  "interpreterScriptsPassed": 1559,
+  "interpreterScriptsFailed": 0,
+  "narrowMoveClassChecksRemaining": 0,
+  "notes": [
+    "Opening five entries are unchanged from v0.9.143 audit.",
+    "Browser startup smoke test is separate from iPhone touch testing."
+  ],
+  "browserStartupSmokeTest": "INCONCLUSIVE \u2014 headless Chromium process timed out in the container; no pass claimed",
+  "orderedFullMatchMatrix": "NOT CLAIMED \u2014 requires successful browser automation or device execution",
+  "certifiedNow": [
+    "All live narrow Move classification checks removed",
+    "Move Page definition consistently includes Move, Submission and Trademark",
+    "1,559/1,559 recovered scripts execute through the interpreter",
+    "70/70 starter decks retain their protected opening five",
+    "0 missing starter-to-runtime card mappings",
+    "JavaScript syntax passes for app, adapter, interpreter and coverage harness"
+  ]
+}

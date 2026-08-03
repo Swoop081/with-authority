@@ -1,0 +1,3680 @@
+{
+  "version": "v0.9.143-rules-core",
+  "starterCount": 70,
+  "totalMomentumPagesReplaced": 349,
+  "openingFivePolicy": "Entry 0 Superstar page and entries 1-5 fixed opening playable pages were byte-for-byte preserved for every starter.",
+  "protectedOpeningConflicts": [],
+  "starters": [
+    {
+      "starterId": "RikishiPhatuStarter",
+      "title": "Rikishi Phatu Starter4",
+      "superstarSource": "RikishiPhatu.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 9,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 66,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 69,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 70,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Knowledge": 2,
+        "Strength": 17,
+        "Technical": 1
+      }
+    },
+    {
+      "starterId": "Starter-BookerT",
+      "title": "Booker T Starter",
+      "superstarSource": "BookerT.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 5,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 75,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 76,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 2,
+        "Agility": 2,
+        "Strength": 4,
+        "Strike": 15,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-BookerT2",
+      "title": "Booker T Starter with 2E",
+      "superstarSource": "BookerTEX2.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 5,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 74,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Technical": 2,
+        "Strike": 14,
+        "Agility": 2,
+        "Strength": 4
+      }
+    },
+    {
+      "starterId": "Starter-BookerTEX2",
+      "title": "Booker T Starter",
+      "superstarSource": "BookerTEX2.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 5,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 74,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Technical": 2,
+        "Strike": 14,
+        "Agility": 2,
+        "Strength": 4
+      }
+    },
+    {
+      "starterId": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "superstarSource": "Bradshaw.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 69,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 70,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrengthEX3.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 14,
+        "Strike": 7,
+        "Technical": 1,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-BubbaEX2",
+      "title": "Bubba Ray Dudley Starter'",
+      "superstarSource": "BubbaRayDudleyEX2.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 4,
+        "Technical": 2,
+        "Strike": 15,
+        "Agility": 1,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-BubbaRayDudley",
+      "title": "Bubba Ray Dudley Starter'",
+      "superstarSource": "BubbaRayDudley.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 75,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 76,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 4,
+        "Technical": 2,
+        "Strike": 15,
+        "Agility": 1,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-BubbaRayDudley2",
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "superstarSource": "BubbaRayDudleyEX2.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 4,
+        "Technical": 2,
+        "Strike": 15,
+        "Agility": 1,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-ChrisBenoit2E",
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "superstarSource": "ChrisBenoit2E.gac",
+      "limits": {
+        "Agility": 5,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 70,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 71,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 2,
+        "Strike": 4,
+        "Technical": 13,
+        "Agility": 4,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-ChrisJericho",
+      "title": "Chris Jericho Starter\"",
+      "superstarSource": "ChrisJericho.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": 3,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 3,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Strike1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 71,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 7,
+        "Strength": 2,
+        "Agility": 9,
+        "Knowledge": 4,
+        "Strike": 3
+      }
+    },
+    {
+      "starterId": "Starter-ChrisJericho2E",
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "superstarSource": "ChrisJericho2E.gac",
+      "limits": {
+        "Agility": 5,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 4,
+        "Strength": 2,
+        "Agility": 3,
+        "Strike": 13,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-Christian",
+      "title": "Christian Starter",
+      "superstarSource": "Christian.gac",
+      "limits": {
+        "Agility": 5,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 2,
+        "Technical": 4,
+        "Strength": 2,
+        "Strike": 14,
+        "Agility": 4
+      }
+    },
+    {
+      "starterId": "Starter-Christian2",
+      "title": "Christian Starter with 2E",
+      "superstarSource": "Christian.gac",
+      "limits": {
+        "Agility": 5,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 2,
+        "Strength": 2,
+        "Technical": 4,
+        "Strike": 14,
+        "Agility": 4
+      }
+    },
+    {
+      "starterId": "Starter-DVon",
+      "title": "D-Von Dudley Starter#",
+      "superstarSource": "DVonDudley.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 4,
+        "Strike": 14,
+        "Knowledge": 2,
+        "Strength": 4
+      }
+    },
+    {
+      "starterId": "Starter-DVonDudley2",
+      "title": "D-Von Dudley Starter with 2E",
+      "superstarSource": "DVonDudley.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 4,
+        "Strike": 14,
+        "Knowledge": 2,
+        "Strength": 4
+      }
+    },
+    {
+      "starterId": "Starter-EddieGuerrero",
+      "title": "Eddie Guerrero Starter%",
+      "superstarSource": "EddieGuerreroEX1.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 6,
+        "Strength": 2,
+        "Strike": 4,
+        "Agility": 9,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-EddieGuerrero2E",
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "superstarSource": "EddieGuerrero2E.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 2,
+        "Strike": 4,
+        "Technical": 6,
+        "Agility": 12,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-Edge",
+      "title": "Edge Starter",
+      "superstarSource": "Edge.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 3,
+        "Strength": 3,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 67,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 71,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 72,
+          "oldSource": "AgilityEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 73,
+          "oldSource": "AgilityEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 8,
+        "Strike": 11,
+        "Strength": 3,
+        "Knowledge": 3
+      }
+    },
+    {
+      "starterId": "Starter-Edge2E",
+      "title": "Edge 2nd Edition Starter",
+      "superstarSource": "Edge2E.gac",
+      "limits": {
+        "Agility": 3,
+        "Knowledge": -1,
+        "Strength": 3,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 3,
+        "Knowledge": 4,
+        "Technical": 12,
+        "Agility": 3,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-EdgeGift",
+      "title": "Eddie Guerrero Gift Starter%",
+      "superstarSource": "EddieGuerrero2E.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 2,
+      "replacements": [
+        {
+          "index": 69,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 2,
+        "Strike": 4,
+        "Technical": 14,
+        "Agility": 4,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-Goldust",
+      "title": "Goldust Starter",
+      "superstarSource": "Goldust.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 5,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 4,
+        "Strength": 5,
+        "Knowledge": 4,
+        "Strike": 15,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "Starter-HulkHogan2E",
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "superstarSource": "HollywoodHulkHogan2E.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 70,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 8,
+        "Strike": 9,
+        "Knowledge": 8,
+        "Technical": 1
+      }
+    },
+    {
+      "starterId": "Starter-HulkHoganLE",
+      "title": "Hulk Hogan Starter!",
+      "superstarSource": "HollywoodHulkHoganLE.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 68,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 69,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 70,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 13,
+        "Strike": 4,
+        "Knowledge": 8,
+        "Technical": 1
+      }
+    },
+    {
+      "starterId": "Starter-JeffHardy",
+      "title": "Jeff Hardy Starter!",
+      "superstarSource": "JeffHardy.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 0,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": 5
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 64,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 11,
+        "Technical": 4,
+        "Agility": 10,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-JeffHardy2",
+      "title": "Jeff Hardy Starter with 2E",
+      "superstarSource": "JeffHardyEX2.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 0,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": 5
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 11,
+        "Technical": 4,
+        "Agility": 12,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-JeffHardyEX2",
+      "title": "Jeff Hardy Starter!",
+      "superstarSource": "JeffHardyEX2.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 0,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": 5
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 11,
+        "Technical": 4,
+        "Agility": 12,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-Kane",
+      "title": "Kane Starter",
+      "superstarSource": "Kane.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 13,
+        "Strength": 7,
+        "Technical": 1,
+        "Knowledge": 4,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "Starter-Kane2E",
+      "title": "Kane 2nd Edition Starter",
+      "superstarSource": "Kane2E.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 72,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 73,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Technical": 1,
+        "Strength": 16,
+        "Agility": 1,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-KevinNash",
+      "title": "Kevin Nash Starter",
+      "superstarSource": "KevinNashEX3.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX3.gac",
+          "newSource": "StrikeEX3.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 1,
+        "Strike": 11,
+        "Strength": 10,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-KurtAngle",
+      "title": "Kurt Angle Starter!",
+      "superstarSource": "KurtAngle.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": 2,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 69,
+          "oldSource": "Strike1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strike1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 10,
+        "Strength": 7,
+        "Knowledge": 7,
+        "Strike": 2
+      }
+    },
+    {
+      "starterId": "Starter-KurtAngle2E",
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "superstarSource": "KurtAngle2E.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 3,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Strength": 4,
+        "Technical": 13,
+        "Agility": 1,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-LanceStorm",
+      "title": "Lance Storm Starter",
+      "superstarSource": "LanceStorm.gac",
+      "limits": {
+        "Agility": 5,
+        "Knowledge": 5,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 7,
+          "oldSource": "AggressiveStrength.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 8,
+          "oldSource": "AggressiveStrength.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Strike": 4,
+        "Strength": 2,
+        "Technical": 14,
+        "Agility": 4
+      }
+    },
+    {
+      "starterId": "Starter-Lita",
+      "title": "Lita Starter",
+      "superstarSource": "Lita.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 3,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrikeEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 72,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 73,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 74,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "TechnicalEX1.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 11,
+        "Agility": 11,
+        "Knowledge": 2,
+        "Strike": 3,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-Lita2E",
+      "title": "Lita 2nd Edition Starter",
+      "superstarSource": "Lita2E.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 3,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 63,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 64,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 66,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 68,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strike2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 3,
+        "Technical": 5,
+        "Agility": 17,
+        "Knowledge": 1,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-MattHardy",
+      "title": "Matt Hardy Starter!",
+      "superstarSource": "MattHardy.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Technical": 8,
+        "Agility": 10,
+        "Knowledge": 2,
+        "Strength": 2
+      }
+    },
+    {
+      "starterId": "Starter-MattHardy2",
+      "title": "Matt Hardy Starter with 2E",
+      "superstarSource": "MattHardy.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "TechnicalEX2.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Technical": 8,
+        "Agility": 10,
+        "Knowledge": 2,
+        "Strength": 2
+      }
+    },
+    {
+      "starterId": "Starter-RicFlair",
+      "title": "Ric Flair Unforgiven Starter",
+      "superstarSource": "RicFlairEX3.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 16,
+        "Knowledge": 4,
+        "Strength": 1,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-RicFlairLE",
+      "title": "Ric Flair Starter",
+      "superstarSource": "RicFlairEX3LE.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 11,
+        "Knowledge": 4,
+        "Technical": 12,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-RobVanDam",
+      "title": "Rob Van Dam Starter\"",
+      "superstarSource": "RobVanDam.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 15,
+        "Strength": 2,
+        "Technical": 2,
+        "Agility": 8,
+        "Knowledge": 1
+      }
+    },
+    {
+      "starterId": "Starter-RobVanDam2",
+      "title": "Rob Van Dam Starter with 2E",
+      "superstarSource": "RobVanDamEX2.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 4,
+        "Technical": 2,
+        "Strike": 19,
+        "Knowledge": 1,
+        "Strength": 2
+      }
+    },
+    {
+      "starterId": "Starter-RobVanDamEX2",
+      "title": "Rob Van Dam Starter\"",
+      "superstarSource": "RobVanDamEX2.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrikeEX2.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 4,
+        "Technical": 2,
+        "Strike": 19,
+        "Knowledge": 1,
+        "Strength": 2
+      }
+    },
+    {
+      "starterId": "Starter-Scotty2Hotty",
+      "title": "Scotty 2 Hotty Starter%",
+      "superstarSource": "ScottyTooHottie.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 68,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "StrengthEX1.gac",
+          "newSource": "StrikeEX1.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 13,
+        "Technical": 7,
+        "Agility": 4,
+        "Knowledge": 1,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-SpikeDudley",
+      "title": "Spike Dudley Starter",
+      "superstarSource": "SpikeDudley.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 65,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 2,
+        "Strike": 4,
+        "Strength": 1,
+        "Agility": 9,
+        "Technical": 14
+      }
+    },
+    {
+      "starterId": "Starter-StoneCold",
+      "title": "Stone Cold Starter.",
+      "superstarSource": "stsaEX1.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 0,
+      "replacements": [],
+      "finalPositiveMomentumGains": {
+        "Technical": 1,
+        "Strike": 9,
+        "Strength": 11,
+        "Knowledge": 4
+      }
+    },
+    {
+      "starterId": "Starter-Tajiri",
+      "title": "Tajiri LE Starter",
+      "superstarSource": "TajiriLE.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 63,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 68,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 9,
+        "Technical": 4,
+        "Agility": 10,
+        "Knowledge": 2,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-Tazz",
+      "title": "Tazz Starter",
+      "superstarSource": "Tazz.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": 1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 68,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 69,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 70,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Knowledge": 1,
+        "Strength": 12,
+        "Technical": 6,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "Starter-Test",
+      "title": "Test Starter",
+      "superstarSource": "AnotherAttitudeStar.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "TechnicalEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX1.gac",
+          "newSource": "StrengthEX1.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 1,
+        "Strength": 18,
+        "Knowledge": 2,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-Test2",
+      "title": "Test Starter with 2E",
+      "superstarSource": "TestEX2.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 1,
+        "Strength": 19,
+        "Knowledge": 2,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-TestEX2",
+      "title": "Test Starter",
+      "superstarSource": "TestEX2.gac",
+      "limits": {
+        "Agility": 2,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 65,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 66,
+          "oldSource": "KnowledgeEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 71,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 72,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 2,
+        "Technical": 1,
+        "Strength": 18,
+        "Knowledge": 2,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "superstarSource": "TheBigShowEX1.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": 1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 0
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 11,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 65,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 68,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 18,
+        "Strength": 6,
+        "Knowledge": 1
+      }
+    },
+    {
+      "starterId": "Starter-TheBigShow2E",
+      "title": "The Big Show 2nd Edition Starter#",
+      "superstarSource": "TheBigShow2E.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 0
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 10,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 73,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 4,
+        "Knowledge": 2,
+        "Strike": 21
+      }
+    },
+    {
+      "starterId": "Starter-TheCripplerChrisBenoit",
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "superstarSource": "TheCripplerChrisBenoit.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": 2,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Strike1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strike1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 72,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 73,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 74,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 2,
+        "Strike": 2,
+        "Technical": 16,
+        "Knowledge": 4,
+        "Agility": 4
+      }
+    },
+    {
+      "starterId": "Starter-TheHurricane",
+      "title": "The Hurricane Unforgiven Starter",
+      "superstarSource": "TheHurricane.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 65,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 7,
+        "Knowledge": 2,
+        "Technical": 12,
+        "Strength": 1,
+        "Strike": 4
+      }
+    },
+    {
+      "starterId": "Starter-TheHurricaneLE",
+      "title": "The Hurricane Starter",
+      "superstarSource": "TheHurricaneLE.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 66,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 71,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 72,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 73,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Strength": 1,
+        "Technical": 15,
+        "Agility": 6,
+        "Knowledge": 2
+      }
+    },
+    {
+      "starterId": "Starter-TheRock",
+      "title": "The Rock Starter",
+      "superstarSource": "TheRock.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 67,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 68,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 69,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Technical": 2,
+        "Strike": 4,
+        "Agility": 1,
+        "Knowledge": 7,
+        "Strength": 12
+      }
+    },
+    {
+      "starterId": "Starter-TheRock2E",
+      "title": "The Rock Starter",
+      "superstarSource": "TheRock2E.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "AgilityEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 73,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 74,
+          "oldSource": "TechnicalEX2.gac",
+          "newSource": "StrengthEX2.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Strike": 4,
+        "Strength": 15,
+        "Agility": 1,
+        "Technical": 2
+      }
+    },
+    {
+      "starterId": "Starter-TheRock2EnoLE",
+      "title": "The Rock 2nd Edition Starter",
+      "superstarSource": "TheRock2EnoLE.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 72,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 73,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strength2E.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 4,
+        "Strike": 4,
+        "Technical": 2,
+        "Strength": 17,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "Starter-TheUndertaker",
+      "title": "The Undertaker Starter%",
+      "superstarSource": "TheUndertakerEX1.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 5,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 72,
+          "oldSource": "Technical1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 7,
+        "Strike": 12,
+        "Agility": 1,
+        "Knowledge": 4,
+        "Technical": 2
+      }
+    },
+    {
+      "starterId": "Starter-TheUndertaker2E",
+      "title": "The Undertaker 2nd Edition Starter%",
+      "superstarSource": "TheUndertaker2E.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 61,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Technical2E.gac",
+          "newSource": "Strike2E.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 11,
+        "Technical": 2,
+        "Knowledge": 4,
+        "Strength": 10
+      }
+    },
+    {
+      "starterId": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "superstarSource": "TripleH2E.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 3,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "Agility2E.gac",
+          "newSource": "Technical2E.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 5,
+        "Strike": 4,
+        "Knowledge": 4,
+        "Technical": 12,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "Starter-TrishStratus",
+      "title": "Trish Stratus Unforgiven Starter",
+      "superstarSource": "TrishStratusEX3.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "KnowledgeEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 66,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 67,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 68,
+          "oldSource": "StrengthEX3.gac",
+          "newSource": "TechnicalEX3.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Technical": 10,
+        "Agility": 9,
+        "Knowledge": 1,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-TrishStratusLE",
+      "title": "Trish Stratus Starter",
+      "superstarSource": "TrishStratusEX3LE.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 63,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 64,
+          "oldSource": "Knowledge2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 66,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        },
+        {
+          "index": 68,
+          "oldSource": "Strength2E.gac",
+          "newSource": "Agility2E.gac",
+          "newMethod": "Agility"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 4,
+        "Technical": 4,
+        "Agility": 15,
+        "Knowledge": 1,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "Starter-WilliamRegal3",
+      "title": "William Regal Starter#",
+      "superstarSource": "WilliamRegal.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": 2,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 7,
+      "replacements": [
+        {
+          "index": 62,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 63,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 64,
+          "oldSource": "Strength1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 71,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 72,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 73,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 5,
+        "Strength": 2,
+        "Technical": 19,
+        "Agility": 1,
+        "Strike": 5
+      }
+    },
+    {
+      "starterId": "Starter-XPac",
+      "title": "X-Pac Starter",
+      "superstarSource": "XPac.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 6,
+      "replacements": [
+        {
+          "index": 65,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 66,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 67,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 69,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 70,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 71,
+          "oldSource": "Knowledge1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Agility": 7,
+        "Strike": 13,
+        "Technical": 3,
+        "Strength": 1,
+        "Knowledge": 1
+      }
+    },
+    {
+      "starterId": "TripleHStarter",
+      "title": "Triple H Starter/",
+      "superstarSource": "TripleH.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": -1,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 3,
+      "replacements": [
+        {
+          "index": 68,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 69,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        },
+        {
+          "index": 70,
+          "oldSource": "Agility1.gac",
+          "newSource": "TechnicalTourn.gac",
+          "newMethod": "Technical"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 6,
+        "Strike": 4,
+        "Knowledge": 4,
+        "Technical": 9,
+        "Agility": 1
+      }
+    },
+    {
+      "starterId": "BonusSnow",
+      "title": "Al Snow Starter",
+      "superstarSource": "AlSnow.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": 2,
+        "Strength": 2,
+        "Strike": 5,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 0,
+      "replacements": [],
+      "finalPositiveMomentumGains": {
+        "Knowledge": 1,
+        "Technical": 1,
+        "Strike": 5,
+        "Agility": 10
+      }
+    },
+    {
+      "starterId": "BonusBlackman",
+      "title": "Steve Blackman Starter",
+      "superstarSource": "SteveBlackman.gac",
+      "limits": {
+        "Agility": 1,
+        "Knowledge": 2,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 0,
+      "replacements": [],
+      "finalPositiveMomentumGains": {
+        "Strike": 1,
+        "Technical": 1,
+        "Strength": 11
+      }
+    },
+    {
+      "starterId": "OfficialProduct-Brock-SummerSlam2002",
+      "title": "Brock Lesnar \u2014 Official Product Build",
+      "superstarSource": "BrockLesnar.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": 1,
+        "Strength": -1,
+        "Strike": 2,
+        "Technical": 1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 3,
+      "replacements": [
+        {
+          "index": 11,
+          "oldSource": "Strike1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 12,
+          "oldSource": "Strike1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        },
+        {
+          "index": 13,
+          "oldSource": "Strike1.gac",
+          "newSource": "StrengthTourn.gac",
+          "newMethod": "Strength"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strength": 8,
+        "Strike": 2
+      }
+    },
+    {
+      "starterId": "OfficialProduct-ShawnMichaels-SummerSlam2002",
+      "title": "Shawn Michaels \u2014 Official Product Build",
+      "superstarSource": "ShawnMichaels.gac",
+      "limits": {
+        "Agility": -1,
+        "Knowledge": -1,
+        "Strength": 1,
+        "Strike": -1,
+        "Technical": -1
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 4,
+      "replacements": [
+        {
+          "index": 10,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 11,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 12,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        },
+        {
+          "index": 13,
+          "oldSource": "Strength1.gac",
+          "newSource": "StrikeTourn.gac",
+          "newMethod": "Strike"
+        }
+      ],
+      "finalPositiveMomentumGains": {
+        "Strike": 9,
+        "Strength": 1
+      }
+    },
+    {
+      "starterId": "OfficialProduct-ScottHall-WMX8",
+      "title": "Scott Hall \u2014 Official Product Build",
+      "superstarSource": "ScottHall.gac",
+      "limits": {
+        "Agility": 0,
+        "Knowledge": 3,
+        "Strength": -1,
+        "Strike": -1,
+        "Technical": 2
+      },
+      "openingFivePreserved": true,
+      "replacementCount": 0,
+      "replacements": [],
+      "finalPositiveMomentumGains": {
+        "Strength": 5,
+        "Strike": 5
+      }
+    }
+  ]
+}

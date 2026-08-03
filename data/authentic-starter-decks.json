@@ -1,5 +1,5 @@
 {
-  "version": "0.9.77",
+  "version": "v0.9.143-rules-core",
   "count": 70,
   "starters": [
     {
@@ -498,44 +498,36 @@
           "cardId": "BoringV095"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
-        },
-        {
-          "unid": 9,
-          "sourceFiles": [
-            "Knowledge1.gac"
-          ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
           "unid": 9,
@@ -546,12 +538,20 @@
           "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 9,
+          "unid": 1214,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
+        },
+        {
+          "unid": 1214,
+          "sourceFiles": [
+            "StrengthTourn.gac"
+          ],
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
           "unid": 11,
@@ -562,33 +562,34 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1214,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 11,
+          "unid": 1214,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 11,
+          "unid": 1214,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BookerT",
@@ -1118,20 +1119,20 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 9,
@@ -1198,25 +1199,26 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BookerT2",
@@ -1730,20 +1732,20 @@
           "cardId": "AgilityEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -1810,25 +1812,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BookerTEX2",
@@ -2342,20 +2345,20 @@
           "cardId": "AgilityEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -2422,25 +2425,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Bradshaw",
@@ -2938,44 +2942,36 @@
           "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1164,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1164,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1164,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1164,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
-        },
-        {
-          "unid": 1163,
-          "sourceFiles": [
-            "KnowledgeEX3.gac"
-          ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         },
         {
           "unid": 1163,
@@ -3002,33 +2998,42 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1163,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "KnowledgeEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "KnowledgeEX3.gac",
+          "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1164,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1164,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "StrengthEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
+        },
+        {
+          "unid": 1164,
+          "sourceFiles": [
+            "StrengthEX3.gac"
+          ],
+          "sourceFile": "StrengthEX3.gac",
+          "cardId": "OriginalVariant_StrengthEX3"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BubbaEX2",
@@ -3534,28 +3539,28 @@
           "cardId": "AgilityEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -3614,25 +3619,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BubbaRayDudley",
@@ -4162,28 +4168,28 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 9,
@@ -4242,25 +4248,26 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-BubbaRayDudley2",
@@ -4766,28 +4773,28 @@
           "cardId": "AgilityEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -4846,25 +4853,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-ChrisBenoit2E",
@@ -5434,20 +5442,20 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 748,
@@ -5476,7 +5484,8 @@
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-ChrisJericho",
@@ -6014,12 +6023,12 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 10,
+          "unid": 1216,
           "sourceFiles": [
-            "Strike1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 11,
@@ -6046,25 +6055,26 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-ChrisJericho2E",
@@ -6602,20 +6612,20 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 748,
@@ -6652,7 +6662,8 @@
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Christian",
@@ -7190,28 +7201,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -7222,12 +7225,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 653,
@@ -7256,7 +7267,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Christian2",
@@ -7794,28 +7806,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -7826,12 +7830,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 653,
@@ -7860,7 +7872,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-DVon",
@@ -8358,28 +8371,20 @@
           "cardId": "OriginalExact_TakingAHugeChance"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
-        },
-        {
-          "unid": 646,
-          "sourceFiles": [
-            "KnowledgeEX2.gac"
-          ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -8398,12 +8403,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -8464,7 +8477,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-DVonDudley2",
@@ -8962,28 +8976,20 @@
           "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 642,
+          "unid": 648,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
-        },
-        {
-          "unid": 646,
-          "sourceFiles": [
-            "KnowledgeEX2.gac"
-          ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 646,
@@ -9002,12 +9008,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -9068,7 +9082,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-EddieGuerrero",
@@ -9606,20 +9621,20 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 10,
@@ -9656,7 +9671,8 @@
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-EddieGuerrero2E",
@@ -10194,20 +10210,20 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 748,
@@ -10260,7 +10276,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Edge",
@@ -10806,12 +10823,12 @@
           "cardId": "StrengthEX1"
         },
         {
-          "unid": 323,
+          "unid": 325,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
           "unid": 322,
@@ -10838,33 +10855,34 @@
           "cardId": "KnowledgeEX1"
         },
         {
-          "unid": 322,
+          "unid": 325,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
-          "unid": 321,
+          "unid": 325,
           "sourceFiles": [
-            "AgilityEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "AgilityEX1.gac",
-          "cardId": "AgilityEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
-          "unid": 321,
+          "unid": 325,
           "sourceFiles": [
-            "AgilityEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "AgilityEX1.gac",
-          "cardId": "AgilityEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Edge2E",
@@ -11394,12 +11412,12 @@
           "cardId": "Agility2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 746,
@@ -11434,12 +11452,12 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 748,
@@ -11476,7 +11494,8 @@
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-EdgeGift",
@@ -12038,20 +12057,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 647,
+          "unid": 653,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
-          "unid": 647,
+          "unid": 653,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
           "unid": 648,
@@ -12080,7 +12099,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Goldust",
@@ -12586,28 +12606,28 @@
           "cardId": "OriginalVariant_AgilityEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
           "unid": 1163,
@@ -12642,20 +12662,20 @@
           "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1165,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1165,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
           "unid": 1166,
@@ -12684,7 +12704,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-HulkHogan2E",
@@ -13190,36 +13211,36 @@
           "cardId": "OriginalExact_StacyKiebler"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 748,
@@ -13246,33 +13267,34 @@
           "cardId": "Technical2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-HulkHoganLE",
@@ -13770,44 +13792,36 @@
           "cardId": "OriginalExact_ThatWasThree2E"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
-        },
-        {
-          "unid": 648,
-          "sourceFiles": [
-            "StrikeEX2.gac"
-          ],
-          "sourceFile": "StrikeEX2.gac",
-          "cardId": "StrikeEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 648,
@@ -13818,12 +13832,12 @@
           "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 653,
@@ -13834,25 +13848,34 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
+        },
+        {
+          "unid": 647,
+          "sourceFiles": [
+            "StrengthEX2.gac"
+          ],
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         }
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-JeffHardy",
@@ -14374,44 +14397,36 @@
           "cardId": "SwantonBomb"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
-        },
-        {
-          "unid": 8,
-          "sourceFiles": [
-            "Strength1.gac"
-          ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 8,
@@ -14422,20 +14437,28 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
+        },
+        {
+          "unid": 1215,
+          "sourceFiles": [
+            "StrikeTourn.gac"
+          ],
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 10,
@@ -14480,7 +14503,8 @@
       ],
       "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-JeffHardy2",
@@ -14978,44 +15002,36 @@
           "cardId": "SwantonBombEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -15026,20 +15042,28 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 648,
@@ -15084,7 +15108,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-JeffHardyEX2",
@@ -15582,44 +15607,36 @@
           "cardId": "SwantonBombEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -15630,20 +15647,28 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 648,
@@ -15688,7 +15713,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Kane",
@@ -16194,28 +16220,28 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 9,
@@ -16258,33 +16284,34 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Kane2E",
@@ -16790,28 +16817,28 @@
           "cardId": "Agility2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
           "unid": 746,
@@ -16862,33 +16889,34 @@
           "cardId": "Strike2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-KevinNash",
@@ -17386,36 +17414,36 @@
           "cardId": "Original_UpAndOver2E"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1165,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
           "unid": 1163,
@@ -17466,33 +17494,34 @@
           "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1165,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1165,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         },
         {
-          "unid": 1166,
+          "unid": 1165,
           "sourceFiles": [
-            "TechnicalEX3.gac"
+            "StrikeEX3.gac"
           ],
-          "sourceFile": "TechnicalEX3.gac",
-          "cardId": "OriginalVariant_TechnicalEX3"
+          "sourceFile": "StrikeEX3.gac",
+          "cardId": "OriginalVariant_StrikeEX3"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-KurtAngle",
@@ -17990,44 +18019,36 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
-        },
-        {
-          "unid": 8,
-          "sourceFiles": [
-            "Strength1.gac"
-          ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 8,
@@ -18038,12 +18059,12 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 10,
+          "unid": 8,
           "sourceFiles": [
-            "Strike1.gac"
+            "Strength1.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
         },
         {
           "unid": 10,
@@ -18062,12 +18083,20 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 10,
+          "unid": 1216,
           "sourceFiles": [
-            "Strike1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
+        },
+        {
+          "unid": 1216,
+          "sourceFiles": [
+            "TechnicalTourn.gac"
+          ],
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 11,
@@ -18088,7 +18117,8 @@
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-KurtAngle2E",
@@ -18594,28 +18624,28 @@
           "cardId": "Agility2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 746,
@@ -18692,7 +18722,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-LanceStorm",
@@ -18758,20 +18789,20 @@
           "cardId": "AggressiveStrength"
         },
         {
-          "unid": 1044,
+          "unid": 1216,
           "sourceFiles": [
-            "AggressiveStrength.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "AggressiveStrength.gac",
-          "cardId": "AggressiveStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 1044,
+          "unid": 1216,
           "sourceFiles": [
-            "AggressiveStrength.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "AggressiveStrength.gac",
-          "cardId": "AggressiveStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 1093,
@@ -19246,28 +19277,28 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1165,
@@ -19296,7 +19327,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Lita",
@@ -19826,28 +19858,20 @@
           "cardId": "KnowledgeEX1"
         },
         {
-          "unid": 322,
+          "unid": 325,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
-          "unid": 322,
+          "unid": 325,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
-        },
-        {
-          "unid": 324,
-          "sourceFiles": [
-            "StrikeEX1.gac"
-          ],
-          "sourceFile": "StrikeEX1.gac",
-          "cardId": "StrikeEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
           "unid": 324,
@@ -19874,12 +19898,12 @@
           "cardId": "StrikeEX1"
         },
         {
-          "unid": 323,
+          "unid": 325,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
           "unid": 323,
@@ -19890,25 +19914,34 @@
           "cardId": "StrengthEX1"
         },
         {
-          "unid": 323,
+          "unid": 325,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         },
         {
-          "unid": 323,
+          "unid": 325,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "TechnicalEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
+        },
+        {
+          "unid": 325,
+          "sourceFiles": [
+            "TechnicalEX1.gac"
+          ],
+          "sourceFile": "TechnicalEX1.gac",
+          "cardId": "TechnicalEX1"
         }
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Lita2E",
@@ -20414,36 +20447,28 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
-        },
-        {
-          "unid": 747,
-          "sourceFiles": [
-            "Strength2E.gac"
-          ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
           "unid": 747,
@@ -20454,20 +20479,28 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 745,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 747,
+          "unid": 745,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
+        },
+        {
+          "unid": 745,
+          "sourceFiles": [
+            "Agility2E.gac"
+          ],
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
           "unid": 748,
@@ -20478,17 +20511,18 @@
           "cardId": "Strike2E"
         },
         {
-          "unid": 748,
+          "unid": 745,
           "sourceFiles": [
-            "Strike2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Strike2E.gac",
-          "cardId": "Strike2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         }
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-MattHardy",
@@ -21002,28 +21036,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 653,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
-          "unid": 646,
+          "unid": 653,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
           "unid": 647,
@@ -21042,12 +21068,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 653,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
+        },
+        {
+          "unid": 653,
+          "sourceFiles": [
+            "TechnicalEX2.gac"
+          ],
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
           "unid": 648,
@@ -21092,7 +21126,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-MattHardy2",
@@ -21606,28 +21641,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 653,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
-          "unid": 646,
+          "unid": 653,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
           "unid": 647,
@@ -21646,12 +21673,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 653,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "TechnicalEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
+        },
+        {
+          "unid": 653,
+          "sourceFiles": [
+            "TechnicalEX2.gac"
+          ],
+          "sourceFile": "TechnicalEX2.gac",
+          "cardId": "TechnicalEX2"
         },
         {
           "unid": 648,
@@ -21696,7 +21731,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-RicFlair",
@@ -22194,36 +22230,36 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1166,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1166,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1166,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1162,
+          "unid": 1166,
           "sourceFiles": [
-            "AgilityEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "AgilityEX3.gac",
-          "cardId": "OriginalVariant_AgilityEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1163,
@@ -22234,28 +22270,28 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1165,
@@ -22292,7 +22328,8 @@
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-RicFlairLE",
@@ -22790,44 +22827,36 @@
           "cardId": "Original_RicFlairsFigureFourLE"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
-        },
-        {
-          "unid": 746,
-          "sourceFiles": [
-            "Knowledge2E.gac"
-          ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 746,
@@ -22846,12 +22875,12 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 747,
+          "unid": 746,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Knowledge2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Knowledge2E.gac",
+          "cardId": "Knowledge2E"
         },
         {
           "unid": 747,
@@ -22862,20 +22891,28 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
+        },
+        {
+          "unid": 748,
+          "sourceFiles": [
+            "Strike2E.gac"
+          ],
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 748,
@@ -22896,7 +22933,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-RobVanDam",
@@ -23426,36 +23464,28 @@
           "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
-        },
-        {
-          "unid": 8,
-          "sourceFiles": [
-            "Strength1.gac"
-          ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 8,
@@ -23466,12 +23496,20 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
+        },
+        {
+          "unid": 1215,
+          "sourceFiles": [
+            "StrikeTourn.gac"
+          ],
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 11,
@@ -23482,25 +23520,26 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-RobVanDam2",
@@ -24022,36 +24061,28 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -24070,12 +24101,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 653,
@@ -24086,25 +24125,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-RobVanDamEX2",
@@ -24626,36 +24666,28 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 646,
+          "unid": 648,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
-        },
-        {
-          "unid": 647,
-          "sourceFiles": [
-            "StrengthEX2.gac"
-          ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 647,
@@ -24674,12 +24706,20 @@
           "cardId": "StrengthEX2"
         },
         {
-          "unid": 647,
+          "unid": 648,
           "sourceFiles": [
-            "StrengthEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "StrengthEX2.gac",
-          "cardId": "StrengthEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
+        },
+        {
+          "unid": 648,
+          "sourceFiles": [
+            "StrikeEX2.gac"
+          ],
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
           "unid": 653,
@@ -24690,25 +24730,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 648,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrikeEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrikeEX2.gac",
+          "cardId": "StrikeEX2"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Scotty2Hotty",
@@ -25246,36 +25287,28 @@
           "cardId": "KnowledgeEX1"
         },
         {
-          "unid": 322,
+          "unid": 324,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "StrikeEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
         },
         {
-          "unid": 322,
+          "unid": 324,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "StrikeEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
         },
         {
-          "unid": 322,
+          "unid": 324,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "StrikeEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
-        },
-        {
-          "unid": 323,
-          "sourceFiles": [
-            "StrengthEX1.gac"
-          ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
         },
         {
           "unid": 323,
@@ -25286,25 +25319,34 @@
           "cardId": "StrengthEX1"
         },
         {
-          "unid": 323,
+          "unid": 324,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "StrikeEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
         },
         {
-          "unid": 323,
+          "unid": 324,
           "sourceFiles": [
-            "StrengthEX1.gac"
+            "StrikeEX1.gac"
           ],
-          "sourceFile": "StrengthEX1.gac",
-          "cardId": "StrengthEX1"
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
+        },
+        {
+          "unid": 324,
+          "sourceFiles": [
+            "StrikeEX1.gac"
+          ],
+          "sourceFile": "StrikeEX1.gac",
+          "cardId": "StrikeEX1"
         }
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-SpikeDudley",
@@ -25810,44 +25852,44 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1165,
@@ -25908,7 +25950,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-StoneCold",
@@ -26406,36 +26449,28 @@
           "cardId": "OriginalExact_WithAuthority"
         },
         {
-          "unid": 11,
+          "unid": 8,
           "sourceFiles": [
-            "Technical1.gac"
+            "Strength1.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 11,
+          "unid": 8,
           "sourceFiles": [
-            "Technical1.gac"
+            "Strength1.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 11,
+          "unid": 8,
           "sourceFiles": [
-            "Technical1.gac"
+            "Strength1.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
-        },
-        {
-          "unid": 9,
-          "sourceFiles": [
-            "Knowledge1.gac"
-          ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "Strength1.gac",
+          "cardId": "OriginalMomentumStrength"
         },
         {
           "unid": 9,
@@ -26462,41 +26497,49 @@
           "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 6,
+          "unid": 9,
           "sourceFiles": [
-            "Agility1.gac"
+            "Knowledge1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Knowledge1.gac",
+          "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 6,
+          "unid": 10,
           "sourceFiles": [
-            "Agility1.gac"
+            "Strike1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 6,
+          "unid": 10,
           "sourceFiles": [
-            "Agility1.gac"
+            "Strike1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 6,
+          "unid": 10,
           "sourceFiles": [
-            "Agility1.gac"
+            "Strike1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
+        },
+        {
+          "unid": 10,
+          "sourceFiles": [
+            "Strike1.gac"
+          ],
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "User-approved playable correction: replaced 4 unusable Agility pages with Strike and replaced 3 of 4 Technical pages with Strength. One Technical page retained."
     },
     {
       "id": "Starter-Tajiri",
@@ -27010,28 +27053,20 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 746,
+          "unid": 748,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 746,
+          "unid": 748,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
-        },
-        {
-          "unid": 747,
-          "sourceFiles": [
-            "Strength2E.gac"
-          ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 747,
@@ -27042,20 +27077,28 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
+        },
+        {
+          "unid": 748,
+          "sourceFiles": [
+            "Strike2E.gac"
+          ],
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 748,
@@ -27100,7 +27143,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Tazz",
@@ -27606,36 +27650,28 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
-        },
-        {
-          "unid": 10,
-          "sourceFiles": [
-            "Strike1.gac"
-          ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
           "unid": 10,
@@ -27654,33 +27690,42 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 9,
+          "unid": 10,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "Strike1.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 9,
+          "unid": 1214,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 9,
+          "unid": 1214,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
+        },
+        {
+          "unid": 1214,
+          "sourceFiles": [
+            "StrengthTourn.gac"
+          ],
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         }
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Test",
@@ -28178,28 +28223,20 @@
           "cardId": "OriginalVariant_ThrowOverTheRopes"
         },
         {
-          "unid": 321,
+          "unid": 323,
           "sourceFiles": [
-            "AgilityEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "AgilityEX1.gac",
-          "cardId": "AgilityEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
-          "unid": 321,
+          "unid": 323,
           "sourceFiles": [
-            "AgilityEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "AgilityEX1.gac",
-          "cardId": "AgilityEX1"
-        },
-        {
-          "unid": 322,
-          "sourceFiles": [
-            "KnowledgeEX1.gac"
-          ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
           "unid": 322,
@@ -28218,12 +28255,20 @@
           "cardId": "KnowledgeEX1"
         },
         {
-          "unid": 322,
+          "unid": 323,
           "sourceFiles": [
-            "KnowledgeEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "KnowledgeEX1.gac",
-          "cardId": "KnowledgeEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
+        },
+        {
+          "unid": 323,
+          "sourceFiles": [
+            "StrengthEX1.gac"
+          ],
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
           "unid": 324,
@@ -28258,28 +28303,28 @@
           "cardId": "StrikeEX1"
         },
         {
-          "unid": 325,
+          "unid": 323,
           "sourceFiles": [
-            "TechnicalEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "TechnicalEX1.gac",
-          "cardId": "TechnicalEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
-          "unid": 325,
+          "unid": 323,
           "sourceFiles": [
-            "TechnicalEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "TechnicalEX1.gac",
-          "cardId": "TechnicalEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
-          "unid": 325,
+          "unid": 323,
           "sourceFiles": [
-            "TechnicalEX1.gac"
+            "StrengthEX1.gac"
           ],
-          "sourceFile": "TechnicalEX1.gac",
-          "cardId": "TechnicalEX1"
+          "sourceFile": "StrengthEX1.gac",
+          "cardId": "StrengthEX1"
         },
         {
           "unid": 306,
@@ -28308,7 +28353,8 @@
       ],
       "mappedPlayable": 77,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-Test2",
@@ -28806,28 +28852,20 @@
           "cardId": "TheBigElbowEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
-        },
-        {
-          "unid": 646,
-          "sourceFiles": [
-            "KnowledgeEX2.gac"
-          ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 646,
@@ -28846,12 +28884,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 647,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
+        },
+        {
+          "unid": 647,
+          "sourceFiles": [
+            "StrengthEX2.gac"
+          ],
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 648,
@@ -28886,33 +28932,34 @@
           "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TestEX2",
@@ -29410,28 +29457,20 @@
           "cardId": "TheBigElbowEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
-        },
-        {
-          "unid": 646,
-          "sourceFiles": [
-            "KnowledgeEX2.gac"
-          ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 646,
@@ -29450,12 +29489,20 @@
           "cardId": "KnowledgeEX2"
         },
         {
-          "unid": 646,
+          "unid": 647,
           "sourceFiles": [
-            "KnowledgeEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "KnowledgeEX2.gac",
-          "cardId": "KnowledgeEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
+        },
+        {
+          "unid": 647,
+          "sourceFiles": [
+            "StrengthEX2.gac"
+          ],
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 648,
@@ -29490,25 +29537,26 @@
           "cardId": "StrikeEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         }
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheBigShow",
@@ -30006,97 +30054,98 @@
           "cardId": "WillToWin"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheBigShow2E",
@@ -30594,44 +30643,36 @@
           "cardId": "Original_DoubleLegTakedownEX2"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
-        },
-        {
-          "unid": 746,
-          "sourceFiles": [
-            "Knowledge2E.gac"
-          ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 746,
@@ -30642,12 +30683,20 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 746,
+          "unid": 748,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
+        },
+        {
+          "unid": 748,
+          "sourceFiles": [
+            "Strike2E.gac"
+          ],
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 747,
@@ -30666,41 +30715,42 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheCripplerChrisBenoit",
@@ -31238,28 +31288,20 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 10,
+          "unid": 1216,
           "sourceFiles": [
-            "Strike1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 10,
+          "unid": 1216,
           "sourceFiles": [
-            "Strike1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
-        },
-        {
-          "unid": 6,
-          "sourceFiles": [
-            "Agility1.gac"
-          ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 6,
@@ -31286,33 +31328,42 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 8,
+          "unid": 6,
           "sourceFiles": [
-            "Strength1.gac"
+            "Agility1.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "Agility1.gac",
+          "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
+        },
+        {
+          "unid": 1216,
+          "sourceFiles": [
+            "TechnicalTourn.gac"
+          ],
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         }
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheHurricane",
@@ -31818,28 +31869,20 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
-        },
-        {
-          "unid": 1164,
-          "sourceFiles": [
-            "StrengthEX3.gac"
-          ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1164,
@@ -31850,20 +31893,28 @@
           "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
+        },
+        {
+          "unid": 1166,
+          "sourceFiles": [
+            "TechnicalEX3.gac"
+          ],
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1165,
@@ -31900,7 +31951,8 @@
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheHurricaneLE",
@@ -32438,28 +32490,20 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 746,
+          "unid": 749,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 746,
+          "unid": 749,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
-        },
-        {
-          "unid": 748,
-          "sourceFiles": [
-            "Strike2E.gac"
-          ],
-          "sourceFile": "Strike2E.gac",
-          "cardId": "Strike2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 748,
@@ -32478,33 +32522,42 @@
           "cardId": "Strike2E"
         },
         {
-          "unid": 747,
+          "unid": 748,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 747,
+          "unid": 749,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
+        },
+        {
+          "unid": 749,
+          "sourceFiles": [
+            "Technical2E.gac"
+          ],
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheRock",
@@ -33010,28 +33063,20 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1214,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 11,
+          "unid": 1214,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
-        },
-        {
-          "unid": 10,
-          "sourceFiles": [
-            "Strike1.gac"
-          ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
           "unid": 10,
@@ -33050,33 +33095,42 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 6,
+          "unid": 10,
           "sourceFiles": [
-            "Agility1.gac"
+            "Strike1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Strike1.gac",
+          "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 6,
+          "unid": 1214,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
+        },
+        {
+          "unid": 1214,
+          "sourceFiles": [
+            "StrengthTourn.gac"
+          ],
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         }
       ],
       "mappedPlayable": 70,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheRock2E",
@@ -33582,28 +33636,28 @@
           "cardId": "AgilityEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 642,
+          "unid": 647,
           "sourceFiles": [
-            "AgilityEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "AgilityEX2.gac",
-          "cardId": "AgilityEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
           "unid": 646,
@@ -33670,25 +33724,26 @@
           "cardId": "TechnicalEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         },
         {
-          "unid": 653,
+          "unid": 647,
           "sourceFiles": [
-            "TechnicalEX2.gac"
+            "StrengthEX2.gac"
           ],
-          "sourceFile": "TechnicalEX2.gac",
-          "cardId": "TechnicalEX2"
+          "sourceFile": "StrengthEX2.gac",
+          "cardId": "StrengthEX2"
         }
       ],
       "mappedPlayable": 75,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheRock2EnoLE",
@@ -34194,28 +34249,28 @@
           "cardId": "Agility2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 745,
+          "unid": 747,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
           "unid": 746,
@@ -34274,25 +34329,26 @@
           "cardId": "Technical2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         },
         {
-          "unid": 749,
+          "unid": 747,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strength2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strength2E.gac",
+          "cardId": "Strength2E"
         }
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheUndertaker",
@@ -34798,28 +34854,28 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 6,
+          "unid": 1215,
           "sourceFiles": [
-            "Agility1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 9,
@@ -34870,25 +34926,26 @@
           "cardId": "OriginalMomentumTechnical"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 11,
+          "unid": 1215,
           "sourceFiles": [
-            "Technical1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Technical1.gac",
-          "cardId": "OriginalMomentumTechnical"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 73,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TheUndertaker2E",
@@ -35386,36 +35443,36 @@
           "cardId": "OriginalExact_KickToGut"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 745,
+          "unid": 748,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
           "unid": 746,
@@ -35450,25 +35507,26 @@
           "cardId": "Technical2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         },
         {
-          "unid": 749,
+          "unid": 748,
           "sourceFiles": [
-            "Technical2E.gac"
+            "Strike2E.gac"
           ],
-          "sourceFile": "Technical2E.gac",
-          "cardId": "Technical2E"
+          "sourceFile": "Strike2E.gac",
+          "cardId": "Strike2E"
         }
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TripleH2E",
@@ -35974,28 +36032,28 @@
           "cardId": "Agility2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
-          "unid": 745,
+          "unid": 749,
           "sourceFiles": [
-            "Agility2E.gac"
+            "Technical2E.gac"
           ],
-          "sourceFile": "Agility2E.gac",
-          "cardId": "Agility2E"
+          "sourceFile": "Technical2E.gac",
+          "cardId": "Technical2E"
         },
         {
           "unid": 746,
@@ -36048,7 +36106,8 @@
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TrishStratus",
@@ -36554,36 +36613,28 @@
           "cardId": "OriginalVariant_KnowledgeEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1163,
+          "unid": 1166,
           "sourceFiles": [
-            "KnowledgeEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "KnowledgeEX3.gac",
-          "cardId": "OriginalVariant_KnowledgeEX3"
-        },
-        {
-          "unid": 1164,
-          "sourceFiles": [
-            "StrengthEX3.gac"
-          ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1164,
@@ -36594,20 +36645,28 @@
           "cardId": "OriginalVariant_StrengthEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
-          "unid": 1164,
+          "unid": 1166,
           "sourceFiles": [
-            "StrengthEX3.gac"
+            "TechnicalEX3.gac"
           ],
-          "sourceFile": "StrengthEX3.gac",
-          "cardId": "OriginalVariant_StrengthEX3"
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
+        },
+        {
+          "unid": 1166,
+          "sourceFiles": [
+            "TechnicalEX3.gac"
+          ],
+          "sourceFile": "TechnicalEX3.gac",
+          "cardId": "OriginalVariant_TechnicalEX3"
         },
         {
           "unid": 1165,
@@ -36652,7 +36711,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-TrishStratusLE",
@@ -37158,36 +37218,28 @@
           "cardId": "Knowledge2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 746,
+          "unid": 745,
           "sourceFiles": [
-            "Knowledge2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Knowledge2E.gac",
-          "cardId": "Knowledge2E"
-        },
-        {
-          "unid": 747,
-          "sourceFiles": [
-            "Strength2E.gac"
-          ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
           "unid": 747,
@@ -37198,20 +37250,28 @@
           "cardId": "Strength2E"
         },
         {
-          "unid": 747,
+          "unid": 745,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
-          "unid": 747,
+          "unid": 745,
           "sourceFiles": [
-            "Strength2E.gac"
+            "Agility2E.gac"
           ],
-          "sourceFile": "Strength2E.gac",
-          "cardId": "Strength2E"
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
+        },
+        {
+          "unid": 745,
+          "sourceFiles": [
+            "Agility2E.gac"
+          ],
+          "sourceFile": "Agility2E.gac",
+          "cardId": "Agility2E"
         },
         {
           "unid": 748,
@@ -37256,7 +37316,8 @@
       ],
       "mappedPlayable": 74,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-WilliamRegal3",
@@ -37762,36 +37823,28 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 8,
+          "unid": 1216,
           "sourceFiles": [
-            "Strength1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
-        },
-        {
-          "unid": 9,
-          "sourceFiles": [
-            "Knowledge1.gac"
-          ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 9,
@@ -37818,12 +37871,12 @@
           "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 6,
+          "unid": 9,
           "sourceFiles": [
-            "Agility1.gac"
+            "Knowledge1.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "Knowledge1.gac",
+          "cardId": "OriginalMomentumKnowledge"
         },
         {
           "unid": 6,
@@ -37834,28 +37887,36 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
+        },
+        {
+          "unid": 1216,
+          "sourceFiles": [
+            "TechnicalTourn.gac"
+          ],
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
           "unid": 10,
@@ -37900,7 +37961,8 @@
       ],
       "mappedPlayable": 79,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "Starter-XPac",
@@ -38430,36 +38492,28 @@
           "cardId": "OriginalMomentumStrength"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
-        },
-        {
-          "unid": 9,
-          "sourceFiles": [
-            "Knowledge1.gac"
-          ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 9,
@@ -38470,25 +38524,34 @@
           "cardId": "OriginalMomentumKnowledge"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 9,
+          "unid": 1215,
           "sourceFiles": [
-            "Knowledge1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Knowledge1.gac",
-          "cardId": "OriginalMomentumKnowledge"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
+        },
+        {
+          "unid": 1215,
+          "sourceFiles": [
+            "StrikeTourn.gac"
+          ],
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         }
       ],
       "mappedPlayable": 72,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "TripleHStarter",
@@ -39042,33 +39105,34 @@
           "cardId": "OriginalMomentumAgility"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         },
         {
-          "unid": 6,
+          "unid": 1216,
           "sourceFiles": [
-            "Agility1.gac"
+            "TechnicalTourn.gac"
           ],
-          "sourceFile": "Agility1.gac",
-          "cardId": "OriginalMomentumAgility"
+          "sourceFile": "TechnicalTourn.gac",
+          "cardId": "TechnicalTourn"
         }
       ],
       "mappedPlayable": 71,
       "missingCount": 0,
-      "mappingAuthority": "CardList.gal"
+      "mappingAuthority": "CardList.gal",
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "BonusSnow",
@@ -40172,28 +40236,28 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 10,
+          "unid": 1214,
           "sourceFiles": [
-            "Strike1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 10,
+          "unid": 1214,
           "sourceFiles": [
-            "Strike1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
-          "unid": 10,
+          "unid": 1214,
           "sourceFiles": [
-            "Strike1.gac"
+            "StrengthTourn.gac"
           ],
-          "sourceFile": "Strike1.gac",
-          "cardId": "OriginalMomentumStrike"
+          "sourceFile": "StrengthTourn.gac",
+          "cardId": "StrengthTourn"
         },
         {
           "unid": 1087,
@@ -40583,7 +40647,10 @@
       "authenticStarter": false,
       "sourceProduct": "SummerSlam 2002",
       "reconstructionBasis": "brock-f5-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
+      "mappedPlayable": 61,
+      "missingCount": 0,
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "OfficialProduct-ShawnMichaels-SummerSlam2002",
@@ -40673,36 +40740,36 @@
           "cardId": "OriginalMomentumStrike"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
-          "unid": 8,
+          "unid": 1215,
           "sourceFiles": [
-            "Strength1.gac"
+            "StrikeTourn.gac"
           ],
-          "sourceFile": "Strength1.gac",
-          "cardId": "OriginalMomentumStrength"
+          "sourceFile": "StrikeTourn.gac",
+          "cardId": "StrikeTourn"
         },
         {
           "unid": 1097,
@@ -41140,7 +41207,10 @@
       "authenticStarter": false,
       "sourceProduct": "SummerSlam 2002",
       "reconstructionBasis": "hbk-sweet-chin-music-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
+      "mappedPlayable": 67,
+      "missingCount": 0,
+      "playabilityCorrection": "Momentum pages after the locked opening five were replaced only where the Superstar's printed method maximum made them unusable."
     },
     {
       "id": "OfficialProduct-ScottHall-WMX8",
@@ -41697,10 +41767,12 @@
       "authenticStarter": false,
       "sourceProduct": "WrestleMania X8",
       "reconstructionBasis": "scotthall-razors-edge-optimized",
-      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER"
+      "preservationLabel": "OFFICIAL PRODUCT BUILD \u2014 NOT AN ORIGINAL STARTER",
+      "mappedPlayable": 67,
+      "missingCount": 0
     }
   ],
-  "mappingAuthority": "Data/CardList.gal numeric object IDs",
+  "mappingAuthority": "Original recovered starters, with user-approved playability corrections. The Superstar page and five fixed opening playable pages remain unchanged. Only later Momentum pages exceeding printed method limits are replaced.",
   "resolvedEntries": 4908,
   "unresolvedEntries": 0,
   "authenticRecoveredCount": 67,

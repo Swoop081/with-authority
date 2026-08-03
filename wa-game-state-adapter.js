@@ -140,9 +140,26 @@ class WAGameStateAdapter {
   WAFindLocation(name){ return this.locations.get(String(name))||String(name); }
   WATurnsAtLocation(who){ return Number(this.side(who)?.turnsAtLocation||0); }
   WATurnsSinceLastControl(who){ const s=this.side(who); return Math.max(0,this.WAGetTurn()-Number(s?.lastControlTurn||this.WAGetTurn())); }
-  WAGetOnMat(who){ const s=this.side(who); if(s?.onMat!=null)return !!s.onMat; return this.state.position==='Grounded'||this.state.position==='Prone'||this.state.position==='OnTheMat'; }
+  WAGetOnMat(who){
+    const s=this.side(who);
+    if(!s)return false;
+    if(s.onMat===true)return true;
+    const grounded=['Grounded','Prone','OnTheMat','Victim Below'].includes(String(this.state.position||''));
+    const controlled=this.side(this.state.control);
+    const currentTarget=this.opponent(controlled);
+    if(s===currentTarget&&grounded)return true;
+    return false;
+  }
   WAGetInHold(who){ const s=this.side(who); return this.state.hold&&this.side(this.state.hold.defender)===s?this.state.hold:null; }
-  WAGetSubmissionDamage(who,zone){ const s=this.side(who); if(!s)return 0; if(zone)return Number(this.state.hold?.submissionByZone?.[String(zone)]||0); return Object.values(this.state.hold?.submissionByZone||{}).reduce((n,v)=>n+(Number(v)||0),0); }
+  WAGetSubmissionDamage(who,zone){
+    const s=this.side(who);if(!s)return 0;
+    const values=s.submissionDamage||{};
+    const key=String(zone||'').replace(/^Body$/,'Back');
+    if(zone)return Number(values[key]||0);
+    return Object.values(values).reduce((n,v)=>n+(Number(v)||0),0);
+  }
+  WAGetPinScore(){ return Number(this.state.pinScore||0); }
+  WAGetPinningMomentum(who){ return Number(this.side(who)?.pinMomentum??this.state.pinningMomentum??0); }
   WAGetDamageApplied(page){ return Number(page?.damageApplied??this.state.lastDamageApplied??0); }
   WAHasControl(who){ return this.side(who)===this.side(this.state.control); }
   WAIsHuman(who){ return this.side(who)===this.state.player; }
@@ -221,7 +238,17 @@ class WAGameStateAdapter {
   WAForceMove(a,b,c){ return this.emit('forceMove',{args:[a,b,c]})??null; }
   WAPinSuperstar(attacker,target,modifier=0){ this.state.pinPending={attacker:this.side(attacker),target:this.side(target),modifier:Number(modifier)||0}; return this.emit('pin',this.state.pinPending)??true; }
   WABreakPin(who){ const s=this.side(who); if(this.state.pinPending&&(!s||this.state.pinPending.target===s)){this.state.pinPending=null;if(s)s.pinned=false;return true;} return false; }
-  WABreakHold(who){ const s=this.side(who); if(this.state.hold&&(!s||this.side(this.state.hold.defender)===s)){this.state.hold=null;return true;} return false; }
+  WABreakHold(who,escapeGainsControl=0){
+    const s=this.side(who),h=this.state.hold;
+    if(!h|| (s&&this.side(h.defender)!==s))return false;
+    const attacker=this.side(h.attacker),defender=this.side(h.defender);
+    this.state.hold=null;
+    const next=Number(escapeGainsControl)?defender:attacker;
+    if(next)this.state.control=next===this.state.player?'player':'cpu';
+    this.state.position='Grounded';
+    this.emit('holdBroken',{attacker,defender,gainsControl:next});
+    return true;
+  }
   WAAutoCounter(who){ return this.WAAutocounter(who); }
   WAAutocounter(who){ const s=this.side(who); if(s)s.autocounters=Number(s.autocounters||0)+1; return this.emit('autocounter',{who:s})??true; }
   WASetPlayedSpecial(who,value=true){ const s=this.side(who); if(s)s.specialPlayedThisTurn=!!value;return !!value; }

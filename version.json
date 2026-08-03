@@ -1,5 +1,5 @@
 {
-  "version": "0.9.140-rules-core",
-  "build": "authentic-stun-certification",
-  "baseline": "v0.9.139-rules-core"
+  "version": "0.9.146-rules-core",
+  "build": "complete-move-page-legality-audit",
+  "baseline": "v0.9.145-rules-core"
 }

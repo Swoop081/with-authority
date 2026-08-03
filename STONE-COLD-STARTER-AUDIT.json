@@ -1,0 +1,16 @@
+{
+  "version": "v0.9.142-rules-core",
+  "starterId": "Starter-StoneCold",
+  "totalPages": 72,
+  "momentumCountsAfterCorrection": {
+    "Agility": 0,
+    "Knowledge": 4,
+    "Strength": 11,
+    "Strike": 9,
+    "Technical": 1
+  },
+  "printedLimitsDisplayed": {
+    "Agility": 0,
+    "Technical": 1
+  }
+}

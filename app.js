@@ -2,7 +2,7 @@
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
 let ORIGINAL_SCRIPT_ASTS={};
-const VERSION='v0.9.140-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.146-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -303,7 +303,7 @@ function methodMomentumLimit(k,type){if(type==='Attitude')return MAX_MOM;const s
 function momentumGainRoom(k,type){return Math.max(0,methodMomentumLimit(k,type)-(side(k).momentum[type]||0))}
 const ORIGINAL_SUPERSTAR_BASE_UNIDS={"austin":2,"rock":69,"tripleh":147,"undertaker":274,"kane":7,"angle":250,"jericho":204,"benoit":792,"bigshow":273,"bookert":489,"edge":342,"christian":502,"eddie":270,"rvd":479,"flair":1052,"hogan":515,"nash":1028,"jeffhardy":480,"matthardy":488,"lita":271,"trish":994,"bubba":490,"dvon":491,"spike":1020,"bradshaw":1019,"goldust":1027,"lancestorm":1029,"rikishi":185,"scotty":314,"tajiri":1181,"tazz":179,"test":305,"hurricane":971,"regal":275,"xpac":149,"alsnow":230,"blackman":229,"brock":1085,"shane":228,"hbk":1090,"scotthall":516,"rey":1177};
 function deckFromOriginalIds(ids){const byUnid=new Map(cards.map(c=>[Number(c.originalUNID),c]));const resolved=(ids||[]).map(id=>byUnid.get(Number(id))).filter(Boolean);const playable=resolved.filter(c=>c.cardClass!=='Superstar'&&!c.nonDrawResource);const lead=playable.slice(0,HAND_SIZE);const rest=shuffle(playable.slice(HAND_SIZE));return [...lead,...rest].map(c=>({...c}))}
-function createSide(slot,rosterKey,originalDeckIds=null){const star=SUPERSTARS[rosterKey],superKey=star.baseKey||rosterKey,deck=originalDeckIds?deckFromOriginalIds(originalDeckIds):buildDeck(rosterKey),originalUNID=ORIGINAL_SUPERSTAR_BASE_UNIDS[rosterKey]??ORIGINAL_SUPERSTAR_BASE_UNIDS[superKey]??null;return{key:slot,rosterKey,superKey,originalUNID,baseUNID:originalUNID,name:star.name,maxHp:star.hp,hp:star.hp,momentum:emptyMomentum(),deck,hand:deck.splice(0,HAND_SIZE),discard:[],stun:0,stunUntilTurn:-1,stunSource:null,abilityUsed:false,buffs:{nextDamage:0,nextDiscount:0,damageShield:0,momentumTax:0},inPlay:[],pins:0,kickouts:0,escapes:0,recoveries:0,counters:0,alignment:null,methods:methodsFor(star.style),zoneDamage:{Head:0,Arm:0,Leg:0,Body:0},warnings:0,pagesDrawn:0,hitStreak:0,connectedMoves:[],pendingCallingForIt:false,pendingGotAllOfIt:false,hitStreakMethods:[],latinoHeatUses:0,stephanieUsed:false,undertakerCounterDraws:0,kaneStunIgnored:false,lastConnectedMethod:null,abilityUses:0,bodyThresholds:{Head:0,Arm:0,Leg:0,Body:0},playedMoveThisTurn:false,momentumPlayedSinceSuccess:false,keptHoldThisTurn:false,lastTurnConnectedMethod:null,impactStreak:0,lanceSerious:false,christianUses:0,eventsPlayed:0,eventNamesPlayed:[],specialPlayedThisTurn:false,autocounters:0,pinReactionsUsed:{},affectPinScore:0,nextMoveFlags:{},alwaysThinking:0,nashAbilityUsed:false,trishAbilityUsed:false,trishNoMoves:false,trishNextUncounterable:false,bubbaUses:0,dvonUses:0,hurricaneAbilityUsed:false,hurricaneBorrowedMomentum:null,scottyUses:0,scottyUsedThisString:false,momentumPagesPlayed:0,blackmanCounterDraws:0,scottHallStrikeUses:0,scottHallStrengthUses:0,damageSpecialArmed:false,shanePinPenalty:0,eddieMethodsDrawn:[],hoganFaceSpecialUses:0,gMoneyLastTurn:-99,location:'InTheRing',turnsAtLocation:0,onMat:false}}
+function createSide(slot,rosterKey,originalDeckIds=null){const star=SUPERSTARS[rosterKey],superKey=star.baseKey||rosterKey,deck=originalDeckIds?deckFromOriginalIds(originalDeckIds):buildDeck(rosterKey),originalUNID=ORIGINAL_SUPERSTAR_BASE_UNIDS[rosterKey]??ORIGINAL_SUPERSTAR_BASE_UNIDS[superKey]??null;return{key:slot,rosterKey,superKey,originalUNID,baseUNID:originalUNID,name:star.name,maxHp:star.hp,hp:star.hp,momentum:emptyMomentum(),deck,hand:deck.splice(0,HAND_SIZE),discard:[],stun:0,stunUntilTurn:-1,stunSource:null,abilityUsed:false,buffs:{nextDamage:0,nextDiscount:0,damageShield:0,momentumTax:0},inPlay:[],pins:0,kickouts:0,escapes:0,recoveries:0,counters:0,alignment:null,methods:methodsFor(star.style),zoneDamage:{Head:0,Arm:0,Leg:0,Body:0},submissionDamage:{Head:0,Arm:0,Leg:0,Back:0},warnings:0,pagesDrawn:0,hitStreak:0,connectedMoves:[],pendingCallingForIt:false,pendingGotAllOfIt:false,hitStreakMethods:[],latinoHeatUses:0,stephanieUsed:false,undertakerCounterDraws:0,kaneStunIgnored:false,lastConnectedMethod:null,abilityUses:0,bodyThresholds:{Head:0,Arm:0,Leg:0,Body:0},playedMoveThisTurn:false,momentumPlayedSinceSuccess:false,keptHoldThisTurn:false,lastTurnConnectedMethod:null,impactStreak:0,lanceSerious:false,christianUses:0,eventsPlayed:0,eventNamesPlayed:[],specialPlayedThisTurn:false,autocounters:0,pinReactionsUsed:{},affectPinScore:0,nextMoveFlags:{},alwaysThinking:0,nashAbilityUsed:false,trishAbilityUsed:false,trishNoMoves:false,trishNextUncounterable:false,bubbaUses:0,dvonUses:0,hurricaneAbilityUsed:false,hurricaneBorrowedMomentum:null,scottyUses:0,scottyUsedThisString:false,momentumPagesPlayed:0,blackmanCounterDraws:0,scottHallStrikeUses:0,scottHallStrengthUses:0,damageSpecialArmed:false,shanePinPenalty:0,eddieMethodsDrawn:[],hoganFaceSpecialUses:0,gMoneyLastTurn:-99,location:'InTheRing',turnsAtLocation:0,onMat:false}}
 function entrance(slot){return false}
 function start(){stopMusic();stopCrowd();playMusic(ENTRANCE_AUDIO[selectedSuperstar]||'AppBackground',{loop:false,volume:.55});setTimeout(()=>{playSfx('Bell',.9);playCrowd()},1200);const pd=starterStatus(selectedSuperstar),od=starterStatus(selectedOpponent);if(!pd.ready||(!od.ready&&!activeMission?.originalAiDeckIds)){alert('Both wrestlers need complete authentic starter decks before a match can begin.');return superstarSelect()}const p=SUPERSTARS[selectedSuperstar],o=SUPERSTARS[selectedOpponent];state={player:createSide('player',selectedSuperstar),cpu:createSide('cpu',selectedOpponent,activeMission?.originalAiDeckIds||null),ended:false,matchId:Date.now()+Math.random(),control:'player',position:'Standing',pile:null,log:[],message:activeMission?.originalTitle||'The bell rings. Choose a legal page.',round:1,busy:false,hold:null,lastFinisher:null,reversalDepth:0,totalCounters:0,cardOverlay:null,awaitingCpuMoveAck:false,pileFlipped:false,autoCounterPhase:false,turnLimit:selectedMatchTurnLimit,gameMap:['InTheRing','Ringside'],matchType:'Standard'};entrance('player');entrance('cpu');for(const who of ['player','cpu'])if(side(who).superKey==='hbk'){side(who).zoneDamage.Body=6;side(who).hp=Math.max(0,side(who).hp-6);addLog(`${side(who).name} starts with 6 back damage.`)}if(state.player.superKey==='angle')gainMomentum('player','Knowledge',1);if(state.cpu.superKey==='angle')gainMomentum('cpu','Knowledge',1);preloadMatchArt(state.player);preloadMatchArt(state.cpu);addLog(`${p.name} begins with 0 momentum.`);addLog(`${o.name} begins with 0 momentum.`);dispatchOriginalEvent('Begin_Game','player');dispatchOriginalEvent('Begin_Game','cpu');render()}
 const side=k=>state[k],other=k=>k==='player'?'cpu':'player';
@@ -462,7 +462,14 @@ function ringsideActionButton(k='player'){
     return `<button class="secondary" onclick="moveOutside('${k}')">Move Outside</button>`;
   return '';
 }
-function beginTurn(k){if(!state||state.ended)return false;advanceLocationTurns();if(resolveRingsideCountOut())return false;dispatchOriginalEvent('Begin_Refresh',k);for(const who of ['player','cpu']){const z=side(who);z.trishNoMoves=false;if(z.hurricaneBorrowedMomentum){for(const [t,n] of Object.entries(z.hurricaneBorrowedMomentum))z.momentum[t]=Math.max(0,(z.momentum[t]||0)-n);z.hurricaneBorrowedMomentum=null}}side(k).momentumPlayedSinceSuccess=false;side(k).playedMoveThisTurn=false;side(k).keptHoldThisTurn=false;side(k).scottyUsedThisString=false;side(k).specialPlayedThisTurn=false;drawPages(k,1);if((side(k).alwaysThinking||0)>0){const peek=side(k).deck.slice(0,side(k).alwaysThinking).map(x=>x.name).join(', ');if(peek)addLog(`${side(k).name} sees next: ${peek}.`)}state.round++;addLog(`TURN ${state.round}: ${side(k).name} is in control and draws one page.`);if(state.round>(state.turnLimit||DEFAULT_MATCH_TURN_LIMIT)){state.round=state.turnLimit||DEFAULT_MATCH_TURN_LIMIT;resolveMatchTimeLimit();return false}if(state.round===20){if(state.player.superKey==='angle'){gainMomentum('player','Knowledge',1);addLog(`${state.player.name} gains 1 Knowledge on turn 20.`)}if(state.cpu.superKey==='angle'){gainMomentum('cpu','Knowledge',1);addLog(`${state.cpu.name} gains 1 Knowledge on turn 20.`)}}if(state.round%5===0){for(const x of ['player','cpu'])if(side(x).superKey==='nash'){gainMomentum(x,'Attitude',1);addLog(`${side(x).name} gains 1 Attitude at the end of the fifth turn.`)}}for(const x of ['player','cpu'])if(side(x).superKey==='brock'&&state.round%6===0){gainMomentum(x,'Strength',1);addLog(`${side(x).name} gains 1 Strength on turn ${state.round}.`)}if(side(k).superKey==='hbk'){const tossed=side(k).hand.filter(c=>(Number(c.willpower)||0)>=2);if(tossed.length){side(k).hand=side(k).hand.filter(c=>!tossed.includes(c));side(k).discard.push(...tossed);addLog(`${side(k).name} ditches ${tossed.length} page(s) with Willpower 2 or more.`)}}if(consumeTurnStartStun(k))return false;dispatchOriginalEvent('End_Refresh',k);return true}
+function beginTurn(k){
+  if(!state||state.ended)return false;
+  const configuredTurnLimit=Math.max(1,Number(state.turnLimit)||DEFAULT_MATCH_TURN_LIMIT);
+  if((Number(state.round)||0)>=configuredTurnLimit){
+    resolveMatchTimeLimit();
+    return false;
+  }
+  advanceLocationTurns();if(resolveRingsideCountOut())return false;dispatchOriginalEvent('Begin_Refresh',k);for(const who of ['player','cpu']){const z=side(who);z.trishNoMoves=false;if(z.hurricaneBorrowedMomentum){for(const [t,n] of Object.entries(z.hurricaneBorrowedMomentum))z.momentum[t]=Math.max(0,(z.momentum[t]||0)-n);z.hurricaneBorrowedMomentum=null}}side(k).momentumPlayedSinceSuccess=false;side(k).playedMoveThisTurn=false;side(k).keptHoldThisTurn=false;side(k).scottyUsedThisString=false;side(k).specialPlayedThisTurn=false;drawPages(k,1);if((side(k).alwaysThinking||0)>0){const peek=side(k).deck.slice(0,side(k).alwaysThinking).map(x=>x.name).join(', ');if(peek)addLog(`${side(k).name} sees next: ${peek}.`)}state.round++;addLog(`TURN ${state.round}: ${side(k).name} is in control and draws one page.`);if(state.round===20){if(state.player.superKey==='angle'){gainMomentum('player','Knowledge',1);addLog(`${state.player.name} gains 1 Knowledge on turn 20.`)}if(state.cpu.superKey==='angle'){gainMomentum('cpu','Knowledge',1);addLog(`${state.cpu.name} gains 1 Knowledge on turn 20.`)}}if(state.round%5===0){for(const x of ['player','cpu'])if(side(x).superKey==='nash'){gainMomentum(x,'Attitude',1);addLog(`${side(x).name} gains 1 Attitude at the end of the fifth turn.`)}}for(const x of ['player','cpu'])if(side(x).superKey==='brock'&&state.round%6===0){gainMomentum(x,'Strength',1);addLog(`${side(x).name} gains 1 Strength on turn ${state.round}.`)}if(side(k).superKey==='hbk'){const tossed=side(k).hand.filter(c=>(Number(c.willpower)||0)>=2);if(tossed.length){side(k).hand=side(k).hand.filter(c=>!tossed.includes(c));side(k).discard.push(...tossed);addLog(`${side(k).name} ditches ${tossed.length} page(s) with Willpower 2 or more.`)}}if(consumeTurnStartStun(k))return false;dispatchOriginalEvent('End_Refresh',k);return true}
 function actualCost(card,key){const s=side(key);let limbTax=0;if(card.requirement==='Agility'&&s.zoneDamage.Leg>=10)limbTax++;if((card.requirement==='Strength'||card.requirement==='Strike')&&s.zoneDamage.Arm>=10)limbTax++;return Math.max(0,(Number(card.momentumCost)||0)-(s.buffs.nextDiscount||0)+limbTax+(s.buffs.momentumTax||0))}
 function gainMomentum(k,type,amount){const st=side(k);type=MOM_TYPES.includes(type)?type:'Attitude';const before=st.momentum[type]||0;const requested=Math.max(0,Number(amount)||0);const limit=methodMomentumLimit(k,type);st.momentum[type]=Math.min(limit,before+requested);const actual=st.momentum[type]-before;if(state&&actual>0)addLog(`${st.name}: ${type} ${before} → ${st.momentum[type]}.`);if(state&&requested>actual&&type!=='Attitude')addLog(`${st.name} is at the original ${type} maximum of ${limit}.`);return actual}
 function spendMomentum(k,amount,preferred){const s=side(k);let left=Math.max(0,Number(amount)||0);const order=['Attitude',preferred,...MOM_TYPES].filter((x,i,a)=>x&&a.indexOf(x)===i);for(const t of order){const use=Math.min(left,s.momentum[t]||0);s.momentum[t]-=use;left-=use;if(!left)break}return left===0}
@@ -656,13 +663,123 @@ function changeControlCertified(k,reason=''){
   return true;
 }
 function canonicalCountName(card){const t=String(card?.description||'');const m=t.match(/\(Counts as\s+["“]?([^\)"”]+)["”]?\.?\)/i);return (m?m[1]:card?.name||'').trim().toLowerCase()}
-function pinScoreBreakdown(k){
+function pinHealthBracket(target){
+  const maxHp=Math.max(1,Number(target.maxHp)||1);
+  const percent=Math.round((Math.max(0,Number(target.hp)||0)/maxHp)*100);
+  if(percent>85)return 5;
+  if(percent>=50)return 4;
+  if(percent>=25)return 3;
+  if(percent>=10)return 2;
+  if(percent>=1)return 1;
+  return 0;
+}
+function recoveredPinScore(k){
+  const attacker=side(k),defender=side(other(k));
+  const remainingPinningMomentum=totalMomentum(attacker);
+  const defenderMomentum=totalMomentum(defender);
+  const healthBracket=pinHealthBracket(defender);
+  const healthScore=(5-healthBracket)*20;
+  const momentumScore=(remainingPinningMomentum-defenderMomentum)*2;
+  const finisherBonus=state.lastFinisher&&state.lastFinisher.by===k?20:0;
+  let score=momentumScore+healthScore+finisherBonus;
+
+  state.pinScore=score;
+  state.pinningMomentum=remainingPinningMomentum;
+  attacker.pinMomentum=remainingPinningMomentum;
+  defender.pinMomentum=remainingPinningMomentum;
+
+  // The original executable stores PinScore, fires Affect_Pin_Score, then reads it back.
+  dispatchOriginalEvent('Affect_Pin_Score',k,null,{
+    '#target':defender,
+    '#initiator':attacker,
+    '#pinscore':score
+  });
+  score=Number(state.pinScore);
+  if(!Number.isFinite(score))score=0;
+
+  // Preserve already-imported explicit script modifiers while avoiding old guessed constants.
+  score+=Number(attacker.affectPinScore||0);
+  score+=Number(defender.affectPinScore||0);
+  score-=Number(defender.shanePinPenalty||0);
+
   return {
-    certified:false,
-    reason:'The original WAMain.dll confirms the pin attempt cost and response window, but the exact PinScore/kick-out calculation has not yet been recovered from executable code.'
+    certified:true,
+    score:Math.trunc(score),
+    chance:Math.max(0,Math.min(1,score/100)),
+    remainingPinningMomentum,
+    defenderMomentum,
+    healthBracket,
+    healthScore,
+    momentumScore,
+    finisherBonus
   };
 }
+function pinScoreBreakdown(k){return recoveredPinScore(k)}
 function pinChance(k){return pinScoreBreakdown(k).chance}
+function pinReactionCards(k){
+  const s=side(k);
+  return s.hand.filter(card=>{
+    const f=String(card.sourceFile||'');
+    if(/^GetAShoulderUp\.gac$/i.test(f)){
+      return ((s.momentum.Agility||0)>=4||(s.momentum.Strength||0)>=4)&&
+        s.alignment!=='Heel'&&(s.playedGASU||0)<2;
+    }
+    if(/^(?:GrabTheRope|GrabTheRopes2E)\.gac$/i.test(f)){
+      return atLocation(k,'InTheRing')&&!refereeDistracted();
+    }
+    if(/^(?:HeyRefThatWasThree|ThatWasThree2E)\.gac$/i.test(f)){
+      return !refereeDistracted()&&s.alignment!=='Heel'&&
+        Number(originalGameMapValue('PlayedThatWasThree'))!==1&&
+        Number(originalGameMapValue('EventsPlayed'))<3;
+    }
+    return false;
+  });
+}
+function resolvePinReaction(defenderKey,card,pinnerKey){
+  const defender=side(defenderKey),pinner=side(pinnerKey),f=String(card.sourceFile||'');
+  removeCard(defenderKey,card);
+  payCardCost(defenderKey,card);
+  state.pile={card,owner:defenderKey,status:'PIN SPECIAL'};
+  state.pinPending=null;
+  defender.pinned=false;
+
+  if(/^GetAShoulderUp\.gac$/i.test(f)){
+    defender.playedGASU=(defender.playedGASU||0)+1;
+    changeControlCertified(defenderKey,'after Get a Shoulder Up');
+    state.position='Standing';
+    addLog(`${defender.name} plays ${card.name}. The pin fails and ${defender.name} gains control.`);
+    return {broken:true,gainsControl:true};
+  }
+  if(/^(?:HeyRefThatWasThree|ThatWasThree2E)\.gac$/i.test(f)){
+    state.gameMap.waValues=state.gameMap.waValues||{};
+    state.gameMap.waValues.PlayedThatWasThree=1;
+    state.gameMap.waValues.EventsPlayed=Number(state.gameMap.waValues.EventsPlayed||0)+1;
+    changeControlCertified(defenderKey,'after That Was Three!');
+    state.position='Standing';
+    addLog(`${defender.name} plays ${card.name}. The pin fails and ${defender.name} gains control.`);
+    return {broken:true,gainsControl:true};
+  }
+  if(/^(?:GrabTheRope|GrabTheRopes2E)\.gac$/i.test(f)){
+    drawPages(defenderKey,1);
+    pinner.pinLockedUntilMove=true;
+    state.control=pinnerKey;
+    addLog(`${defender.name} plays ${card.name}, draws one page, and stops the pin. ${pinner.name} remains in control but cannot pin again until another Move is played.`);
+    return {broken:true,gainsControl:false};
+  }
+  return {broken:false,gainsControl:false};
+}
+function offerPinReaction(defenderKey,pinnerKey){
+  const options=pinReactionCards(defenderKey);
+  if(!options.length)return null;
+  let card=null;
+  if(defenderKey==='cpu')card=options[0];
+  else{
+    const menu=options.map((c,i)=>`${i+1}. ${c.name}`).join('\n');
+    const choice=Number(prompt(`Choose a Special to stop the pin, or Cancel to Pass:\n${menu}`,'1'));
+    if(Number.isInteger(choice)&&choice>=1&&choice<=options.length)card=options[choice-1];
+  }
+  return card?resolvePinReaction(defenderKey,card,pinnerKey):null;
+}
 function applySourcePinModifiers(k,c){const a=side(k),d=side(other(k)),scripts=c.originalScripts||{},move=String(scripts.Move_Connected||''),page=String(scripts.Page_Played||'');if(move&&!/\(eq #move #this\)/.test(move)&&!/WAInPlay #this/.test(move))return;const add=[...move.matchAll(/#superstar\s+AffectPinScore\s+\(add\s+(\d+)/g)];for(const m of add){a.affectPinScore=(a.affectPinScore||0)+Number(m[1]);addLog(`${c.name} adds ${m[1]} to ${a.name}'s pin score.`)}const sub=[...move.matchAll(/#target\s+AffectPinScore\s+\(subtract[^\d]*(\d+)/g)];for(const m of sub){d.affectPinScore=(d.affectPinScore||0)-Number(m[1]);addLog(`${c.name} applies -${m[1]} to ${d.name}'s pin score.`)}if(/OffTheBarricade\.gac/i.test(String(c.sourceFile||''))){d.affectPinScore=(d.affectPinScore||0)-7;addLog(`${c.name} applies its permanent -7 pin-score modifier.`)}}
 function verifiedSpecialLegal(card,key,asCounter=false){
  const s=side(key),d=side(other(key)),f=String(card.sourceFile||'');
@@ -677,7 +794,12 @@ function verifiedSpecialLegal(card,key,asCounter=false){
  if(/^BuildingMomentum\.gac$/i.test(f)&&(s.momentum.Attitude||0)<1)return'Needs at least 1 Attitude.';
  return null
 }
-function legalReason(card,key,asCounter=false){const s=side(key);if(!originalBooleanGate('Can_Be_Played',key,card,{'#countering':!!asCounter}))return'Original card script says this page cannot be played now.';if(s.superKey==='brock'&&/Amazing Entrance/i.test(card.name||''))return 'Brock Lesnar may not play Amazing Entrance.';const verified=verifiedSpecialLegal(card,key,asCounter);if(verified!==null&&verified)return verified;if(state.busy&&!asCounter)return'Action resolving.';if(state.control!==key&&!asCounter&&!/^(Boring|BreakEX2)\.gac$/i.test(String(card.sourceFile||'')))return'No match control.';if(state.hold)return'A submission is active.';syncStunState(key);if(isCurrentlyStunned(key)&&!canPlayWhileStunned(card))return`${s.name} is Stunned.`;if(/^SuperMomentum(?:LE)?\.gac$/i.test(String(card.sourceFile||''))&&s.superKey!=='hurricane')return'Hurricane Trademark only.';if(card.cardClass==='Momentum'&&s.superKey==='brock'&&(s.momentumPagesPlayed||0)>=3)return'Brock Lesnar may play only 3 Momentum pages.';if(card.cardClass==='Momentum'){const gains=card.momentumChanges?.gain||{[card.momentumType]:card.momentumAmount||1};const useful=Object.entries(gains).some(([t,n])=>Number(n)>0&&momentumGainRoom(key,t)>0);if(!useful)return'Original Superstar momentum maximum reached.';}if(card.cardClass==='Momentum'&&s.momentumPlayedSinceSuccess)return'You must connect with a move before playing another Momentum page.';if(s.momentumPlayedSinceSuccess&&!asCounter&&!['Move','Trademark'].includes(card.cardClass))return'After playing Momentum, your next page must be a move attempt.';const cost=actualCost(card,key);if(cost>totalMomentum(s))return`Needs ${cost} total momentum (you have ${totalMomentum(s)}).`;if(card.minTurn&&state.round<card.minTurn)return`Playable after turn ${card.minTurn-1}.`;if(card.workingStiff&&s.inPlay.some(e=>e.workingStiff))return'Only one Working Stiff may be in play.';if(card.supportPage&&s.inPlay.some(e=>e.supportPage))return'Only one Support page may be in play.';const mods=String(card.modifiers||'').toLowerCase();if(mods.includes('event')){if(s.eventNamesPlayed.includes(card.name))return'Each Event may only be played once per match.';if(s.eventsPlayed>=3)return'Only three Event pages may be played per match.';}if(mods.includes('referee')&&['player','cpu'].some(x=>side(x).inPlay.some(e=>String(e.modifiers||e.card?.modifiers||'').toLowerCase().includes('referee'))))return'Only one Referee Special may be in play.';if(card.onlyOneInPlay&&s.inPlay.some(e=>e.sourceFile===card.sourceFile||e.name===card.name))return`Only one ${card.name} may be in play.`;if(card.requiresInPlay){const needle=card.requiresInPlay.toLowerCase();const present=[...s.inPlay,...side(other(key)).inPlay].some(e=>String(e.name||'').toLowerCase().includes(needle));if(!present)return`Requires ${card.requiresInPlay} in play.`;}if(card.gotAllOfIt&&!s.hand.some(x=>x.cardClass==='Move'&&!String(x.modifiers||'').toLowerCase().includes('defensive')))return'Got All Of It! must be played with a non-defensive move.';if(card.latinoHeat&&((s.momentum.Knowledge||0)>0||s.latinoHeatUses>=3))return (s.momentum.Knowledge||0)>0?'Latino Heat requires no Knowledge Momentum.':'Latino Heat may only be played three times per match.';if(card.callingForIt&&s.hitStreak<3)return'Needs three connected moves in a row.';if(s.pendingCallingForIt&&card.cardClass==='Move'&&s.connectedMoves.includes(card.name))return"He's Calling For It requires a move not yet connected this match.";for(const [type,need] of Object.entries(card.momentumRequirements||{})){if((s.momentum[type]||0)<need)return`Needs ${need} ${type} momentum.`;}if(card.counterOnly&&!asCounter)return'Counter only.';if(other&&false){}if((/Plead to the Referee|Good Officiating/i.test(card.name))&&side(other(key)).superKey==='christian'&&(side(other(key)).warnings||0)===0)return`Christian has no Warnings.`;if(card.face&&s.alignment==='Heel')return'Face page conflicts with Heel.';if(card.heel&&s.alignment==='Face')return'Heel page conflicts with Face.';if(card.requirement&&!s.methods[card.requirement])return`Needs ${card.requirement}.`;if(!asCounter){const txt=String(card.description||'').toLowerCase();if((txt.includes('only if your opponent is on the mat')||txt.includes('only if opponent is on the mat'))&&!['Grounded','Prone','Victim Below'].includes(state.position))return'Opponent must be on the mat.';if(txt.includes('only if your opponent is standing')&&state.position!=='Standing')return'Opponent must be standing.';}return''}
+function isMovePage(card){
+  if(!card)return false;
+  return ['Move','Submission','Trademark'].includes(String(card.cardClass||'')) ||
+    ['Strike','Grapple','Aerial','Submission'].includes(String(card.type||''));
+}
+function legalReason(card,key,asCounter=false){const s=side(key);if(!originalBooleanGate('Can_Be_Played',key,card,{'#countering':!!asCounter}))return'Original card script says this page cannot be played now.';if(s.superKey==='brock'&&/Amazing Entrance/i.test(card.name||''))return 'Brock Lesnar may not play Amazing Entrance.';const verified=verifiedSpecialLegal(card,key,asCounter);if(verified!==null&&verified)return verified;if(state.busy&&!asCounter)return'Action resolving.';if(state.control!==key&&!asCounter&&!/^(Boring|BreakEX2)\.gac$/i.test(String(card.sourceFile||'')))return'No match control.';if(state.hold)return'A submission is active.';syncStunState(key);if(isCurrentlyStunned(key)&&!canPlayWhileStunned(card))return`${s.name} is Stunned.`;if(/^SuperMomentum(?:LE)?\.gac$/i.test(String(card.sourceFile||''))&&s.superKey!=='hurricane')return'Hurricane Trademark only.';if(card.cardClass==='Momentum'&&s.superKey==='brock'&&(s.momentumPagesPlayed||0)>=3)return'Brock Lesnar may play only 3 Momentum pages.';if(card.cardClass==='Momentum'){const gains=card.momentumChanges?.gain||{[card.momentumType]:card.momentumAmount||1};const useful=Object.entries(gains).some(([t,n])=>Number(n)>0&&momentumGainRoom(key,t)>0);if(!useful)return'Original Superstar momentum maximum reached.';}if(card.cardClass==='Momentum'&&s.momentumPlayedSinceSuccess)return'You must connect with a move before playing another Momentum page.';if(s.momentumPlayedSinceSuccess&&!asCounter&&!isMovePage(card))return'After playing Momentum, your next page must be a Move Page.';const cost=actualCost(card,key);if(cost>totalMomentum(s))return`Needs ${cost} total momentum (you have ${totalMomentum(s)}).`;if(card.minTurn&&state.round<card.minTurn)return`Playable after turn ${card.minTurn-1}.`;if(card.workingStiff&&s.inPlay.some(e=>e.workingStiff))return'Only one Working Stiff may be in play.';if(card.supportPage&&s.inPlay.some(e=>e.supportPage))return'Only one Support page may be in play.';const mods=String(card.modifiers||'').toLowerCase();if(mods.includes('event')){if(s.eventNamesPlayed.includes(card.name))return'Each Event may only be played once per match.';if(s.eventsPlayed>=3)return'Only three Event pages may be played per match.';}if(mods.includes('referee')&&['player','cpu'].some(x=>side(x).inPlay.some(e=>String(e.modifiers||e.card?.modifiers||'').toLowerCase().includes('referee'))))return'Only one Referee Special may be in play.';if(card.onlyOneInPlay&&s.inPlay.some(e=>e.sourceFile===card.sourceFile||e.name===card.name))return`Only one ${card.name} may be in play.`;if(card.requiresInPlay){const needle=card.requiresInPlay.toLowerCase();const present=[...s.inPlay,...side(other(key)).inPlay].some(e=>String(e.name||'').toLowerCase().includes(needle));if(!present)return`Requires ${card.requiresInPlay} in play.`;}if(card.gotAllOfIt&&!s.hand.some(x=>isMovePage(x)&&!String(x.modifiers||'').toLowerCase().includes('defensive')))return'Got All Of It! must be played with a non-defensive move.';if(card.latinoHeat&&((s.momentum.Knowledge||0)>0||s.latinoHeatUses>=3))return (s.momentum.Knowledge||0)>0?'Latino Heat requires no Knowledge Momentum.':'Latino Heat may only be played three times per match.';if(card.callingForIt&&s.hitStreak<3)return'Needs three connected moves in a row.';if(s.pendingCallingForIt&&isMovePage(card)&&s.connectedMoves.includes(card.name))return"He's Calling For It requires a move not yet connected this match.";for(const [type,need] of Object.entries(card.momentumRequirements||{})){if((s.momentum[type]||0)<need)return`Needs ${need} ${type} momentum.`;}if(card.counterOnly&&!asCounter)return'Counter only.';if(other&&false){}if((/Plead to the Referee|Good Officiating/i.test(card.name))&&side(other(key)).superKey==='christian'&&(side(other(key)).warnings||0)===0)return`Christian has no Warnings.`;if(card.face&&s.alignment==='Heel')return'Face page conflicts with Heel.';if(card.heel&&s.alignment==='Face')return'Heel page conflicts with Face.';if(card.requirement&&!s.methods[card.requirement])return`Needs ${card.requirement}.`;if(!asCounter){const txt=String(card.description||'').toLowerCase();if((txt.includes('only if your opponent is on the mat')||txt.includes('only if opponent is on the mat'))&&!['Grounded','Prone','Victim Below'].includes(state.position))return'Opponent must be on the mat.';if(txt.includes('only if your opponent is standing')&&state.position!=='Standing')return'Opponent must be standing.';}return''}
 const isLegal=(c,k)=>!legalReason(c,k);
 function removeCard(k,c){const s=side(k),i=s.hand.findIndex(x=>x.instance===c.instance);if(i>=0)s.hand.splice(i,1);s.discard.push(c)}
 function addLog(t){state.traceSeq=(state.traceSeq||0)+1;state.log.unshift(`[${state.traceSeq}] ${t}`);state.log=state.log.slice(0,250)}
@@ -705,14 +827,14 @@ function verifiedSpecialResolve(k,c){const s=side(k),d=side(other(k)),f=String(c
  if(/^Taunt\.gac$/i.test(f)){removeCard(k,c);drawPages(k,1);randomMomentumLoss(other(k),1);s.buffs.nextDamage=(s.buffs.nextDamage||0)+2;if(c.heel)s.alignment='Heel';done('NEXT MOVE +2');return true}
  if(/^Boring\.gac$/i.test(f)){removeCard(k,c);drawPages(k,3);state.control=k;beginTurn(k);done('REACTION');return true}
  if(/^Break2E\.gac$/i.test(f)){removeCard(k,c);gainMomentum(k,'Attitude',1);drawPages(k,2);state.control=other(k);beginTurn(state.control);done('BREAK');return true}
- if(/^BreakEX2\.gac$/i.test(f)){removeCard(k,c);d.momentum.Attitude=Math.max(0,(d.momentum.Attitude||0)-5);randomDitch(other(k),x=>x.cardClass==='Move',1);state.control=k;beginTurn(k);done('BREAK');return true}
- if(/^BounceOffTheRopes(?:2E)?\.gac$/i.test(f)){removeCard(k,c);if((s.momentum.Strike||0)>=3)searchDeck(k,x=>x.cardClass==='Move'&&x.method==='Strike','Choose a Strike move');s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,bounceOffRopes:true,removeAfterTrigger:true});done('IN PLAY');return true}
+ if(/^BreakEX2\.gac$/i.test(f)){removeCard(k,c);d.momentum.Attitude=Math.max(0,(d.momentum.Attitude||0)-5);randomDitch(other(k),x=>isMovePage(x),1);state.control=k;beginTurn(k);done('BREAK');return true}
+ if(/^BounceOffTheRopes(?:2E)?\.gac$/i.test(f)){removeCard(k,c);if((s.momentum.Strike||0)>=3)searchDeck(k,x=>isMovePage(x)&&x.method==='Strike','Choose a Strike move');s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,bounceOffRopes:true,removeAfterTrigger:true});done('IN PLAY');return true}
  if(/^AlwaysThinking(?:2E)?\.gac$/i.test(f)){removeCard(k,c);drawPages(k,1);s.alwaysThinking=(s.alwaysThinking||0)+1;s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,alwaysThinking:true,removeWhenStunned:true});if(s.deck[0])addLog(`${s.name}'s next page is ${s.deck[0].name}.`);done('IN PLAY');return true}
  if(/^Disadvantage2E\.gac$/i.test(f)){removeCard(k,c);const dmg=d.inPlay.filter(x=>x.cardClass==='Special'&&/damage/i.test(String(x.description||x.card?.description||'')));if(dmg.length){d.inPlay=d.inPlay.filter(x=>!dmg.includes(x));d.discard.push(...dmg.map(x=>x.card||x));}else{drawPages(k,1);s.buffs.damageShield=Math.max(s.buffs.damageShield,2)}done('REACTION');return true}
  if(/^IGotYourBack2E\.gac$/i.test(f)){removeCard(k,c);const rem=d.inPlay.filter(x=>x.supportPage);d.inPlay=d.inPlay.filter(x=>!x.supportPage);d.discard.push(...rem.map(x=>x.card||x));searchDeck(k,x=>x.cardClass==='Special'&&/support/i.test(String(x.modifiers||x.description||'')),'Choose a Support');done('SEARCH');return true}
  if(/^GoingUpTop\.gac$/i.test(f)){removeCard(k,c);drawPages(k,1);s.nextMoveFlags.goingUpTop=true;done('WITH NEXT MOVE');return true}
  if(/^BuildingMomentum\.gac$/i.test(f)){removeCard(k,c);const max=Math.min(3,s.momentum.Attitude||0),n=k==='cpu'?max:Math.max(1,Math.min(max,Number(prompt(`Choose 1-${max} Momentum pages`,'1'))||1));for(let i=0;i<n;i++){const opts=s.deck.filter(x=>x.cardClass==='Momentum');if(!opts.length)break;const pick=opts[Math.floor(Math.random()*opts.length)];s.deck.splice(s.deck.indexOf(pick),1);s.hand.push(pick)}s.momentum.Attitude=Math.max(0,s.momentum.Attitude-n);done('SEARCH');return true}
- if(/^HighSpot\.gac$/i.test(f)){removeCard(k,c);searchDeck(k,x=>x.cardClass==='Move'&&(Number(x.momentumCost)||0)>=6,'Choose a move costing 6 or more');s.nextMoveFlags.highSpot=true;done('SEARCH');return true}
+ if(/^HighSpot\.gac$/i.test(f)){removeCard(k,c);searchDeck(k,x=>isMovePage(x)&&(Number(x.momentumCost)||0)>=6,'Choose a move costing 6 or more');s.nextMoveFlags.highSpot=true;done('SEARCH');return true}
  if(/^AdvantageTechnical\.gac$/i.test(f)){removeCard(k,c);s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,advantageImpact:true});done('IN PLAY');return true}
  if(/^AchillesHeel2E\.gac$/i.test(f)){removeCard(k,c);s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,achillesHeel:true,removeWhenStunned:true});done('IN PLAY');return true}
  if(/^EverythingHurts\.gac$/i.test(f)){removeCard(k,c);s.inPlay.push({name:c.name,sourceFile:c.sourceFile,card:c,cardClass:c.cardClass,duration:999,everythingHurts:true});done('IN PLAY');return true}
@@ -731,7 +853,7 @@ function chooseAutocounterPages(k,cost){const s=side(k);if(s.hand.reduce((n,c)=>
 function tryAutocounter(k,attack){if(attack.uncounterable)return false;const s=side(k),cost=autocounterCost(k);if(s.hand.reduce((n,c)=>n+autocounterHandValue(c),0)<cost)return false;const use=k==='cpu'?(s.hand.length>=12||Number(attack.damage||0)>=5||attack.finisher||attack.submission||s.hp<=20):confirm(`${s.name} has no Move counter. Autocounter by ditching ${cost} pages?`);if(!use)return false;const chosen=chooseAutocounterPages(k,cost);if(!chosen)return false;for(const c of chosen){const i=s.hand.indexOf(c);if(i>=0)s.hand.splice(i,1);s.discard.push(c)}s.autocounters++;s.counters++;state.totalCounters++;if(s.superKey==='bigshow'&&!s.specialPlayedThisTurn&&s.autocounters<=3){drawPages(k,3);addLog(`${s.name} draws 3 pages from his Autocounter ability (${s.autocounters}/3).`)}state.pile={card:attack,owner:k,status:'AUTOCOUNTER'};state.message=`AUTOCOUNTER! ${s.name} ditches ${cost} pages and gains control.`;addLog(state.message);return true}
 
 function resolveCounterWindow(attacker,card,depth){const defender=other(attacker),a=side(attacker),d=side(defender);const illegal=String(card.modifiers||'').toLowerCase().includes('illegal');const plead=d.hand.find(x=>x.pleadReferee)&&!d.inPlay.some(e=>e.name==='Ref Bump')&&d.alignment!=='Heel';if(illegal&&plead){removeCard(defender,plead);addWarnings(attacker,4,'Plead to the Referee');d.inPlay=d.inPlay.filter(e=>e.name!=='Distract The Referee');state.pile={card:plead,owner:defender,status:'REFEREE APPEAL'};addLog(`${d.name} plays Plead to the Referee; ${a.name} receives 4 Warnings.`)}const calling=a.pendingCallingForIt;const dstar=currentStar(defender);if(d.superKey==='bigshow'&&/2E/i.test(dstar.sourceFile||'')&&state.round-(d.gMoneyLastTurn||-99)>=10){const use=defender==='cpu'?(Number(card.damage)||0)>=4:confirm(`Use G-Money to reduce ${card.name} damage by 4?`);if(use){card={...card,damage:Math.max(0,(Number(card.damage)||0)-4)};d.gMoneyLastTurn=state.round;addLog(`${d.name} uses G-Money: ${card.name} does -4 damage.`)}}const counter=calling?null:findCounter(defender,card);if(!counter&&!calling&&tryAutocounter(defender,card)){a.hitStreak=0;a.impactStreak=0;a.pendingCallingForIt=false;state.control=defender;state.position='Standing';beginTurn(defender);finishResolution();return}if(counter&&depth<3){a.pendingGotAllOfIt=false;if(card.splashCounterPenalty){const loss=Math.min(card.splashCounterPenalty,totalMomentum(a));spendMomentum(attacker,loss,'Attitude');addLog(`${a.name} loses ${loss} Momentum because ${card.name} was countered.`)}if(card.counterMomentumLossMax){const loss=Math.min(Math.floor(Math.random()*(card.counterMomentumLossMax+1)),totalMomentum(a));spendMomentum(attacker,loss,'Attitude');addLog(`${a.name} loses ${loss} Momentum because ${card.name} was countered.`)}if(card.counterDefenderDiscard){for(let n=0;n<card.counterDefenderDiscard&&d.hand.length;n++){const drop=d.hand.splice(Math.floor(Math.random()*d.hand.length),1)[0];d.discard.push(drop)}if(card.counterSelfStun)a.stun=Math.max(a.stun,card.counterSelfStun)}removeCard(defender,counter);if(d.superKey==='blackman'&&!counter.defensive&&(d.blackmanCounterDraws||0)<6){drawPages(defender,1);d.blackmanCounterDraws++;addLog(`${d.name} draws a page for playing a non-Defensive counter (${d.blackmanCounterDraws}/6).`)}if(a.superKey==='undertaker'&&actualCost(card,attacker)>=6&&(a.undertakerCounterDraws||0)<5){drawPages(attacker,1);a.undertakerCounterDraws=(a.undertakerCounterDraws||0)+1;addLog(`${a.name} draws a page from The Undertaker's original ability (${a.undertakerCounterDraws}/5).`)}if(a.superKey==='lancestorm'&&a.lanceSerious){drawPages(attacker,1);a.lanceSerious=false;addLog(`${a.name} draws a page from Serious.`)}a.hitStreak=0;a.impactStreak=0;a.pendingCallingForIt=false;d.counters++;state.totalCounters++;payCardCost(defender,counter);gainMomentum(defender,'Attitude',1);const counterTargetAttitude=a.momentum.Attitude||0;a.momentum.Attitude=Math.max(0,counterTargetAttitude-1);addLog(`${d.name}'s counter Move Page hits: ${d.name} gains 1 Attitude${counterTargetAttitude>0?`; ${a.name} loses 1 Attitude`:''}.`);state.pile={card:counter,owner:defender,status:`COUNTER ${depth+1}`};playSfx('Stinger4',.7);state.message=`COUNTER! ${d.name} answers with ${counter.name}.`;addLog(`${d.name} counters ${a.name}'s ${card.name} with ${counter.name}. ${card.name} is stopped and deals no damage.`);dispatchOriginalEvent('Move_Countered',attacker,card,{'#move':card,'#counter':counter});dispatchOriginalEvent('Begin_Counter',defender,counter,{'#move':card,'#counter':counter});render();const recounter=findCounter(attacker,counter);if(recounter&&depth<2){addLog(`${a.name} has a legal recounter: ${recounter.name}.`);setTimeout(()=>resolveCounterWindow(defender,counter,depth+1),420);return}changeControlCertified(defender,'after the counter');state.position=counter.setsPosition==='Same'?state.position:(counter.setsPosition||'Standing');beginTurn(defender);finishResolution();return}dispatchOriginalEvent('No_Counter_Played',attacker,card,{'#move':card});applySuccessfulAttack(attacker,card)}
-function applySuccessfulAttack(k,c){dispatchOriginalEvent('Damage_Bonus',k,c,{'#move':c});if(!state||state.ended)return;const dKey=other(k),a=side(k),d=side(dKey);a.playedMoveThisTurn=true;a.momentumPlayedSinceSuccess=false;let damage=c.damage+(a.buffs.nextDamage||0)+(c.damageBonus?Math.floor(Math.random()*(c.damageBonus+1)):0);state.lastMove={name:c.name,moveType:c.originalMoveType||c.position||c.setsPosition};const mods=String(c.modifiers||'').toLowerCase();if(a.inPlay.some(e=>e.everythingHurts)&&c.method==='Strike')damage+=Object.values(d.zoneDamage).filter(x=>x>0).length;if(a.inPlay.some(e=>e.bigAndNasty)&&c.method==='Strength')damage+=2;if(a.inPlay.some(e=>e.advantageImpact)&&mods.includes('impact')){d.momentum.Attitude=Math.max(0,(d.momentum.Attitude||0)-1);if((a.momentum.Strike||0)>=4&&(a.momentum.Agility||0)>=4){damage+=3;gainMomentum(k,'Attitude',1)}}if(a.inPlay.some(e=>e.hardcore))damage=Math.max(0,damage-2);if(d.inPlay.some(e=>e.hardcore))damage=Math.max(0,damage-2);if(a.superKey==='bubba'&&mods.includes('takedown'))damage+=1;if(a.superKey==='xpac'&&mods.includes('impact'))damage+=Math.floor(Math.random()*4);if(a.superKey==='tajiri'&&c.method==='Strike'&&a.lastTurnConnectedMethod&&a.lastTurnConnectedMethod!=='Strike')damage+=4;if(a.superKey==='test'&&mods.includes('impact'))damage+=Math.max(0,a.impactStreak||0);if(d.superKey==='kane'&&!/2E/i.test(currentStar(dKey).sourceFile||'')&&mods.includes('impact'))damage=Math.max(0,damage-1);if(a.superKey==='kane'&&/2E/i.test(currentStar(k).sourceFile||'')&&state.round>20&&c.method==='Strength')damage+=2;if(a.nextMoveFlags.doubleBaseDamage){damage+=Math.max(0,Number(c.damage)||0);a.nextMoveFlags.doubleBaseDamage=false;addLog(`Get XTreme doubles ${c.name}'s base damage.`)}if(a.pendingGotAllOfIt&&c.cardClass==='Move'){const bonus=Math.min(14,a.momentum.Strength||0);damage+=bonus;addLog(`Got All Of It! adds +${bonus} damage to ${c.name}.`);a.pendingGotAllOfIt=false}if(c.method==='Strike'&&a.inPlay.some(e=>e.workingStiff)){const bonus=Math.min(c.damage||0,1+Math.floor(Math.random()*4));damage+=bonus;addLog(`Working Stiff adds +${bonus} damage to ${c.name}.`)}if(c.stunnerDynamicBonus)damage+=Math.min(12,Math.max(a.momentum.Attitude||0,a.warnings||0));const tableOwner=['player','cpu'].find(x=>side(x).inPlay.some(e=>e.tableEffect));const tableHit=tableOwner&&String(c.modifiers||'').toLowerCase().includes('takedown')&&actualCost(c,k)>=6;if(tableHit){damage+=15;d.stun=Math.max(d.stun,2);addWarnings(k,8,'Table');const owner=side(tableOwner);owner.inPlay=owner.inPlay.filter(e=>!e.tableEffect);addLog(`${d.name} goes through the Table: +15 damage, Stun 2; ${a.name} receives 8 Warnings.`)}if(a.inPlay.some(e=>e.bounceOffRopes)&&(mods.includes('impact')||mods.includes('drop'))){damage+=3;drawPages(k,1);const rem=a.inPlay.filter(e=>e.bounceOffRopes);a.inPlay=a.inPlay.filter(e=>!e.bounceOffRopes);a.discard.push(...rem.map(e=>e.card||e))}if(a.nextMoveFlags.goingUpTop){if(mods.includes('high risk')){randomDitch(other(k),()=>true,1)}a.nextMoveFlags.goingUpTop=false}if(a.nextMoveFlags.highSpot){if(mods.includes('high risk'))gainMomentum(k,'Attitude',1);a.nextMoveFlags.highSpot=false}a.buffs.nextDamage=0;if(d.buffs.damageShield){damage=Math.max(0,damage-d.buffs.damageShield)}if(a.zoneDamage.Head>=12)damage=Math.max(0,damage-1);d.hp=Math.max(0,d.hp-damage);if(d.hp<=0){addLog(`${d.name} reaches 0 HP.`);return end(k==='player',`${a.name} wins by knockout`)}a.playedMoveThisTurn=true;a.hitStreak=(a.hitStreak||0)+1;a.hitStreakMethods=a.hitStreak===1?[c.method]:[...(a.hitStreakMethods||[]),c.method];const firstUnique=!a.connectedMoves.includes(c.name);if(firstUnique)a.connectedMoves.push(c.name);if(a.superKey==='eddie'&&/2E/i.test(currentStar(k).sourceFile||'')&&state.round>5&&!a.eddieMethodsDrawn.includes(c.method)){a.eddieMethodsDrawn.push(c.method);drawPages(k,1);addLog(`${a.name} draws a page for the first connected ${c.method} move.`)}if(a.superKey==='edge'&&/2E/i.test(currentStar(k).sourceFile||'')&&firstUnique){const bonus=Math.floor(Math.random()*5);a.affectPinScore=(a.affectPinScore||0)+bonus;addLog(`${a.name} gains +${bonus}% pin chance for a new connected move.`)}a.pendingCallingForIt=false;d.hitStreak=0;d.hitStreakMethods=[];const zone=/arm/i.test(c.name+c.description)?'Arm':/leg|ankle|knee/i.test(c.name+c.description)?'Leg':/head|ddt|neck/i.test(c.name+c.description)?'Head':'Body';d.zoneDamage[zone]+=damage;if(a.superKey==='benoit'){const threshold=Math.floor(d.zoneDamage[zone]/7);const prior=a.bodyThresholds[zone]||0;if(threshold>prior){drawPages(k,threshold-prior);a.bodyThresholds[zone]=threshold;addLog(`${a.name} draws ${threshold-prior} page(s) from body-part damage.`)}}if(a.superKey==='test'&&mods.includes('impact'))a.impactStreak=(a.impactStreak||0)+1;if(a.superKey==='bradshaw'&&mods.includes('impact')&&actualCost(c,k)>=5){const specials=d.hand.filter(x=>x.cardClass==='Special'&&!/Crowd Support/i.test(x.name));if(specials.length){const x=specials[Math.floor(Math.random()*specials.length)];d.hand.splice(d.hand.indexOf(x),1);d.discard.push(x);addLog(`${d.name} ditches ${x.name} from Bradshaw's ability.`)}else{const gps=d.inPlay.filter(x=>x.cardClass==='Gameplan');if(gps.length){const x=gps[Math.floor(Math.random()*gps.length)];d.inPlay.splice(d.inPlay.indexOf(x),1);d.discard.push(x);addLog(`${d.name}'s ${x.name} leaves play from Bradshaw's ability.`)}}}// Authenticity lock: a successful move does not create a generic Attitude exchange.
+function applySuccessfulAttack(k,c){dispatchOriginalEvent('Damage_Bonus',k,c,{'#move':c});if(!state||state.ended)return;const dKey=other(k),a=side(k),d=side(dKey);a.playedMoveThisTurn=true;a.momentumPlayedSinceSuccess=false;a.pinLockedUntilMove=false;let damage=c.damage+(a.buffs.nextDamage||0)+(c.damageBonus?Math.floor(Math.random()*(c.damageBonus+1)):0);state.lastMove={name:c.name,moveType:c.originalMoveType||c.position||c.setsPosition};const mods=String(c.modifiers||'').toLowerCase();if(a.inPlay.some(e=>e.everythingHurts)&&c.method==='Strike')damage+=Object.values(d.zoneDamage).filter(x=>x>0).length;if(a.inPlay.some(e=>e.bigAndNasty)&&c.method==='Strength')damage+=2;if(a.inPlay.some(e=>e.advantageImpact)&&mods.includes('impact')){d.momentum.Attitude=Math.max(0,(d.momentum.Attitude||0)-1);if((a.momentum.Strike||0)>=4&&(a.momentum.Agility||0)>=4){damage+=3;gainMomentum(k,'Attitude',1)}}if(a.inPlay.some(e=>e.hardcore))damage=Math.max(0,damage-2);if(d.inPlay.some(e=>e.hardcore))damage=Math.max(0,damage-2);if(a.superKey==='bubba'&&mods.includes('takedown'))damage+=1;if(a.superKey==='xpac'&&mods.includes('impact'))damage+=Math.floor(Math.random()*4);if(a.superKey==='tajiri'&&c.method==='Strike'&&a.lastTurnConnectedMethod&&a.lastTurnConnectedMethod!=='Strike')damage+=4;if(a.superKey==='test'&&mods.includes('impact'))damage+=Math.max(0,a.impactStreak||0);if(d.superKey==='kane'&&!/2E/i.test(currentStar(dKey).sourceFile||'')&&mods.includes('impact'))damage=Math.max(0,damage-1);if(a.superKey==='kane'&&/2E/i.test(currentStar(k).sourceFile||'')&&state.round>20&&c.method==='Strength')damage+=2;if(a.nextMoveFlags.doubleBaseDamage){damage+=Math.max(0,Number(c.damage)||0);a.nextMoveFlags.doubleBaseDamage=false;addLog(`Get XTreme doubles ${c.name}'s base damage.`)}if(a.pendingGotAllOfIt&&isMovePage(c)){const bonus=Math.min(14,a.momentum.Strength||0);damage+=bonus;addLog(`Got All Of It! adds +${bonus} damage to ${c.name}.`);a.pendingGotAllOfIt=false}if(c.method==='Strike'&&a.inPlay.some(e=>e.workingStiff)){const bonus=Math.min(c.damage||0,1+Math.floor(Math.random()*4));damage+=bonus;addLog(`Working Stiff adds +${bonus} damage to ${c.name}.`)}if(c.stunnerDynamicBonus)damage+=Math.min(12,Math.max(a.momentum.Attitude||0,a.warnings||0));const tableOwner=['player','cpu'].find(x=>side(x).inPlay.some(e=>e.tableEffect));const tableHit=tableOwner&&String(c.modifiers||'').toLowerCase().includes('takedown')&&actualCost(c,k)>=6;if(tableHit){damage+=15;d.stun=Math.max(d.stun,2);addWarnings(k,8,'Table');const owner=side(tableOwner);owner.inPlay=owner.inPlay.filter(e=>!e.tableEffect);addLog(`${d.name} goes through the Table: +15 damage, Stun 2; ${a.name} receives 8 Warnings.`)}if(a.inPlay.some(e=>e.bounceOffRopes)&&(mods.includes('impact')||mods.includes('drop'))){damage+=3;drawPages(k,1);const rem=a.inPlay.filter(e=>e.bounceOffRopes);a.inPlay=a.inPlay.filter(e=>!e.bounceOffRopes);a.discard.push(...rem.map(e=>e.card||e))}if(a.nextMoveFlags.goingUpTop){if(mods.includes('high risk')){randomDitch(other(k),()=>true,1)}a.nextMoveFlags.goingUpTop=false}if(a.nextMoveFlags.highSpot){if(mods.includes('high risk'))gainMomentum(k,'Attitude',1);a.nextMoveFlags.highSpot=false}a.buffs.nextDamage=0;if(d.buffs.damageShield){damage=Math.max(0,damage-d.buffs.damageShield)}if(a.zoneDamage.Head>=12)damage=Math.max(0,damage-1);d.hp=Math.max(0,d.hp-damage);if(d.hp<=0){addLog(`${d.name} reaches 0 HP.`);return end(k==='player',`${a.name} wins by knockout`)}a.playedMoveThisTurn=true;a.hitStreak=(a.hitStreak||0)+1;a.hitStreakMethods=a.hitStreak===1?[c.method]:[...(a.hitStreakMethods||[]),c.method];const firstUnique=!a.connectedMoves.includes(c.name);if(firstUnique)a.connectedMoves.push(c.name);if(a.superKey==='eddie'&&/2E/i.test(currentStar(k).sourceFile||'')&&state.round>5&&!a.eddieMethodsDrawn.includes(c.method)){a.eddieMethodsDrawn.push(c.method);drawPages(k,1);addLog(`${a.name} draws a page for the first connected ${c.method} move.`)}if(a.superKey==='edge'&&/2E/i.test(currentStar(k).sourceFile||'')&&firstUnique){const bonus=Math.floor(Math.random()*5);a.affectPinScore=(a.affectPinScore||0)+bonus;addLog(`${a.name} gains +${bonus}% pin chance for a new connected move.`)}a.pendingCallingForIt=false;d.hitStreak=0;d.hitStreakMethods=[];const zone=/arm/i.test(c.name+c.description)?'Arm':/leg|ankle|knee/i.test(c.name+c.description)?'Leg':/head|ddt|neck/i.test(c.name+c.description)?'Head':'Body';d.zoneDamage[zone]+=damage;if(a.superKey==='benoit'){const threshold=Math.floor(d.zoneDamage[zone]/7);const prior=a.bodyThresholds[zone]||0;if(threshold>prior){drawPages(k,threshold-prior);a.bodyThresholds[zone]=threshold;addLog(`${a.name} draws ${threshold-prior} page(s) from body-part damage.`)}}if(a.superKey==='test'&&mods.includes('impact'))a.impactStreak=(a.impactStreak||0)+1;if(a.superKey==='bradshaw'&&mods.includes('impact')&&actualCost(c,k)>=5){const specials=d.hand.filter(x=>x.cardClass==='Special'&&!/Crowd Support/i.test(x.name));if(specials.length){const x=specials[Math.floor(Math.random()*specials.length)];d.hand.splice(d.hand.indexOf(x),1);d.discard.push(x);addLog(`${d.name} ditches ${x.name} from Bradshaw's ability.`)}else{const gps=d.inPlay.filter(x=>x.cardClass==='Gameplan');if(gps.length){const x=gps[Math.floor(Math.random()*gps.length)];d.inPlay.splice(d.inPlay.indexOf(x),1);d.discard.push(x);addLog(`${d.name}'s ${x.name} leaves play from Bradshaw's ability.`)}}}// Authenticity lock: a successful move does not create a generic Attitude exchange.
 // Attitude may change only through an explicit original page script, printed effect,
 // Superstar ability, pin rule, or other separately verified rule.
 applySourcePinModifiers(k,c);if(c.face)a.alignment='Face';if(c.heel){a.alignment='Heel';if(d.superKey==='flair'){gainMomentum(dKey,'Attitude',3);addLog(`${d.name} gains 3 Attitude because a Heel page was played.`)}}if(a.superKey==='austin'&&a.damageSpecialArmed){drawPages(k,1);a.damageSpecialArmed=false;addLog(`${a.name} draws a page because a Damage Special accompanied a connected move.`)}if(!originalScriptForms(c,'Move_Connected')){if(c.drawEffect){const before=a.hand.length;drawPages(k,c.drawEffect);const drawn=a.hand.length-before;if(drawn)addLog(`${c.name} effect: ${a.name} draws ${drawn} page${drawn===1?'':'s'}.`)}if(c.discardOpponent&&d.hand.length){for(let n=0;n<c.discardOpponent&&d.hand.length;n++){const dropped=d.hand.splice(Math.floor(Math.random()*d.hand.length),1)[0];d.discard.push(dropped);addLog(`${d.name} discards ${dropped.name}.`)}}if(c.discardTwoIfFour&&d.hand.length>=4){for(let n=0;n<2&&d.hand.length;n++){const dropped=d.hand.splice(Math.floor(Math.random()*d.hand.length),1)[0];d.discard.push(dropped);addLog(`${d.name} ditches ${dropped.name}.`)}}if(c.discardNonMomentum){const choices=d.hand.filter(x=>x.cardClass!=='Momentum');if(choices.length){const dropped=choices[Math.floor(Math.random()*choices.length)],i=d.hand.indexOf(dropped);d.hand.splice(i,1);d.discard.push(dropped);addLog(`${d.name} ditches non-Momentum page ${dropped.name}.`)}}if(c.discardAllStrength&&d.zoneDamage.Body>=7){const dropped=d.hand.filter(x=>x.method==='Strength');d.hand=d.hand.filter(x=>x.method!=='Strength');d.discard.push(...dropped);if(dropped.length)addLog(`${d.name} ditches ${dropped.length} Strength move(s).`)}const millCount=Math.max(Number(c.millOpponent)||0,mods.includes('$mill')?1:0);if(millCount){for(let n=0;n<millCount&&d.deck.length;n++){const milled=d.deck.shift();d.discard.push(milled);addLog(`${c.name} effect: ${d.name}'s next playbook page, ${milled.name}, is ditched.`)}if(!d.deck.length&&millCount)addLog(`${d.name}'s playbook is now empty.`)}if(c.opponentAttitudeLoss)spendMomentum(dKey,c.opponentAttitudeLoss,'Attitude');if(c.opponentAttitudeGain)gainMomentum(dKey,'Attitude',c.opponentAttitudeGain);if(c.choiceDitchSpecialOrAttitude){const pool=d.hand.filter(x=>x.cardClass==='Special');if(pool.length){const drop=pool[Math.floor(Math.random()*pool.length)];d.hand.splice(d.hand.indexOf(drop),1);d.discard.push(drop);addLog(`${d.name} ditches Special page ${drop.name}.`)}else gainMomentum(k,'Attitude',1)}if(c.moveSelfRingside)state.position='Ringside';if(c.treeOfWoe&&String(c.modifiers||'').includes('Impact')){damage+=7;d.stun=Math.max(d.stun,2)}if(c.discardSelf){for(let n=0;n<c.discardSelf&&a.hand.length;n++)a.discard.push(a.hand.pop())}if(c.recoverEffect&&a.discard.length){a.hand.push(a.discard.pop());a.recoveries++}
@@ -777,7 +899,10 @@ function addSubmissionPoints(h,amountOverride=null){
     if(!amount)continue;
     d.zoneDamage[zone]=(d.zoneDamage[zone]||0)+amount;
     d.hp=Math.max(0,d.hp-amount);
-    h.submissionByZone[zone]=(h.submissionByZone[zone]||0)+amount;
+    const submissionZone=zone==='Body'?'Back':zone;
+    d.submissionDamage=d.submissionDamage||{Head:0,Arm:0,Leg:0,Back:0};
+    d.submissionDamage[submissionZone]=(d.submissionDamage[submissionZone]||0)+amount;
+    h.submissionByZone[submissionZone]=(h.submissionByZone[submissionZone]||0)+amount;
     total+=amount;
     addLog(`${d.name} takes ${amount} ${zone} submission damage from ${h.card.name}.`);
   }
@@ -786,18 +911,22 @@ function addSubmissionPoints(h,amountOverride=null){
 function submissionCanEnd(h){
   const d=side(h.defender);
   if(h.profile.cannotSubmit||refereeDistracted())return false;
-  return Object.values(h.submissionByZone||{}).some(points=>Number(points)>Number(d.hp));
+  return Object.values(d.submissionDamage||{}).some(points=>Number(points)>Number(d.hp));
 }
 function beginSubmission(k,c){
   if(!originalBooleanGate('Can_Submit',k,c,{'#move':c})){addLog(`${c.name}: original scripts prevent a submission now.`);return;}
   const defender=other(k),profile=submissionProfile(c);
   const initialZone=/arm/i.test(c.name+' '+(c.description||''))?'Arm':/leg|ankle|knee/i.test(c.name+' '+(c.description||''))?'Leg':/head|neck|ddt/i.test(c.name+' '+(c.description||''))?'Head':'Body';
   const initialDamage=Math.max(0,Number(c.damage)||0);
+  const persistentZone=initialZone==='Body'?'Back':initialZone;
+  side(defender).submissionDamage=side(defender).submissionDamage||{Head:0,Arm:0,Leg:0,Back:0};
+  side(defender).submissionDamage[persistentZone]=(side(defender).submissionDamage[persistentZone]||0)+initialDamage;
   state.hold={
     attacker:k,defender,card:c,turns:1,profile,
     totalDamage:initialDamage,
-    submissionByZone:{[initialZone]:initialDamage}
+    submissionByZone:{[persistentZone]:initialDamage}
   };
+  dispatchOriginalEvent('Submission_Hold_Applied',k,c,{'#move':c,'#target':side(defender)});
   state.busy=false;
   state.position='Submission';
   state.control=defender;
@@ -888,8 +1017,14 @@ function submissionTick(k){
   s.hand.splice(i,1);s.discard.push(page);s.keptHoldThisTurn=true;
   addLog(`${s.name} ditches ${page.name} to keep ${h.card.name} applied.`);
   state.busy=true;
-  const total=addSubmissionPoints(h);
+  dispatchOriginalEvent('Damage_Bonus',k,h.card,{'#move':h.card,'#target':side(h.defender)});
+  const prevented=!originalBooleanGate('Prevent_Submission_Damage',k,h.card,{'#move':h.card,'#target':side(h.defender)});
+  const scriptedBonus=Math.max(0,Number(h.card?.waValues?.Submission_Damage_Bonus)||0);
+  const total=prevented?0:addSubmissionPoints(h,scriptedBonus?Math.max(...h.profile.zones.map(z=>Number(z.amount)||0))+scriptedBonus:null);
+  h.card.waValues=h.card.waValues||Object.create(null);
+  h.card.waValues.Submission_Damage_Bonus=0;
   h.totalDamage=(h.totalDamage||0)+total;h.turns++;
+  dispatchOriginalEvent('No_Counter_Played',k,h.card,{'#move':h.card,'#target':side(h.defender)});
   state.busy=false;
   state.message=`${h.card.name} remains applied: ${total} submission damage this turn, ${h.totalDamage} total.`;
   if(submissionCanEnd(h))return end(k==='player',`${side(h.defender).name} submits to ${h.card.name}`);
@@ -956,11 +1091,24 @@ function end(win,reason){
 
 function attemptPin(k='player'){
   if(!state||state.ended||state.busy||state.control!==k||state.hold)return;
-  const a=side(k),d=side(other(k));dispatchOriginalEvent('Attempt_Pin',k,null,{'#target':d});
+  const a=side(k),defenderKey=other(k),d=side(defenderKey);
+  if(a.pinLockedUntilMove){
+    state.message=`${a.name} cannot attempt another pin until another Move has been played.`;
+    addLog(state.message);render();return;
+  }
+  if(!atLocation(k,'InTheRing')||!atLocation(defenderKey,'InTheRing')||!['Grounded','Prone','Victim Below'].includes(state.position)){
+    state.message='A pin may only be attempted in the ring while the opponent is on the mat.';
+    addLog(state.message);render();return;
+  }
   if(refereeDistracted()){
     state.message='The referee is distracted and cannot count a pin.';
     addLog(state.message);render();return;
   }
+  if(!originalBooleanGate('Can_Pin',k,null,{'#target':d})||!originalBooleanGate('Attempt_Pin',k,null,{'#target':d})){
+    state.message='Original game effects prevent this pin attempt.';
+    addLog(state.message);render();return;
+  }
+
   const priorAttempts=Math.max(0,Number(a.pins)||0);
   const pinCost=priorAttempts;
   if((a.momentum.Attitude||0)<pinCost){
@@ -968,22 +1116,52 @@ function attemptPin(k='player'){
     addLog(state.message);render();return;
   }
 
-  // The original game confirms this cost rule. Do not charge it until
-  // the complete pin attempt can be resolved authentically.
-  state.message='PIN CERTIFICATION BLOCK: the exact original PinScore and kick-out calculation is still being extracted from WAMain.dll. No Attitude was spent and the turn was not ended.';
-  addLog(`${a.name} considered pin attempt ${priorAttempts+1}. Original cost would be ${pinCost} Attitude.`);
-  addLog('Pin resolution was blocked because the recreation’s previous health/momentum/random kick-out formula was fabricated.');
-  addLog('Original confirmed response window: the wrestler being pinned may play a legal pin Special, or press Pass before the pin check.');
-  state.pinCertification={
-    attacker:k,
-    defender:other(k),
-    attemptNumber:priorAttempts+1,
-    verifiedCost:pinCost,
-    costPaid:false,
-    turnEnded:false,
-    unresolved:['PinScore calculation','kick-out threshold or random check','post-kick-out control and draws']
-  };
-  render();
+  if(pinCost){
+    a.momentum.Attitude=Math.max(0,(a.momentum.Attitude||0)-pinCost);
+    addLog(`${a.name} pays ${pinCost} Attitude for pin attempt ${priorAttempts+1}.`);
+  }
+  a.pins++;
+  d.pinned=true;
+  state.pinPending={attacker:k,target:defenderKey};
+  state.busy=true;
+  addLog(`${a.name} attempts to pin ${d.name}. One! Two!...`);
+
+  const reaction=offerPinReaction(defenderKey,k);
+  if(reaction?.broken){
+    state.busy=false;
+    if(reaction.gainsControl){
+      beginTurn(defenderKey);
+      finishResolution();
+    }else{
+      state.message=`${a.name} remains in control after the stopped pin.`;
+      render();
+      if(k==='cpu')scheduleCpuTurn(350);
+    }
+    return;
+  }
+
+  const breakdown=recoveredPinScore(k);
+  const automatic=d.hp<=0;
+  const roll=automatic?0:(1+Math.floor(Math.random()*100));
+  const pinned=automatic||roll<=breakdown.score;
+  addLog(`PinScore ${breakdown.score}% = HP ${breakdown.healthScore} + Momentum ${breakdown.momentumScore} + Finisher ${breakdown.finisherBonus}${automatic?' (automatic at 0 HP)':`; roll ${roll}`}.`);
+
+  d.pinned=false;
+  state.pinPending=null;
+  state.busy=false;
+
+  if(pinned){
+    addLog(`Three! ${d.name} has been pinned by ${a.name}.`);
+    return end(k==='player',`${a.name} wins by pinfall`);
+  }
+
+  d.kickouts=(d.kickouts||0)+1;
+  addLog(`${d.name} kicks out of ${a.name}'s pin attempt.`);
+  changeControlCertified(defenderKey,'after the kick-out');
+  state.position='Standing';
+  state.message=`${d.name} kicks out and gains control.`;
+  beginTurn(defenderKey);
+  finishResolution();
 }
 function chooseFromList(k,title,list){if(!list.length)return null;if(k==='cpu')return list[0];const names=list.map((x,i)=>`${i+1}. ${x.name}`).join('\n');const raw=prompt(`${title}\n${names}`,'1');const i=Math.max(0,Math.min(list.length-1,(parseInt(raw,10)||1)-1));return list[i]}
 function searchDeck(k,predicate,title){const s=side(k),options=s.deck.filter(predicate);const picked=chooseFromList(k,title,options);if(!picked)return null;const i=s.deck.indexOf(picked);if(i>=0)s.deck.splice(i,1);s.hand.push(picked);s.pagesDrawn++;return picked}
@@ -998,7 +1176,7 @@ else if(s.superKey==='tripleh'){if(/2E/i.test(star.sourceFile||'')){const allowe
 else if(s.superKey==='undertaker'&&/2E/i.test(star.sourceFile||'')){if(s.abilityUses>=11||(s.momentum.Attitude||0)<1)return;for(const who of ['player','cpu'])side(who).momentum.Attitude=Math.max(0,(side(who).momentum.Attitude||0)-1);s.abilityUses++;msg=`Over a Decade removes 1 Attitude from both Superstars (${s.abilityUses}/11).`}
 else if(s.superKey==='jericho'){if(/2E/i.test(star.sourceFile||'')){if(s.abilityUses>=2)return;const c=searchDeck(k,c=>c.cardClass==='Momentum','King of the World — choose a Momentum page');if(!c)return;s.momentum.Attitude=0;s.abilityUses++;msg=`King of the World draws ${c.name} (${s.abilityUses}/2).`}else{if(s.abilityUses>=3||(s.momentum.Attitude||0)<1)return;const c=searchDeck(k,c=>c.cardClass==='Momentum','Jerichoholics — choose a Momentum page');if(!c)return;s.momentum.Attitude--;s.abilityUses++;msg=`Jerichoholics draws ${c.name} (${s.abilityUses}/3).`}}
 else if(s.superKey==='angle'&&/2E/i.test(star.sourceFile||'')){if(s.abilityUsed)return;const n=Math.min(5,side('player').inPlay.length+side('cpu').inPlay.length);drawPages(k,n);s.abilityUsed=true;msg=`It's True draws ${n} page${n===1?'':'s'}.`}
-else if(s.superKey==='bookert'){if(s.abilityUses>=9)return;const c=ditchChosen(k,c=>c.cardClass==='Move','Can You Dig It? — ditch a move');if(!c)return;drawPages(k,1);s.abilityUses++;msg=`Can You Dig It? ditches ${c.name} and draws a page (${s.abilityUses}/9).`}
+else if(s.superKey==='bookert'){if(s.abilityUses>=9)return;const c=ditchChosen(k,c=>isMovePage(c),'Can You Dig It? — ditch a Move Page');if(!c)return;drawPages(k,1);s.abilityUses++;msg=`Can You Dig It? ditches ${c.name} and draws a page (${s.abilityUses}/9).`}
 else if(s.superKey==='christian'){if(s.christianUses>=2)return;s.warnings=0;s.christianUses++;msg=`On Your Own resets ${s.name}'s Warnings to 0 (${s.christianUses}/2).`}
 else if(s.superKey==='rvd'){if(s.abilityUsed||state.round<=10||s.playedMoveThisTurn)return;const n=Math.max(0,s.hitStreak||0);drawPages(k,n);gainMomentum(k,'Attitude',n);s.abilityUsed=true;s.forceEndTurn=true;msg=`R-V-D draws ${n} page${n===1?'':'s'} and gains ${n} Attitude.`}
 else if(s.superKey==='hogan'){if(s.abilityUses>=5)return;const specials=s.hand.filter(c=>c.cardClass==='Special').sort((a,b)=>actualCost(a,k)-actualCost(b,k));if(!specials.length)return;const c=specials[0];removeCard(k,c);gainMomentum(k,'Knowledge',1);s.abilityUses++;msg=`The Icon ditches ${c.name} and gains 1 Knowledge (${s.abilityUses}/5).`}
@@ -1006,15 +1184,15 @@ else if(s.superKey==='lita'&&/2E/i.test(star.sourceFile||'')){if(s.abilityUsed)r
 else if(s.superKey==='goldust'){if(s.abilityUsed||state.round<=20)return;s.discard.push(...s.hand);s.hand=[];drawPages(k,10);s.abilityUsed=true;msg=`The Bizarre One ditches the hand and draws ten pages.`}
 else if(s.superKey==='lancestorm'){if(s.abilityUses>=9)return;s.lanceSerious=true;s.abilityUses++;msg=`Serious is armed (${s.abilityUses}/9): draw a page if the next move is countered.`}
 else if(s.superKey==='rikishi'){if(s.abilityUses>=2)return;randomMomentumLoss(other(k),1);const c=searchDeck(k,c=>c.cardClass==='Momentum'&&['Strength','Strike'].includes(c.momentumType),'Sultan of Squat — choose Strength or Strike Momentum');if(!c)return;s.abilityUses++;msg=`Sultan of Squat removes 1 opposing Momentum and draws ${c.name} (${s.abilityUses}/2).`}
-else if(s.superKey==='tazz'){if(s.abilityUses>=2)return;const drop=s.hand.length?s.hand.splice(Math.floor(Math.random()*s.hand.length),1)[0]:null;if(drop)s.discard.push(drop);const c=searchDeck(k,c=>c.cardClass==='Move'&&/in close/i.test(String(c.originalMoveType||c.position||'')),'Change The Mood — choose an In Close move');if(!c)return;s.abilityUses++;msg=`Change The Mood draws ${c.name} (${s.abilityUses}/2).`}
+else if(s.superKey==='tazz'){if(s.abilityUses>=2)return;const drop=s.hand.length?s.hand.splice(Math.floor(Math.random()*s.hand.length),1)[0]:null;if(drop)s.discard.push(drop);const c=searchDeck(k,c=>isMovePage(c)&&/in close/i.test(String(c.originalMoveType||c.position||'')),'Change The Mood — choose an In Close move');if(!c)return;s.abilityUses++;msg=`Change The Mood draws ${c.name} (${s.abilityUses}/2).`}
 else if(s.superKey==='nash'){if(s.nashAbilityUsed)return;for(const who of ['player','cpu']){const z=side(who),removed=z.inPlay.filter(e=>/referee/i.test(String(e.name||e.description||'')));z.inPlay=z.inPlay.filter(e=>!/referee/i.test(String(e.name||e.description||'')));z.discard.push(...removed.map(e=>e.card||e))}s.nashAbilityUsed=true;s.abilityUsed=true;msg=`${s.name} removes the Referee from the game.`}
 else if(s.superKey==='trish'){if(s.trishAbilityUsed)return;s.trishAbilityUsed=true;s.abilityUsed=true;s.trishNoMoves=true;if(Math.random()<.5){randomDitch(k,()=>true,2);msg=`${s.name} uses her Special and ditches two pages.`}else{s.trishNextUncounterable=true;msg=`${s.name} uses her Special: she will gain control at turn end and her next move cannot be countered.`;state.control=k} }
 else if(s.superKey==='bubba'){if(s.bubbaUses>=2)return;const c=searchDeck(k,c=>c.cardClass==='Special'&&(/event/i.test(String(c.modifiers||''))||/unique/i.test(String(c.modifiers||c.description||''))),`Those Damn Dudleyz! — choose an Event or Unique page`);if(!c)return;s.bubbaUses++;msg=`Those Damn Dudleyz! draws ${c.name} (${s.bubbaUses}/2).`}
 else if(s.superKey==='dvon'){if(s.dvonUses>=2)return;const c=searchDeck(k,c=>/weapon|ringside|set up a table|set up a ladder/i.test(`${c.modifiers||''} ${c.description||''} ${c.name||''}`),`D-Von! Get the... — choose an eligible page`);if(!c)return;s.dvonUses++;msg=`D-Von! Get the... draws ${c.name} (${s.dvonUses}/2).`}
-else if(s.superKey==='hurricane'){if(s.hurricaneAbilityUsed||state.round>=15)return;const options=side(other(k)).hand.filter(c=>['Move','Trademark'].includes(c.cardClass));const c=chooseFromList(k,'Super Powers — choose an opponent move',options);if(!c)return;side(other(k)).hand.splice(side(other(k)).hand.indexOf(c),1);s.hand.push(c);const reqs=c.momentumRequirements||{};const gained={};for(const [type,n] of Object.entries(reqs)){const need=Math.max(0,(Number(n)||0)-(s.momentum[type]||0));if(need){gainMomentum(k,type,need);gained[type]=need}}const flex=Math.max(0,actualCost(c,k)-totalMomentum(s));if(flex){gainMomentum(k,'Attitude',flex);gained.Attitude=(gained.Attitude||0)+flex}s.hurricaneBorrowedMomentum=gained;s.hurricaneAbilityUsed=true;s.abilityUsed=true;msg=`Super Powers steals ${c.name} and grants enough temporary Momentum to play it.`}
+else if(s.superKey==='hurricane'){if(s.hurricaneAbilityUsed||state.round>=15)return;const options=side(other(k)).hand.filter(c=>isMovePage(c));const c=chooseFromList(k,'Super Powers — choose an opponent move',options);if(!c)return;side(other(k)).hand.splice(side(other(k)).hand.indexOf(c),1);s.hand.push(c);const reqs=c.momentumRequirements||{};const gained={};for(const [type,n] of Object.entries(reqs)){const need=Math.max(0,(Number(n)||0)-(s.momentum[type]||0));if(need){gainMomentum(k,type,need);gained[type]=need}}const flex=Math.max(0,actualCost(c,k)-totalMomentum(s));if(flex){gainMomentum(k,'Attitude',flex);gained.Attitude=(gained.Attitude||0)+flex}s.hurricaneBorrowedMomentum=gained;s.hurricaneAbilityUsed=true;s.abilityUsed=true;msg=`Super Powers steals ${c.name} and grants enough temporary Momentum to play it.`}
 else if(s.superKey==='scotty'){if(s.scottyUses>=4||s.hitStreak<2||s.scottyUsedThisString)return;const c=searchDeck(k,c=>c.cardClass==='Gameplan'||(c.cardClass==='Special'&&/gameplan/i.test(String(c.modifiers||c.description||''))),'Turn it up! — choose a Gameplan Special');if(!c)return;s.scottyUses++;s.scottyUsedThisString=true;msg=`Turn it up! draws ${c.name} (${s.scottyUses}/4).`}
 else if(s.superKey==='regal'){if(s.abilityUsed)return;const c=searchDeck(k,c=>/Distract The Referee|Plead to the Ref/i.test(c.name),'Besmirched — choose a referee page');if(!c)return;s.abilityUsed=true;msg=`Besmirched plays ${c.name}, ignoring its normal restrictions.`;resolveCard(k,c);return}
-else if(s.superKey==='xpac'){if(s.abilityUsed)return;const c=searchDeck(k,c=>c.cardClass==='Move'&&/leg extended/i.test(String(c.originalMoveType||c.description||'')),'Martial Arts Pro — choose a Leg Extended move');if(!c)return;s.abilityUsed=true;msg=`Martial Arts Pro draws ${c.name}.`}
+else if(s.superKey==='xpac'){if(s.abilityUsed)return;const c=searchDeck(k,c=>isMovePage(c)&&/leg extended/i.test(String(c.originalMoveType||c.description||'')),'Martial Arts Pro — choose a Leg Extended move');if(!c)return;s.abilityUsed=true;msg=`Martial Arts Pro draws ${c.name}.`}
 else if(s.superKey==='flair'){if(state.control===k)return;const c=ditchChosen(k,c=>c.cardClass==='Special'&&!/Once Too Often|Crowd Support/i.test(c.name),'The Man — choose a Special name');if(!c)return;const opp=side(other(k)),same=opp.hand.find(x=>x.name===c.name);if(same){opp.hand.splice(opp.hand.indexOf(same),1);opp.deck.unshift(same);msg=`The Man buries ${same.name} from ${opp.name}'s hand.`}else msg=`The Man names ${c.name}, but the opponent has no copy in hand.`}
 else if(s.superKey==='alsnow'){if(s.abilityUsed)return;const n=['Agility','Knowledge','Strength','Strike','Technical'].filter(t=>(s.momentum[t]||0)>0).length;drawPages(k,n);s.abilityUsed=true;msg=`What Does Everybody Want? draws ${n} page${n===1?'':'s'}.`}
 else if(s.superKey==='rey'){if(s.abilityUsed||s.hand.length>=6||totalMomentum(side(other(k)))<3)return;drawPages(k,1);s.abilityUsed=true;msg='Cruiserweight Legend draws one page.'}
@@ -1037,7 +1215,7 @@ function ensureCpuProgress(delay=260){
 window.addEventListener('pageshow',()=>ensureCpuProgress(120));
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)ensureCpuProgress(120)});
 function cpuTurn(){if(!state||state.ended||state.busy||state.control!=='cpu'||state.hold||state.awaitingCpuMoveAck)return;const s=state.cpu;
-if(atLocation('cpu','Ringside')&&canUseLocationAction('cpu')&&((s.turnsAtLocation||0)>=4||atLocation('player','InTheRing')))return takeItInside('cpu');if(SUPERSTARS[s.superKey].abilityImplemented&&hasCallableAbility(SUPERSTARS[s.rosterKey]||SUPERSTARS[s.superKey])&&!s.abilityUsed&&(s.hp<=20||totalMomentum(s)<=3)){const before=JSON.stringify({hand:s.hand.length,deck:s.deck.length,abilityUsed:s.abilityUsed,abilityUses:s.abilityUses,control:state.control,busy:state.busy,hold:!!state.hold,msg:state.message});useAbility('cpu');if(!state||state.ended)return;const after=JSON.stringify({hand:s.hand.length,deck:s.deck.length,abilityUsed:s.abilityUsed,abilityUses:s.abilityUses,control:state.control,busy:state.busy,hold:!!state.hold,msg:state.message});if(after!==before)return;}if(state.position==='Grounded'&&!refereeDistracted()){const pc=pinChance('cpu'),opp=state.player,finisher=state.lastFinisher&&state.lastFinisher.owner==='cpu';if((finisher&&pc>=.30)||(opp.hp<=Math.max(12,Math.floor(opp.maxHp*.35))&&pc>=.36)||pc>=.58)return attemptPin('cpu')}const legal=s.hand.filter(c=>isLegal(c,'cpu')).filter(c=>!s.momentumPlayedSinceSuccess||['Move','Trademark'].includes(c.cardClass));if(!legal.length){if(applyEndTurnRefereeEffects('cpu')||state.ended){render();return}state.control='player';beginTurn('player');state.message=`${s.name} passes. You gain control and draw one page for the new turn.`;addLog(`${s.name} passes. ${state.player.name} gains control and draws one page at the beginning of the turn.`);render();return}const c=[...legal].sort((a,b)=>scoreCard(b,'cpu')-scoreCard(a,'cpu'))[0];resolveCard('cpu',c)}
+if(atLocation('cpu','Ringside')&&canUseLocationAction('cpu')&&((s.turnsAtLocation||0)>=4||atLocation('player','InTheRing')))return takeItInside('cpu');if(SUPERSTARS[s.superKey].abilityImplemented&&hasCallableAbility(SUPERSTARS[s.rosterKey]||SUPERSTARS[s.superKey])&&!s.abilityUsed&&(s.hp<=20||totalMomentum(s)<=3)){const before=JSON.stringify({hand:s.hand.length,deck:s.deck.length,abilityUsed:s.abilityUsed,abilityUses:s.abilityUses,control:state.control,busy:state.busy,hold:!!state.hold,msg:state.message});useAbility('cpu');if(!state||state.ended)return;const after=JSON.stringify({hand:s.hand.length,deck:s.deck.length,abilityUsed:s.abilityUsed,abilityUses:s.abilityUses,control:state.control,busy:state.busy,hold:!!state.hold,msg:state.message});if(after!==before)return;}if(state.position==='Grounded'&&!refereeDistracted()){const pc=pinChance('cpu'),opp=state.player,finisher=state.lastFinisher&&state.lastFinisher.owner==='cpu';if((finisher&&pc>=.30)||(opp.hp<=Math.max(12,Math.floor(opp.maxHp*.35))&&pc>=.36)||pc>=.58)return attemptPin('cpu')}const legal=s.hand.filter(c=>isLegal(c,'cpu')).filter(c=>!s.momentumPlayedSinceSuccess||isMovePage(c));if(!legal.length){if(applyEndTurnRefereeEffects('cpu')||state.ended){render();return}state.control='player';beginTurn('player');state.message=`${s.name} passes. You gain control and draw one page for the new turn.`;addLog(`${s.name} passes. ${state.player.name} gains control and draws one page at the beginning of the turn.`);render();return}const c=[...legal].sort((a,b)=>scoreCard(b,'cpu')-scoreCard(a,'cpu'))[0];resolveCard('cpu',c)}
 function momentumNeedScore(c,k){const s=side(k);if(c.cardClass!=='Momentum')return 0;const gains=c.momentumChanges?.gain||{[c.momentumType]:c.momentumAmount||1};let score=1;const candidates=[...s.hand,...s.deck.slice(0,18)].filter(x=>x.cardClass!=='Momentum');for(const card of candidates){for(const [type,need] of Object.entries(card.momentumRequirements||{})){const short=Math.max(0,need-(s.momentum[type]||0));if(short&&gains[type])score+=short*5}if(card.requirement&&gains[card.requirement])score+=3;const remaining=Math.max(0,actualCost(card,k)-totalMomentum(s));if(remaining&&Object.values(gains).reduce((a,b)=>a+b,0))score+=Math.min(remaining,5)}return score}
 function scoreCard(c,k){const star=SUPERSTARS[side(k).superKey],opp=side(other(k));if(c.cardClass==='Momentum')return momentumNeedScore(c,k);let v=(c.damage||0)*2+(c.momentumGain||0)-actualCost(c,k);if((c.damage||0)>=opp.hp)v+=40;if(star.style==='submission'&&c.submission)v+=9;if(star.style==='power'&&c.requirement==='Strength')v+=5;if(star.style==='agile'&&c.requirement==='Agility')v+=5;if(star.style==='brawler'&&c.requirement==='Strike')v+=5;if(star.style==='technical'&&c.requirement==='Technical')v+=5;if(c.finisher)v+=opp.hp<=Math.max(18,Math.floor(opp.maxHp*.45))?24:12;if(c.submission&&opp.hp<22)v+=12;if(c.cardClass==='Gameplan')v+=side(k).buffs.nextDamage||side(k).buffs.nextDiscount?-5:3;if(c.counterOnly)v-=18;return v}
 
@@ -1301,7 +1479,7 @@ function starterEditionCardLabel(st){
 }
 function superstarLimitRows(s){
   const icons={Agility:MOMENTUM_ICON_FILES.Agility,Knowledge:MOMENTUM_ICON_FILES.Knowledge,Strength:MOMENTUM_ICON_FILES.Strength,Strike:MOMENTUM_ICON_FILES.Strike,Technical:MOMENTUM_ICON_FILES.Technical};
-  return Object.entries(s.momentumMaximums||{}).filter(([,v])=>Number(v)!==0).map(([type,v])=>`<span class="superLimit"><img src="./${icons[type]}" alt="${esc(type)}"><b>= ${Number(v)<0?'∞':v}</b></span>`).join('');
+  return Object.entries(s.momentumMaximums||{}).filter(([,v])=>Number(v)>=0).map(([type,v])=>`<span class="superLimit"><img src="./${icons[type]}" alt="${esc(type)}"><b>= ${v}</b></span>`).join('');
 }
 function entityTile(s,actions='',extra=''){
   const title=s.displayName||s.name,edition=s.edition?`<small class="editionName">${esc(s.edition)}</small>`:'';
@@ -1485,5 +1663,11 @@ window.__WA_TEST__={
   resolveMomentum,
   drawPages,
   end,
-  cpuTurn
+  cpuTurn,
+  legalReason,
+  isMovePage,
+  beginTurn,
+  attemptPin,
+  maintainSubmission,
+  releaseSubmission
 };
