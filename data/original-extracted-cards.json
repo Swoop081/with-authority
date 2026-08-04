@@ -39,7 +39,7 @@
     "finisher": true
   },
   {
-    "id": "ArmDragTakedown",
+    "id": "Original_ArmDragTakedown2E",
     "name": "Arm Drag Takedown",
     "description": "Counters mad rush moves. If you have any Knowledge Momentum, draw one page.",
     "cardClass": "Move",
@@ -625,8 +625,8 @@
     "originalMoveType": "behind opponent"
   },
   {
-    "id": "Chop",
-    "name": "Chop",
+    "id": "OriginalVariant_ChopPromo",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Countered by Chop. If used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it.",
     "cardClass": "Move",
     "damage": 7,
@@ -1112,7 +1112,7 @@
     "originalMoveType": "in close"
   },
   {
-    "id": "RussianLegSweep",
+    "id": "RussianLegSweep2E",
     "name": "Russian Leg Sweep",
     "description": "Counters behind opponent and back to foe moves. Your opponent's next page is ditched.",
     "cardClass": "Move",
@@ -1490,7 +1490,7 @@
     "originalMoveType": "in close"
   },
   {
-    "id": "FlyingWheelKick",
+    "id": "Original_FlyingWheelKick2E",
     "name": "Flying Wheel Kick",
     "description": "Counters mad rush moves. Unless your opponent has less than 4 pages in hand, your opponent ditches 2 random pages. This move does up to +3 damage.",
     "cardClass": "Move",
@@ -2195,7 +2195,7 @@
     "originalMoveType": "in close"
   },
   {
-    "id": "PumpHandleSlam",
+    "id": "Original_PumpHandleSlamEX2",
     "name": "Pump Handle Slam",
     "description": "Test Trademark Counters head down and back to foe moves. If your opponent isn't stunned and has connected with less Impact moves than you, he is stunned until the end of next turn.",
     "cardClass": "Move",
@@ -2862,7 +2862,7 @@
     "originalMoveType": "mad rush"
   },
   {
-    "id": "WraparoundNeckbreaker",
+    "id": "Original_WraparoundNeckbreakerEX1",
     "name": "Wraparound Neckbreaker",
     "description": "William Regal Trademark Counters arm extended moves. Choose one: This move does 5 Arm and 5 Head damage, or you draw a random Special from your playbook.",
     "cardClass": "Move",

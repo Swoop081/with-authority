@@ -1,5 +1,5 @@
 {
-  "version": "0.9.167-rules-core",
-  "build": "continued-submission-draw-visible-in-hand",
-  "baseline": "v0.9.166-rules-core"
+  "version": "0.9.172",
+  "build": "character-collection-filters-brahma-bull-core",
+  "date": "2026-08-04"
 }

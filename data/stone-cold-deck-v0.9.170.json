@@ -1,0 +1,77 @@
+{
+  "version": "0.9.170",
+  "superstar": "austin",
+  "deckSize": 70,
+  "openingFive": [
+    "OriginalExact_SteveweiserEX2",
+    "KnowledgeTourn",
+    "TechnicalTourn",
+    "StrengthTourn",
+    "Original_ArmDragTakedown2E"
+  ],
+  "counts": {
+    "OriginalExact_SteveweiserEX2": 1,
+    "KnowledgeTourn": 1,
+    "TechnicalTourn": 1,
+    "StrengthTourn": 1,
+    "StrikeTourn": 12,
+    "Original_ArmDragTakedown2E": 1,
+    "OriginalExact_KickToGut": 3,
+    "OriginalExact_StoneColdStunnerEX1": 3,
+    "Original_FlatOfTheFoot2E": 3,
+    "RoundKick2E": 3,
+    "Original_SideKick": 3,
+    "Original_MafiaKick2E": 3,
+    "ThrustKick2E": 3,
+    "Original_BackElbow2E": 3,
+    "LowBlowMuleKick2E": 2,
+    "Original_SnapMare2E": 3,
+    "PumpHandle": 3,
+    "Original_DodgeTourn": 2,
+    "Original_DuckTourn": 2,
+    "Original_UpAndOverTourn": 2,
+    "Original_StandingSwitchTourn": 2,
+    "OriginalExact_OnceTooOften2E": 2,
+    "original-crowd-support-227": 3,
+    "OriginalExact_StunningBlow2E": 3,
+    "OriginalExact_WithAuthority2E": 3,
+    "OriginalExact_GrabTheRopes2E": 2
+  },
+  "strategy": "Kick To Gut retrieves Stone Cold Stunner; Back to Foe moves exhaust matching reversals before the Finisher. One Knowledge, Technical and Strength Momentum are fixed in the opening five; all 12 shuffled Momentum pages are Strike.",
+  "boosterOnly": {
+    "EX1": [
+      {
+        "id": "OriginalExact_LouTheszPressEX1",
+        "name": "Lou Thesz Press",
+        "rarityStars": 3
+      },
+      {
+        "id": "Original_DropTheHammerEX1",
+        "name": "Drop The Hammer",
+        "rarityStars": 3
+      },
+      {
+        "id": "OriginalExact_TwoFingerSaluteEX1",
+        "name": "Two Finger Salute",
+        "rarityStars": 4
+      }
+    ],
+    "EX2": [
+      {
+        "id": "OriginalExact_StompAMudholeEX2",
+        "name": "Stomp A Mudhole",
+        "rarityStars": 3
+      },
+      {
+        "id": "OriginalExact_WhatEX2",
+        "name": "What?",
+        "rarityStars": 3
+      },
+      {
+        "id": "OriginalExact_TheRattlesnakeEX2",
+        "name": "The Rattlesnake!",
+        "rarityStars": 3
+      }
+    ]
+  }
+}

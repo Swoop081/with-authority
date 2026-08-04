@@ -1229,3 +1229,7 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 .submissionHand{
   margin-top:8px;
 }
+
+/* v0.9.172 character collection filters */
+.collectionUnowned{filter:grayscale(1);opacity:.46}
+.collectionUnowned:hover,.collectionUnowned.flipped{opacity:.7}

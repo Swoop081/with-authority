@@ -2416,7 +2416,7 @@
     "archivePath": "Data/Chop.gac",
     "decoded": true,
     "template": "Moves_Template.gag",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Countered by Chop.\r\n\r\nIf used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it.",
     "scripts": {},
     "modifiers": "Impact",
@@ -2427,7 +2427,7 @@
     "archivePath": "Data/ChopEX2.gac",
     "decoded": true,
     "template": "Moves_Template-EX2.gag",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Counters Chop.\r\n\r\nChoose a page in your hand. If this move connects that page is ditched.",
     "scripts": {
       "Move_Connected": "(if ((eq #move #this)\n     (block \n          (sett Ditched 0)\n          (sett TheHand (WAGetHand #superstar))\n          (sett Index (count TheHand))\n          (sett DummyPage (WACreatePageByUNID #superstar (WAStringGetValue #this User_Data)))\n          (sett DitchUNID (WAGetUNID DummyPage))\n          (loop (greater Index 0)\n                (block \n                     (if ((and (eq (WAGetUNID (item TheHand index))\n                                   DitchUNID\n                               )\n                               (eq Ditched 0)\n                          )\n                          (block \n                               (sett Ditched 1)\n                               (WADitchPage #superstar (subtract Index 1))\n                          )\n                         )\n                     )\n                     (sett Index (subtract Index 1))\n                )\n          )\n     )\n    )\n)",
@@ -2441,7 +2441,7 @@
     "archivePath": "Data/ChopPromo.gac",
     "decoded": true,
     "template": "",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Countered by Chop.\r\n\r\nIf used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it.",
     "scripts": {},
     "modifiers": "Impact",
@@ -5768,7 +5768,7 @@
     "decoded": true,
     "template": "Moves_Template-2E.gag",
     "name": "High Knee",
-    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move can\u0092t be countered by Strength moves.",
+    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move cant be countered by Strength moves.",
     "scripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (if ((eq #target nil)\n          Nil\n         )\n         (True\n          (if ((eq (WAGetBaseUNID #initiator) 147)\n               True\n              )\n              (True Nil)\n          )\n         )\n     )\n    )\n    ((and (WAInPlay #this)\n          (not (eq (WAGetOwner #this)\n                   (WAGetOwner #initiator)\n               )\n          )\n          (WAIsMove #page)\n          (eq (WAStringGetValue #page Method) \"Strength\")\n     )\n     Nil\n    )\n    (True True)\n)",
       "Can_Only_Be_Played_By": "147",
@@ -7508,7 +7508,7 @@
     "archivePath": "Data/Lionsault.gac",
     "decoded": true,
     "template": "Moves_Template.gag",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "description": "Chris Jericho Finisher\r\n\r\nPlay only if your opponent is on the mat and in the ring.\r\n\r\nYou gain +1 Attitude and attempt a pin. If the pin fails you remain in control.",
     "scripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (block \n          (if ((and (eq (WAGetLocation #target)\n                        (WAFindLocation '$InTheRing)\n                    )\n                    (eq (WAGetBaseUNID #initiator) 204)\n                    (WAGetOnMat #target)\n               )\n               True\n              )\n              (True Nil)\n          )\n     )\n    )\n    (True True)\n)",
@@ -7522,7 +7522,7 @@
     "archivePath": "Data/Lionsault2E.gac",
     "decoded": true,
     "template": "Moves_Template-2E.gag",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "description": "Chris Jericho Finisher\r\n\r\nPlay only if your opponent is on the mat and in the ring.\r\n\r\nYou gain +1 Attitude and attempt to pin. If the pin fails you remain in control.",
     "scripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (block \n          (if ((and (eq (WAGetLocation #target)\n                        (WAFindLocation '$InTheRing)\n                    )\n                    (eq (WAGetBaseUNID #initiator) 204)\n                    (WAGetOnMat #target)\n               )\n               True\n              )\n              (True Nil)\n          )\n     )\n    )\n    (True True)\n)",
@@ -7536,7 +7536,7 @@
     "archivePath": "Data/LionsaultTourn.gac",
     "decoded": true,
     "template": "Moves_Template-Tourn.gag",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "description": "Chris Jericho Finisher\r\n\r\nPlay only if your opponent is on the mat and in the ring.\r\n\r\nYou gain +1 Attitude and attempt to pin. If the pin fails you remain in control.",
     "scripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (block \n          (if ((and (eq (WAGetLocation #target)\n                        (WAFindLocation '$InTheRing)\n                    )\n                    (eq (WAGetBaseUNID #initiator) 204)\n                    (WAGetOnMat #target)\n               )\n               True\n              )\n              (True Nil)\n          )\n     )\n    )\n    (True True)\n)",
@@ -9320,7 +9320,7 @@
     "decoded": true,
     "template": "Specials_Template-EX1.gag",
     "name": "Referee Jack Doan",
-    "description": "Superstars can\u0092t be pinned unless they are on the mat or were hit with a Finisher this turn or last turn.\r\n\r\n(You may only play a Referee if there is no other Referee in play.)",
+    "description": "Superstars cant be pinned unless they are on the mat or were hit with a Finisher this turn or last turn.\r\n\r\n(You may only play a Referee if there is no other Referee in play.)",
     "scripts": {
       "Remove_Page": "Nil"
     },
@@ -13855,7 +13855,7 @@
     "decoded": true,
     "template": "Special_small_Template-EX1.gag",
     "name": "Trish Stratus",
-    "description": "Special: You can\u0092t play moves this turn. There is a 50% chance that you ditch 2 pages. Otherwise, you gain control at the end of the turn, your move next turn can't be countered by moves, and you can't use this ability again. Use this ability only when your opponent is in control and isn't playing or applying a Hold.",
+    "description": "Special: You cant play moves this turn. There is a 50% chance that you ditch 2 pages. Otherwise, you gain control at the end of the turn, your move next turn can't be countered by moves, and you can't use this ability again. Use this ability only when your opponent is in control and isn't playing or applying a Hold.",
     "scripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (block \n          (sett CanPlay (not (WAPlayedRulebreaker #initiator)))\n          (sett BaseUNID (WAGetBaseUNID #this))\n          (enum (WAPagesInPlay) InPlay\n                (if ((eq (WAGetBaseUNID InPlay) BaseUNID)\n                     (sett CanPlay Nil)\n                    )\n                    ((and (WAHasModifier InPlay 'Support)\n                          (eq (WAGetOwner InPlay)\n                              (WAGetOwner #this)\n                          )\n                     )\n                     (sett CanPlay Nil)\n                    )\n                )\n          )\n          CanPlay\n     )\n    )\n    (True\n     (if ((WAInPlay #this)\n          (if ((and (not (eq #initiator (WAGetPlayedBy #this)))\n                    (eq (WAGetValue (WAGetPlayedBy #this) TrishActive)\n                        1\n                    )\n                    (WAIsMove #page)\n               )\n               Nil\n              )\n              ((and (eq (WAGetValue #this UsedSpecial) 1)\n                    (eq #initiator (WAGetPlayedBy #this))\n                    (WAIsMove #page)\n               )\n               Nil\n              )\n              (True True)\n          )\n         )\n     )\n    )\n)",
       "Remove_Page": "Nil"

@@ -2077,7 +2077,7 @@
   },
   {
     "sourceFile": "Chop.gac",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "category": "Move",
     "status": "fully_supported",
     "ruleFamilies": [
@@ -2087,7 +2087,7 @@
   },
   {
     "sourceFile": "ChopEX2.gac",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "category": "Move",
     "status": "partially_supported",
     "ruleFamilies": [
@@ -2098,7 +2098,7 @@
   },
   {
     "sourceFile": "ChopPromo.gac",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "category": "Other",
     "status": "non_playable_or_duplicate",
     "ruleFamilies": [
@@ -6395,7 +6395,7 @@
   },
   {
     "sourceFile": "Lionsault.gac",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "category": "Move",
     "status": "fully_supported",
     "ruleFamilies": [
@@ -6407,7 +6407,7 @@
   },
   {
     "sourceFile": "Lionsault2E.gac",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "category": "Move",
     "status": "fully_supported",
     "ruleFamilies": [
@@ -6419,7 +6419,7 @@
   },
   {
     "sourceFile": "LionsaultTourn.gac",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "category": "Move",
     "status": "fully_supported",
     "ruleFamilies": [

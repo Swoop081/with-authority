@@ -1417,7 +1417,7 @@
       "text": "Counters arm extended moves.\r\n\r\nYour opponent takes 1 arm damage and there is a 50% chance your opponent's next page from playbook is ditched."
     },
     {
-      "name": "Chop",
+      "name": "OriginalVariant_ChopPromo",
       "sourceFile": "ChopEX2.gac",
       "cardClass": "Move",
       "starterEntries": 9,

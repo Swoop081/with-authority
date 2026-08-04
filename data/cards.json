@@ -1,6 +1,6 @@
 [
   {
-    "id": "OriginalMomentumAgility",
+    "id": "AgilityTourn",
     "name": "Agility",
     "description": "Gain 1 Agility. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -36,7 +36,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "OriginalMomentumKnowledge",
+    "id": "KnowledgeTourn",
     "name": "Knowledge",
     "description": "Gain 1 Knowledge. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -72,7 +72,7 @@
     "presentationColourSource": "Knowledge"
   },
   {
-    "id": "OriginalMomentumStrength",
+    "id": "StrengthTourn",
     "name": "Strength",
     "description": "Gain 1 Strength. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -108,7 +108,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalMomentumStrike",
+    "id": "StrikeTourn",
     "name": "Strike",
     "description": "Gain 1 Strike. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -144,7 +144,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "OriginalMomentumTechnical",
+    "id": "TechnicalTourn",
     "name": "Technical",
     "description": "Gain 1 Technical. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -444,7 +444,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "RussianLegSweep",
+    "id": "RussianLegSweep2E",
     "name": "Russian Leg Sweep",
     "description": "Takes the opponent down from close range.",
     "cardClass": "Move",
@@ -619,7 +619,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "DDTEX1",
+    "id": "DDT2E",
     "name": "DDT",
     "description": "Drives the opponent down head-first.",
     "cardClass": "Move",
@@ -1075,7 +1075,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "ArmDragTakedown",
+    "id": "Original_ArmDragTakedown2E",
     "name": "Arm Drag Takedown",
     "description": "Counters mad rush moves. If you have any Knowledge Momentum, draw one page.",
     "cardClass": "Move",
@@ -2276,8 +2276,8 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Chop",
-    "name": "Chop",
+    "id": "OriginalVariant_ChopPromo",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Countered by Chop. If used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it.",
     "cardClass": "Move",
     "damage": 7,
@@ -4113,7 +4113,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "FlyingWheelKick",
+    "id": "Original_FlyingWheelKick2E",
     "name": "Flying Wheel Kick",
     "description": "Counters mad rush moves. Unless your opponent has less than 4 pages in hand, your opponent ditches 2 random pages. This move does up to +3 damage.",
     "cardClass": "Move",
@@ -5639,7 +5639,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "PumpHandleSlam",
+    "id": "Original_PumpHandleSlamEX2",
     "name": "Pump Handle Slam",
     "description": "Test Trademark Counters head down and back to foe moves. If your opponent isn't stunned and has connected with less Impact moves than you, he is stunned until the end of next turn.",
     "cardClass": "Move",
@@ -7119,7 +7119,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "WraparoundNeckbreaker",
+    "id": "Original_WraparoundNeckbreakerEX1",
     "name": "Wraparound Neckbreaker",
     "description": "William Regal Trademark Counters arm extended moves. Choose one: This move does 5 Arm and 5 Head damage, or you draw a random Special from your playbook.",
     "cardClass": "Move",
@@ -7989,8 +7989,8 @@
   },
   {
     "id": "rockGameplan",
-    "name": "People\u2019s Champion",
-    "description": "Gameplan: activate People\u2019s Champion to strengthen the next attack.",
+    "name": "People’s Champion",
+    "description": "Gameplan: activate People’s Champion to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "rock",
     "damage": 0,
@@ -8145,7 +8145,7 @@
   },
   {
     "id": "jerichoFinisher",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "description": "CHRIS JERICHO Trademark Finisher. A decisive signature attack.",
     "cardClass": "Trademark",
     "owner": "jericho",
@@ -8178,8 +8178,8 @@
   },
   {
     "id": "jerichoGameplan",
-    "name": "Ayatollah of Rock \u2018n\u2019 Rolla",
-    "description": "Gameplan: activate Ayatollah of Rock \u2018n\u2019 Rolla to strengthen the next attack.",
+    "name": "Ayatollah of Rock ‘n’ Rolla",
+    "description": "Gameplan: activate Ayatollah of Rock ‘n’ Rolla to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "jericho",
     "damage": 0,
@@ -8367,8 +8367,8 @@
   },
   {
     "id": "bigshowGameplan",
-    "name": "World\u2019s Largest Athlete",
-    "description": "Gameplan: activate World\u2019s Largest Athlete to strengthen the next attack.",
+    "name": "World’s Largest Athlete",
+    "description": "Gameplan: activate World’s Largest Athlete to strengthen the next attack.",
     "cardClass": "Gameplan",
     "owner": "bigshow",
     "damage": 0,
@@ -8606,7 +8606,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "Agility2E",
+    "id": "AgilityTourn",
     "name": "Agility",
     "description": "Gain 1 Agility. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -8648,7 +8648,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "AgilityEX1",
+    "id": "AgilityTourn",
     "name": "Agility",
     "description": "Gain 1 Agility. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -8690,7 +8690,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "AgilityEX2",
+    "id": "AgilityTourn",
     "name": "Agility",
     "description": "Gain 1 Agility. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9041,7 +9041,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "Knowledge2E",
+    "id": "KnowledgeTourn",
     "name": "Knowledge",
     "description": "Gain 1 Knowledge. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9083,7 +9083,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "KnowledgeEX1",
+    "id": "KnowledgeTourn",
     "name": "Knowledge",
     "description": "Gain 1 Knowledge. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9125,7 +9125,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "KnowledgeEX2",
+    "id": "KnowledgeTourn",
     "name": "Knowledge",
     "description": "Gain 1 Knowledge. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9209,7 +9209,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "Strength2E",
+    "id": "StrengthTourn",
     "name": "Strength",
     "description": "Gain 1 Strength. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9251,7 +9251,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "StrengthEX1",
+    "id": "StrengthTourn",
     "name": "Strength",
     "description": "Gain 1 Strength. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9293,7 +9293,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "StrengthEX2",
+    "id": "StrengthTourn",
     "name": "Strength",
     "description": "Gain 1 Strength. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9377,7 +9377,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "Strike2E",
+    "id": "StrikeTourn",
     "name": "Strike",
     "description": "Gain 1 Strike. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9419,7 +9419,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "StrikeEX1",
+    "id": "StrikeTourn",
     "name": "Strike",
     "description": "Gain 1 Strike. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9461,7 +9461,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "StrikeEX2",
+    "id": "StrikeTourn",
     "name": "Strike",
     "description": "Gain 1 Strike. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9545,7 +9545,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "SuperMomentumLE",
+    "id": "OriginalVariant_SuperMomentum",
     "name": "Super Momentum",
     "description": "Hurricane Trademark\r\n\r\nPlay only after turn 18. Gain 1 Attitude, Agility and Technical. \"Heat\" is put into your opponent's hand.",
     "cardClass": "Momentum",
@@ -9588,7 +9588,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "Technical2E",
+    "id": "TechnicalTourn",
     "name": "Technical",
     "description": "Gain 1 Technical. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9630,7 +9630,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "TechnicalEX1",
+    "id": "TechnicalTourn",
     "name": "Technical",
     "description": "Gain 1 Technical. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -9672,7 +9672,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "TechnicalEX2",
+    "id": "TechnicalTourn",
     "name": "Technical",
     "description": "Gain 1 Technical. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -11504,7 +11504,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "FigureFour",
+    "id": "FigureFour2E",
     "name": "Figure Four",
     "description": "Play only if your opponent is on the mat.",
     "cardClass": "Submission",
@@ -11802,7 +11802,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "FrogSplash",
+    "id": "FrogSplash2E",
     "name": "Frog Splash",
     "description": "Play only if your opponent is on the mat in the ring.",
     "cardClass": "Move",
@@ -12836,7 +12836,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "LegGrapevine",
+    "id": "LegGrapevine2E",
     "name": "Leg Grapevine",
     "description": "Play only if your opponent is on the mat.",
     "cardClass": "Submission",
@@ -12912,8 +12912,8 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Lionsault",
-    "name": "Lionsault",
+    "id": "Lionsault2E",
+    "name": "Lionsault2E",
     "description": "Play only if your opponent is on the mat and in the ring.",
     "cardClass": "Move",
     "damage": 13,
@@ -12947,7 +12947,7 @@
   },
   {
     "id": "Lionsault2E",
-    "name": "Lionsault",
+    "name": "Lionsault2E",
     "description": "Play only if your opponent is on the mat and in the ring.",
     "cardClass": "Move",
     "damage": 13,
@@ -13382,7 +13382,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "MountedPunches",
+    "id": "MountedPunches2E",
     "name": "Mounted Punches",
     "description": "Play only if your opponent is on the mat.",
     "cardClass": "Submission",
@@ -13536,7 +13536,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "NeckVice",
+    "id": "NeckVice2E",
     "name": "Neck Vice",
     "description": "Play only if your opponent is on the mat.",
     "cardClass": "Submission",
@@ -14338,7 +14338,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "SentonSplash",
+    "id": "SentonSplash2E",
     "name": "Senton Splash",
     "description": "Play only while your opponent is on the mat in the ring.",
     "cardClass": "Move",
@@ -14538,7 +14538,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "ShootingStarPress",
+    "id": "ShootingStarPress2E",
     "name": "Shooting Star Press",
     "description": "Play only if your opponent is on the mat in the ring, and only if you haven't yet connected with this move this match.",
     "cardClass": "Move",
@@ -15790,7 +15790,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "TheFinalCut",
+    "id": "TheFinalCut2E",
     "name": "The Final Cut",
     "description": "Does +20 damage, -2 damage for each time your opponent has connected with a Takedown move this match (this bonus can't be less than 0).\u000f",
     "cardClass": "Move",
@@ -15892,7 +15892,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "TheLastRide",
+    "id": "TheLastRide2E",
     "name": "The Last Ride",
     "description": "If not already stunned, your opponent is stunned until the end of next turn.",
     "cardClass": "Move",
@@ -17332,7 +17332,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "BigandNastyV095",
+    "id": "BigandNastyEX1V095",
     "name": "Big and Nasty",
     "description": "Big Show Trademark\n\nYour Strength moves do +2 damage. Your Strike moves that cost 4 or more have a 33% chance of stunning your opponent until the end of next turn. This page leaves play if you are hit with 3 moves in a row. You can only have one Big and Nasty in play.",
     "cardClass": "Trademark",
@@ -17464,7 +17464,7 @@
     "presentationColourSource": "Attitude"
   },
   {
-    "id": "BigDogInTheYardV095",
+    "id": "BigDogInTheYard2EV095",
     "name": "Big Dog In The Yard",
     "description": "Undertaker Trademark\n\nPlay only while in control. Choose a Momentum. If your next move connects, it does +3 damage for each point of that Momentum your opponent has (up to +15), then your opponent loses 1 of that Momentum.",
     "cardClass": "Trademark",
@@ -17556,7 +17556,7 @@
     "presentationColourSource": "Attitude"
   },
   {
-    "id": "BigDogInTheYardEX1V095",
+    "id": "BigDogInTheYard2EV095",
     "name": "Big Dog In The Yard",
     "description": "Undertaker Trademark\n\nPlay only while in control. Choose a Momentum. If your next move connects, it does +3 damage for each point of that Momentum your opponent has (up to +15), then your opponent loses 1 of that Momentum.",
     "cardClass": "Trademark",
@@ -17640,7 +17640,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "BounceOffTheRopesV095",
+    "id": "BounceOffTheRopes2EV095",
     "name": "Bounce Off The Ropes",
     "description": "Play only if your opponent is on the mat in the ring. If you have 3 Strike, a random Strike move is drawn from your playbook.\nIf you play an Impact or Drop move and it connects, that move does +3 damage and you draw a page.",
     "cardClass": "Gameplan",
@@ -17716,7 +17716,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "BreakV095",
+    "id": "Break2EV095",
     "name": "Break!",
     "description": "Play if you have hit with two moves in a row, and only if you have not played a move this turn.\n\nGain 1 Attitude and draw two pages. Your opponent gets control.",
     "cardClass": "Gameplan",
@@ -18248,7 +18248,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "DistractTheReferee2EV095",
+    "id": "DistractTheRefereeTournV095",
     "name": "Distract The Referee",
     "description": "The Referee is distracted for 1 to 6 turns (any Referee Special in play is removed). Distracted Referees do not give warnings, and the match can't end except by time limit draw. If a Referee is played later, this page leaves play.",
     "cardClass": "Gameplan",
@@ -18404,7 +18404,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "DVonV095",
+    "id": "DVonEX2V095",
     "name": "Half-Brother D-Von",
     "description": "Bubba Ray Dudley Trademark\n\nPlay only if D-Von isn't in the match. When at ringside, your opponent ditches a random momentum or special from hand at the end of each turn. \nSpecial: When you are in control and your opponent is on the mat, D-Von puts a Table into play. Use once per game.",
     "cardClass": "Trademark",
@@ -18518,7 +18518,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "EverythingHurtsV095",
+    "id": "EverythingHurts2EV095",
     "name": "Everything Hurts",
     "description": "All of your Strike moves do +1 damage for each of your opponent's damaged body parts. You can only have one Everything Hurts in play.",
     "cardClass": "Gameplan",
@@ -18898,7 +18898,7 @@
     "presentationColourSource": "Attitude"
   },
   {
-    "id": "HelloV095",
+    "id": "HelloNWOV095",
     "name": "Hello!",
     "description": "William Regal Trademark\n\nPlay only if your opponent is on the mat and you have hit two moves in a row.\n\nName a Special in your deck, which is drawn to your hand.  Gain one Attitude.  (You can't play this if there are no Specials left in your playbook.)",
     "cardClass": "Trademark",
@@ -18986,7 +18986,7 @@
     "presentationColourSource": "Attitude"
   },
   {
-    "id": "HeSawThatComingV095",
+    "id": "HeSawThatComing2EV095",
     "name": "He Saw That Coming...",
     "description": "Draw a page.\n\nName a move that costs 6 or more to play.\n\nIf your opponent has that move in hand, all copies of it are buried.",
     "cardClass": "Gameplan",
@@ -19214,7 +19214,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "HookTheLegV095",
+    "id": "HookTheLegX8V095",
     "name": "Hook The Leg",
     "description": "Play only if you are in control and if your opponent is on the mat in the ring.\nDraw a page and Pin your opponent. If this pin attempt does not work you remain in Control, and your move string is broken.",
     "cardClass": "Gameplan",
@@ -19869,7 +19869,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_AttitudeStarMafiaKick",
+    "id": "Original_TheBigBootEX2",
     "name": "The Big Boot",
     "description": "Test Finisher    Counters mad rush moves. Your opponent is put on the mat.  This move does +1 damage for each different Impact move you have connected with. (Counts as Mafia Kick.)",
     "cardClass": "Move",
@@ -20537,7 +20537,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_ChokeslamToHell2E",
+    "id": "Original_ChokeslamToHellTourn",
     "name": "Choke Slam To Hell",
     "description": "Kane Finisher    Counters mad rush and in close moves. If not already stunned, your opponent is stunned until the end of the next turn.    (Counts as \"Chokeslam\".)",
     "cardClass": "Move",
@@ -20911,7 +20911,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_CripplerCrossFace",
+    "id": "Original_CripplerCrossFaceTourn",
     "name": "Crippler Cross Face",
     "description": "Chris Benoit Finisher    Counters arm extended and in close moves.    Your opponent is put on the mat. This move does 9 arm and 9 head damage per turn.",
     "cardClass": "Submission",
@@ -20955,7 +20955,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_CripplerCrossFace2E",
+    "id": "Original_CripplerCrossFaceTourn",
     "name": "Crippler Cross Face",
     "description": "Chris Benoit Finisher    Counters arm extended and in close moves.    Your opponent is put on the mat. This move does 9 arm and 9 head damage per turn.",
     "cardClass": "Submission",
@@ -21329,7 +21329,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "Original_DropTheHammer",
+    "id": "Original_DropTheHammerEX1",
     "name": "Drop The Hammer",
     "description": "Stone Cold Trademark    Play only when your opponent is on the mat in the ring. If you connected with Lou Thesz Press last turn, gain +1 Attitude. If you have any Warnings, this move does +5 damage.",
     "cardClass": "Trademark",
@@ -21425,7 +21425,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_Edgecution2E",
+    "id": "Original_EdgecutionTourn",
     "name": "Edgecution",
     "description": "Edge Finisher    Counters head down moves.  This move does +1 damage for each Attitude you have (up to +10). You attempt to pin your opponent with a +1% pin chance for each different Agility and Technical move you've connected with this match. If the pin fails, you stay in control.",
     "cardClass": "Move",
@@ -21955,7 +21955,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_FlatOfTheFoot",
+    "id": "Original_FlatOfTheFoot2E",
     "name": "Flat of the Foot",
     "description": "Counters head down moves.",
     "cardClass": "Move",
@@ -22533,7 +22533,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_HogansBigBoot2ELE",
+    "id": "Original_HogansBigBoot2E",
     "name": "Hogan's Big Boot",
     "description": "Hulk Hogan Trademark  Counters mad rush moves. If played with Irish Whip and you haven't connected with this move yet, this move can't be countered. Your opponent is put on the mat.   (Counts as \"Mafia Kick\")",
     "cardClass": "Trademark",
@@ -22581,7 +22581,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_HogansLegDrop2E",
+    "id": "Original_HogansLegDropTourn",
     "name": "Hogan's Leg Drop",
     "description": "Hulk Hogan Finisher    Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move this match, this move can't be countered.  (Counts as \"Leg Drop\")",
     "cardClass": "Move",
@@ -22625,7 +22625,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_HogansLegDrop2ELE",
+    "id": "Original_HogansLegDropTourn",
     "name": "Hogan's Leg Drop",
     "description": "Hulk Hogan Finisher    Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move this match, this move can't be countered.  (Counts as \"Leg Drop\")",
     "cardClass": "Move",
@@ -23445,7 +23445,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_MafiaKick",
+    "id": "Original_MafiaKick2E",
     "name": "Mafia Kick",
     "description": "Counters mad rush moves.    This move does up to +5 damage. Your opponent is put on the mat.",
     "cardClass": "Move",
@@ -23871,7 +23871,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_Pedigree",
+    "id": "Original_PedigreeTourn",
     "name": "Pedigree",
     "description": "Triple H Finisher    Counters head down moves. If your opponent has less than 40 pages left in his playbook, this move does +1 damage for each page less (up to +20.)",
     "cardClass": "Move",
@@ -23915,7 +23915,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_Pedigree2E",
+    "id": "Original_PedigreeTourn",
     "name": "Pedigree",
     "description": "Triple H Finisher    Counters head down moves. If your opponent has less than 40 pages left in his playbook, this move does +1 damage for each page less (up to +20.)",
     "cardClass": "Move",
@@ -24056,7 +24056,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_PowerBomb",
+    "id": "Original_PowerBomb2E",
     "name": "Power Bomb",
     "description": "Countered by Hurricanrana.    If not already stunned, your opponent is stunned until the end of the next turn.",
     "cardClass": "Move",
@@ -24104,7 +24104,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_ArmDragCounter",
+    "id": "Original_ArmDragCounterTourn",
     "name": "Arm Drag Counter",
     "description": "This move may not be used offensively. Counters arm extended and mad rush moves. Countered by in close moves. This move provides no Momentum.",
     "cardClass": "Move",
@@ -24249,7 +24249,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "Original_Block",
+    "id": "Original_BlockTourn",
     "name": "Block",
     "description": "Can't be used offensively. Counters arm extended, leg extended, in close, mad rush, back to foe and standing above moves that are Strike moves. Countered by arm extended, leg extended, and in close moves that are Strike moves. Your opponent can't counter this with a move he has already connected with.",
     "cardClass": "Move",
@@ -24504,7 +24504,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_Dodge2E",
+    "id": "Original_DodgeTourn",
     "name": "Dodge",
     "description": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Attitude.",
     "cardClass": "Move",
@@ -24598,7 +24598,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_Duck2E",
+    "id": "Original_DuckTourn",
     "name": "Duck",
     "description": "This move can't be played offensively. Counters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no Attitude.",
     "cardClass": "Move",
@@ -24847,7 +24847,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_RegalStretch",
+    "id": "Original_RegalStretchEX1",
     "name": "Regal Stretch",
     "description": "William Regal Finisher Play only while your opponent is on the mat. Countered by Back Elbow. This move does 1 Arm and 1 Back damage per turn for each Technical Momentum you have.",
     "cardClass": "Move",
@@ -24988,7 +24988,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_RicFlairsFigureFourLE",
+    "id": "Original_RicFlairsFigureFour",
     "name": "Ric Flair's Figure Four",
     "description": "Ric Flair Finisher Play only if your opponent is on the mat or as a counter. Counters Figure Four. This move does 10 leg damage per turn. If your opponent has more leg damage than twice his Knowledge, this move can't be countered by moves the turn you play it. (Counts as \"Figure Four.\")",
     "cardClass": "Move",
@@ -25188,7 +25188,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_Shove",
+    "id": "Original_ShoveTourn",
     "name": "Shove",
     "description": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum.",
     "cardClass": "Move",
@@ -25235,7 +25235,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_Shove2E",
+    "id": "Original_ShoveTourn",
     "name": "Shove",
     "description": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum.",
     "cardClass": "Move",
@@ -25784,7 +25784,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "Original_StandingSwitch2E",
+    "id": "Original_StandingSwitchTourn",
     "name": "Standing Switch",
     "description": "This move may not be used offensively. Counters behind opponent and in close moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude.",
     "cardClass": "Move",
@@ -25929,7 +25929,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "Original_StratusphereLE",
+    "id": "Original_Stratusphere",
     "name": "Stratusphere",
     "description": "Trish Stratus Trademark Counters high risk moves. Play only if you have hit 2 moves in a row or as a counter. Your opponent is Staggered and you get Crowd Support. (Counts as \"Hurricanrana\".)",
     "cardClass": "Move",
@@ -26178,7 +26178,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "Original_TrishsRoundhouseKickLE",
+    "id": "Original_TrishsChop",
     "name": "Trish's Roundhouse Kick",
     "description": "Trish Stratus Trademark Counters mad rush moves. Your opponent is Staggered and you get Crowd Support.",
     "cardClass": "Move",
@@ -26276,7 +26276,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "Original_UpAndOver2E",
+    "id": "Original_UpAndOverTourn",
     "name": "Up and Over",
     "description": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude.",
     "cardClass": "Move",
@@ -26671,7 +26671,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_PowerfulClothesline",
+    "id": "Lariat2E",
     "name": "Lariat",
     "description": "Counters hit or miss and mad rush moves. When you play this move, name a move type (not Defensive). If this connects, your opponent buries a move of the chosen move type and is put on the mat.",
     "cardClass": "Move",
@@ -26917,7 +26917,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_StratusfactionLE",
+    "id": "Stratusfaction",
     "name": "Stratusfaction",
     "description": "Trish Stratus Finisher\r\n\r\nCounters back to foe and in close moves.\r\nYour opponent is stunned until the end of the next turn (unless already stunned).\r\n(Counts as \"Bulldog\".)",
     "cardClass": "Trademark",
@@ -27178,7 +27178,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "Original_special1",
+    "id": "AchillesHeel2EV095",
     "name": "Achilles' Heel",
     "description": "Whenever you apply a Hold, it does +2 to +6 submission damage (randomly chosen each time). This page is removed when you are Stunned. You can only have one Achilles' Heel in play.",
     "cardClass": "Gameplan",
@@ -27628,7 +27628,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "Original_RockBottom2E",
+    "id": "Original_RockBottomTourn",
     "name": "Rock Bottom",
     "description": "The Rock Finisher\r\n\r\nCounters arm extended and in close moves. If your opponent is not stunned and has less pages in hand than you, your opponent is stunned until the end of the next turn.",
     "cardClass": "Trademark",
@@ -27782,7 +27782,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "OriginalVariant_AgilityEX3",
+    "id": "AgilityTourn",
     "name": "Agility",
     "description": "Gain 1 Agility. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -27803,7 +27803,7 @@
     "effectStatus": "implemented",
     "variantEdition": "EX3",
     "variantGroup": "agility",
-    "variantOf": "OriginalMomentumAgility",
+    "variantOf": "AgilityTourn",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "fc7121782ba1",
@@ -27821,7 +27821,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "OriginalVariant_BellyToBellySuplex",
+    "id": "BellyToBellySuplex2E",
     "name": "Belly-to-Belly Suplex",
     "description": "Counters in close and mad rush moves.",
     "cardClass": "Move",
@@ -27864,7 +27864,7 @@
   },
   {
     "id": "OriginalVariant_ChopPromo",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Countered by Chop. If used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it.",
     "cardClass": "Move",
     "damage": 7,
@@ -27883,7 +27883,7 @@
     "effectStatus": "implemented-basic",
     "variantEdition": "PROMO",
     "variantGroup": "chop",
-    "variantOf": "Chop",
+    "variantOf": "OriginalVariant_ChopPromo",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "0d88c0eaafaa",
@@ -27905,7 +27905,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "OriginalVariant_DoubleLegTakedown",
+    "id": "DoubleLegTakedown2E",
     "name": "Double Leg Takedown",
     "description": "Counters leg extended and victim below moves.",
     "cardClass": "Move",
@@ -27947,7 +27947,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalVariant_DragonSleeper",
+    "id": "DragonSleeper2E",
     "name": "Dragon Sleeper",
     "description": "Your opponent takes 6 head damage per turn.",
     "cardClass": "Submission",
@@ -27988,7 +27988,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "OriginalVariant_KnowledgeEX3",
+    "id": "KnowledgeTourn",
     "name": "Knowledge",
     "description": "Gain 1 Knowledge. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -28009,7 +28009,7 @@
     "effectStatus": "implemented",
     "variantEdition": "EX3",
     "variantGroup": "knowledge",
-    "variantOf": "OriginalMomentumKnowledge",
+    "variantOf": "KnowledgeTourn",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "481a841e6c81",
@@ -28027,7 +28027,7 @@
     "presentationColourSource": "Knowledge"
   },
   {
-    "id": "OriginalVariant_StrengthEX3",
+    "id": "StrengthTourn",
     "name": "Strength",
     "description": "Gain 1 Strength. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -28048,7 +28048,7 @@
     "effectStatus": "implemented",
     "variantEdition": "EX3",
     "variantGroup": "strength",
-    "variantOf": "OriginalMomentumStrength",
+    "variantOf": "StrengthTourn",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "d5004c694976",
@@ -28066,7 +28066,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalVariant_StrikeEX3",
+    "id": "StrikeTourn",
     "name": "Strike",
     "description": "Gain 1 Strike. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -28087,7 +28087,7 @@
     "effectStatus": "implemented",
     "variantEdition": "EX3",
     "variantGroup": "strike",
-    "variantOf": "OriginalMomentumStrike",
+    "variantOf": "StrikeTourn",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "96c6795836a6",
@@ -28134,7 +28134,7 @@
     "effectStatus": "disabled-owner-mapping",
     "variantEdition": "Core",
     "variantGroup": "super momentum",
-    "variantOf": "SuperMomentumLE",
+    "variantOf": "OriginalVariant_SuperMomentum",
     "exactEquivalentVariant": true,
     "sourceScripts": {
       "Can_Be_Played": "(if ((eq #page #this)\n     (and (greater (WAGetTurn) 18)\n          (eq (WAGetBaseUNID #initiator) 977)\n     )\n    )\n    (True True)\n)",
@@ -28154,7 +28154,7 @@
     "presentationColourSource": "Momentum"
   },
   {
-    "id": "OriginalVariant_TechnicalEX3",
+    "id": "TechnicalTourn",
     "name": "Technical",
     "description": "Gain 1 Technical. Your opponent can't see this page.",
     "cardClass": "Momentum",
@@ -28175,7 +28175,7 @@
     "effectStatus": "implemented",
     "variantEdition": "EX3",
     "variantGroup": "technical",
-    "variantOf": "OriginalMomentumTechnical",
+    "variantOf": "TechnicalTourn",
     "exactEquivalentVariant": true,
     "sourceScripts": {},
     "variantKey": "b513606227d4",
@@ -28193,7 +28193,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "OriginalVariant_ThrowOverTheRopes",
+    "id": "ThrowOverTheRopes2E",
     "name": "Throw Over The Ropes",
     "description": "Play only in the ring. Your opponent is sent to ringside. Unless already stunned, your opponent is stunned until the end of the next turn.",
     "cardClass": "Move",
@@ -28238,7 +28238,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalVariant_WhipIntoSteelSteps",
+    "id": "WhipIntoSteelSteps2E",
     "name": "Whip Into Steel Steps",
     "description": "Play this move only when both you and your opponent are at Ringside. Your opponent ditches two random pages and is put on the mat. You gain +1 Attitude.",
     "cardClass": "Move",
@@ -28461,7 +28461,7 @@
     "presentationColourSource": "Agility"
   },
   {
-    "id": "Original_StoneColdStunner_Core",
+    "id": "OriginalExact_StoneColdStunnerEX1",
     "name": "Stone Cold Stunner",
     "description": "Stone Cold Finisher\n\nCounters behind opponent moves.\n\nYour opponent is put on the mat. This move does +1 damage for each Attitude or Warning you have (whichever is greater, up to +12). If not already stunned, your opponent is stunned until the end of the next turn.",
     "cardClass": "Trademark",
@@ -28975,7 +28975,7 @@
     "id": "HighKnee2E",
     "sourceFile": "HighKnee2E.gac",
     "name": "High Knee",
-    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move can\u0092t be countered by Strength moves.",
+    "description": "Triple H Trademark\r\n\r\nCounters mad rush moves. Your opponent is put on the mat and ditches pages from his playbook equal to your Attitude. This move cant be countered by Strength moves.",
     "cardClass": "Move",
     "damage": 6,
     "momentumCost": 6,
@@ -29013,7 +29013,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "RussianLegSweep",
+    "id": "RussianLegSweep2E",
     "sourceFile": "RussianLegSweep.gac",
     "name": "Russian Leg Sweep",
     "description": "Counters behind opponent and back to foe moves.\r\n\r\nYour opponent's next page is ditched.",
@@ -29249,7 +29249,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "DDTEX1",
+    "id": "DDT2E",
     "sourceFile": "DDTEX1.gac",
     "name": "DDT",
     "description": "Counters head down moves.\r\n\r\nChoose one: A random special in your opponent's hand is ditched or you gain +1 Attitude.",
@@ -29290,7 +29290,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "SpinningHeelKickCore",
+    "id": "SpinningHeelKick2E",
     "sourceFile": "SpinningHeelKick.gac",
     "name": "Spinning Heel Kick",
     "description": "Counters mad rush moves.\r\n\r\nYour opponent is put on the mat. Unless already stunned, he is stunned until the end of the next turn.",
@@ -29530,7 +29530,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "OriginalExact_BookerT",
+    "id": "OriginalExact_BookerTEX2",
     "name": "Booker T",
     "description": "Special: Can You Dig It?\n\nChoose a move page in hand. That page is ditched and you draw a page. This ability works nine times per match.",
     "sourceFile": "BookerT.gac",
@@ -29694,7 +29694,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "OriginalExact_ScissorsKick",
+    "id": "OriginalExact_ScissorsKickEX2",
     "name": "Scissors Kick",
     "description": "Booker T Finisher\n\nPlay only in the ring. Countered by Dodge, not by Shove.\n\nYour opponent is put on the mat. This move does +2 damage (up to +12) for each special that was in your hand and your opponent's hand when you played this move.",
     "sourceFile": "ScissorsKick.gac",
@@ -29808,7 +29808,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "OriginalExact_Spineroonie",
+    "id": "OriginalExact_SpineroonieEX2",
     "name": "Spinaroonie",
     "description": "Booker T Trademark\n\nPlay only when your opponent is on the mat or stunned. Your opponent gets 3 Crowd Supports but ditches all Specials from hand at the end of the turn. You get 5 Attitude.\n\nThis page counts as 2 pages when you choose to ditch it.",
     "sourceFile": "Spineroonie.gac",
@@ -30122,7 +30122,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalExact_RefBump",
+    "id": "OriginalExact_RefBump2E",
     "name": "Ref Bump",
     "description": "Play only if not in control and your opponent is playing a move that isn't a Hold. Counter that move and gain control. The referee is distracted for 4 to 10 turns (any Referee in play is ditched). Afterwards, you receive 1 to 7 Warnings or your opponent receives 1 to 4 Warnings. (This Event ends if a Referee is played.)",
     "sourceFile": "RefBump.gac",
@@ -30205,7 +30205,7 @@
     "presentationColourSource": "Strength"
   },
   {
-    "id": "OriginalExact_BubbaRayDudley",
+    "id": "OriginalExact_BubbaRayDudleyEX2",
     "name": "Bubba Ray Dudley",
     "description": "You do +1 damage with Takedown moves.\nSpecial: \"Those Damn Dudleyz!\"\nChoose an Event or Unique page from your playbook. You draw that page. Use this ability twice per match.",
     "sourceFile": "BubbaRayDudley.gac",
@@ -30279,7 +30279,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "OriginalExact_BackSuplexEX1",
+    "id": "OriginalExact_BackSuplex2E",
     "name": "Back Suplex",
     "description": "Counters back to foe moves.\n\nChoose one: Your opponent ditches a Knowledge Momentum from hand or your opponent ditches a random Special from hand.",
     "cardClass": "Move",
@@ -30749,7 +30749,7 @@
   },
   {
     "id": "OriginalExact_ChopEX2",
-    "name": "Chop",
+    "name": "OriginalVariant_ChopPromo",
     "description": "Counters Chop.\n\nChoose a page in your hand. If this move connects that page is ditched.",
     "cardClass": "Move",
     "damage": 7,
@@ -32092,7 +32092,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "OriginalExact_HollywoodHulkHoganLE",
+    "id": "OriginalExact_HollywoodHulkHogan2E",
     "name": "Hulk Hogan",
     "description": "The first five times you play a Face special you gain 1 Knowledge.",
     "sourceFile": "HollywoodHulkHoganLE.gac",
@@ -32127,7 +32127,7 @@
     "presentationColourSource": "Superstar"
   },
   {
-    "id": "OriginalExact_JeffHardy",
+    "id": "OriginalExact_JeffHardyEX2",
     "name": "Jeff Hardy",
     "description": "Member of Team Xtreme\n\nJeff Hardy can Autocounter for -1 page.\n\nWhen Jeff Hardy plays a Drop move you draw a page.",
     "sourceFile": "JeffHardy.gac",
@@ -32782,7 +32782,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "OriginalExact_WithAuthority",
+    "id": "OriginalExact_WithAuthority2E",
     "name": "With Authority!",
     "description": "Play only while in Control. This move does +4 damage and may not be Autocountered.\n\n(If used with a Hold, the move can be autocountered after the first turn it is applied.)",
     "sourceFile": "WithAuthority.gac",
@@ -33920,7 +33920,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "OriginalExact_RicFlairEX3LE",
+    "id": "OriginalExact_RicFlairEX3",
     "name": "Ric Flair",
     "description": "You can't play leg extended moves that cost 6 or more.\nSpecial: The Man\nIf not in control, choose a Special in your hand (except \"Once Too Often\" or \"Crowd Support\"). Your opponent buries one page with that name from hand.",
     "sourceFile": "RicFlairEX3LE.gac",
@@ -34040,7 +34040,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "OriginalExact_RobVanDam",
+    "id": "OriginalExact_RobVanDamEX2",
     "name": "Rob Van Dam",
     "description": "Special: R-V-D\nUse once per match after turn 10, while in control, and before you play a move. Draw 1 page and gain 1 Attitude for each move in a row you've connected with. You can't play more pages this turn.",
     "sourceFile": "RobVanDam.gac",
@@ -34117,7 +34117,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "OriginalExact_SpinningHeelKickEX2",
+    "id": "OriginalExact_StepOverHeelKickEX2",
     "name": "Step-Over Heel Kick",
     "description": "Rob Van Dam Trademark\n\nCounters leg extended moves. Your opponent is put on the mat and you draw a random Agility move from your playbook.\n(Counts as Spinning Heel Kick.)",
     "sourceFile": "SpinningHeelKickEX2.gac",
@@ -34161,7 +34161,7 @@
     "presentationColourSource": "Strike"
   },
   {
-    "id": "OriginalExact_VanDaminator",
+    "id": "OriginalExact_VanDaminatorEX2",
     "name": "Van Daminator",
     "description": "Rob Van Dam Trademark\n\nCounters \"Chair Shot\" and \"Chair to the Back\". Unless one is already in play, Steel Folding Chair is put into play when you play this move. If this move connects as a counter, your opponent is stunned until the end of next turn. Otherwise, you get 4 Warnings.",
     "sourceFile": "VanDaminator.gac",
@@ -35139,7 +35139,7 @@
     "presentationColourSource": "Gameplan"
   },
   {
-    "id": "OriginalExact_AnotherAttitudeStar",
+    "id": "OriginalExact_TestEX2",
     "name": "Test",
     "description": "\"Un-Americans\" Member\n\nYour Impact moves do +1 damage for each other Impact move you have connected with. This count resets when you lose control.",
     "sourceFile": "AnotherAttitudeStar.gac",
@@ -35722,7 +35722,7 @@
     "presentationColourSource": "Technical"
   },
   {
-    "id": "OriginalExact_TheHurricaneLE",
+    "id": "OriginalExact_TheHurricane",
     "name": "The Hurricane",
     "description": "Special: Super Powers\n\nChoose a Move in your opponent's hand. You steal it and gain enough momentum to play it until end of turn (even breaking your limits). Use once per match, after turn 5.",
     "sourceFile": "TheHurricaneLE.gac",
@@ -35867,7 +35867,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "OriginalExact_TheRock2E",
+    "id": "OriginalExact_TheRock2EnoLE",
     "name": "The Rock",
     "description": "Special: The Great One\n\nDraw a page. Use this ability when your opponent is on the mat after turn 5, and only six times per match.",
     "sourceFile": "TheRock2E.gac",
@@ -36285,7 +36285,7 @@
     "presentationColourSource": "Special"
   },
   {
-    "id": "OriginalExact_TrishStratusEX3LE",
+    "id": "OriginalExact_TrishStratusEX3",
     "name": "Trish Stratus",
     "description": "Diva Superstar\nSpecial: 100%\nChoose a Method. When your opponent plays or connects with a move of that Method that costs 6 or more, you get \"Crowd Support\". Use this ability once.",
     "sourceFile": "TrishStratusEX3LE.gac",

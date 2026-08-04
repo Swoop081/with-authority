@@ -119,7 +119,7 @@
       }
     },
     {
-      "id": "RussianLegSweep",
+      "id": "RussianLegSweep2E",
       "name": "Russian Leg Sweep",
       "source": "RussianLegSweepEX2.gac",
       "changes": {
@@ -485,7 +485,7 @@
     },
     {
       "id": "jerichoFinisher",
-      "name": "Lionsault",
+      "name": "Lionsault2E",
       "source": "Lionsault.gac",
       "changes": {
         "damage": {
@@ -681,7 +681,7 @@
       }
     },
     {
-      "id": "RussianLegSweep",
+      "id": "RussianLegSweep2E",
       "name": "Russian Leg Sweep",
       "source": "RussianLegSweepEX2.gac",
       "changes": {
@@ -755,7 +755,7 @@
     },
     {
       "deck": "rock-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -779,19 +779,19 @@
     },
     {
       "deck": "tripleh-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "angle-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "angle-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -839,7 +839,7 @@
     },
     {
       "deck": "edge-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -875,25 +875,25 @@
     },
     {
       "deck": "jeffhardy-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "jeffhardy-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "matthardy-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "matthardy-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -905,18 +905,12 @@
     },
     {
       "deck": "lita-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "lita-starter-upgrade",
-      "from": "RussianLegSweep",
-      "to": "OriginalExact_RussianLegSweepEX2",
-      "name": "Russian Leg Sweep"
-    },
-    {
-      "deck": "trish-starter-upgrade",
       "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
@@ -928,26 +922,32 @@
       "name": "Russian Leg Sweep"
     },
     {
-      "deck": "bubba-starter-upgrade",
-      "from": "RussianLegSweep",
+      "deck": "trish-starter-upgrade",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "bubba-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "bubba-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "bubba-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bubba-starter-upgrade",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -989,19 +989,19 @@
     },
     {
       "deck": "scotty-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "scotty-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "tazz-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -1031,13 +1031,13 @@
     },
     {
       "deck": "test-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
     {
       "deck": "test-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },
@@ -1061,7 +1061,7 @@
     },
     {
       "deck": "regal-starter-upgrade",
-      "from": "RussianLegSweep",
+      "from": "RussianLegSweep2E",
       "to": "OriginalExact_RussianLegSweepEX2",
       "name": "Russian Leg Sweep"
     },

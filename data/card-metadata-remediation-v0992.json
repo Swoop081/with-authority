@@ -70,7 +70,7 @@
       "cardClass": "Move"
     },
     {
-      "id": "RussianLegSweep",
+      "id": "RussianLegSweep2E",
       "name": "Russian Leg Sweep",
       "sourceFile": "runtime-generated/RussianLegSweep.json",
       "cardClass": "Move"
@@ -100,7 +100,7 @@
       "cardClass": "Move"
     },
     {
-      "id": "DDTEX1",
+      "id": "DDT2E",
       "name": "DDT",
       "sourceFile": "runtime-generated/DDTEX1.json",
       "cardClass": "Move"
@@ -209,7 +209,7 @@
     },
     {
       "id": "jerichoFinisher",
-      "name": "Lionsault",
+      "name": "Lionsault2E",
       "sourceFile": "runtime-generated/jerichoFinisher.json",
       "cardClass": "Trademark"
     },

@@ -19,19 +19,19 @@
           "source": "EuropeanUppercutEX3.gac"
         },
         {
-          "id": "OriginalVariant_StrengthEX3",
+          "id": "StrengthTourn",
           "name": "Strength",
           "edition": "EX3",
           "source": "StrengthEX3.gac"
         },
         {
-          "id": "OriginalVariant_StrikeEX3",
+          "id": "StrikeTourn",
           "name": "Strike",
           "edition": "EX3",
           "source": "StrikeEX3.gac"
         },
         {
-          "id": "OriginalVariant_TechnicalEX3",
+          "id": "TechnicalTourn",
           "name": "Technical",
           "edition": "EX3",
           "source": "TechnicalEX3.gac"
@@ -44,31 +44,31 @@
       "title": "The Big Show starter#",
       "opening": [
         {
-          "id": "OriginalMomentumStrike",
+          "id": "StrikeTourn",
           "name": "Strike",
           "edition": "Core",
           "source": "Strike1.gac"
         },
         {
-          "id": "OriginalMomentumStrength",
+          "id": "StrengthTourn",
           "name": "Strength",
           "edition": "Core",
           "source": "Strength1.gac"
         },
         {
-          "id": "OriginalMomentumKnowledge",
+          "id": "KnowledgeTourn",
           "name": "Knowledge",
           "edition": "Core",
           "source": "Knowledge1.gac"
         },
         {
-          "id": "ArmDragTakedown",
+          "id": "Original_ArmDragTakedown2E",
           "name": "Arm Drag Takedown",
           "edition": "Core",
           "source": "ArmDragTakedown.gac"
         },
         {
-          "id": "Original_Shove",
+          "id": "Original_ShoveTourn",
           "name": "Shove",
           "edition": "Core",
           "source": "Shove.gac"
@@ -81,19 +81,19 @@
       "title": "Triple H 2nd Edition Starter/",
       "opening": [
         {
-          "id": "Strength2E",
+          "id": "StrengthTourn",
           "name": "Strength",
           "edition": "2E",
           "source": "Strength2E.gac"
         },
         {
-          "id": "Strike2E",
+          "id": "StrikeTourn",
           "name": "Strike",
           "edition": "2E",
           "source": "Strike2E.gac"
         },
         {
-          "id": "Knowledge2E",
+          "id": "KnowledgeTourn",
           "name": "Knowledge",
           "edition": "2E",
           "source": "Knowledge2E.gac"
