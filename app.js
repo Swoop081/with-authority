@@ -26,7 +26,7 @@ function migrateConsolidatedCardRefs(value){
   }
   return typeof value==='string'?canonicalCardId(value):value;
 }
-const VERSION='v0.9.173',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.174',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -215,7 +215,7 @@ const freshJson=path=>fetch(`${path}?build=0.9.106`,{cache:'no-store',headers:{'
 Promise.all([freshJson('data/demo-cards.json'),freshJson('data/artwork-manifest.json'),freshJson('data/authentic-starter-decks.json'),freshJson('data/starter-roster-map.json'),freshJson('data/booster-products.json'),freshJson('data/original-offline-missions.json'),freshJson('data/original-campaign-v0964.json'),freshJson('data/original-card-script-asts.json')]).then(([x,a,st,sm,bp,om,oc,asts])=>{ART=a;STARTERS=st;STARTER_MAP=sm;BOOSTERS=bp;ORIGINAL_MISSIONS=om;ORIGINAL_CAMPAIGN=oc;ORIGINAL_SCRIPT_ASTS=asts||{};AI_DECKS={decks:[]};cards=x.map(enrichCard);configureSuperstarVariants();showLoginScreen()}).catch(err=>app.innerHTML=`<section class="screen"><div class="logo">LOAD ERROR</div><p>${esc(err.message)}</p></section>`);
 
 function enrichCard(c){
-  const t=(c.description||'').toLowerCase(),mods=(c.modifiers||'').toLowerCase();
+  const t=String(c.description||'').toLowerCase(),mods=String(c.modifiers||'').toLowerCase();
   const counterMap={'mad rush':'Mad Rush','in close':'In Close','arm extended':'Arm Extended','leg extended':'Leg Extended','back to foe':'Back To Foe','victim below':'Victim Below','head down':'Head Down','grounded':'Grounded'};
   const inferred=[...(c.counters||[])];
   Object.entries(counterMap).forEach(([needle,pos])=>{if(t.includes(`counters ${needle}`)||t.includes(`counter ${needle}`))inferred.push(pos)});
