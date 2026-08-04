@@ -1084,3 +1084,54 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
   opacity:.68;
   color:#aaa;
 }
+
+/* v0.9.158 authentic card colour, requirements and rarity */
+.originalArtFrame{position:relative}
+.originalRarityStars{
+  position:absolute;
+  right:6px;
+  bottom:5px;
+  z-index:3;
+  display:flex;
+  flex-direction:column;
+  color:#fff;
+  font-size:18px;
+  line-height:.72;
+  letter-spacing:0;
+  text-shadow:0 1px 3px #000,0 0 2px #000;
+}
+.originalBackMeta .originalRarityStars{
+  position:static;
+  margin-left:auto;
+  font-size:16px;
+  flex-direction:column;
+}
+.originalRequirementStrip{
+  display:flex;
+  justify-content:center;
+  gap:5px;
+  padding:4px 5px;
+  background:#111;
+  border-top:1px solid rgba(255,255,255,.35);
+  border-bottom:1px solid rgba(255,255,255,.35);
+  color:#fff;
+  font-size:.72rem;
+  font-weight:800;
+}
+.originalRequirementStrip span{
+  padding:2px 5px;
+  border:1px solid currentColor;
+  background:#0009;
+}
+.requirement-strength{color:#ffae43}
+.requirement-strike{color:#ff5656}
+.requirement-technical{color:#5ee18a}
+.requirement-agility{color:#58baff}
+.requirement-knowledge{color:#ffe16a}
+.class-special .originalPageFront,.class-special .originalPageBack,
+.class-gameplan .originalPageFront,.class-gameplan .originalPageBack,
+.class-entrance .originalPageFront,.class-entrance .originalPageBack{
+  --page-colour:#d1ab13;
+  --page-dark:#705900;
+  --page-light:#f3d95a;
+}
