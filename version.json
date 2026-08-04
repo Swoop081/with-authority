@@ -1,5 +1,5 @@
 {
-  "version": "0.9.154-rules-core",
-  "build": "referee-ringside-location-certification",
-  "baseline": "v0.9.153-rules-core"
+  "version": "0.9.156-rules-core",
+  "build": "card-collection-and-booster-inventory-fix",
+  "baseline": "v0.9.155-rules-core"
 }

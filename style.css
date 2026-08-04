@@ -1048,3 +1048,39 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 .choicePanel{width:min(94vw,620px);max-height:88vh;overflow:auto;background:#171717;border:2px solid #f39a25;border-radius:12px;padding:14px;color:#fff;box-shadow:0 12px 45px #000}
 .choicePanel h2{margin:0 0 5px;font-size:20px}.choicePanel p{margin:0 0 12px;color:#ddd}.choiceGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
 .choiceCard{min-height:92px;position:relative;overflow:hidden;background:#262626;color:#fff;border:2px solid #777;border-radius:8px;padding:8px;text-align:left}.choiceCard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.28}.choiceCard strong,.choiceCard small{position:relative;display:block;text-shadow:0 1px 3px #000}.choiceCard strong{font-size:13px}.choiceCard small{margin-top:5px;color:#ffd780;font-size:10px}@media(max-width:420px){.choiceGrid{grid-template-columns:1fr}.choiceCard{min-height:72px}}
+
+
+/* v0.9.155 mandatory Autocounter presentation */
+.autocounterNotice{
+  margin:14px;
+  padding:14px;
+  border:3px solid #f0c13b;
+  background:linear-gradient(180deg,#241c05,#090909);
+  color:#fff;
+  text-align:center;
+  box-shadow:0 0 18px rgba(240,193,59,.35);
+}
+.autocounterNotice strong{
+  display:block;
+  color:#ffd84d;
+  font-size:clamp(24px,7vw,38px);
+  letter-spacing:.06em;
+  text-shadow:0 2px 3px #000;
+}
+.autocounterNotice p{
+  margin:7px 0 0;
+  font-size:15px;
+  line-height:1.35;
+}
+
+/* v0.9.156 collection inventory */
+.collectionStats{margin-bottom:10px}
+.ownedCollectionNote{
+  border-color:#d6b53d;
+  color:#ffe474;
+  font-weight:900;
+}
+.unownedCollectionNote{
+  opacity:.68;
+  color:#aaa;
+}
