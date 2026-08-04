@@ -1220,3 +1220,12 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 .handCard{
   flex:0 0 auto;
 }
+
+/* v0.9.167 submission hand visibility */
+.submissionHandHint{
+  margin-top:10px;
+  color:#ffe27a;
+}
+.submissionHand{
+  margin-top:8px;
+}
