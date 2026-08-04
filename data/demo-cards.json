@@ -36719,14 +36719,14 @@
     "variantGroup": "The Brahma Bull!!",
     "variantKey": "TheBrahmaBull",
     "certificationStatus": "preserved_needs_verification",
-    "certifiedVersion": "v0.9.172",
+    "certifiedVersion": "v0.9.173",
     "originalUNID": null,
     "originalSetId": 1,
-    "originalRarityId": 3,
+    "originalRarityId": 4,
     "originalSet": "First Edition",
     "originalSetKey": "core",
-    "originalRarity": "Rare",
-    "rarityStars": 3,
+    "originalRarity": "Very Rare",
+    "rarityStars": 4,
     "originalScripts": {
       "Page_Played": "(if ((eq #page #this)\n     (block \n          (WAAddValue (WAGameMap) PlayedBrahmaBull 1)\n          (WASetValue \n               (WAGameMap)\n               EventsPlayed\n               (add 1\n                    (WAGetValue (WAGameMap) EventsPlayed)\n               )\n          )\n          (WAAddValue (WAGameMap) NoCommentary (WAGetTurn))\n          (sett ActiveStar (WAGetActiveSuperstar (WAGetOwner #this)))\n          (sett RunInStar (WARunIn ActiveStar 69 #this))\n          (if ((not (eq RunInStar 0))\n               (block \n                    (WAAddValue #this '$SoundPlay (WAPlaySound #this TheRock.gam 0))\n                    (WAWarn ActiveStar 5)\n                    (WAAddValue RunInStar '$RanInToHelp ActiveStar)\n                    (sett RandomMove (WARandom 1 100))\n                    (if ((lesser-eq RandomMove 50)\n                         (sett PlayMove \"Rock Bottom\")\n                        )\n                        (True\n                         (sett PlayMove \"Laying The Smack Down!\")\n                        )\n                    )\n                    (sett CreatedPage (WACreatePage ActiveStar PlayMove))\n                    (if ((not (eq CreatedPage 0))\n                         (block \n                              (WAAddValue #this '$RunInMove CreatedPage)\n                              (WAForcePage ActiveStar #target CreatedPage)\n                         )\n                        )\n                        (True\n                         (WAMessage -1 \"Internal Error:  Could not create run in move\" PlayMove)\n                        )\n                    )\n               )\n              )\n          )\n          True\n     )\n    )\n    (True True)\n)",
       "Move_Connected": "(block \n     (sett Thug \"The Rock\")\n     (sett Victim (WAGetName #target))\n     (sett Move (WAGetName #move))\n     (sett FirstLetter (WASubstring Move 0 1))\n     (if ((or (eq FirstLetter \"a\")\n              (eq FirstLetter \"e\")\n              (eq FirstLetter \"i\")\n              (eq FirstLetter \"o\")\n              (eq FirstLetter \"u\")\n          )\n          (sett AAN \"an\")\n         )\n         (True\n          (sett AAN \"a\")\n         )\n     )\n     (if ((eq Message 1)\n          (WAMessage -1 \"Jim Ross:\" Thug \"connects with\" AAN Move \"on\" (cat Victim \"!\"))\n         )\n         ((eq Message 2)\n          (WAMessage -1 \"Jim Ross:\" Victim \"takes\" AAN (cat Move \".\"))\n         )\n         ((eq Message 3)\n          (WAMessage -1 \"Jim Ross:\" Thug \"with a painful\" (cat Move \"!\"))\n         )\n         ((eq Message 4)\n          (WAMessage -1 \"Jim Ross: A nice\" Move \"from\" (cat Thug \"!\"))\n         )\n         (True True)\n     )\n)"

@@ -26,7 +26,7 @@ function migrateConsolidatedCardRefs(value){
   }
   return typeof value==='string'?canonicalCardId(value):value;
 }
-const VERSION='v0.9.172-character-collection-filters',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.173',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -65,7 +65,7 @@ function cardCopyCap(c){return c?.cardClass==='Momentum'?20:5}
 function boosterSetKeyForCard(c){const raw=`${c?.setKey||''} ${c?.set||''} ${c?.variantEdition||''} ${c?.sourceFile||''}`.toUpperCase();for(const k of Object.keys(BOOSTER_CONFIG.sets))if(raw.includes(k))return k;return'CORE'}
 function boosterRarityForCard(c){const r=String(c?.originalRarity||c?.rarity||'').toLowerCase(),n=Number(c?.originalRarityId||c?.rarityStars||0);if(r.includes('very')||n===4)return'Very Rare';if(r.includes('rare')||n===3)return'Rare';if(r.includes('uncommon')||n===2)return'Uncommon';return'Common'}
 function ownedCount(c){return Math.max(0,Number(profile.collection?.[String(c.id)])||0)}
-function grantStarterCollection(){profile.collection=profile.collection||{};grantStarterCollection();let changed=false;for(const id of STARTER_UNLOCK_IDS){const c=cards.find(x=>String(x.id)===String(id));if(!c)continue;const cap=cardCopyCap(c),cur=ownedCount(c);if(cur<cap){profile.collection[id]=cap;changed=true}}if(changed)saveProfile()}
+function grantStarterCollection(){profile.collection=profile.collection||{};let changed=false;for(const id of STARTER_UNLOCK_IDS){const c=cards.find(x=>String(x.id)===String(id));if(!c)continue;const cap=cardCopyCap(c),cur=ownedCount(c);if(cur<cap){profile.collection[id]=cap;changed=true}}if(changed)saveProfile()}
 function eligibleBoosterCards(setKey,rarity=null){return cards.filter(c=>c.cardClass!=='Superstar'&&boosterSetKeyForCard(c)===setKey&&(!rarity||boosterRarityForCard(c)===rarity)&&ownedCount(c)<cardCopyCap(c))}
 function weightedRarityRoll(av){const p=Object.entries(BOOSTER_CONFIG.odds).filter(([r])=>av.includes(r)),t=p.reduce((n,[,w])=>n+w,0);let x=Math.random()*t;for(const[r,w]of p){x-=w;if(x<=0)return r}return p.at(-1)?.[0]}
 function generateFiveCardPack(setKey){const pulls=[];for(let i=0;i<5;i++){const av=Object.keys(BOOSTER_CONFIG.odds).filter(r=>eligibleBoosterCards(setKey,r).length);if(!av.length)break;const r=weightedRarityRoll(av),pool=eligibleBoosterCards(setKey,r),c=pool[Math.floor(Math.random()*pool.length)];pulls.push(c);profile.collection[String(c.id)]=(profile.collection[String(c.id)]||0)+1}if(pulls.length&&!pulls.some(c=>['Uncommon','Rare','Very Rare'].includes(boosterRarityForCard(c)))){const better=['Very Rare','Rare','Uncommon'].flatMap(r=>eligibleBoosterCards(setKey,r));if(better.length){const old=pulls.at(-1),rep=better[Math.floor(Math.random()*better.length)];profile.collection[String(old.id)]--;pulls[pulls.length-1]=rep;profile.collection[String(rep.id)]=(profile.collection[String(rep.id)]||0)+1}}saveProfile();return pulls}
@@ -82,15 +82,12 @@ function openNextPack(index=0){ensureRewardProfile();const owned=profile.unopene
 function showPackResults(p,pulls){app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="boosterHub()">Back</button><b>${esc(p.name)}</b><span>${pulls.length} pages</span></div><p class="instruction">Added permanently to your collection.</p><div class="library">${pulls.map(c=>staticOriginalCardHtml(c,stableRarity(c),`<div class="originalCardNote">Owned ${collectionCountForCard(c)}</div>`)).join('')}</div><button class="primary" onclick="boosterHub()">Continue</button></section>`}
 function boosterHub(){ensureRewardProfile();const packs=profile.unopenedPacks.map((x,i)=>{const p=(BOOSTERS.products||[]).find(y=>y.id===x.id);if(!p)return'';const img=boosterArt(p);return`<article class="card">${img?`<img class="cardArt" src="${img}" alt="${esc(p.name)}">`:''}<div class="cardhead"><h3>${esc(p.name)}</h3><span class="tag">${p.pageCount} pages</span></div><p>${esc(p.description)}</p><button class="primary" onclick="openNextPack(${i})">Open Pack</button></article>`}).join('');app.innerHTML=`<section class="screen"><div class="topbar"><button class="secondary compact" onclick="home()">Back</button><b>BOOSTER REWARDS</b><span>${profile.unopenedPacks.length} unopened</span></div><p class="instruction">One authentic-set booster is awarded after every victory. Cards are stored permanently in your collection.</p><div class="resultStats"><div><b>${profile.openedPacks}</b><span>Packs opened</span></div><div><b>${Object.values(profile.collection).reduce((a,b)=>a+b,0)}</b><span>Pages owned</span></div><div><b>${Object.keys(profile.collection).length}</b><span>Unique pages</span></div></div><div class="library">${packs||'<p class="instruction">Win a match to earn your next booster.</p>'}</div></section>`}
 
-function normaliseVersion(value){return String(value||'').trim().replace(/^v/i,'')}
+function normaliseVersion(value){const text=String(value||'').trim().replace(/^v/i,'');const match=text.match(/^\d+\.\d+\.\d+/);return match?match[0]:text}
 async function checkForNewVersion(){
   if(!navigator.onLine)return false;
   try{
-    const response=await fetch(`./version.json?force=${Date.now()}`,{
-      cache:'no-store',
-      headers:{'Cache-Control':'no-cache, no-store, must-revalidate','Pragma':'no-cache'}
-    });
-    if(!response.ok)throw new Error(`Version check HTTP ${response.status}`);
+    const response=await fetch(`./version.json?force=${Date.now()}`,{cache:'no-store'});
+    if(!response.ok)return false;
     const remote=await response.json();
     const remoteVersion=normaliseVersion(remote?.version);
     const localVersion=normaliseVersion(VERSION);
@@ -98,21 +95,19 @@ async function checkForNewVersion(){
       sessionStorage.removeItem('wa-update-attempt');
       return false;
     }
-    const prior=JSON.parse(sessionStorage.getItem('wa-update-attempt')||'null');
-    const attempts=prior?.target===remoteVersion&&Date.now()-Number(prior.time||0)<120000?Number(prior.attempts||0)+1:1;
-    sessionStorage.setItem('wa-update-attempt',JSON.stringify({target:remoteVersion,attempts,time:Date.now()}));
-    app.innerHTML=`<section class="screen loginScreen"><div class="loginOverlay"><h1>UPDATE REQUIRED</h1><p>Installing v${esc(remoteVersion)}…</p><p>Current build: ${esc(VERSION)}</p></div></section>`;
+    const key=`${localVersion}->${remoteVersion}`;
+    const prior=sessionStorage.getItem('wa-update-attempt');
+    if(prior===key){
+      console.warn('Update reload already attempted; continuing with current build to avoid a reload loop.');
+      return false;
+    }
+    sessionStorage.setItem('wa-update-attempt',key);
     if('serviceWorker' in navigator){
       const regs=await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(async r=>{try{await r.update()}catch{}try{await r.unregister()}catch{}}));
+      await Promise.all(regs.map(async r=>{try{await r.update()}catch{}}));
     }
-    if('caches' in window){
-      const keys=await caches.keys();
-      await Promise.all(keys.map(k=>caches.delete(k)));
-    }
-    const next=new URL('./index.html',location.href);
-    next.searchParams.set('updated',`v${remoteVersion}`);
-    next.searchParams.set('attempt',String(attempts));
+    const next=new URL(location.href);
+    next.searchParams.set('updated',remoteVersion);
     next.searchParams.set('t',String(Date.now()));
     location.replace(next.href);
     return true;
