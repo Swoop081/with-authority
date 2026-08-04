@@ -1,5 +1,5 @@
 {
-  "version": "0.9.158-rules-core",
-  "build": "full-card-colour-requirement-rarity-audit",
-  "baseline": "v0.9.157-rules-core"
+  "version": "0.9.161-rules-core",
+  "build": "five-card-boosters-and-set-collection",
+  "baseline": "v0.9.160-rules-core"
 }

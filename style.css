@@ -1135,3 +1135,68 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
   --page-dark:#705900;
   --page-light:#f3d95a;
 }
+
+/* v0.9.159 title-bar rarity placement */
+.originalNameBar{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.originalCardTitle{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.originalNameBarRight{display:flex;align-items:center;gap:5px;flex:0 0 auto}
+.originalNameBar .originalRarityStars{
+  position:static;
+  display:inline-block;
+  color:#fff;
+  font-size:16px;
+  line-height:1;
+  letter-spacing:-2px;
+  white-space:nowrap;
+  text-shadow:0 1px 3px #000,0 0 2px #000;
+}
+.originalArtFrame>.originalRarityStars,.originalBackMeta>.originalRarityStars{display:none}
+
+
+/* v0.9.160 card proportions and non-destructive artwork fitting */
+.originalPageCard,
+.originalPageFlip,
+.originalPageFront,
+.originalPageBack{
+  aspect-ratio:5 / 7;
+}
+.originalPageFront,
+.originalPageBack{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.originalArtFrame{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#050505;
+}
+.originalCardArt,
+.matchCardArt{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  background:#050505!important;
+}
+.library .originalPageCard{
+  aspect-ratio:auto;
+}
+.library .originalPageFlip{
+  aspect-ratio:5 / 7;
+}
+/* The play-pile wrapper must inherit the same method class as the card itself. */
+.pile .pileCard.method-technical .originalPageFront,
+.pile .pileCard.method-technical .originalPageBack{--page-colour:#149447;--page-dark:#075525;--page-light:#4bd77b}
+.pile .pileCard.method-strength .originalPageFront,
+.pile .pileCard.method-strength .originalPageBack{--page-colour:#d78518;--page-dark:#7b4100;--page-light:#ffb64c}
+.pile .pileCard.method-strike .originalPageFront,
+.pile .pileCard.method-strike .originalPageBack{--page-colour:#c51f2a;--page-dark:#6d0710;--page-light:#ef5660}
+.pile .pileCard.method-agility .originalPageFront,
+.pile .pileCard.method-agility .originalPageBack{--page-colour:#197bc2;--page-dark:#073e69;--page-light:#59b6ee}
+.pile .pileCard.method-knowledge .originalPageFront,
+.pile .pileCard.method-knowledge .originalPageBack{--page-colour:#d1ab13;--page-dark:#705900;--page-light:#f3d95a}
+
+.setTabs{display:flex;gap:6px;overflow-x:auto;padding:8px}.collectionSetHero{display:flex;gap:12px;align-items:center;margin:10px;padding:12px;border:2px solid #8c7422;background:#111}.collectionSetHero img{width:92px;max-height:130px;object-fit:contain}.collectionSetHero h2{margin:0 0 6px}.collectionSetHero p{margin:3px 0;color:#ddd}
