@@ -1,0 +1,52 @@
+{
+  "version": "v0.9.150-rules-core",
+  "persistentRendering": {
+    "playerArea": true,
+    "cpuArea": true,
+    "tapToInspectUsingNormalPileCard": true,
+    "removedPagesDisappear": true,
+    "durationVisible": true
+  },
+  "stunLifecycle": {
+    "removeWhenStunnedHandled": true,
+    "Out_Of_PlayDispatched": true,
+    "AlwaysThinkingCounterDecremented": true
+  },
+  "superstarAbilityReadiness": {
+    "callableSuperstarKeysAudited": 25,
+    "keys": [
+      "alsnow",
+      "angle",
+      "bookert",
+      "bubba",
+      "christian",
+      "dvon",
+      "flair",
+      "goldust",
+      "hogan",
+      "hurricane",
+      "jericho",
+      "lancestorm",
+      "lita",
+      "nash",
+      "regal",
+      "rey",
+      "rikishi",
+      "rock",
+      "rvd",
+      "scotty",
+      "tazz",
+      "tripleh",
+      "trish",
+      "undertaker",
+      "xpac"
+    ],
+    "buttonUsesExactReadinessGate": true,
+    "cpuUsesSameReadinessGate": true,
+    "flairReactionUsesSameGate": true
+  },
+  "staticChecks": {
+    "javascriptSyntax": "PASS",
+    "remainingOldBroadAbilityButtonExpression": 0
+  }
+}

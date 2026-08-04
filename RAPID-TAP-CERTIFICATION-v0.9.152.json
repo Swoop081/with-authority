@@ -1,0 +1,42 @@
+{
+  "version": "v0.9.152-rules-core",
+  "guardedInteractionCount": 13,
+  "guardedInteractions": [
+    "acknowledge-cpu",
+    "attempt-pin",
+    "ditch-card",
+    "maintain-submission",
+    "move-outside",
+    "pass",
+    "pile-flip",
+    "play-card",
+    "release-submission",
+    "remove-table",
+    "superstar-ability",
+    "superstar-flip",
+    "take-it-inside"
+  ],
+  "cpuScheduling": {
+    "singleTimer": true,
+    "matchIdBound": true,
+    "actionGenerationBound": true,
+    "cancelledAtMatchEnd": true,
+    "cancelledAtNewMatch": true
+  },
+  "touchHandling": {
+    "pointerUpPreventsSyntheticClick": true,
+    "cardFlipStateNeutral": true,
+    "shortFlipDebounce": true
+  },
+  "stateProtection": {
+    "sameCardCannotResolveTwiceWithinWindow": true,
+    "passCannotAdvanceControlTwice": true,
+    "pinCannotStartTwice": true,
+    "submissionChoiceCannotResolveTwice": true,
+    "endedMatchInvalidatesDelayedActions": true
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "staticGuardCoverage": "13/13"
+  }
+}

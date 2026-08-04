@@ -1,0 +1,106 @@
+{
+  "version": "v0.9.151-rules-core",
+  "counterCardsAudited": 280,
+  "counterCardsByClass": {
+    "Trademark": 24,
+    "Move": 245,
+    "Submission": 11
+  },
+  "distinctCounterTargets": 21,
+  "topCounterTargets": [
+    [
+      "Mad Rush",
+      84
+    ],
+    [
+      "In Close",
+      62
+    ],
+    [
+      "Head Down",
+      45
+    ],
+    [
+      "Arm Extended",
+      41
+    ],
+    [
+      "Back To Foe",
+      40
+    ],
+    [
+      "Behind Opponent",
+      33
+    ],
+    [
+      "Leg Extended",
+      29
+    ],
+    [
+      "Victim Below",
+      23
+    ],
+    [
+      "High Risk",
+      15
+    ],
+    [
+      "Hit Or Miss",
+      14
+    ],
+    [
+      "Standing Above",
+      14
+    ],
+    [
+      "Climb The Ladder",
+      4
+    ],
+    [
+      "Chair Shot",
+      3
+    ],
+    [
+      "Defensive",
+      2
+    ],
+    [
+      "Figure Four",
+      2
+    ],
+    [
+      "Chair To The Back",
+      2
+    ],
+    [
+      "Running Chair Shot",
+      1
+    ],
+    [
+      "Power Bomb",
+      1
+    ],
+    [
+      "Piledriver",
+      1
+    ],
+    [
+      "Prone",
+      1
+    ]
+  ],
+  "checks": {
+    "onlyMovePagesCanCounter": true,
+    "multiplePlayerCountersUseChooser": true,
+    "cpuUsesHighestScoredLegalCounter": true,
+    "incomingMoveDealsNoDamageWhenCountered": true,
+    "successfulCounterResolvesPrintedDamageAndEffects": true,
+    "counteredSubmissionCreatesNoIncomingHold": true,
+    "counteredFinisherCreatesNoPinBonus": true,
+    "recounterChainMaximumDepth": 3,
+    "autocounterRequiresExactPointPayment": true,
+    "willToWinValueHandled": true,
+    "cpuCannotOverpayAutocounter": true,
+    "sameCounterLegalityUsedForHoldEscapes": true
+  }
+}

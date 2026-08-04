@@ -1,0 +1,23 @@
+{
+  "version": "v0.9.154-rules-core",
+  "inventory": {
+    "refereeRelatedCardsOrScripts": 41,
+    "locationRelatedCardsOrScripts": 153,
+    "warningRelatedCardsOrScripts": 63
+  },
+  "certifiedSharedPaths": {
+    "ringsideCountersIncreaseOnlyAtRingside": true,
+    "ringReturnResetsCounter": true,
+    "gameMapRefDistractedBlocksPinsCountOutsWarnings": true,
+    "RefNoCountOutSuppressesCountOut": true,
+    "singleCountOutUsesNormalMatchCleanup": true,
+    "doubleCountOutUsesDrawCleanup": true,
+    "turnLimitUsesDrawCleanup": true,
+    "rejectedMoveOutsideReleasesInputLock": true,
+    "scriptedWAMoveUsesCertifiedLocationSetter": true,
+    "originalWarningsUseSharedDQRoutine": true
+  },
+  "validation": {
+    "javascriptSyntax": "PASS"
+  }
+}
