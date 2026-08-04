@@ -1233,3 +1233,21 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 /* v0.9.172 character collection filters */
 .collectionUnowned{filter:grayscale(1);opacity:.46}
 .collectionUnowned:hover,.collectionUnowned.flipped{opacity:.7}
+
+
+
+/* v0.9.178 — clean play-pile presentation and readable original card back. */
+.pile .result,.pile .pileFlipHint{display:none!important}
+.pile .pileCard{width:100%!important;max-width:none!important;height:100%!important;margin:0!important}
+.pile .pileCard .originalPageBack{padding:0!important;overflow:hidden!important;box-sizing:border-box!important}
+.pile .pileCard .originalNameBar{min-height:28px!important;padding:4px 7px!important;font-size:clamp(9px,2.4vw,13px)!important;line-height:1.05!important}
+.pile .pileCard .originalBackMeta{padding:7px 8px 5px!important;gap:3px!important;flex:0 0 auto!important;text-align:center!important;overflow:hidden!important}
+.pile .pileCard .originalBackMeta b{font-size:clamp(10px,2.7vw,15px)!important;line-height:1.1!important;white-space:normal!important}
+.pile .pileCard .originalBackMeta span{font-size:clamp(8px,2.25vw,12px)!important;line-height:1.1!important;white-space:normal!important}
+.pile .pileCard .originalBackText{padding:5px 9px!important;overflow:auto!important;min-height:0!important;flex:1 1 auto!important;overscroll-behavior:contain!important}
+.pile .pileCard .originalBackText p{font-size:clamp(9px,2.35vw,13px)!important;line-height:1.18!important;margin:0 0 7px!important;overflow-wrap:break-word!important;word-break:normal!important;text-align:center!important}
+.pile .pileCard .originalCostBar{position:relative!important;flex:0 0 auto!important;min-height:31px!important;padding:5px 7px!important;gap:5px!important;font-size:clamp(8px,2.2vw,11px)!important;line-height:1!important;white-space:nowrap!important}
+.pile .pileCard .originalCostBar b{font-size:clamp(7px,2vw,10px)!important;overflow:hidden!important;text-overflow:ellipsis!important}
+@media(max-width:430px){
+  .originalRing .pile{width:min(46vw,205px)!important}
+}
