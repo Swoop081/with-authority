@@ -1,5 +1,5 @@
 {
-  "version": "0.9.165-rules-core",
-  "build": "restore-grounded-only-pin-rule",
-  "baseline": "v0.9.164-rules-core"
+  "version": "0.9.166-rules-core",
+  "build": "restore-v0.9.161-stable-hand-layout",
+  "baseline": "v0.9.165-rules-core"
 }
