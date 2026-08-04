@@ -1200,3 +1200,75 @@ button,.clickable,[role="button"]{touch-action:manipulation}.compact{min-height:
 .pile .pileCard.method-knowledge .originalPageBack{--page-colour:#d1ab13;--page-dark:#705900;--page-light:#f3d95a}
 
 .setTabs{display:flex;gap:6px;overflow-x:auto;padding:8px}.collectionSetHero{display:flex;gap:12px;align-items:center;margin:10px;padding:12px;border:2px solid #8c7422;background:#111}.collectionSetHero img{width:92px;max-height:130px;object-fit:contain}.collectionSetHero h2{margin:0 0 6px}.collectionSetHero p{margin:3px 0;color:#ddd}
+
+
+/* v0.9.162 — full trading-card hand body with separate legality stub */
+.handEntry{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  align-self:start;
+}
+.handEntry > .handCard{
+  box-sizing:border-box;
+  width:100%;
+  aspect-ratio:5 / 7;
+  height:auto!important;
+  min-height:0;
+  overflow:hidden;
+  margin:0;
+}
+.handEntry > .handCard > .originalPageFlip,
+.handEntry > .handCard .originalPageFront,
+.handEntry > .handCard .originalPageBack{
+  width:100%;
+  height:100%;
+  aspect-ratio:5 / 7;
+}
+.handEntry .originalArtFrame{
+  min-height:0;
+  overflow:hidden;
+}
+.handEntry .originalCardArt,
+.handEntry .matchCardArt{
+  width:100%!important;
+  height:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+}
+.handEntry > .cardActionStub{
+  box-sizing:border-box;
+  width:100%;
+  min-height:82px;
+  margin:0;
+  border:3px solid #8e1119;
+  border-top:0;
+  border-radius:0 0 5px 5px;
+  padding:10px 8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(#b4131f,#74070d);
+  color:#fff;
+  font-weight:900;
+  font-size:clamp(16px,4.5vw,25px);
+  line-height:1.22;
+  text-align:center;
+  white-space:normal;
+}
+.handEntry.playable > .cardActionStub{
+  cursor:pointer;
+}
+.handEntry.locked > .cardActionStub{
+  background:linear-gradient(#a8121c,#67070b);
+}
+
+/* v0.9.163 continued-submission defender draw */
+.submissionDrawNotice{
+  margin:8px 0;
+  padding:7px 9px;
+  border:1px solid #d4b33c;
+  background:#1b1606;
+  color:#ffe27a;
+  font-weight:800;
+}

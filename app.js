@@ -2,7 +2,7 @@
 const app=document.querySelector('#app');
 let cards=[],state=null,activeMission=null,selectedMatchTurnLimit=50,ART={assets:{},superstars:{}},STARTERS={starters:[]},STARTER_MAP={},BOOSTERS={products:[]},ORIGINAL_MISSIONS={missions:[]},ORIGINAL_CAMPAIGN={missions:[]},AI_DECKS={decks:[]};
 let ORIGINAL_SCRIPT_ASTS={};
-const VERSION='v0.9.161-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
+const VERSION='v0.9.165-rules-core',MAX_HP=40,HAND_SIZE=5,MAX_MOM=99,DEFAULT_MATCH_TURN_LIMIT=50,MIN_MATCH_TURN_LIMIT=20,MAX_MATCH_TURN_LIMIT=150,MATCH_TURN_LIMIT_STEP=10,STORE='wa-mobile-v0943',BACKUP_STORE='wa-mobile-backup-v0953';
 const MOM_TYPES=['Agility','Knowledge','Strength','Strike','Technical','Attitude'];
 
 // Canonical runtime card lookup. Several deck/recommendation screens and the
@@ -1175,6 +1175,20 @@ function advanceSubmissionTurn(nextControl){
   state.control=nextControl;
   return true;
 }
+function beginContinuedSubmissionDefenderTurn(h){
+  if(!h||!state?.hold)return false;
+  if(!advanceSubmissionTurn(h.defender))return false;
+  const defender=side(h.defender);
+  const before=defender.hand.length;
+  drawPages(h.defender,1);
+  const drawn=defender.hand.length-before;
+  if(drawn){
+    addLog(`${defender.name} draws one page at the beginning of the continued submission turn.`);
+  }else{
+    addLog(`${defender.name} cannot draw at the beginning of the continued submission turn because the playbook is empty.`);
+  }
+  return true;
+}
 function beginSubmission(k,c){
   if(!originalBooleanGate('Can_Submit',k,c,{'#move':c})){addLog(`${c.name}: original scripts prevent a submission now.`);return;}
   const defender=other(k),profile=submissionProfile(c);
@@ -1307,7 +1321,8 @@ function submissionTick(k){
   state.busy=false;
   state.message=`${h.card.name} remains applied: ${total} submission damage this turn, ${h.totalDamage} total.`;
   if(submissionCanEnd(h))return end(k==='player',`${side(h.defender).name} submits to ${h.card.name}`);
-  if(!advanceSubmissionTurn(h.defender))return;
+  if(!beginContinuedSubmissionDefenderTurn(h))return;
+  state.message+=` ${side(h.defender).name} draws one page before attempting to escape.`;
   render();
   if(h.defender==='cpu')setTimeout(cpuDefenderInHold,500);
 }
@@ -1349,7 +1364,7 @@ function cpuSubmission(){
 function submissionPanel(){
   const h=state.hold,isAttacker=h.attacker==='player',isDefender=h.defender==='player';
   const byZone=Object.entries(h.submissionByZone||{}).map(([z,n])=>`${z}: ${n}`).join(' · ');
-  return `<div class="submissionPanel"><b>${esc(h.card.name)} · HOLD TURN ${h.turns}</b><p>${esc(side(h.attacker).name)} is applying the hold to ${esc(side(h.defender).name)}.</p><p>${esc(byZone||'0 submission points')} · ${h.totalDamage||0} total submission damage.</p>${isAttacker?`<div class="actions"><button class="primary" onclick="maintainSubmission()">Ditch a Page to Keep Hold</button><button class="secondary" onclick="releaseSubmission('player')">Release Hold</button></div>`:isDefender?`<div class="actions"><button class="primary" onclick="playerDefenderInHold()">Counter / Special / Autocounter</button></div>`:`<p>The opponent is resolving the submission.</p>`}</div>`;
+  return `<div class="submissionPanel"><b>${esc(h.card.name)} · HOLD TURN ${h.turns}</b><p>${esc(side(h.attacker).name)} is applying the hold to ${esc(side(h.defender).name)}.</p><p>${esc(byZone||'0 submission points')} · ${h.totalDamage||0} total submission damage.</p>${isDefender&&h.turns>1?`<p class="submissionDrawNotice">You drew one page at the beginning of this continued hold turn.</p>`:''}${isAttacker?`<div class="actions"><button class="primary" onclick="maintainSubmission()">Ditch a Page to Keep Hold</button><button class="secondary" onclick="releaseSubmission('player')">Release Hold</button></div>`:isDefender?`<div class="actions"><button class="primary" onclick="playerDefenderInHold()">Counter / Special / Autocounter</button></div>`:`<p>The opponent is resolving the submission.</p>`}</div>`;
 }
 function tickPersistent(){['player','cpu'].forEach(k=>{const s=side(k),keep=[];for(const e of s.inPlay){if(e.duration===999){keep.push(e);continue}e.duration--;if(e.duration>0)keep.push(e);else{dispatchOriginalEvent('Out_Of_Play',k,e.card||e,{'#page':e.card||e});s.discard.push(e.card||e);addLog(`${s.name}'s ${e.name} leaves play.`)}}s.inPlay=keep;if(!s.inPlay.some(e=>/reduce/i.test(e.name)))s.buffs.damageShield=0;if(!side(other(k)).inPlay.some(e=>/momentum/i.test(e.name)&&/cost/i.test(e.name)))s.buffs.momentumTax=0})}
 function useStephanie(){if(!state||state.busy||state.control!=='player')return;const s=state.player,d=state.cpu;if(!s.inPlay.some(e=>e.stephanieSupport)||s.stephanieUsed||state.round<=25||!s.hand.length)return;const pick=s.hand.findIndex(x=>!x.stephanieSupport);if(pick<0)return;const ditched=s.hand.splice(pick,1)[0];s.discard.push(ditched);for(let i=0;i<2&&d.hand.length;i++){const j=Math.floor(Math.random()*d.hand.length),x=d.hand.splice(j,1)[0];d.discard.push(x)}if(s.deck.length)s.hand.push(s.deck.pop());s.stephanieUsed=true;state.message=`Stephanie's Special: ${s.name} ditches ${ditched.name}, the opponent ditches two random pages, and you draw the bottom page.`;addLog(state.message);render()}
@@ -1799,7 +1814,18 @@ function staticOriginalCardHtml(c,badge='',extra=''){
   const cost=Number(c.momentumCost)||0;
   return `<article class="card originalPageCard flippablePage${cardMethodClass(c)}" role="button" tabindex="0" onclick="if(!event.target.closest('button,a,input,select,textarea'))this.classList.toggle('flipped')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.classList.toggle('flipped')}"><div class="originalPageFlip"><div class="originalPageFace originalPageFront">${originalCardFrontInner(c,cost,'cardArt',badge)}</div><div class="originalPageFace originalPageBack">${originalCardBackInner(c,cost,badge)}</div></div>${extra}</article>`;
 }
-function cardHtml(c,i){const reason=legalReason(c,'player'),ok=!reason,cost=actualCost(c,'player');return `<article class="card handCard originalPageCard ${ok?'playable':'locked'}${cardMethodClass(c)}" data-index="${i}" aria-label="${esc(c.name)}${ok?'':` — ${esc(reason)}`}"><div class="cardFlip originalPageFlip"><div class="cardFace originalPageFace cardFront originalPageFront">${originalCardFrontInner(c,cost,'cardArt matchCardArt')}</div><div class="originalPageFace originalPageBack">${originalCardBackInner(c,cost)}</div></div><button class="playFallback" onclick="event.stopPropagation();${ok?`animateCardPlay(state.player.hand[${i}],'player',()=>play(${i}))`:`state.message='${esc(reason).replace(/'/g,"\'")}';render()`}">${ok?'Play Page':esc(reason)}</button></article>`}
+function cardHtml(c,i){
+  const reason=legalReason(c,'player'),ok=!reason,cost=actualCost(c,'player');
+  return `<div class="handEntry ${ok?'playable':'locked'}${cardMethodClass(c)}">
+    <article class="card handCard originalPageCard" data-index="${i}" aria-label="${esc(c.name)}${ok?'':` — ${esc(reason)}`}">
+      <div class="cardFlip originalPageFlip">
+        <div class="cardFace originalPageFace cardFront originalPageFront">${originalCardFrontInner(c,cost,'cardArt matchCardArt')}</div>
+        <div class="originalPageFace originalPageBack">${originalCardBackInner(c,cost)}</div>
+      </div>
+    </article>
+    <button class="playFallback cardActionStub" onclick="event.stopPropagation();${ok?`animateCardPlay(state.player.hand[${i}],'player',()=>play(${i}))`:`state.message='${esc(reason).replace(/'/g,"\'")}';render()`}">${ok?'Play Page':esc(reason)}</button>
+  </div>`;
+}
 
 
 function restoreBackupSave(){try{const backup=parseStoredProfile(BACKUP_STORE);if(!backup){alert('No previous local save is available.');return}if(!confirm('Replace the current save with the previous local backup?'))return;profile=Object.assign(blankProfile(),backup);ensureProfile();saveProfile();alert('Previous local save restored.');home()}catch{alert('The backup save could not be restored.')}}

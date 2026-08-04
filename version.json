@@ -1,5 +1,5 @@
 {
-  "version": "0.9.161-rules-core",
-  "build": "five-card-boosters-and-set-collection",
-  "baseline": "v0.9.160-rules-core"
+  "version": "0.9.165-rules-core",
+  "build": "restore-grounded-only-pin-rule",
+  "baseline": "v0.9.164-rules-core"
 }
