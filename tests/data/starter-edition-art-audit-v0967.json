@@ -1,0 +1,11 @@
+{
+  "version": "0.9.67",
+  "starterCount": 67,
+  "changes": [
+    "Starter tiles resolve artwork from the exact Superstar card entry inside each starter package",
+    "Starter inspection screens show the exact edition Superstar card and source label",
+    "Dirty recovered title suffixes such as trailing #, %, / and numeric parser artifacts are hidden in display text",
+    "All materially different original starters remain preserved; no exact duplicate deck multisets were found",
+    "Fallback to the roster portrait occurs only when no exact edition artwork resolves"
+  ]
+}

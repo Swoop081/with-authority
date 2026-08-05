@@ -1,0 +1,23 @@
+{
+  "version": "v0.9.51",
+  "scope": "Mobile QA, offline reliability and save recovery",
+  "checks": {
+    "runtimeCardsExpected": 907,
+    "superstarsExpected": 35,
+    "starterPackagesExpected": 65
+  },
+  "changes": [
+    "core PWA cache",
+    "runtime asset cache",
+    "automatic local save backup",
+    "manual backup restore",
+    "storage diagnostics",
+    "runtime error capture"
+  ],
+  "preservation": [
+    "No card values changed",
+    "No starter decks changed",
+    "No rarity or pack pools changed",
+    "No balance adjustments"
+  ]
+}

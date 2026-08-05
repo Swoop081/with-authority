@@ -1,0 +1,599 @@
+{
+  "version": "v0.9.32",
+  "auditType": "structural_and_cost_payment_probe",
+  "startersAudited": 65,
+  "simulations": 3250,
+  "hardOpeningLocks": 0,
+  "paymentFailures": 0,
+  "startersWithLegalOpening": 65,
+  "notes": [
+    "Advanced timing, targeting, counters, pins and every original script still require continued behavioural verification."
+  ],
+  "starters": [
+    {
+      "id": "RikishiPhatuStarter",
+      "title": "Rikishi Phatu Starter4",
+      "pages": 67,
+      "openingLegal": 3,
+      "attackPages": 39,
+      "momentumPages": 24,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BookerT",
+      "title": "Booker T Starter",
+      "pages": 66,
+      "openingLegal": 4,
+      "attackPages": 37,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BookerT2",
+      "title": "Booker T Starter with 2E",
+      "pages": 71,
+      "openingLegal": 3,
+      "attackPages": 41,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BookerTEX2",
+      "title": "Booker T Starter",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 39,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "pages": 71,
+      "openingLegal": 4,
+      "attackPages": 44,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BubbaEX2",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 66,
+      "openingLegal": 3,
+      "attackPages": 40,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BubbaRayDudley",
+      "title": "Bubba Ray Dudley Starter'",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 43,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-BubbaRayDudley2",
+      "title": "Bubba Ray Dudley Starter with 2E",
+      "pages": 68,
+      "openingLegal": 3,
+      "attackPages": 42,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-ChrisBenoit2E",
+      "title": "Chris Benoit 2nd Edition Starter#",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 32,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-ChrisJericho",
+      "title": "Chris Jericho Starter\"",
+      "pages": 67,
+      "openingLegal": 3,
+      "attackPages": 38,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-ChrisJericho2E",
+      "title": "Chris Jericho 2nd Edition Starter$",
+      "pages": 70,
+      "openingLegal": 3,
+      "attackPages": 41,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Christian",
+      "title": "Christian Starter",
+      "pages": 67,
+      "openingLegal": 4,
+      "attackPages": 36,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Christian2",
+      "title": "Christian Starter with 2E",
+      "pages": 66,
+      "openingLegal": 4,
+      "attackPages": 35,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-DVon",
+      "title": "D-Von Dudley Starter#",
+      "pages": 68,
+      "openingLegal": 4,
+      "attackPages": 40,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-DVonDudley2",
+      "title": "D-Von Dudley Starter with 2E",
+      "pages": 68,
+      "openingLegal": 4,
+      "attackPages": 40,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-EddieGuerrero",
+      "title": "Eddie Guerrero Starter%",
+      "pages": 65,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-EddieGuerrero2E",
+      "title": "Eddie Guerrero 2nd Edition Starter%",
+      "pages": 70,
+      "openingLegal": 3,
+      "attackPages": 42,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Edge",
+      "title": "Edge Starter",
+      "pages": 66,
+      "openingLegal": 3,
+      "attackPages": 35,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Edge2E",
+      "title": "Edge 2nd Edition Starter",
+      "pages": 67,
+      "openingLegal": 4,
+      "attackPages": 33,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-EdgeGift",
+      "title": "Eddie Guerrero Gift Starter%",
+      "pages": 67,
+      "openingLegal": 3,
+      "attackPages": 34,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Goldust",
+      "title": "Goldust Starter",
+      "pages": 66,
+      "openingLegal": 5,
+      "attackPages": 37,
+      "momentumPages": 29,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-HulkHogan2E",
+      "title": "Hulk Hogan 2nd Edition Starter!",
+      "pages": 63,
+      "openingLegal": 3,
+      "attackPages": 31,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-HulkHoganLE",
+      "title": "Hulk Hogan Starter!",
+      "pages": 63,
+      "openingLegal": 3,
+      "attackPages": 32,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-JeffHardy",
+      "title": "Jeff Hardy Starter!",
+      "pages": 75,
+      "openingLegal": 3,
+      "attackPages": 47,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-JeffHardy2",
+      "title": "Jeff Hardy Starter with 2E",
+      "pages": 72,
+      "openingLegal": 3,
+      "attackPages": 44,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-JeffHardyEX2",
+      "title": "Jeff Hardy Starter!",
+      "pages": 72,
+      "openingLegal": 3,
+      "attackPages": 44,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Kane",
+      "title": "Kane Starter",
+      "pages": 65,
+      "openingLegal": 2,
+      "attackPages": 38,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Kane2E",
+      "title": "Kane 2nd Edition Starter",
+      "pages": 66,
+      "openingLegal": 3,
+      "attackPages": 38,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-KevinNash",
+      "title": "Kevin Nash Starter",
+      "pages": 66,
+      "openingLegal": 4,
+      "attackPages": 38,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-KurtAngle",
+      "title": "Kurt Angle Starter!",
+      "pages": 63,
+      "openingLegal": 2,
+      "attackPages": 29,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-KurtAngle2E",
+      "title": "Kurt Angle 2nd Edition Starter!",
+      "pages": 62,
+      "openingLegal": 4,
+      "attackPages": 32,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-LanceStorm",
+      "title": "Lance Storm Starter",
+      "pages": 57,
+      "openingLegal": 4,
+      "attackPages": 17,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Lita",
+      "title": "Lita Starter",
+      "pages": 61,
+      "openingLegal": 3,
+      "attackPages": 31,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Lita2E",
+      "title": "Lita 2nd Edition Starter",
+      "pages": 68,
+      "openingLegal": 3,
+      "attackPages": 37,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-MattHardy",
+      "title": "Matt Hardy Starter!",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 41,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-MattHardy2",
+      "title": "Matt Hardy Starter with 2E",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 41,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-RicFlair",
+      "title": "Ric Flair Unforgiven Starter",
+      "pages": 66,
+      "openingLegal": 3,
+      "attackPages": 32,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-RicFlairLE",
+      "title": "Ric Flair Starter",
+      "pages": 64,
+      "openingLegal": 3,
+      "attackPages": 30,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-RobVanDam",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 63,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-RobVanDam2",
+      "title": "Rob Van Dam Starter with 2E",
+      "pages": 69,
+      "openingLegal": 3,
+      "attackPages": 41,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-RobVanDamEX2",
+      "title": "Rob Van Dam Starter\"",
+      "pages": 68,
+      "openingLegal": 3,
+      "attackPages": 40,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Scotty2Hotty",
+      "title": "Scotty 2 Hotty Starter%",
+      "pages": 67,
+      "openingLegal": 3,
+      "attackPages": 40,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-SpikeDudley",
+      "title": "Spike Dudley Starter",
+      "pages": 61,
+      "openingLegal": 3,
+      "attackPages": 33,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-StoneCold",
+      "title": "Stone Cold Starter.",
+      "pages": 65,
+      "openingLegal": 2,
+      "attackPages": 37,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Tajiri",
+      "title": "Tajiri LE Starter",
+      "pages": 65,
+      "openingLegal": 3,
+      "attackPages": 33,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Tazz",
+      "title": "Tazz Starter",
+      "pages": 66,
+      "openingLegal": 2,
+      "attackPages": 37,
+      "momentumPages": 24,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Test",
+      "title": "Test Starter",
+      "pages": 72,
+      "openingLegal": 3,
+      "attackPages": 45,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-Test2",
+      "title": "Test Starter with 2E",
+      "pages": 66,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TestEX2",
+      "title": "Test Starter",
+      "pages": 63,
+      "openingLegal": 3,
+      "attackPages": 34,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "pages": 69,
+      "openingLegal": 4,
+      "attackPages": 39,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheBigShow2E",
+      "title": "The Big Show 2nd Edition Starter#",
+      "pages": 70,
+      "openingLegal": 4,
+      "attackPages": 37,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheCripplerChrisBenoit",
+      "title": "\"Crippler\" Chris Benoit Starter ",
+      "pages": 67,
+      "openingLegal": 2,
+      "attackPages": 29,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheHurricane",
+      "title": "The Hurricane Unforgiven Starter",
+      "pages": 60,
+      "openingLegal": 3,
+      "attackPages": 28,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheHurricaneLE",
+      "title": "The Hurricane Starter",
+      "pages": 70,
+      "openingLegal": 3,
+      "attackPages": 37,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheRock",
+      "title": "The Rock Starter",
+      "pages": 65,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheRock2E",
+      "title": "The Rock Starter",
+      "pages": 67,
+      "openingLegal": 3,
+      "attackPages": 35,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheRock2EnoLE",
+      "title": "The Rock 2nd Edition Starter",
+      "pages": 70,
+      "openingLegal": 4,
+      "attackPages": 34,
+      "momentumPages": 28,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheUndertaker",
+      "title": "The Undertaker Starter%",
+      "pages": 66,
+      "openingLegal": 2,
+      "attackPages": 38,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TheUndertaker2E",
+      "title": "The Undertaker 2nd Edition Starter%",
+      "pages": 58,
+      "openingLegal": 5,
+      "attackPages": 25,
+      "momentumPages": 27,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "pages": 70,
+      "openingLegal": 4,
+      "attackPages": 42,
+      "momentumPages": 26,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TrishStratus",
+      "title": "Trish Stratus Unforgiven Starter",
+      "pages": 64,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 23,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-TrishStratusLE",
+      "title": "Trish Stratus Starter",
+      "pages": 64,
+      "openingLegal": 3,
+      "attackPages": 36,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-WilliamRegal3",
+      "title": "William Regal Starter#",
+      "pages": 70,
+      "openingLegal": 4,
+      "attackPages": 30,
+      "momentumPages": 32,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "Starter-XPac",
+      "title": "X-Pac Starter",
+      "pages": 67,
+      "openingLegal": 2,
+      "attackPages": 42,
+      "momentumPages": 25,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    },
+    {
+      "id": "TripleHStarter",
+      "title": "Triple H Starter/",
+      "pages": 64,
+      "openingLegal": 3,
+      "attackPages": 34,
+      "momentumPages": 24,
+      "status": "Fixed opening hand has a legal play; exact card costs pass method-payment validation."
+    }
+  ]
+}

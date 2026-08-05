@@ -1,0 +1,120 @@
+{
+  "version": "0.9.116",
+  "generatedAt": "2026-08-02T16:37:00+10:00",
+  "engine": "actual app.js runtime functions in isolated browser-compatible JavaScript harness",
+  "scope": {
+    "matchReadySuperstarEditions": 52,
+    "directedMatchups": 2704,
+    "mirrorMatches": 52,
+    "seedsCertified": 1
+  },
+  "result": {
+    "completed": 2704,
+    "runtimeErrors": 0,
+    "stalls": 0,
+    "unboundedMatches": 0,
+    "status": "PASS"
+  },
+  "rounds": {
+    "minimum": 2,
+    "median": 26.0,
+    "mean": 28.3,
+    "maximum": 101
+  },
+  "fixedDefects": [
+    "Big Show submission Autocounter used an undefined variable instead of the defender key.",
+    "Brock Lesnar fourth Momentum page was offered as legal even though resolution rejected it.",
+    "CPU repeatedly attempted pins while the referee was distracted and could permanently stall.",
+    "Submission knockout during initial hold damage cleared the hold before beginSubmission finished using it.",
+    "A 500-round time-limit decision now prevents exhausted decks and repeated kick-outs from running forever."
+  ],
+  "timeLimitDecisionOrder": [
+    "remaining HP",
+    "lowest total limb damage",
+    "highest total Momentum",
+    "fewest warnings",
+    "random tie-break only if all values are identical"
+  ],
+  "excludedSelectableSourcePackages": [
+    {
+      "key": "rey",
+      "name": "REY MYSTERIO",
+      "reason": "No authentic starter package mapped"
+    },
+    {
+      "key": "shane",
+      "name": "SHANE MCMAHON",
+      "reason": "No authentic starter package mapped"
+    }
+  ],
+  "longestMatches": [
+    {
+      "player": "angle1",
+      "cpu": "bigshow1",
+      "round": 101,
+      "reason": "KICK OUT AT 1! THE BIG SHOW (EX1) survives and takes control."
+    },
+    {
+      "player": "tazz",
+      "cpu": "angle1",
+      "round": 97,
+      "reason": "KURT ANGLE (1ST EDITION) plays Russian Leg Sweep. Checking for a counter\u2026"
+    },
+    {
+      "player": "hogan2e",
+      "cpu": "hbk",
+      "round": 93,
+      "reason": "SHAWN MICHAELS plays Guitar Shot. Checking for a counter\u2026"
+    },
+    {
+      "player": "rock2e",
+      "cpu": "lancestorm",
+      "round": 91,
+      "reason": "KICK OUT AT 1! LANCE STORM survives and takes control."
+    },
+    {
+      "player": "hoganNwo",
+      "cpu": "hbk",
+      "round": 89,
+      "reason": "SUCCESS! Superplex lands for 12 Body damage. Press PASS to continue."
+    },
+    {
+      "player": "nash",
+      "cpu": "hbk",
+      "round": 89,
+      "reason": "KEVIN NASH plays Mafia Kick. Checking for a counter\u2026"
+    },
+    {
+      "player": "undertaker2e",
+      "cpu": "hoganNwo",
+      "round": 88,
+      "reason": "COUNTER! THE UNDERTAKER (2ND EDITION) answers with Fireman's Carry."
+    },
+    {
+      "player": "rikishi",
+      "cpu": "kane1",
+      "round": 86,
+      "reason": "COUNTER! RIKISHI answers with Standing Switch."
+    },
+    {
+      "player": "edge1",
+      "cpu": "hoganNwo",
+      "round": 85,
+      "reason": "COUNTER! HOLLYWOOD HOGAN (nWo) answers with Block."
+    },
+    {
+      "player": "tazz",
+      "cpu": "kane1",
+      "round": 82,
+      "reason": "KANE (1ST EDITION) sets Tough Guy (1 rounds)."
+    }
+  ],
+  "limitations": [
+    "This matrix automates both sides using the runtime legality and scoring functions and bypasses only UI animation, audio, reward screens and human prompts.",
+    "A separate rendered-device pass remains appropriate for touch gestures, overlays, audio and service-worker behaviour."
+  ],
+  "finishReasonCapture": {
+    "status": "not-certified-in-this-matrix",
+    "note": "The harness records the latest match message after completion, which is not a reliable finish-reason field. Pinfall, knockout, submission and disqualification paths require separate forced-path assertions."
+  }
+}

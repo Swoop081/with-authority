@@ -1,0 +1,331 @@
+{
+  "version": "v0.9.28",
+  "superstarsAudited": 35,
+  "hpCorrections": 31,
+  "exactAbilitiesEnabled": 2,
+  "abilitiesHeldBack": 34,
+  "startersChecked": 65,
+  "superstars": [
+    {
+      "key": "austin",
+      "name": "STONE COLD STEVE AUSTIN",
+      "sourceFile": "stsa.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "rock",
+      "name": "THE ROCK",
+      "sourceFile": "TheRock.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "implemented"
+    },
+    {
+      "key": "tripleh",
+      "name": "TRIPLE H",
+      "sourceFile": "TripleH.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "undertaker",
+      "name": "THE UNDERTAKER",
+      "sourceFile": "TheUndertaker.gac",
+      "previousHp": 3,
+      "originalHp": 73,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "kane",
+      "name": "KANE",
+      "sourceFile": "Kane.gac",
+      "previousHp": 5,
+      "originalHp": 75,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "angle",
+      "name": "KURT ANGLE",
+      "sourceFile": "KurtAngle.gac",
+      "previousHp": 7,
+      "originalHp": 67,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "jericho",
+      "name": "CHRIS JERICHO",
+      "sourceFile": "ChrisJericho.gac",
+      "previousHp": 5,
+      "originalHp": 65,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "benoit",
+      "name": "CHRIS BENOIT",
+      "sourceFile": "ChrisBenoit2E.gac",
+      "previousHp": 8,
+      "originalHp": 68,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "bigshow",
+      "name": "BIG SHOW",
+      "sourceFile": "TheBigShow.gac",
+      "previousHp": 8,
+      "originalHp": 78,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "bookert",
+      "name": "BOOKER T",
+      "sourceFile": "BookerT.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "edge",
+      "name": "EDGE",
+      "sourceFile": "Edge.gac",
+      "previousHp": 6,
+      "originalHp": 66,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "christian",
+      "name": "CHRISTIAN",
+      "sourceFile": "Christian.gac",
+      "previousHp": 0,
+      "originalHp": 60,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "eddie",
+      "name": "EDDIE GUERRERO",
+      "sourceFile": "EddieGuerrero.gac",
+      "previousHp": 3,
+      "originalHp": 63,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "rvd",
+      "name": "ROB VAN DAM",
+      "sourceFile": "RobVanDam.gac",
+      "previousHp": 4,
+      "originalHp": 64,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "flair",
+      "name": "RIC FLAIR",
+      "sourceFile": "RicFlair.gac",
+      "previousHp": 40,
+      "originalHp": null,
+      "corrected": false,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "hogan",
+      "name": "HOLLYWOOD HULK HOGAN",
+      "sourceFile": "HollywoodHogan.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "nash",
+      "name": "KEVIN NASH",
+      "sourceFile": "KevinNash.gac",
+      "previousHp": 40,
+      "originalHp": null,
+      "corrected": false,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "jeffhardy",
+      "name": "JEFF HARDY",
+      "sourceFile": "JeffHardy.gac",
+      "previousHp": 7,
+      "originalHp": 57,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "matthardy",
+      "name": "MATT HARDY",
+      "sourceFile": "MattHardy.gac",
+      "previousHp": 3,
+      "originalHp": 63,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "lita",
+      "name": "LITA",
+      "sourceFile": "Lita.gac",
+      "previousHp": 5,
+      "originalHp": 55,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "trish",
+      "name": "TRISH STRATUS",
+      "sourceFile": "TrishStratus.gac",
+      "previousHp": 40,
+      "originalHp": null,
+      "corrected": false,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "bubba",
+      "name": "BUBBA RAY DUDLEY",
+      "sourceFile": "BubbaRayDudley.gac",
+      "previousHp": 2,
+      "originalHp": 72,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "dvon",
+      "name": "D-VON DUDLEY",
+      "sourceFile": "DVonDudley.gac",
+      "previousHp": 8,
+      "originalHp": 68,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "spike",
+      "name": "SPIKE DUDLEY",
+      "sourceFile": "SpikeDudley.gac",
+      "previousHp": 1,
+      "originalHp": 51,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "bradshaw",
+      "name": "BRADSHAW",
+      "sourceFile": "Bradshaw.gac",
+      "previousHp": 1,
+      "originalHp": 71,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "goldust",
+      "name": "GOLDUST",
+      "sourceFile": "Goldust.gac",
+      "previousHp": 9,
+      "originalHp": 69,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "lancestorm",
+      "name": "LANCE STORM",
+      "sourceFile": "LanceStorm.gac",
+      "previousHp": 5,
+      "originalHp": 65,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "rikishi",
+      "name": "RIKISHI",
+      "sourceFile": "RikishiPhatu.gac",
+      "previousHp": 6,
+      "originalHp": 76,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "scotty",
+      "name": "SCOTTY 2 HOTTY",
+      "sourceFile": "AIMission1Wrestler.gac",
+      "previousHp": 1,
+      "originalHp": null,
+      "corrected": false,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "tajiri",
+      "name": "TAJIRI",
+      "sourceFile": "TajiriLE.gac",
+      "previousHp": 1,
+      "originalHp": 61,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "tazz",
+      "name": "TAZZ",
+      "sourceFile": "Tazz.gac",
+      "previousHp": 0,
+      "originalHp": 70,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "test",
+      "name": "TEST",
+      "sourceFile": "AnotherAttitudeStar.gac",
+      "previousHp": 1,
+      "originalHp": 71,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "hurricane",
+      "name": "THE HURRICANE",
+      "sourceFile": "TheHurricane.gac",
+      "previousHp": 3,
+      "originalHp": 63,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "regal",
+      "name": "WILLIAM REGAL",
+      "sourceFile": "WilliamRegal.gac",
+      "previousHp": 8,
+      "originalHp": 68,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    },
+    {
+      "key": "xpac",
+      "name": "X-PAC",
+      "sourceFile": "XPac.gac",
+      "previousHp": 8,
+      "originalHp": 58,
+      "corrected": true,
+      "abilityRuntime": "preserved_pending_exact_runtime"
+    }
+  ],
+  "findings": [
+    "Several Superstar Hit_Points values were previously truncated or zero.",
+    "Generic style-based abilities did not exist in the original source and were removed.",
+    "The Rock Special and Kurt Angle turn-based Knowledge gain are enabled from source text.",
+    "Other Superstar abilities remain disabled pending exact timing/choice implementation."
+  ]
+}

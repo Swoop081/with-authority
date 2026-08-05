@@ -1,0 +1,11 @@
+{
+  "version": "v0.9.64",
+  "changes": [
+    "Enforced Superstar-specific method Momentum maximums: -1 means unlimited, 0 means unavailable, positive values are caps.",
+    "Reduced provisional pin chance ceiling and full-health baseline after simulation showed 98.3% pin finishes.",
+    "Zero-damage holds with no continuing printed effect now release immediately; all ineffective holds have a hard safeguard.",
+    "Corrected stale About text to permanent method Momentum rules.",
+    "Preserved Mission0\u2013Mission4, Mission3_5 and MissionList.gal source files and exposed their exact decode status."
+  ],
+  "campaignSources": 6
+}

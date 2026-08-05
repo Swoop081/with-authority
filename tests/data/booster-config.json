@@ -1,0 +1,31 @@
+{
+  "cardsPerPack": 5,
+  "odds": {
+    "Common": 0.5,
+    "Uncommon": 0.3,
+    "Rare": 0.15,
+    "Very Rare": 0.05
+  },
+  "copyCaps": {
+    "default": 5,
+    "Momentum": 20
+  },
+  "sets": {
+    "CORE": {
+      "name": "1st Edition",
+      "packImage": "./assets/gai/Sales-BoosterPack2E.webp"
+    },
+    "EX1": {
+      "name": "No Way Out",
+      "packImage": "./assets/gai/Sales-BoosterPackEX1.webp"
+    },
+    "EX2": {
+      "name": "TLC",
+      "packImage": "./assets/gai/Sales-BoosterPackEX2.webp"
+    },
+    "EX3": {
+      "name": "Unforgiven",
+      "packImage": "./assets/gai/Sales-BoosterPackEX3.webp"
+    }
+  }
+}

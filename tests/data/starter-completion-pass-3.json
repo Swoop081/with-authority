@@ -1,0 +1,20 @@
+{
+  "version": "v0.9.27",
+  "title": "Starter Deck Completion Pass 3",
+  "distinctMissingBefore": 180,
+  "entriesMissingBefore": 450,
+  "cardsImported": 180,
+  "resolvedEntries": 4786,
+  "unresolvedEntries": 0,
+  "completeStarters": 65,
+  "totalStarters": 65,
+  "addedByClass": {
+    "Superstar": 53,
+    "Special": 30,
+    "Gameplan": 32,
+    "Move": 60,
+    "Trademark": 4,
+    "Momentum": 1
+  },
+  "note": "All authoritative starter source filenames now map to exact card objects. Original scripts are retained on each imported card. Recurring effects are translated by the generic compatibility layer; complex player-choice timing remains subject to gameplay validation."
+}

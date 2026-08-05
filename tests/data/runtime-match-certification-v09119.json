@@ -1,0 +1,30 @@
+{
+  "version": "0.9.119",
+  "generatedAt": "2026-08-02T16:56:00+10:00",
+  "scope": "Actual app.js runtime engine with UI/audio/reward rendering bypassed only for certification throughput",
+  "rosterCount": 52,
+  "directedMatchups": 2704,
+  "mirrorMatches": 52,
+  "deterministicSeedsPreviouslyCompleted": 3,
+  "totalMatchesAcrossCurrentCertificationCycle": 10816,
+  "finalPostFixMatrix": {
+    "complete": 2704,
+    "failures": 0,
+    "maxRecordedRound": 50,
+    "overSelectedLimit": 0,
+    "medianRounds": 26.0,
+    "averageRounds": 27.62,
+    "finishMethods": {
+      "pinfall": 1788,
+      "submission": 291,
+      "knockout": 379,
+      "time-limit decision": 168,
+      "disqualification": 78
+    }
+  },
+  "fixValidated": "beginTurn now rejects post-match calls and time-limit results retain the selected turn count instead of advancing to 51 or 52.",
+  "excludedSelectableEntries": [
+    "Rey Mysterio \u2014 authentic starter package not mapped",
+    "Shane McMahon \u2014 authentic starter package not mapped"
+  ]
+}

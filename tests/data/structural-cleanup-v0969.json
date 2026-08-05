@@ -1,0 +1,10 @@
+{
+  "version": "0.9.69",
+  "duplicateFunctionsRemoved": 17,
+  "remainingDuplicateFunctions": [],
+  "keptStarterBrowser": "full-art flip renderer",
+  "diagnosticsExpected": {
+    "superstars": 42,
+    "starters": 67
+  }
+}

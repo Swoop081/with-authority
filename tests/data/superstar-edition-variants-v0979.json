@@ -1,0 +1,9 @@
+{
+  "version": "0.9.79",
+  "variants": [],
+  "notes": [
+    "Separate selectable editions use exact recovered Superstar card source, artwork, ability text, and starter package.",
+    "Legacy base entries remain internal for shared ability logic.",
+    "Shane McMahon Hardcore Trio source artwork is restored, but its exact starter package remains unresolved."
+  ]
+}

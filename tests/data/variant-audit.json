@@ -1,0 +1,4121 @@
+{
+  "version": "v0.9.13",
+  "variantGroups": 134,
+  "cardsInVariantGroups": 323,
+  "newExactEquivalentVariantsImported": 3,
+  "totalPlayableRecords": 701,
+  "groups": [
+    {
+      "displayName": "2nd Rope Leg Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "2ndRopeLegDrop2E.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 2,
+          "text": "Play only if your opponent is on the mat and in the ring. He stays on the mat, and if not already stunned, is stunned until the end of the next turn. You get +1 Attitude. If countered, you are stunned until the end of the turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "2ndRopeSplash.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 2,
+          "text": "Play only if your foe is on the mat in the ring. Your opponent stays on the mat, and if not already stunned, is stunned until the end of the next turn. You get 2 Momentum. If countered, you're stunned until the end of the turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Abdominal Stretch",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "AbdominalStretch2E.gac",
+          "damage": 5,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Countered by Hip Toss.    This move does 6 back damage per turn. At the end of the turn there is a 25% chance that this hold is released. (Your opponent gets control.)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "AbdominalStretch.gac",
+          "damage": 5,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Countered by Hip Toss. This move does 6 Back damage per turn. At the end of the turn there is a 25% chance that this hold is released. (Your opponent gets control.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Agility",
+      "count": 6,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX2",
+        "EX3",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Agility2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Agility1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "AgilityEX1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "AgilityEX2.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "AgilityEX3.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "AgilityTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Agility. Your opponent can't see this page."
+        }
+      ]
+    },
+    {
+      "displayName": "Angle Slam",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "AngleSlam2E.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Kurt Angle Finisher Counters arm extended, in close, and back to foe moves. This move does +5 damage for each \"Three I's\" Special you have in play."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "OlympicSlam.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Kurt Angle Finisher    Counters arm extended, in close, and back to foe moves. This move does +5 damage for each \"Three I's\" Special you have in play."
+        }
+      ]
+    },
+    {
+      "displayName": "Arm Drag Counter",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "ArmDragCounter.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters arm extended and mad rush moves. Countered by in close moves. This move provides no Momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "ArmDragCounterTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters arm extended and mad rush moves. Countered by in close moves. This move provides no Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Arm Drag Takedown",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ArmDragTakedown2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.\r\n\r\nIf you have any Knowledge Momentum, draw one page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ArmDragTakedown.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. If you have any Knowledge Momentum, draw one page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "ArmDragTakedownEX2.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended moves. Can't be countered by Strike moves.    You get a +2% pin chance bonus for the rest of the match."
+        }
+      ]
+    },
+    {
+      "displayName": "Armbar Takedown",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ArmbarTakedown2E.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended moves.\r\n\r\nYour opponent takes 1 arm damage and there is a 50% chance your opponent's next page from playbook is ditched."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ArmbarTakedown.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended moves. Your opponent takes 1 Arm damage and there is a 50% chance your opponent's next page is ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Asai Moonsault",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "AsaiMoonsault2E.gac",
+          "damage": 9,
+          "cost": 10,
+          "connectedMomentum": 0,
+          "text": "Play only in the ring while your opponent is at ringside. You move to ringside when you play this move."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "AsaiMoonsaultEX3.gac",
+          "damage": 13,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is at ringside. If you are in the ring, you are moved to ringside when you play this.    Draw three pages. If countered, you take 9 damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Atomic Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "AtomicDrop2E.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves.    50% chance your opponent loses an additional Momentum."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "AtomicDrop.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves. 50% chance your opponent loses an additional Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Back Body Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BackBodyDrop2E.gac",
+          "damage": 3,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush and victim below moves. Countered by Facebuster."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BackBodyDrop.gac",
+          "damage": 3,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush and victim below moves. Countered by Facebuster."
+        }
+      ]
+    },
+    {
+      "displayName": "Back Body Drop to Ringside",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BackBodyDropToRingside2E.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Counters victim below moves.\r\n\r\nYour opponent is moved to ringside. There is a 33% chance your opponent ditches the next page from his playbook."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BackBodyDropOverTheRopes.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play this move only in the ring. Counters victim below moves. Your opponent is moved to Ringside. There is a 33% chance your opponent ditches his next page from his playbook."
+        }
+      ]
+    },
+    {
+      "displayName": "Back Breaker",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BackBreaker2E.gac",
+          "damage": 7,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "This move does 5 back damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BackBreaker.gac",
+          "damage": 7,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "This move does 5 back damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Back Elbow",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BackElbow2E.gac",
+          "damage": 5,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves.\r\n\r\nChoose one: Your opponent ditches a random Technical move, or your opponent takes 3 head damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BackElbow.gac",
+          "damage": 5,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "BackElbowEX1.gac",
+          "damage": 5,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves.\r\n\r\nChoose one: Your opponent ditches a random Technical move, or your opponent takes 3 Head damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Back Heel Trip",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BackHeelTrip2E.gac",
+          "damage": 4,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended moves.    If your opponent doesn't have any Technical, this move can't be countered by moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BackHeelTrip.gac",
+          "damage": 4,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended moves. If your opponent doesn't have any Technical, this move can't be countered by a move."
+        }
+      ]
+    },
+    {
+      "displayName": "Belly-to-Belly Suplex",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BellyToBellySuplex2E.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters in close and mad rush moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BellyToBellySuplex.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters in close and mad rush moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "BellyToBellySuplexEX2.gac",
+          "damage": 10,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush and in close moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Block",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "Block.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Can't be used offensively. Counters arm extended, leg extended, in close, mad rush, back to foe and standing above moves that are Strike moves. Countered by arm extended, leg extended, and in close moves that are Strike moves. Your opponent can't counter this with a move he has already connected with."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "BlockTourn.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Can't be used offensively. Counters arm extended, leg extended, in close, mad rush, back to foe and standing above moves that are Strike moves. Countered by arm extended, leg extended, and in close moves that are Strike moves. Your opponent can't counter this with a move he has already connected with."
+        }
+      ]
+    },
+    {
+      "displayName": "Body Slam",
+      "count": 4,
+      "uniqueGameplayVariants": 4,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "BodySlam2E.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush and high risk moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "BodySlam.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush and high risk moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "BodySlamEX2.gac",
+          "damage": 4,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.    You may choose to lose 1 Attitude when this move connects. If you do, your opponent is moved to ringside."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "BodySlamEX3.gac",
+          "damage": 4,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.    \"Will To Win\" is put into your hand."
+        }
+      ]
+    },
+    {
+      "displayName": "Bubba Bomb",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "BubbaBomb.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Bubba Ray Dudley Finisher Counters arm extended moves. This move does +1 damage (up to +12) for each Takedown you have connected with. When used as a counter when not in control, this move can't be countered."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "BubbaBombEX2.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Bubba Ray Dudley Finisher  Counters arm extended moves. This move does +1 damage (up to +12) for each Takedown you have connected with. When used as a counter when not in control, this move can't be countered."
+        }
+      ]
+    },
+    {
+      "displayName": "Bulldog",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Bulldog2E.gac",
+          "damage": 8,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Your opponent's next four pages from playbook are ditched."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Bulldog.gac",
+          "damage": 8,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "The next four pages from your opponent's playbook are ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Chair Shot",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ChairShot2E.gac",
+          "damage": 9,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play this move only if Steel Folding Chair is in play.    You get 4 Warnings. Your opponent is put on the mat, takes 5 head damage and is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ChairShot.gac",
+          "damage": 9,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play this move only if Steel Folding Chair is in play. You get 4 Warnings from the referee. Your opponent takes 5 Head damage and is Stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Chair To The Back",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ChairToTheBack2E.gac",
+          "damage": 4,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only if Steel Folding Chair is in play.    You get 4 Warnings from the referee. This move does 2 Back damage and an additional 3 Back damage for each Strike Momentum you have."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ChairToTheBack.gac",
+          "damage": 4,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only if Steel Folding Chair is in play. You get 4 Warnings from the referee. This move does 2 Back damage and an additional 3 Back damage for each Strike Momentum you have."
+        }
+      ]
+    },
+    {
+      "displayName": "Choke Slam To Hell",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ChokeslamToHell2E.gac",
+          "damage": 17,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Kane Finisher    Counters mad rush and in close moves. If not already stunned, your opponent is stunned until the end of the next turn.    (Counts as \"Chokeslam\".)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ChokeSlam2.gac",
+          "damage": 17,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Only Kane may play Choke Slam To Hell. Counters mad rush and in close moves. If not already stunned, your opponent is stunned until the end of the next turn. (Counts as \"Chokeslam\".)"
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "ChokeslamToHellTourn.gac",
+          "damage": 17,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Kane Finisher    Counters mad rush and in close moves. If not already stunned, your opponent is stunned until the end of the next turn.    (Counts as \"Chokeslam\".)"
+        }
+      ]
+    },
+    {
+      "displayName": "OriginalVariant_ChopPromo",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "PROMO"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "Chop.gac",
+          "damage": 7,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Countered by Chop. If used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it."
+        },
+        {
+          "edition": "PROMO",
+          "sourceFile": "ChopPromo.gac",
+          "damage": 7,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Countered by Chop. If used to counter Chop, you take 4 damage and if your opponent's playbook has a Chop, your opponent draws it."
+        }
+      ]
+    },
+    {
+      "displayName": "Clip",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Clip2E.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Your opponent is put on the mat, loses +1 Attitude and takes 5 leg damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Clip.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Your opponent is put on the mat, loses 1 Attitude and takes 5 Leg damage.\b"
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "ClipEX2.gac",
+          "damage": 7,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Your opponent is put on the mat and is Grounded."
+        }
+      ]
+    },
+    {
+      "displayName": "Clothesline",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Clothesline2E.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters hit or miss and leg extended moves. Countered by Clothesline and Duck.    Your opponent is put on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Clothesline.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters hit or miss and leg extended moves. Countered by Clothesline and Duck.    Your opponent is put on the mat."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "ClotheslineEX3.gac",
+          "damage": 5,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters in close and leg extended moves. Your opponent is put on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Clothesline Over The Ropes",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ClotheslineOverTheRopes2E.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play this move only if both you and your opponent are in the ring. Countered by Back Body Drop To Ringside.    This move does up to +7 damage. Your opponent is moved to ringside."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ClotheslineOverTheRopes.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play this move only if both you and your opponent are in the ring. Countered by Back Body Drop To Ringside. This move does up to +7 damage. Your opponent is moved to Ringside."
+        }
+      ]
+    },
+    {
+      "displayName": "Corner Barrage",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "CornerBarrage2E.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "If not already stunned, your opponent is stunned until the end of the next turn.\u0013"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "CornerBarage.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play this move only if you have hit two moves in a row and only in the ring. If not already stunned, your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Corner Charge",
+      "count": 3,
+      "uniqueGameplayVariants": 3,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "CornerCharge2E.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play this move only if you have hit three moves in a row and only in the ring. Countered by Turnbuckle Smash.    This move does +1 damage for each Strength, Strike and Agility momentum you have. If countered, you are stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "CornerCharge.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play this move only if you have hit three moves in a row and only in the ring. Countered by Turnbuckle Smash.     This move does +1 damage for each Strength, Strike and Agility momentum you have. If countered, you're stunned until the end of the next turn."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "CornerChargeEX2.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only if you are Rikishi or if you have any Agility, and only in the ring. You may choose to lose 2 Attitude when this move connects. If you do, this move does +6 damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Crippler Cross Face",
+      "count": 3,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "CripplerCrossFace2E.gac",
+          "damage": 4,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Chris Benoit Finisher    Counters arm extended and in close moves.    Your opponent is put on the mat. This move does 9 arm and 9 head damage per turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "CripplerCrossFace.gac",
+          "damage": 4,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Chris Benoit Finisher    Counters arm extended and in close moves.    Your opponent is put on the mat. This move does 9 arm and 9 head damage per turn."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "CripplerCrossFaceTourn.gac",
+          "damage": 4,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Chris Benoit Finisher    Counters arm extended and in close moves.    Your opponent is put on the mat. This move does 9 arm and 9 head damage per turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Cross Arm Breaker",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "CrossArmBreaker2E.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat. This move does 11 arm damage per turn and can be Autocountered for -3 pages."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "CrossArmBreaker.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat. This move does 11 Arm damage per turn and can be Autocountered for -3 pages."
+        }
+      ]
+    },
+    {
+      "displayName": "Crucifix Powerbomb",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "CrucifixPowerbomb2E.gac",
+          "damage": 11,
+          "cost": 12,
+          "connectedMomentum": 1,
+          "text": "You can't play this move if you have already connected with it this match. Countered by Up and Over.\r\nIf you have 4 Strength or more your opponent's next 17 pages from playbook are ditched."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "CrucifixPowerbomb.gac",
+          "damage": 11,
+          "cost": 12,
+          "connectedMomentum": 1,
+          "text": "Play only if you haven't connected with this move this match. Countered by Up and Over. If you have 4 Strength or more, your opponent's next 17 pages from playbook are ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Dodge",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Dodge2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Dodge.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "DodgeTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters high risk, hit or miss, and standing above moves. Countered by victim below moves. This move provides no Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Double Leg Takedown",
+      "count": 4,
+      "uniqueGameplayVariants": 3,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2",
+        "SS2002"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "DoubleLegTakedown2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended and victim below moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "DoubleLegTakedown.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended and victim below moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "DoubleLegTakedownEX2.gac",
+          "damage": 4,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended and victim below moves."
+        },
+        {
+          "edition": "SS2002",
+          "sourceFile": "DoubleLegTakedownSS2002.gac",
+          "damage": 4,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters head down and in close moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Double Underhook Suplex",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "DoubleUnderhookSuplex2E.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 0,
+          "text": "Your opponent's next 4 pages from playbook are ditched.\u001b"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "DoubleUnderhookSuplex.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Your opponent's next 4 pages from playbook are ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Dragon Sleeper",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "DragonSleeper2E.gac",
+          "damage": 4,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Your opponent takes 6 head damage per turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "DragonSleeper.gac",
+          "damage": 4,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Your opponent takes 6 head damage per turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Drop Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "DropKick2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters high risk and mad rush moves.    Your opponent is put on the mat. If countered, you lose up to an additional two Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "DropKick.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters high risk and mad rush moves.    Your opponent is put on the mat. If countered, you lose up to an additional two Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Drop The Hammer",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "EX1"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "DropTheHammer.gac",
+          "damage": 9,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Stone Cold Trademark    Play only when your opponent is on the mat in the ring. If you connected with Lou Thesz Press last turn, gain +1 Attitude. If you have any Warnings, this move does +5 damage."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "DropTheHammerEX1.gac",
+          "damage": 9,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Stone Cold Trademark    Play only when your opponent is on the mat in the ring. If you connected with Lou Thesz Press last turn, gain +1 Attitude. If you have any Warnings, this move does +5 damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Duck",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Duck2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move can't be played offensively. Counters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Duck.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may only be played if you are not in control.\nCounters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "DuckTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move can't be played offensively. Counters arm extended and leg extended moves. Countered by behind opponent and mad rush moves. This move provides no Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Edge-o-matic",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Edgeomatic2E.gac",
+          "damage": 8,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Edge Trademark    Counters back to foe moves. Your opponent can't play Specials (except Once Too Often) until this move is countered. You get a +7% pin chance for the rest of the match."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Edgeomatic.gac",
+          "damage": 8,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Edge Trademark Counters back to foe moves. Your opponent can't play Specials (except Once Too Often) until this move is countered. You get a +7% pin chance for the rest of the match."
+        }
+      ]
+    },
+    {
+      "displayName": "Edgecution",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Edgecution2E.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Edge Finisher    Counters head down moves.  This move does +1 damage for each Attitude you have (up to +10). You attempt to pin your opponent with a +1% pin chance for each different Agility and Technical move you've connected with this match. If the pin fails, you stay in control."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Buzzkiller.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Edge Finisher    Counters head down moves.  This move does +1 damage for each Attitude you have (up to +10). You attempt to pin your opponent with a +1% pin chance for each different Agility and Technical move you've connected with this match. If the pin fails, you stay in control."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "EdgecutionTourn.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Edge Finisher    Counters head down moves.  This move does +1 damage for each Attitude you have (up to +10). You attempt to pin your opponent with a +1% pin chance for each different Agility and Technical move you've connected with this match. If the pin fails, you stay in control."
+        }
+      ]
+    },
+    {
+      "displayName": "Elbow",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Elbow2E.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe and behind opponent moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Elbow.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe and behind opponent moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Elbow On The Ring Apron",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ElbowOnTheRingApron2E.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Play only when your opponent is on the mat at ringside."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ElbowOnTheRingApron.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Play only when your opponent is on the mat at Ringside. This move does +1 damage (up to +7) for each turn you have been at Ringside.\u0017"
+        }
+      ]
+    },
+    {
+      "displayName": "Elbow to Back of the Head",
+      "count": 4,
+      "uniqueGameplayVariants": 4,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ElbowToBackOfTheHead2E.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves. Your opponent takes 2 head damage. 50% chance opponent loses +1 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ElbowToTheBackOfTheHead.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves.\r\n\r\nYour opponent takes 2 Head damage. 50% chance opponent loses 1 additional Momentum."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "ElbowToTheBackOfTheHeadEX2.gac",
+          "damage": 3,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves. Can't be countered by Strength moves."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "ElbowToBackOfTheHeadEX3.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves.     If your opponent has at least 2 Knowledge, he loses 1."
+        }
+      ]
+    },
+    {
+      "displayName": "Enzugiri",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Enzugiri2E.gac",
+          "damage": 7,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Your opponent takes 8 head damage and is put on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Enzugiri.gac",
+          "damage": 7,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Your opponent takes 8 Head damage and is put on the mat."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "EnzugiriEX2.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves.    Your opponent is stunned until the end of the next turn (if not already stunned) and is put on the mat. If countered, you lose 1 Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "European Uppercut",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "EuropeanUppercut.gac",
+          "damage": 3,
+          "cost": 1,
+          "connectedMomentum": 0,
+          "text": ""
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "EuropeanUppercutEX3.gac",
+          "damage": 2,
+          "cost": 0,
+          "connectedMomentum": 1,
+          "text": "Play only as a counter or if you have Strike. Counters in close moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Eye Rake",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "EyeRake2E.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "This move counters arm extended, in close, standing above and behind opponent moves. You receive 2 Warnings and your opponent loses +1 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "PokeInTheEye.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "This move counters arm extended, in close, standing above and behind opponent moves.    You receive 2 Warnings from the referee and your opponent loses 1 Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Facebuster",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Facebuster2E.gac",
+          "damage": 9,
+          "cost": 11,
+          "connectedMomentum": 0,
+          "text": "Your opponent ditches pages from his playbook equal to the amount of Technical and Strength Momentum you have.\u0010"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Facebuster.gac",
+          "damage": 9,
+          "cost": 11,
+          "connectedMomentum": 1,
+          "text": "Only Triple H may play Facebuster. Your opponent ditches pages from his playbook equal to the amount of Technical and Strength Momentum you have."
+        }
+      ]
+    },
+    {
+      "displayName": "Figure Four",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FigureFour2E.gac",
+          "damage": 6,
+          "cost": 9,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FigureFour.gac",
+          "damage": 6,
+          "cost": 9,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Fireman's Carry",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "FiremansCarry.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended and victim below moves. 50% chance your opponent both ditches the next playbook page and loses 1 additional Momentum."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "FiremansCarryEX2.gac",
+          "damage": 1,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended and leg extended moves.    Your opponent loses 1 Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Fist Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FistDrop2E.gac",
+          "damage": 6,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Play this move only if your opponent is on the mat. If countered you lose up to an additional 2 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FistDrop.gac",
+          "damage": 6,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Play this move only if your opponent is on the mat. If countered you lose up to an additional 2 momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Flat of the Foot",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FlatOfTheFoot2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FlatOfTheFoot.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "FlatOfTheFootEX2.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters head down and arm extended moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Flying Wheel Kick",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FlyingWheelKick2E.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.\r\n\r\nUnless your opponent has less than 4 pages in hand, your opponent ditches 2 random pages. This move does up to +3 damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FlyingWheelKick.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. Unless your opponent has less than 4 pages in hand, your opponent ditches 2 random pages. This move does up to +3 damage."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "FlyingWheelKickEX3.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Countered by Duck.    Your opponent is put on the mat and you get Crowd Support."
+        }
+      ]
+    },
+    {
+      "displayName": "Forearm Smash",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ForearmSmash2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 0,
+          "text": "This move does up to +2 damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ForearmSmash.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "This move does up to +2 damage. (Face page: cannot be played if you have played a Heel page.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Frog Splash",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FrogSplash2E.gac",
+          "damage": 10,
+          "cost": 14,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat in the ring."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FrogSplash.gac",
+          "damage": 10,
+          "cost": 14,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat in the ring."
+        }
+      ]
+    },
+    {
+      "displayName": "German Suplex",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "GermanSuplex2E.gac",
+          "damage": 6,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves.    Your opponent loses +1 Attitude and you attempt to pin. You stay in control if the pin fails."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "GermanSuplex.gac",
+          "damage": 6,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves. Your opponent loses 1 additional Momentum and is pinned. If the pin does not work you stay in Control."
+        }
+      ]
+    },
+    {
+      "displayName": "Gut Wrench Suplex",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "GutWrenchSuplex2E.gac",
+          "damage": 11,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": ""
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "GutWrenchSuplex.gac",
+          "damage": 9,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Your opponent's next page in playbook is ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Hammerlock",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Hammerlock2E.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves. Countered by Hammerlock.\r\n\r\nYour opponent takes 1 arm damage each turn. During the Refresh step, 50% chance you draw a page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Hammerlock.gac",
+          "damage": 0,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe moves. Countered by Hammerlock. Your opponent takes 1 Arm damage each turn. During the Refresh step, 50% chance you draw a page."
+        }
+      ]
+    },
+    {
+      "displayName": "Headlock",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Headlock2E.gac",
+          "damage": 0,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent and in close moves.\n\nWhen this move connects, you draw a page if your opponent has any head damage. Your opponent cannot submit to this move."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Headlock.gac",
+          "damage": 0,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent and in close moves. When this move connects, if your opponent has any Head damage, draw a page. Your opponent cannot submit to this move."
+        }
+      ]
+    },
+    {
+      "displayName": "Hip Toss",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "HipToss.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. Countered by Hip Toss. Your opponent's next 2 pages from playbook are ditched."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "HipTossEX2.gac",
+          "damage": 5,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended moves.    This move can't be countered by Strike moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Hogan's Big Boot",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "HogansBigBoot2E.gac",
+          "damage": 7,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Hulk Hogan Trademark  Counters mad rush moves. If played with Irish Whip and you haven't connected with this move yet, this move can't be countered. Your opponent is put on the mat.   (Counts as \"Mafia Kick\")"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "HogansBigBoot.gac",
+          "damage": 7,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Hollywood Hulk Hogan Trademark    Counters mad rush moves. If played with Irish Whip and you haven't connected with this move yet, this move can't be countered. Your opponent is put on the mat.     (Counts as \"Mafia Kick\")"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "HogansBigBoot2ELE.gac",
+          "damage": 7,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Hulk Hogan Trademark  Counters mad rush moves. If played with Irish Whip and you haven't connected with this move yet, this move can't be countered. Your opponent is put on the mat.   (Counts as \"Mafia Kick\")"
+        }
+      ]
+    },
+    {
+      "displayName": "Hogan's Leg Drop",
+      "count": 4,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "LE",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "HogansLegDrop2E.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Hulk Hogan Finisher    Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move this match, this move can't be countered.  (Counts as \"Leg Drop\")"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LegDropOfDoom.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Hollywood Hulk Hogan Finisher  Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move, it can't be countered.  (Counts as Leg Drop.)"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "HogansLegDrop2ELE.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Hulk Hogan Finisher    Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move this match, this move can't be countered.  (Counts as \"Leg Drop\")"
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "HogansLegDropTourn.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Hulk Hogan Finisher    Play only if your opponent is on the mat. If you have 7 Knowledge and you haven't yet connected with this move this match, this move can't be countered.  (Counts as \"Leg Drop\")"
+        }
+      ]
+    },
+    {
+      "displayName": "Hurricanrana",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "EX1",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "EX1",
+          "sourceFile": "HurricanranaEX1.gac",
+          "damage": 14,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Play only if you have hit four moves in a row and only in the ring.    Your opponent can't play moves to counter this."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "HurricanranaEX2.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.    This move does +1 damage for each Momentum your opponent has. If your opponent has 3 Knowledge, this move can't be countered the first time you play it. If countered, you're Grounded."
+        }
+      ]
+    },
+    {
+      "displayName": "Inside Cradle",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "InsideCradle2E.gac",
+          "damage": 0,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters in close and standing above moves.\r\n\r\nYour opponent is put on the mat and you attempt to pin. If the pin fails you stay in control. (After a failed pin attempt, your opponent is removed from the mat.)"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "InsideCradle.gac",
+          "damage": 0,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters in close and standing above moves. Your opponent is put on the mat and you Pin your opponent. If the pin does not work you stay in Control. (After a failed pin attempt, your opponent is removed from the mat.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Inverted Atomic Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "InvertedAtomicDrop.gac",
+          "damage": 7,
+          "cost": 5,
+          "connectedMomentum": 0,
+          "text": ""
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "InvertedAtomicDropEX3.gac",
+          "damage": 3,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves. Technical Combo: +4 damage. (If you connected with a Technical move last turn, this move does +4 damage.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Knee Lift",
+      "count": 4,
+      "uniqueGameplayVariants": 4,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "KneeLift2E.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters in close and head down moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "KneeLift.gac",
+          "damage": 2,
+          "cost": 3,
+          "connectedMomentum": 1,
+          "text": "Counters in close and head down moves."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "KneeLiftEX1.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended moves."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "KneeLiftEX3.gac",
+          "damage": 4,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves. Can't be countered by Technical moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Knowledge",
+      "count": 6,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX2",
+        "EX3",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Knowledge2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Knowledge1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "KnowledgeEX1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "KnowledgeEX2.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "KnowledgeEX3.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "KnowledgeTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Knowledge. Your opponent can't see this page."
+        }
+      ]
+    },
+    {
+      "displayName": "Lariat",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Lariat2E.gac",
+          "damage": 4,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters hit or miss and mad rush moves. When you play this move, name a move type (not Defensive). If this connects, your opponent buries a move of the chosen move type and is put on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "PowerfulClothesline.gac",
+          "damage": 4,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters hit or miss and mad rush moves. When you play this move, name a move type (not Defensive). If this connects, your opponent buries a move of the chosen move type and is put on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Laying The Smack Down",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LayingTheSmackDown2E.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 2,
+          "text": "Play only in the ring and only if you haven't already connected with it this match. Your opponent either moves to ringside or is put on the mat (randomly chosen). You draw 3 pages and gain +2 Attitude, and your opponent ditches two random Strike moves from hand.\u0016"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LayingTheSmackDown.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 2,
+          "text": "Your opponent moves to ringside, or is put on the mat (randomly chosen). You draw 3 pages and gain +2 Attitude, and your opponent ditches 2 random Strike moves from hand.\u0016"
+        }
+      ]
+    },
+    {
+      "displayName": "Leg Drop",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LegDrop2E.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat. If this move is countered you lose up to an additional 2 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LegDrop.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat. If this move is countered you lose up to an additional 2 Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Leg Grapevine",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LegGrapevine2E.gac",
+          "damage": 3,
+          "cost": 5,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LegGrapevine.gac",
+          "damage": 3,
+          "cost": 5,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Lionsault2E",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Lionsault2E.gac",
+          "damage": 13,
+          "cost": 13,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat and in the ring."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Lionsault.gac",
+          "damage": 13,
+          "cost": 13,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat and in the ring."
+        }
+      ]
+    },
+    {
+      "displayName": "Litas Moonsault",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LitasMoonsault2E.gac",
+          "damage": 12,
+          "cost": 13,
+          "connectedMomentum": 0,
+          "text": "Play only while your opponent is on the mat in the ring. If your opponent is not stunned and you have more Attitude, this move does +5 damage and stuns your opponent until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LitasMoonsault.gac",
+          "damage": 12,
+          "cost": 13,
+          "connectedMomentum": 0,
+          "text": "(Face Page.) Play only while your opponent is on the mat in the ring. If your opponent is not stunned and you have more Attitude, this move does +5 damage and stuns your opponent until the end of next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Low Blow Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LowBlowKick2E.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 0,
+          "text": "You get 3 Warnings. Your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LowBlow.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "You receive 3 Warnings from the referee. Your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Low Blow Mule Kick",
+      "count": 3,
+      "uniqueGameplayVariants": 3,
+      "editions": [
+        "2E",
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LowBlowMuleKick2E.gac",
+          "damage": 6,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves. Your opponent is put on the mat and stunned next turn. You receive 4 Warnings. When used as a counter, there is a 90% chance that you receive only 1 Warning."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "MuleKick.gac",
+          "damage": 6,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves. Your opponent is put on the mat and stunned next turn. You receive 4 Warnings from the referee. When used as a counter, there is a 90% chance that you receive only 1 Warning."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "LowBlowMuleKickEX3.gac",
+          "damage": 4,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Counters back to foe and in close moves.    When you play this, your opponent is Staggered and can't play specials this turn, and you get 3 Warnings."
+        }
+      ]
+    },
+    {
+      "displayName": "Low Blow Uppercut",
+      "count": 3,
+      "uniqueGameplayVariants": 3,
+      "editions": [
+        "2E",
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "LowBlowUppercut2E.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended and victim below moves. You get 4 Warnings. This move does up to +7 damage.    There is a 50% chance your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "LowBlowUppercut.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended and victim below moves. You get 4 Warnings from the Referee. This move does up to +7 damage. There is a 50% chance your opponent is stunned until the end of the next turn. (Heel page.)"
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "LowBlowUppercutEX3.gac",
+          "damage": 4,
+          "cost": 10,
+          "connectedMomentum": 1,
+          "text": "Counters head down and leg extended moves.    When you play this, your opponent is Staggered and can't play specials this turn, and you get 3 Warnings."
+        }
+      ]
+    },
+    {
+      "displayName": "Mafia Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "MafiaKick2E.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.    This move does up to +5 damage. Your opponent is put on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "MafiaKick.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.    This move does up to +5 damage. Your opponent is put on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Moonsault",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Moonsault2E.gac",
+          "damage": 10,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat and in the ring. If countered, you are stunned until the end of the turn.  All specials in your opponent's hand are buried. Your opponent stays on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Moonsault.gac",
+          "damage": 10,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat and in the ring. If countered, you are stunned until the end of the turn.  All Specials in your opponent's hand are buried. Your opponent stays on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Mounted Punches",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "MountedPunches2E.gac",
+          "damage": 5,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "MountedPunches.gac",
+          "damage": 5,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Neck Vice",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "NeckVice2E.gac",
+          "damage": 2,
+          "cost": 1,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "NeckVice.gac",
+          "damage": 2,
+          "cost": 1,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Neckbreaker",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Neckbreaker2E.gac",
+          "damage": 9,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "If your opponent has no head damage you gain +1 Attitude. Otherwise, there is a 33% chance you draw a page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "NeckbreakerEX3.gac",
+          "damage": 5,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "If your opponent has at least 2 Strength, he loses 1."
+        }
+      ]
+    },
+    {
+      "displayName": "Pedigree",
+      "count": 3,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Pedigree2E.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Triple H Finisher    Counters head down moves. If your opponent has less than 40 pages left in his playbook, this move does +1 damage for each page less (up to +20.)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Pedigree.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Triple H Finisher    Counters head down moves. If your opponent has less than 40 pages left in his playbook, this move does +1 damage for each page less (up to +20.)"
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "PedigreeTourn.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Triple H Finisher    Counters head down moves. If your opponent has less than 40 pages left in his playbook, this move does +1 damage for each page less (up to +20.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Piledriver",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Piledriver2E.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "This move does 10 head damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Piledriver.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Your opponent takes 10 Head damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Power Bomb",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX3"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "PowerBomb2E.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Countered by Hurricanrana.\r\n\r\nIf not already stunned, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "PowerBomb.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Countered by Hurricanrana.    If not already stunned, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "PowerBombEX3.gac",
+          "damage": 8,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Cruiserweight Trademark Play only against a Cruiserweight. Can't be played by a Diva. Technical Combo: This move does +7 damage. Willpower 2"
+        }
+      ]
+    },
+    {
+      "displayName": "Power Slam",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "PowerSlam2E.gac",
+          "damage": 5,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters high risk and mad rush moves. This move does an additional +1 damage for each Strength you have (up to +5). \r\nIf not already stunned, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "PowerSlam.gac",
+          "damage": 5,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters high risk and mad rush moves. This move does an additional +1 damage for each Strength you have (up to +5.) If not already stunned, your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Press Slam",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "SS2002"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "PressSlam.gac",
+          "damage": 11,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves."
+        },
+        {
+          "edition": "SS2002",
+          "sourceFile": "PressSlamSS2002.gac",
+          "damage": 11,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Pump Handle Slam",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "PumpHandleSlam.gac",
+          "damage": 10,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Test Trademark Counters head down and back to foe moves. If your opponent isn't stunned and has connected with less Impact moves than you, he is stunned until the end of next turn."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "PumpHandleSlamEX2.gac",
+          "damage": 10,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Test Trademark\r\n\r\nCounters head down and back to foe moves. If your opponent isn't stunned and has connected with less Impact moves than you, he is stunned until the end of next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Punch",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Punch2E.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended and in close moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Punch.gac",
+          "damage": 2,
+          "cost": 2,
+          "connectedMomentum": 1,
+          "text": "Counters arm extended and in close moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Regal Stretch",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "EX1"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "RegalStretch.gac",
+          "damage": 4,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "William Regal Finisher Play only while your opponent is on the mat. Countered by Back Elbow. This move does 1 Arm and 1 Back damage per turn for each Technical Momentum you have."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "RegalStretchEX1.gac",
+          "damage": 4,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "William Regal Finisher Play only while your opponent is on the mat. Countered by Back Elbow. This move does 1 Arm and 1 Back damage per turn for each Technical Momentum you have."
+        }
+      ]
+    },
+    {
+      "displayName": "Release Spine Buster",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ReleaseSpineBuster2E.gac",
+          "damage": 9,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. \r\n\r\nIf your opponent has 7 back damage, he ditches all Strength moves in hand.\r\n\r\n(Counts as \"Spine Buster\".)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ReleaseSpineBuster.gac",
+          "damage": 9,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. If your opponent has 7 Back damage, he ditches all Strength moves in hand. (Counts as \"Spine Buster\".)"
+        }
+      ]
+    },
+    {
+      "displayName": "Reverse DDT",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ReverseDDT2E.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves. Can only be used as a counter if you have Agility.\r\n\r\nYour opponent's next four pages from playbook are ditched."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ReverseDDT.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves. Can only be used as a counter if you have Agility. The next four pages from your opponent's playbook are ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Ric Flair's Figure Four",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "RicFlairsFigureFour.gac",
+          "damage": 4,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Ric Flair Finisher Play only if your opponent is on the mat or as a counter. Counters Figure Four. This move does 10 leg damage per turn. If your opponent has more leg damage than twice his Knowledge, this move can't be countered by moves the turn you play it. (Counts as \"Figure Four.\")"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "RicFlairsFigureFourLE.gac",
+          "damage": 4,
+          "cost": 15,
+          "connectedMomentum": 1,
+          "text": "Ric Flair Finisher Play only if your opponent is on the mat or as a counter. Counters Figure Four. This move does 10 leg damage per turn. If your opponent has more leg damage than twice his Knowledge, this move can't be countered by moves the turn you play it. (Counts as \"Figure Four.\")"
+        }
+      ]
+    },
+    {
+      "displayName": "Rock Bottom",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "RockBottom2E.gac",
+          "damage": 16,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "The Rock Finisher\r\n\r\nCounters arm extended and in close moves. If your opponent is not stunned and has less pages in hand than you, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "RockBottom.gac",
+          "damage": 16,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Only The Rock may play Rock Bottom. Counters arm extended and in close moves. If your opponent is not stunned and has less pages in hand you do, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "RockBottomTourn.gac",
+          "damage": 16,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "The Rock Finisher\r\n\r\nCounters arm extended and in close moves. If your opponent is not stunned and has less pages in hand than you, your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Round Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "RoundKick2E.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 0,
+          "text": "33% chance your opponent is stunned until the end of the next turn.\u000f"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "RoundKick.gac",
+          "damage": 4,
+          "cost": 3,
+          "connectedMomentum": 0,
+          "text": "33% chance your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Samoan Drop",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SamoanDrop2E.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SamoanDrop.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "SamoanDropEX2.gac",
+          "damage": 8,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Counters mad rush moves. To play, you must choose and ditch a page. A random Gameplan special in play is ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Senton Splash",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SentonSplash2E.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Play only while your opponent is on the mat in the ring."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SentonSplash.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Play only while your opponent is on the mat in the ring."
+        }
+      ]
+    },
+    {
+      "displayName": "Set Up A Table",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SetUpATable2E.gac",
+          "damage": 0,
+          "cost": 6,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is stunned or if you have 10 Momentum. A Table is put into play. This move provides no Attitude.\u000f"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "SetUpATable.gac",
+          "damage": 0,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is stunned or if you have 10 Momentum. A Table is put into play. This move provides no Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Sharpshooter",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Sharpshooter2E.gac",
+          "damage": 3,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat or as a counter to Sharpshooter. If played as a counter, your opponent is put on the mat. Your opponent can't play moves the first three turns this hold is applied (but he can the turn you play this move).\r\n\r\nThis move does 10 leg and 10 back damage each turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Sharpshooter.gac",
+          "damage": 3,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Play only if your opponent is on the mat or as a counter to Sharpshooter. If played as a counter, your opponent is put on the mat. Your opponent can't play moves the first three turns this hold is applied (but he can the turn you play this move). This move does 10 Leg and 10 Back damage per turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Shooting Star Press",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ShootingStarPress2E.gac",
+          "damage": 17,
+          "cost": 12,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat in the ring, and only if you haven't yet connected with this move this match."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ShootingStarPress.gac",
+          "damage": 17,
+          "cost": 12,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat in the ring, and only if you haven't yet connected with this move this match."
+        }
+      ]
+    },
+    {
+      "displayName": "Shoulder Block",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ShoulderBlock2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended moves. Countered by Shoulder Block."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ShoulderBlock.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters leg extended moves. Countered by Shoulder Block."
+        }
+      ]
+    },
+    {
+      "displayName": "Shove",
+      "count": 3,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Shove2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Shove.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "ShoveTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters back to foe and victim below moves. Countered by arm extended moves. This move provides no Momentum."
+        }
+      ]
+    },
+    {
+      "displayName": "Showstopper Chokeslam",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ShowstopperChokeslam2E.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Does +10 damage if you have more Momentum than your opponent (not including Attitude). If not already stunned, your opponent is stunned until the end of next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ShowstopperChokeslam.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Does +10 damage if you have more Ability Momentum than your opponent. If not already stunned, your opponent is stunned until the end of next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Sidewalk Slam",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "SidewalkSlam.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "SidewalkSlamEX2.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves.\r\n\r\n\"Strength\" is drawn from your playbook."
+        }
+      ]
+    },
+    {
+      "displayName": "Slam Into Announce Table",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SlamIntoAnnounceTable2E.gac",
+          "damage": 6,
+          "cost": 7,
+          "connectedMomentum": 0,
+          "text": "Play only at ringside. All of your opponent's Gameplan specials that are in play are ditched.\u001b"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "SlamIntoAnnounceTable.gac",
+          "damage": 6,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Play only at Ringside. All of your opponent's Gameplan Specials that are in play are ditched."
+        }
+      ]
+    },
+    {
+      "displayName": "Slap",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Slap2E.gac",
+          "damage": 0,
+          "cost": 1,
+          "connectedMomentum": 0,
+          "text": "Your opponent ditches a random page from hand that isn't momentum, and gains 3 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Slap.gac",
+          "damage": 0,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Your opponent ditches a random page from hand that isn't Momentum, and gains 3 Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Sleeper",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Sleeper2E.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. Countered by Back Suplex. This move does 2 head damage per turn. Each turn, if your opponent has 0 Attitude, a random move from his hand is ditched. Otherwise, he loses 1 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Sleeper.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. Countered by Back Suplex.\n\nThis move does 2 Head damage per turn. Each turn, if your opponent has 0 Attitude, a random move from his hand is ditched. Otherwise, your opponent loses 1 Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Slingshot Into Post",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SlingshotIntoPost2E.gac",
+          "damage": 8,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters victim below moves. Can only be used offensively if your opponent is on the mat. Your opponent is put on the mat. If played at ringside, your opponent is Busted Wide Open."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SlingshotIntoPost.gac",
+          "damage": 8,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Counters victim below moves. Can only be used offensively if your opponent is on the mat. Your opponent is put on the mat. If played at Ringside, your opponent is Busted Wide Open."
+        }
+      ]
+    },
+    {
+      "displayName": "Snake Eyes",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SnakeEyes2E.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 0,
+          "text": "Your opponent ditches two random pages.\u000f"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SnakeEyes.gac",
+          "damage": 5,
+          "cost": 8,
+          "connectedMomentum": 1,
+          "text": "Your opponent ditches 2 random pages."
+        }
+      ]
+    },
+    {
+      "displayName": "Snap Mare",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SnapMare2E.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SnapMare.gac",
+          "damage": 1,
+          "cost": 1,
+          "connectedMomentum": 1,
+          "text": "Counters behind opponent moves."
+        }
+      ]
+    },
+    {
+      "displayName": "Snap Suplex",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SnapSuplex2E.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters head down and in close moves.\r\n\r\nThis move does +1 damage (up to +5) for each Attitude you have."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SnapSuplex.gac",
+          "damage": 5,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters head down and in close moves. This move does +1 damage for each Attitude you have, up to +5."
+        }
+      ]
+    },
+    {
+      "displayName": "Spear",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Spear2E.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Edge Trademark\r\n\r\nCounters mad rush moves. If not already stunned, your opponent is stunned until the end of the next turn and \"Catch Him Stunned\" is drawn from your playbook."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Spear.gac",
+          "damage": 9,
+          "cost": 7,
+          "connectedMomentum": 1,
+          "text": "Edge Trademark Counters mad rush moves. If not already stunned, your opponent is stunned until the end of next turn and you draw \"Catch Him Stunned\" from your playbook."
+        }
+      ]
+    },
+    {
+      "displayName": "Spine Buster",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SpineBuster2E.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. This move does 3 Back damage."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SpineBuster.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Counters mad rush moves. This move does 3 Back damage."
+        }
+      ]
+    },
+    {
+      "displayName": "Standing Switch",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "StandingSwitch2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and in close moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "StandingSwitch.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and in close moves. Countered by back to foe moves and Standing Switch. This move provides no Momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "StandingSwitchTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and in close moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Stratusfaction",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "Stratusfaction.gac",
+          "damage": 12,
+          "cost": 12,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Finisher Counters back to foe and in close moves. Your opponent is stunned until the end of the next turn (unless already stunned). (Counts as \"Bulldog\".)"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "StratusfactionLE.gac",
+          "damage": 12,
+          "cost": 12,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Finisher\r\n\r\nCounters back to foe and in close moves.\r\nYour opponent is stunned until the end of the next turn (unless already stunned).\r\n(Counts as \"Bulldog\".)"
+        }
+      ]
+    },
+    {
+      "displayName": "Stratusphere",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "Stratusphere.gac",
+          "damage": 9,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Trademark Counters high risk moves. Play only if you have hit 2 moves in a row or as a counter. Your opponent is Staggered and you get Crowd Support. (Counts as \"Hurricanrana\".)"
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "StratusphereLE.gac",
+          "damage": 9,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Trademark Counters high risk moves. Play only if you have hit 2 moves in a row or as a counter. Your opponent is Staggered and you get Crowd Support. (Counts as \"Hurricanrana\".)"
+        }
+      ]
+    },
+    {
+      "displayName": "Strength",
+      "count": 6,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX2",
+        "EX3",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Strength2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Strength1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "StrengthEX1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "StrengthEX2.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "StrengthEX3.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "StrengthTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strength. Your opponent can't see this page."
+        }
+      ]
+    },
+    {
+      "displayName": "Strike",
+      "count": 6,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX2",
+        "EX3",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Strike2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Strike1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "StrikeEX1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "StrikeEX2.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "StrikeEX3.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "StrikeTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Strike. Your opponent can't see this page."
+        }
+      ]
+    },
+    {
+      "displayName": "Sunset Flip",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SunsetFlip2E.gac",
+          "damage": 1,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves. Countered by standing above moves. You are put on the mat when you play this. Your opponent is put on the mat and you attempt a pin. If the pin fails you remain in control and draw a page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SunsetFlip.gac",
+          "damage": 1,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters head down moves. Countered by standing above moves. You are put on the mat when you play this. Your opponent is put on the mat and you attempt a pin. If the pin fails, you remain in control and draw a page."
+        }
+      ]
+    },
+    {
+      "displayName": "Super Momentum",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "SuperMomentum.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Hurricane Trademark\r\n\r\nPlay only after turn 18. Gain 1 Attitude, Agility and Technical. \"Heat\" is put into your opponent's hand."
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "SuperMomentumLE.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Hurricane Trademark\r\n\r\nPlay only after turn 18. Gain 1 Attitude, Agility and Technical. \"Heat\" is put into your opponent's hand."
+        }
+      ]
+    },
+    {
+      "displayName": "Swandive Headbutt",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "SwandiveHeadbutt2E.gac",
+          "damage": 7,
+          "cost": 10,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "SwandiveHeadbutt.gac",
+          "damage": 7,
+          "cost": 10,
+          "connectedMomentum": 0,
+          "text": "Only Chris Benoit may play Swandive Headbutt. Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Technical",
+      "count": 6,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core",
+        "EX1",
+        "EX2",
+        "EX3",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "Technical2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "Technical1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "TechnicalEX1.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "TechnicalEX2.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        },
+        {
+          "edition": "EX3",
+          "sourceFile": "TechnicalEX3.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "TechnicalTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "Gain 1 Technical. Your opponent can't see this page."
+        }
+      ]
+    },
+    {
+      "displayName": "The Big Boot",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "EX2"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "AttitudeStarMafiaKick.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Test Finisher    Counters mad rush moves. Your opponent is put on the mat.  This move does +1 damage for each different Impact move you have connected with. (Counts as Mafia Kick.)"
+        },
+        {
+          "edition": "EX2",
+          "sourceFile": "TheBigBootEX2.gac",
+          "damage": 12,
+          "cost": 14,
+          "connectedMomentum": 1,
+          "text": "Test Finisher\r\n\r\nCounters mad rush moves. Your opponent is put on the mat.  This move does +1 damage for each different Impact move you have connected with. (Counts as Mafia Kick.)"
+        }
+      ]
+    },
+    {
+      "displayName": "The Final Cut",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "TheFinalCut2E.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Does +20 damage, -2 damage for each time your opponent has connected with a Takedown move this match (this bonus can't be less than 0).\u000f"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "TheFinalCut.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Does +20 damage, -2 damage for each time your opponent has connected with a Takedown move this match (this bonus can't be less than 0).\u000f"
+        }
+      ]
+    },
+    {
+      "displayName": "The Last Ride",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "TheLastRide2E.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "If not already stunned, your opponent is stunned until the end of next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "TheLastRide.gac",
+          "damage": 13,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "If not already stunned, your opponent is stunned until the end of next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "The Peoples Elbow",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ThePeoplesElbow2E.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat in the ring."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ThePeoplesElbow.gac",
+          "damage": 10,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Only The Rock may play The People's Elbow, and only if your opponent is on the mat in the ring."
+        }
+      ]
+    },
+    {
+      "displayName": "The Rock's DDT",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "FloatoverDDT2E.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "The Rock Trademark     Counters mad rush moves. If you have any Knowledge you draw a page and gain 1 Attitude. If you have any Agility you draw a page and gain 1 Attitude. Counts as DDT."
+        },
+        {
+          "edition": "2E",
+          "sourceFile": "TheRocksDDT2E.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "The Rock Trademark\r\n\r\nCounters mad rush moves. If you have any Knowledge you draw a page and gain 1 Attitude. If you have any Agility you draw a page and gain 1 Attitude. (Counts as DDT.)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "FloatoverDDT.gac",
+          "damage": 7,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "This move may only be played by The Rock. Counters mad rush moves. If you have any Knowledge you draw a page and gain 1 Attitude. If you have any Agility you draw a page and gain 1 Attitude. Counts as DDT."
+        }
+      ]
+    },
+    {
+      "displayName": "Throw Over The Ropes",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ThrowOverTheRopes2E.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Your opponent is sent to ringside. Unless already stunned, your opponent is stunned until the end of the next turn."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ThrowOverTheRopes.gac",
+          "damage": 8,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Your opponent is sent to ringside. Unless already stunned, your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Thrust Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "ThrustKick2E.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 0,
+          "text": "Your opponent is put on the mat. If not already stunned, your opponent is stunned until the end of the next turn.\u0010"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "ThrustKick.gac",
+          "damage": 10,
+          "cost": 9,
+          "connectedMomentum": 0,
+          "text": "Your opponent is put on the mat. If not already stunned, your opponent is stunned until the end of the next turn."
+        }
+      ]
+    },
+    {
+      "displayName": "Trish's Roundhouse Kick",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "LE"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "TrishsChop.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Trademark Counters mad rush moves. Your opponent is Staggered and you get Crowd Support."
+        },
+        {
+          "edition": "LE",
+          "sourceFile": "TrishsRoundhouseKickLE.gac",
+          "damage": 6,
+          "cost": 6,
+          "connectedMomentum": 1,
+          "text": "Trish Stratus Trademark Counters mad rush moves. Your opponent is Staggered and you get Crowd Support."
+        }
+      ]
+    },
+    {
+      "displayName": "Turnbuckle Smash",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "TurnbuckleSmash2E.gac",
+          "damage": 2,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Countered by Turnbuckle Smash.\r\n\r\nFor each point of Strike momentum you have this move does +2 damage (up to +10.)"
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "TurnbuckleSmash.gac",
+          "damage": 2,
+          "cost": 4,
+          "connectedMomentum": 1,
+          "text": "Play only in the ring. Countered by Turnbuckle Smash. For each point of Strike momentum you have you do an additional 2 damage (up to +10.)"
+        }
+      ]
+    },
+    {
+      "displayName": "Up and Over",
+      "count": 3,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core",
+        "TOURN"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "UpAndOver2E.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "UpAndOver.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Momentum."
+        },
+        {
+          "edition": "TOURN",
+          "sourceFile": "UpAndOverTourn.gac",
+          "damage": 0,
+          "cost": 0,
+          "connectedMomentum": 0,
+          "text": "This move may not be used offensively. Counters behind opponent and head down moves. Countered by back to foe moves and Standing Switch. This move provides no Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Vertical Suplex",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "VerticalSuplex2E.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves. Countered by Up and Over."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "VerticalSuplex.gac",
+          "damage": 6,
+          "cost": 5,
+          "connectedMomentum": 1,
+          "text": "Counters in close moves. Countered by Up and Over."
+        }
+      ]
+    },
+    {
+      "displayName": "Walls Of Jericho",
+      "count": 2,
+      "uniqueGameplayVariants": 2,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "WallsOfJericho2E.gac",
+          "damage": 6,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "WallsOfJericho.gac",
+          "damage": 6,
+          "cost": 15,
+          "connectedMomentum": 0,
+          "text": "Play only if your opponent is on the mat."
+        }
+      ]
+    },
+    {
+      "displayName": "Whip Into Steel Steps",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "2E",
+        "Core"
+      ],
+      "cards": [
+        {
+          "edition": "2E",
+          "sourceFile": "WhipIntoSteelSteps2E.gac",
+          "damage": 4,
+          "cost": 7,
+          "connectedMomentum": 2,
+          "text": "Play this move only when both you and your opponent are at Ringside. Your opponent ditches two random pages and is put on the mat. You gain +1 Attitude."
+        },
+        {
+          "edition": "Core",
+          "sourceFile": "WhipIntoSteelSteps.gac",
+          "damage": 4,
+          "cost": 7,
+          "connectedMomentum": 2,
+          "text": "Play this move only when both you and your opponent are at Ringside. Your opponent ditches two random pages and is put on the mat. You gain +1 Attitude."
+        }
+      ]
+    },
+    {
+      "displayName": "Wraparound Neckbreaker",
+      "count": 2,
+      "uniqueGameplayVariants": 1,
+      "editions": [
+        "Core",
+        "EX1"
+      ],
+      "cards": [
+        {
+          "edition": "Core",
+          "sourceFile": "WraparoundNeckbreaker.gac",
+          "damage": 7,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "William Regal Trademark Counters arm extended moves. Choose one: This move does 5 Arm and 5 Head damage, or you draw a random Special from your playbook."
+        },
+        {
+          "edition": "EX1",
+          "sourceFile": "WraparoundNeckbreakerEX1.gac",
+          "damage": 7,
+          "cost": 9,
+          "connectedMomentum": 1,
+          "text": "William Regal Trademark\r\n\r\nCounters arm extended moves.\r\nChoose one: This move does 5 Arm and 5 Head damage, or you draw a random Special from your playbook."
+        }
+      ]
+    }
+  ]
+}

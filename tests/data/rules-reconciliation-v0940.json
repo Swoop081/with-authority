@@ -1,0 +1,27 @@
+{
+  "version": "v0.9.40",
+  "title": "Original Rules Reconciliation Pass 3",
+  "verified_changes": [
+    "Removed invented escalating submission damage.",
+    "Removed generic random escape probability.",
+    "Hold damage is parsed from original visible card text by body part and applied each maintained turn.",
+    "Printed cannot-submit clauses prevent tap-outs.",
+    "Printed automatic release percentages and maximum turn counts are enforced.",
+    "Submission Autocounter uses the standard cost, including printed page reductions such as -3.",
+    "Distracted referees do not accept submissions.",
+    "Per-turn Warning, Attitude-loss, and zero-Attitude discard clauses are interpreted from original hold text."
+  ],
+  "simulation_checks": {
+    "submission_profiles_parsed": true,
+    "generic_escape_removed": true,
+    "printed_turn_limits_enforced": true,
+    "printed_release_chances_enforced": true,
+    "submission_immunity_enforced": true,
+    "hold_autocounter_enabled": true
+  },
+  "remaining_audit": [
+    "Exact executable pin-score arithmetic",
+    "Rare hold scripts with dynamic damage based on statuses or Superstar limits",
+    "Player-selected targets inside complex Special pages"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "version": "v0.9.57",
+  "rosterCount": 42,
+  "starterPackagesRecovered": 67,
+  "confirmedBonusStarters": [
+    "BonusSnow.gap",
+    "BonusBlackman.gap"
+  ],
+  "cardListReferencedButMissingPackages": [
+    "Starter-ReyMysterioLE.gap"
+  ],
+  "expansionProducts": {
+    "WrestleMania X8": {
+      "sourceFile": "1ofeachX8.gap",
+      "contents": [
+        {
+          "unid": 552,
+          "sourceFile": "24InchPythons.gac"
+        },
+        {
+          "unid": 517,
+          "sourceFile": "NewWorldOrder.gac"
+        },
+        {
+          "unid": 550,
+          "sourceFile": "HogansBigBoot.gac"
+        },
+        {
+          "unid": 550,
+          "sourceFile": "HogansBigBoot.gac"
+        },
+        {
+          "unid": 550,
+          "sourceFile": "HogansBigBoot.gac"
+        },
+        {
+          "unid": 514,
+          "sourceFile": "LegDropOfDoom.gac"
+        },
+        {
+          "unid": 514,
+          "sourceFile": "LegDropOfDoom.gac"
+        },
+        {
+          "unid": 514,
+          "sourceFile": "LegDropOfDoom.gac"
+        },
+        {
+          "unid": 515,
+          "sourceFile": "HollywoodHogan.gac"
+        },
+        {
+          "unid": 553,
+          "sourceFile": "HookTheLegX8.gac"
+        },
+        {
+          "unid": 553,
+          "sourceFile": "HookTheLegX8.gac"
+        },
+        {
+          "unid": 553,
+          "sourceFile": "HookTheLegX8.gac"
+        },
+        {
+          "unid": 553,
+          "sourceFile": "HookTheLegX8.gac"
+        },
+        {
+          "unid": 553,
+          "sourceFile": "HookTheLegX8.gac"
+        },
+        {
+          "unid": 560,
+          "sourceFile": "HulkUp.gac"
+        },
+        {
+          "unid": 554,
+          "sourceFile": "JustBringIt.gac"
+        },
+        {
+          "unid": 555,
+          "sourceFile": "KevinNash.gac"
+        },
+        {
+          "unid": 556,
+          "sourceFile": "NWOCountry.gac"
+        },
+        {
+          "unid": 544,
+          "sourceFile": "Poison.gac"
+        },
+        {
+          "unid": 535,
+          "sourceFile": "RazorsEdge.gac"
+        },
+        {
+          "unid": 535,
+          "sourceFile": "RazorsEdge.gac"
+        },
+        {
+          "unid": 535,
+          "sourceFile": "RazorsEdge.gac"
+        },
+        {
+          "unid": 516,
+          "sourceFile": "ScottHall.gac"
+        },
+        {
+          "unid": 557,
+          "sourceFile": "StealYourFinisherX8.gac"
+        },
+        {
+          "unid": 558,
+          "sourceFile": "Steveweiser.gac"
+        },
+        {
+          "unid": 546,
+          "sourceFile": "WithAuthorityWMX8X8.gac"
+        },
+        {
+          "unid": 546,
+          "sourceFile": "WithAuthorityWMX8X8.gac"
+        },
+        {
+          "unid": 546,
+          "sourceFile": "WithAuthorityWMX8X8.gac"
+        },
+        {
+          "unid": 546,
+          "sourceFile": "WithAuthorityWMX8X8.gac"
+        },
+        {
+          "unid": 546,
+          "sourceFile": "WithAuthorityWMX8X8.gac"
+        }
+      ],
+      "notes": "Fixed 30-page expansion box. Contains Hollywood Hogan and Scott Hall Superstar pages plus nWo/WMX8 cards; Kevin Nash appears as a Scott Hall Trademark Support page, while Kevin Nash has a separate recovered starter package."
+    },
+    "SummerSlam 2002": {
+      "sourceFile": "SummerSlam2002.gap",
+      "contents": [
+        {
+          "unid": 1085,
+          "sourceFile": "BrockLesnar.gac"
+        },
+        {
+          "unid": 1087,
+          "sourceFile": "F5.gac"
+        },
+        {
+          "unid": 1087,
+          "sourceFile": "F5.gac"
+        },
+        {
+          "unid": 1086,
+          "sourceFile": "DriveIntoTheCorner.gac"
+        },
+        {
+          "unid": 1086,
+          "sourceFile": "DriveIntoTheCorner.gac"
+        },
+        {
+          "unid": 1091,
+          "sourceFile": "BodyVice.gac"
+        },
+        {
+          "unid": 1091,
+          "sourceFile": "BodyVice.gac"
+        },
+        {
+          "unid": 1089,
+          "sourceFile": "SpinningPowerslam.gac"
+        },
+        {
+          "unid": 1089,
+          "sourceFile": "SpinningPowerslam.gac"
+        },
+        {
+          "unid": 1092,
+          "sourceFile": "PaulHeyman.gac"
+        },
+        {
+          "unid": 1111,
+          "sourceFile": "TheNextBigThing.gac"
+        },
+        {
+          "unid": 1090,
+          "sourceFile": "ShawnMichaels.gac"
+        },
+        {
+          "unid": 1094,
+          "sourceFile": "FlyingElbowDropSS2002.gac"
+        },
+        {
+          "unid": 1094,
+          "sourceFile": "FlyingElbowDropSS2002.gac"
+        },
+        {
+          "unid": 1097,
+          "sourceFile": "SweetChinMusic.gac"
+        },
+        {
+          "unid": 1097,
+          "sourceFile": "SweetChinMusic.gac"
+        },
+        {
+          "unid": 1099,
+          "sourceFile": "HBK.gac"
+        },
+        {
+          "unid": 1101,
+          "sourceFile": "TheShowstopper.gac"
+        },
+        {
+          "unid": 1100,
+          "sourceFile": "TheHeadliner.gac"
+        },
+        {
+          "unid": 1105,
+          "sourceFile": "TenCount.gac"
+        },
+        {
+          "unid": 1108,
+          "sourceFile": "NipUp.gac"
+        },
+        {
+          "unid": 1084,
+          "sourceFile": "RuthlessAggression.gac"
+        },
+        {
+          "unid": 1109,
+          "sourceFile": "CrucifixRollUp.gac"
+        },
+        {
+          "unid": 1109,
+          "sourceFile": "CrucifixRollUp.gac"
+        },
+        {
+          "unid": 1109,
+          "sourceFile": "CrucifixRollUp.gac"
+        },
+        {
+          "unid": 1109,
+          "sourceFile": "CrucifixRollUp.gac"
+        },
+        {
+          "unid": 1109,
+          "sourceFile": "CrucifixRollUp.gac"
+        },
+        {
+          "unid": 1110,
+          "sourceFile": "DoubleLegTakedownSS2002.gac"
+        },
+        {
+          "unid": 1110,
+          "sourceFile": "DoubleLegTakedownSS2002.gac"
+        },
+        {
+          "unid": 1110,
+          "sourceFile": "DoubleLegTakedownSS2002.gac"
+        },
+        {
+          "unid": 1110,
+          "sourceFile": "DoubleLegTakedownSS2002.gac"
+        },
+        {
+          "unid": 1110,
+          "sourceFile": "DoubleLegTakedownSS2002.gac"
+        },
+        {
+          "unid": 1113,
+          "sourceFile": "WithAuthoritySS2002.gac"
+        },
+        {
+          "unid": 1113,
+          "sourceFile": "WithAuthoritySS2002.gac"
+        },
+        {
+          "unid": 1113,
+          "sourceFile": "WithAuthoritySS2002.gac"
+        },
+        {
+          "unid": 1113,
+          "sourceFile": "WithAuthoritySS2002.gac"
+        },
+        {
+          "unid": 1113,
+          "sourceFile": "WithAuthoritySS2002.gac"
+        },
+        {
+          "unid": 1106,
+          "sourceFile": "FlipOverCover.gac"
+        },
+        {
+          "unid": 1106,
+          "sourceFile": "FlipOverCover.gac"
+        },
+        {
+          "unid": 1106,
+          "sourceFile": "FlipOverCover.gac"
+        },
+        {
+          "unid": 1112,
+          "sourceFile": "PressSlamSS2002.gac"
+        },
+        {
+          "unid": 1112,
+          "sourceFile": "PressSlamSS2002.gac"
+        },
+        {
+          "unid": 1112,
+          "sourceFile": "PressSlamSS2002.gac"
+        },
+        {
+          "unid": 1104,
+          "sourceFile": "SetUp.gac"
+        },
+        {
+          "unid": 1104,
+          "sourceFile": "SetUp.gac"
+        },
+        {
+          "unid": 1104,
+          "sourceFile": "SetUp.gac"
+        }
+      ],
+      "notes": "Fixed 46-page expansion box containing Brock Lesnar and Shawn Michaels Superstar pages and expansion cards; it is not a complete 55+ page starter package."
+    }
+  },
+  "unresolvedStarterSources": [
+    "Brock Lesnar",
+    "Shane McMahon",
+    "Shawn Michaels",
+    "Scott Hall",
+    "Rey Mysterio"
+  ],
+  "conclusion": "The archive proves these Superstars existed. Al Snow and Steve Blackman have exact bonus starters. Rey Mysterio starter is indexed by CardList.gal but its package file is absent. X8 and SummerSlam are fixed expansion boxes, not complete starter playbooks."
+}

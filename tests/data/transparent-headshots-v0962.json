@@ -1,0 +1,705 @@
+{
+  "version": "v0.9.62",
+  "processedCount": 58,
+  "skippedCount": 0,
+  "method": "Left colour half plus inverted right-side silhouette mask converted to alpha.",
+  "processed": [
+    {
+      "file": "AlSnowHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "AnotherAttitudeStarHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "BookerTHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "BradshawHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "BrockLesnarHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "BrockLesnarHeadShotReverse.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "BubbaRayDudleyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ChrisBenoit2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ChrisBenoitHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ChrisJericho2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ChrisJerichoHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ChristianHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "DVonDudleyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "EddieGuerrero2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "EddieGuerreroHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Edge2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "EdgeHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "GoldustHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "HollywoodHoganHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "HollywoodHoganHeadShotReverse.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "HollywoodHulkHoganHeadShot2E.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "HollywoodHulkHoganHeadShotReverse2E.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "JeffHardyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Kane2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "KaneHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "KaneHeadShot2.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "KevinNashHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "KurtAngle2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "KurtAngleHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "LanceStormHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Lita2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "LitaHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "MattHardyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ReyMysterioHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "RicFlairHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "RikishiPhatuHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "RobVanDamHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ScottHallHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Scotty2HottyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ShaneMcMahonHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "ShawnMichaelsHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "SpikeDudleyHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "SteveBlackmanHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "StoneColdHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TajiriHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TazzHeadShot.webp",
+      "sourceSize": [
+        440,
+        172
+      ],
+      "outputSize": [
+        220,
+        172
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheBigShow2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheBigShowHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheHurricaneHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheRock2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheRockHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheUndertaker2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TheUndertakerHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TripleH2EHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TripleHHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "TrishStratusEX3HeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "WilliamRegalHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    },
+    {
+      "file": "XPacHeadShot.webp",
+      "sourceSize": [
+        440,
+        173
+      ],
+      "outputSize": [
+        220,
+        173
+      ],
+      "transparent": true
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,17 @@
+{
+  "version": "v0.9.93",
+  "inlineClickFunctions": 52,
+  "missingClickFunctions": [],
+  "duplicateFunctions": [],
+  "mobileChecks": {
+    "viewportFitCover": true,
+    "safeAreaCSS": true,
+    "focusVisible": true,
+    "minimumTapRule": true
+  },
+  "recommendations": [
+    "Continue direct iPhone PWA checks for overlays and large hands",
+    "Keep one action per explicit button; card body tap flips only",
+    "Use contain for full cards and transparent portrait rules for headshots"
+  ]
+}

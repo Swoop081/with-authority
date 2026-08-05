@@ -1,0 +1,622 @@
+{
+  "version": "v0.9.195",
+  "editionDecks": 24,
+  "baseDecksRetained": 42,
+  "totalFocusedDecks": 66,
+  "decks": [
+    {
+      "superstar": "benoit1",
+      "baseSuperstar": "benoit",
+      "edition": "1st Edition",
+      "name": "Chris Benoit (1st Edition) \u2014 Crippler Cross Face / Rolling German Suplex",
+      "finisherId": "Original_CripplerCrossFaceTourn",
+      "finisherName": "Crippler Cross Face",
+      "trademarkId": "OriginalExact_RollingGermanSuplex",
+      "trademarkName": "Rolling German Suplex",
+      "keyMoveTypes": [
+        "in close",
+        "behind opponent"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "BodySlam",
+        "HipToss"
+      ]
+    },
+    {
+      "superstar": "benoit2e",
+      "baseSuperstar": "benoit",
+      "edition": "2nd Edition",
+      "name": "Chris Benoit (2nd Edition) \u2014 Crippler Cross Face / Rolling German Suplex",
+      "finisherId": "Original_CripplerCrossFaceTourn",
+      "finisherName": "Crippler Cross Face",
+      "trademarkId": "RollingGermanSuplex2E",
+      "trademarkName": "Rolling German Suplex",
+      "keyMoveTypes": [
+        "in close",
+        "behind opponent"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "BodySlam",
+        "HipToss"
+      ]
+    },
+    {
+      "superstar": "jericho1",
+      "baseSuperstar": "jericho",
+      "edition": "Promo",
+      "name": "Chris Jericho (Promo) \u2014 Double Powerbomb / One Arm Bulldog",
+      "finisherId": "DoublePowerbomb",
+      "finisherName": "Double Powerbomb",
+      "trademarkId": "OneArmBulldog",
+      "trademarkName": "One Arm Bulldog",
+      "keyMoveTypes": [
+        "victim below",
+        "mad rush"
+      ],
+      "methods": [
+        "Strength",
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "BackBodyDrop",
+        "Original_Splash_Core"
+      ]
+    },
+    {
+      "superstar": "jericho2e",
+      "baseSuperstar": "jericho",
+      "edition": "2nd Edition",
+      "name": "Chris Jericho (2nd Edition) \u2014 Walls Of Jericho / Lionsault2E",
+      "finisherId": "WallsOfJericho2E",
+      "finisherName": "Walls Of Jericho",
+      "trademarkId": "Lionsault2E",
+      "trademarkName": "Lionsault2E",
+      "keyMoveTypes": [],
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "BackBodyDrop",
+        "Original_Splash_Core"
+      ]
+    },
+    {
+      "superstar": "eddie1",
+      "baseSuperstar": "eddie",
+      "edition": "Expansion 1",
+      "name": "Eddie Guerrero (EX1) \u2014 Frog Splash E X1 / Latino Heat",
+      "finisherId": "FrogSplashEX1",
+      "finisherName": "Frog Splash E X1",
+      "trademarkId": "Original_LatinoHeat_Core",
+      "trademarkName": "Latino Heat",
+      "keyMoveTypes": [],
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "BackBodyDrop",
+        "Original_Splash_Core"
+      ]
+    },
+    {
+      "superstar": "eddie2e",
+      "baseSuperstar": "eddie",
+      "edition": "2nd Edition",
+      "name": "Eddie Guerrero (2nd Edition) \u2014 Frog Splash E X1 / Latino Heat",
+      "finisherId": "FrogSplashEX1",
+      "finisherName": "Frog Splash E X1",
+      "trademarkId": "Original_LatinoHeat_Core",
+      "trademarkName": "Latino Heat",
+      "keyMoveTypes": [],
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "BackBodyDrop",
+        "Original_Splash_Core"
+      ]
+    },
+    {
+      "superstar": "edge1",
+      "baseSuperstar": "edge",
+      "edition": "1st Edition",
+      "name": "Edge (1st Edition) \u2014 Edgecution / Spear",
+      "finisherId": "Original_Buzzkiller",
+      "finisherName": "Edgecution",
+      "trademarkId": "Spear",
+      "trademarkName": "Spear",
+      "keyMoveTypes": [
+        "victim below",
+        "mad rush"
+      ],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrikeTourn",
+        "TechnicalTourn",
+        "Original_Clothesline",
+        "Original_ElbowToTheBackOfTheHead"
+      ]
+    },
+    {
+      "superstar": "edge2e",
+      "baseSuperstar": "edge",
+      "edition": "2nd Edition",
+      "name": "Edge (2nd Edition) \u2014 Edgecution / Edge-o-matic",
+      "finisherId": "Original_EdgecutionTourn",
+      "finisherName": "Edgecution",
+      "trademarkId": "Original_Edgeomatic2E",
+      "trademarkName": "Edge-o-matic",
+      "keyMoveTypes": [
+        "victim below",
+        "behind opponent"
+      ],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrikeTourn",
+        "TechnicalTourn",
+        "Original_Clothesline",
+        "Original_ElbowToTheBackOfTheHead"
+      ]
+    },
+    {
+      "superstar": "hoganNwo",
+      "baseSuperstar": "hogan",
+      "edition": "nWo / Limited Edition",
+      "name": "Hollywood Hogan (nWo) \u2014 Hogan's Leg Drop / Hogan's Big Boot",
+      "finisherId": "Original_LegDropOfDoom",
+      "finisherName": "Hogan's Leg Drop",
+      "trademarkId": "Original_HogansBigBoot",
+      "trademarkName": "Hogan's Big Boot",
+      "keyMoveTypes": [
+        "hit or miss",
+        "leg extended"
+      ],
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrikeTourn",
+        "AgilityTourn",
+        "StrikeTourn",
+        "Original_FlatOfTheFootEX2",
+        "Original_FistDrop"
+      ]
+    },
+    {
+      "superstar": "hogan2e",
+      "baseSuperstar": "hogan",
+      "edition": "2nd Edition",
+      "name": "Hulk Hogan (2nd Edition) \u2014 Hogan's Leg Drop / Hogan's Big Boot",
+      "finisherId": "Original_HogansLegDropTourn",
+      "finisherName": "Hogan's Leg Drop",
+      "trademarkId": "Original_HogansBigBoot2E",
+      "trademarkName": "Hogan's Big Boot",
+      "keyMoveTypes": [
+        "hit or miss",
+        "leg extended"
+      ],
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrikeTourn",
+        "AgilityTourn",
+        "StrikeTourn",
+        "Original_FlatOfTheFootEX2",
+        "Original_FistDrop"
+      ]
+    },
+    {
+      "superstar": "angle1",
+      "baseSuperstar": "angle",
+      "edition": "1st Edition",
+      "name": "Kurt Angle (1st Edition) \u2014 Angle Slam / German Suplex",
+      "finisherId": "Original_OlympicSlam",
+      "finisherName": "Angle Slam",
+      "trademarkId": "GermanSuplex",
+      "trademarkName": "German Suplex",
+      "keyMoveTypes": [
+        "head down",
+        "behind opponent"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "FiremansCarry",
+        "DoubleLegTakedown2E"
+      ]
+    },
+    {
+      "superstar": "angle2e",
+      "baseSuperstar": "angle",
+      "edition": "2nd Edition",
+      "name": "Kurt Angle (2nd Edition) \u2014 Angle's Ankle Lock / Intensity",
+      "finisherId": "Original_AnglesAnkleLockEX3",
+      "finisherName": "Angle's Ankle Lock",
+      "trademarkId": "OriginalExact_Intensity2E",
+      "trademarkName": "Intensity",
+      "keyMoveTypes": [
+        "standing above"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "FiremansCarry",
+        "DoubleLegTakedown2E"
+      ]
+    },
+    {
+      "superstar": "lita1",
+      "baseSuperstar": "lita",
+      "edition": "1st Edition",
+      "name": "Lita (1st Edition) \u2014 Litacanrana / Lita's Twist of Fate",
+      "finisherId": "OriginalExact_Litacanrana",
+      "finisherName": "Litacanrana",
+      "trademarkId": "LitasTwistOfFate2E",
+      "trademarkName": "Lita's Twist of Fate",
+      "keyMoveTypes": [
+        "victim below"
+      ],
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "ElbowToBackOfTheHead2E",
+        "Original_ElbowToTheBackOfTheHead"
+      ]
+    },
+    {
+      "superstar": "lita2e",
+      "baseSuperstar": "lita",
+      "edition": "2nd Edition",
+      "name": "Lita (2nd Edition) \u2014 Lita's Twist of Fate / Litacanrana",
+      "finisherId": "LitasTwistOfFate2E",
+      "finisherName": "Lita's Twist of Fate",
+      "trademarkId": "OriginalExact_Litacanrana2E",
+      "trademarkName": "Litacanrana",
+      "keyMoveTypes": [
+        "victim below"
+      ],
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "AgilityTourn",
+        "TechnicalTourn",
+        "ElbowToBackOfTheHead2E",
+        "Original_ElbowToTheBackOfTheHead"
+      ]
+    },
+    {
+      "superstar": "bigshow1",
+      "baseSuperstar": "bigshow",
+      "edition": "Expansion 1",
+      "name": "The Big Show (EX1) \u2014 The Final Cut E X1 / Too Big",
+      "finisherId": "TheFinalCutEX1",
+      "finisherName": "The Final Cut E X1",
+      "trademarkId": "Original_TooBig",
+      "trademarkName": "Too Big",
+      "keyMoveTypes": [
+        "defensive"
+      ],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrikeTourn",
+        "StrengthTourn",
+        "StrikeTourn",
+        "Elbow",
+        "Punch"
+      ]
+    },
+    {
+      "superstar": "bigshow2e",
+      "baseSuperstar": "bigshow",
+      "edition": "2nd Edition",
+      "name": "The Big Show (2nd Edition) \u2014 Showstopper / Big and Nasty",
+      "finisherId": "bigshowFinisher",
+      "finisherName": "Showstopper",
+      "trademarkId": "BigAndNasty2EV095",
+      "trademarkName": "Big and Nasty",
+      "keyMoveTypes": [
+        "in close"
+      ],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrikeTourn",
+        "StrengthTourn",
+        "StrikeTourn",
+        "Elbow",
+        "Punch"
+      ]
+    },
+    {
+      "superstar": "undertaker1",
+      "baseSuperstar": "undertaker",
+      "edition": "Expansion 1",
+      "name": "The Undertaker (EX1) \u2014 Tombstone Piledriver / Old School",
+      "finisherId": "undertakerFinisher",
+      "finisherName": "Tombstone Piledriver",
+      "trademarkId": "OriginalExact_OldSchoolEX1",
+      "trademarkName": "Old School",
+      "keyMoveTypes": [
+        "in close"
+      ],
+      "methods": [
+        "Strength",
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "AgilityTourn",
+        "StrengthTourn",
+        "BodySlam",
+        "Original_BodySlam2E"
+      ]
+    },
+    {
+      "superstar": "undertaker2e",
+      "baseSuperstar": "undertaker",
+      "edition": "2nd Edition",
+      "name": "The Undertaker (2nd Edition) \u2014 Tombstone Piledriver / Old School",
+      "finisherId": "undertakerFinisher",
+      "finisherName": "Tombstone Piledriver",
+      "trademarkId": "OriginalExact_OldSchool2E",
+      "trademarkName": "Old School",
+      "keyMoveTypes": [
+        "in close"
+      ],
+      "methods": [
+        "Strength",
+        "Technical",
+        "Agility"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "AgilityTourn",
+        "StrengthTourn",
+        "BodySlam",
+        "Original_BodySlam2E"
+      ]
+    },
+    {
+      "superstar": "tripleh1",
+      "baseSuperstar": "tripleh",
+      "edition": "Promo",
+      "name": "Triple H (Promo) \u2014 Pedigree / Facebuster",
+      "finisherId": "Original_PedigreeTourn",
+      "finisherName": "Pedigree",
+      "trademarkId": "Facebuster",
+      "trademarkName": "Facebuster",
+      "keyMoveTypes": [
+        "victim below",
+        "in close"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "HipToss",
+        "InsideCradle"
+      ]
+    },
+    {
+      "superstar": "tripleh2e",
+      "baseSuperstar": "tripleh",
+      "edition": "2nd Edition",
+      "name": "Triple H (2nd Edition) \u2014 Sledgehammer Shot / High Knee",
+      "finisherId": "Original_SledgehammerShot",
+      "finisherName": "Sledgehammer Shot",
+      "trademarkId": "HighKnee2E",
+      "trademarkName": "High Knee",
+      "keyMoveTypes": [
+        "in close"
+      ],
+      "methods": [
+        "Strike",
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "TechnicalTourn",
+        "StrengthTourn",
+        "TechnicalTourn",
+        "HipToss",
+        "InsideCradle"
+      ]
+    },
+    {
+      "superstar": "rock1",
+      "baseSuperstar": "rock",
+      "edition": "1st Edition",
+      "name": "The Rock (1st Edition) \u2014 The Peoples Elbow / The Rock's DDT",
+      "finisherId": "ThePeoplesElbow",
+      "finisherName": "The Peoples Elbow",
+      "trademarkId": "FloatoverDDT",
+      "trademarkName": "The Rock's DDT",
+      "keyMoveTypes": [
+        "victim below"
+      ],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "TechnicalTourn",
+        "StrengthTourn",
+        "BodySlam",
+        "HipToss"
+      ]
+    },
+    {
+      "superstar": "rock2e",
+      "baseSuperstar": "rock",
+      "edition": "2nd Edition",
+      "name": "The Rock (2nd Edition) \u2014 Rock Bottom / The Rock's DDT",
+      "finisherId": "Original_RockBottomTourn",
+      "finisherName": "Rock Bottom",
+      "trademarkId": "Original_TheRocksDDT2E",
+      "trademarkName": "The Rock's DDT",
+      "keyMoveTypes": [
+        "in close",
+        "victim below"
+      ],
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "TechnicalTourn",
+        "StrengthTourn",
+        "BodySlam",
+        "HipToss"
+      ]
+    },
+    {
+      "superstar": "kane1",
+      "baseSuperstar": "kane",
+      "edition": "1st Edition",
+      "name": "Kane (1st Edition) \u2014 Choke Slam To Hell / Top Rope Clothesline",
+      "finisherId": "Original_ChokeslamToHellTourn",
+      "finisherName": "Choke Slam To Hell",
+      "trademarkId": "OriginalExact_TopRopeClothesline",
+      "trademarkName": "Top Rope Clothesline",
+      "keyMoveTypes": [
+        "arm extended"
+      ],
+      "methods": [
+        "Strength",
+        "Technical",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "StrikeTourn",
+        "StrengthTourn",
+        "EuropeanUppercut",
+        "Elbow"
+      ]
+    },
+    {
+      "superstar": "kane2e",
+      "baseSuperstar": "kane",
+      "edition": "2nd Edition",
+      "name": "Kane (2nd Edition) \u2014 Tombstone Piledriver / Choke Slam",
+      "finisherId": "TombstonePiledriver2E",
+      "finisherName": "Tombstone Piledriver",
+      "trademarkId": "Original_ChokeSlam",
+      "trademarkName": "Choke Slam",
+      "keyMoveTypes": [
+        "in close",
+        "arm extended"
+      ],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70,
+      "leadOff": [
+        "StrengthTourn",
+        "StrikeTourn",
+        "StrengthTourn",
+        "EuropeanUppercut",
+        "Elbow"
+      ]
+    }
+  ],
+  "notes": [
+    "Different Finisher/Trademark routes were used where the recovered card catalogue clearly provided authentic alternatives.",
+    "Where no clearly distinct second route exists, the edition receives its own deck using the closest edition-specific card variant rather than inventing a foreign move."
+  ]
+}

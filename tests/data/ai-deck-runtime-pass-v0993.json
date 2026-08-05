@@ -1,0 +1,936 @@
+{
+  "version": "v0.9.93",
+  "selectableVersions": 54,
+  "unlockedEntries": 54,
+  "allRecommendationsResolved": true,
+  "missingRecommendations": [],
+  "entries": [
+    {
+      "superstarKey": "austin",
+      "sourceRecommendation": "austin-stone-cold-stunner-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Stone Cold Stunner",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "bookert",
+      "sourceRecommendation": "bookert-scissors-kick-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Scissors Kick",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "christian",
+      "sourceRecommendation": "christian-unprettier-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Unprettier",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "rvd",
+      "sourceRecommendation": "rvd-van-daminator-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Van Daminator",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "flair",
+      "sourceRecommendation": "flair-ric-flair-s-figure-four-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Ric Flair's Figure Four",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "nash",
+      "sourceRecommendation": "nash-new-world-order-optimized",
+      "found": true,
+      "pages": 78,
+      "resolvedPages": 78,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "New World Order",
+      "size": 78,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "jeffhardy",
+      "sourceRecommendation": "jeffhardy-swanton-bomb-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Agility",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Swanton Bomb",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "matthardy",
+      "sourceRecommendation": "matthardy-twist-of-fate-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Twist Of Fate",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "trish",
+      "sourceRecommendation": "trish-stratusfaction-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Stratusfaction",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "bubba",
+      "sourceRecommendation": "bubba-bubba-bomb-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Bubba Bomb",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "dvon",
+      "sourceRecommendation": "dvon-wazzzzzaaaappp-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Wazzzzzaaaappp",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "spike",
+      "sourceRecommendation": "spike-running-elbow-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Running Elbow",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "bradshaw",
+      "sourceRecommendation": "bradshaw-clothesline-from-hell-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Clothesline From Hell",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "goldust",
+      "sourceRecommendation": "goldust-curtain-call-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Curtain Call",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "lancestorm",
+      "sourceRecommendation": "lancestorm-straight-shooter-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Straight Shooter",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "rikishi",
+      "sourceRecommendation": "rikishi-rikishi-driver-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Rikishi Driver",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "scotty",
+      "sourceRecommendation": "scotty-the-worm-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "The Worm",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "tajiri",
+      "sourceRecommendation": "tajiri-deathblow-l-e-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Deathblow L E",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "tazz",
+      "sourceRecommendation": "tazz-tazzmission-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Tazzmission",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "test",
+      "sourceRecommendation": "test-the-big-boot-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "The Big Boot",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "hurricane",
+      "sourceRecommendation": "hurricane-eye-of-the-hurricane-l-e-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Eye Of The Hurricane L E",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "regal",
+      "sourceRecommendation": "regal-regal-stretch-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Regal Stretch",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "xpac",
+      "sourceRecommendation": "xpac-x-factor-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "X-Factor",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "alsnow",
+      "sourceRecommendation": "alsnow-snow-plow-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Snow Plow",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "blackman",
+      "sourceRecommendation": "blackman-the-guillotine-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "The Guillotine",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "brock",
+      "sourceRecommendation": "brock-f5-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Official Product Build \u00b7 Optimized Finisher Pressure",
+      "finisher": "F5",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "shane",
+      "sourceRecommendation": "shane-flying-chair-shot-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Flying Chair Shot",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "hbk",
+      "sourceRecommendation": "hbk-sweet-chin-music-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Official Product Build \u00b7 Optimized Finisher Pressure",
+      "finisher": "Sweet Chin Music",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "scotthall",
+      "sourceRecommendation": "scotthall-razors-edge-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Official Product Build \u00b7 Optimized Finisher Pressure",
+      "finisher": "Razors Edge",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "rey",
+      "sourceRecommendation": "rey-torito-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Torito",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "benoit1",
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Crippler Cross Face",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "benoit2e",
+      "sourceRecommendation": "benoit-crippler-cross-face-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Crippler Cross Face",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "jericho1",
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Walls Of Jericho",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "jericho2e",
+      "sourceRecommendation": "jericho-walls-of-jericho-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Walls Of Jericho",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "eddie1",
+      "sourceRecommendation": "eddie-latino-heat-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Latino Heat",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "eddie2e",
+      "sourceRecommendation": "eddie-latino-heat-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Latino Heat",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "edge1",
+      "sourceRecommendation": "edge-edgecution-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Edgecution",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "edge2e",
+      "sourceRecommendation": "edge-edgecution-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Edgecution",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "hoganNwo",
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Hogan's Leg Drop",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "hogan2e",
+      "sourceRecommendation": "hogan-hogan-s-leg-drop-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Hogan's Leg Drop",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "angle1",
+      "sourceRecommendation": "angle-angle-slam-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Angle Slam",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "angle2e",
+      "sourceRecommendation": "angle-angle-slam-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Angle Slam",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "lita1",
+      "sourceRecommendation": "lita-litacanrana-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Litacanrana",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "lita2e",
+      "sourceRecommendation": "lita-litacanrana-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Litacanrana",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "bigshow1",
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "The Final Cut E X1",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "bigshow2e",
+      "sourceRecommendation": "bigshow-the-final-cut-e-x1-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "The Final Cut E X1",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "undertaker1",
+      "sourceRecommendation": "undertaker-stunning-blow-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Stunning Blow",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "undertaker2e",
+      "sourceRecommendation": "undertaker-stunning-blow-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Stunning Blow",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "tripleh1",
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Sledgehammer Shot",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "tripleh2e",
+      "sourceRecommendation": "tripleh-sledgehammer-shot-optimized",
+      "found": true,
+      "pages": 60,
+      "resolvedPages": 60,
+      "missingPageIds": [],
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Sledgehammer Shot",
+      "size": 60,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "rock1",
+      "sourceRecommendation": "rock-rock-bottom-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Rock Bottom",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "rock2e",
+      "sourceRecommendation": "rock-rock-bottom-optimized",
+      "found": true,
+      "pages": 72,
+      "resolvedPages": 72,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Rock Bottom",
+      "size": 72,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "kane1",
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Choke Slam To Hell",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    },
+    {
+      "superstarKey": "kane2e",
+      "sourceRecommendation": "kane-choke-slam-to-hell-optimized",
+      "found": true,
+      "pages": 66,
+      "resolvedPages": 66,
+      "missingPageIds": [],
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "strategy": "Optimized Finisher Pressure",
+      "finisher": "Choke Slam To Hell",
+      "size": 66,
+      "legalSize": true,
+      "allPagesResolved": true
+    }
+  ],
+  "presentationFields": [
+    "strategy",
+    "methods",
+    "finisher path",
+    "deck size",
+    "availability",
+    "inspect contents"
+  ],
+  "allDeckPagesResolved": true
+}

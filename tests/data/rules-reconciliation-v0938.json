@@ -1,0 +1,42 @@
+{
+  "version": "v0.9.38",
+  "rulesChecked": 24,
+  "corrected": [
+    {
+      "rule": "Autocounter costs seven hand pages",
+      "change": "Added selectable seven-page Autocounter; Jeff Hardy costs six; Big Show first-three draw bonus supported."
+    },
+    {
+      "rule": "First pin free; later pins cost previous-attempt count in Attitude",
+      "change": "Pin cost is checked, displayed and spent before each attempt."
+    },
+    {
+      "rule": "Being hit loses one Attitude",
+      "change": "Successful moves and counters now remove one Attitude from the wrestler hit."
+    },
+    {
+      "rule": "Event / Support / Referee limits",
+      "change": "Event once-per-name, three Event total, one Support per player and one Referee globally enforced."
+    },
+    {
+      "rule": "Legal custom playbook minimum",
+      "change": "Custom playbook save threshold corrected from 25 to 55 pages."
+    }
+  ],
+  "alreadyMatched": [
+    "Exact starter contents and fixed Lead Off five",
+    "Shuffle remaining deck only",
+    "One beginning-of-turn draw",
+    "One Momentum then mandatory move attempt",
+    "Method-specific cost payment",
+    "Counter-only and uncounterable restrictions",
+    "Stunned wrestler play restrictions"
+  ],
+  "stillPartial": [
+    "Exact pin probability formula and every modifier",
+    "Tap-out/body-part threshold formula and exceptions",
+    "Warnings/disqualification thresholds and distracted-referee rules",
+    "Count-as page combined copy limits",
+    "All Special timing windows and every card-specific choice"
+  ]
+}

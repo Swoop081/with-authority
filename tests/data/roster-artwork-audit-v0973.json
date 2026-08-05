@@ -1,0 +1,11 @@
+{
+  "version": "v0.9.73",
+  "fixes": {
+    "flair": "assets/gai/RicFlairEX3.webp",
+    "nash": "assets/gai/KevinNashEX3.webp",
+    "trish": "assets/gai/TrishStratusEX3LE.webp",
+    "scotty": "assets/gai/Scotty2HottyEX1.webp"
+  },
+  "rule": "Roster artwork must resolve from an exact Superstar-class source record; Support/Action/Entrance cards are excluded.",
+  "superstarCardRecords": 63
+}

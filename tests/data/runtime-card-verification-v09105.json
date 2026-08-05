@@ -1,0 +1,1105 @@
+{
+  "version": "0.9.105",
+  "runtimeCardCount": 914,
+  "compatibilityRepairs": 26,
+  "recommendationIdReplacements": 61,
+  "knownCardChecks": [
+    {
+      "id": "OriginalExact_KickToGut",
+      "name": "Kick To Gut",
+      "sourceFile": "KickToGut.gac",
+      "method": "Strike",
+      "momentumCost": 9,
+      "damage": 5,
+      "position": "Leg Extended",
+      "momentumRequirements": {
+        "Knowledge": 1,
+        "Strike": 2
+      }
+    },
+    {
+      "id": "LouThesz",
+      "name": "Lou Thesz Press",
+      "sourceFile": "runtime-generated/LouThesz.json",
+      "method": "Technical",
+      "momentumCost": 8,
+      "damage": 8,
+      "position": "Mad Rush",
+      "momentumRequirements": {
+        "Strength": 2
+      }
+    },
+    {
+      "id": "OriginalExact_LouTheszPressEX1",
+      "name": "Lou Thesz Press",
+      "sourceFile": "LouTheszPressEX1.gac",
+      "method": "Technical",
+      "momentumCost": 8,
+      "damage": 8,
+      "position": "Mad Rush",
+      "momentumRequirements": {
+        "Strength": 2
+      }
+    }
+  ],
+  "runtimeLoadUrl": "data/demo-cards.json?build=0.9.105",
+  "jsonNetworkFirst": true,
+  "repairs": [
+    {
+      "id": "BodySlamEX3",
+      "name": "Body Slam",
+      "source": "BodySlam.gac",
+      "changes": {
+        "damage": {
+          "from": 4,
+          "to": 2
+        },
+        "momentumCost": {
+          "from": 6,
+          "to": 2
+        },
+        "setsPosition": {
+          "from": "Same",
+          "to": "Grounded"
+        },
+        "counters": {
+          "from": [
+            "Mad Rush"
+          ],
+          "to": [
+            "Mad Rush",
+            "High Risk"
+          ]
+        },
+        "momentumRequirements": {
+          "from": {
+            "Strength": 2
+          },
+          "to": {
+            "Strength": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "BackElbowEX1",
+      "name": "Back Elbow",
+      "source": "BackElbow2E.gac",
+      "changes": {
+        "damage": {
+          "from": 3,
+          "to": 4
+        },
+        "momentumCost": {
+          "from": 2,
+          "to": 6
+        },
+        "momentumGain": {
+          "from": 2,
+          "to": 1
+        },
+        "method": {
+          "from": "Technical",
+          "to": "Strike"
+        },
+        "position": {
+          "from": "In Close",
+          "to": "Back To Foe"
+        },
+        "setsPosition": {
+          "from": "Standing",
+          "to": "Back To Foe"
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Strike": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "RussianLegSweep2E",
+      "name": "Russian Leg Sweep",
+      "source": "RussianLegSweepEX2.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 5,
+          "to": 6
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": {
+            "Technical": 1
+          },
+          "to": {
+            "Technical": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "Jawbreaker",
+      "name": "Jawbreaker",
+      "source": "JawbreakerEX2.gac",
+      "changes": {
+        "damage": {
+          "from": 4,
+          "to": 9
+        },
+        "momentumCost": {
+          "from": 4,
+          "to": 5
+        },
+        "momentumGain": {
+          "from": 3,
+          "to": 1
+        },
+        "position": {
+          "from": "Victim Below",
+          "to": "In Close"
+        },
+        "setsPosition": {
+          "from": "Standing",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Agility": 1,
+            "Strike": 1,
+            "Technical": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "KneeLiftEX1",
+      "name": "Knee Lift",
+      "source": "KneeLift.gac",
+      "changes": {
+        "damage": {
+          "from": 5,
+          "to": 2
+        },
+        "momentumCost": {
+          "from": 5,
+          "to": 3
+        },
+        "momentumGain": {
+          "from": 4,
+          "to": 1
+        },
+        "setsPosition": {
+          "from": "Staggered",
+          "to": "In Close"
+        },
+        "counters": {
+          "from": [
+            "Arm Extended"
+          ],
+          "to": [
+            "Head Down",
+            "In Close"
+          ]
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Strike": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "Neckbreaker2E",
+      "name": "Neckbreaker",
+      "source": "NeckbreakerEX3.gac",
+      "changes": {
+        "damage": {
+          "from": 7,
+          "to": 5
+        },
+        "momentumCost": {
+          "from": 6,
+          "to": 5
+        },
+        "momentumGain": {
+          "from": 4,
+          "to": 1
+        },
+        "position": {
+          "from": "In Close",
+          "to": "Back To Foe"
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Knowledge": 2,
+            "Technical": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "VerticalSuplex2E",
+      "name": "Vertical Suplex",
+      "source": "VerticalSuplex.gac",
+      "changes": {
+        "setsPosition": {
+          "from": "Same",
+          "to": "Grounded"
+        }
+      }
+    },
+    {
+      "id": "Clothesline",
+      "name": "Clothesline",
+      "source": "Clothesline.gac",
+      "changes": {
+        "damage": {
+          "from": 3,
+          "to": 2
+        },
+        "momentumCost": {
+          "from": 2,
+          "to": 3
+        },
+        "momentumGain": {
+          "from": 2,
+          "to": 1
+        },
+        "position": {
+          "from": "Standing",
+          "to": "Mad Rush"
+        },
+        "setsPosition": {
+          "from": "Mad Rush",
+          "to": "Grounded"
+        },
+        "counters": {
+          "from": [],
+          "to": [
+            "Hit Or Miss",
+            "Leg Extended"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ElbowDrop",
+      "name": "Elbow Drop",
+      "source": "ElbowDropEX3.gac",
+      "changes": {
+        "damage": {
+          "from": 4,
+          "to": 9
+        },
+        "momentumCost": {
+          "from": 4,
+          "to": 5
+        },
+        "method": {
+          "from": "Agility",
+          "to": "Strike"
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Strike": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "ShortArm",
+      "name": "Short-Arm Clothesline",
+      "source": "ShortArmClothesline.gac",
+      "changes": {
+        "damage": {
+          "from": 5,
+          "to": 7
+        },
+        "momentumCost": {
+          "from": 4,
+          "to": 7
+        },
+        "momentumGain": {
+          "from": 3,
+          "to": 1
+        },
+        "position": {
+          "from": "Arm Extended",
+          "to": "In Close"
+        },
+        "setsPosition": {
+          "from": "Staggered",
+          "to": "In Close"
+        },
+        "counters": {
+          "from": [],
+          "to": [
+            "Arm Extended"
+          ]
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Strength": 1,
+            "Strike": 3,
+            "Technical": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "IrishWhip",
+      "name": "Irish Whip",
+      "source": "IrishWhip2E.gac",
+      "changes": {
+        "damage": {
+          "from": 1,
+          "to": 5
+        },
+        "momentumCost": {
+          "from": 1,
+          "to": 5
+        },
+        "momentumGain": {
+          "from": 2,
+          "to": 0
+        },
+        "method": {
+          "from": "Technical",
+          "to": "Strength"
+        },
+        "position": {
+          "from": "Standing",
+          "to": "Any"
+        },
+        "setsPosition": {
+          "from": "Arm Extended",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": null,
+          "to": {
+            "Strength": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "CollarElbow",
+      "name": "Collar-and-Elbow Tie-Up",
+      "source": "CollarAndElbowTieup.gac",
+      "changes": {
+        "momentumGain": {
+          "from": 2,
+          "to": 1
+        },
+        "position": {
+          "from": "Standing",
+          "to": "In Close"
+        },
+        "setsPosition": {
+          "from": "In Close",
+          "to": "Same"
+        }
+      }
+    },
+    {
+      "id": "triplehFinisher",
+      "name": "Pedigree",
+      "source": "Pedigree.gac",
+      "changes": {
+        "damage": {
+          "from": 9,
+          "to": 10
+        },
+        "momentumCost": {
+          "from": 8,
+          "to": 15
+        },
+        "momentumGain": {
+          "from": 5,
+          "to": 1
+        },
+        "position": {
+          "from": "In Close",
+          "to": "Victim Below"
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Same"
+        },
+        "counters": {
+          "from": [
+            "In Close"
+          ],
+          "to": [
+            "Head Down"
+          ]
+        }
+      }
+    },
+    {
+      "id": "angleFinisher",
+      "name": "Angle Slam",
+      "source": "AngleSlam2E.gac",
+      "changes": {
+        "damage": {
+          "from": 9,
+          "to": 10
+        },
+        "momentumCost": {
+          "from": 8,
+          "to": 15
+        },
+        "momentumGain": {
+          "from": 5,
+          "to": 1
+        },
+        "position": {
+          "from": "In Close",
+          "to": "Head Down"
+        },
+        "counters": {
+          "from": [
+            "In Close"
+          ],
+          "to": [
+            "Arm Extended",
+            "In Close",
+            "Back To Foe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "jerichoFinisher",
+      "name": "Lionsault2E",
+      "source": "Lionsault.gac",
+      "changes": {
+        "damage": {
+          "from": 9,
+          "to": 13
+        },
+        "momentumCost": {
+          "from": 8,
+          "to": 13
+        },
+        "momentumGain": {
+          "from": 5,
+          "to": 2
+        },
+        "position": {
+          "from": "In Close",
+          "to": "High Risk"
+        },
+        "counters": {
+          "from": [
+            "In Close"
+          ],
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "undertakerFinisher",
+      "name": "Tombstone Piledriver",
+      "source": "TombstonePiledriver2E.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 8,
+          "to": 14
+        },
+        "momentumGain": {
+          "from": 5,
+          "to": 1
+        },
+        "counters": {
+          "from": [
+            "In Close"
+          ],
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "spikeFinisher",
+      "name": "Dudley Dog",
+      "source": "DudleyDog.gac",
+      "changes": {
+        "damage": {
+          "from": 9,
+          "to": 10
+        },
+        "momentumCost": {
+          "from": 8,
+          "to": 15
+        },
+        "momentumGain": {
+          "from": 5,
+          "to": 1
+        },
+        "position": {
+          "from": "In Close",
+          "to": "Back To Foe"
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Standing"
+        },
+        "counters": {
+          "from": [
+            "In Close"
+          ],
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "spikeGameplan",
+      "name": "150 Pounds of Toughness",
+      "source": "150PoundsOfToughness.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 2,
+          "to": 0
+        },
+        "momentumGain": {
+          "from": 1,
+          "to": 0
+        },
+        "method": {
+          "from": "Gameplan",
+          "to": "Attitude"
+        }
+      }
+    },
+    {
+      "id": "hoganGameplan",
+      "name": "24 Inch Pythons",
+      "source": "24InchPythons.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 2,
+          "to": 5
+        },
+        "momentumGain": {
+          "from": 1,
+          "to": 0
+        },
+        "method": {
+          "from": "Gameplan",
+          "to": "Attitude"
+        }
+      }
+    },
+    {
+      "id": "TheBigShowEX1",
+      "name": "The Big Show",
+      "source": "TheBigShow2E.gac",
+      "changes": {
+        "counters": {
+          "from": null,
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "DistractTheReferee",
+      "name": "Distract The Referee",
+      "source": "DistractTheRefereeTourn.gac",
+      "changes": {
+        "method": {
+          "from": "Knowledge",
+          "to": "Attitude"
+        },
+        "counters": {
+          "from": null,
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "TreeOfWoe2E",
+      "name": "Tree Of Woe",
+      "source": "TreeOfWoe.gac",
+      "changes": {
+        "damage": {
+          "from": 0,
+          "to": 7
+        },
+        "method": {
+          "from": "Knowledge",
+          "to": "Technical"
+        },
+        "position": {
+          "from": "Any",
+          "to": "Grounded"
+        },
+        "setsPosition": {
+          "from": "Same",
+          "to": "Grounded"
+        },
+        "counters": {
+          "from": null,
+          "to": []
+        }
+      }
+    },
+    {
+      "id": "RussianLegSweep2E",
+      "name": "Russian Leg Sweep",
+      "source": "RussianLegSweepEX2.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 5,
+          "to": 6
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": {
+            "Technical": 1
+          },
+          "to": {
+            "Technical": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "RussianLegSweep2E",
+      "name": "Russian Leg Sweep",
+      "source": "RussianLegSweepEX2.gac",
+      "changes": {
+        "momentumCost": {
+          "from": 5,
+          "to": 6
+        },
+        "setsPosition": {
+          "from": "Grounded",
+          "to": "Same"
+        },
+        "momentumRequirements": {
+          "from": {
+            "Technical": 1
+          },
+          "to": {
+            "Technical": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "DDT",
+      "name": "DDT",
+      "source": "DDT2E.gac",
+      "changes": {
+        "damage": {
+          "from": 5,
+          "to": 4
+        },
+        "momentumCost": {
+          "from": 7,
+          "to": 6
+        }
+      }
+    },
+    {
+      "id": "HesCallingForIt",
+      "name": "He's Calling For It",
+      "source": "HesCallingForIt2E.gac",
+      "changes": {
+        "method": {
+          "from": "Knowledge",
+          "to": "Technical"
+        },
+        "counters": {
+          "from": null,
+          "to": []
+        }
+      }
+    }
+  ],
+  "recommendationReplacements": [
+    {
+      "deck": "austin-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "rock-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "rock-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "rock-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "tripleh-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "tripleh-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "tripleh-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "tripleh-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "angle-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "angle-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "angle-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "angle-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "jericho-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "jericho-starter-upgrade",
+      "from": "HesCallingForIt",
+      "to": "OriginalExact_HesCallingForIt2E",
+      "name": "He's Calling For It"
+    },
+    {
+      "deck": "benoit-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "bigshow-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "bigshow-starter-upgrade",
+      "from": "HesCallingForIt",
+      "to": "OriginalExact_HesCallingForIt2E",
+      "name": "He's Calling For It"
+    },
+    {
+      "deck": "edge-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "christian-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "christian-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "christian-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "eddie-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "eddie-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "jeffhardy-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "jeffhardy-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "matthardy-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "matthardy-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "lita-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "lita-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "lita-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "trish-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "trish-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bubba-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bubba-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bubba-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bubba-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bradshaw-starter-upgrade",
+      "from": "TreeOfWoe2E",
+      "to": "OriginalExact_TreeOfWoe",
+      "name": "Tree Of Woe"
+    },
+    {
+      "deck": "bradshaw-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bradshaw-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "bradshaw-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "scotty-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "scotty-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "scotty-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "scotty-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "tazz-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "tazz-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "tazz-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "tazz-starter-upgrade",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "tazz-starter-upgrade",
+      "from": "HesCallingForIt",
+      "to": "OriginalExact_HesCallingForIt2E",
+      "name": "He's Calling For It"
+    },
+    {
+      "deck": "test-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "test-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "hurricane-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "regal-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "regal-starter-upgrade",
+      "from": "DDT",
+      "to": "DDT2E",
+      "name": "DDT"
+    },
+    {
+      "deck": "regal-starter-upgrade",
+      "from": "RussianLegSweep2E",
+      "to": "OriginalExact_RussianLegSweepEX2",
+      "name": "Russian Leg Sweep"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "DistractTheReferee",
+      "to": "DistractTheRefereeTournV095",
+      "name": "Distract The Referee"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "TreeOfWoe2E",
+      "to": "OriginalExact_TreeOfWoe",
+      "name": "Tree Of Woe"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "TreeOfWoe2E",
+      "to": "OriginalExact_TreeOfWoe",
+      "name": "Tree Of Woe"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "HesCallingForIt",
+      "to": "OriginalExact_HesCallingForIt2E",
+      "name": "He's Calling For It"
+    },
+    {
+      "deck": "rvd-catalogue-showcase",
+      "from": "HesCallingForIt",
+      "to": "OriginalExact_HesCallingForIt2E",
+      "name": "He's Calling For It"
+    }
+  ]
+}

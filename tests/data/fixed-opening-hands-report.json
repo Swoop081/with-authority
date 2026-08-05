@@ -1,0 +1,117 @@
+{
+  "version": "v0.9.24",
+  "rule": "Exclude Superstar and unplayable resource pages; deal the next five playable pages in original starter order; shuffle only the remainder.",
+  "completedStarters": [
+    {
+      "id": "Starter-Bradshaw",
+      "title": "Bradshaw Starter",
+      "opening": [
+        {
+          "id": "ShoulderBlockEX3",
+          "name": "Shoulder Block E X3",
+          "edition": "EX3",
+          "source": "ShoulderBlockEX3.gac"
+        },
+        {
+          "id": "EuropeanUppercutEX3",
+          "name": "European Uppercut",
+          "edition": "EX3",
+          "source": "EuropeanUppercutEX3.gac"
+        },
+        {
+          "id": "StrengthTourn",
+          "name": "Strength",
+          "edition": "EX3",
+          "source": "StrengthEX3.gac"
+        },
+        {
+          "id": "StrikeTourn",
+          "name": "Strike",
+          "edition": "EX3",
+          "source": "StrikeEX3.gac"
+        },
+        {
+          "id": "TechnicalTourn",
+          "name": "Technical",
+          "edition": "EX3",
+          "source": "TechnicalEX3.gac"
+        }
+      ],
+      "remaining": 66
+    },
+    {
+      "id": "Starter-TheBigShow",
+      "title": "The Big Show starter#",
+      "opening": [
+        {
+          "id": "StrikeTourn",
+          "name": "Strike",
+          "edition": "Core",
+          "source": "Strike1.gac"
+        },
+        {
+          "id": "StrengthTourn",
+          "name": "Strength",
+          "edition": "Core",
+          "source": "Strength1.gac"
+        },
+        {
+          "id": "KnowledgeTourn",
+          "name": "Knowledge",
+          "edition": "Core",
+          "source": "Knowledge1.gac"
+        },
+        {
+          "id": "Original_ArmDragTakedown2E",
+          "name": "Arm Drag Takedown",
+          "edition": "Core",
+          "source": "ArmDragTakedown.gac"
+        },
+        {
+          "id": "Original_ShoveTourn",
+          "name": "Shove",
+          "edition": "Core",
+          "source": "Shove.gac"
+        }
+      ],
+      "remaining": 64
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "title": "Triple H 2nd Edition Starter/",
+      "opening": [
+        {
+          "id": "StrengthTourn",
+          "name": "Strength",
+          "edition": "2E",
+          "source": "Strength2E.gac"
+        },
+        {
+          "id": "StrikeTourn",
+          "name": "Strike",
+          "edition": "2E",
+          "source": "Strike2E.gac"
+        },
+        {
+          "id": "KnowledgeTourn",
+          "name": "Knowledge",
+          "edition": "2E",
+          "source": "Knowledge2E.gac"
+        },
+        {
+          "id": "Original_ArmDragTakedown2E",
+          "name": "Arm Drag Takedown",
+          "edition": "2E",
+          "source": "ArmDragTakedown2E.gac"
+        },
+        {
+          "id": "Original_AtomicDrop2E",
+          "name": "Atomic Drop",
+          "edition": "2E",
+          "source": "AtomicDrop2E.gac"
+        }
+      ],
+      "remaining": 65
+    }
+  ]
+}

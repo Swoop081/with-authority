@@ -1,0 +1,10 @@
+{
+  "version": "v0.9.42",
+  "importedCards": 180,
+  "runtimeCardsBefore": 727,
+  "runtimeCardsAfter": 907,
+  "starterSourceCards": 577,
+  "missingStarterSourceCardsAfterImport": 0,
+  "missingStarterEntriesAfterImport": 0,
+  "note": "All authoritative records from cards.json are now present in demo-cards.json. Behavioural certification remains separate from runtime presence."
+}

@@ -1,0 +1,43 @@
+{
+  "version": "v0.9.48",
+  "source": "CardList.gal",
+  "runtimeCards": 907,
+  "authoritativeMetadataMatched": 865,
+  "boosterEligibleCards": 754,
+  "rarityCounts": {
+    "Common": 219,
+    "Uncommon": 248,
+    "Rare": 184,
+    "Very Rare": 103
+  },
+  "setRarityCounts": {
+    "CORE": {
+      "total": 174,
+      "Common": 55,
+      "Rare": 33,
+      "Very Rare": 14,
+      "Uncommon": 72
+    },
+    "EX1": {
+      "total": 116,
+      "Common": 31,
+      "Uncommon": 38,
+      "Rare": 33,
+      "Very Rare": 14
+    },
+    "EX2": {
+      "total": 132,
+      "Uncommon": 42,
+      "Common": 32,
+      "Rare": 40,
+      "Very Rare": 18
+    },
+    "EX3": {
+      "total": 120,
+      "Common": 26,
+      "Rare": 36,
+      "Uncommon": 38,
+      "Very Rare": 20
+    }
+  }
+}

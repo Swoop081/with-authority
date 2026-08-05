@@ -1,0 +1,24 @@
+{
+  "version": "v0.7.0",
+  "superstars": 10,
+  "selectable": [
+    "austin",
+    "rock",
+    "tripleh",
+    "angle",
+    "jericho",
+    "undertaker",
+    "kane",
+    "bigshow",
+    "spike",
+    "hogan"
+  ],
+  "cards": 228,
+  "features": [
+    "selectable roster",
+    "individual health and abilities",
+    "superstar playbooks",
+    "opponent selection",
+    "per-superstar records"
+  ]
+}

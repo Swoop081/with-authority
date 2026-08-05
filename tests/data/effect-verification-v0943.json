@@ -1,0 +1,8 @@
+{
+  "version": "v0.9.43",
+  "focus": "Effect verification certification normalization",
+  "beforeUnverifiedEntries": 3658,
+  "afterIndividualVerificationEntries": 173,
+  "afterIndividualVerificationCards": 36,
+  "note": "No historical implemented status is discarded merely due to naming differences."
+}

@@ -1,0 +1,70 @@
+{
+  "version": "v0.9.93",
+  "filesAudited": 7,
+  "entries": [
+    {
+      "sourceFile": "Mission0.gaj",
+      "bytes": 4278,
+      "headerHex": "314f4147314f4147bd00000000000000",
+      "asciiHeader": "1OAG1OAG........",
+      "entropy": 7.945,
+      "sha256": "7ec24cc0051c5f9433ae4664de0e5cda1314ad6158c0c1b42f0bab8d0a7b80f2",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "Mission1.gaj",
+      "bytes": 7541,
+      "headerHex": "314f4147314f41477c00000000000000",
+      "asciiHeader": "1OAG1OAG|.......",
+      "entropy": 7.969,
+      "sha256": "d6f337439038a43f23f04948b8fab6e12f1429083139c69661f94120ff997b51",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "Mission2.gaj",
+      "bytes": 5005,
+      "headerHex": "314f4147314f41473400000000000000",
+      "asciiHeader": "1OAG1OAG4.......",
+      "entropy": 7.955,
+      "sha256": "f4060d76d3069b5ea907ff4e7e02ead60bdc8252e24cee8933c420ffa8834688",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "Mission3.gaj",
+      "bytes": 6251,
+      "headerHex": "314f4147314f41472e00000000000000",
+      "asciiHeader": "1OAG1OAG........",
+      "entropy": 7.964,
+      "sha256": "0385387caaa26c23a1bb38411b97ce2db366f76c0c2468750d131aadb1744a3f",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "Mission3_5.gaj",
+      "bytes": 3468,
+      "headerHex": "314f4147314f41475900000000000000",
+      "asciiHeader": "1OAG1OAGY.......",
+      "entropy": 7.921,
+      "sha256": "d8c8c321634926ab5c410f22d69c05af06ea38c6b352dc430fa34d444888aadc",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "Mission4.gaj",
+      "bytes": 10257,
+      "headerHex": "314f4147314f4147ba01000000000000",
+      "asciiHeader": "1OAG1OAG........",
+      "entropy": 7.98,
+      "sha256": "10a27d655c6cabbe5d8b716f7f67e267155bfee85fd4b17d215fa616609ca83e",
+      "appearsEncodedOrCompressed": true
+    },
+    {
+      "sourceFile": "MissionList.gal",
+      "bytes": 413,
+      "headerHex": "314f4147314f41470300000000000000",
+      "asciiHeader": "1OAG1OAG........",
+      "entropy": 7.285,
+      "sha256": "b45f4dc744fd6db185cda5f6def7d243b00243fa8baa9ac18c2950b20cf6a7f8",
+      "appearsEncodedOrCompressed": true
+    }
+  ],
+  "finding": "All campaign files share the 1OAG container signature and have high entropy, consistent with encoded/compressed proprietary objects. No objectives or deck lists can be safely inferred from plain strings alone. Original Offline AI Challenge files remain the only exactly decoded playable scenarios."
+}

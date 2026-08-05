@@ -1,0 +1,59 @@
+{
+  "version": "0.9.23",
+  "implementedSourceFiles": [
+    "TheBigShowEX1.gac",
+    "DistractTheReferee.gac",
+    "Taunt.gac",
+    "WillToWin.gac",
+    "Bradshaw.gac",
+    "TreeOfWoe2E.gac",
+    "RussianLegSweep2E.gac",
+    "TripleH2E.gac",
+    "DDT2E.gac",
+    "HighKnee2E.gac",
+    "RussianLegSweep.gac",
+    "DropKickOverTheRopes.gac",
+    "DropKickToTheFloor2E.gac",
+    "DDT.gac",
+    "BaseballSlideEX2.gac",
+    "HesCallingForIt.gac"
+  ],
+  "starterResults": [
+    {
+      "id": "Starter-TheBigShow",
+      "ready": true,
+      "mapped": 72,
+      "total": 72,
+      "missing": 0
+    },
+    {
+      "id": "Starter-Bradshaw",
+      "ready": true,
+      "mapped": 72,
+      "total": 72,
+      "missing": 0
+    },
+    {
+      "id": "Starter-TripleH2E",
+      "ready": true,
+      "mapped": 71,
+      "total": 71,
+      "missing": 0
+    },
+    {
+      "id": "Starter-TheUndertaker",
+      "ready": false,
+      "mapped": 66,
+      "total": 73,
+      "missing": 7
+    },
+    {
+      "id": "Starter-Kane",
+      "ready": false,
+      "mapped": 65,
+      "total": 73,
+      "missing": 8
+    }
+  ],
+  "notes": "First blocker pass; exact source cards only."
+}

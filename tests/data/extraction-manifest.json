@@ -1,0 +1,19 @@
+{
+  "version": "v0.5.0",
+  "extractedMoveCards": 180,
+  "playableCards": 202,
+  "totalGacFiles": 1121,
+  "fields": [
+    "name",
+    "description",
+    "damage",
+    "momentumCost",
+    "connectedMomentum",
+    "method",
+    "moveType",
+    "counters",
+    "modifiers",
+    "Superstar restriction",
+    "source file"
+  ]
+}

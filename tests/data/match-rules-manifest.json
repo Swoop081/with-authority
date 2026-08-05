@@ -1,0 +1,13 @@
+{
+  "version": "v0.8.0",
+  "features": [
+    "reversal chains up to three exchanges",
+    "staged three-count pins and kickouts",
+    "limb damage taxes and damage reduction",
+    "submission escape affected by target-limb damage",
+    "persistent gameplan pages with durations",
+    "page recovery from discard for 3 momentum",
+    "style-aware CPU scoring",
+    "expanded match statistics"
+  ]
+}

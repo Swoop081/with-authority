@@ -1,0 +1,101 @@
+{
+  "version": "v0.9.93",
+  "status": {
+    "Rey Mysterio": "Starter-ReyMysterioLE.gap referenced in original index but package absent",
+    "Shane McMahon": "Hardcore Trio sales artwork/card content present; no complete recovered fixed starter",
+    "Brock Lesnar": "SummerSlam 2002 fixed product content present; no exact starter",
+    "Shawn Michaels": "SummerSlam 2002 fixed product content present; no exact starter",
+    "Scott Hall": "WrestleMania X8 fixed product content present; no exact starter"
+  },
+  "filenameHits": {
+    "rey": [
+      "assets/gai/ReyMysterioHeadShot.webp",
+      "assets/gai/ReyMysterioPlaybook.webp",
+      "assets/gai/ReyMysterioBodyShot.webp",
+      "assets/gai/Sales-ReyMysterioLE.webp",
+      "assets/gai/ReyMysterioLE.webp",
+      "assets/audio/ReyMysterioMusic.opus"
+    ],
+    "mysterio": [
+      "assets/gai/ReyMysterioHeadShot.webp",
+      "assets/gai/ReyMysterioPlaybook.webp",
+      "assets/gai/ReyMysterioBodyShot.webp",
+      "assets/gai/Sales-ReyMysterioLE.webp",
+      "assets/gai/ReyMysterioLE.webp",
+      "assets/audio/ReyMysterioMusic.opus"
+    ],
+    "shane": [
+      "assets/gai/ShaneMcMahonHeadShot.webp",
+      "assets/gai/ShaneMcMahonEX1.webp",
+      "assets/gai/sales-ShaneMcMahon.webp",
+      "assets/gai/ShaneMcMahonBodyShot.webp",
+      "assets/audio/ShaneMcMahon.opus"
+    ],
+    "mcmahon": [
+      "assets/gai/ShaneMcMahonHeadShot.webp",
+      "assets/gai/VinceMcMahon.webp",
+      "assets/gai/ShaneMcMahonEX1.webp",
+      "assets/gai/sales-ShaneMcMahon.webp",
+      "assets/gai/ShaneMcMahonBodyShot.webp",
+      "assets/gai/RefereeStephanieMcMahon.webp",
+      "assets/gai/VinceMcMahon2E.webp",
+      "assets/gai/StephanieMcMahonHelmsley.webp",
+      "assets/audio/ShaneMcMahon.opus"
+    ],
+    "brock": [
+      "assets/gai/BrockLesnarBodyShot.webp",
+      "assets/gai/BrockLesnarHeadShot.webp",
+      "assets/gai/BrockLesnar.webp",
+      "assets/gai/BrockLesnarHeadShotReverse.webp",
+      "assets/gai/BrockLesnarPlaybook.webp",
+      "assets/audio/BrockLesnarMusic.opus"
+    ],
+    "lesnar": [
+      "assets/gai/BrockLesnarBodyShot.webp",
+      "assets/gai/BrockLesnarHeadShot.webp",
+      "assets/gai/BrockLesnar.webp",
+      "assets/gai/BrockLesnarHeadShotReverse.webp",
+      "assets/gai/BrockLesnarPlaybook.webp",
+      "assets/audio/BrockLesnarMusic.opus"
+    ],
+    "shawn": [
+      "assets/gai/ShawnMichaelsHeadShot.webp",
+      "assets/gai/ShawnMichaelsBodyShot.webp",
+      "assets/gai/ShawnMichaelsPlaybook.webp",
+      "assets/gai/ShawnMichaels.webp",
+      "assets/audio/ShawnMichaelsMusic.opus"
+    ],
+    "michaels": [
+      "assets/gai/ShawnMichaelsHeadShot.webp",
+      "assets/gai/ShawnMichaelsBodyShot.webp",
+      "assets/gai/ShawnMichaelsPlaybook.webp",
+      "assets/gai/ShawnMichaels.webp",
+      "assets/audio/ShawnMichaelsMusic.opus"
+    ],
+    "hbk": [
+      "assets/gai/HBK.webp"
+    ],
+    "scott": [
+      "assets/gai/Sales-Scotty2Hotty.webp",
+      "assets/gai/Scotty2HottyEX1.webp",
+      "assets/gai/ScottHallHeadShot.webp",
+      "assets/gai/ScottHallPlaybook.webp",
+      "assets/gai/Scotty2HottyBodyShot.webp",
+      "assets/gai/Scotty2HottyPlaybook.webp",
+      "assets/gai/ScottHall.webp",
+      "assets/gai/Scotty2HottyHeadShot.webp",
+      "assets/gai/ScottHallBodyShot.webp",
+      "assets/audio/Scotty2HottyMusic.opus"
+    ],
+    "hall": [
+      "assets/gai/ScottHallHeadShot.webp",
+      "assets/gai/ScottHallPlaybook.webp",
+      "assets/gai/ScottHall.webp",
+      "assets/gai/ScottHallBodyShot.webp"
+    ],
+    "razor": [
+      "assets/gai/RazorsEdge.webp"
+    ]
+  },
+  "conclusion": "No new complete starter package was found in the current production archive. Existing Official Product Builds remain clearly labelled reconstructions."
+}

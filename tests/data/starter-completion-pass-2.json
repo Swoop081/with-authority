@@ -1,0 +1,136 @@
+{
+  "version": "v0.9.26",
+  "title": "Starter Deck Completion Pass 2",
+  "newCards": [
+    "DDTEX1.gac",
+    "SpinningHeelKick.gac",
+    "SpinningHeelKick2E.gac",
+    "Taunt2E.gac"
+  ],
+  "newPlayableRecords": 4,
+  "starterEntriesResolved": 52,
+  "totalResolvedEntries": 4336,
+  "totalUnresolvedEntries": 450,
+  "affectedStarters": [
+    {
+      "starter": "Bubba Ray Dudley Starter'",
+      "playable": 66,
+      "total": 74,
+      "missing": 8
+    },
+    {
+      "starter": "Bubba Ray Dudley Starter'",
+      "playable": 69,
+      "total": 77,
+      "missing": 8
+    },
+    {
+      "starter": "Edge Starter",
+      "playable": 66,
+      "total": 74,
+      "missing": 8
+    },
+    {
+      "starter": "Edge 2nd Edition Starter",
+      "playable": 67,
+      "total": 75,
+      "missing": 8
+    },
+    {
+      "starter": "Jeff Hardy Starter!",
+      "playable": 75,
+      "total": 77,
+      "missing": 2
+    },
+    {
+      "starter": "Lance Storm Starter",
+      "playable": 57,
+      "total": 74,
+      "missing": 17
+    },
+    {
+      "starter": "Lita Starter",
+      "playable": 61,
+      "total": 75,
+      "missing": 14
+    },
+    {
+      "starter": "Matt Hardy Starter!",
+      "playable": 69,
+      "total": 74,
+      "missing": 5
+    },
+    {
+      "starter": "Matt Hardy Starter with 2E",
+      "playable": 69,
+      "total": 74,
+      "missing": 5
+    },
+    {
+      "starter": "Rob Van Dam Starter\"",
+      "playable": 63,
+      "total": 74,
+      "missing": 11
+    },
+    {
+      "starter": "Rob Van Dam Starter with 2E",
+      "playable": 69,
+      "total": 74,
+      "missing": 5
+    },
+    {
+      "starter": "Rob Van Dam Starter\"",
+      "playable": 68,
+      "total": 74,
+      "missing": 6
+    },
+    {
+      "starter": "Tajiri LE Starter",
+      "playable": 65,
+      "total": 74,
+      "missing": 9
+    },
+    {
+      "starter": "Test Starter",
+      "playable": 72,
+      "total": 77,
+      "missing": 5
+    },
+    {
+      "starter": "The Big Show 2nd Edition Starter#",
+      "playable": 70,
+      "total": 74,
+      "missing": 4
+    },
+    {
+      "starter": "The Rock Starter",
+      "playable": 67,
+      "total": 75,
+      "missing": 8
+    },
+    {
+      "starter": "The Rock 2nd Edition Starter",
+      "playable": 70,
+      "total": 74,
+      "missing": 4
+    },
+    {
+      "starter": "Trish Stratus Unforgiven Starter",
+      "playable": 64,
+      "total": 74,
+      "missing": 10
+    },
+    {
+      "starter": "Trish Stratus Starter",
+      "playable": 64,
+      "total": 74,
+      "missing": 10
+    },
+    {
+      "starter": "X-Pac Starter",
+      "playable": 67,
+      "total": 72,
+      "missing": 5
+    }
+  ]
+}

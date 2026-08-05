@@ -1,0 +1,35 @@
+{
+  "version": "v0.9.10",
+  "title": "Full Card Compatibility Pass 8",
+  "totalOriginalFiles": 1121,
+  "playableCards": 686,
+  "newlyFullySupported": 7,
+  "sourceFiles": [
+    "DoubleUnderhookSuplex.gac",
+    "FlyingWheelKick.gac",
+    "ReleaseSpineBuster.gac",
+    "Slap.gac",
+    "ClotheslineInTheCorner.gac",
+    "GutWrenchSuplex.gac",
+    "SnakeEyes.gac"
+  ],
+  "counts": {
+    "fully_supported": 618,
+    "partially_supported": 339,
+    "disabled": 22,
+    "non_playable_or_duplicate": 142
+  },
+  "ruleFamilies": [
+    "playbook milling",
+    "multi-page random discard",
+    "non-Momentum hand discard",
+    "conditional Strength move discard",
+    "opponent Attitude gain/loss",
+    "up to +3 variable damage"
+  ],
+  "excluded": [
+    "audio",
+    "online modes"
+  ],
+  "notes": "Promotes only cards whose complete visible effect is now handled by exact runtime rules; unresolved choice and timing effects remain partial."
+}

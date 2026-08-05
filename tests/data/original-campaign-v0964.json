@@ -1,0 +1,61 @@
+{
+  "version": "v0.9.64",
+  "sequenceSource": "MissionList.gal",
+  "missions": [
+    {
+      "id": "mission0",
+      "title": "Mission 0",
+      "sourceFile": "Mission0.gaj",
+      "bytes": 4278,
+      "sha256": "7ec24cc0051c5f9433ae4664de0e5cda1314ad6158c0c1b42f0bab8d0a7b80f2",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    },
+    {
+      "id": "mission1",
+      "title": "Mission 1",
+      "sourceFile": "Mission1.gaj",
+      "bytes": 7541,
+      "sha256": "d6f337439038a43f23f04948b8fab6e12f1429083139c69661f94120ff997b51",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    },
+    {
+      "id": "mission2",
+      "title": "Mission 2",
+      "sourceFile": "Mission2.gaj",
+      "bytes": 5005,
+      "sha256": "f4060d76d3069b5ea907ff4e7e02ead60bdc8252e24cee8933c420ffa8834688",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    },
+    {
+      "id": "mission3",
+      "title": "Mission 3",
+      "sourceFile": "Mission3.gaj",
+      "bytes": 6251,
+      "sha256": "0385387caaa26c23a1bb38411b97ce2db366f76c0c2468750d131aadb1744a3f",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    },
+    {
+      "id": "mission3_5",
+      "title": "Mission 3.5",
+      "sourceFile": "Mission3_5.gaj",
+      "bytes": 3468,
+      "sha256": "d8c8c321634926ab5c410f22d69c05af06ea38c6b352dc430fa34d444888aadc",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    },
+    {
+      "id": "mission4",
+      "title": "Mission 4",
+      "sourceFile": "Mission4.gaj",
+      "bytes": 10257,
+      "sha256": "10a27d655c6cabbe5d8b716f7f67e267155bfee85fd4b17d215fa616609ca83e",
+      "playable": false,
+      "statusText": "Original proprietary scenario source recovered intact; objective, opponent deck and scripted conditions await exact decoding."
+    }
+  ],
+  "note": "No mission objectives or decks are invented. Source binaries are included for exact future decoding."
+}

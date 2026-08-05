@@ -1,0 +1,24 @@
+{
+  "version": "v0.9.8",
+  "newlyEnabled": 17,
+  "sourceFiles": [
+    "ArmDragTakedown2E.gac",
+    "BackElbow2E.gac",
+    "BackElbowEX1.gac",
+    "FlyingWheelKick2E.gac",
+    "Hammerlock2E.gac",
+    "PowerBomb2E.gac",
+    "PowerfulClothesline.gac",
+    "PowerSlam2E.gac",
+    "PumpHandleSlamEX2.gac",
+    "ReleaseSpineBuster2E.gac",
+    "SamoanDropEX2.gac",
+    "SidewalkSlamEX2.gac",
+    "StratusfactionLE.gac",
+    "SunsetFlip2E.gac",
+    "TheBigBootEX2.gac",
+    "TheRocksDDT2E.gac",
+    "WraparoundNeckbreakerEX1.gac"
+  ],
+  "ruleFamily": "verified alternate-edition variants"
+}

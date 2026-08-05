@@ -1,0 +1,29 @@
+{
+  "version": "v0.9.11",
+  "promotedFiles": [
+    "ArmbarTakedown.gac",
+    "BackBodyDropOverTheRopes.gac",
+    "ElectricChair.gac",
+    "Facebuster.gac",
+    "Headlock.gac",
+    "HighKnee.gac",
+    "HipToss.gac",
+    "LiftIntoPost.gac",
+    "SideSuplex.gac",
+    "TornadoDDT.gac",
+    "WhipIntoSteelSteps2E.gac",
+    "Wristlock.gac"
+  ],
+  "count": 12,
+  "ruleFamilies": [
+    "percentage playbook milling",
+    "fixed playbook milling",
+    "milling based on Attitude",
+    "milling based on Technical plus Strength",
+    "random hand discards",
+    "additional body-part damage",
+    "self damage and Attitude gain",
+    "Ringside and grounded position changes",
+    "random Gameplan and Special discards"
+  ]
+}

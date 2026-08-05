@@ -1,0 +1,40 @@
+{
+  "version": "0.9.169",
+  "superstar": "austin",
+  "deckSize": 70,
+  "openingFive": [
+    "OriginalExact_SteveweiserEX2",
+    "KnowledgeTourn",
+    "StrikeTourn",
+    "StrikeTourn",
+    "Original_ArmDragTakedown2E"
+  ],
+  "counts": {
+    "OriginalExact_SteveweiserEX2": 1,
+    "KnowledgeTourn": 1,
+    "StrikeTourn": 11,
+    "Original_ArmDragTakedown2E": 1,
+    "OriginalExact_KickToGut": 3,
+    "OriginalExact_StoneColdStunnerEX1": 3,
+    "Original_FlatOfTheFoot2E": 3,
+    "RoundKick2E": 3,
+    "Original_SideKick": 3,
+    "Original_MafiaKick2E": 3,
+    "ThrustKick2E": 3,
+    "Original_BackElbow2E": 3,
+    "LowBlowMuleKick2E": 2,
+    "Original_SnapMare2E": 3,
+    "PumpHandle": 3,
+    "Original_DodgeTourn": 2,
+    "Original_DuckTourn": 2,
+    "Original_UpAndOverTourn": 2,
+    "Original_StandingSwitchTourn": 2,
+    "OriginalExact_OnceTooOften2E": 2,
+    "original-crowd-support-227": 3,
+    "OriginalExact_StunningBlow2E": 3,
+    "OriginalExact_WithAuthority2E": 3,
+    "Taunt2E": 3,
+    "OriginalExact_GrabTheRopes2E": 2
+  },
+  "strategy": "Kick To Gut retrieves Stone Cold Stunner; Back to Foe moves exhaust matching reversals before the Finisher."
+}

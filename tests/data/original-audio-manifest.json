@@ -1,0 +1,257 @@
+{
+  "count": 63,
+  "assets": {
+    "AlSnow": {
+      "file": "assets/audio/AlSnow.opus",
+      "source": "AlSnow.gam"
+    },
+    "TheHurricaneMusic": {
+      "file": "assets/audio/TheHurricaneMusic.opus",
+      "source": "TheHurricaneMusic.gam"
+    },
+    "BrockLesnarMusic": {
+      "file": "assets/audio/BrockLesnarMusic.opus",
+      "source": "BrockLesnarMusic.gam"
+    },
+    "AppBackground": {
+      "file": "assets/audio/AppBackground.opus",
+      "source": "AppBackground.gam"
+    },
+    "Bell": {
+      "file": "assets/audio/Bell.opus",
+      "source": "Bell.gam"
+    },
+    "Scotty2HottyMusic": {
+      "file": "assets/audio/Scotty2HottyMusic.opus",
+      "source": "Scotty2HottyMusic.gam"
+    },
+    "HHH": {
+      "file": "assets/audio/HHH.opus",
+      "source": "HHH.gam"
+    },
+    "Kane": {
+      "file": "assets/audio/Kane.opus",
+      "source": "Kane.gam"
+    },
+    "StoneColdMusic": {
+      "file": "assets/audio/StoneColdMusic.opus",
+      "source": "StoneColdMusic.gam"
+    },
+    "Stinger5": {
+      "file": "assets/audio/Stinger5.opus",
+      "source": "Stinger5.gam"
+    },
+    "ReyMysterioMusic": {
+      "file": "assets/audio/ReyMysterioMusic.opus",
+      "source": "ReyMysterioMusic.gam"
+    },
+    "DudleyzMusic": {
+      "file": "assets/audio/DudleyzMusic.opus",
+      "source": "DudleyzMusic.gam"
+    },
+    "Stinger4": {
+      "file": "assets/audio/Stinger4.opus",
+      "source": "Stinger4.gam"
+    },
+    "SmackdownLoop": {
+      "file": "assets/audio/SmackdownLoop.opus",
+      "source": "SmackdownLoop.gam"
+    },
+    "NewWorldOrderMusic": {
+      "file": "assets/audio/NewWorldOrderMusic.opus",
+      "source": "NewWorldOrderMusic.gam"
+    },
+    "GoldustMusic": {
+      "file": "assets/audio/GoldustMusic.opus",
+      "source": "GoldustMusic.gam"
+    },
+    "Stinger3": {
+      "file": "assets/audio/Stinger3.opus",
+      "source": "Stinger3.gam"
+    },
+    "EddieGuerreroMusic": {
+      "file": "assets/audio/EddieGuerreroMusic.opus",
+      "source": "EddieGuerreroMusic.gam"
+    },
+    "TheBigShowMusic": {
+      "file": "assets/audio/TheBigShowMusic.opus",
+      "source": "TheBigShowMusic.gam"
+    },
+    "Stinger2": {
+      "file": "assets/audio/Stinger2.opus",
+      "source": "Stinger2.gam"
+    },
+    "GameAccepted": {
+      "file": "assets/audio/GameAccepted.opus",
+      "source": "GameAccepted.gam"
+    },
+    "TradeRequest": {
+      "file": "assets/audio/TradeRequest.opus",
+      "source": "TradeRequest.gam"
+    },
+    "MenuPress": {
+      "file": "assets/audio/MenuPress.opus",
+      "source": "MenuPress.gam"
+    },
+    "BradshawMusic": {
+      "file": "assets/audio/BradshawMusic.opus",
+      "source": "BradshawMusic.gam"
+    },
+    "DQWarning": {
+      "file": "assets/audio/DQWarning.opus",
+      "source": "DQWarning.gam"
+    },
+    "ShawnMichaelsMusic": {
+      "file": "assets/audio/ShawnMichaelsMusic.opus",
+      "source": "ShawnMichaelsMusic.gam"
+    },
+    "PinAttempt": {
+      "file": "assets/audio/PinAttempt.opus",
+      "source": "PinAttempt.gam"
+    },
+    "EdgeMusic": {
+      "file": "assets/audio/EdgeMusic.opus",
+      "source": "EdgeMusic.gam"
+    },
+    "ChrisJericho": {
+      "file": "assets/audio/ChrisJericho.opus",
+      "source": "ChrisJericho.gam"
+    },
+    "TheUndertaker2EMusic": {
+      "file": "assets/audio/TheUndertaker2EMusic.opus",
+      "source": "TheUndertaker2EMusic.gam"
+    },
+    "GameRequest": {
+      "file": "assets/audio/GameRequest.opus",
+      "source": "GameRequest.gam"
+    },
+    "Whoo": {
+      "file": "assets/audio/Whoo.opus",
+      "source": "Whoo.gam"
+    },
+    "SomethingsComing": {
+      "file": "assets/audio/SomethingsComing.opus",
+      "source": "SomethingsComing.gam"
+    },
+    "Rikishi": {
+      "file": "assets/audio/Rikishi.opus",
+      "source": "Rikishi.gam"
+    },
+    "TestMusic": {
+      "file": "assets/audio/TestMusic.opus",
+      "source": "TestMusic.gam"
+    },
+    "WilliamRegalMusic": {
+      "file": "assets/audio/WilliamRegalMusic.opus",
+      "source": "WilliamRegalMusic.gam"
+    },
+    "ShirtsOff": {
+      "file": "assets/audio/ShirtsOff.opus",
+      "source": "ShirtsOff.gam"
+    },
+    "SteveBlackman": {
+      "file": "assets/audio/SteveBlackman.opus",
+      "source": "SteveBlackman.gam"
+    },
+    "Stinger6": {
+      "file": "assets/audio/Stinger6.opus",
+      "source": "Stinger6.gam"
+    },
+    "GameButtonSound": {
+      "file": "assets/audio/GameButtonSound.opus",
+      "source": "GameButtonSound.gam"
+    },
+    "EventAdded": {
+      "file": "assets/audio/EventAdded.opus",
+      "source": "EventAdded.gam"
+    },
+    "BookerTMusic": {
+      "file": "assets/audio/BookerTMusic.opus",
+      "source": "BookerTMusic.gam"
+    },
+    "Stinger1": {
+      "file": "assets/audio/Stinger1.opus",
+      "source": "Stinger1.gam"
+    },
+    "HollywoodHulkHogan2EMusic": {
+      "file": "assets/audio/HollywoodHulkHogan2EMusic.opus",
+      "source": "HollywoodHulkHogan2EMusic.gam"
+    },
+    "KurtAngle": {
+      "file": "assets/audio/KurtAngle.opus",
+      "source": "KurtAngle.gam"
+    },
+    "LanceStormMusic": {
+      "file": "assets/audio/LanceStormMusic.opus",
+      "source": "LanceStormMusic.gam"
+    },
+    "ChristianMusic": {
+      "file": "assets/audio/ChristianMusic.opus",
+      "source": "ChristianMusic.gam"
+    },
+    "Tazz": {
+      "file": "assets/audio/Tazz.opus",
+      "source": "Tazz.gam"
+    },
+    "LitaMusic": {
+      "file": "assets/audio/LitaMusic.opus",
+      "source": "LitaMusic.gam"
+    },
+    "TheRock2EMusic": {
+      "file": "assets/audio/TheRock2EMusic.opus",
+      "source": "TheRock2EMusic.gam"
+    },
+    "TournamentScreen": {
+      "file": "assets/audio/TournamentScreen.opus",
+      "source": "TournamentScreen.gam"
+    },
+    "ShaneMcMahon": {
+      "file": "assets/audio/ShaneMcMahon.opus",
+      "source": "ShaneMcMahon.gam"
+    },
+    "HardyzMusic": {
+      "file": "assets/audio/HardyzMusic.opus",
+      "source": "HardyzMusic.gam"
+    },
+    "TajiriMusic": {
+      "file": "assets/audio/TajiriMusic.opus",
+      "source": "TajiriMusic.gam"
+    },
+    "SpikeDudleyMusic": {
+      "file": "assets/audio/SpikeDudleyMusic.opus",
+      "source": "SpikeDudleyMusic.gam"
+    },
+    "Crowd": {
+      "file": "assets/audio/Crowd.opus",
+      "source": "Crowd.gam"
+    },
+    "ChrisBenoit": {
+      "file": "assets/audio/ChrisBenoit.opus",
+      "source": "ChrisBenoit.gam"
+    },
+    "RicFlairMusic": {
+      "file": "assets/audio/RicFlairMusic.opus",
+      "source": "RicFlairMusic.gam"
+    },
+    "TripleH2EMusic": {
+      "file": "assets/audio/TripleH2EMusic.opus",
+      "source": "TripleH2EMusic.gam"
+    },
+    "ChrisJericho2EMusic": {
+      "file": "assets/audio/ChrisJericho2EMusic.opus",
+      "source": "ChrisJericho2EMusic.gam"
+    },
+    "TheRock": {
+      "file": "assets/audio/TheRock.opus",
+      "source": "TheRock.gam"
+    },
+    "TrishStratusMusic": {
+      "file": "assets/audio/TrishStratusMusic.opus",
+      "source": "TrishStratusMusic.gam"
+    },
+    "SettingsChange": {
+      "file": "assets/audio/SettingsChange.opus",
+      "source": "SettingsChange.gam"
+    }
+  }
+}

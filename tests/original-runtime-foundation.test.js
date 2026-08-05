@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const root=require('path').resolve(__dirname,'..');
+const manifest=JSON.parse(fs.readFileSync(root+'/data/original-runtime-manifest.json','utf8'));
+vm.runInThisContext(fs.readFileSync(root+'/wa-original-runtime.js','utf8'));
+assert.equal(manifest.scriptCount,879);
+const runtime=new globalThis.WAOriginalRuntime(manifest);
+const steve={sourceFile:'SteveweiserEX2.gac',name:'Steveweiser'};
+const candidate={sourceFile:'RunningPowerslam.gac',name:'Running Powerslam'};
+assert.equal(runtime.canDispatch(steve,'Can_Be_Played',candidate,{isPrimary:false}),false,'self-scoped page must not veto unrelated card');
+assert.equal(runtime.canDispatch(candidate,'Can_Be_Played',candidate,{isPrimary:true}),!!runtime.metadata(candidate,'Can_Be_Played'));
+const state={round:5,control:'player',player:{hp:70,maxHp:70,hand:[1],deck:[1,2],discard:[],inPlay:[],location:'InTheRing',momentum:{Knowledge:1}},cpu:{hp:60,maxHp:70,hand:[],deck:[],discard:[],inPlay:[],location:'InTheRing',momentum:{}}};
+const page={sourceFile:'ArmDragTakedown.gac',name:'Arm Drag Takedown'};
+const out=runtime.run({state,page,event:'Move_Connected',execute:()=>{state.player.hand.push(2);state.player.deck.pop();return true;}});
+assert.equal(out.output,true); assert.ok(out.record.changes['player.hand']); assert.ok(out.record.changes['player.deck']);
+console.log(JSON.stringify({pass:true,scriptCount:manifest.scriptCount,records:runtime.records.length}));

@@ -1,0 +1,14 @@
+{
+  "version": "v0.9.22",
+  "title": "Full Original Roster Expansion",
+  "selectableSuperstars": 35,
+  "source": "Original Superstar .gac pages and authentic starter packages",
+  "missingSourceFiles": [],
+  "features": [
+    "Original HP values",
+    "Original ability text",
+    "Original momentum maximums",
+    "Authentic starter mapping",
+    "Portrait mapping where recoverable"
+  ]
+}

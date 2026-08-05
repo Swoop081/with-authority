@@ -1,0 +1,594 @@
+{
+  "version": "v0.9.194",
+  "count": 42,
+  "selections": [
+    {
+      "superstar": "austin",
+      "finisher": "Stone Cold Stunner",
+      "finisherId": "OriginalExact_StoneColdStunnerEX1",
+      "finisherMoveType": "back to foe",
+      "trademark": "Lou Thesz Press",
+      "trademarkId": "LouThesz",
+      "trademarkMoveType": "",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "rock",
+      "finisher": "Rock Bottom",
+      "finisherId": "Original_RockBottomTourn",
+      "finisherMoveType": "in close",
+      "trademark": "The Rock's DDT",
+      "trademarkId": "FloatoverDDT",
+      "trademarkMoveType": "victim below",
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "tripleh",
+      "finisher": "Pedigree",
+      "finisherId": "Original_PedigreeTourn",
+      "finisherMoveType": "victim below",
+      "trademark": "Facebuster",
+      "trademarkId": "Facebuster",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "undertaker",
+      "finisher": "Tombstone Piledriver",
+      "finisherId": "TombstonePiledriver2E",
+      "finisherMoveType": "in close",
+      "trademark": "Old School",
+      "trademarkId": "OriginalExact_OldSchoolEX1",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strength",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "kane",
+      "finisher": "Choke Slam To Hell",
+      "finisherId": "Original_ChokeslamToHellTourn",
+      "finisherMoveType": "arm extended",
+      "trademark": "Choke Slam",
+      "trademarkId": "Original_ChokeSlam",
+      "trademarkMoveType": "arm extended",
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "angle",
+      "finisher": "Angle Slam",
+      "finisherId": "AngleSlam2E",
+      "finisherMoveType": "head down",
+      "trademark": "German Suplex",
+      "trademarkId": "GermanSuplex",
+      "trademarkMoveType": "behind opponent",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "jericho",
+      "finisher": "Walls Of Jericho",
+      "finisherId": "WallsOfJericho2E",
+      "finisherMoveType": "",
+      "trademark": "Lionsault",
+      "trademarkId": "Lionsault2E",
+      "trademarkMoveType": "",
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "benoit",
+      "finisher": "Crippler Cross Face",
+      "finisherId": "Original_CripplerCrossFaceTourn",
+      "finisherMoveType": "in close",
+      "trademark": "Rolling German Suplex",
+      "trademarkId": "OriginalExact_RollingGermanSuplex",
+      "trademarkMoveType": "behind opponent",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "bigshow",
+      "finisher": "The Final Cut E X1",
+      "finisherId": "TheFinalCutEX1",
+      "finisherMoveType": "",
+      "trademark": "Choke Slam",
+      "trademarkId": "Original_ChokeSlam",
+      "trademarkMoveType": "arm extended",
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "bookert",
+      "finisher": "Scissors Kick",
+      "finisherId": "OriginalExact_ScissorsKickEX2",
+      "finisherMoveType": "",
+      "trademark": "Leaping Side Kick",
+      "trademarkId": "LeapingAxeKick",
+      "trademarkMoveType": "mad rush",
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "edge",
+      "finisher": "Edgecution",
+      "finisherId": "Original_EdgecutionTourn",
+      "finisherMoveType": "victim below",
+      "trademark": "Spear",
+      "trademarkId": "Spear",
+      "trademarkMoveType": "mad rush",
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "christian",
+      "finisher": "Unprettier",
+      "finisherId": "Unprettier",
+      "finisherMoveType": "back to foe",
+      "trademark": "Edge-o-matic",
+      "trademarkId": "Edgeomatic",
+      "trademarkMoveType": "behind opponent",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "eddie",
+      "finisher": "Latino Heat",
+      "finisherId": "Original_LatinoHeat_Core",
+      "finisherMoveType": "",
+      "trademark": "Frog Splash E X1",
+      "trademarkId": "FrogSplashEX1",
+      "trademarkMoveType": "",
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "rvd",
+      "finisher": "Van Daminator",
+      "finisherId": "OriginalExact_VanDaminatorEX2",
+      "finisherMoveType": "",
+      "trademark": "Step-Over Heel Kick",
+      "trademarkId": "OriginalExact_StepOverHeelKickEX2",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "flair",
+      "finisher": "Ric Flair's Figure Four",
+      "finisherId": "Original_RicFlairsFigureFour",
+      "finisherMoveType": "standing above",
+      "trademark": "Chop",
+      "trademarkId": "OriginalExact_ChopEX2",
+      "trademarkMoveType": "arm extended",
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "hogan",
+      "finisher": "Hogan's Leg Drop",
+      "finisherId": "Original_HogansLegDropTourn",
+      "finisherMoveType": "hit or miss",
+      "trademark": "Hogan's Big Boot",
+      "trademarkId": "Original_HogansBigBoot2E",
+      "trademarkMoveType": "leg extended",
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "nash",
+      "finisher": "New World Order",
+      "finisherId": "OriginalExact_NewWorldOrderEX3",
+      "finisherMoveType": "",
+      "trademark": "Jackknife Powerbomb",
+      "trademarkId": "JackknifePowerbomb",
+      "trademarkMoveType": "",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "jeffhardy",
+      "finisher": "Swanton Bomb",
+      "finisherId": "SwantonBomb",
+      "finisherMoveType": "",
+      "trademark": "Compactor",
+      "trademarkId": "Compactor",
+      "trademarkMoveType": "",
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "matthardy",
+      "finisher": "Twist Of Fate",
+      "finisherId": "TwistOfFate",
+      "finisherMoveType": "",
+      "trademark": "The Side Effect",
+      "trademarkId": "TheSideEffect",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "lita",
+      "finisher": "Litacanrana",
+      "finisherId": "OriginalExact_Litacanrana",
+      "finisherMoveType": "",
+      "trademark": "Lita's Twist of Fate",
+      "trademarkId": "LitasTwistOfFate2E",
+      "trademarkMoveType": "victim below",
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "trish",
+      "finisher": "Stratusfaction",
+      "finisherId": "Stratusfaction",
+      "finisherMoveType": "behind opponent",
+      "trademark": "Stratusphere",
+      "trademarkId": "Original_Stratusphere",
+      "trademarkMoveType": "high risk",
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "bubba",
+      "finisher": "Bubba Bomb",
+      "finisherId": "Original_BubbaBombEX2",
+      "finisherMoveType": "behind opponent",
+      "trademark": "3D",
+      "trademarkId": "OriginalExact_3DEX2",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "dvon",
+      "finisher": "Wazzzzzaaaappp",
+      "finisherId": "Wazzzzzaaaappp",
+      "finisherMoveType": "",
+      "trademark": "3D",
+      "trademarkId": "OriginalExact_3DEX2",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "spike",
+      "finisher": "Dudley Dog",
+      "finisherId": "spikeFinisher",
+      "finisherMoveType": "",
+      "trademark": "Running Elbow",
+      "trademarkId": "RunningElbow",
+      "trademarkMoveType": "mad rush",
+      "methods": [
+        "Agility",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "bradshaw",
+      "finisher": "Clothesline From Hell",
+      "finisherId": "ClotheslineFromHell",
+      "finisherMoveType": "mad rush",
+      "trademark": "Cow Bell Shot",
+      "trademarkId": "CowBellShot",
+      "trademarkMoveType": "mad rush",
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "goldust",
+      "finisher": "Curtain Call",
+      "finisherId": "Original_CurtainCall",
+      "finisherMoveType": "behind opponent",
+      "trademark": "Golden Globes",
+      "trademarkId": "GoldenGlobes",
+      "trademarkMoveType": "mad rush",
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "lancestorm",
+      "finisher": "Straight Shooter",
+      "finisherId": "StraightShooter",
+      "finisherMoveType": "",
+      "trademark": "T-Bone Suplex",
+      "trademarkId": "CaptureSuplex",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "rikishi",
+      "finisher": "Rikishi Driver",
+      "finisherId": "RikishiDriver",
+      "finisherMoveType": "",
+      "trademark": "Butt Shot",
+      "trademarkId": "ButtShot",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "scotty",
+      "finisher": "The Worm",
+      "finisherId": "OriginalExact_TheWorm",
+      "finisherMoveType": "",
+      "trademark": "Face Plant",
+      "trademarkId": "FacePlant",
+      "trademarkMoveType": "behind opponent",
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "tajiri",
+      "finisher": "Deathblow L E",
+      "finisherId": "DeathblowLE",
+      "finisherMoveType": "",
+      "trademark": "Tarantula",
+      "trademarkId": "OriginalExact_TarantulaLE",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "tazz",
+      "finisher": "Tazzmission",
+      "finisherId": "Original_Tazzmission",
+      "finisherMoveType": "behind opponent",
+      "trademark": "T-Bone Suplex",
+      "trademarkId": "CaptureSuplex",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "test",
+      "finisher": "The Big Boot",
+      "finisherId": "Original_TheBigBootEX2",
+      "finisherMoveType": "leg extended",
+      "trademark": "Pump Handle Slam",
+      "trademarkId": "Original_PumpHandleSlamEX2",
+      "trademarkMoveType": "behind opponent",
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "hurricane",
+      "finisher": "Eye Of The Hurricane L E",
+      "finisherId": "EyeOfTheHurricaneLE",
+      "finisherMoveType": "",
+      "trademark": "Choke Slam",
+      "trademarkId": "Original_ChokeSlam",
+      "trademarkMoveType": "arm extended",
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "regal",
+      "finisher": "Regal Stretch",
+      "finisherId": "Original_RegalStretchEX1",
+      "finisherMoveType": "standing above",
+      "trademark": "Wraparound Neckbreaker",
+      "trademarkId": "Original_WraparoundNeckbreakerEX1",
+      "trademarkMoveType": "back to foe",
+      "methods": [
+        "Technical",
+        "Knowledge"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "xpac",
+      "finisher": "X-Factor",
+      "finisherId": "XFactor",
+      "finisherMoveType": "victim below",
+      "trademark": "Bronco Buster",
+      "trademarkId": "Original_BroncoBuster",
+      "trademarkMoveType": "hit or miss",
+      "methods": [
+        "Agility",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "alsnow",
+      "finisher": "Snow Plow",
+      "finisherId": "SnowPlow",
+      "finisherMoveType": "",
+      "trademark": "Swandive Headbutt",
+      "trademarkId": "SwandiveHeadbutt",
+      "trademarkMoveType": "",
+      "methods": [
+        "Strength",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "blackman",
+      "finisher": "The Guillotine",
+      "finisherId": "TheGuillotine",
+      "finisherMoveType": "mad rush",
+      "trademark": "Kendo Stick Shot",
+      "trademarkId": "KendoStickShot",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Strike",
+        "Knowledge"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "brock",
+      "finisher": "F5",
+      "finisherId": "F5",
+      "finisherMoveType": "head down",
+      "trademark": "Double Back Breaker",
+      "trademarkId": "DoubleBackBreaker",
+      "trademarkMoveType": "in close",
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "shane",
+      "finisher": "Flying Chair Shot",
+      "finisherId": "FlyingChairShot",
+      "finisherMoveType": "mad rush",
+      "trademark": "Elbow Drop",
+      "trademarkId": "Original_ElbowDropEX3",
+      "trademarkMoveType": "hit or miss",
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "hbk",
+      "finisher": "Sweet Chin Music",
+      "finisherId": "SweetChinMusic",
+      "finisherMoveType": "",
+      "trademark": "Elbow Drop",
+      "trademarkId": "Original_ElbowDropEX3",
+      "trademarkMoveType": "hit or miss",
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "scotthall",
+      "finisher": "Razors Edge",
+      "finisherId": "RazorsEdge",
+      "finisherMoveType": "",
+      "trademark": "Choke Slam",
+      "trademarkId": "Original_ChokeSlam",
+      "trademarkMoveType": "arm extended",
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "size": 70
+    },
+    {
+      "superstar": "rey",
+      "finisher": "Torito",
+      "finisherId": "ToritoLE",
+      "finisherMoveType": "mad rush",
+      "trademark": "619 L E",
+      "trademarkId": "619LE",
+      "trademarkMoveType": "",
+      "methods": [
+        "Agility",
+        "Strike"
+      ],
+      "size": 70
+    }
+  ]
+}

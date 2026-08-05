@@ -1,0 +1,12 @@
+{
+  "version": "v0.9.35",
+  "rule": "At most one Momentum page may be played before a move attempt. Another Momentum page becomes legal only after that wrestler connects with a move or begins a later turn after control changes.",
+  "tests": [
+    {"scenario":"Play first Momentum page","result":"allowed"},
+    {"scenario":"Play second consecutive Momentum page","result":"blocked"},
+    {"scenario":"Connect with a move after Momentum","result":"Momentum allowance reset"},
+    {"scenario":"Move is countered and control changes","result":"new controller receives fresh Momentum allowance"},
+    {"scenario":"CPU has several Momentum pages","result":"CPU must select a legal move or yield after one Momentum page"}
+  ],
+  "status":"passed"
+}

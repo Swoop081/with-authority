@@ -1,0 +1,15 @@
+{
+  "version": "v0.9.17",
+  "title": "Authentic Starter Deck Blocker Pass 2",
+  "newCards": [
+    "PleadToTheReferee.gac",
+    "HesCallingForIt.gac",
+    "SlowAndMethodical.gac"
+  ],
+  "playableCards": 707,
+  "notes": [
+    "Plead to the Referee reacts to Illegal moves and awards 4 Warnings.",
+    "He's Calling For It requires a three-move hit streak and a previously unconnected move; move counters are blocked.",
+    "Working Stiff adds random +1 to +4 Strike damage capped at base damage and leaves play when stunned."
+  ]
+}

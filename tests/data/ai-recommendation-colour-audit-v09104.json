@@ -1,0 +1,1211 @@
+{
+  "version": "0.9.104",
+  "runtimeCardsCorrectedFields": 52,
+  "runtimeCardCount": 914,
+  "recommendationsRebuilt": 100,
+  "recommendationFailures": [],
+  "methodColourUnclassifiedCount": 0,
+  "methodColourUnclassified": [],
+  "decks": [
+    {
+      "id": "austin-starter-upgrade",
+      "superstar": "austin",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rock-starter-upgrade",
+      "superstar": "rock",
+      "size": 69,
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tripleh-starter-upgrade",
+      "superstar": "tripleh",
+      "size": 70,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "undertaker-starter-upgrade",
+      "superstar": "undertaker",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "kane-starter-upgrade",
+      "superstar": "kane",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "angle-starter-upgrade",
+      "superstar": "angle",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "jericho-starter-upgrade",
+      "superstar": "jericho",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "benoit-starter-upgrade",
+      "superstar": "benoit",
+      "size": 74,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bigshow-starter-upgrade",
+      "superstar": "bigshow",
+      "size": 69,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bookert-starter-upgrade",
+      "superstar": "bookert",
+      "size": 76,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "edge-starter-upgrade",
+      "superstar": "edge",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "christian-starter-upgrade",
+      "superstar": "christian",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "eddie-starter-upgrade",
+      "superstar": "eddie",
+      "size": 71,
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rvd-starter-upgrade",
+      "superstar": "rvd",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "flair-starter-upgrade",
+      "superstar": "flair",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hogan-starter-upgrade",
+      "superstar": "hogan",
+      "size": 70,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "nash-starter-upgrade",
+      "superstar": "nash",
+      "size": 73,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "jeffhardy-starter-upgrade",
+      "superstar": "jeffhardy",
+      "size": 76,
+      "methods": [
+        "Agility",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "matthardy-starter-upgrade",
+      "superstar": "matthardy",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "lita-starter-upgrade",
+      "superstar": "lita",
+      "size": 74,
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "trish-starter-upgrade",
+      "superstar": "trish",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bubba-starter-upgrade",
+      "superstar": "bubba",
+      "size": 76,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "dvon-starter-upgrade",
+      "superstar": "dvon",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "spike-starter-upgrade",
+      "superstar": "spike",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bradshaw-starter-upgrade",
+      "superstar": "bradshaw",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "goldust-starter-upgrade",
+      "superstar": "goldust",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "lancestorm-starter-upgrade",
+      "superstar": "lancestorm",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rikishi-starter-upgrade",
+      "superstar": "rikishi",
+      "size": 71,
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "scotty-starter-upgrade",
+      "superstar": "scotty",
+      "size": 72,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tajiri-starter-upgrade",
+      "superstar": "tajiri",
+      "size": 73,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tazz-starter-upgrade",
+      "superstar": "tazz",
+      "size": 70,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "test-starter-upgrade",
+      "superstar": "test",
+      "size": 76,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hurricane-starter-upgrade",
+      "superstar": "hurricane",
+      "size": 73,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "regal-starter-upgrade",
+      "superstar": "regal",
+      "size": 78,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "xpac-starter-upgrade",
+      "superstar": "xpac",
+      "size": 71,
+      "methods": [
+        "Strike",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "austin-stone-cold-stunner-optimized",
+      "superstar": "austin",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rock-rock-bottom-optimized",
+      "superstar": "rock",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tripleh-sledgehammer-shot-optimized",
+      "superstar": "tripleh",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tripleh-pedigree-optimized",
+      "superstar": "tripleh",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "undertaker-stunning-blow-optimized",
+      "superstar": "undertaker",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "kane-choke-slam-to-hell-optimized",
+      "superstar": "kane",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "kane-tombstone-piledriver-optimized",
+      "superstar": "kane",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "angle-angle-slam-optimized",
+      "superstar": "angle",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "angle-angle-s-ankle-lock-optimized",
+      "superstar": "angle",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "jericho-walls-of-jericho-optimized",
+      "superstar": "jericho",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "benoit-crippler-cross-face-optimized",
+      "superstar": "benoit",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bigshow-the-final-cut-e-x1-optimized",
+      "superstar": "bigshow",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bookert-scissors-kick-optimized",
+      "superstar": "bookert",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "edge-edgecution-optimized",
+      "superstar": "edge",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "edge-figure-four-edge-lock-optimized",
+      "superstar": "edge",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "christian-unprettier-optimized",
+      "superstar": "christian",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "eddie-latino-heat-optimized",
+      "superstar": "eddie",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rvd-van-daminator-optimized",
+      "superstar": "rvd",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "flair-ric-flair-s-figure-four-optimized",
+      "superstar": "flair",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hogan-hogan-s-leg-drop-optimized",
+      "superstar": "hogan",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hogan-hulk-up-optimized",
+      "superstar": "hogan",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "nash-new-world-order-optimized",
+      "superstar": "nash",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "jeffhardy-swanton-bomb-optimized",
+      "superstar": "jeffhardy",
+      "size": 66,
+      "methods": [
+        "Agility",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "matthardy-twist-of-fate-optimized",
+      "superstar": "matthardy",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "lita-litacanrana-optimized",
+      "superstar": "lita",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "trish-stratusfaction-optimized",
+      "superstar": "trish",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bubba-bubba-bomb-optimized",
+      "superstar": "bubba",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bubba-wazzzzzaaaappp-optimized",
+      "superstar": "bubba",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "dvon-wazzzzzaaaappp-optimized",
+      "superstar": "dvon",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "spike-running-elbow-optimized",
+      "superstar": "spike",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bradshaw-clothesline-from-hell-optimized",
+      "superstar": "bradshaw",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "goldust-curtain-call-optimized",
+      "superstar": "goldust",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "lancestorm-straight-shooter-optimized",
+      "superstar": "lancestorm",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rikishi-rikishi-driver-optimized",
+      "superstar": "rikishi",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "scotty-the-worm-optimized",
+      "superstar": "scotty",
+      "size": 66,
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tajiri-deathblow-l-e-optimized",
+      "superstar": "tajiri",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tajiri-deathblow-l-e-optimized",
+      "superstar": "tajiri",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tazz-tazzmission-optimized",
+      "superstar": "tazz",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "test-the-big-boot-optimized",
+      "superstar": "test",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hurricane-eye-of-the-hurricane-l-e-optimized",
+      "superstar": "hurricane",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hurricane-eye-of-the-hurricane-optimized",
+      "superstar": "hurricane",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "regal-regal-stretch-optimized",
+      "superstar": "regal",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "xpac-x-factor-optimized",
+      "superstar": "xpac",
+      "size": 66,
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "alsnow-snow-plow-optimized",
+      "superstar": "alsnow",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "blackman-the-guillotine-optimized",
+      "superstar": "blackman",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "brock-f5-optimized",
+      "superstar": "brock",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "shane-flying-chair-shot-optimized",
+      "superstar": "shane",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "hbk-sweet-chin-music-optimized",
+      "superstar": "hbk",
+      "size": 66,
+      "methods": [
+        "Strike",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "scotthall-razors-edge-optimized",
+      "superstar": "scotthall",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rey-torito-optimized",
+      "superstar": "rey",
+      "size": 66,
+      "methods": [
+        "Agility",
+        "Technical"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "austin-catalogue-showcase",
+      "superstar": "austin",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rock-catalogue-showcase",
+      "superstar": "rock",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "tripleh-catalogue-showcase",
+      "superstar": "tripleh",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "undertaker-catalogue-showcase",
+      "superstar": "undertaker",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "kane-catalogue-showcase",
+      "superstar": "kane",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "angle-catalogue-showcase",
+      "superstar": "angle",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "jericho-catalogue-showcase",
+      "superstar": "jericho",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "benoit-catalogue-showcase",
+      "superstar": "benoit",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bigshow-catalogue-showcase",
+      "superstar": "bigshow",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "bookert-catalogue-showcase",
+      "superstar": "bookert",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "edge-catalogue-showcase",
+      "superstar": "edge",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strength"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "christian-catalogue-showcase",
+      "superstar": "christian",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Agility"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "eddie-catalogue-showcase",
+      "superstar": "eddie",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "rvd-catalogue-showcase",
+      "superstar": "rvd",
+      "size": 66,
+      "methods": [
+        "Technical",
+        "Knowledge"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    },
+    {
+      "id": "flair-catalogue-showcase",
+      "superstar": "flair",
+      "size": 66,
+      "methods": [
+        "Strength",
+        "Strike"
+      ],
+      "invalidIds": [],
+      "copyLimitViolations": {},
+      "unclassifiedMethodIds": []
+    }
+  ]
+}
